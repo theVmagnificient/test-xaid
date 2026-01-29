@@ -34,7 +34,7 @@ const Hero = () => {
             you can trust. Each is<br />
             human-validated
           </h1>
-          <p className="text-white/60 text-lg md:text-xl max-w-[520px] leading-relaxed mb-12 opacity-0 animate-fade-in-up" style={{ animationDelay: '150ms' }}>
+          <p className="font-['Poppins'] text-white/60 text-lg md:text-xl max-w-[520px] leading-relaxed mb-12 opacity-0 animate-fade-in-up" style={{ animationDelay: '150ms' }}>
             Solution for US radiology groups. Scale coverage, improve accuracy, reduce costs — without hiring more radiologists
           </p>
           <button
