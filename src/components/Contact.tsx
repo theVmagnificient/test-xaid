@@ -1,5 +1,10 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Linkedin } from 'lucide-react';
+import ReCAPTCHA from "react-google-recaptcha";
+
+const FORMSPARK_ACTION_URL = 'https://submit-form.com/ADee6zSRu';
+// const RECAPTCHA_SITE_KEY = '6LeiQEYoAAAAANUaJXHwdhm3HpR5SEPrbVXj-Ra6'
+const RECAPTCHA_SITE_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' // Test token
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +14,7 @@ const Contact = () => {
     email: '',
     message: '',
   });
+
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -29,10 +35,52 @@ const Contact = () => {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const formRef = useRef<HTMLFormElement>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
+  const postForm = async (formData: object): Promise<Response> => {
+    return await fetch(FORMSPARK_ACTION_URL, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'accept': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+  }
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for your interest! We will contact you soon.');
+
+    if (isSubmitting) {
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    const token = await recaptchaRef.current.executeAsync();
+    try {
+      const response = await postForm({ ...formData, "g-recaptcha-response": token });
+      if (!response.ok) {
+        throw new Error('Failed to post form');
+      }
+
+      setFormData({
+        name: '',
+        occupation: '',
+        organization: '',
+        email: '',
+        message: '',
+      });
+
+      alert('Your message has been sent. Thank you for your interest!');
+    } catch (err) {
+      alert('Submission failed. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -89,9 +137,10 @@ const Contact = () => {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
+                  id="name"
                   type="text"
                   placeholder="Name*"
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
@@ -99,39 +148,48 @@ const Contact = () => {
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 />
                 <input
+                  id="occupation"
                   type="text"
                   placeholder="Occupation*"
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
                   value={formData.occupation}
                   onChange={(e) => setFormData({ ...formData, occupation: e.target.value })}
+                  required
                 />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
+                  id="organization"
                   type="text"
-                  placeholder="Organization / Hospital field*"
+                  placeholder="Organization / Hospital*"
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
                   value={formData.organization}
                   onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
+                  required
                 />
                 <input
+                  id="email"
                   type="email"
                   placeholder="Email*"
                   className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  required
                 />
               </div>
               <textarea
+                id="message"
                 placeholder="Message"
                 rows={4}
                 className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors resize-none"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
-              <div className="flex justify-end">
-                <button type="submit" className="bg-xaid-blue hover:bg-xaid-blue/90 text-white font-medium px-8 py-3 rounded-full transition-colors">
-                  Book a demo
+              <div className="flex justify-between">
+                <ReCAPTCHA ref={recaptchaRef} sitekey={RECAPTCHA_SITE_KEY} size="invisible"/>
+                <button disabled={isSubmitting || !formRef?.current?.checkValidity()} type="submit"
+                        className="bg-xaid-blue hover:bg-xaid-blue/90 disabled:bg-xaid-blue/60 text-white font-medium px-8 py-3 rounded-full transition-colors">
+                  {isSubmitting ? 'Sending...' : 'Book a demo'}
                 </button>
               </div>
             </form>
