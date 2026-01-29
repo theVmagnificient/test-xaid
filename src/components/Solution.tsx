@@ -39,7 +39,7 @@ const Solution = () => {
           <span className="text-white/80 font-semibold text-sm uppercase tracking-wider mb-4 block">Our solution</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-6 leading-tight">
             <span className="text-xaid-blue ">Ready-to-sign AI reports</span><br />
-            <span className="italic text-xaid-blue">with human</span>{' '}
+            <span className="text-xaid-blue">with human</span>{' '}
             <span className="text-white">in the loop</span>
           </h2>
           <p className="text-white/60 text-base md:text-lg max-w-[800px] mx-auto leading-relaxed">
