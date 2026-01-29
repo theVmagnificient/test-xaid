@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Asterisk } from 'lucide-react';
 
 const benefits = [
   {
@@ -49,23 +50,31 @@ const Benefits = () => {
   }, []);
 
   return (
-    <section id="benefits" ref={sectionRef} className="section-padding bg-background">
+    <section id="benefits" ref={sectionRef} className="section-padding bg-[#0D0D0D]">
       <div className="container-xaid">
         {/* Section Header */}
         <div className="mb-12 md:mb-16 fade-up">
-          <span className="tag mb-4">Benefits</span>
+          <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider">Benefits</span>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12">
           {benefits.map((benefit, index) => (
             <div
               key={benefit.title}
-              className="card-dark fade-up"
+              className="flex gap-5 fade-up"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <h3 className="heading-card text-foreground mb-3">{benefit.title}</h3>
-              <p className="body-regular">{benefit.description}</p>
+              {/* Icon */}
+              <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-[#1A1A2E] flex items-center justify-center">
+                <Asterisk className="w-7 h-7 text-xaid-blue" />
+              </div>
+              
+              {/* Content */}
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-2">{benefit.title}</h3>
+                <p className="text-white/50 text-base leading-relaxed">{benefit.description}</p>
+              </div>
             </div>
           ))}
         </div>
