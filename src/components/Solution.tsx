@@ -55,7 +55,7 @@ const Solution = () => {
               <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-transparent border border-white/30 text-white mb-6">
                 {feature.tag}
               </span>
-              <h3 className="text-xl md:text-2xl font-semibold text-white mb-3 text-left">{feature.title}</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-white mb-3 text-left min-h-[3.5rem] md:min-h-[4rem]">{feature.title}</h3>
               <p className="text-white/80 text-sm leading-relaxed text-left">{feature.description}</p>
             </div>)}
         </div>
