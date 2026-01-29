@@ -51,42 +51,45 @@ const FAQ = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-padding bg-background">
+    <section ref={sectionRef} className="section-padding bg-[#EBEBEB]">
       <div className="container-xaid">
-        {/* Section Header */}
-        <div className="mb-10 md:mb-14 fade-up">
-          <span className="tag mb-4">process</span>
-          <h2 className="heading-section text-foreground">Questions and answers</h2>
-        </div>
+        {/* White Card Container */}
+        <div className="bg-white rounded-2xl p-8 md:p-12 lg:p-16">
+          {/* Section Header */}
+          <div className="mb-8 md:mb-10 fade-up">
+            <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Process</span>
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#0D0D0D]">Questions and answers</h2>
+          </div>
 
-        {/* FAQ List */}
-        <div className="max-w-[800px]">
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className="faq-item fade-up"
-              style={{ transitionDelay: `${index * 50}ms` }}
-            >
-              <button
-                className="faq-trigger"
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              >
-                <span>{faq.question}</span>
-                <ChevronDown
-                  className={`w-5 h-5 text-muted-foreground transition-transform duration-200 ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
+          {/* FAQ List */}
+          <div className="max-w-full">
+            {faqs.map((faq, index) => (
               <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? 'max-h-[200px] pb-5' : 'max-h-0'
-                }`}
+                key={index}
+                className="border-b border-gray-200 fade-up"
+                style={{ transitionDelay: `${index * 50}ms` }}
               >
-                <p className="body-regular">{faq.answer}</p>
+                <button
+                  className="w-full flex items-center justify-between py-5 text-left"
+                  onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                >
+                  <span className="text-[#0D0D0D] font-medium text-base md:text-lg">{faq.question}</span>
+                  <ChevronDown
+                    className={`w-5 h-5 text-gray-400 transition-transform duration-200 flex-shrink-0 ml-4 ${
+                      openIndex === index ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${
+                    openIndex === index ? 'max-h-[200px] pb-5' : 'max-h-0'
+                  }`}
+                >
+                  <p className="text-gray-600 text-base leading-relaxed">{faq.answer}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
