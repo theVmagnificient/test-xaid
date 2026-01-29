@@ -2,95 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* xAID Clone Design System - Dark Medical Tech Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Colors - Dark Theme */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Blue Accent */
+    --primary: 227 71% 68%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Subtle Gray */
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted Elements */
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Highlight */
+    --accent: 227 71% 68%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 227 71% 68%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Custom Colors */
+    --xaid-blue: 227 71% 68%;
+    --xaid-blue-hover: 227 71% 60%;
+    --xaid-dark: 0 0% 5%;
+    --xaid-dark-card: 0 0% 8%;
+    --xaid-gray: 0 0% 65%;
+    --xaid-light-gray: 0 0% 85%;
+    --xaid-border: 0 0% 20%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Typography */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Spacing Scale */
+    --section-padding: 120px;
+    --section-padding-mobile: 60px;
+    --container-max: 1200px;
+    --container-padding: 60px;
+    --container-padding-mobile: 20px;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --background: 0 0% 5%;
+    --foreground: 0 0% 100%;
   }
 }
 
@@ -99,7 +74,179 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
+  html {
+    scroll-behavior: smooth;
   }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  /* Container */
+  .container-xaid {
+    @apply w-full mx-auto px-5 md:px-[60px];
+    max-width: calc(var(--container-max) + var(--container-padding) * 2);
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    @apply py-[60px] md:py-[120px];
+  }
+
+  /* Typography Classes */
+  .heading-hero {
+    @apply text-[32px] md:text-[48px] lg:text-[56px] font-semibold leading-[1.15] tracking-[-0.02em];
+  }
+
+  .heading-section {
+    @apply text-[28px] md:text-[40px] lg:text-[48px] font-semibold leading-[1.2] tracking-[-0.02em];
+  }
+
+  .heading-card {
+    @apply text-[18px] md:text-[20px] font-semibold leading-[1.3];
+  }
+
+  .body-large {
+    @apply text-[16px] md:text-[18px] leading-[1.6] text-muted-foreground;
+  }
+
+  .body-regular {
+    @apply text-[14px] md:text-[15px] leading-[1.6] text-muted-foreground;
+  }
+
+  /* Button Variants */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium text-[14px] transition-all duration-200;
+    background-color: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+
+  .btn-primary:hover {
+    background-color: hsl(var(--xaid-blue-hover));
+    transform: translateY(-1px);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-5 py-2 rounded-lg font-medium text-[14px] transition-all duration-200 border;
+    border-color: hsl(var(--border));
+    color: hsl(var(--foreground));
+    background: transparent;
+  }
+
+  .btn-outline:hover {
+    background: hsl(var(--secondary));
+  }
+
+  /* Card Styles */
+  .card-dark {
+    @apply rounded-xl p-6 md:p-8 transition-all duration-300;
+    background-color: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+  }
+
+  .card-dark:hover {
+    border-color: hsl(var(--muted-foreground) / 0.3);
+  }
+
+  /* Tag/Badge */
+  .tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-[12px] font-medium;
+    background: hsl(var(--secondary));
+    color: hsl(var(--muted-foreground));
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply text-[14px] font-medium transition-colors duration-200;
+    color: hsl(var(--muted-foreground));
+  }
+
+  .nav-link:hover {
+    color: hsl(var(--foreground));
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--foreground)) 0%, hsl(var(--muted-foreground)) 100%);
+  }
+
+  /* Scroll Animation Classes */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Process Step */
+  .process-number {
+    @apply w-10 h-10 rounded-full flex items-center justify-center text-[14px] font-semibold flex-shrink-0;
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+
+  /* Accordion Custom */
+  .faq-item {
+    @apply border-b transition-colors;
+    border-color: hsl(var(--border));
+  }
+
+  .faq-trigger {
+    @apply flex w-full items-center justify-between py-5 text-left font-medium transition-colors;
+    color: hsl(var(--foreground));
+  }
+
+  .faq-trigger:hover {
+    color: hsl(var(--primary));
+  }
+
+  /* Image Gallery Tab */
+  .gallery-tab {
+    @apply px-4 py-2 rounded-lg text-[13px] font-medium transition-all duration-200 cursor-pointer;
+    color: hsl(var(--muted-foreground));
+    background: transparent;
+  }
+
+  .gallery-tab:hover {
+    color: hsl(var(--foreground));
+  }
+
+  .gallery-tab.active {
+    background: hsl(var(--secondary));
+    color: hsl(var(--foreground));
+  }
+
+  /* Form Input */
+  .input-dark {
+    @apply w-full px-4 py-3 rounded-lg text-[14px] transition-all duration-200 outline-none;
+    background: hsl(var(--secondary));
+    border: 1px solid hsl(var(--border));
+    color: hsl(var(--foreground));
+  }
+
+  .input-dark::placeholder {
+    color: hsl(var(--muted-foreground));
+  }
+
+  .input-dark:focus {
+    border-color: hsl(var(--primary));
+    box-shadow: 0 0 0 2px hsl(var(--primary) / 0.2);
+  }
+}
+
+@layer utilities {
+  /* Stagger Animation Delays */
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
 }
