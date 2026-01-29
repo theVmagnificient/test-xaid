@@ -49,14 +49,14 @@ const Solution = () => {
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
-          {features.map((feature, index) => <div key={feature.title} className="bg-xaid-blue rounded-2xl p-6 md:p-8 min-h-[320px] flex flex-col fade-up" style={{
+          {features.map((feature, index) => <div key={feature.title} className="bg-xaid-blue rounded-2xl p-6 md:p-8 min-h-[320px] flex flex-col justify-start items-start text-left fade-up" style={{
           transitionDelay: `${index * 100}ms`
         }}>
-              <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium w-fit bg-transparent border border-white/30 text-white mb-6">
+              <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-transparent border border-white/30 text-white mb-6">
                 {feature.tag}
               </span>
-              <h3 className="text-xl md:text-2xl font-semibold text-white mb-3">{feature.title}</h3>
-              <p className="text-white/80 text-sm leading-relaxed">{feature.description}</p>
+              <h3 className="text-xl md:text-2xl font-semibold text-white mb-3 text-left">{feature.title}</h3>
+              <p className="text-white/80 text-sm leading-relaxed text-left">{feature.description}</p>
             </div>)}
         </div>
       </div>
