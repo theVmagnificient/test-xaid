@@ -1,4 +1,4 @@
-import heroMesh from '@/assets/hero-mesh.png';
+import heroVideo from '@/assets/hero-video.mp4';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -10,13 +10,17 @@ const Hero = () => {
 
   return (
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroMesh}
-          alt=""
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover object-center"
-        />
+        >
+          <source src={heroVideo} type="video/mp4" />
+        </video>
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
