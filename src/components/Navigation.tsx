@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logoFL from '@/assets/logoFL.svg';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,15 +39,8 @@ const Navigation = () => {
       <div className="container-xaid">
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <div className="w-8 h-8 flex items-center justify-center">
-              <svg viewBox="0 0 32 32" className="w-6 h-6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 8L16 4L24 8L24 16L16 20L8 16V8Z" fill="#5B8DEF" />
-                <path d="M8 16L16 20L16 28L8 24V16Z" fill="#3D6FC9" />
-                <path d="M16 20L24 16V24L16 28V20Z" fill="#7BABFF" />
-              </svg>
-            </div>
-            <span className="text-foreground font-semibold text-lg">xAID</span>
+          <a href="#" className="flex items-center">
+            <img src={logoFL} alt="xAID Logo" className="h-8 w-auto" />
           </a>
 
           {/* Desktop Navigation */}

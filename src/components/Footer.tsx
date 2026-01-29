@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-[13px] text-muted-foreground">
-            © 2025 xAID. All Rights Reserved
+            © 2026 xAID. All Rights Reserved
           </p>
         </div>
       </div>
