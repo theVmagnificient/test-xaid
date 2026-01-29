@@ -45,30 +45,38 @@ const Solution = () => {
   }, []);
 
   return (
-    <section id="our-solution" ref={sectionRef} className="section-padding bg-background">
+    <section id="our-solution" ref={sectionRef} className="section-padding bg-[#0D0D0D]">
       <div className="container-xaid">
         {/* Section Header */}
-        <div className="mb-12 md:mb-16 fade-up">
-          <span className="tag mb-4">Our solution</span>
-          <h2 className="heading-section text-foreground mb-6">
-            Ready-to-sign AI reports<br />with human in the loop
+        <div className="text-center mb-12 md:mb-16 fade-up">
+          <span className="text-white/80 font-semibold text-sm uppercase tracking-wider mb-4 block">Our solution</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-6 leading-tight">
+            <span className="italic text-xaid-blue">Ready-to-sign AI reports</span><br />
+            <span className="italic text-xaid-blue">with human</span>{' '}
+            <span className="text-white">in the loop</span>
           </h2>
-          <p className="body-large max-w-[800px]">
+          <p className="text-white/60 text-base md:text-lg max-w-[800px] mx-auto leading-relaxed">
             xAID integrates directly into the client's infrastructure, enabling fully automated delivery of ready-to-sign reports — validated by multiple AI models and our radiologists, and formatted strictly to the client's reporting templates
           </p>
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
           {features.map((feature, index) => (
             <div
               key={feature.title}
-              className="card-dark fade-up"
+              className="bg-xaid-blue rounded-2xl p-6 md:p-8 min-h-[280px] flex flex-col fade-up"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <span className="tag mb-4">{feature.tag}</span>
-              <h3 className="heading-card text-foreground mb-3">{feature.title}</h3>
-              <p className="body-regular">{feature.description}</p>
+              <span className={`inline-block px-4 py-1.5 rounded-full text-sm font-medium mb-auto w-fit ${
+                index === 0 ? 'bg-[#4A6FE5] text-white' : 'bg-transparent border border-white/30 text-white'
+              }`}>
+                {feature.tag}
+              </span>
+              <div className="mt-auto">
+                <h3 className="text-xl md:text-2xl font-semibold text-white mb-3">{feature.title}</h3>
+                <p className="text-white/80 text-sm leading-relaxed">{feature.description}</p>
+              </div>
             </div>
           ))}
         </div>
