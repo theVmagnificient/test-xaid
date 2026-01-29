@@ -50,31 +50,52 @@ const Process = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-padding bg-background">
+    <section ref={sectionRef} className="section-padding bg-xaid-blue">
       <div className="container-xaid">
-        {/* Section Header */}
-        <div className="mb-12 md:mb-16 fade-up">
-          <span className="tag mb-4">process</span>
-          <h2 className="heading-section text-foreground">
-            Consistent, AI-enhanced workflow that reduces variability and raises overall quality
-          </h2>
-        </div>
-
-        {/* Process Steps */}
-        <div className="space-y-6 md:space-y-8 max-w-[800px]">
-          {steps.map((step, index) => (
-            <div
-              key={step.number}
-              className="flex gap-5 md:gap-6 fade-up"
-              style={{ transitionDelay: `${index * 100}ms` }}
-            >
-              <div className="process-number">{step.number}</div>
-              <div className="pt-1">
-                <h3 className="heading-card text-foreground mb-2">{step.title}</h3>
-                <p className="body-regular">{step.description}</p>
-              </div>
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
+          {/* Left: White Card */}
+          <div className="lg:w-[45%] fade-up">
+            <div className="bg-white rounded-2xl p-8 md:p-12 h-full">
+              <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-6 block">
+                Process
+              </span>
+              <h2 className="text-3xl md:text-4xl lg:text-[42px] font-semibold leading-tight text-[#0D0D0D]">
+                <span className="bg-xaid-blue text-white px-1">Consistent, AI-enhanced</span>
+                <br />
+                <span className="bg-xaid-blue text-white px-1">workflow</span>{' '}
+                <span>that reduces variability and raises overall quality</span>
+              </h2>
             </div>
-          ))}
+          </div>
+
+          {/* Right: Timeline Steps */}
+          <div className="lg:w-[55%]">
+            <div className="relative">
+              {steps.map((step, index) => (
+                <div
+                  key={step.number}
+                  className="flex gap-5 fade-up relative"
+                  style={{ transitionDelay: `${index * 100}ms` }}
+                >
+                  {/* Number and Line */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-12 h-12 rounded-xl bg-[#0D0D0D] flex items-center justify-center text-white font-semibold text-lg z-10">
+                      {step.number}
+                    </div>
+                    {index < steps.length - 1 && (
+                      <div className="w-0 flex-1 border-l-2 border-dashed border-[#0D0D0D]/40 my-2" />
+                    )}
+                  </div>
+                  
+                  {/* Content */}
+                  <div className={`pt-2 ${index < steps.length - 1 ? 'pb-8' : ''}`}>
+                    <h3 className="text-xl font-semibold text-white mb-1">{step.title}</h3>
+                    <p className="text-white/70 text-base leading-relaxed">{step.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
