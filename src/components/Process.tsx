@@ -59,10 +59,10 @@ const Process = () => {
               <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-6 block">
                 Process
               </span>
-              <h2 className="text-3xl md:text-4xl lg:text-[42px] font-semibold leading-tight text-[#0D0D0D]">
-                <span className="bg-xaid-blue text-white px-1">Consistent, AI-enhanced</span>
+              <h2 className="text-3xl md:text-4xl lg:text-[42px] font-semibold leading-[1.4] text-[#0D0D0D]">
+                <span className="bg-xaid-blue text-white px-1 py-1 inline-block">Consistent, AI-enhanced</span>
                 <br />
-                <span className="bg-xaid-blue text-white px-1">workflow</span>{' '}
+                <span className="bg-xaid-blue text-white px-1 py-1 inline-block">workflow</span>{' '}
                 <span>that reduces variability and raises overall quality</span>
               </h2>
             </div>
