@@ -3,28 +3,20 @@ import { Asterisk } from 'lucide-react';
 
 const benefits = [
   {
-    title: 'Consistent Quality',
-    description: 'AI-powered reports combined with continuous oversight by boarded radiologists ensure reproducible, clinically reliable results across every case',
-  },
-  {
-    title: 'Highly experienced radiologists',
-    description: 'AI reports are reviewed and finalized by highly experienced radiologists trained in Western Europe and other leading international healthcare systems',
-  },
-  {
-    title: '24/7 Coverage',
-    description: 'Time-zone flexibility enables continuous 24/7 coverage across the U.S. aligned to your demand',
-  },
-  {
     title: 'Measurable ROI',
     description: 'Your team spends less time creating reports from scratch, increasing margin per study by ~15–20%.',
   },
   {
-    title: 'Predictable turn-around-times',
-    description: 'A standardized workflow delivers stable turnaround times across shifts and volumes, reducing variability and easing staffing pressure',
-  },
-  {
     title: 'Faster turn-around-times',
     description: 'Our proprietary AI tooling shortens turnaround times compared to traditional teleradiology workflows',
+  },
+  {
+    title: 'Consistent Quality',
+    description: 'AI-powered reports combined with continuous oversight by boarded radiologists ensure reproducible, clinically reliable results across every case',
+  },
+  {
+    title: '24/7 Coverage',
+    description: 'Time-zone flexibility enables continuous 24/7 coverage across the U.S. aligned to your demand',
   },
 ];
 
