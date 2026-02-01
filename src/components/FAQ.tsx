@@ -22,10 +22,6 @@ const faqs = [
     question: 'Can I use the platform for scientific research?',
     answer: 'Yes, we offer research partnerships with de-identified datasets. Contact us to discuss your research needs.',
   },
-  {
-    question: 'Are there any scientific reports on experience with the products?',
-    answer: 'We have published peer-reviewed studies demonstrating the accuracy and efficiency of our AI-assisted workflow. Contact us for access to our clinical validation data.',
-  },
 ];
 
 const FAQ = () => {
