@@ -46,7 +46,7 @@ const Benefits = () => {
       <div className="container-xaid">
         {/* Section Header */}
         <div className="mb-12 md:mb-16 fade-up">
-          <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider">Benefits</span>
+          <span className="text-xaid-blue font-semibold text-base md:text-lg uppercase tracking-wider">Benefits you get</span>
         </div>
 
         {/* Benefits Grid */}
