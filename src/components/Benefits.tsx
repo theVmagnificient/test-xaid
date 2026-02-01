@@ -8,7 +8,7 @@ const benefits = [
   },
   {
     title: 'Faster turn-around-times',
-    description: 'Our proprietary AI tooling shortens turnaround times compared to traditional teleradiology workflows',
+    description: 'Clients achieve faster, more predictable turnaround times by removing workflow bottlenecks rather than adding reader headcount.',
   },
   {
     title: 'Consistent Quality',
