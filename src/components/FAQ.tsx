@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: 'What are the limitations?',
-    answer: 'Our AI system is designed to assist radiologists, not replace them. All reports are reviewed and validated by board-certified radiologists before delivery.',
+    answer: 'Our AI system is designed to assist radiologists, not replace them. All reports are reviewed and validated by radiologists before delivery.',
   },
   {
     question: 'What are the minimal system requirements?',
