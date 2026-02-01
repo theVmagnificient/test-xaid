@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: 'How is personal data protected?',
-    answer: 'We maintain HIPAA compliance and use enterprise-grade encryption for all data in transit and at rest. Our infrastructure is SOC 2 Type II certified.',
+    answer: 'We maintain HIPAA compliance and use enterprise-grade encryption for all data in transit and at rest.',
   },
   {
     question: 'Can I use the platform for scientific research?',
