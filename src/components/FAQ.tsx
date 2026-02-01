@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: 'What are the minimal system requirements?',
-    answer: 'xAID integrates with standard PACS/RIS systems via HL7 or API. Our team handles the technical integration with minimal IT involvement.',
+    answer: 'xAID integrates with standard PACS/RIS systems via HL7/DICOM. Our team handles the technical integration with minimal IT involvement.',
   },
   {
     question: 'How is it intended to be used?',
