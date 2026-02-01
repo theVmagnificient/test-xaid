@@ -24,7 +24,7 @@ const steps = [
   {
     number: 5,
     title: 'Report is delivered via HL7/API',
-    description: 'The finalized preliminary report is sent back into the client\'s PACS/RIS',
+    description: 'Ready-to-sign report is sent back into the client\'s PACS/RIS',
   },
 ];
 
