@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'How is it intended to be used?',
-    answer: 'xAID provides preliminary reads that are ready for radiologist sign-off, enabling faster turnaround and consistent quality across all shifts.',
+    answer: 'xAID provides reports that are ready for radiologist sign-off, enabling faster turnaround and consistent quality across all shifts.',
   },
   {
     question: 'How is personal data protected?',
