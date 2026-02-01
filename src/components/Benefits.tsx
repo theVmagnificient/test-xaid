@@ -12,7 +12,7 @@ const benefits = [
   },
   {
     title: 'Consistent Quality',
-    description: 'AI-powered reports combined with continuous oversight by boarded radiologists ensure reproducible, clinically reliable results across every case',
+    description: 'AI-powered reports combined with continuous oversight by boarded radiologists ensure reproducible, clinically reliable results, aligned to your team\'s reporting style across every case.',
   },
   {
     title: '24/7 Coverage',
