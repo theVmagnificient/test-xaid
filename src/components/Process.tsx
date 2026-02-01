@@ -9,7 +9,7 @@ const steps = [
   {
     number: 2,
     title: 'Run AI Analysis',
-    description: 'AI detects key findings and generates a structured preliminary draft',
+    description: 'AI detects key findings and generates a full draft report',
   },
   {
     number: 3,
