@@ -3,8 +3,8 @@ import { Linkedin } from 'lucide-react';
 import ReCAPTCHA from "react-google-recaptcha";
 
 const FORMSPARK_ACTION_URL = 'https://submit-form.com/ADee6zSRu';
-// const RECAPTCHA_SITE_KEY = '6LeiQEYoAAAAANUaJXHwdhm3HpR5SEPrbVXj-Ra6'
-const RECAPTCHA_SITE_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' // Test token
+const RECAPTCHA_SITE_KEY = '6LeiQEYoAAAAANUaJXHwdhm3HpR5SEPrbVXj-Ra6'
+// const RECAPTCHA_SITE_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' // Test token
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -186,7 +186,7 @@ const Contact = () => {
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
               <div className="flex justify-between">
-                <ReCAPTCHA ref={recaptchaRef} sitekey={RECAPTCHA_SITE_KEY} size="invisible"/>
+                <ReCAPTCHA ref={recaptchaRef} sitekey={RECAPTCHA_SITE_KEY} size="invisible" badge="inline"/>
                 <button disabled={isSubmitting || !formRef?.current?.checkValidity()} type="submit"
                         className="bg-xaid-blue hover:bg-xaid-blue/90 disabled:bg-xaid-blue/60 text-white font-medium px-8 py-3 rounded-full transition-colors">
                   {isSubmitting ? 'Sending...' : 'Book a demo'}
