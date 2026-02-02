@@ -248,3 +248,131 @@
   .delay-400 { animation-delay: 400ms; }
   .delay-500 { animation-delay: 500ms; }
 }
+
+/* Osano Cookie Consent Customization */
+.osano-cm-window {
+  background-color: hsl(0 0% 8%) !important;
+  border: 1px solid hsl(0 0% 20%) !important;
+  border-radius: 0.75rem !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.osano-cm-dialog {
+  background-color: hsl(0 0% 8%) !important;
+  border: 1px solid hsl(0 0% 20%) !important;
+  border-radius: 0.75rem !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.osano-cm-content {
+  color: hsl(0 0% 100%) !important;
+}
+
+.osano-cm-description {
+  color: hsl(0 0% 65%) !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+
+.osano-cm-button {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  border-radius: 0.5rem !important;
+  padding: 0.625rem 1.25rem !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Primary/Accept Button */
+.osano-cm-button--type_accept,
+.osano-cm-button--type_save {
+  background-color: hsl(227 71% 68%) !important;
+  color: hsl(0 0% 100%) !important;
+  border: none !important;
+}
+
+.osano-cm-button--type_accept:hover,
+.osano-cm-button--type_save:hover {
+  background-color: hsl(227 71% 60%) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Secondary/Deny Button */
+.osano-cm-button--type_deny,
+.osano-cm-button--type_manage {
+  background-color: transparent !important;
+  color: hsl(0 0% 100%) !important;
+  border: 1px solid hsl(0 0% 20%) !important;
+}
+
+.osano-cm-button--type_deny:hover,
+.osano-cm-button--type_manage:hover {
+  background-color: hsl(0 0% 12%) !important;
+}
+
+.osano-cm-buttons {
+  gap: 0.75rem !important;
+}
+
+.osano-cm-link,
+.osano-cm-window a.osano-cm-link {
+  color: hsl(227 71% 68%) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.osano-cm-link:hover,
+.osano-cm-window a.osano-cm-link:hover {
+  color: hsl(227 71% 78%) !important;
+  text-decoration: underline !important;
+}
+
+/* Toggle Switches */
+.osano-cm-toggle input[type=checkbox] {
+  accent-color: hsl(227 71% 68%) !important;
+}
+
+.osano-cm-toggle input[type=checkbox]:checked {
+  background-color: hsl(227 71% 68%) !important;
+}
+
+/* Labels */
+label.osano-cm-label {
+  color: hsl(0 0% 100%) !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Info Dialog */
+.osano-cm-info-dialog {
+  background-color: hsl(0 0% 8%) !important;
+  border: 1px solid hsl(0 0% 20%) !important;
+  border-radius: 0.75rem !important;
+  color: hsl(0 0% 100%) !important;
+}
+
+.osano-cm-info-dialog-wrapper {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.osano-cm-info-dialog-close {
+  color: hsl(0 0% 65%) !important;
+  transition: color 0.2s ease !important;
+}
+
+.osano-cm-info-dialog-close:hover {
+  color: hsl(0 0% 100%) !important;
+}
+
+/* Widget Button */
+.osano-cm-widget {
+  background-color: hsl(227 71% 68%) !important;
+  border-radius: 50% !important;
+  box-shadow: 0 4px 12px rgba(91, 127, 255, 0.3) !important;
+  transition: all 0.2s ease !important;
+}
+
+.osano-cm-widget:hover {
+  background-color: hsl(227 71% 60%) !important;
+  transform: scale(1.05) !important;
+}
