@@ -2,7 +2,7 @@ import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import Challenges from '@/components/Challenges';
 import Solution from '@/components/Solution';
-import AIRenderExamples from '@/components/AIRenderExamples';
+import Comparison from '@/components/Comparison';
 import ReliableReports from '@/components/ReliableReports';
 import Benefits from '@/components/Benefits';
 import Process from '@/components/Process';
@@ -19,7 +19,7 @@ const Index = () => {
       <Challenges />
       <Solution />
       <Benefits />
-      <AIRenderExamples />
+      <Comparison />
       <ReliableReports />
       <Process />
       <FAQ />
