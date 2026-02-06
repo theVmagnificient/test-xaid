@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import isoBadge from '@/assets/iso-badge.png';
 
 const Footer = () => {
@@ -13,9 +14,9 @@ const Footer = () => {
 
           {/* Links */}
           <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8">
-            <a href="#" className="text-[13px] text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/privacy-policy" className="text-[13px] text-muted-foreground hover:text-foreground transition-colors">
               Privacy and Policy
-            </a>
+            </Link>
           </div>
 
           {/* Copyright */}

@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import logoFL from '@/assets/logoFL.svg';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,31 +42,47 @@ const Navigation = () => {
       <div className="container-xaid">
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
-          <a href="#" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img src={logoFL} alt="xAID Logo" className="h-8 w-auto" />
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <button
-                key={link.label}
-                onClick={() => scrollToSection(link.href)}
-                className="nav-link"
-              >
-                {link.label}
-              </button>
-            ))}
+            {navLinks.map((link) =>
+              isHome ? (
+                <button
+                  key={link.label}
+                  onClick={() => scrollToSection(link.href)}
+                  className="nav-link"
+                >
+                  {link.label}
+                </button>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={`/${link.href}`}
+                  className="nav-link"
+                >
+                  {link.label}
+                </Link>
+              ),
+            )}
           </div>
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button
-              onClick={() => scrollToSection('#contact-us')}
-              className="btn-outline"
-            >
-              Book a demo
-            </button>
+            {isHome ? (
+              <button
+                onClick={() => scrollToSection('#contact-us')}
+                className="btn-outline"
+              >
+                Book a demo
+              </button>
+            ) : (
+              <Link to="/#contact-us" className="btn-outline">
+                Book a demo
+              </Link>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,22 +98,43 @@ const Navigation = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-background border-t border-border py-4">
             <div className="flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <button
-                  key={link.label}
-                  onClick={() => scrollToSection(link.href)}
-                  className="nav-link text-left px-4 py-2"
-                >
-                  {link.label}
-                </button>
-              ))}
+              {navLinks.map((link) =>
+                isHome ? (
+                  <button
+                    key={link.label}
+                    onClick={() => scrollToSection(link.href)}
+                    className="nav-link text-left px-4 py-2"
+                  >
+                    {link.label}
+                  </button>
+                ) : (
+                  <Link
+                    key={link.label}
+                    to={`/${link.href}`}
+                    className="nav-link text-left px-4 py-2"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ),
+              )}
               <div className="px-4 pt-2">
-                <button
-                  onClick={() => scrollToSection('#contact-us')}
-                  className="btn-primary w-full"
-                >
-                  Book a demo
-                </button>
+                {isHome ? (
+                  <button
+                    onClick={() => scrollToSection('#contact-us')}
+                    className="btn-primary w-full"
+                  >
+                    Book a demo
+                  </button>
+                ) : (
+                  <Link
+                    to="/#contact-us"
+                    className="btn-primary w-full block text-center"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Book a demo
+                  </Link>
+                )}
               </div>
             </div>
           </div>
