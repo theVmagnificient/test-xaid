@@ -1,9 +1,17 @@
-import { useState, Suspense, lazy } from 'react';
-
-const Spline = lazy(() => import('@splinetool/react-spline'));
+import { useEffect } from 'react';
 
 const Hero = () => {
-  const [splineLoaded, setSplineLoaded] = useState(false);
+  useEffect(() => {
+    // Load Spline viewer script
+    const script = document.createElement('script');
+    script.type = 'module';
+    script.src = 'https://unpkg.com/@splinetool/viewer@1.12.50/build/spline-viewer.js';
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
 
   const scrollToContact = () => {
     const element = document.querySelector('#contact-us');
@@ -16,13 +24,11 @@ const Hero = () => {
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-[#0D0D0D]">
       {/* Spline 3D Background */}
       <div className="absolute inset-0 z-0">
-        <Suspense fallback={<div className="w-full h-full bg-[#0D0D0D]" />}>
-          <Spline
-            scene="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
-            className="w-full h-full"
-            onLoad={() => setSplineLoaded(true)}
-          />
-        </Suspense>
+        {/* @ts-ignore */}
+        <spline-viewer 
+          url="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
+          style={{ width: '100%', height: '100%' }}
+        />
         {/* Gradient Overlay for text readability - left side only */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D]/70 via-transparent to-transparent pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D]/60 via-transparent to-transparent pointer-events-none" />
