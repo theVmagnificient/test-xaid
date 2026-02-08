@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import reportScan from '@/assets/report-example-scan.png';
 import reportText from '@/assets/report-example-text.png';
-
+import reportRawCt from '@/assets/report-example-raw-ct.png';
 const ReportExample = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -52,6 +52,17 @@ const ReportExample = () => {
             <img
               src={reportText}
               alt="Structured radiology report with findings and impressions"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </div>
+
+        {/* Raw CT Scan */}
+        <div className="max-w-4xl mx-auto mt-8 fade-up">
+          <div className="bg-[#1A1A1A] rounded-2xl p-4 border border-[#2A2A2A]">
+            <img
+              src={reportRawCt}
+              alt="Raw CT chest scan showing pulmonary structures"
               className="w-full h-auto rounded-lg"
             />
           </div>
