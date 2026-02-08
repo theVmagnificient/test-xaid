@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container-xaid relative z-10 pt-[120px] pb-[80px] md:pt-[160px] md:pb-[120px]">
+      <div className="container-xaid relative z-10 pt-[80px] pb-[60px] md:pt-[100px] md:pb-[80px]">
         <div className="max-w-[780px]">
           <h1 className="font-['Poppins'] text-[42px] md:text-[56px] lg:text-[72px] font-normal text-white leading-[1.1] tracking-[-0.02em] mb-8 animate-fade-in-up">
             Ready-to-sign AI reports<br />
