@@ -1,6 +1,10 @@
-import Spline from '@splinetool/react-spline';
+import { useState, Suspense, lazy } from 'react';
+
+const Spline = lazy(() => import('@splinetool/react-spline'));
 
 const Hero = () => {
+  const [splineLoaded, setSplineLoaded] = useState(false);
+
   const scrollToContact = () => {
     const element = document.querySelector('#contact-us');
     if (element) {
@@ -9,16 +13,19 @@ const Hero = () => {
   };
 
   return (
-    <section id="about" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-[#0D0D0D]">
       {/* Spline 3D Background */}
       <div className="absolute inset-0 z-0">
-        <Spline
-          scene="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
-          className="w-full h-full"
-        />
+        <Suspense fallback={<div className="w-full h-full bg-[#0D0D0D]" />}>
+          <Spline
+            scene="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
+            className="w-full h-full"
+            onLoad={() => setSplineLoaded(true)}
+          />
+        </Suspense>
         {/* Gradient Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D]/80 via-[#0D0D0D]/40 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D] via-transparent to-transparent pointer-events-none" />
       </div>
 
       {/* Content */}
