@@ -38,31 +38,32 @@ const ReportExample = () => {
 
         {/* Images Grid */}
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto fade-up">
-          {/* CT Scan with Annotations */}
-          <div className="bg-[#1A1A1A] rounded-2xl p-4 border border-[#2A2A2A]">
-            <img
-              src={reportScan}
-              alt="CT scan with AI annotations showing lung nodules, pleural effusion, aorta measurements and other findings"
-              className="w-full h-auto rounded-lg"
-            />
+          {/* Left Column - CT Scans */}
+          <div className="space-y-4">
+            {/* CT Scan with Annotations */}
+            <div className="bg-[#1A1A1A] rounded-2xl p-4 border border-[#2A2A2A]">
+              <img
+                src={reportScan}
+                alt="CT scan with AI annotations showing lung nodules, pleural effusion, aorta measurements and other findings"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+
+            {/* Raw CT Scan */}
+            <div className="bg-[#1A1A1A] rounded-2xl p-4 border border-[#2A2A2A]">
+              <img
+                src={reportRawCt}
+                alt="Raw CT chest scan showing pulmonary structures"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
           </div>
 
-          {/* Text Report */}
-          <div className="bg-white rounded-2xl p-4 border border-[#E5E5E5]">
+          {/* Right Column - Text Report */}
+          <div className="bg-white rounded-2xl p-4 border border-[#E5E5E5] h-fit">
             <img
               src={reportText}
               alt="Structured radiology report with findings and impressions"
-              className="w-full h-auto rounded-lg"
-            />
-          </div>
-        </div>
-
-        {/* Raw CT Scan */}
-        <div className="max-w-4xl mx-auto mt-8 fade-up">
-          <div className="bg-[#1A1A1A] rounded-2xl p-4 border border-[#2A2A2A]">
-            <img
-              src={reportRawCt}
-              alt="Raw CT chest scan showing pulmonary structures"
               className="w-full h-auto rounded-lg"
             />
           </div>
