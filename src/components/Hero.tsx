@@ -1,18 +1,4 @@
-import { useEffect } from 'react';
-
 const Hero = () => {
-  useEffect(() => {
-    // Load Spline viewer script
-    const script = document.createElement('script');
-    script.type = 'module';
-    script.src = 'https://unpkg.com/@splinetool/viewer@1.12.50/build/spline-viewer.js';
-    document.head.appendChild(script);
-
-    return () => {
-      document.head.removeChild(script);
-    };
-  }, []);
-
   const scrollToContact = () => {
     const element = document.querySelector('#contact-us');
     if (element) {
@@ -22,12 +8,16 @@ const Hero = () => {
 
   return (
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-[#0D0D0D]">
-      {/* Spline 3D Background */}
+      {/* Spline 3D Background via iframe */}
       <div className="absolute inset-0 z-0">
-        {/* @ts-ignore */}
-        <spline-viewer 
-          url="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
-          style={{ width: '100%', height: '100%' }}
+        <iframe
+          src="https://my.spline.design/untitled-gJ1DETcTJKYEDidA/"
+          frameBorder="0"
+          width="100%"
+          height="100%"
+          style={{ border: 'none' }}
+          title="3D Background"
+          allow="autoplay"
         />
         {/* Gradient Overlay for text readability - left side only */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D]/70 via-transparent to-transparent pointer-events-none" />
