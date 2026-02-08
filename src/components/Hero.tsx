@@ -1,4 +1,35 @@
+import { useEffect, useState } from 'react';
+
+const SPLINE_SCRIPT_ID = 'spline-viewer-script';
+const SPLINE_SCRIPT_SRC = 'https://unpkg.com/@splinetool/viewer@1.12.50/build/spline-viewer.js';
+
 const Hero = () => {
+  const [viewerReady, setViewerReady] = useState(false);
+
+  useEffect(() => {
+    // If already registered, we're ready.
+    if (customElements.get('spline-viewer')) {
+      setViewerReady(true);
+      return;
+    }
+
+    const existing = document.getElementById(SPLINE_SCRIPT_ID) as HTMLScriptElement | null;
+    if (existing) {
+      // Script is present; wait a tick for registration.
+      const t = window.setTimeout(() => {
+        if (customElements.get('spline-viewer')) setViewerReady(true);
+      }, 0);
+      return () => window.clearTimeout(t);
+    }
+
+    const script = document.createElement('script');
+    script.id = SPLINE_SCRIPT_ID;
+    script.type = 'module';
+    script.src = SPLINE_SCRIPT_SRC;
+    script.onload = () => setViewerReady(true);
+    document.head.appendChild(script);
+  }, []);
+
   const scrollToContact = () => {
     const element = document.querySelector('#contact-us');
     if (element) {
@@ -7,21 +38,22 @@ const Hero = () => {
   };
 
   return (
-    <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-[#0D0D0D]">
-      {/* Spline 3D Background via iframe */}
+    <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-background">
+      {/* Spline 3D Background */}
       <div className="absolute inset-0 z-0">
-        <iframe
-          src="https://my.spline.design/untitled-gJ1DETcTJKYEDidA/"
-          frameBorder="0"
-          width="100%"
-          height="100%"
-          style={{ border: 'none' }}
-          title="3D Background"
-          allow="autoplay"
-        />
-        {/* Gradient Overlay for text readability - left side only */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D0D]/70 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0D]/60 via-transparent to-transparent pointer-events-none" />
+        {viewerReady ? (
+          <spline-viewer
+            url="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
+            className="w-full h-full block"
+            style={{ width: '100%', height: '100%', display: 'block' }}
+          ></spline-viewer>
+        ) : (
+          <div className="w-full h-full bg-background" />
+        )}
+
+        {/* Gradient Overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent pointer-events-none" />
       </div>
 
       {/* Content */}
@@ -32,7 +64,10 @@ const Hero = () => {
             you can trust. Each is<br />
             human-validated
           </h1>
-          <p className="font-['Poppins'] text-white/60 text-lg md:text-xl max-w-[520px] leading-relaxed mb-12 opacity-0 animate-fade-in-up" style={{ animationDelay: '150ms' }}>
+          <p
+            className="font-['Poppins'] text-white/60 text-lg md:text-xl max-w-[520px] leading-relaxed mb-12 opacity-0 animate-fade-in-up"
+            style={{ animationDelay: '150ms' }}
+          >
             Solution for US radiology groups. Scale coverage, improve accuracy, reduce costs — without hiring more radiologists
           </p>
           <button
@@ -49,3 +84,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
