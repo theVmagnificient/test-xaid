@@ -60,11 +60,11 @@ const ReportExample = () => {
           </div>
 
           {/* Right Column - Text Report */}
-          <div className="bg-white rounded-2xl p-4 border border-[#E5E5E5] h-fit">
+          <div className="bg-white rounded-2xl p-4 border border-[#E5E5E5] flex flex-col">
             <img
               src={reportText}
               alt="Structured radiology report with findings and impressions"
-              className="w-full h-auto rounded-lg"
+              className="w-full h-full object-contain rounded-lg"
             />
           </div>
         </div>
