@@ -1,4 +1,4 @@
-import heroVideo from '@/assets/hero-video.mp4';
+import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -10,24 +10,19 @@ const Hero = () => {
 
   return (
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Video */}
+      {/* Spline 3D Background */}
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover object-center"
-        >
-          <source src={heroVideo} type="video/mp4" />
-        </video>
+        <Spline
+          scene="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
+          className="w-full h-full"
+        />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent pointer-events-none" />
       </div>
 
       {/* Content */}
-      <div className="container-xaid relative z-10 pt-[120px] pb-[80px] md:pt-[160px] md:pb-[120px]">
+      <div className="container-xaid relative z-10 pt-[120px] pb-[80px] md:pt-[160px] md:pb-[120px] pointer-events-none">
         <div className="max-w-[780px]">
           <h1 className="font-['Poppins'] text-[42px] md:text-[56px] lg:text-[72px] font-normal text-white leading-[1.1] tracking-[-0.02em] mb-8 animate-fade-in-up">
             Ready-to-sign AI reports<br />
@@ -39,7 +34,7 @@ const Hero = () => {
           </p>
           <button
             onClick={scrollToContact}
-            className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-lg font-medium px-12 py-5 rounded-full transition-all duration-200 opacity-0 animate-fade-in-up"
+            className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-lg font-medium px-12 py-5 rounded-full transition-all duration-200 opacity-0 animate-fade-in-up pointer-events-auto"
             style={{ animationDelay: '300ms' }}
           >
             Book a demo
