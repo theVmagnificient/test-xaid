@@ -1,5 +1,3 @@
-import Spline from '@splinetool/react-spline';
-
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.querySelector('#contact-us');
@@ -10,11 +8,17 @@ const Hero = () => {
 
   return (
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Spline 3D Background */}
+      {/* Spline 3D Background via iframe */}
       <div className="absolute inset-0 z-0">
-        <Spline
-          scene="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
-          className="w-full h-full"
+        <iframe
+          src="https://my.spline.design/claritystream-bBK8hCvA4eiM0Rg72pjq86MY/"
+          frameBorder="0"
+          width="100%"
+          height="100%"
+          className="absolute inset-0 w-full h-full"
+          style={{ pointerEvents: 'none' }}
+          loading="lazy"
+          title="3D Background Animation"
         />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent pointer-events-none" />
@@ -22,7 +26,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container-xaid relative z-10 pt-[120px] pb-[80px] md:pt-[160px] md:pb-[120px] pointer-events-none">
+      <div className="container-xaid relative z-10 pt-[120px] pb-[80px] md:pt-[160px] md:pb-[120px]">
         <div className="max-w-[780px]">
           <h1 className="font-['Poppins'] text-[42px] md:text-[56px] lg:text-[72px] font-normal text-white leading-[1.1] tracking-[-0.02em] mb-8 animate-fade-in-up">
             Ready-to-sign AI reports<br />
@@ -34,7 +38,7 @@ const Hero = () => {
           </p>
           <button
             onClick={scrollToContact}
-            className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-lg font-medium px-12 py-5 rounded-full transition-all duration-200 opacity-0 animate-fade-in-up pointer-events-auto"
+            className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-lg font-medium px-12 py-5 rounded-full transition-all duration-200 opacity-0 animate-fade-in-up"
             style={{ animationDelay: '300ms' }}
           >
             Book a demo
