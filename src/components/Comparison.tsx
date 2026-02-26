@@ -17,13 +17,6 @@ const rows = [
     xaidHighlight: true,
   },
   {
-    label: '% reports needing edits',
-    teleradiology: '~50%',
-    narrowAI: 'N/A (no report)',
-    xaid: '<10% (guaranteed)',
-    xaidHighlight: true,
-  },
-  {
     label: 'Human review included',
     teleradiology: 'Yes (billed separately)',
     narrowAI: 'No',
