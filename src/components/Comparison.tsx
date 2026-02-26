@@ -25,9 +25,9 @@ const rows = [
   },
   {
     label: 'Pathologies covered',
-    teleradiology: 'Radiologist-dependent',
+    teleradiology: 'Full report',
     narrowAI: '3–5 specific findings',
-    xaid: '60+ per study',
+    xaid: 'Full report',
     xaidHighlight: true,
   },
   {
