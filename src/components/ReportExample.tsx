@@ -34,7 +34,7 @@ const ReportExample = () => {
             See What You're Signing
           </h2>
           <p className="text-[#888888] mt-2 max-w-2xl mx-auto text-lg">
-            Generated in 4 hours. Approved without edits.
+            Built to your template. Ready to sign.
           </p>
         </div>
 
