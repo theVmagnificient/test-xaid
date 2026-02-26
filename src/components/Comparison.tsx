@@ -1,26 +1,48 @@
 import { useEffect, useRef } from 'react';
-import { X, Check } from 'lucide-react';
+import { Check, Minus } from 'lucide-react';
 
-const comparisonData = [
+const rows = [
   {
-    label: 'OUTPUT',
-    left: 'Findings, overlays, alerts',
-    right: 'Full report delivered',
+    label: 'Price/study',
+    teleradiology: 'Expensive',
+    narrowAI: 'Narrow AI pricing',
+    xaid: 'Same as AI overlays',
+    xaidHighlight: true,
   },
   {
-    label: 'REPORT CREATION',
-    left: 'Still requires full report creation',
-    right: 'No report written from scratch',
+    label: 'Output',
+    teleradiology: 'Full report',
+    narrowAI: 'Detection flags only',
+    xaid: 'Full report',
+    xaidHighlight: true,
   },
   {
-    label: 'WORKFLOW',
-    left: 'Additional step in existing flow',
-    right: 'Replaces report creation work',
+    label: '% reports needing edits',
+    teleradiology: '~50%',
+    narrowAI: 'N/A (no report)',
+    xaid: '<10% (guaranteed)',
+    xaidHighlight: true,
   },
   {
-    label: 'SIGN-OFF',
-    left: 'Requires radiologist interpretation',
-    right: 'Ready for sign-off',
+    label: 'Human review included',
+    teleradiology: 'Yes (billed separately)',
+    narrowAI: 'No',
+    xaid: 'Yes (included)',
+    xaidHighlight: true,
+  },
+  {
+    label: 'Pathologies covered',
+    teleradiology: 'Radiologist-dependent',
+    narrowAI: '3–5 specific findings',
+    xaid: '60+ per study',
+    xaidHighlight: true,
+  },
+  {
+    label: 'Turnaround',
+    teleradiology: 'Variable',
+    narrowAI: 'Real-time flag',
+    xaid: '2–12 hours',
+    xaidHighlight: true,
   },
 ];
 
@@ -50,64 +72,54 @@ const Comparison = () => {
       <div className="container-xaid">
         {/* Title */}
         <div className="text-center mb-12 fade-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A]">
-            This is not a pure AI tool.
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">
+            Two AI layers + radiologist review —<br className="hidden md:block" />
+            <span className="text-xaid-blue"> at the price of narrow AI.</span>
           </h2>
+          <p className="text-[#666] text-lg max-w-xl mx-auto">
+            Compare xAID against what you're currently using.
+          </p>
         </div>
 
-        {/* Comparison Cards */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto fade-up">
-          {/* Left Card - Pure AI Vendors */}
-          <div className="bg-white rounded-2xl p-8 border border-[#E5E5E5]">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-full bg-[#E5E5E5] flex items-center justify-center">
-                <X className="w-6 h-6 text-[#666666]" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#1A1A1A]">Pure AI Vendors</h3>
-            </div>
-
-            <div className="space-y-0">
-              {comparisonData.map((item, index) => (
-                <div
-                  key={item.label}
-                  className={`py-6 text-center ${
-                    index !== comparisonData.length - 1 ? 'border-b border-[#E5E5E5]' : ''
-                  }`}
-                >
-                  <p className="text-xs font-medium tracking-wider text-[#888888] mb-2">
-                    {item.label}
-                  </p>
-                  <p className="text-[#1A1A1A] font-medium">{item.left}</p>
-                </div>
+        {/* Table */}
+        <div className="fade-up overflow-x-auto">
+          <table className="w-full max-w-5xl mx-auto border-collapse">
+            <thead>
+              <tr>
+                <th className="text-left py-4 px-6 text-[#888] text-sm font-medium w-[28%]"></th>
+                <th className="py-4 px-6 text-center bg-white rounded-t-xl text-[#1A1A1A] font-semibold text-base w-[24%]">
+                  Traditional Teleradiology
+                </th>
+                <th className="py-4 px-6 text-center bg-white mx-2 text-[#1A1A1A] font-semibold text-base w-[24%]">
+                  Narrow AI Overlays
+                </th>
+                <th className="py-4 px-6 text-center bg-xaid-blue rounded-t-xl text-white font-bold text-base w-[24%]">
+                  xAID
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row, index) => (
+                <tr key={row.label} className={index % 2 === 0 ? '' : ''}>
+                  <td className="py-4 px-6 text-[#444] font-medium text-sm border-b border-[#E5E5E5]">
+                    {row.label}
+                  </td>
+                  <td className={`py-4 px-6 text-center text-sm text-[#555] bg-white border-b border-[#E5E5E5] ${index === rows.length - 1 ? 'rounded-b-xl' : ''}`}>
+                    {row.teleradiology}
+                  </td>
+                  <td className={`py-4 px-6 text-center text-sm text-[#555] bg-white border-b border-[#E5E5E5] ${index === rows.length - 1 ? 'rounded-b-xl' : ''}`}>
+                    {row.narrowAI}
+                  </td>
+                  <td className={`py-4 px-6 text-center text-sm font-semibold text-white bg-xaid-blue border-b border-xaid-blue/70 ${index === rows.length - 1 ? 'rounded-b-xl' : ''}`}>
+                    <span className="flex items-center justify-center gap-1.5">
+                      <Check className="w-4 h-4 flex-shrink-0" />
+                      {row.xaid}
+                    </span>
+                  </td>
+                </tr>
               ))}
-            </div>
-          </div>
-
-          {/* Right Card - xAID */}
-          <div className="bg-white rounded-2xl p-8 border-2 border-[#10B981]">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-full bg-[#10B981] flex items-center justify-center">
-                <Check className="w-6 h-6 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold text-[#1A1A1A]">xAID</h3>
-            </div>
-
-            <div className="space-y-0">
-              {comparisonData.map((item, index) => (
-                <div
-                  key={item.label}
-                  className={`py-6 text-center ${
-                    index !== comparisonData.length - 1 ? 'border-b border-[#E5E5E5]' : ''
-                  }`}
-                >
-                  <p className="text-xs font-medium tracking-wider text-[#888888] mb-2">
-                    {item.label}
-                  </p>
-                  <p className="text-[#1A1A1A] font-medium">{item.right}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>

@@ -2,16 +2,16 @@ import { useEffect, useRef } from 'react';
 
 const challenges = [
   {
-    title: 'Hiring ABR radiologists is structurally broken',
-    description: 'Imaging volumes keep growing while the pool of American Board–Certified radiologists does not. Recruiting, onboarding, and retaining ABR talent has become slow, expensive, and increasingly unpredictable—directly pressuring margins and coverage.',
+    title: 'Hiring Takes 12+ Months',
+    description: 'The average time-to-hire for a radiologist exceeds 12 months. Meanwhile your CT volume grows and revenue walks out the door.',
   },
   {
-    title: 'Pure AI in medical imaging is too narrow to move the needle',
-    description: 'Most AI tools solve isolated tasks or single findings. They rarely integrate into end-to-end reporting workflows, which means limited operational impact, added complexity, and no meaningful reduction in cost or variability.',
+    title: 'Outsourcing Eats Your Margins',
+    description: 'Traditional teleradiology is expensive — and up to 50% of reports still need major edits. You pay more for worse quality.',
   },
   {
-    title: 'Turnaround times are inherently unpredictable',
-    description: 'TAT fluctuates across shifts, modalities, and workload spikes. Night and weekend coverage amplify the problem, leading to operational bottlenecks, inconsistent service levels, and downstream disruption for clinical teams.',
+    title: 'Current AI Doesn\'t Save Time',
+    description: 'AI overlays improve detection rates — but radiologists still dictate the full report. TAT stays exactly the same.',
   },
 ];
 
@@ -43,7 +43,7 @@ const Challenges = () => {
         <div className="bg-white rounded-2xl p-8 md:p-12 lg:p-16">
           {/* Section Header */}
           <div className="mb-12 md:mb-16 fade-up">
-            <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Challenges</span>
+            <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Why Radiology Groups Are Stuck</span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0D0D0D] leading-tight">
               Radiology groups face <span className="bg-xaid-blue text-white px-2 py-1">mounting pressure</span>
             </h2>

@@ -18,11 +18,9 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { label: 'About', href: '#about' },
-    { label: 'Challenges', href: '#challenges' },
-    { label: 'Our solution', href: '#our-solution' },
-    { label: 'Benefits', href: '#benefits' },
-    { label: 'Contact us', href: '#contact-us' },
+    { label: 'How it Works', href: '#how-it-works' },
+    { label: 'Results', href: '#results' },
+    { label: 'FAQ', href: '#faq' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -76,11 +74,11 @@ const Navigation = () => {
                 onClick={() => scrollToSection('#contact-us')}
                 className="btn-outline"
               >
-                Book a demo
+                Book a Demo
               </button>
             ) : (
               <Link to="/#contact-us" className="btn-outline">
-                Book a demo
+                Book a Demo
               </Link>
             )}
           </div>
@@ -124,7 +122,7 @@ const Navigation = () => {
                     onClick={() => scrollToSection('#contact-us')}
                     className="btn-primary w-full"
                   >
-                    Book a demo
+                    Book a Demo
                   </button>
                 ) : (
                   <Link
@@ -132,7 +130,7 @@ const Navigation = () => {
                     className="btn-primary w-full block text-center"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Book a demo
+                    Book a Demo
                   </Link>
                 )}
               </div>

@@ -26,10 +26,13 @@ const CTA = () => {
       <div className="container-xaid">
         <div className="text-center max-w-[700px] mx-auto fade-up">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white mb-6">
-            Ready to transform<br />your radiology workflow?
+            Get a Free<br />5-Study Pilot
           </h2>
-          <p className="text-white/60 text-lg">
-            Join leading radiology groups who've reduced costs and improved quality with our AI-powered platform
+          <p className="text-white/60 text-lg mb-4">
+            Send us 5 CT studies. See the reports.
+          </p>
+          <p className="text-white/40 text-base">
+            No integration required. No commitment.
           </p>
         </div>
       </div>
