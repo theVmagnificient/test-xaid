@@ -6,8 +6,8 @@ const challenges = [
     description: 'The average time-to-hire for a radiologist exceeds 12 months. Meanwhile your CT volume grows and revenue walks out the door.',
   },
   {
-    title: 'Outsourcing Eats Your Margins',
-    description: 'Traditional teleradiology is expensive — and up to 50% of reports still need major edits. You pay more for worse quality.',
+    title: 'On-Demand Coverage Is Eating Your Margins',
+    description: 'Locum and on-call radiologists are expensive — and unpredictable. Every extra shift chips away at profit you\'ve already earned.',
   },
   {
     title: 'Current AI Doesn\'t Save Time',
