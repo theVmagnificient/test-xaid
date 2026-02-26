@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import reportScan from '@/assets/report-example-scan.png';
 import reportText from '@/assets/report-example-text.png';
 import reportRawCt from '@/assets/report-example-raw-ct.png';
+
 const ReportExample = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -24,15 +25,16 @@ const ReportExample = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#0D0D0D]">
+    <section id="report-example" ref={sectionRef} className="section-padding bg-[#0D0D0D]">
       <div className="container-xaid">
         {/* Title */}
         <div className="text-center mb-12 fade-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Report Example
+          <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Sample Report</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            See What You're Signing
           </h2>
-          <p className="text-[#888888] mt-4 max-w-2xl mx-auto">
-            See how xAID generates comprehensive, ready-to-sign reports with detailed findings and structured impressions.
+          <p className="text-[#888888] mt-2 max-w-2xl mx-auto text-lg">
+            Generated in 4 hours. Approved without edits.
           </p>
         </div>
 

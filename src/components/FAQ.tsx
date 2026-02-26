@@ -3,24 +3,28 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'What are the limitations?',
-    answer: 'Our AI system is designed to assist radiologists, not replace them. All reports are reviewed and validated by radiologists before delivery.',
+    question: 'How does this work without FDA clearance?',
+    answer: 'We contract as a professional radiology service, not AI software. Your radiologists review and sign every report — AI is our internal tool. This means no FDA clearance is required for the service.',
   },
   {
-    question: 'What are the minimal system requirements?',
-    answer: 'xAID integrates with standard PACS/RIS systems via HL7/DICOM. Our team handles the technical integration with minimal IT involvement.',
+    question: 'What\'s the turnaround time?',
+    answer: '2 to 12 hours, configurable. Optimized for outpatient and scheduled studies. We work with your operational requirements to set SLAs that fit your workflow.',
   },
   {
-    question: 'How is it intended to be used?',
-    answer: 'xAID provides reports that are ready for radiologist sign-off, enabling faster turnaround and consistent quality across all shifts.',
+    question: 'What if a report needs edits?',
+    answer: 'We guarantee 90% of reports need zero edits. If we fall below that threshold, we reimburse. It\'s the only such guarantee in radiology AI.',
   },
   {
-    question: 'How is personal data protected?',
-    answer: 'We maintain HIPAA compliance and use enterprise-grade encryption for all data in transit and at rest.',
+    question: 'How does integration work?',
+    answer: 'Standard DICOM send to our PACS. Reports return via HL7 into your system. Setup typically takes under one week — our team handles the technical side with minimal IT involvement on yours.',
   },
   {
-    question: 'Can I use the platform for scientific research?',
-    answer: 'Yes, we offer research partnerships with de-identified datasets. Contact us to discuss your research needs.',
+    question: 'Do you cover MRI or X-ray?',
+    answer: 'CT only today — head, chest, and abdomen. MRI is on the roadmap. We focus on depth of coverage rather than breadth: 60+ findings per CT study.',
+  },
+  {
+    question: 'Is my data secure?',
+    answer: 'HIPAA compliant. US-based AWS infrastructure. BAA available. Zero-footprint viewers — no data leaves US servers. We\'re also ISO 27001 certified.',
   },
 ];
 
@@ -47,14 +51,14 @@ const FAQ = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-padding bg-[#EBEBEB]">
+    <section id="faq" ref={sectionRef} className="section-padding bg-[#EBEBEB]">
       <div className="container-xaid">
         {/* White Card Container */}
         <div className="bg-white rounded-2xl p-8 md:p-12 lg:p-16">
           {/* Section Header */}
           <div className="mb-8 md:mb-10 fade-up">
-            <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#0D0D0D]">Questions and answers</h2>
+            <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">FAQ</span>
+            <h2 className="text-3xl md:text-4xl font-semibold text-[#0D0D0D]">Questions from real calls</h2>
           </div>
 
           {/* FAQ List */}
@@ -78,7 +82,7 @@ const FAQ = () => {
                 </button>
                 <div
                   className={`overflow-hidden transition-all duration-300 ${
-                    openIndex === index ? 'max-h-[200px] pb-5' : 'max-h-0'
+                    openIndex === index ? 'max-h-[300px] pb-5' : 'max-h-0'
                   }`}
                 >
                   <p className="text-gray-600 text-base leading-relaxed">{faq.answer}</p>

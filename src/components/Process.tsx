@@ -3,28 +3,18 @@ import { useEffect, useRef } from 'react';
 const steps = [
   {
     number: 1,
-    title: 'Receive the Study',
-    description: 'The scan comes in from the client\'s PACS/RIS and is automatically routed',
+    title: 'You Send Us the CT',
+    description: 'Push scans via standard DICOM. Setup takes under a week.',
   },
   {
     number: 2,
-    title: 'Run AI Analysis',
-    description: 'AI detects key findings and generates a full draft report',
+    title: 'AI + Radiologist Produce the Report',
+    description: 'Our foundation models analyze 60+ findings. A board-certified radiologist reviews every report.',
   },
   {
     number: 3,
-    title: 'AI template standartization',
-    description: 'Custom report templates are created for the client and used by AI on every case',
-  },
-  {
-    number: 4,
-    title: 'Radiologist Review',
-    description: 'Our radiologist reviews and validates the AI-assisted report.',
-  },
-  {
-    number: 5,
-    title: 'Report is delivered via HL7/API',
-    description: 'Ready-to-sign report is sent back into the client\'s PACS/RIS',
+    title: 'Ready-to-Sign Report in Your System',
+    description: 'Delivered via HL7 directly into your reporting system. You review and sign.',
   },
 ];
 
@@ -50,20 +40,19 @@ const Process = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="section-padding bg-xaid-blue">
+    <section id="how-it-works" ref={sectionRef} className="section-padding bg-xaid-blue">
       <div className="container-xaid">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
           {/* Left: White Card */}
           <div className="lg:w-[45%] fade-up">
             <div className="bg-white rounded-2xl p-8 md:p-12 h-full">
               <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-6 block">
-                Process
+                How it Works
               </span>
               <h2 className="text-3xl md:text-4xl lg:text-[42px] font-semibold leading-[1.4] text-[#0D0D0D]">
-                <span className="bg-xaid-blue text-white px-1 py-1 inline-block">Consistent, AI-enhanced</span>
+                <span className="bg-xaid-blue text-white px-1 py-1 inline-block">Three simple steps</span>
                 <br />
-                <span className="bg-xaid-blue text-white px-1 py-1 inline-block">workflow</span>{' '}
-                <span>that reduces variability and raises overall quality</span>
+                <span>from scan to ready-to-sign report</span>
               </h2>
             </div>
           </div>
@@ -86,7 +75,7 @@ const Process = () => {
                       <div className="w-0 flex-1 border-l-2 border-dashed border-[#0D0D0D]/40 my-2" />
                     )}
                   </div>
-                  
+
                   {/* Content */}
                   <div className={`pt-2 ${index < steps.length - 1 ? 'pb-8' : ''}`}>
                     <h3 className="text-xl font-semibold text-white mb-1">{step.title}</h3>
