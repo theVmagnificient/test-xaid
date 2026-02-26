@@ -30,13 +30,6 @@ const rows = [
     xaid: 'Full report',
     xaidHighlight: true,
   },
-  {
-    label: 'Turnaround',
-    teleradiology: 'Variable',
-    narrowAI: 'Real-time flag',
-    xaid: '2–12 hours',
-    xaidHighlight: true,
-  },
 ];
 
 const Comparison = () => {
