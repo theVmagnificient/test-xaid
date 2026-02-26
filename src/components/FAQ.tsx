@@ -3,10 +3,6 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'How does this work without FDA clearance?',
-    answer: 'We contract as a professional radiology service, not AI software. Your radiologists review and sign every report — AI is our internal tool. This means no FDA clearance is required for the service.',
-  },
-  {
     question: 'What\'s the turnaround time?',
     answer: '2 to 12 hours, configurable. Optimized for outpatient and scheduled studies. We work with your operational requirements to set SLAs that fit your workflow.',
   },
@@ -20,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Do you cover MRI or X-ray?',
-    answer: 'CT only today — head, chest, and abdomen. MRI is on the roadmap. We focus on depth of coverage rather than breadth: 60+ findings per CT study.',
+    answer: 'CT only today — head, chest, and abdomen. MRI is on the roadmap. We focus on depth of coverage rather than breadth.',
   },
   {
     question: 'Is my data secure?',
