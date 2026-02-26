@@ -40,7 +40,7 @@ const Guarantee = () => {
           </p>
 
           <p className="text-white/40 text-base leading-relaxed max-w-[560px] mx-auto">
-            The only radiology AI that puts its money where its algorithm is. Neither Aidoc, Avicenna, nor Rad AI offer this.
+            The only radiology AI that puts its money where its algorithm is. No other AI vendor offers this guarantee.
           </p>
         </div>
       </div>
