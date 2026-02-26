@@ -6,7 +6,7 @@ const rows = [
     label: 'Price/study',
     teleradiology: 'Expensive',
     narrowAI: 'Narrow AI pricing',
-    xaid: 'Same as AI overlays',
+    xaid: 'Narrow AI pricing',
     xaidHighlight: true,
   },
   {
