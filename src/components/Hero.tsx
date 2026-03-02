@@ -90,7 +90,7 @@ const Hero = () => {
           </div>
 
           {/* 3D element (mobile) */}
-          <div className="lg:hidden h-[350px] opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+          <div className="lg:hidden h-[350px] -mt-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <spline-viewer
               url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
               style={{ width: '100%', height: '100%', display: 'block' }}
