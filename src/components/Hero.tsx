@@ -17,17 +17,6 @@ const Hero = () => {
 
   return (
     <section id="about" className="relative min-h-screen flex items-center overflow-hidden bg-background">
-      {/* Spline 3D Background */}
-      <div className="absolute inset-0 z-0">
-        <spline-viewer
-          url="https://prod.spline.design/gJ1DETcTJKYEDidA/scene.splinecode"
-          style={{ width: '100%', height: '100%', display: 'block' }}
-        ></spline-viewer>
-
-        {/* Gradient Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/20 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/15 via-transparent to-transparent pointer-events-none" />
-      </div>
 
       {/* Content */}
       <div className="container-xaid relative z-10 pt-[80px] pb-[60px] md:pt-[100px] md:pb-[80px]">
