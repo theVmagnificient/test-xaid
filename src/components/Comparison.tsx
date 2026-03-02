@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Check, Minus } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const rows = [
   {
@@ -7,28 +7,24 @@ const rows = [
     teleradiology: 'Expensive',
     narrowAI: 'Narrow AI pricing',
     xaid: 'Narrow AI pricing',
-    xaidHighlight: true,
   },
   {
     label: 'Output',
     teleradiology: 'Full report',
     narrowAI: 'Detection flags only',
     xaid: 'Full report',
-    xaidHighlight: true,
   },
   {
     label: 'Human review included',
     teleradiology: 'Yes (billed separately)',
     narrowAI: 'No',
     xaid: 'Yes (included)',
-    xaidHighlight: true,
   },
   {
     label: 'Pathologies covered',
     teleradiology: 'Full report',
     narrowAI: '3–5 specific findings',
     xaid: 'Full report',
-    xaidHighlight: true,
   },
 ];
 
@@ -39,17 +35,13 @@ const Comparison = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
+          if (entry.isIntersecting) entry.target.classList.add('visible');
         });
       },
       { threshold: 0.1 }
     );
-
     const elements = sectionRef.current?.querySelectorAll('.fade-up');
     elements?.forEach((el) => observer.observe(el));
-
     return () => observer.disconnect();
   }, []);
 
@@ -67,8 +59,8 @@ const Comparison = () => {
           </p>
         </div>
 
-        {/* Table */}
-        <div className="fade-up overflow-x-auto">
+        {/* Desktop Table */}
+        <div className="fade-up hidden md:block overflow-x-auto">
           <table className="w-full max-w-5xl mx-auto border-collapse">
             <thead>
               <tr>
@@ -76,7 +68,7 @@ const Comparison = () => {
                 <th className="py-4 px-6 text-center bg-white rounded-t-xl text-[#1A1A1A] font-semibold text-base w-[24%]">
                   Traditional Teleradiology
                 </th>
-                <th className="py-4 px-6 text-center bg-white mx-2 text-[#1A1A1A] font-semibold text-base w-[24%]">
+                <th className="py-4 px-6 text-center bg-white text-[#1A1A1A] font-semibold text-base w-[24%]">
                   Narrow AI Overlays
                 </th>
                 <th className="py-4 px-6 text-center bg-xaid-blue rounded-t-xl text-white font-bold text-base w-[24%]">
@@ -86,7 +78,7 @@ const Comparison = () => {
             </thead>
             <tbody>
               {rows.map((row, index) => (
-                <tr key={row.label} className={index % 2 === 0 ? '' : ''}>
+                <tr key={row.label}>
                   <td className="py-4 px-6 text-[#444] font-medium text-sm border-b border-[#E5E5E5]">
                     {row.label}
                   </td>
@@ -106,6 +98,36 @@ const Comparison = () => {
               ))}
             </tbody>
           </table>
+        </div>
+
+        {/* Mobile Cards */}
+        <div className="fade-up md:hidden space-y-3">
+          {/* Column headers */}
+          <div className="grid grid-cols-3 gap-2 mb-2">
+            <div className="bg-white rounded-xl p-3 text-center text-xs font-semibold text-[#1A1A1A]">Traditional Teleradiology</div>
+            <div className="bg-white rounded-xl p-3 text-center text-xs font-semibold text-[#1A1A1A]">Narrow AI Overlays</div>
+            <div className="bg-xaid-blue rounded-xl p-3 text-center text-xs font-bold text-white">xAID</div>
+          </div>
+
+          {rows.map((row) => (
+            <div key={row.label} className="bg-white rounded-xl overflow-hidden">
+              <div className="px-4 py-2 bg-[#F0F0F0] border-b border-[#E5E5E5]">
+                <span className="text-xs font-semibold text-[#444] uppercase tracking-wider">{row.label}</span>
+              </div>
+              <div className="grid grid-cols-3">
+                <div className="p-3 text-center text-xs text-[#555] border-r border-[#E5E5E5]">
+                  {row.teleradiology}
+                </div>
+                <div className="p-3 text-center text-xs text-[#555] border-r border-[#E5E5E5]">
+                  {row.narrowAI}
+                </div>
+                <div className="p-3 text-center text-xs font-semibold text-white bg-xaid-blue flex flex-col items-center justify-center gap-1">
+                  <Check className="w-3 h-3 flex-shrink-0" />
+                  {row.xaid}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
