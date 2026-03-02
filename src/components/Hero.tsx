@@ -1,4 +1,4 @@
-import reportText from '@/assets/report-example-text.png';
+
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -31,9 +31,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container-xaid relative z-10 pt-[80px] pb-[60px] md:pt-[100px] md:pb-[80px]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left column */}
-          <div>
+        <div className="max-w-2xl">
             {/* Eyebrow pill */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6 animate-fade-in-up">
               <span className="w-2 h-2 rounded-full bg-xaid-blue flex-shrink-0"></span>
@@ -91,23 +89,7 @@ const Hero = () => {
                 Book a Demo
               </button>
             </div>
-          </div>
 
-          {/* Right column — report preview */}
-          <div
-            className="hidden lg:block opacity-0 animate-fade-in-up"
-            style={{ animationDelay: '400ms' }}
-          >
-            <div className="relative">
-              <div className="bg-white rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-                <img
-                  src={reportText}
-                  alt="Sample ready-to-sign CT radiology report"
-                  className="w-full h-auto max-h-[520px] object-cover object-top"
-                />
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
