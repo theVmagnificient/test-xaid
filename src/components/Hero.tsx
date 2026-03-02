@@ -106,13 +106,6 @@ const Hero = () => {
                   className="w-full h-auto max-h-[520px] object-cover object-top"
                 />
               </div>
-              {/* Annotation badge */}
-              <div className="absolute -bottom-4 -left-4 bg-xaid-blue text-white rounded-xl px-4 py-3 shadow-xl max-w-[220px]">
-                <p className="text-xs font-medium leading-snug">
-                  This report was generated in 4 hours.<br />
-                  Radiologist approved without edits.
-                </p>
-              </div>
             </div>
           </div>
         </div>
