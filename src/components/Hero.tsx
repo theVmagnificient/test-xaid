@@ -20,7 +20,8 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container-xaid relative z-10 pt-[80px] pb-[60px] md:pt-[100px] md:pb-[80px]">
-        <div className="max-w-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div>
             {/* Eyebrow pill */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6 animate-fade-in-up">
               <span className="w-2 h-2 rounded-full bg-xaid-blue flex-shrink-0"></span>
@@ -78,7 +79,15 @@ const Hero = () => {
                 Book a Demo
               </button>
             </div>
+          </div>
 
+          {/* Right column — 3D element */}
+          <div className="hidden lg:block h-[600px] opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+            <spline-viewer
+              url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
+              style={{ width: '100%', height: '100%', display: 'block' }}
+            ></spline-viewer>
+          </div>
         </div>
       </div>
     </section>
