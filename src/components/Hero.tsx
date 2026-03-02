@@ -81,8 +81,16 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right column — 3D element */}
+          {/* Right column — 3D element (desktop) */}
           <div className="hidden lg:block h-[600px] opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+            <spline-viewer
+              url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
+              style={{ width: '100%', height: '100%', display: 'block' }}
+            ></spline-viewer>
+          </div>
+
+          {/* 3D element (mobile) */}
+          <div className="lg:hidden h-[350px] opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <spline-viewer
               url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
               style={{ width: '100%', height: '100%', display: 'block' }}
