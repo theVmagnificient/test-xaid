@@ -41,9 +41,17 @@ const Hero = () => {
               Head, chest, and abdomen CT. Two AI layers + radiologist review — at the price of narrow AI. 2–12 hr TAT.
             </p>
 
-            {/* Stats bar (desktop position) */}
+            {/* 3D element (mobile) — under subtitle */}
+            <div className="lg:hidden h-[350px] mx-auto max-w-[400px] mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
+              <spline-viewer
+                url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
+                style={{ width: '100%', height: '100%', display: 'block' }}
+              ></spline-viewer>
+            </div>
+
+            {/* Stats bar */}
             <div
-              className="hidden lg:flex flex-wrap gap-2 mb-10 opacity-0 animate-fade-in-up"
+              className="flex flex-wrap gap-2 mb-10 opacity-0 animate-fade-in-up"
               style={{ animationDelay: '250ms' }}
             >
               {[
@@ -63,7 +71,7 @@ const Hero = () => {
 
             {/* CTAs */}
             <div
-              className="flex flex-wrap gap-4 mb-8 lg:mb-0 opacity-0 animate-fade-in-up"
+              className="flex flex-wrap gap-4 opacity-0 animate-fade-in-up"
               style={{ animationDelay: '350ms' }}
             >
               <button
@@ -78,34 +86,6 @@ const Hero = () => {
               >
                 Book a Demo
               </button>
-            </div>
-
-            {/* 3D element (mobile) */}
-            <div className="lg:hidden h-[350px] mx-auto max-w-[400px] mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              <spline-viewer
-                url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
-                style={{ width: '100%', height: '100%', display: 'block' }}
-              ></spline-viewer>
-            </div>
-
-            {/* Stats bar (mobile position — under 3D) */}
-            <div
-              className="flex lg:hidden flex-wrap gap-2 opacity-0 animate-fade-in-up"
-              style={{ animationDelay: '450ms' }}
-            >
-              {[
-                '62% more CT capacity',
-                '90% no-edit rate',
-                '<0.1% discrepancy',
-                '2–12 hr TAT',
-              ].map((stat) => (
-                <span
-                  key={stat}
-                  className="bg-white/10 backdrop-blur-sm border border-white/15 text-white/80 text-xs md:text-sm font-medium px-3 py-1.5 rounded-full"
-                >
-                  {stat}
-                </span>
-              ))}
             </div>
           </div>
 
