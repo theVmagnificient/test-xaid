@@ -63,7 +63,7 @@ const ReportExample = () => {
 
           {/* Right Column - Text Report */}
           <div className="bg-white rounded-2xl p-4 border border-[#E5E5E5] flex flex-col overflow-hidden">
-            <div className="overflow-hidden rounded-lg" style={{ clipPath: 'inset(0 0 4% 0)' }}>
+            <div className="overflow-hidden rounded-lg" style={{ clipPath: 'inset(0 0 30% 0)' }}>
               <img
                 src={reportText}
                 alt="Structured radiology report with findings and impressions"
