@@ -43,7 +43,7 @@ const Hero = () => {
 
             {/* CTAs (mobile: under subtitle) */}
             <div
-              className="flex flex-wrap gap-4 mb-12 lg:mb-0 opacity-0 animate-fade-in-up"
+              className="flex flex-wrap gap-4 mb-20 lg:mb-0 opacity-0 animate-fade-in-up"
               style={{ animationDelay: '200ms' }}
             >
               <button
