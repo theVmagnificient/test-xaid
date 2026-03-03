@@ -41,18 +41,37 @@ const Hero = () => {
               Head, chest, and abdomen CT. Two AI layers + radiologist review — at the price of narrow AI. 2–12 hr TAT.
             </p>
 
-            {/* 3D element (mobile) — under subtitle */}
-            <div className="lg:hidden h-[350px] mx-auto max-w-[400px] mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
+            {/* CTAs (mobile: under subtitle) */}
+            <div
+              className="flex flex-wrap gap-4 mb-8 lg:mb-0 opacity-0 animate-fade-in-up"
+              style={{ animationDelay: '200ms' }}
+            >
+              <button
+                onClick={scrollToReport}
+                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
+              >
+                See a Sample Report
+              </button>
+              <button
+                onClick={scrollToContact}
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
+              >
+                Book a Demo
+              </button>
+            </div>
+
+            {/* 3D element (mobile) — under CTAs */}
+            <div className="lg:hidden h-[350px] mx-auto max-w-[400px] mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '250ms' }}>
               <spline-viewer
                 url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
                 style={{ width: '100%', height: '100%', display: 'block' }}
               ></spline-viewer>
             </div>
 
-            {/* Stats bar */}
+            {/* Stats bar (mobile: under 3D) */}
             <div
               className="flex flex-wrap gap-2 mb-10 opacity-0 animate-fade-in-up"
-              style={{ animationDelay: '250ms' }}
+              style={{ animationDelay: '300ms' }}
             >
               {[
                 '62% more CT capacity',
@@ -67,25 +86,6 @@ const Hero = () => {
                   {stat}
                 </span>
               ))}
-            </div>
-
-            {/* CTAs */}
-            <div
-              className="flex flex-wrap gap-4 opacity-0 animate-fade-in-up"
-              style={{ animationDelay: '350ms' }}
-            >
-              <button
-                onClick={scrollToReport}
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
-              >
-                See a Sample Report
-              </button>
-              <button
-                onClick={scrollToContact}
-                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
-              >
-                Book a Demo
-              </button>
             </div>
           </div>
 
