@@ -22,7 +22,7 @@ const CTA = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-16 md:py-24 bg-[#0D0D0D]">
+    <section ref={sectionRef} className="pt-16 md:pt-24 pb-6 md:pb-8 bg-[#0D0D0D]">
       <div className="container-xaid">
         <div className="text-center max-w-[700px] mx-auto fade-up">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white mb-6">
