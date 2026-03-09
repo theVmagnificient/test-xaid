@@ -81,7 +81,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact-us" ref={sectionRef} className="py-16 md:py-24 bg-[#0D0D0D]">
+    <section id="contact-us" ref={sectionRef} className="pt-6 md:pt-8 pb-16 md:pb-24 bg-[#0D0D0D]">
       <div className="container-xaid">
         {/* Trust badges */}
         <div className="flex flex-wrap justify-center gap-3 mb-12 fade-up">
