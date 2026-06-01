@@ -1,5 +1,5 @@
-import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
+import WhoWeServe from '@/components/WhoWeServe';
 import Challenges from '@/components/Challenges';
 import Process from '@/components/Process';
 import Guarantee from '@/components/Guarantee';
@@ -9,12 +9,16 @@ import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import SEOMeta from '@/components/SEOMeta';
+import LatestFromBlog from '@/components/LatestFromBlog';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navigation />
+      <SEOMeta />
+
       <Hero />
+      <WhoWeServe />
       <Challenges />
       <Process />
       <Guarantee />
@@ -23,6 +27,7 @@ const Index = () => {
       <FAQ />
       <CTA />
       <Contact />
+      <LatestFromBlog />
       <Footer />
     </div>
   );

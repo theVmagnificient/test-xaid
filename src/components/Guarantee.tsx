@@ -1,4 +1,6 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 
 const Guarantee = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -24,25 +26,54 @@ const Guarantee = () => {
   return (
     <section id="results" ref={sectionRef} className="section-padding bg-[#0D0D0D]">
       <div className="container-xaid">
-        <div className="max-w-[900px] mx-auto text-center fade-up">
-          {/* Big stat */}
-          <div className="inline-flex items-center justify-center bg-xaid-blue/15 border border-xaid-blue/30 rounded-2xl px-8 py-4 mb-8">
-            <span className="font-['Poppins'] text-xaid-blue text-6xl md:text-8xl font-semibold leading-none">90%</span>
+
+        {/* Eyebrow */}
+        <div className="fade-up mb-10 md:mb-14">
+          <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em]">
+            Accuracy & guarantee
+          </span>
+        </div>
+
+        {/* Headline stat */}
+        <div
+          className="fade-up flex items-end gap-4 md:gap-6 pb-8 md:pb-10 border-b border-white/10"
+          style={{ transitionDelay: '100ms' }}
+        >
+          <span className="text-xaid-blue font-medium leading-none tracking-tight text-[70px] md:text-[100px] lg:text-[130px]">
+            95%
+          </span>
+          <span className="text-white font-normal leading-none mb-2 md:mb-3 lg:mb-4 text-[22px] md:text-[30px] lg:text-[38px]">
+            accuracy
+          </span>
+        </div>
+
+        {/* Tagline + CTA row */}
+        <div
+          className="fade-up pt-8 md:pt-10 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8"
+          style={{ transitionDelay: '200ms' }}
+        >
+          <div>
+            <p className="text-white font-normal leading-[1.15] text-[20px] md:text-[28px] lg:text-[36px] mb-4">
+              — or we reimburse
+            </p>
+            <p className="text-white/60 text-[15px] leading-[1.65] font-light max-w-md">
+              No other AI vendor offers a money-back accuracy guarantee
+            </p>
           </div>
 
-          <h2 className="font-['Poppins'] text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-6 leading-tight">
-            No-Edit Rate — Guaranteed.
-          </h2>
-
-          <p className="text-white/60 text-lg md:text-xl leading-relaxed mb-4 max-w-[680px] mx-auto">
-            9 out of 10 reports require zero downstream edits.
-            If we fall below that threshold, we reimburse.
-          </p>
-
-          <p className="text-white/40 text-base leading-relaxed max-w-[560px] mx-auto">
-            The only radiology AI that puts its money where its algorithm is. No other AI vendor offers this guarantee.
-          </p>
+          <Link
+            to="/#contact-us"
+            className="group inline-flex items-center justify-center gap-2 bg-xaid-blue hover:bg-xaid-blue/90 text-white text-[15px] font-medium px-8 py-4 rounded-full transition-all duration-200 hover:-translate-y-[1px] flex-shrink-0"
+          >
+            Book a demo
+            <ArrowRight
+              className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5"
+              strokeWidth={2}
+              aria-hidden="true"
+            />
+          </Link>
         </div>
+
       </div>
     </section>
   );

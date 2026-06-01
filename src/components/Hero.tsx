@@ -25,20 +25,20 @@ const Hero = () => {
             {/* Eyebrow pill */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6 animate-fade-in-up">
               <span className="w-2 h-2 rounded-full bg-xaid-blue flex-shrink-0"></span>
-              <span className="font-['Poppins'] text-white/90 text-sm font-medium">For Outpatient & Teleradiology CT</span>
+              <span className="font-['Poppins'] text-white/90 text-[11px] font-medium uppercase tracking-[0.12em]">For outpatient & teleradiology CT</span>
             </div>
 
-            <h1 className="font-['Poppins'] text-[38px] md:text-[50px] lg:text-[62px] font-normal text-white leading-[1.1] tracking-[-0.02em] mb-6 animate-fade-in-up" style={{ animationDelay: '50ms' }}>
-              Ready-to-Sign CT Reports.<br />
-              <span className="text-white/60">Not an Overlay.</span><br />
-              A Full Report.
+            <h1 className="font-['Poppins'] text-[32px] md:text-[42px] lg:text-[52px] font-medium text-white leading-[1.1] tracking-[-0.02em] mb-6 animate-fade-in-up" style={{ animationDelay: '50ms' }}>
+              Ready-to-sign CT reports.<br />
+              <span className="text-white/60">Not an overlay.</span><br />
+              A full report.
             </h1>
 
             <p
-              className="font-['Poppins'] text-white/60 text-base md:text-lg max-w-[480px] leading-relaxed mb-8 opacity-0 animate-fade-in-up"
+              className="font-['Poppins'] font-light text-white/60 text-[15px] leading-[1.65] max-w-[480px] mb-8 opacity-0 animate-fade-in-up"
               style={{ animationDelay: '150ms' }}
             >
-              Head, chest, and abdomen CT. Two AI layers + radiologist review — at the price of narrow AI. 2–12 hr TAT.
+              AI radiology reporting for outpatient imaging centers and teleradiology providers. Head, chest, and abdomen CT — two AI layers + radiologist review at narrow AI pricing. 2–12 hr TAT
             </p>
 
             {/* CTAs (mobile: under subtitle) */}
@@ -50,13 +50,13 @@ const Hero = () => {
                 onClick={scrollToReport}
                 className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
               >
-                See a Sample Report
+                See a sample report
               </button>
               <button
                 onClick={scrollToContact}
                 className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
               >
-                Book a Demo
+                Book a demo
               </button>
             </div>
 
@@ -74,14 +74,13 @@ const Hero = () => {
               style={{ animationDelay: '300ms' }}
             >
               {[
-                '62% more CT capacity',
-                '90% no-edit rate',
-                '<0.1% discrepancy',
+                '95% accuracy — or we reimburse',
                 '2–12 hr TAT',
+                'HIPAA + ISO 27001',
               ].map((stat) => (
                 <span
                   key={stat}
-                  className="bg-white/10 backdrop-blur-sm border border-white/15 text-white/80 text-xs md:text-sm font-medium px-3 py-1.5 rounded-full"
+                  className="bg-white/10 backdrop-blur-sm border border-white/15 text-white/80 text-xs md:text-sm font-light px-3 py-1.5 rounded-full"
                 >
                   {stat}
                 </span>

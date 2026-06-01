@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const PrivacyPolicy = () => {
@@ -10,7 +9,7 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navigation />
+
       <main id="privacy-policy" className="pt-24 pb-16 md:pt-32 md:pb-24">
         <section className="privacy-policy container-xaid">
           <div className="mb-8">
@@ -22,7 +21,7 @@ const PrivacyPolicy = () => {
             </Link>
           </div>
           <div className="privacy-policy-header mb-12">
-            <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
+            <h1 className="text-3xl font-light tracking-tight md:text-4xl">
               GDPR Privacy Policy
             </h1>
             <p className="mt-2 text-muted-foreground">Last Updated: 09.2024</p>
@@ -30,10 +29,10 @@ const PrivacyPolicy = () => {
 
           <div
             id="privacy-policy-sections"
-            className="privacy-policy-body prose prose-invert prose-headings:font-semibold prose-p:text-muted-foreground max-w-none"
+            className="privacy-policy-body prose prose-invert prose-headings:font-medium prose-p:text-muted-foreground max-w-none"
           >
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 1. Personal Data We Collect
               </h2>
               <p className="text-muted-foreground mb-4">
@@ -67,7 +66,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 2. How We Use Your Personal Data
               </h2>
               <p className="text-muted-foreground mb-4">
@@ -86,7 +85,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 3. Legal Basis for Processing (GDPR)
               </h2>
               <p className="text-muted-foreground mb-4">
@@ -105,7 +104,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 4. Data Retention
               </h2>
               <p className="text-muted-foreground">
@@ -118,7 +117,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 5. Your Data Protection Rights (GDPR)
               </h2>
               <p className="text-muted-foreground mb-4">
@@ -139,7 +138,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 6. Cookies and Tracking
               </h2>
               <p className="text-muted-foreground">
@@ -151,7 +150,7 @@ const PrivacyPolicy = () => {
             </section>
 
             <section className="mb-10">
-              <h2 className="text-xl font-semibold text-foreground mb-4">
+              <h2 className="text-xl font-normal text-foreground mb-4">
                 7. Contact Us
               </h2>
               <p className="text-muted-foreground">

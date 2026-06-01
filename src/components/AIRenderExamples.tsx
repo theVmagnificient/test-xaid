@@ -81,7 +81,7 @@ const AIRenderExamples = () => {
           <div className="lg:w-[45%] flex flex-col">
             {/* Section Header */}
             <div className="mb-8">
-              <h2 className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-6">
+              <h2 className="text-xaid-blue font-normal text-sm uppercase tracking-wider mb-6">
                 AI Render examples
               </h2>
               <p className="text-white/60 text-base leading-relaxed">

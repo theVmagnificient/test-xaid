@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build:dev",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/((?!assets|favicon|og-image|sitemap|robots|llms).*)", "destination": "/index.html" }
+  ]
+}

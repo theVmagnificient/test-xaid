@@ -2,16 +2,16 @@ import { useEffect, useRef } from 'react';
 
 const challenges = [
   {
-    title: 'Hiring Takes 12+ Months',
-    description: 'The average time-to-hire for a radiologist exceeds 12 months. Meanwhile your CT volume grows and revenue walks out the door.',
+    title: 'Hiring takes 12+ months',
+    description: 'The average time-to-hire for a radiologist exceeds 12 months. Meanwhile your CT volume grows and revenue walks out the door',
   },
   {
-    title: 'On-Demand Coverage Is Eating Your Margins',
-    description: 'Locum and on-call radiologists are expensive — and unpredictable. Every extra shift chips away at profit you\'ve already earned.',
+    title: 'On-demand coverage is eating your margins',
+    description: 'Locum and on-call radiologists are expensive — and unpredictable. Every extra shift chips away at profit you\'ve already earned',
   },
   {
-    title: 'Current AI Doesn\'t Save Time',
-    description: 'AI overlays improve detection rates — but radiologists still dictate the full report. TAT stays exactly the same.',
+    title: 'Current AI doesn\'t save time',
+    description: 'AI overlays improve detection rates — but radiologists still dictate the full report. TAT stays exactly the same',
   },
 ];
 
@@ -40,12 +40,12 @@ const Challenges = () => {
     <section id="challenges" ref={sectionRef} className="section-padding bg-[#EBEBEB]">
       <div className="container-xaid">
         {/* Card Container */}
-        <div className="bg-white rounded-2xl p-8 md:p-12 lg:p-16">
+        <div className="bg-white rounded-2xl p-8 md:p-10 lg:p-12">
           {/* Section Header */}
           <div className="mb-12 md:mb-16 fade-up">
-            <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Why Radiology Groups Are Stuck</span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0D0D0D] leading-[1.4]">
-              Radiology groups face <span className="bg-xaid-blue text-white px-2 py-1 inline-block">mounting pressure</span>
+            <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Why radiology groups are stuck</span>
+            <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-[#0D0D0D] leading-[1.15]">
+              Radiology groups face <span className="text-white box-decoration-clone bg-[linear-gradient(180deg,transparent_0_0.22em,hsl(227_92%_71%)_0.22em_calc(100%_-_0.22em),transparent_calc(100%_-_0.22em))]">mounting pressure</span>
             </h2>
           </div>
 
@@ -57,8 +57,8 @@ const Challenges = () => {
                 className="fade-up"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <h3 className="text-lg font-semibold text-[#0D0D0D] mb-3">{challenge.title}</h3>
-                <p className="text-[#666666] text-base leading-relaxed">{challenge.description}</p>
+                <h3 className="text-[18px] font-medium leading-[1.3] text-[#0D0D0D] mb-3">{challenge.title}</h3>
+                <p className="text-[#666666] text-[15px] leading-[1.65] font-light">{challenge.description}</p>
               </div>
             ))}
           </div>

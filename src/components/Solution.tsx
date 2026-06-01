@@ -2,19 +2,15 @@ import { useEffect, useRef } from 'react';
 const features = [{
   tag: 'Reports',
   title: 'Ready-to-sign reports',
-  description: 'AI-enhanced AI reports with human validation. Built on our own proprietary AI - not third-party tools.'
+  description: 'AI-generated preliminary reports reviewed by our in-house radiologist before delivery. Built on our own proprietary AI - not third-party tools.'
 }, {
-  tag: 'Сlinicians',
-  title: 'Academic Intelligence',
+  tag: 'Clinicians',
+  title: 'Academic intelligence',
   description: 'Our clinicians are predominantly subspecialty trained, with many holding academic and leadership roles at leading institutions'
 }, {
   tag: 'AI Algorithms',
-  title: '100+ AI Findings',
+  title: '100+ AI findings',
   description: 'AI that comprehensively covers 100+ pathologies across emergency and opportunistic findings'
-}, {
-  tag: 'AI Algorithms',
-  title: '< 0.1% discrepancy rate',
-  description: 'We consistently deliver high-quality reads with a discrepancy rate well below industry norms, reflecting a strong commitment to accuracy and clinical reliability'
 }];
 const Solution = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -36,27 +32,27 @@ const Solution = () => {
       <div className="container-xaid">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16 fade-up">
-          <span className="text-white/80 font-semibold text-sm uppercase tracking-wider mb-4 block">Our solution</span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-6 leading-tight">
-            <span className="text-xaid-blue ">Ready-to-sign AI reports</span><br />
+          <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Our solution</span>
+          <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-white mb-6 leading-[1.15]">
+            <span className="text-xaid-blue ">Ready-to-sign preliminary reports</span><br />
             <span className="text-xaid-blue">with human</span>{' '}
             <span className="text-white">in the loop</span>
           </h2>
-          <p className="text-white/60 text-base md:text-lg max-w-[800px] mx-auto leading-relaxed">
-            xAID integrates directly into the client's infrastructure, enabling fully automated delivery of ready-to-sign reports — validated by multiple AI models and our radiologists, and formatted strictly to the client's reporting templates
+          <p className="text-white/60 text-[15px] leading-[1.65] font-light max-w-3xl mx-auto">
+            xAID integrates directly into the client's infrastructure, delivering ready-to-sign preliminary reports — validated by AI and reviewed by our radiologist before delivery, and formatted strictly to the client's reporting templates
           </p>
         </div>
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
-          {features.map((feature, index) => <div key={feature.title} className="bg-xaid-blue rounded-2xl p-6 md:p-8 min-h-[320px] flex flex-col justify-start items-start text-left fade-up" style={{
+          {features.map((feature, index) => <div key={feature.title} className="bg-xaid-blue rounded-2xl p-6 md:p-8 min-h-[320px] flex flex-col justify-start items-start fade-up" style={{
           transitionDelay: `${index * 100}ms`
         }}>
               <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-transparent border border-white/30 text-white mb-6">
                 {feature.tag}
               </span>
-              <h3 className="text-xl md:text-2xl font-semibold text-white mb-3 text-left min-h-[3.5rem] md:min-h-[4rem]">{feature.title}</h3>
-              <p className="text-white/80 text-sm leading-relaxed text-left">{feature.description}</p>
+              <h3 className="text-[18px] font-medium leading-[1.3] text-white mb-3 min-h-[3.5rem] md:min-h-[4rem]">{feature.title}</h3>
+              <p className="text-white/80 text-[15px] leading-[1.65] font-light">{feature.description}</p>
             </div>)}
         </div>
       </div>

@@ -4,18 +4,18 @@ import { Asterisk } from 'lucide-react';
 const benefits = [
   {
     title: 'Measurable ROI',
-    description: 'Your team spends less time creating reports from scratch, increasing margin per study by ~15–20%.',
+    description: 'Your team spends less time creating reports from scratch, increasing margin per study by ~15–20%',
   },
   {
     title: 'Faster turn-around-times',
-    description: 'Our clients achieve faster, more predictable turnaround times by removing workflow bottlenecks rather than adding reader headcount.',
+    description: 'Our clients achieve faster, more predictable turnaround times by removing workflow bottlenecks rather than adding reader headcount',
   },
   {
-    title: 'Consistent Quality',
-    description: 'AI-powered reports combined with continuous oversight by boarded radiologists ensure reproducible, clinically reliable results, aligned to your team\'s reporting style across every case.',
+    title: 'Consistent quality',
+    description: 'Every preliminary report is AI-generated and reviewed by our in-house radiologist before delivery — ensuring reproducible, clinically reliable results aligned to your team\'s reporting style across every case',
   },
   {
-    title: '24/7 Coverage',
+    title: '24/7 coverage',
     description: 'Time-zone flexibility enables continuous 24/7 coverage across the U.S. aligned to your demand',
   },
 ];
@@ -46,7 +46,7 @@ const Benefits = () => {
       <div className="container-xaid">
         {/* Section Header */}
         <div className="mb-12 md:mb-16 fade-up">
-          <span className="text-xaid-blue font-semibold text-base md:text-lg uppercase tracking-wider">Benefits you get</span>
+          <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em]">Benefits you get</span>
         </div>
 
         {/* Benefits Grid */}
@@ -64,8 +64,8 @@ const Benefits = () => {
               
               {/* Content */}
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">{benefit.title}</h3>
-                <p className="text-white/50 text-base leading-relaxed">{benefit.description}</p>
+                <h3 className="text-[18px] font-medium leading-[1.3] text-white mb-2">{benefit.title}</h3>
+                <p className="text-white/60 text-[15px] leading-[1.65] font-light">{benefit.description}</p>
               </div>
             </div>
           ))}

@@ -29,12 +29,12 @@ const ReportExample = () => {
       <div className="container-xaid">
         {/* Title */}
         <div className="text-center mb-12 fade-up">
-          <span className="text-xaid-blue font-semibold text-sm uppercase tracking-wider mb-4 block">Sample Report</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            See What You're Signing
+          <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Sample Report</span>
+          <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-white mb-4 leading-[1.15]">
+            See what you're signing
           </h2>
-          <p className="text-[#888888] mt-2 max-w-2xl mx-auto text-lg">
-            Built to your template. Ready to sign.
+          <p className="text-white/60 mt-2 max-w-2xl mx-auto text-[15px] leading-[1.65] font-light">
+            Built to your template. Ready to sign
           </p>
         </div>
 

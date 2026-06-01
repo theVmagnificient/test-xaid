@@ -10,5 +10,29 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+# AI search bots — allowed to index and cite
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: *
 Allow: /
+
+Sitemap: https://xaid.ai/sitemap.xml
