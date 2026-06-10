@@ -2,11 +2,12 @@ import { Helmet } from "react-helmet-async";
 
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "MedicalOrganization",
   "name": "xAID",
   "url": "https://xaid.ai",
   "logo": "https://xaid.ai/favicon.ico",
   "description": "AI-powered CT reporting service for outpatient imaging centers and teleradiology providers. Ready-to-sign head, chest, and abdomen CT reports with two AI layers and radiologist review.",
+  "medicalSpecialty": "Radiology",
   "areaServed": "US",
   "contactPoint": {
     "@type": "ContactPoint",
@@ -72,18 +73,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "What accuracy does xAID AI radiology achieve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "xAID achieves 95% accuracy — or we reimburse. See full clinical evidence at xaid.ai/accuracy."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "How does AI CT reporting compare to locum radiologists in cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Locum radiologists cost $500,000â$650,000 per year for full-time coverage, take 6â18 months to recruit, and carry burnout and turnover risk. xAID charges per study at narrow AI rates, sets up in under one week, and includes 24/7 coverage — with no staffing overhead."
+        "text": "Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 6–18 months to recruit, and carry burnout and turnover risk. xAID charges per study at narrow AI rates, sets up in under one week, and includes 24/7 coverage — with no staffing overhead."
       }
     },
     {

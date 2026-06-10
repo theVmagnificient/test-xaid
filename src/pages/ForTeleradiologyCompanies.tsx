@@ -317,7 +317,7 @@ const ForTeleradiologyCompanies = () => {
               ))}
             </div>
             <div className="text-center mt-8">
-              <Link to="/accuracy" className="text-xaid-blue text-sm font-medium hover:underline">View clinical evidence →</Link>
+              <Link to="/accuracy" className="text-xaid-blue text-sm font-medium hover:underline">See peer-reviewed accuracy data for AI CT reporting →</Link>
             </div>
           </div>
         </section>

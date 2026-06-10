@@ -43,7 +43,7 @@ const HeadCtReport = () => {
   return (
     <>
       <Helmet>
-        <title>AI Head CT Reporting Service — Structured Reports in 2–12 Hours | xAID</title>
+        <title>AI Head CT Reporting — Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
           content="AI head CT reporting: structured, preliminary reports in 2–12 hours. Covers stroke signs, intracranial hemorrhage, fractures, and more. 24/7. HIPAA compliant. Free 5-study pilot."

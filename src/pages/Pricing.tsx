@@ -72,7 +72,7 @@ const Pricing = () => {
   return (
     <>
       <Helmet>
-        <title>AI CT Reporting Pricing — xAID vs Locum Radiologist vs Teleradiology</title>
+        <title>AI CT Reporting Pricing vs Locum & Teleradiology | xAID</title>
         <meta
           name="description"
           content="Compare AI CT reporting costs: xAID vs locum radiologist ($500K+/yr) vs traditional teleradiology ($40–80/study). See the ROI of ready-to-sign AI radiology reports."

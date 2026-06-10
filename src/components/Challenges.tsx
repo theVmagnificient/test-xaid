@@ -45,7 +45,7 @@ const Challenges = () => {
           <div className="mb-12 md:mb-16 fade-up">
             <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Why radiology groups are stuck</span>
             <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-[#0D0D0D] leading-[1.15]">
-              Radiology groups face <span className="text-white box-decoration-clone bg-[linear-gradient(180deg,transparent_0_0.22em,hsl(227_92%_71%)_0.22em_calc(100%_-_0.22em),transparent_calc(100%_-_0.22em))]">mounting pressure</span>
+              Radiology groups face <span className="bg-xaid-blue text-white box-decoration-clone px-2 py-[3px]">mounting pressure</span>
             </h2>
           </div>
 
@@ -57,7 +57,7 @@ const Challenges = () => {
                 className="fade-up"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <h3 className="text-[18px] font-medium leading-[1.3] text-[#0D0D0D] mb-3">{challenge.title}</h3>
+                <h3 className="text-[18px] font-medium leading-[1.3] text-[#0D0D0D] mb-3 min-h-[2.6em]">{challenge.title}</h3>
                 <p className="text-[#666666] text-[15px] leading-[1.65] font-light">{challenge.description}</p>
               </div>
             ))}

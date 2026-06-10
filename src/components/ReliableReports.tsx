@@ -20,7 +20,7 @@ const ReliableReports = () => {
           {/* Header */}
           <div className="mb-8 fade-up">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal leading-tight mb-2">
-              <span className="text-white box-decoration-clone bg-[linear-gradient(180deg,transparent_0_0.22em,hsl(227_92%_71%)_0.22em_calc(100%_-_0.22em),transparent_calc(100%_-_0.22em))]">Built for reliable reports.</span>
+              <span className="bg-xaid-blue text-white box-decoration-clone px-2 py-[3px]">Built for reliable reports.</span>
             </h2>
             <p className="text-3xl md:text-4xl lg:text-5xl font-medium leading-tight text-white">
               AI accelerates detection, but radiologists own the final interpretation

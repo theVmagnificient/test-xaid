@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
             <h1 className="text-3xl font-light tracking-tight md:text-4xl">
               GDPR Privacy Policy
             </h1>
-            <p className="mt-2 text-muted-foreground">Last Updated: 09.2024</p>
+            <p className="mt-2 text-muted-foreground">Last updated: June 2026</p>
           </div>
 
           <div

@@ -50,7 +50,7 @@ const Process = () => {
                 How it works
               </span>
               <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal leading-[1.15] text-[#0D0D0D]">
-                <span className="text-white box-decoration-clone bg-[linear-gradient(180deg,transparent_0_0.22em,hsl(227_92%_71%)_0.22em_calc(100%_-_0.22em),transparent_calc(100%_-_0.22em))]">Three simple steps</span>{' '}
+                <span className="bg-xaid-blue text-white box-decoration-clone px-2 py-[3px]">Three simple steps</span>{' '}
                 <span>from scan to ready-to-sign report</span>
               </h2>
             </div>

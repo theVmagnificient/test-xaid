@@ -63,7 +63,7 @@ const AiVsTeleradiology = () => {
   return (
     <>
       <Helmet>
-        <title>AI CT Reporting vs Overseas Teleradiology: Accuracy, Cost & Setup Compared | xAID</title>
+        <title>AI CT Reporting vs Teleradiology: Cost & Accuracy | xAID</title>
         <meta
           name="description"
           content="AI CT reporting vs overseas teleradiology: 95% verified accuracy vs no published data, flat per-study rate vs 30–100% after-hours surcharge, under-1-week setup vs 2–8 weeks. Full comparison."
