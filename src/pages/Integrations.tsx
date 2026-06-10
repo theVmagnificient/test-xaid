@@ -75,7 +75,7 @@ const Integrations = () => {
           <div className="container-xaid">
             <div className="max-w-3xl">
               <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Integrations</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
                 DICOM in.<br />
                 <span className="text-white/60">HL7 out.</span><br />
                 <span className="text-white/60">Setup under one week</span>

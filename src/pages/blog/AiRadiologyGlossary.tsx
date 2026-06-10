@@ -187,7 +187,7 @@ const AiRadiologyGlossary = () => {
               <span className="bg-white/5 border border-white/10 rounded-full px-3 py-1 text-xs text-xaid-blue font-medium">Reference</span>
               <span className="text-gray-500 text-sm self-center">March 4, 2026 · 10 min read</span>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI Radiology Terminology Glossary: Key Terms Explained
             </h1>
             <p className="text-lg text-gray-300 text-[15px] leading-[1.65] font-light">

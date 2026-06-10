@@ -44,8 +44,8 @@ const Challenges = () => {
           {/* Section Header */}
           <div className="mb-12 md:mb-16 fade-up">
             <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Why radiology groups are stuck</span>
-            <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-[#0D0D0D] leading-[1.15]">
-              Radiology groups face <span className="bg-xaid-blue text-white box-decoration-clone px-2 py-[3px]">mounting pressure</span>
+            <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-[#0D0D0D] leading-[1.4] ">
+              Radiology groups face <span className="bg-xaid-blue text-white box-decoration-clone whitespace-nowrap px-2">mounting pressure</span>
             </h2>
           </div>
 

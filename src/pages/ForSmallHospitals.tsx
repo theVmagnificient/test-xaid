@@ -116,7 +116,7 @@ const ForSmallHospitals = () => {
           <div className="container-xaid">
             <div className="max-w-3xl">
               <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">AI Radiology for Small & Community Hospitals</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
                 24/7 CT coverage.<br />
                 <span className="text-white/60">No radiologist on staff required</span>
               </h1>

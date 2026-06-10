@@ -145,7 +145,7 @@ const CtRadiologyCoverageCosts = () => {
               <div className="mb-6">
                 <span className="text-xaid-blue text-xs font-medium uppercase tracking-wider">Cost analysis</span>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
                 CT Radiology Coverage Costs 2026: In-House, Teleradiology, Locum, and AI Compared
               </h1>
               <p className="text-gray-400 text-[15px] leading-[1.65] font-light mb-6">

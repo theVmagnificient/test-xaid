@@ -108,7 +108,7 @@ const SmallHospitalRadiology = () => {
                 <span className="text-white/40 text-xs">March 19, 2026</span>
                 <span className="text-white/40 text-xs">9 min read</span>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
                 AI Radiology for Small and Community Hospitals 2026: Coverage Options, Costs, and Implementation
               </h1>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-8">

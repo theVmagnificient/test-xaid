@@ -130,7 +130,7 @@ const Accuracy = () => {
         <section className="pt-32 pb-16 section-padding">
           <div className="container-xaid text-center">
             <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Accuracy & clinical evidence</span>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               How accurate is<br />
               <span className="text-white/60">AI CT reporting?</span>
             </h1>

@@ -53,7 +53,7 @@ const Blog = () => {
           <div className="container-xaid">
             <div className="max-w-3xl">
               <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">Blog</span>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-4">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-4">
                 AI radiology insights
               </h1>
               <p className="text-white/60 text-[15px] leading-[1.65] font-light">

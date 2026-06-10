@@ -97,7 +97,7 @@ const CtReportTurnaroundTime = () => {
               <span className="text-white/40 text-sm">{post.date}</span>
               <span className="text-white/30 text-sm">{post.readingTime} min read</span>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               CT Report Turnaround Time<br />
               <span className="text-white/60">Benchmarks 2026: What's Normal and What's Not</span>
             </h1>

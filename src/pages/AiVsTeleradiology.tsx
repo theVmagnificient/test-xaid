@@ -89,7 +89,7 @@ const AiVsTeleradiology = () => {
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-white/5 border border-white/10 rounded-full px-3 py-1 text-xs text-xaid-blue font-medium">Comparison</span>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI CT reporting vs overseas teleradiology
             </h1>
             <p className="text-white/60 text-[15px] leading-[1.65] font-light mb-4">

@@ -105,7 +105,7 @@ const HipaaCompliantAiRadiology = () => {
               <span className="text-white/40 text-sm">{post.date}</span>
               <span className="text-white/30 text-sm">{post.readingTime} min read</span>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Is AI Radiology Reporting HIPAA Compliant?<br />
               <span className="text-white/60">What to Ask Before You Buy</span>
             </h1>
