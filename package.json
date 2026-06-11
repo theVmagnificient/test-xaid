@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "rsync -avr --exclude \".DS_Store\" dist/* aurora:/var/www/xaid.ai/"
+    "deploy": "rsync -avr --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
