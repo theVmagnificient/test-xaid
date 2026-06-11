@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npx react-snap",
+    "build": "vite build && node scripts/snap.mjs",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "rsync -avr --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./"
+    "deploy": "rsync -rlv --no-perms --no-times --no-owner --no-group --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -74,7 +74,7 @@
     "destination": "dist",
     "include": ["/", "/privacy-policy", "/pricing", "/ai-vs-teleradiology", "/ai-vs-locum-radiologist", "/for-outpatient-imaging-centers", "/for-teleradiology-companies", "/for-radiology-groups", "/for-small-hospitals", "/compliance", "/accuracy", "/chest-ct-ai-report", "/head-ct-ai-report", "/abdomen-ct-ai-report", "/integrations", "/blog", "/blog/how-accurate-is-ai-radiology-reporting", "/blog/radiologist-shortage-2026-ai-ct-reporting", "/blog/ct-report-turnaround-time-benchmarks-2026", "/blog/ai-teleradiology-vs-traditional-teleradiology-2026", "/blog/is-ai-radiology-reporting-hipaa-compliant", "/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting", "/blog/ct-radiology-coverage-costs-2026", "/blog/ai-radiology-reporting-buyers-guide-2026", "/blog/after-hours-radiology-coverage-options", "/how-ai-ct-reporting-works", "/blog/ai-radiology-terminology-glossary", "/blog/ai-radiology-for-small-hospitals-2026"],
     "headless": true,
-    "puppeteerExecutablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "skipThirdPartyRequests": true,
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   },
   "devDependencies": {
