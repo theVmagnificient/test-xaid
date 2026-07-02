@@ -48,7 +48,6 @@ const ChestCtReport = () => {
           name="description"
           content="AI chest CT reporting: structured, preliminary reports in 2–12 hours. 95% accuracy verified by peer-reviewed studies. 24/7 coverage, HIPAA compliant. Free 5-study pilot."
         />
-        <link rel="canonical" href="https://xaid.ai/chest-ct-ai-report" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Chest CT Reporting Service | xAID" />
         <meta property="og:description" content="AI chest CT preliminary reports in 2–12 hours — structured, radiologist-reviewed, ready to sign. 95% accuracy verified, HIPAA compliant. Free 5-study pilot." />

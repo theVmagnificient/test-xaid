@@ -159,7 +159,6 @@ const AiRadiologyGlossary = () => {
           name="description"
           content="Definitions of key AI radiology and CT reporting terms: DICOM, HL7, PACS, teleradiology, AI detection vs AI reporting, sensitivity/specificity, accuracy, BAA, and more — clearly explained."
         />
-        <link rel="canonical" href="https://xaid.ai/blog/ai-radiology-terminology-glossary" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Radiology Terminology Glossary — Key Terms Explained" />
         <meta property="og:description" content="Clear definitions of key AI radiology terms: DICOM, HL7, PACS, teleradiology, AI detection vs reporting, sensitivity/specificity, accuracy, and more." />

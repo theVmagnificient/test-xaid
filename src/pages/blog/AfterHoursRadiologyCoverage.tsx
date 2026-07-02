@@ -113,7 +113,6 @@ const AfterHoursRadiologyCoverage = () => {
           name="description"
           content="Full comparison of after-hours radiology coverage: in-house on-call, locum, teleradiology surcharges, and AI CT reporting at flat rate. Costs, availability, and quality guarantees compared."
         />
-        <link rel="canonical" href="https://xaid.ai/blog/after-hours-radiology-coverage-options" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="After-Hours Radiology Coverage Options 2026: Costs, Availability & Quality Compared" />
         <meta property="og:description" content="In-house on-call vs locum vs teleradiology surcharge vs AI CT reporting — costs, availability, and quality guarantees for after-hours radiology coverage." />

@@ -48,7 +48,6 @@ const HeadCtReport = () => {
           name="description"
           content="AI head CT reporting: structured, preliminary reports in 2–12 hours. Covers stroke signs, intracranial hemorrhage, fractures, and more. 24/7. HIPAA compliant. Free 5-study pilot."
         />
-        <link rel="canonical" href="https://xaid.ai/head-ct-ai-report" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Head CT Reporting Service | xAID" />
         <meta property="og:description" content="AI head CT preliminary reports in 2–12 hours — structured, radiologist-reviewed, ready to sign. HIPAA compliant, 24/7 coverage. Free 5-study pilot." />

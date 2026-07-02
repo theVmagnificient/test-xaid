@@ -18,7 +18,6 @@ const FoundationModelsVsNarrowAI = () => {
       <Helmet>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
-        <link rel="canonical" href="https://xaid.ai/blog/foundation-models-vs-narrow-ai-radiology" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.description} />

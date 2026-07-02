@@ -68,7 +68,6 @@ const AiVsTeleradiology = () => {
           name="description"
           content="AI CT reporting vs overseas teleradiology: 95% verified accuracy vs no published data, flat per-study rate vs 30–100% after-hours surcharge, under-1-week setup vs 2–8 weeks. Full comparison."
         />
-        <link rel="canonical" href="https://xaid.ai/ai-vs-teleradiology" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting vs Overseas Teleradiology: Full Comparison" />
         <meta property="og:description" content="Compare AI CT reporting vs overseas teleradiology — accuracy, pricing, after-hours surcharges, quality guarantees, and setup time." />

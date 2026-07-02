@@ -45,7 +45,6 @@ const ForTeleradiologyCompanies = () => {
           name="description"
           content="AI radiology reporting for teleradiology companies. Ready-to-sign head, chest & abdomen CT reports at narrow AI pricing — 2–12 hr TAT, 95% accuracy verified, radiologist review included. Scale CT coverage without hiring."
         />
-        <link rel="canonical" href="https://xaid.ai/for-teleradiology-companies" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Teleradiology Companies | xAID" />
         <meta property="og:description" content="Scale CT coverage without hiring. Ready-to-sign AI radiology reports for teleradiology providers — 2–12 hr TAT, 95% accuracy verified, radiologist review included." />

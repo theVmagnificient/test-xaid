@@ -77,7 +77,6 @@ const Pricing = () => {
           name="description"
           content="Compare AI CT reporting costs: xAID vs locum radiologist ($500K+/yr) vs traditional teleradiology ($40–80/study). See the ROI of ready-to-sign AI radiology reports."
         />
-        <link rel="canonical" href="https://xaid.ai/pricing" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting Pricing — xAID vs Locum vs Teleradiology" />
         <meta property="og:description" content="Full cost comparison: AI radiology reporting vs locum radiologists vs traditional teleradiology. Free 5-study pilot." />

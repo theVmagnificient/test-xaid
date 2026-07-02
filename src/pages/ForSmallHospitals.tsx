@@ -39,7 +39,6 @@ const ForSmallHospitals = () => {
           name="description"
           content="AI radiology reporting for small hospitals, critical access hospitals, and community hospitals. Ready-to-sign CT reports — 2–12 hr TAT, no after-hours surcharge, radiologist review included. Setup under 1 week."
         />
-        <link rel="canonical" href="https://xaid.ai/for-small-hospitals" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Small & Community Hospitals | xAID" />
         <meta property="og:description" content="CT radiology coverage for small and community hospitals — no after-hours surcharge, no enterprise contract, radiologist review on every report." />

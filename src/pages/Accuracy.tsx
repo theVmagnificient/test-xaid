@@ -62,7 +62,6 @@ const Accuracy = () => {
           name="description"
           content="How accurate is AI CT reporting? xAID achieved 92.2% sensitivity vs 58.3% for unaided radiologists in published research. 94.9% clinician approval in multi-center European study. 95% accuracy verified by peer-reviewed studies."
         />
-        <link rel="canonical" href="https://xaid.ai/accuracy" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Radiology Accuracy — Clinical Evidence | xAID" />
         <meta property="og:description" content="xAID CT reporting accuracy: 92.2% sensitivity, 94.9% clinician approval in published studies. 95% accuracy verified by peer-reviewed studies." />

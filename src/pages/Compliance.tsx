@@ -45,7 +45,6 @@ const Compliance = () => {
           name="description"
           content="xAID AI CT reporting is fully HIPAA compliant. US-based AWS infrastructure, ISO 27001 certified, BAA available before pilot, European radiologist review on every report. Built for imaging centers and teleradiology providers."
         />
-        <link rel="canonical" href="https://xaid.ai/compliance" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="HIPAA Compliant AI Radiology Reporting | xAID" />
         <meta property="og:description" content="HIPAA compliant AI CT reporting. US-based infrastructure, ISO 27001 certified, BAA available, European radiologist review on every report." />

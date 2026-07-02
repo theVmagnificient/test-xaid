@@ -11,7 +11,6 @@ const AiRadiologyBuyersGuide = () => {
           name="description"
           content="How to evaluate AI radiology reporting software in 2026. Compare detection-only tools vs full reporting services, pricing models, accuracy data, radiologist review, and quality guarantees before committing."
         />
-        <link rel="canonical" href="https://xaid.ai/blog/ai-radiology-reporting-buyers-guide-2026" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Radiology Reporting Software: A 2026 Buyer's Guide" />
         <meta property="og:description" content="How to evaluate AI radiology reporting software — detection tools vs full report services, pricing, accuracy data, and quality guarantees." />

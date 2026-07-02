@@ -11,7 +11,6 @@ const SmallHospitalRadiology = () => {
           name="description"
           content="Small hospitals and critical access hospitals face the same radiology coverage problem: can't hire a full-time radiologist, can't afford locum rates, and traditional teleradiology after-hours surcharges make 24/7 coverage unaffordable. Here's what actually works."
         />
-        <link rel="canonical" href="https://xaid.ai/blog/ai-radiology-for-small-hospitals-2026" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Radiology for Small and Community Hospitals 2026 | xAID" />
         <meta property="og:description" content="Coverage options, costs, and implementation guide for small hospitals and critical access hospitals facing radiology staffing shortages in 2026." />

@@ -126,7 +126,6 @@ const HowAiCtReportingWorks = () => {
           name="description"
           content="What is AI CT reporting and how does it work? Complete explainer: two-AI-layer analysis, radiologist review, preliminary report delivery — and how it differs from AI detection tools."
         />
-        <link rel="canonical" href="https://xaid.ai/how-ai-ct-reporting-works" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="How AI CT Reporting Works: From DICOM to AI CT Report" />
         <meta property="og:description" content="AI CT reporting explained: how two AI layers plus radiologist review deliver complete ready-to-sign preliminary reports — and how this differs from detection-only tools." />

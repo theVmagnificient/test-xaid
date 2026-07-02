@@ -48,7 +48,6 @@ const AbdomenCtReport = () => {
           name="description"
           content="AI abdomen CT reporting: structured, preliminary reports in 2–12 hours. Full abdominal coverage — liver, kidneys, pancreas, bowel, and more. 24/7. HIPAA compliant. Free pilot."
         />
-        <link rel="canonical" href="https://xaid.ai/abdomen-ct-ai-report" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Abdomen CT Reporting Service | xAID" />
         <meta property="og:description" content="AI abdomen CT preliminary reports in 2–12 hours — structured, radiologist-reviewed, ready to sign. Full abdominal coverage, HIPAA compliant, 24/7." />

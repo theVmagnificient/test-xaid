@@ -12,7 +12,6 @@ const Blog = () => {
           name="description"
           content="Research, clinical evidence, and practical guides for radiology professionals navigating AI CT reporting. Accuracy data, HIPAA compliance, TAT benchmarks, and workflow insights."
         />
-        <link rel="canonical" href="https://xaid.ai/blog" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Radiology Blog — CT Reporting Insights | xAID" />
         <meta property="og:description" content="Clinical evidence, compliance guides, and operational benchmarks for AI CT reporting." />

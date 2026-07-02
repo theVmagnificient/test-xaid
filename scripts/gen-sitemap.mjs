@@ -20,6 +20,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 const ORIGIN = 'https://xaid.ai';
 
+// Trailing-slash form — matches what the server serves and the canonical tags
+// injected by fix-html.mjs (xaid.ai 301-redirects /page -> /page/).
+const locFor = (route) => (route === '/' ? `${ORIGIN}/` : `${ORIGIN}${route}/`);
+
 // Bump when static (non-blog) pages materially change.
 const STATIC_LASTMOD = '2026-06-05';
 
@@ -93,15 +97,15 @@ const entries = routes.map((route) => {
     if (!lastmod) {
       warnings.push(`route ${route} has no matching entry in blog-posts.ts — using ${STATIC_LASTMOD}`);
     }
-    return { loc: ORIGIN + route, lastmod: lastmod ?? STATIC_LASTMOD, ...BLOG_ARTICLE_META };
+    return { loc: locFor(route), lastmod: lastmod ?? STATIC_LASTMOD, ...BLOG_ARTICLE_META };
   }
   const meta = STATIC_META[route];
   if (!meta) {
     warnings.push(`route ${route} not in STATIC_META — using default monthly/0.7`);
-    return { loc: ORIGIN + route, lastmod: STATIC_LASTMOD, changefreq: 'monthly', priority: '0.7' };
+    return { loc: locFor(route), lastmod: STATIC_LASTMOD, changefreq: 'monthly', priority: '0.7' };
   }
   const lastmod = route === '/blog' ? newestPost : STATIC_LASTMOD;
-  return { loc: ORIGIN + route, lastmod, ...meta };
+  return { loc: locFor(route), lastmod, ...meta };
 });
 
 const xml = [

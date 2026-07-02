@@ -117,7 +117,6 @@ const CtRadiologyCoverageCosts = () => {
           name="description"
           content="Full cost comparison of CT radiology coverage in 2026: in-house radiologist, locum, traditional teleradiology, and AI CT reporting. Per-study costs, annual spend, setup time, quality guarantees."
         />
-        <link rel="canonical" href="https://xaid.ai/blog/ct-radiology-coverage-costs-2026" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="CT Radiology Coverage Costs 2026: In-House vs Teleradiology vs AI" />
         <meta property="og:description" content="How much does CT radiology coverage cost in 2026? Full comparison of in-house radiologist, locum, teleradiology, and AI CT reporting — per-study costs, annual spend, and quality guarantees." />

@@ -66,7 +66,6 @@ const AiVsLocumRadiologist = () => {
           name="description"
           content="AI CT reporting vs hiring a locum radiologist: annual cost ($500K–$650K vs per-study AI pricing), time to start (6–18 months vs under 1 week), quality guarantees, and staffing risk. xAID covers CT in under a week."
         />
-        <link rel="canonical" href="https://xaid.ai/ai-vs-locum-radiologist" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting vs Locum Radiologist — Full Cost & Risk Comparison" />
         <meta property="og:description" content="Compare AI CT reporting to hiring a locum radiologist — cost, setup time, staffing risk, and quality guarantees." />

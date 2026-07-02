@@ -9,14 +9,14 @@ import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import SEOMeta from '@/components/SEOMeta';
 import LatestFromBlog from '@/components/LatestFromBlog';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <SEOMeta />
-
+      {/* Homepage JSON-LD (Organization/SoftwareApplication/FAQ) is injected into the
+          prerendered HTML at build time by scripts/fix-html.mjs from
+          src/data/homepageSchema.json — react-snap does not capture Helmet head on "/". */}
       <Hero />
       <WhoWeServe />
       <Challenges />

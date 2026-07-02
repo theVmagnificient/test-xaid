@@ -115,7 +115,6 @@ const HowToSwitchToAiRadiology = () => {
           name="description"
           content="Step-by-step guide to transitioning from traditional teleradiology to AI CT reporting. Free pilot, DICOM integration in under a week, BAA, parallel period, and quality monitoring — complete implementation guide."
         />
-        <link rel="canonical" href="https://xaid.ai/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="How to Switch from Teleradiology to AI CT Reporting: Step-by-Step Guide" />
         <meta property="og:description" content="Complete guide to switching from teleradiology to AI CT reporting — pilot evaluation, DICOM integration, BAA, parallel testing, and quality monitoring." />

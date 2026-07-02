@@ -45,7 +45,6 @@ const ForRadiologyGroups = () => {
           name="description"
           content="AI CT reporting for radiology groups. Handle overflow, after-hours coverage, and radiologist burnout with ready-to-sign AI reports — 2–12 hr TAT, 95% accuracy verified, European radiologist review included."
         />
-        <link rel="canonical" href="https://xaid.ai/for-radiology-groups" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Radiology Groups | xAID" />
         <meta property="og:description" content="Handle CT overflow and after-hours coverage without new hires. Ready-to-sign AI radiology reports — 2–12 hr TAT, 95% accuracy verified." />

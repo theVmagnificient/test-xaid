@@ -35,7 +35,6 @@ const Integrations = () => {
           name="description"
           content="xAID integrates via standard DICOM and HL7 — no custom middleware. PACS to AI reporting in under one week. Compatible with Sectra, Fujifilm, Intelerad, Ambra, and any DICOM-compliant system."
         />
-        <link rel="canonical" href="https://xaid.ai/integrations" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DICOM & HL7 Integration for AI CT Reporting | xAID" />
         <meta property="og:description" content="DICOM in, HL7 out. xAID integrates with any PACS or RIS via standard protocols. Setup under one week. HIPAA compliant." />

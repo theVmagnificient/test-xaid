@@ -34,7 +34,6 @@ const ForOutpatientCenters = () => {
           name="description"
           content="AI radiology reporting built for outpatient imaging centers. Ready-to-sign head, chest & abdomen CT reports — 2–12 hr TAT, 95% accuracy verified, radiologist review included. HIPAA compliant."
         />
-        <link rel="canonical" href="https://xaid.ai/for-outpatient-imaging-centers" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Outpatient Imaging Centers | xAID" />
         <meta property="og:description" content="Expand CT read capacity without hiring. Ready-to-sign AI radiology reports for outpatient centers — 2–12 hr TAT, 95% accuracy verified." />
