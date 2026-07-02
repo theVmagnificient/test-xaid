@@ -9,6 +9,12 @@ const LinkedInIcon = ({ className = 'w-5 h-5' }: { className?: string }) => (
 import ReCAPTCHA from "react-google-recaptcha";
 import { toast } from 'sonner';
 
+declare global {
+  interface Window {
+    dataLayer?: Array<Record<string, unknown>>;
+  }
+}
+
 const FORMSPARK_ACTION_URL = 'https://submit-form.com/ADee6zSRu';
 const RECAPTCHA_SITE_KEY = '6LeiQEYoAAAAANUaJXHwdhm3HpR5SEPrbVXj-Ra6';
 
@@ -49,6 +55,20 @@ const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
+  // reCAPTCHA pulls ~830KB from Google on mount — defer it until the visitor
+  // actually starts filling the form (first focus). By submit time it's ready.
+  const [captchaWanted, setCaptchaWanted] = useState(false);
+  const wantCaptcha = () => setCaptchaWanted(true);
+
+  const waitForCaptcha = async (timeoutMs = 8000): Promise<ReCAPTCHA> => {
+    const start = Date.now();
+    while (!recaptchaRef.current) {
+      if (Date.now() - start > timeoutMs) throw new Error('reCAPTCHA failed to load');
+      await new Promise((r) => setTimeout(r, 100));
+    }
+    return recaptchaRef.current;
+  };
+
   const postForm = async (formData: object): Promise<Response> => {
     return await fetch(FORMSPARK_ACTION_URL, {
       method: 'POST',
@@ -71,8 +91,10 @@ const Contact = () => {
 
     setIsSubmitting(true);
 
-    const token = await recaptchaRef.current.executeAsync();
     try {
+      setCaptchaWanted(true); // safety net if focus never fired (e.g. autofill)
+      const captcha = await waitForCaptcha();
+      const token = await captcha.executeAsync();
       const response = await postForm({ ...formData, "g-recaptcha-response": token });
       if (!response.ok) {
         throw new Error('Failed to post form');
@@ -80,8 +102,8 @@ const Contact = () => {
 
       setFormData({ name: '', organization: '', email: '' });
       // Push lead event to GTM dataLayer for GA4 conversion tracking
-      if (typeof window !== 'undefined' && (window as any).dataLayer) {
-        (window as any).dataLayer.push({
+      if (typeof window !== 'undefined' && window.dataLayer) {
+        window.dataLayer.push({
           event: 'pilot_form_submit',
           form_location: 'contact_us',
         });
@@ -168,35 +190,49 @@ const Contact = () => {
             </div>
 
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
+              <label htmlFor="name" className="sr-only">Name</label>
               <input
                 id="name"
+                name="name"
                 type="text"
                 placeholder="Name*"
-                className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] text-base placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
+                autoComplete="name"
+                className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] text-base placeholder:text-gray-500 focus:outline-none focus:border-xaid-blue transition-colors"
                 value={formData.name}
+                onFocus={wantCaptcha}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 required
               />
+              <label htmlFor="organization" className="sr-only">Organization or hospital</label>
               <input
                 id="organization"
+                name="organization"
                 type="text"
                 placeholder="Organization / Hospital*"
-                className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] text-base placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
+                autoComplete="organization"
+                className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] text-base placeholder:text-gray-500 focus:outline-none focus:border-xaid-blue transition-colors"
                 value={formData.organization}
+                onFocus={wantCaptcha}
                 onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
                 required
               />
+              <label htmlFor="email" className="sr-only">Email</label>
               <input
                 id="email"
+                name="email"
                 type="email"
                 placeholder="Email*"
-                className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] text-base placeholder:text-gray-400 focus:outline-none focus:border-xaid-blue transition-colors"
+                autoComplete="email"
+                className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-[#0D0D0D] text-base placeholder:text-gray-500 focus:outline-none focus:border-xaid-blue transition-colors"
                 value={formData.email}
+                onFocus={wantCaptcha}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 required
               />
               <div className="flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center pt-2">
-                <ReCAPTCHA ref={recaptchaRef} sitekey={RECAPTCHA_SITE_KEY} size="invisible" badge="inline"/>
+                {captchaWanted && (
+                  <ReCAPTCHA ref={recaptchaRef} sitekey={RECAPTCHA_SITE_KEY} size="invisible" badge="inline"/>
+                )}
                 <button
                   disabled={isSubmitting || !formRef?.current?.checkValidity()}
                   type="submit"

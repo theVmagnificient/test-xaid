@@ -33,11 +33,11 @@ const Integrations = () => {
         <title>DICOM & HL7 Integration for AI CT Reporting | xAID</title>
         <meta
           name="description"
-          content="xAID integrates via standard DICOM and HL7 — no custom middleware. PACS to AI reporting in under one week. Compatible with Sectra, Fujifilm, Intelerad, Ambra, and any DICOM-compliant system."
+          content="DICOM and HL7 integration for AI CT reporting — works with any PACS or RIS, no custom middleware, live in under a week. HIPAA compliant by design."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DICOM & HL7 Integration for AI CT Reporting | xAID" />
-        <meta property="og:description" content="DICOM in, HL7 out. xAID integrates with any PACS or RIS via standard protocols. Setup under one week. HIPAA compliant." />
+        <meta property="og:description" content="DICOM and HL7 integration for AI CT reporting — works with any PACS or RIS, no custom middleware, live in under a week. HIPAA compliant by design." />
         <meta property="og:url" content="https://xaid.ai/integrations" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -45,7 +45,7 @@ const Integrations = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="DICOM & HL7 Integration | xAID" />
-        <meta name="twitter:description" content="DICOM in, HL7 out. Integrate AI CT reporting with your PACS in under one week." />
+        <meta name="twitter:description" content="DICOM and HL7 integration for AI CT reporting — works with any PACS or RIS, no custom middleware, live in under a week. HIPAA compliant by design." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

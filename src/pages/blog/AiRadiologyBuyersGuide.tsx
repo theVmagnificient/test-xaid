@@ -9,11 +9,11 @@ const AiRadiologyBuyersGuide = () => {
         <title>AI Radiology Reporting Software: A 2026 Buyer's Guide | xAID</title>
         <meta
           name="description"
-          content="How to evaluate AI radiology reporting software in 2026. Compare detection-only tools vs full reporting services, pricing models, accuracy data, radiologist review, and quality guarantees before committing."
+          content="AI radiology reporting software buyer's guide for 2026 — detection tools vs full report services, pricing models, accuracy data, and quality guarantees."
         />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Radiology Reporting Software: A 2026 Buyer's Guide" />
-        <meta property="og:description" content="How to evaluate AI radiology reporting software — detection tools vs full report services, pricing, accuracy data, and quality guarantees." />
+        <meta property="og:description" content="AI radiology reporting software buyer's guide for 2026 — detection tools vs full report services, pricing models, accuracy data, and quality guarantees." />
         <meta property="og:url" content="https://xaid.ai/blog/ai-radiology-reporting-buyers-guide-2026" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -21,7 +21,7 @@ const AiRadiologyBuyersGuide = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Radiology Reporting Software: 2026 Buyer's Guide" />
-        <meta name="twitter:description" content="How to evaluate AI radiology reporting software in 2026 — accuracy data, pricing models, output types, and quality guarantees." />
+        <meta name="twitter:description" content="AI radiology reporting software buyer's guide for 2026 — detection tools vs full report services, pricing models, accuracy data, and quality guarantees." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

@@ -15,18 +15,18 @@ const RadiologistShortage2026 = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID Blog</title>
-        <meta name="description" content={post.description} />
+        <title>Radiologist Shortage 2026: How AI Fills the Gap | xAID</title>
+        <meta name="description" content="The radiologist shortage keeps deepening in 2026. See how imaging centers and teleradiology providers use AI CT reporting to cover the gap today." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.description} />
+        <meta property="og:title" content="Radiologist Shortage 2026: How AI Fills the Gap | xAID" />
+        <meta property="og:description" content="The radiologist shortage keeps deepening in 2026. See how imaging centers and teleradiology providers use AI CT reporting to cover the gap today." />
         <meta property="og:url" content="https://xaid.ai/blog/radiologist-shortage-2026-ai-ct-reporting" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:title" content="Radiologist Shortage 2026: How AI Fills the Gap | xAID" />
+        <meta name="twitter:description" content="The radiologist shortage keeps deepening in 2026. See how imaging centers and teleradiology providers use AI CT reporting to cover the gap today." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -94,7 +94,7 @@ const RadiologistShortage2026 = () => {
                 Radiology Workforce
               </span>
               <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Radiologist shortage 2026:<br />

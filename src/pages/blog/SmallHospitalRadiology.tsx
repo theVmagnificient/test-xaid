@@ -6,22 +6,22 @@ const SmallHospitalRadiology = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI Radiology for Small and Community Hospitals 2026: Coverage Options, Costs, and Implementation | xAID</title>
+        <title>AI Radiology for Small Hospitals: 2026 Guide | xAID</title>
         <meta
           name="description"
-          content="Small hospitals and critical access hospitals face the same radiology coverage problem: can't hire a full-time radiologist, can't afford locum rates, and traditional teleradiology after-hours surcharges make 24/7 coverage unaffordable. Here's what actually works."
+          content="Radiology coverage options for small and community hospitals in 2026 — costs, teleradiology surcharges, and how AI CT reporting keeps 24/7 reads affordable."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="AI Radiology for Small and Community Hospitals 2026 | xAID" />
-        <meta property="og:description" content="Coverage options, costs, and implementation guide for small hospitals and critical access hospitals facing radiology staffing shortages in 2026." />
+        <meta property="og:title" content="AI Radiology for Small Hospitals: 2026 Guide | xAID" />
+        <meta property="og:description" content="Radiology coverage options for small and community hospitals in 2026 — costs, teleradiology surcharges, and how AI CT reporting keeps 24/7 reads affordable." />
         <meta property="og:url" content="https://xaid.ai/blog/ai-radiology-for-small-hospitals-2026" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AI Radiology for Small and Community Hospitals 2026 | xAID" />
-        <meta name="twitter:description" content="Coverage options, costs, and implementation guide for small and community hospitals in 2026." />
+        <meta name="twitter:title" content="AI Radiology for Small Hospitals: 2026 Guide | xAID" />
+        <meta name="twitter:description" content="Radiology coverage options for small and community hospitals in 2026 — costs, teleradiology surcharges, and how AI CT reporting keeps 24/7 reads affordable." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

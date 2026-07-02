@@ -108,22 +108,22 @@ const AfterHoursRadiologyCoverage = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>After-Hours Radiology Coverage Options 2026: Costs, Availability & Quality | xAID</title>
+        <title>After-Hours Radiology Coverage Costs 2026 | xAID</title>
         <meta
           name="description"
-          content="Full comparison of after-hours radiology coverage: in-house on-call, locum, teleradiology surcharges, and AI CT reporting at flat rate. Costs, availability, and quality guarantees compared."
+          content="After-hours radiology coverage compared: on-call, locum, teleradiology surcharges, and flat-rate AI CT reporting — costs, availability, quality guarantees."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="After-Hours Radiology Coverage Options 2026: Costs, Availability & Quality Compared" />
-        <meta property="og:description" content="In-house on-call vs locum vs teleradiology surcharge vs AI CT reporting — costs, availability, and quality guarantees for after-hours radiology coverage." />
+        <meta property="og:title" content="After-Hours Radiology Coverage Costs 2026 | xAID" />
+        <meta property="og:description" content="After-hours radiology coverage compared: on-call, locum, teleradiology surcharges, and flat-rate AI CT reporting — costs, availability, quality guarantees." />
         <meta property="og:url" content="https://xaid.ai/blog/after-hours-radiology-coverage-options" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="After-Hours Radiology Coverage: Costs Compared 2026" />
-        <meta name="twitter:description" content="Teleradiology surcharges add 30–100% for after-hours reads. Here's what every coverage option actually costs — and what each includes." />
+        <meta name="twitter:title" content="After-Hours Radiology Coverage Costs 2026 | xAID" />
+        <meta name="twitter:description" content="After-hours radiology coverage compared: on-call, locum, teleradiology surcharges, and flat-rate AI CT reporting — costs, availability, quality guarantees." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>

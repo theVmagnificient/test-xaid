@@ -157,11 +157,11 @@ const AiRadiologyGlossary = () => {
         <title>AI Radiology Terminology Glossary: Key Terms Explained | xAID</title>
         <meta
           name="description"
-          content="Definitions of key AI radiology and CT reporting terms: DICOM, HL7, PACS, teleradiology, AI detection vs AI reporting, sensitivity/specificity, accuracy, BAA, and more — clearly explained."
+          content="AI radiology glossary: DICOM, HL7, PACS, teleradiology, detection vs reporting, sensitivity, specificity, BAA and more — every key term clearly explained."
         />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Radiology Terminology Glossary — Key Terms Explained" />
-        <meta property="og:description" content="Clear definitions of key AI radiology terms: DICOM, HL7, PACS, teleradiology, AI detection vs reporting, sensitivity/specificity, accuracy, and more." />
+        <meta property="og:description" content="AI radiology glossary: DICOM, HL7, PACS, teleradiology, detection vs reporting, sensitivity, specificity, BAA and more — every key term clearly explained." />
         <meta property="og:url" content="https://xaid.ai/blog/ai-radiology-terminology-glossary" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -169,7 +169,7 @@ const AiRadiologyGlossary = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Radiology Terminology Glossary" />
-        <meta name="twitter:description" content="Key AI radiology terms clearly defined — DICOM, HL7, PACS, teleradiology, AI detection vs reporting, sensitivity/specificity, and more." />
+        <meta name="twitter:description" content="AI radiology glossary: DICOM, HL7, PACS, teleradiology, detection vs reporting, sensitivity, specificity, BAA and more — every key term clearly explained." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>

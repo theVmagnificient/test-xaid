@@ -16,18 +16,18 @@ const FoundationModelsVsNarrowAI = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID Blog</title>
-        <meta name="description" content={post.description} />
+        <title>Foundation Models vs Narrow AI in Radiology | xAID</title>
+        <meta name="description" content="Foundation models vs narrow AI in radiology: why one model producing a ready-to-sign report beats 30 detection tools — evidence, costs, and buying questions." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.description} />
+        <meta property="og:title" content="Foundation Models vs Narrow AI in Radiology | xAID" />
+        <meta property="og:description" content="Foundation models vs narrow AI in radiology: why one model producing a ready-to-sign report beats 30 detection tools — evidence, costs, and buying questions." />
         <meta property="og:url" content="https://xaid.ai/blog/foundation-models-vs-narrow-ai-radiology" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:title" content="Foundation Models vs Narrow AI in Radiology | xAID" />
+        <meta name="twitter:description" content="Foundation models vs narrow AI in radiology: why one model producing a ready-to-sign report beats 30 detection tools — evidence, costs, and buying questions." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -102,7 +102,7 @@ const FoundationModelsVsNarrowAI = () => {
                 AI Technology
               </span>
               <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Foundation models vs narrow AI in radiology:<br />

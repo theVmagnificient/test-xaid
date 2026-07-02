@@ -66,11 +66,11 @@ const AiVsTeleradiology = () => {
         <title>AI CT Reporting vs Teleradiology: Cost & Accuracy | xAID</title>
         <meta
           name="description"
-          content="AI CT reporting vs overseas teleradiology: 95% verified accuracy vs no published data, flat per-study rate vs 30–100% after-hours surcharge, under-1-week setup vs 2–8 weeks. Full comparison."
+          content="AI CT reporting vs teleradiology: 95% verified accuracy, flat per-study rate vs 30–100% after-hours surcharges, setup in under a week. Full comparison."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting vs Overseas Teleradiology: Full Comparison" />
-        <meta property="og:description" content="Compare AI CT reporting vs overseas teleradiology — accuracy, pricing, after-hours surcharges, quality guarantees, and setup time." />
+        <meta property="og:description" content="AI CT reporting vs teleradiology: 95% verified accuracy, flat per-study rate vs 30–100% after-hours surcharges, setup in under a week. Full comparison." />
         <meta property="og:url" content="https://xaid.ai/ai-vs-teleradiology" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />

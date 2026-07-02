@@ -46,11 +46,11 @@ const HeadCtReport = () => {
         <title>AI Head CT Reporting — Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
-          content="AI head CT reporting: structured, preliminary reports in 2–12 hours. Covers stroke signs, intracranial hemorrhage, fractures, and more. 24/7. HIPAA compliant. Free 5-study pilot."
+          content="AI head CT reporting: structured preliminary reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Head CT Reporting Service | xAID" />
-        <meta property="og:description" content="AI head CT preliminary reports in 2–12 hours — structured, radiologist-reviewed, ready to sign. HIPAA compliant, 24/7 coverage. Free 5-study pilot." />
+        <meta property="og:description" content="AI head CT reporting: structured preliminary reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta property="og:url" content="https://xaid.ai/head-ct-ai-report" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -58,7 +58,7 @@ const HeadCtReport = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Head CT Reporting Service | xAID" />
-        <meta name="twitter:description" content="Structured AI head CT reports in 2–12 hours. Radiologist-reviewed, HIPAA compliant, 24/7." />
+        <meta name="twitter:description" content="AI head CT reporting: structured preliminary reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

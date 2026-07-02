@@ -28,7 +28,7 @@ const LatestFromBlog = () => {
             >
               <div className="flex flex-wrap items-center gap-2 mb-3">
                 <span className="text-xaid-blue text-xs font-medium">{post.category}</span>
-                <span className="text-white/30 text-xs">{post.readingTime} min read</span>
+                <span className="text-white/30 text-xs">{`${post.readingTime} min read`}</span>
               </div>
               <h3 className="text-white font-medium text-[18px] leading-[1.3] mb-3 group-hover:text-xaid-blue transition-colors">
                 {post.title}

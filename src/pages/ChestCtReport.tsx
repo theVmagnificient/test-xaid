@@ -43,22 +43,22 @@ const ChestCtReport = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI Chest CT Reporting Service — Structured Reports in 2–12 Hours | xAID</title>
+        <title>AI Chest CT Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
-          content="AI chest CT reporting: structured, preliminary reports in 2–12 hours. 95% accuracy verified by peer-reviewed studies. 24/7 coverage, HIPAA compliant. Free 5-study pilot."
+          content="AI chest CT reporting: structured preliminary reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AI Chest CT Reporting Service | xAID" />
-        <meta property="og:description" content="AI chest CT preliminary reports in 2–12 hours — structured, radiologist-reviewed, ready to sign. 95% accuracy verified, HIPAA compliant. Free 5-study pilot." />
+        <meta property="og:title" content="AI Chest CT Reports in 2–12 Hours | xAID" />
+        <meta property="og:description" content="AI chest CT reporting: structured preliminary reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot." />
         <meta property="og:url" content="https://xaid.ai/chest-ct-ai-report" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AI Chest CT Reporting Service | xAID" />
-        <meta name="twitter:description" content="Structured AI chest CT reports in 2–12 hours. 95% accuracy verified, radiologist-reviewed, HIPAA compliant." />
+        <meta name="twitter:title" content="AI Chest CT Reports in 2–12 Hours | xAID" />
+        <meta name="twitter:description" content="AI chest CT reporting: structured preliminary reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

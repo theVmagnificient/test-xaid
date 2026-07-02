@@ -43,22 +43,22 @@ const AbdomenCtReport = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI Abdomen CT Reporting Service — Structured Reports in 2–12 Hours | xAID</title>
+        <title>AI Abdomen CT Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
-          content="AI abdomen CT reporting: structured, preliminary reports in 2–12 hours. Full abdominal coverage — liver, kidneys, pancreas, bowel, and more. 24/7. HIPAA compliant. Free pilot."
+          content="AI abdomen CT reporting: structured preliminary reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AI Abdomen CT Reporting Service | xAID" />
-        <meta property="og:description" content="AI abdomen CT preliminary reports in 2–12 hours — structured, radiologist-reviewed, ready to sign. Full abdominal coverage, HIPAA compliant, 24/7." />
+        <meta property="og:title" content="AI Abdomen CT Reports in 2–12 Hours | xAID" />
+        <meta property="og:description" content="AI abdomen CT reporting: structured preliminary reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta property="og:url" content="https://xaid.ai/abdomen-ct-ai-report" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AI Abdomen CT Reporting Service | xAID" />
-        <meta name="twitter:description" content="Structured AI abdomen CT reports in 2–12 hours. Full coverage, radiologist-reviewed, HIPAA compliant." />
+        <meta name="twitter:title" content="AI Abdomen CT Reports in 2–12 Hours | xAID" />
+        <meta name="twitter:description" content="AI abdomen CT reporting: structured preliminary reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

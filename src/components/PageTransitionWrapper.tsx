@@ -20,8 +20,10 @@ const PAGE_ORDER: Record<string, number> = {
 };
 
 function getOrder(pathname: string): number {
-  if (PAGE_ORDER[pathname] !== undefined) return PAGE_ORDER[pathname];
-  if (pathname.startsWith('/blog/')) return 4.5;
+  // URLs are trailing-slash form sitewide; PAGE_ORDER keys are slash-less
+  const key = pathname !== '/' ? pathname.replace(/\/+$/, '') : '/';
+  if (PAGE_ORDER[key] !== undefined) return PAGE_ORDER[key];
+  if (key.startsWith('/blog/')) return 4.5;
   return 2;
 }
 

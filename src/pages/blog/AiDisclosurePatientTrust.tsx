@@ -16,18 +16,18 @@ const AiDisclosurePatientTrust = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID Blog</title>
-        <meta name="description" content={post.description} />
+        <title>Should Patients Be Told When AI Reads Their Scan? | xAID</title>
+        <meta name="description" content="96% of surveyed patients want to know when AI reads their scan. What the data means for AI disclosure, radiologist accountability, and patient trust." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.description} />
+        <meta property="og:title" content="Should Patients Be Told When AI Reads Their Scan? | xAID" />
+        <meta property="og:description" content="96% of surveyed patients want to know when AI reads their scan. What the data means for AI disclosure, radiologist accountability, and patient trust." />
         <meta property="og:url" content="https://xaid.ai/blog/should-patients-be-told-when-ai-reads-their-scan" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:title" content="Should Patients Be Told When AI Reads Their Scan? | xAID" />
+        <meta name="twitter:description" content="96% of surveyed patients want to know when AI reads their scan. What the data means for AI disclosure, radiologist accountability, and patient trust." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -102,7 +102,7 @@ const AiDisclosurePatientTrust = () => {
                 AI Ethics &amp; Trust
               </span>
               <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Should patients be told when AI reads their scan?<br />

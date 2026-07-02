@@ -40,14 +40,14 @@ const Compliance = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>HIPAA Compliant AI Radiology Reporting | ISO 27001 | BAA Available | xAID</title>
+        <title>HIPAA Compliant AI Radiology Reporting | xAID</title>
         <meta
           name="description"
-          content="xAID AI CT reporting is fully HIPAA compliant. US-based AWS infrastructure, ISO 27001 certified, BAA available before pilot, European radiologist review on every report. Built for imaging centers and teleradiology providers."
+          content="HIPAA compliant AI CT reporting — US-based infrastructure, ISO 27001 certified, BAA before pilot, radiologist review on every report. See the full checklist."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="HIPAA Compliant AI Radiology Reporting | xAID" />
-        <meta property="og:description" content="HIPAA compliant AI CT reporting. US-based infrastructure, ISO 27001 certified, BAA available, European radiologist review on every report." />
+        <meta property="og:description" content="HIPAA compliant AI CT reporting — US-based infrastructure, ISO 27001 certified, BAA before pilot, radiologist review on every report. See the full checklist." />
         <meta property="og:url" content="https://xaid.ai/compliance" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -55,7 +55,7 @@ const Compliance = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="HIPAA Compliant AI Radiology Reporting | xAID" />
-        <meta name="twitter:description" content="HIPAA compliant AI CT reporting. US-based infrastructure, ISO 27001 certified, BAA available, European radiologist review on every report." />
+        <meta name="twitter:description" content="HIPAA compliant AI CT reporting — US-based infrastructure, ISO 27001 certified, BAA before pilot, radiologist review on every report. See the full checklist." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

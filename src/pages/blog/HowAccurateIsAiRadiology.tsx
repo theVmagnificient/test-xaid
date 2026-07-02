@@ -15,18 +15,18 @@ const HowAccurateIsAiRadiology = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID Blog</title>
-        <meta name="description" content={post.description} />
+        <title>How Accurate Is AI Radiology Reporting? | xAID</title>
+        <meta name="description" content="How accurate is AI radiology reporting? Two published clinical studies, 95% accuracy verified, and how the numbers compare to traditional radiology benchmarks." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.description} />
+        <meta property="og:title" content="How Accurate Is AI Radiology Reporting? | xAID" />
+        <meta property="og:description" content="How accurate is AI radiology reporting? Two published clinical studies, 95% accuracy verified, and how the numbers compare to traditional radiology benchmarks." />
         <meta property="og:url" content="https://xaid.ai/blog/how-accurate-is-ai-radiology-reporting" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:title" content="How Accurate Is AI Radiology Reporting? | xAID" />
+        <meta name="twitter:description" content="How accurate is AI radiology reporting? Two published clinical studies, 95% accuracy verified, and how the numbers compare to traditional radiology benchmarks." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -103,7 +103,7 @@ const HowAccurateIsAiRadiology = () => {
                 Clinical Evidence
               </span>
               <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               How Accurate Is AI Radiology Reporting?<br />

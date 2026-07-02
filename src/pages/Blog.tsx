@@ -7,20 +7,20 @@ const Blog = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI Radiology Blog — CT Reporting Insights & Clinical Evidence | xAID</title>
+        <title>AI Radiology Blog: CT Reporting Insights | xAID</title>
         <meta
           name="description"
-          content="Research, clinical evidence, and practical guides for radiology professionals navigating AI CT reporting. Accuracy data, HIPAA compliance, TAT benchmarks, and workflow insights."
+          content="AI radiology blog from xAID — clinical evidence, HIPAA compliance guides, turnaround benchmarks, and workflow insights for imaging teams. Read the latest."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AI Radiology Blog — CT Reporting Insights | xAID" />
-        <meta property="og:description" content="Clinical evidence, compliance guides, and operational benchmarks for AI CT reporting." />
+        <meta property="og:title" content="AI Radiology Blog: CT Reporting Insights | xAID" />
+        <meta property="og:description" content="AI radiology blog from xAID — clinical evidence, HIPAA compliance guides, turnaround benchmarks, and workflow insights for imaging teams. Read the latest." />
         <meta property="og:url" content="https://xaid.ai/blog" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AI Radiology Blog | xAID" />
-        <meta name="twitter:description" content="Clinical evidence, compliance, and operational guides for AI CT reporting." />
+        <meta name="twitter:title" content="AI Radiology Blog: CT Reporting Insights | xAID" />
+        <meta name="twitter:description" content="AI radiology blog from xAID — clinical evidence, HIPAA compliance guides, turnaround benchmarks, and workflow insights for imaging teams. Read the latest." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -76,7 +76,7 @@ const Blog = () => {
                     {blogPosts[0].category}
                   </span>
                   <span className="text-white/40 text-sm">{blogPosts[0].date}</span>
-                  <span className="text-white/30 text-sm">{blogPosts[0].readingTime} min read</span>
+                  <span className="text-white/30 text-sm">{`${blogPosts[0].readingTime} min read`}</span>
                 </div>
                 <h2 className="text-[22px] md:text-[28px] lg:text-[32px] font-normal leading-[1.2] text-white mb-4 group-hover:text-xaid-blue transition-colors">
                   {blogPosts[0].title}
@@ -101,7 +101,7 @@ const Blog = () => {
                       {post.category}
                     </span>
                     <span className="text-white/40 text-sm">{post.date}</span>
-                    <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+                    <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
                   </div>
                   <h2 className="text-lg font-normal text-white mb-3 group-hover:text-xaid-blue transition-colors leading-snug">
                     {post.title}

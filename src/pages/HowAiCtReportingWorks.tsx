@@ -124,11 +124,11 @@ const HowAiCtReportingWorks = () => {
         <title>How AI CT Reporting Works: From DICOM to AI CT Report | xAID</title>
         <meta
           name="description"
-          content="What is AI CT reporting and how does it work? Complete explainer: two-AI-layer analysis, radiologist review, preliminary report delivery — and how it differs from AI detection tools."
+          content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign preliminary reports — unlike detection-only tools."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="How AI CT Reporting Works: From DICOM to AI CT Report" />
-        <meta property="og:description" content="AI CT reporting explained: how two AI layers plus radiologist review deliver complete ready-to-sign preliminary reports — and how this differs from detection-only tools." />
+        <meta property="og:description" content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign preliminary reports — unlike detection-only tools." />
         <meta property="og:url" content="https://xaid.ai/how-ai-ct-reporting-works" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -136,7 +136,7 @@ const HowAiCtReportingWorks = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="How AI CT Reporting Works" />
-        <meta name="twitter:description" content="AI CT reporting: DICOM in, ready-to-sign preliminary report out — with two AI layers and radiologist review on every study." />
+        <meta name="twitter:description" content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign preliminary reports — unlike detection-only tools." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>

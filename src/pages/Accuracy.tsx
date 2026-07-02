@@ -57,22 +57,22 @@ const Accuracy = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI Radiology Accuracy — Clinical Evidence & Quality Guarantee | xAID</title>
+        <title>AI Radiology Accuracy: Clinical Evidence | xAID</title>
         <meta
           name="description"
-          content="How accurate is AI CT reporting? xAID achieved 92.2% sensitivity vs 58.3% for unaided radiologists in published research. 94.9% clinician approval in multi-center European study. 95% accuracy verified by peer-reviewed studies."
+          content="AI radiology accuracy backed by published studies — 92.2% sensitivity, 94.9% clinician approval, 95% accuracy verified. See the full clinical evidence."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AI Radiology Accuracy — Clinical Evidence | xAID" />
-        <meta property="og:description" content="xAID CT reporting accuracy: 92.2% sensitivity, 94.9% clinician approval in published studies. 95% accuracy verified by peer-reviewed studies." />
+        <meta property="og:title" content="AI Radiology Accuracy: Clinical Evidence | xAID" />
+        <meta property="og:description" content="AI radiology accuracy backed by published studies — 92.2% sensitivity, 94.9% clinician approval, 95% accuracy verified. See the full clinical evidence." />
         <meta property="og:url" content="https://xaid.ai/accuracy" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AI Radiology Accuracy — Clinical Evidence | xAID" />
-        <meta name="twitter:description" content="xAID CT reporting accuracy: 92.2% sensitivity, 94.9% clinician approval. 95% accuracy verified." />
+        <meta name="twitter:title" content="AI Radiology Accuracy: Clinical Evidence | xAID" />
+        <meta name="twitter:description" content="AI radiology accuracy backed by published studies — 92.2% sensitivity, 94.9% clinician approval, 95% accuracy verified. See the full clinical evidence." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

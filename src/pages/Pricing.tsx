@@ -241,8 +241,7 @@ const Pricing = () => {
                   className="bg-white/5 border border-white/10 rounded-2xl p-7 md:p-8 flex flex-col h-full"
                 >
                   <div className="text-xaid-blue text-[26px] font-medium mb-4 leading-none">
-                    0{i + 1}
-                  </div>
+                    {`0${i + 1}`}                  </div>
                   <h3 className="text-white font-medium text-[18px] mb-3 leading-[1.3]">{item.title}</h3>
                   <p className="text-white/70 text-[15px] leading-[1.65] font-light">{item.body}</p>
                 </div>

@@ -37,11 +37,11 @@ const ForSmallHospitals = () => {
         <title>AI CT Reporting for Small & Community Hospitals | xAID</title>
         <meta
           name="description"
-          content="AI radiology reporting for small hospitals, critical access hospitals, and community hospitals. Ready-to-sign CT reports — 2–12 hr TAT, no after-hours surcharge, radiologist review included. Setup under 1 week."
+          content="AI CT reporting for small and community hospitals — ready-to-sign reports, 2–12h TAT, no after-hours surcharge, radiologist review. Setup in under a week."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Small & Community Hospitals | xAID" />
-        <meta property="og:description" content="CT radiology coverage for small and community hospitals — no after-hours surcharge, no enterprise contract, radiologist review on every report." />
+        <meta property="og:description" content="AI CT reporting for small and community hospitals — ready-to-sign reports, 2–12h TAT, no after-hours surcharge, radiologist review. Setup in under a week." />
         <meta property="og:url" content="https://xaid.ai/for-small-hospitals" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -49,7 +49,7 @@ const ForSmallHospitals = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI CT Reporting for Small & Community Hospitals | xAID" />
-        <meta name="twitter:description" content="CT radiology coverage for small and community hospitals — no after-hours surcharge, no enterprise contract, radiologist review on every report." />
+        <meta name="twitter:description" content="AI CT reporting for small and community hospitals — ready-to-sign reports, 2–12h TAT, no after-hours surcharge, radiologist review. Setup in under a week." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

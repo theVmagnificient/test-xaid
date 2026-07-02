@@ -40,14 +40,14 @@ const ForTeleradiologyCompanies = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI CT Reporting for Teleradiology Companies | Scale CT Coverage | xAID</title>
+        <title>AI CT Reporting for Teleradiology Companies | xAID</title>
         <meta
           name="description"
-          content="AI radiology reporting for teleradiology companies. Ready-to-sign head, chest & abdomen CT reports at narrow AI pricing — 2–12 hr TAT, 95% accuracy verified, radiologist review included. Scale CT coverage without hiring."
+          content="Scale CT coverage without hiring — ready-to-sign AI radiology reports for teleradiology companies. 2–12h TAT, 95% accuracy, radiologist review included."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Teleradiology Companies | xAID" />
-        <meta property="og:description" content="Scale CT coverage without hiring. Ready-to-sign AI radiology reports for teleradiology providers — 2–12 hr TAT, 95% accuracy verified, radiologist review included." />
+        <meta property="og:description" content="Scale CT coverage without hiring — ready-to-sign AI radiology reports for teleradiology companies. 2–12h TAT, 95% accuracy, radiologist review included." />
         <meta property="og:url" content="https://xaid.ai/for-teleradiology-companies" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -55,7 +55,7 @@ const ForTeleradiologyCompanies = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI CT Reporting for Teleradiology Companies | xAID" />
-        <meta name="twitter:description" content="Scale CT coverage without hiring. Ready-to-sign AI radiology reports for teleradiology providers — 2–12 hr TAT, 95% accuracy verified." />
+        <meta name="twitter:description" content="Scale CT coverage without hiring — ready-to-sign AI radiology reports for teleradiology companies. 2–12h TAT, 95% accuracy, radiologist review included." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

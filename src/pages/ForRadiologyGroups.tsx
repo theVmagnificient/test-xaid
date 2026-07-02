@@ -40,14 +40,14 @@ const ForRadiologyGroups = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI CT Reporting for Radiology Groups — Reduce Burnout & Scale Reads | xAID</title>
+        <title>AI CT Reporting for Radiology Groups | xAID</title>
         <meta
           name="description"
-          content="AI CT reporting for radiology groups. Handle overflow, after-hours coverage, and radiologist burnout with ready-to-sign AI reports — 2–12 hr TAT, 95% accuracy verified, European radiologist review included."
+          content="AI CT reporting for radiology groups — absorb overflow and after-hours reads without new hires. Ready-to-sign reports, 2–12h TAT, 95% accuracy. Free pilot."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Radiology Groups | xAID" />
-        <meta property="og:description" content="Handle CT overflow and after-hours coverage without new hires. Ready-to-sign AI radiology reports — 2–12 hr TAT, 95% accuracy verified." />
+        <meta property="og:description" content="AI CT reporting for radiology groups — absorb overflow and after-hours reads without new hires. Ready-to-sign reports, 2–12h TAT, 95% accuracy. Free pilot." />
         <meta property="og:url" content="https://xaid.ai/for-radiology-groups" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -55,7 +55,7 @@ const ForRadiologyGroups = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI CT Reporting for Radiology Groups | xAID" />
-        <meta name="twitter:description" content="Handle CT overflow and after-hours coverage without new hires. Ready-to-sign AI radiology reports — 2–12 hr TAT, 95% accuracy verified." />
+        <meta name="twitter:description" content="AI CT reporting for radiology groups — absorb overflow and after-hours reads without new hires. Ready-to-sign reports, 2–12h TAT, 95% accuracy. Free pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

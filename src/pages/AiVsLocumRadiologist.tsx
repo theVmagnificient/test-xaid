@@ -61,14 +61,14 @@ const AiVsLocumRadiologist = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI CT Reporting vs Locum Radiologist: Cost, Speed & Risk Compared | xAID</title>
+        <title>AI CT Reporting vs Locum Radiologist Costs | xAID</title>
         <meta
           name="description"
-          content="AI CT reporting vs hiring a locum radiologist: annual cost ($500K–$650K vs per-study AI pricing), time to start (6–18 months vs under 1 week), quality guarantees, and staffing risk. xAID covers CT in under a week."
+          content="AI CT reporting vs a locum radiologist: $500K–$650K a year vs per-study pricing, 6–18 months vs under a week to start. Compare cost, speed, and risk."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AI CT Reporting vs Locum Radiologist — Full Cost & Risk Comparison" />
-        <meta property="og:description" content="Compare AI CT reporting to hiring a locum radiologist — cost, setup time, staffing risk, and quality guarantees." />
+        <meta property="og:title" content="AI CT Reporting vs Locum Radiologist Costs | xAID" />
+        <meta property="og:description" content="AI CT reporting vs a locum radiologist: $500K–$650K a year vs per-study pricing, 6–18 months vs under a week to start. Compare cost, speed, and risk." />
         <meta property="og:url" content="https://xaid.ai/ai-vs-locum-radiologist" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />

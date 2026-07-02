@@ -1,6 +1,30 @@
+import { useEffect } from 'react';
 
+const SPLINE_VIEWER_SRC = 'https://unpkg.com/@splinetool/viewer@1.12.61/build/spline-viewer.js';
+
+// Load the Spline viewer lazily and only where the 3D scene exists (this Hero).
+// Loading it globally in index.html cost every page 636KB + ~10s of main-thread
+// CPU and put the homepage at Lighthouse 25. The <spline-viewer> elements below
+// stay inert until the custom element is defined by this script.
+const loadSplineViewer = () => {
+  if (document.querySelector(`script[src="${SPLINE_VIEWER_SRC}"]`)) return;
+  const s = document.createElement('script');
+  s.type = 'module';
+  s.src = SPLINE_VIEWER_SRC;
+  document.head.appendChild(s);
+};
 
 const Hero = () => {
+  useEffect(() => {
+    // Skip during react-snap prerender (script would be baked into the HTML and load eagerly)
+    if (navigator.userAgent.includes('ReactSnap')) return;
+    // Respect reduced-motion: the scene is decorative animation
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const idle = (window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number }).requestIdleCallback;
+    if (idle) idle(loadSplineViewer, { timeout: 2500 });
+    else setTimeout(loadSplineViewer, 1200);
+  }, []);
+
   const scrollToContact = () => {
     const element = document.querySelector('#contact-us');
     if (element) {

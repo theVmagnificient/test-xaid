@@ -110,22 +110,22 @@ const HowToSwitchToAiRadiology = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>How to Switch from Teleradiology to AI CT Reporting: Step-by-Step | xAID</title>
+        <title>Switch from Teleradiology to AI CT Reporting | xAID</title>
         <meta
           name="description"
-          content="Step-by-step guide to transitioning from traditional teleradiology to AI CT reporting. Free pilot, DICOM integration in under a week, BAA, parallel period, and quality monitoring — complete implementation guide."
+          content="How to switch from teleradiology to AI CT reporting — free 5-study pilot, DICOM integration in under a week, BAA, parallel testing, quality monitoring."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="How to Switch from Teleradiology to AI CT Reporting: Step-by-Step Guide" />
-        <meta property="og:description" content="Complete guide to switching from teleradiology to AI CT reporting — pilot evaluation, DICOM integration, BAA, parallel testing, and quality monitoring." />
+        <meta property="og:title" content="Switch from Teleradiology to AI CT Reporting | xAID" />
+        <meta property="og:description" content="How to switch from teleradiology to AI CT reporting — free 5-study pilot, DICOM integration in under a week, BAA, parallel testing, quality monitoring." />
         <meta property="og:url" content="https://xaid.ai/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="How to Switch from Teleradiology to AI CT Reporting" />
-        <meta name="twitter:description" content="7 steps to switching from teleradiology to AI CT reporting — free pilot, DICOM integration, BAA, and quality monitoring." />
+        <meta name="twitter:title" content="Switch from Teleradiology to AI CT Reporting | xAID" />
+        <meta name="twitter:description" content="How to switch from teleradiology to AI CT reporting — free 5-study pilot, DICOM integration in under a week, BAA, parallel testing, quality monitoring." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>

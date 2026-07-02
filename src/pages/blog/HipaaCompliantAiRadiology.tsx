@@ -15,18 +15,18 @@ const HipaaCompliantAiRadiology = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID Blog</title>
-        <meta name="description" content={post.description} />
+        <title>Is AI Radiology Reporting HIPAA Compliant? | xAID</title>
+        <meta name="description" content="HIPAA compliant AI radiology takes more than encryption — BAA, US-based infrastructure, audit logs, radiologist review. Get the full compliance checklist." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.description} />
+        <meta property="og:title" content="Is AI Radiology Reporting HIPAA Compliant? | xAID" />
+        <meta property="og:description" content="HIPAA compliant AI radiology takes more than encryption — BAA, US-based infrastructure, audit logs, radiologist review. Get the full compliance checklist." />
         <meta property="og:url" content="https://xaid.ai/blog/is-ai-radiology-reporting-hipaa-compliant" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:title" content="Is AI Radiology Reporting HIPAA Compliant? | xAID" />
+        <meta name="twitter:description" content="HIPAA compliant AI radiology takes more than encryption — BAA, US-based infrastructure, audit logs, radiologist review. Get the full compliance checklist." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -102,7 +102,7 @@ const HipaaCompliantAiRadiology = () => {
                 Compliance
               </span>
               <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Is AI Radiology Reporting HIPAA Compliant?<br />

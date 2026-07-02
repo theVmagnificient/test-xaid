@@ -32,11 +32,11 @@ const ForOutpatientCenters = () => {
         <title>AI CT Reporting for Outpatient Imaging Centers | xAID</title>
         <meta
           name="description"
-          content="AI radiology reporting built for outpatient imaging centers. Ready-to-sign head, chest & abdomen CT reports — 2–12 hr TAT, 95% accuracy verified, radiologist review included. HIPAA compliant."
+          content="AI CT reporting for outpatient imaging centers — ready-to-sign head, chest and abdomen reports, 2–12h TAT, 95% accuracy, HIPAA compliant. Free pilot."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting for Outpatient Imaging Centers | xAID" />
-        <meta property="og:description" content="Expand CT read capacity without hiring. Ready-to-sign AI radiology reports for outpatient centers — 2–12 hr TAT, 95% accuracy verified." />
+        <meta property="og:description" content="AI CT reporting for outpatient imaging centers — ready-to-sign head, chest and abdomen reports, 2–12h TAT, 95% accuracy, HIPAA compliant. Free pilot." />
         <meta property="og:url" content="https://xaid.ai/for-outpatient-imaging-centers" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -44,7 +44,7 @@ const ForOutpatientCenters = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI CT Reporting for Outpatient Imaging Centers | xAID" />
-        <meta name="twitter:description" content="Expand CT read capacity without hiring. Ready-to-sign AI radiology reports for outpatient centers — 2–12 hr TAT, 95% accuracy verified." />
+        <meta name="twitter:description" content="AI CT reporting for outpatient imaging centers — ready-to-sign head, chest and abdomen reports, 2–12h TAT, 95% accuracy, HIPAA compliant. Free pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

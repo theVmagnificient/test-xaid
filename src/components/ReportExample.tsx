@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
-import reportScan from '@/assets/report-example-scan.png';
-import reportText from '@/assets/report-example-text.png';
-import reportRawCt from '@/assets/report-example-raw-ct.png';
+import reportScan from '@/assets/report-example-scan.webp';
+import reportText from '@/assets/report-example-text.webp';
+import reportRawCt from '@/assets/report-example-raw-ct.webp';
 
 const ReportExample = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -48,6 +48,10 @@ const ReportExample = () => {
                 src={reportScan}
                 alt="CT scan with AI annotations showing lung nodules, pleural effusion, aorta measurements and other findings"
                 className="w-full h-auto rounded-lg"
+                width={1920}
+                height={1010}
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
@@ -57,6 +61,10 @@ const ReportExample = () => {
                 src={reportRawCt}
                 alt="Raw CT chest scan showing pulmonary structures"
                 className="w-full h-auto rounded-lg"
+                width={1920}
+                height={1173}
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -67,6 +75,10 @@ const ReportExample = () => {
               src={reportText}
               alt="Structured radiology report with findings and impressions"
               className="w-full h-auto rounded-lg"
+              width={1124}
+              height={1120}
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

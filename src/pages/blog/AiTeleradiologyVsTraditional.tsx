@@ -15,18 +15,18 @@ const AiTeleradiologyVsTraditional = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID Blog</title>
-        <meta name="description" content={post.description} />
+        <title>AI Teleradiology vs Traditional: 2026 Comparison | xAID</title>
+        <meta name="description" content="AI teleradiology vs traditional teleradiology: 2–12 hour turnaround vs 4–24, per-study cost, accuracy, and quality guarantees — full 2026 comparison." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.description} />
+        <meta property="og:title" content="AI Teleradiology vs Traditional: 2026 Comparison | xAID" />
+        <meta property="og:description" content="AI teleradiology vs traditional teleradiology: 2–12 hour turnaround vs 4–24, per-study cost, accuracy, and quality guarantees — full 2026 comparison." />
         <meta property="og:url" content="https://xaid.ai/blog/ai-teleradiology-vs-traditional-teleradiology-2026" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.description} />
+        <meta name="twitter:title" content="AI Teleradiology vs Traditional: 2026 Comparison | xAID" />
+        <meta name="twitter:description" content="AI teleradiology vs traditional teleradiology: 2–12 hour turnaround vs 4–24, per-study cost, accuracy, and quality guarantees — full 2026 comparison." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -102,7 +102,7 @@ const AiTeleradiologyVsTraditional = () => {
                 Buyer Guide
               </span>
               <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{post.readingTime} min read</span>
+              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI Teleradiology vs Traditional Teleradiology:<br />

@@ -112,22 +112,22 @@ const CtRadiologyCoverageCosts = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>CT Radiology Coverage Costs 2026: In-House vs Teleradiology vs AI | xAID</title>
+        <title>CT Radiology Coverage Costs 2026 Compared | xAID</title>
         <meta
           name="description"
-          content="Full cost comparison of CT radiology coverage in 2026: in-house radiologist, locum, traditional teleradiology, and AI CT reporting. Per-study costs, annual spend, setup time, quality guarantees."
+          content="CT radiology coverage costs in 2026: in-house, locum, teleradiology, and AI CT reporting compared — per-study rates, annual spend, quality guarantees."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="CT Radiology Coverage Costs 2026: In-House vs Teleradiology vs AI" />
-        <meta property="og:description" content="How much does CT radiology coverage cost in 2026? Full comparison of in-house radiologist, locum, teleradiology, and AI CT reporting — per-study costs, annual spend, and quality guarantees." />
+        <meta property="og:title" content="CT Radiology Coverage Costs 2026 Compared | xAID" />
+        <meta property="og:description" content="CT radiology coverage costs in 2026: in-house, locum, teleradiology, and AI CT reporting compared — per-study rates, annual spend, quality guarantees." />
         <meta property="og:url" content="https://xaid.ai/blog/ct-radiology-coverage-costs-2026" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="CT Radiology Coverage Costs 2026: In-House vs Teleradiology vs AI" />
-        <meta name="twitter:description" content="How much does CT radiology coverage cost? Per-study rates, annual spend, and the cost of after-hours coverage — compared across all four options." />
+        <meta name="twitter:title" content="CT Radiology Coverage Costs 2026 Compared | xAID" />
+        <meta name="twitter:description" content="CT radiology coverage costs in 2026: in-house, locum, teleradiology, and AI CT reporting compared — per-study rates, annual spend, quality guarantees." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
@@ -179,7 +179,7 @@ const CtRadiologyCoverageCosts = () => {
                     </thead>
                     <tbody>
                       {costTable.map((row, i) => (
-                        <tr key={i} className={`${i % 2 === 0 ? 'bg-gray-50' : 'bg-white'} ${i === costTable.length - 1 ? 'font-medium' : ''}`}>
+                        <tr key={i} className={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white', i === costTable.length - 1 ? 'font-medium' : ''].filter(Boolean).join(' ')}>
                           <td className={`py-3 pr-4 align-top ${i === costTable.length - 1 ? 'text-xaid-blue' : 'text-[#0D0D0D]'}`}>{row.option}</td>
                           <td className="py-3 pr-4 text-gray-700 align-top leading-snug">{row.perStudy}</td>
                           <td className="py-3 pr-4 text-gray-700 align-top leading-snug">{row.annual}</td>
