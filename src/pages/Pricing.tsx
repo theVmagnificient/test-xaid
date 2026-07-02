@@ -71,7 +71,7 @@ const roiStats = [
 const Pricing = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI CT Reporting Pricing vs Locum & Teleradiology | xAID</title>
         <meta
           name="description"
@@ -296,15 +296,15 @@ const Pricing = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Before you decide</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Cost analysis</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">CT radiology coverage costs 2026 — full breakdown</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Accuracy — 95% verified by peer-reviewed studies</div>
               </Link>
-              <Link to="/ai-vs-locum-radiologist" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/ai-vs-locum-radiologist/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Comparison</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT reporting vs locum radiologist — cost, speed & risk</div>
               </Link>

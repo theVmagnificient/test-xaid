@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import Footer from "@/components/Footer";
 
@@ -9,6 +10,12 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Helmet defer={false}>
+        <title>Privacy Policy – xAID</title>
+        <meta name="description" content="How xAID collects, uses, and protects personal data and protected health information. HIPAA-compliant AI CT reporting — data handling, retention, and your rights." />
+        <meta property="og:title" content="Privacy Policy – xAID" />
+        <meta property="og:description" content="How xAID collects, uses, and protects personal data and PHI." />
+      </Helmet>
 
       <main id="privacy-policy" className="pt-24 pb-16 md:pt-32 md:pb-24">
         <section className="privacy-policy container-xaid">

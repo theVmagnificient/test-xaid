@@ -14,7 +14,7 @@ const HipaaCompliantAiRadiology = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -97,7 +97,7 @@ const HipaaCompliantAiRadiology = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Compliance
               </span>
@@ -265,7 +265,7 @@ const HipaaCompliantAiRadiology = () => {
                     </li>
                   ))}
                 </ul>
-                <Link to="/compliance" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
+                <Link to="/compliance/" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
                   View full compliance documentation →
                 </Link>
               </div>
@@ -307,15 +307,15 @@ const HipaaCompliantAiRadiology = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/compliance" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/compliance/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Compliance</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">xAID Compliance Documentation</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Accuracy</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Clinical evidence & quality guarantee</div>
               </Link>
-              <Link to="/for-small-hospitals" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/for-small-hospitals/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">For small hospitals</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">HIPAA-Compliant CT Coverage for Small Hospitals</div>
               </Link>

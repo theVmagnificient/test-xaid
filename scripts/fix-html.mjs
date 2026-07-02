@@ -53,15 +53,47 @@ if (files.length === 0) {
   process.exit(1);
 }
 
+// Remove template-default meta tags that a page's Helmet output supersedes.
+// A tag is "default" when it lacks data-rh="true"; for every (property|name) key
+// that has a data-rh version on the page, the default duplicate is dropped —
+// otherwise crawlers see two conflicting descriptions/og:titles per page.
+function dedupeMeta(html) {
+  const metaRe = /<meta\b[^>]*>/gi;
+  const keyOf = (tag) => {
+    const m = tag.match(/\b(?:property|name)=(["'])([^"']+)\1/i);
+    return m ? m[2].toLowerCase() : null;
+  };
+  const helmetKeys = new Set();
+  for (const m of html.match(metaRe) ?? []) {
+    if (/data-rh=(["'])true\1/i.test(m)) {
+      const k = keyOf(m);
+      if (k) helmetKeys.add(k);
+    }
+  }
+  if (helmetKeys.size === 0) return html;
+  return html.replace(metaRe, (tag) => {
+    if (/data-rh=(["'])true\1/i.test(tag)) return tag;
+    const k = keyOf(tag);
+    return k && helmetKeys.has(k) ? '' : tag;
+  });
+}
+
+const OG_URL_RE = /\s*<meta\b[^>]*\bproperty=(["'])og:url\1[^>]*>/gi;
+const TW_URL_RE = /\s*<meta\b[^>]*\bname=(["'])twitter:url\1[^>]*>/gi;
+
 let injectedSchema = false;
 for (const file of files) {
   let html = readFileSync(file, 'utf8');
   const path = canonicalPathFor(file);
-  const canonical = `<link rel="canonical" href="${ORIGIN}${path}"/>`;
+  const url = ORIGIN + path;
+  const canonical = `<link rel="canonical" href="${url}"/>`;
 
   html = html.replace(CANONICAL_RE, '');
+  html = dedupeMeta(html);
+  // og:url/twitter:url must equal the canonical — strip all variants, re-inject.
+  html = html.replace(OG_URL_RE, '').replace(TW_URL_RE, '');
 
-  let head = canonical;
+  let head = canonical + `<meta property="og:url" content="${url}"/><meta name="twitter:url" content="${url}"/>`;
   if (path === '/') {
     head += schemaTags;
     injectedSchema = true;
@@ -73,6 +105,23 @@ for (const file of files) {
   }
   html = html.replace('</head>', head + '</head>');
   writeFileSync(file, html);
+}
+
+// 200.html / 404.html: SPA fallbacks — must never be indexed. 404 also gets a real title.
+for (const name of ['200.html', '404.html']) {
+  const file = join(dist, name);
+  try {
+    let html = readFileSync(file, 'utf8');
+    html = html.replace(CANONICAL_RE, '');
+    html = html.replace(/<meta\b[^>]*name=(["'])robots\1[^>]*>/gi, '');
+    if (name === '404.html') {
+      html = html.replace(/<title[^>]*>[^<]*<\/title>/i, '<title>Page not found – xAID</title>');
+    }
+    html = html.replace('</head>', '<meta name="robots" content="noindex, nofollow"/></head>');
+    writeFileSync(file, html);
+  } catch {
+    console.warn(`[fix-html] ${name} not found — skipped.`);
+  }
 }
 
 if (!injectedSchema) {

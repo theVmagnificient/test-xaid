@@ -39,7 +39,7 @@ const compliancePoints = [
 const Compliance = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>HIPAA Compliant AI Radiology Reporting | ISO 27001 | BAA Available | xAID</title>
         <meta
           name="description"
@@ -247,15 +247,15 @@ const Compliance = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/is-ai-radiology-reporting-hipaa-compliant" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/is-ai-radiology-reporting-hipaa-compliant/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Blog</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Is AI radiology reporting HIPAA compliant?</div>
               </Link>
-              <Link to="/integrations" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/integrations/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Integrations</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">DICOM & HL7 integration details</div>
               </Link>
-              <Link to="/for-small-hospitals" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/for-small-hospitals/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">For small hospitals</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">HIPAA & ISO 27001 — compliance for small hospitals</div>
               </Link>

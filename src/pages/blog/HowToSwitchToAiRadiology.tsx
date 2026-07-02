@@ -109,7 +109,7 @@ const HowToSwitchToAiRadiology = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>How to Switch from Teleradiology to AI CT Reporting: Step-by-Step | xAID</title>
         <meta
           name="description"
@@ -246,7 +246,7 @@ const HowToSwitchToAiRadiology = () => {
                 ))}
               </div>
               <p className="text-gray-400 text-sm mt-6 leading-relaxed">
-                Total IT time: typically <strong className="text-white">2–4 hours</strong> for a PACS administrator. xAID provides step-by-step integration documentation and a dedicated onboarding contact for the duration of setup. See <Link to="/integrations" className="text-xaid-blue hover:underline">Integrations</Link> for the full technical reference.
+                Total IT time: typically <strong className="text-white">2–4 hours</strong> for a PACS administrator. xAID provides step-by-step integration documentation and a dedicated onboarding contact for the duration of setup. See <Link to="/integrations/" className="text-xaid-blue hover:underline">Integrations</Link> for the full technical reference.
               </p>
             </div>
           </section>
@@ -273,15 +273,15 @@ const HowToSwitchToAiRadiology = () => {
             <div className="container-xaid max-w-3xl mx-auto">
               <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <Link to="/integrations" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/integrations/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">Technical</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">DICOM & HL7 Integration — Technical Reference</div>
                 </Link>
-                <Link to="/how-ai-ct-reporting-works" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">How it works</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How AI CT Reporting Works — Full 5-Step Workflow</div>
                 </Link>
-                <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">Cost analysis</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">CT Radiology Coverage Costs 2026 — Full Breakdown</div>
                 </Link>
@@ -305,7 +305,7 @@ const HowToSwitchToAiRadiology = () => {
                 Request free pilot
               </Link>
               <Link
-                to="/integrations"
+                to="/integrations/"
                 className="btn-outline px-8 py-3 text-base"
               >
                 Integration Details

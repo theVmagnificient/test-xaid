@@ -42,7 +42,7 @@ const headFaqs = [
 const HeadCtReport = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI Head CT Reporting — Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
@@ -99,7 +99,7 @@ const HeadCtReport = () => {
                 <Link to="/#contact-us" className="bg-xaid-blue hover:bg-xaid-blue/90 text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
                   Start free pilot
                 </Link>
-                <Link to="/accuracy" className="border border-white/20 text-white hover:bg-white/5 font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
+                <Link to="/accuracy/" className="border border-white/20 text-white hover:bg-white/5 font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
                   View clinical evidence
                 </Link>
               </div>

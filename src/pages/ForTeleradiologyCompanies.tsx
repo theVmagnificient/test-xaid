@@ -39,7 +39,7 @@ const stats = [
 const ForTeleradiologyCompanies = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI CT Reporting for Teleradiology Companies | Scale CT Coverage | xAID</title>
         <meta
           name="description"
@@ -128,7 +128,7 @@ const ForTeleradiologyCompanies = () => {
                   Talk to Us About Volume Pricing
                 </Link>
                 <Link
-                  to="/ai-vs-teleradiology"
+                  to="/ai-vs-teleradiology/"
                   className="bg-white/10 hover:bg-white/20 border border-white/20 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
                 >
                   Compare providers
@@ -293,9 +293,9 @@ const ForTeleradiologyCompanies = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
               {[
-                { title: 'Head CT', sub: 'Stroke, hemorrhage, fractures, brain parenchyma', href: '/head-ct-ai-report' },
-                { title: 'Chest CT', sub: 'Lung nodules, coronary calcium, pleural effusion, fractures', href: '/chest-ct-ai-report', badge: 'Peer-reviewed' },
-                { title: 'Abdomen CT', sub: 'Liver, kidneys, pancreas, bowel, aorta, lymph nodes', href: '/abdomen-ct-ai-report' },
+                { title: 'Head CT', sub: 'Stroke, hemorrhage, fractures, brain parenchyma', href: '/head-ct-ai-report/' },
+                { title: 'Chest CT', sub: 'Lung nodules, coronary calcium, pleural effusion, fractures', href: '/chest-ct-ai-report/', badge: 'Peer-reviewed' },
+                { title: 'Abdomen CT', sub: 'Liver, kidneys, pancreas, bowel, aorta, lymph nodes', href: '/abdomen-ct-ai-report/' },
               ].map((m) => (
                 <Link
                   key={m.title}
@@ -316,7 +316,7 @@ const ForTeleradiologyCompanies = () => {
               ))}
             </div>
             <div className="text-center mt-8">
-              <Link to="/accuracy" className="text-xaid-blue text-sm font-medium hover:underline">See peer-reviewed accuracy data for AI CT reporting →</Link>
+              <Link to="/accuracy/" className="text-xaid-blue text-sm font-medium hover:underline">See peer-reviewed accuracy data for AI CT reporting →</Link>
             </div>
           </div>
         </section>
@@ -326,15 +326,15 @@ const ForTeleradiologyCompanies = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/after-hours-radiology-coverage-options" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/after-hours-radiology-coverage-options/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">After-hours coverage</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">After-hours radiology coverage options — no surcharges</div>
               </Link>
-              <Link to="/ai-vs-teleradiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/ai-vs-teleradiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Market overview</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT reporting vs teleradiology — full comparison</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">95% accuracy — peer-reviewed study data</div>
               </Link>

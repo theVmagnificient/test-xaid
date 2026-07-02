@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 const SmallHospitalRadiology = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI Radiology for Small and Community Hospitals 2026: Coverage Options, Costs, and Implementation | xAID</title>
         <meta
           name="description"
@@ -100,7 +100,7 @@ const SmallHospitalRadiology = () => {
           <header className="section-padding pb-0">
             <div className="container-xaid max-w-3xl mx-auto">
               <div className="mb-6">
-                <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+                <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               </div>
               <div className="flex items-center gap-3 mb-4">
                 <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Operations</span>
@@ -210,7 +210,7 @@ const SmallHospitalRadiology = () => {
                 <li className="text-white/60 text-[15px] font-light leading-[1.65]"><strong className="text-white">HIPAA compliant</strong> — ISO 27001 certified, BAA available</li>
               </ul>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                Clinical evidence for the AI layer: xAID achieves 95% accuracy verified by independent peer-reviewed studies — the only AI CT reporting service with published clinical evidence. Full study details are available at <Link to="/accuracy" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                Clinical evidence for the AI layer: xAID achieves 95% accuracy verified by independent peer-reviewed studies — the only AI CT reporting service with published clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
               </p>
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">Critical Access Hospital (CAH) considerations</h2>
@@ -300,15 +300,15 @@ const SmallHospitalRadiology = () => {
             <div className="container-xaid max-w-3xl mx-auto">
               <h2 className="text-[18px] font-medium text-white leading-[1.3] mb-6">Related resources</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <Link to="/for-small-hospitals" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/for-small-hospitals/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">For Small Hospitals</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT Reporting for Small & Community Hospitals</div>
                 </Link>
-                <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">Cost analysis</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">CT Radiology Coverage Costs 2026 — Full Breakdown</div>
                 </Link>
-                <Link to="/blog/after-hours-radiology-coverage-options" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/blog/after-hours-radiology-coverage-options/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">After-Hours</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">After-Hours Radiology Coverage Options 2026</div>
                 </Link>

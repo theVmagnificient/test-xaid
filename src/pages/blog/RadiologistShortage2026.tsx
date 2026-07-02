@@ -14,7 +14,7 @@ const RadiologistShortage2026 = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -89,7 +89,7 @@ const RadiologistShortage2026 = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Radiology Workforce
               </span>
@@ -291,15 +291,15 @@ const RadiologistShortage2026 = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Cost analysis</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">CT Radiology Coverage Costs 2026 — Full Breakdown</div>
               </Link>
-              <Link to="/for-small-hospitals" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/for-small-hospitals/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">For Small Hospitals</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">24/7 CT Coverage for Small & Community Hospitals</div>
               </Link>
-              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Buyer Guide</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI Radiology Software: 2026 Buyer's Guide</div>
               </Link>

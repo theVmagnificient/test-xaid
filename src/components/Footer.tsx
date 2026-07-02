@@ -12,36 +12,36 @@ const columns = [
   {
     title: 'Solutions',
     links: [
-      { to: '/for-outpatient-imaging-centers', label: 'For imaging centers' },
-      { to: '/for-teleradiology-companies', label: 'For teleradiology' },
-      { to: '/for-radiology-groups', label: 'For radiology groups' },
-      { to: '/for-small-hospitals', label: 'For small hospitals' },
+      { to: '/for-outpatient-imaging-centers/', label: 'For imaging centers' },
+      { to: '/for-teleradiology-companies/', label: 'For teleradiology' },
+      { to: '/for-radiology-groups/', label: 'For radiology groups' },
+      { to: '/for-small-hospitals/', label: 'For small hospitals' },
     ],
   },
   {
     title: 'Modalities',
     links: [
-      { to: '/head-ct-ai-report', label: 'Head CT' },
-      { to: '/chest-ct-ai-report', label: 'Chest CT' },
-      { to: '/abdomen-ct-ai-report', label: 'Abdomen CT' },
+      { to: '/head-ct-ai-report/', label: 'Head CT' },
+      { to: '/chest-ct-ai-report/', label: 'Chest CT' },
+      { to: '/abdomen-ct-ai-report/', label: 'Abdomen CT' },
     ],
   },
   {
     title: 'Compare',
     links: [
-      { to: '/ai-vs-teleradiology', label: 'AI vs teleradiology' },
-      { to: '/ai-vs-locum-radiologist', label: 'AI vs locum radiologist' },
-      { to: '/how-ai-ct-reporting-works', label: 'How AI CT reporting works' },
+      { to: '/ai-vs-teleradiology/', label: 'AI vs teleradiology' },
+      { to: '/ai-vs-locum-radiologist/', label: 'AI vs locum radiologist' },
+      { to: '/how-ai-ct-reporting-works/', label: 'How AI CT reporting works' },
     ],
   },
   {
     title: 'Company',
     links: [
-      { to: '/accuracy', label: 'Accuracy' },
-      { to: '/compliance', label: 'Compliance' },
-      { to: '/integrations', label: 'Integrations' },
-      { to: '/pricing', label: 'Pricing' },
-      { to: '/blog', label: 'Blog' },
+      { to: '/accuracy/', label: 'Accuracy' },
+      { to: '/compliance/', label: 'Compliance' },
+      { to: '/integrations/', label: 'Integrations' },
+      { to: '/pricing/', label: 'Pricing' },
+      { to: '/blog/', label: 'Blog' },
     ],
   },
 ];
@@ -102,7 +102,7 @@ const Footer = () => {
             <span className="text-[12px] text-muted-foreground">ISO Certified</span>
           </div>
           <div className="flex items-center gap-6 flex-wrap md:ml-auto">
-            <Link to="/privacy-policy" className="text-[12px] text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/privacy-policy/" className="text-[12px] text-muted-foreground hover:text-foreground transition-colors">
               Privacy policy
             </Link>
             <p className="text-[12px] text-muted-foreground">

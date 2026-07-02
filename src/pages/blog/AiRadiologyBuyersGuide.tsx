@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 const AiRadiologyBuyersGuide = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI Radiology Reporting Software: A 2026 Buyer's Guide | xAID</title>
         <meta
           name="description"
@@ -187,7 +187,7 @@ const AiRadiologyBuyersGuide = () => {
                 </div>
 
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                  For reference: xAID achieves 95% accuracy verified by independent peer-reviewed studies — AI-assisted detection consistently outperformed unaided radiologists across multiple pathology categories. Full methodology and results are available at <Link to="/accuracy" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                  For reference: xAID achieves 95% accuracy verified by independent peer-reviewed studies — AI-assisted detection consistently outperformed unaided radiologists across multiple pathology categories. Full methodology and results are available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
                 </p>
 
                 {/* Section 3 */}
@@ -256,7 +256,7 @@ const AiRadiologyBuyersGuide = () => {
                 <div className="bg-xaid-blue/10 border border-xaid-blue/20 rounded-xl p-6 mb-8">
                   <h3 className="text-[#0D0D0D] font-medium mb-2 text-sm">xAID's Accuracy Evidence</h3>
                   <p className="text-[#444] text-[15px] leading-[1.65] font-light">
-                    95% accuracy verified by independent peer-reviewed studies. xAID is the only AI CT reporting service with published independent clinical evidence. Full study details are available at <Link to="/accuracy" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                    95% accuracy verified by independent peer-reviewed studies. xAID is the only AI CT reporting service with published independent clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
                   </p>
                 </div>
 
@@ -388,15 +388,15 @@ const AiRadiologyBuyersGuide = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/ai-vs-teleradiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/ai-vs-teleradiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Buyer Guide</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT Reporting vs Teleradiology — Full Comparison</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Accuracy & Published Study Data</div>
               </Link>
-              <Link to="/pricing" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/pricing/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Pricing</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Per-Study Pricing vs Enterprise AI Contracts</div>
               </Link>

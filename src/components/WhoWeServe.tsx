@@ -7,25 +7,25 @@ const audiences = [
     title: 'Outpatient imaging centers',
     description: 'Expand CT capacity without adding headcount. Get ready-to-sign reports back in 2–12 hours — reduce radiologist hours without sacrificing coverage',
     Icon: Building2,
-    href: '/for-outpatient-imaging-centers',
+    href: '/for-outpatient-imaging-centers/',
   },
   {
     title: 'Teleradiology providers',
     description: 'Scale your read volume with AI CT reporting that delivers full radiologist-reviewed preliminary reports, not just detection flags. DICOM in, HL7 out — setup under one week',
     Icon: Radio,
-    href: '/for-teleradiology-companies',
+    href: '/for-teleradiology-companies/',
   },
   {
     title: 'Radiology groups',
     description: 'Cover overflow, after-hours, and scheduled CT reads without locum costs. Free your radiologists for complex cases',
     Icon: Stethoscope,
-    href: '/for-radiology-groups',
+    href: '/for-radiology-groups/',
   },
   {
     title: 'Small & community hospitals',
     description: '24/7 CT coverage with no after-hours surcharge and no FTE commitment. Per-study pricing, setup under one week, BAA included',
     Icon: Hospital,
-    href: '/for-small-hospitals',
+    href: '/for-small-hospitals/',
   },
 ];
 

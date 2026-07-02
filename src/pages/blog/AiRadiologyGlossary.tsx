@@ -153,7 +153,7 @@ const AiRadiologyGlossary = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI Radiology Terminology Glossary: Key Terms Explained | xAID</title>
         <meta
           name="description"
@@ -239,15 +239,15 @@ const AiRadiologyGlossary = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/how-ai-ct-reporting-works" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">How it works</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How AI CT Reporting Works — 5-Step Workflow</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Accuracy Data — Peer-Reviewed Studies</div>
               </Link>
-              <Link to="/how-ai-ct-reporting-works" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">How it works</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How AI CT Reporting Works — 5-Step Workflow</div>
               </Link>
@@ -266,7 +266,7 @@ const AiRadiologyGlossary = () => {
               <Link to="/#contact-us" className="btn-primary px-8 py-3 text-base">
                 Request free pilot
               </Link>
-              <Link to="/how-ai-ct-reporting-works" className="btn-outline px-8 py-3 text-base">
+              <Link to="/how-ai-ct-reporting-works/" className="btn-outline px-8 py-3 text-base">
                 How it works
               </Link>
             </div>

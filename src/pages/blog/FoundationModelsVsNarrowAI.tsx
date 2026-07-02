@@ -15,7 +15,7 @@ const FoundationModelsVsNarrowAI = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -97,7 +97,7 @@ const FoundationModelsVsNarrowAI = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 AI Technology
               </span>
@@ -167,7 +167,7 @@ const FoundationModelsVsNarrowAI = () => {
                 False positives make the math worse. In one real-world evaluation of a commercial lung nodule algorithm, 39% of flagged findings were not true nodules, and the observed false-positive rate was 1.36 per scan — more than double the vendor's published rate of 0.58 (AJR, Hong &amp; Leung, Stanford; DOI: <a href="https://doi.org/10.2214/AJR.26.34524" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">10.2214/AJR.26.34524</a>). Benign vessels, branching opacities, and mucus plugging get flagged routinely. Every false alert is a finding the radiologist has to open, evaluate, and dismiss.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Then there's the budget. Buy five separate solutions plus a platform to unify their outputs plus text processing to merge the reports, and the <Link to="/blog/ct-radiology-coverage-costs-2026" className="text-xaid-blue hover:underline">cost per chest CT</Link> climbs toward a level that competes with what you pay a radiologist — without removing the radiologist's validation work. Bolt-on detection that generates more than one false positive per scan isn't saving time. It's consuming it.
+                Then there's the budget. Buy five separate solutions plus a platform to unify their outputs plus text processing to merge the reports, and the <Link to="/blog/ct-radiology-coverage-costs-2026/" className="text-xaid-blue hover:underline">cost per chest CT</Link> climbs toward a level that competes with what you pay a radiologist — without removing the radiologist's validation work. Bolt-on detection that generates more than one false positive per scan isn't saving time. It's consuming it.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -226,7 +226,7 @@ const FoundationModelsVsNarrowAI = () => {
                 What this means before you buy
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                In our view, the hospital AI stack will compress from dozens of point tools toward a handful of comprehensive models: one for CT, one for MRI, one for X-ray and mammography. If you're evaluating radiology AI, the questions that matter shift accordingly — and they build on the broader checklist in our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026" className="text-xaid-blue hover:underline">2026 buyer's guide</Link>:
+                In our view, the hospital AI stack will compress from dozens of point tools toward a handful of comprehensive models: one for CT, one for MRI, one for X-ray and mammography. If you're evaluating radiology AI, the questions that matter shift accordingly — and they build on the broader checklist in our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="text-xaid-blue hover:underline">2026 buyer's guide</Link>:
               </p>
               <div className="space-y-4 mb-8">
                 {[
@@ -254,7 +254,7 @@ const FoundationModelsVsNarrowAI = () => {
                 What doesn't change
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Foundation models don't remove the radiologist — they change what the radiologist spends time on. Every xAID report is reviewed by a radiologist before delivery, and you can see <Link to="/blog/how-accurate-is-ai-radiology-reporting" className="text-xaid-blue hover:underline">how that accuracy is measured</Link> in the published evidence. The model handles structured analysis, quantitative measurement, and report drafting across the full study; the radiologist handles clinical reasoning, context, and professional accountability. The shift from narrow to foundation AI is about giving that radiologist a complete draft to sign instead of seven fragments to assemble.
+                Foundation models don't remove the radiologist — they change what the radiologist spends time on. Every xAID report is reviewed by a radiologist before delivery, and you can see <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="text-xaid-blue hover:underline">how that accuracy is measured</Link> in the published evidence. The model handles structured analysis, quantitative measurement, and report drafting across the full study; the radiologist handles clinical reasoning, context, and professional accountability. The shift from narrow to foundation AI is about giving that radiologist a complete draft to sign instead of seven fragments to assemble.
               </p>
 
               {/* FAQ */}
@@ -295,7 +295,7 @@ const FoundationModelsVsNarrowAI = () => {
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"
-          secondaryTo="/how-ai-ct-reporting-works"
+          secondaryTo="/how-ai-ct-reporting-works/"
         />
 
         {/* Related */}
@@ -303,15 +303,15 @@ const FoundationModelsVsNarrowAI = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Buyer Guide</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI Radiology Software: 2026 Buyer's Guide</div>
               </Link>
-              <Link to="/blog/how-accurate-is-ai-radiology-reporting" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical Evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How Accurate Is AI Radiology Reporting?</div>
               </Link>
-              <Link to="/how-ai-ct-reporting-works" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">How It Works</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How AI CT Reporting Works</div>
               </Link>

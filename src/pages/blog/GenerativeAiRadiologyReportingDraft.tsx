@@ -15,7 +15,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -97,7 +97,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Clinical Evidence
               </span>
@@ -234,7 +234,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
                 From chest X-ray to structured CT reporting
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The chest radiograph is where the evidence is cleanest, but the workflow it validates generalizes. The same draft-then-sign loop — AI generates a structured preliminary report, a radiologist reviews, edits, and signs it — is exactly how <Link to="/how-ai-ct-reporting-works" className="text-xaid-blue hover:underline">AI CT reporting</Link> works. xAID's <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="text-xaid-blue hover:underline">foundation models</Link> produce a comprehensive, structured draft, and a radiologist reviews and signs every report before it reaches a patient's chart. The chest X-ray studies aren't a preview of a distant future; they're the operational proof point for a workflow already running on CT — where the model is the first-draft engine and the radiologist remains the reader of record.
+                The chest radiograph is where the evidence is cleanest, but the workflow it validates generalizes. The same draft-then-sign loop — AI generates a structured preliminary report, a radiologist reviews, edits, and signs it — is exactly how <Link to="/how-ai-ct-reporting-works/" className="text-xaid-blue hover:underline">AI CT reporting</Link> works. xAID's <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">foundation models</Link> produce a comprehensive, structured draft, and a radiologist reviews and signs every report before it reaches a patient's chart. The chest X-ray studies aren't a preview of a distant future; they're the operational proof point for a workflow already running on CT — where the model is the first-draft engine and the radiologist remains the reader of record.
               </p>
 
               {/* FAQ */}
@@ -279,7 +279,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"
-          secondaryTo="/how-ai-ct-reporting-works"
+          secondaryTo="/how-ai-ct-reporting-works/"
         />
 
         {/* Related */}
@@ -287,15 +287,15 @@ const GenerativeAiRadiologyReportingDraft = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/how-accurate-is-ai-radiology-reporting" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical Evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How Accurate Is AI Radiology Reporting?</div>
               </Link>
-              <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">AI Technology</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Foundation Models vs Narrow AI in Radiology</div>
               </Link>
-              <Link to="/blog/should-patients-be-told-when-ai-reads-their-scan" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/should-patients-be-told-when-ai-reads-their-scan/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">AI Ethics &amp; Trust</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Should Patients Be Told When AI Reads Their Scan?</div>
               </Link>

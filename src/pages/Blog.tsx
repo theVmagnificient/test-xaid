@@ -6,7 +6,7 @@ import { blogPosts } from '@/data/blog-posts';
 const Blog = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI Radiology Blog — CT Reporting Insights & Clinical Evidence | xAID</title>
         <meta
           name="description"
@@ -68,7 +68,7 @@ const Blog = () => {
             {/* Featured post */}
             <div className="mb-12">
               <Link
-                to={`/blog/${blogPosts[0].slug}`}
+                to={`/blog/${blogPosts[0].slug}/`}
                 className="block bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12 hover:bg-white/10 transition-colors group"
               >
                 <div className="flex flex-wrap items-center gap-3 mb-4">
@@ -93,7 +93,7 @@ const Blog = () => {
               {blogPosts.slice(1).map((post) => (
                 <Link
                   key={post.slug}
-                  to={`/blog/${post.slug}`}
+                  to={`/blog/${post.slug}/`}
                   className="block bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors group"
                 >
                   <div className="flex flex-wrap items-center gap-3 mb-4">

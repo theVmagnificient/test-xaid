@@ -24,10 +24,10 @@ const Navigation = () => {
   ];
 
   const pageLinks = [
-    { label: 'For imaging centers', href: '/for-outpatient-imaging-centers' },
-    { label: 'For teleradiology', href: '/for-teleradiology-companies' },
-    { label: 'Pricing', href: '/pricing' },
-    { label: 'Blog', href: '/blog' },
+    { label: 'For imaging centers', href: '/for-outpatient-imaging-centers/' },
+    { label: 'For teleradiology', href: '/for-teleradiology-companies/' },
+    { label: 'Pricing', href: '/pricing/' },
+    { label: 'Blog', href: '/blog/' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -75,7 +75,7 @@ const Navigation = () => {
               )
             ))}
             {pageLinks.map((link) => {
-              const isActive = location.pathname === link.href || location.pathname.startsWith(link.href + '/');
+              const base = link.href.replace(/\/$/, ''); const isActive = location.pathname === base || location.pathname.startsWith(base + '/');
               return (
                 <Link
                   key={link.label}

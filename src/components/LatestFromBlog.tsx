@@ -14,7 +14,7 @@ const LatestFromBlog = () => {
               From the blog
             </h2>
           </div>
-          <Link to="/blog" className="hidden md:block text-xaid-blue text-sm font-medium hover:underline flex-shrink-0 mb-1">
+          <Link to="/blog/" className="hidden md:block text-xaid-blue text-sm font-medium hover:underline flex-shrink-0 mb-1">
             All articles →
           </Link>
         </div>
@@ -23,7 +23,7 @@ const LatestFromBlog = () => {
           {featured.map((post) => (
             <Link
               key={post.slug}
-              to={`/blog/${post.slug}`}
+              to={`/blog/${post.slug}/`}
               className="block bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-colors group"
             >
               <div className="flex flex-wrap items-center gap-2 mb-3">
@@ -42,7 +42,7 @@ const LatestFromBlog = () => {
         </div>
 
         <div className="mt-6 text-center md:hidden">
-          <Link to="/blog" className="text-xaid-blue text-sm font-medium hover:underline">
+          <Link to="/blog/" className="text-xaid-blue text-sm font-medium hover:underline">
             All articles →
           </Link>
         </div>

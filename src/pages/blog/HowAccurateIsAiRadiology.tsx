@@ -14,7 +14,7 @@ const HowAccurateIsAiRadiology = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -98,7 +98,7 @@ const HowAccurateIsAiRadiology = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Clinical Evidence
               </span>
@@ -262,7 +262,7 @@ const HowAccurateIsAiRadiology = () => {
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light">
                   xAID's accuracy is backed by two independent peer-reviewed studies: 92.2% sensitivity and 95.6% specificity (Bonatti et al., the Polish Journal of Radiology, 2025) and 94.9% radiologist approval rate across four European centers (Polushkin et al., ResearchGate, 2025). Every report is reviewed by a European radiologist before delivery. No other AI radiology vendor has published this level of independent clinical evidence.
                 </p>
-                <Link to="/accuracy" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
+                <Link to="/accuracy/" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
                   View full accuracy documentation →
                 </Link>
               </div>
@@ -305,15 +305,15 @@ const HowAccurateIsAiRadiology = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Accuracy & Evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Full clinical evidence documentation</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Accuracy — 95% Verified by Peer-Reviewed Studies</div>
               </Link>
-              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Buyer Guide</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI Radiology Software: 2026 Buyer's Guide</div>
               </Link>

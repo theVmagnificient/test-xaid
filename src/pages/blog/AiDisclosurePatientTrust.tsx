@@ -15,7 +15,7 @@ const AiDisclosurePatientTrust = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -97,7 +97,7 @@ const AiDisclosurePatientTrust = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 AI Ethics &amp; Trust
               </span>
@@ -197,7 +197,7 @@ const AiDisclosurePatientTrust = () => {
                 Where this fits with how AI CT reporting actually works
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="text-xaid-blue hover:underline">comprehensive report draft</Link>, and a radiologist reviews and signs every one before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
+                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">comprehensive report draft</Link>, and a radiologist reviews and signs every one before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
               </p>
 
               {/* FAQ */}
@@ -242,7 +242,7 @@ const AiDisclosurePatientTrust = () => {
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"
-          secondaryTo="/how-ai-ct-reporting-works"
+          secondaryTo="/how-ai-ct-reporting-works/"
         />
 
         {/* Related */}
@@ -250,15 +250,15 @@ const AiDisclosurePatientTrust = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">AI Technology</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Foundation Models vs Narrow AI in Radiology</div>
               </Link>
-              <Link to="/blog/is-ai-radiology-reporting-hipaa-compliant" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/is-ai-radiology-reporting-hipaa-compliant/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Compliance</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Is AI Radiology Reporting HIPAA Compliant?</div>
               </Link>
-              <Link to="/blog/how-accurate-is-ai-radiology-reporting" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical Evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How Accurate Is AI Radiology Reporting?</div>
               </Link>

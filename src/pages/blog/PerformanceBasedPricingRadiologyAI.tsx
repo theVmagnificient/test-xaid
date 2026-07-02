@@ -15,7 +15,7 @@ const PerformanceBasedPricingRadiologyAI = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -97,7 +97,7 @@ const PerformanceBasedPricingRadiologyAI = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Pricing &amp; ROI
               </span>
@@ -211,14 +211,14 @@ const PerformanceBasedPricingRadiologyAI = () => {
                 The real issue underneath pricing is trust. Efficiency gains from AI only exist when radiologists trust the output enough to <em>not</em> re-read everything from zero. Without that trust, you're not buying a productivity tool — you're buying an expensive second opinion that still needs a first opinion.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Performance-based pricing is, in effect, a way of putting that trust in writing. A vendor willing to tie its fee to results is making a statement about how much it believes in its own accuracy. This is why a <Link to="/blog/ai-radiology-terminology-glossary" className="text-xaid-blue hover:underline">no-edit guarantee</Link> — where the provider stands behind a report and reimburses when a radiologist has to materially correct it — matters more than any single benchmark on a slide. It aligns the vendor's incentive with the one thing the practice actually needs: output it can sign without redoing.
+                Performance-based pricing is, in effect, a way of putting that trust in writing. A vendor willing to tie its fee to results is making a statement about how much it believes in its own accuracy. This is why a <Link to="/blog/ai-radiology-terminology-glossary/" className="text-xaid-blue hover:underline">no-edit guarantee</Link> — where the provider stands behind a report and reimburses when a radiologist has to materially correct it — matters more than any single benchmark on a slide. It aligns the vendor's incentive with the one thing the practice actually needs: output it can sign without redoing.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
                 What to ask before you sign
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Even before result-based contracts become standard, the framing changes the <em>pricing</em> questions worth asking a vendor: What accuracy level do you commit to, and what happens to my bill if you fall below it? Does your pricing reflect results, or only usage? And do you stand behind your output financially when a radiologist has to materially fix it? The answers tell you who is carrying the risk — you, or the vendor that built the model. (For the full vendor-evaluation checklist beyond pricing, see our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026" className="text-xaid-blue hover:underline">2026 buyer's guide</Link>.)
+                Even before result-based contracts become standard, the framing changes the <em>pricing</em> questions worth asking a vendor: What accuracy level do you commit to, and what happens to my bill if you fall below it? Does your pricing reflect results, or only usage? And do you stand behind your output financially when a radiologist has to materially fix it? The answers tell you who is carrying the risk — you, or the vendor that built the model. (For the full vendor-evaluation checklist beyond pricing, see our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="text-xaid-blue hover:underline">2026 buyer's guide</Link>.)
               </p>
 
               {/* FAQ */}
@@ -259,7 +259,7 @@ const PerformanceBasedPricingRadiologyAI = () => {
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"
-          secondaryTo="/how-ai-ct-reporting-works"
+          secondaryTo="/how-ai-ct-reporting-works/"
         />
 
         {/* Related */}
@@ -267,15 +267,15 @@ const PerformanceBasedPricingRadiologyAI = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">AI Technology</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Foundation Models vs Narrow AI in Radiology</div>
               </Link>
-              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Buyer Guide</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI Radiology Software: 2026 Buyer's Guide</div>
               </Link>
-              <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Cost Analysis</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">CT Radiology Coverage Costs 2026</div>
               </Link>

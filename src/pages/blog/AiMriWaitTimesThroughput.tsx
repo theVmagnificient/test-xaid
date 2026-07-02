@@ -16,7 +16,7 @@ const AiMriWaitTimesThroughput = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -98,7 +98,7 @@ const AiMriWaitTimesThroughput = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Workflow &amp; Throughput
               </span>
@@ -245,7 +245,7 @@ const AiMriWaitTimesThroughput = () => {
                 Where this fits with AI CT reporting
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The reporting side of this equation is precisely what AI CT report drafting addresses. Rather than a narrow detector bolted onto one finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="text-xaid-blue hover:underline">foundation-model approach</Link> produces a structured, comprehensive report draft the radiologist reviews and signs — a ready-to-sign report, not an autonomous read. That’s the reporting-capacity lever that pairs with acquisition-speed AI: the scanner gets faster, and the reading room keeps up, with a radiologist accountable for every final report. Cutting MRI wait times is the start; clearing the backlog end-to-end is the goal.
+                The reporting side of this equation is precisely what AI CT report drafting addresses. Rather than a narrow detector bolted onto one finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">foundation-model approach</Link> produces a structured, comprehensive report draft the radiologist reviews and signs — a ready-to-sign report, not an autonomous read. That’s the reporting-capacity lever that pairs with acquisition-speed AI: the scanner gets faster, and the reading room keeps up, with a radiologist accountable for every final report. Cutting MRI wait times is the start; clearing the backlog end-to-end is the goal.
               </p>
 
               {/* FAQ */}
@@ -290,7 +290,7 @@ const AiMriWaitTimesThroughput = () => {
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"
-          secondaryTo="/how-ai-ct-reporting-works"
+          secondaryTo="/how-ai-ct-reporting-works/"
         />
 
         {/* Related */}
@@ -298,15 +298,15 @@ const AiMriWaitTimesThroughput = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/foundation-models-vs-narrow-ai-radiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">AI Technology</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Foundation Models vs Narrow AI in Radiology</div>
               </Link>
-              <Link to="/blog/how-accurate-is-ai-radiology-reporting" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical Evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How Accurate Is AI Radiology Reporting?</div>
               </Link>
-              <Link to="/how-ai-ct-reporting-works" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Workflow</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How AI CT Reporting Works</div>
               </Link>

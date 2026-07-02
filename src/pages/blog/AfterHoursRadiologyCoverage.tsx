@@ -107,7 +107,7 @@ const AfterHoursRadiologyCoverage = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>After-Hours Radiology Coverage Options 2026: Costs, Availability & Quality | xAID</title>
         <meta
           name="description"
@@ -274,15 +274,15 @@ const AfterHoursRadiologyCoverage = () => {
             <div className="container-xaid max-w-3xl mx-auto">
               <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <Link to="/blog" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/blog/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">Provider Guide</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Teleradiology Coverage Options — Provider Guide</div>
                 </Link>
-                <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">Cost analysis</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Full CT Radiology Coverage Cost Comparison 2026</div>
                 </Link>
-                <Link to="/ai-vs-teleradiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+                <Link to="/ai-vs-teleradiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                   <div className="text-xaid-blue text-xs font-medium mb-2">Comparison</div>
                   <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT Reporting vs Traditional Teleradiology — Full Comparison</div>
                 </Link>
@@ -306,7 +306,7 @@ const AfterHoursRadiologyCoverage = () => {
                 Request free pilot
               </Link>
               <Link
-                to="/pricing"
+                to="/pricing/"
                 className="btn-outline px-8 py-3 text-base"
               >
                 View pricing

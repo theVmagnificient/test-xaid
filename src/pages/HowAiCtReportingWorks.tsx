@@ -120,7 +120,7 @@ const HowAiCtReportingWorks = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>How AI CT Reporting Works: From DICOM to AI CT Report | xAID</title>
         <meta
           name="description"
@@ -162,7 +162,7 @@ const HowAiCtReportingWorks = () => {
               <Link to="/#contact-us" className="btn-primary px-8 py-3 text-base">
                 Request free pilot
               </Link>
-              <Link to="/accuracy" className="btn-outline px-8 py-3 text-base">
+              <Link to="/accuracy/" className="btn-outline px-8 py-3 text-base">
                 Clinical evidence
               </Link>
             </div>
@@ -400,7 +400,7 @@ const HowAiCtReportingWorks = () => {
                 xAID achieves 95% accuracy verified by independent peer-reviewed studies — not internal benchmarks. Full methodology, study details, and results are available on the clinical evidence page
               </p>
               <div className="mt-6">
-                <Link to="/accuracy" className="text-xaid-blue text-sm font-medium hover:underline">
+                <Link to="/accuracy/" className="text-xaid-blue text-sm font-medium hover:underline">
                   Full clinical evidence page →
                 </Link>
               </div>
@@ -423,15 +423,15 @@ const HowAiCtReportingWorks = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Peer-reviewed clinical evidence — full study data</div>
               </Link>
-              <Link to="/integrations" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/integrations/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Integration</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">DICOM & HL7 integration — setup under one week</div>
               </Link>
-              <Link to="/pricing" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/pricing/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Pricing</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Pricing & free 5-study pilot</div>
               </Link>
@@ -450,7 +450,7 @@ const HowAiCtReportingWorks = () => {
               <Link to="/#contact-us" className="btn-primary px-8 py-3 text-base">
                 Request free pilot
               </Link>
-              <Link to="/pricing" className="btn-outline px-8 py-3 text-base">
+              <Link to="/pricing/" className="btn-outline px-8 py-3 text-base">
                 See pricing
               </Link>
             </div>

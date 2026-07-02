@@ -139,13 +139,13 @@ const Comparison = () => {
 
         {/* Links */}
         <div className="fade-up text-center mt-10 flex flex-col sm:flex-row gap-6 justify-center flex-wrap">
-          <Link to="/ai-vs-teleradiology" className="text-xaid-blue text-sm font-normal hover:underline">
+          <Link to="/ai-vs-teleradiology/" className="text-xaid-blue text-sm font-normal hover:underline">
             AI CT Reporting vs Teleradiology →
           </Link>
-          <Link to="/blog/ct-radiology-coverage-costs-2026" className="text-xaid-blue text-sm font-normal hover:underline">
+          <Link to="/blog/ct-radiology-coverage-costs-2026/" className="text-xaid-blue text-sm font-normal hover:underline">
             CT Coverage Cost Comparison →
           </Link>
-          <Link to="/blog/after-hours-radiology-coverage-options" className="text-xaid-blue text-sm font-normal hover:underline">
+          <Link to="/blog/after-hours-radiology-coverage-options/" className="text-xaid-blue text-sm font-normal hover:underline">
             After-hours coverage options →
           </Link>
         </div>

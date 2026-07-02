@@ -28,7 +28,7 @@ const workflow = [
 const ForOutpatientCenters = () => {
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>AI CT Reporting for Outpatient Imaging Centers | xAID</title>
         <meta
           name="description"
@@ -109,7 +109,7 @@ const ForOutpatientCenters = () => {
                   Start free 5-study pilot
                 </Link>
                 <Link
-                  to="/pricing"
+                  to="/pricing/"
                   className="bg-white/10 hover:bg-white/20 border border-white/20 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
                 >
                   See pricing vs locum
@@ -219,9 +219,9 @@ const ForOutpatientCenters = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
               {[
-                { title: 'Head CT', sub: 'Stroke, hemorrhage, fractures, brain parenchyma', href: '/head-ct-ai-report' },
-                { title: 'Chest CT', sub: 'Lung nodules, coronary calcium, pleural effusion, fractures', href: '/chest-ct-ai-report', badge: 'Peer-reviewed' },
-                { title: 'Abdomen CT', sub: 'Liver, kidneys, pancreas, bowel, aorta, lymph nodes', href: '/abdomen-ct-ai-report' },
+                { title: 'Head CT', sub: 'Stroke, hemorrhage, fractures, brain parenchyma', href: '/head-ct-ai-report/' },
+                { title: 'Chest CT', sub: 'Lung nodules, coronary calcium, pleural effusion, fractures', href: '/chest-ct-ai-report/', badge: 'Peer-reviewed' },
+                { title: 'Abdomen CT', sub: 'Liver, kidneys, pancreas, bowel, aorta, lymph nodes', href: '/abdomen-ct-ai-report/' },
               ].map((m) => (
                 <Link
                   key={m.title}
@@ -249,15 +249,15 @@ const ForOutpatientCenters = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/blog/after-hours-radiology-coverage-options" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/after-hours-radiology-coverage-options/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">After-hours coverage</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">After-hours radiology coverage options — no surcharge</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Clinical evidence</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Peer-reviewed clinical evidence — 95% accuracy verified</div>
               </Link>
-              <Link to="/ai-vs-teleradiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/ai-vs-teleradiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Comparison</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT reporting vs teleradiology — full comparison</div>
               </Link>

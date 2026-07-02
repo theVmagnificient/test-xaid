@@ -14,7 +14,7 @@ const AiTeleradiologyVsTraditional = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet defer={false}>
         <title>{post.title} | xAID Blog</title>
         <meta name="description" content={post.description} />
         <meta property="og:type" content="article" />
@@ -97,7 +97,7 @@ const AiTeleradiologyVsTraditional = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Buyer Guide
               </span>
@@ -211,7 +211,7 @@ const AiTeleradiologyVsTraditional = () => {
                 The most common concern when switching from traditional to AI teleradiology is accuracy. Is AI-generated reporting as good?
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 The key caveat: AI-assisted teleradiology is not the same as autonomous AI radiology. Every xAID report is reviewed by our in-house European radiologist. The AI generates the draft; the radiologist is professionally accountable for the final product. This is the same accountability model as traditional teleradiology.
@@ -300,15 +300,15 @@ const AiTeleradiologyVsTraditional = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <h2 className="text-xl font-normal text-white mb-6">Related</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <Link to="/ai-vs-teleradiology" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/ai-vs-teleradiology/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Comparison</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">AI CT Reporting vs Teleradiology — Full Comparison</div>
               </Link>
-              <Link to="/accuracy" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/accuracy/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Accuracy</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Clinical evidence & quality guarantee</div>
               </Link>
-              <Link to="/blog/ct-radiology-coverage-costs-2026" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/blog/ct-radiology-coverage-costs-2026/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Cost analysis</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">CT Radiology Coverage Costs 2026 — Full Breakdown</div>
               </Link>

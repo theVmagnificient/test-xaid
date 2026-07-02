@@ -56,7 +56,7 @@ const warnings = [];
 
 // --- routes: canonical list of prerendered pages ---
 const pkg = JSON.parse(readFileSync(resolve(root, 'package.json'), 'utf8'));
-const routes = pkg.reactSnap?.include ?? [];
+const routes = (pkg.reactSnap?.include ?? []).map((r) => (r === '/' ? r : r.replace(/\/+$/, '')));
 if (routes.length === 0) {
   console.error('[gen-sitemap] reactSnap.include is empty — aborting.');
   process.exit(1);
