@@ -79,6 +79,13 @@ const Contact = () => {
       }
 
       setFormData({ name: '', organization: '', email: '' });
+      // Push lead event to GTM dataLayer for GA4 conversion tracking
+      if (typeof window !== 'undefined' && (window as any).dataLayer) {
+        (window as any).dataLayer.push({
+          event: 'pilot_form_submit',
+          form_location: 'contact_us',
+        });
+      }
       toast.success('Thank you! We\'ll be in touch within 24 hours');
     } catch (err) {
       toast.error('Submission failed. Please try again');
