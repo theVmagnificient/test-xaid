@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const steps = [
@@ -344,7 +343,7 @@ const HowAiCtReportingWorks = () => {
             </div>
 
             <div className="rounded-2xl overflow-hidden border border-gray-200 bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)]">
-              <div className="overflow-x-auto">
+              <div className="table-scroll table-scroll--light overflow-x-auto">
                 <table className="w-full min-w-[760px] text-sm">
                   <thead>
                     <tr className="bg-[#FAFAFA] border-b border-gray-200">
@@ -457,7 +456,6 @@ const HowAiCtReportingWorks = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

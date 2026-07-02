@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const integrationFaqs = [
@@ -83,7 +82,7 @@ const Integrations = () => {
                 xAID connects to your existing PACS and RIS via standard DICOM and HL7 protocols. No custom middleware, no long IT projects. Studies flow in automatically; preliminary reports come back the same way
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/#contact-us" className="bg-xaid-blue hover:bg-xaid-blue/90 text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
+                <Link to="/#contact-us" className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
                   Start integration
                 </Link>
               </div>
@@ -99,12 +98,12 @@ const Integrations = () => {
                 { stat: '<1 week', label: 'Setup time', sub: 'standard installations' },
                 { stat: 'DICOM', label: 'Input standard', sub: 'C-STORE, WADO-RS, DICOMweb' },
                 { stat: 'HL7 / FHIR', label: 'Output standard', sub: 'ORU or DiagnosticReport' },
-                { stat: 'Any PACS', label: 'Compatible with', sub: 'Sectra, Fuji, Intelerad, Ambra…' },
+                { stat: 'Any PACS', label: 'Compatible with', sub: 'Sectra, Fuji, Intelerad, Ambra & more' },
               ].map((item) => (
                 <div key={item.stat} className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center flex flex-col h-full">
                   <div className="text-3xl md:text-4xl font-medium text-xaid-blue mb-2">{item.stat}</div>
                   <div className="text-white text-sm font-medium mb-1">{item.label}</div>
-                  <div className="text-white/40 text-xs">{item.sub}</div>
+                  <div className="text-white/60 text-xs">{item.sub}</div>
                 </div>
               ))}
             </div>
@@ -233,7 +232,7 @@ const Integrations = () => {
             </p>
             <Link
               to="/#contact-us"
-              className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+              className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
             >
               Discuss integration
             </Link>
@@ -261,7 +260,6 @@ const Integrations = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

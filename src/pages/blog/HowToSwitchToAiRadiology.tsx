@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const steps = [
   {
@@ -246,7 +245,7 @@ const HowToSwitchToAiRadiology = () => {
                 ))}
               </div>
               <p className="text-gray-400 text-sm mt-6 leading-relaxed">
-                Total IT time: typically <strong className="text-white">2–4 hours</strong> for a PACS administrator. xAID provides step-by-step integration documentation and a dedicated onboarding contact for the duration of setup. See <Link to="/integrations/" className="text-xaid-blue hover:underline">Integrations</Link> for the full technical reference.
+                Total IT time: typically <strong className="text-white">2–4 hours</strong> for a PACS administrator. xAID provides step-by-step integration documentation and a dedicated onboarding contact for the duration of setup. See <Link to="/integrations/" className="text-xaid-blue-strong hover:underline">Integrations</Link> for the full technical reference.
               </p>
             </div>
           </section>
@@ -314,7 +313,6 @@ const HowToSwitchToAiRadiology = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

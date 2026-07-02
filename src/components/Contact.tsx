@@ -134,7 +134,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
           {/* Left Column - Contact Info (Blue Card) */}
-          <div className="fade-up relative overflow-hidden bg-xaid-blue rounded-2xl p-8 md:p-12 min-h-[400px]">
+          <div className="fade-up relative overflow-hidden bg-xaid-blue-strong rounded-2xl p-8 md:p-12 min-h-[400px]">
             {/* Decorative star pattern — overflows bottom-right */}
             <svg
               className="absolute -bottom-16 -right-16 md:-bottom-20 md:-right-20 w-[340px] h-[330px] pointer-events-none"
@@ -159,9 +159,9 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-white font-medium text-[11px] uppercase tracking-[0.12em] mb-2">
+                  <h3 className="text-white font-medium text-[11px] uppercase tracking-[0.12em] mb-2">
                     Address
-                  </h4>
+                  </h3>
                   <p className="text-white/80 text-[15px] leading-[1.65] font-light">
                     8 The Green, Ste A, Dover, DE 19901, United States
                   </p>
@@ -236,7 +236,7 @@ const Contact = () => {
                 <button
                   disabled={isSubmitting || !formRef?.current?.checkValidity()}
                   type="submit"
-                  className="bg-xaid-blue hover:bg-xaid-blue/90 disabled:bg-xaid-blue/60 text-white font-medium px-8 py-3 rounded-full transition-colors w-full sm:w-auto"
+                  className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover disabled:bg-xaid-blue-strong/60 text-white font-medium px-8 py-3 rounded-full transition-colors w-full sm:w-auto"
                 >
                   {isSubmitting ? 'Sending...' : 'Start pilot'}
                 </button>

@@ -83,6 +83,7 @@ const FAQ = () => {
               >
                 <button
                   className="w-full flex items-center justify-between py-5 text-left"
+                  aria-expanded={openIndex === index}
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 >
                   <span className="text-[#0D0D0D] font-medium text-[18px]">{faq.question}</span>

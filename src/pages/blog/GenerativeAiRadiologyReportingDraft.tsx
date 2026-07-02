@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import BlogCTA from '@/components/BlogCTA';
 
 const GenerativeAiRadiologyReportingDraft = () => {
@@ -97,12 +96,12 @@ const GenerativeAiRadiologyReportingDraft = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Clinical Evidence
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI radiology reporting has arrived —<br />
@@ -127,7 +126,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -143,7 +142,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
                 What the chest X-ray research actually shows
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Generative AI that writes a radiology report reads like science fiction until you look at how the studies were designed. In a reader study published in RSNA's journal <a href="https://doi.org/10.1148/radiol.241646" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline"><em>Radiology</em></a>, five radiologists interpreted <strong>758 chest radiographs</strong> twice: once on their own, and once working from an AI-generated report the study explicitly calls a <em>preliminary report</em>. The AI never issued the final read. It handed the radiologist a draft.
+                Generative AI that writes a radiology report reads like science fiction until you look at how the studies were designed. In a reader study published in RSNA's journal <a href="https://doi.org/10.1148/radiol.241646" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline"><em>Radiology</em></a>, five radiologists interpreted <strong>758 chest radiographs</strong> twice: once on their own, and once working from an AI-generated report the study explicitly calls a <em>preliminary report</em>. The AI never issued the final read. It handed the radiologist a draft.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 With that draft in hand, average reading time fell from <strong>34.2 seconds (±20.4)</strong> to <strong>19.8 seconds (±12.5)</strong> — roughly 14 seconds saved per image, a statistically significant drop (P &lt; .001). Crucially, the shortcut did not degrade the output: report quality scores held at a median of 4.5 and reader agreement held at a median of 5.0, with tighter interquartile ranges in both cases.
@@ -156,10 +155,10 @@ const GenerativeAiRadiologyReportingDraft = () => {
                 A second study says the same thing at scale
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The reader study is a controlled experiment. A prospective cohort study of nearly <strong>24,000 radiographs</strong>, published in <a href="https://doi.org/10.1001/jamanetworkopen.2025.13921" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline"><em>JAMA Network Open</em></a>, tested the same idea in live clinical workflow. Radiologists using an AI draft saw a <strong>15.5% documentation efficiency gain</strong> — reading time fell from 189.2 to 159.8 seconds across radiograph types — and peer review found <em>no difference in clinical accuracy</em> between AI-assisted and unassisted reports.
+                The reader study is a controlled experiment. A prospective cohort study of nearly <strong>24,000 radiographs</strong>, published in <a href="https://doi.org/10.1001/jamanetworkopen.2025.13921" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline"><em>JAMA Network Open</em></a>, tested the same idea in live clinical workflow. Radiologists using an AI draft saw a <strong>15.5% documentation efficiency gain</strong> — reading time fell from 189.2 to 159.8 seconds across radiograph types — and peer review found <em>no difference in clinical accuracy</em> between AI-assisted and unassisted reports.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Different institutions, different datasets, same finding: a generative model that drafts and a radiologist who reviews delivers speed without a quality penalty. The separate <a href="https://doi.org/10.1148/radiol.241476" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">diagnostic-accuracy study</a> behind these tools describes their intended role plainly — providing "preliminary interpretations" to support radiologist workflows, not replace them.
+                Different institutions, different datasets, same finding: a generative model that drafts and a radiologist who reviews delivers speed without a quality penalty. The separate <a href="https://doi.org/10.1148/radiol.241476" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">diagnostic-accuracy study</a> behind these tools describes their intended role plainly — providing "preliminary interpretations" to support radiologist workflows, not replace them.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -168,7 +167,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-6">
                 The distinction that matters is not "AI vs no AI." It's whether the AI produces a final report or a first draft. Every study above validates the second model, and none tests the first.
               </p>
-              <div className="overflow-x-auto mb-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                 <table className="w-full text-left border-collapse">
                   <thead>
                     <tr className="border-b border-gray-200">
@@ -234,7 +233,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
                 From chest X-ray to structured CT reporting
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The chest radiograph is where the evidence is cleanest, but the workflow it validates generalizes. The same draft-then-sign loop — AI generates a structured preliminary report, a radiologist reviews, edits, and signs it — is exactly how <Link to="/how-ai-ct-reporting-works/" className="text-xaid-blue hover:underline">AI CT reporting</Link> works. xAID's <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">foundation models</Link> produce a comprehensive, structured draft, and a radiologist reviews and signs every report before it reaches a patient's chart. The chest X-ray studies aren't a preview of a distant future; they're the operational proof point for a workflow already running on CT — where the model is the first-draft engine and the radiologist remains the reader of record.
+                The chest radiograph is where the evidence is cleanest, but the workflow it validates generalizes. The same draft-then-sign loop — AI generates a structured preliminary report, a radiologist reviews, edits, and signs it — is exactly how <Link to="/how-ai-ct-reporting-works/" className="text-xaid-blue-strong hover:underline">AI CT reporting</Link> works. xAID's <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong hover:underline">foundation models</Link> produce a comprehensive, structured draft, and a radiologist reviews and signs every report before it reaches a patient's chart. The chest X-ray studies aren't a preview of a distant future; they're the operational proof point for a workflow already running on CT — where the model is the first-draft engine and the radiologist remains the reader of record.
               </p>
 
               {/* FAQ */}
@@ -303,7 +302,6 @@ const GenerativeAiRadiologyReportingDraft = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

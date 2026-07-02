@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const options = [
   {
@@ -165,7 +164,7 @@ const AfterHoursRadiologyCoverage = () => {
                   For a facility reading 1,500 CT studies per month, roughly 30–40% fall outside standard business hours (typically 5 PM–8 AM and all day weekends). That is 450–600 studies per month arriving in the window when coverage is hardest to staff and most expensive to source.
                 </p>
                 <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-4">
-                  Traditional teleradiology surcharges of 30–100% on after-hours reads mean that a center paying $55/study during the day pays $72–$110 for the exact same CT at night. At 500 after-hours studies per month, that surcharge adds <strong className="text-white">$85,000–$330,000 per year</strong> over the daytime rate.
+                  Traditional teleradiology surcharges of 30–100% on after-hours reads mean that a center paying $50/study during the day pays $65–$100 for the exact same CT at night. At 500 after-hours studies per month, that surcharge adds <strong className="text-white">$90,000–$300,000 per year</strong> over the daytime rate.
                 </p>
                 <p className="text-gray-300 text-[15px] leading-[1.65] font-light">
                   This surcharge exists because radiologists charge more to work nights. AI CT reporting doesn't — the AI runs identically at 2 AM as at 2 PM, and xAID's radiologist review staffing covers all hours at the same flat rate.
@@ -315,7 +314,6 @@ const AfterHoursRadiologyCoverage = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

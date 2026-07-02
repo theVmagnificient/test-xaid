@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const compliancePoints = [
@@ -129,7 +128,7 @@ const Compliance = () => {
             </p>
             <Link
               to="/#contact-us"
-              className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+              className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
             >
               Request BAA & start pilot
             </Link>
@@ -202,7 +201,7 @@ const Compliance = () => {
               </p>
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
               >
                 Request BAA & free pilot
               </Link>
@@ -263,7 +262,6 @@ const Compliance = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

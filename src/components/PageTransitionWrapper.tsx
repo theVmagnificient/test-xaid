@@ -55,8 +55,8 @@ export const PageTransitionWrapper = ({ children }: { children: ReactNode }) => 
       : '';
 
   return (
-    <div key={_transitionKey} className={animClass}>
+    <main id="main-content" key={_transitionKey} className={animClass}>
       {children}
-    </div>
+    </main>
   );
 };

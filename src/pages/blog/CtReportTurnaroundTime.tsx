@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const CtReportTurnaroundTime = () => {
   const post = {
@@ -89,12 +88,12 @@ const CtReportTurnaroundTime = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Operations
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               CT Report Turnaround Time<br />
@@ -113,13 +112,13 @@ const CtReportTurnaroundTime = () => {
               {[
                 { stat: '24 hrs', label: 'ACR guideline (routine)', sub: 'industry standard' },
                 { stat: '36–72 hrs', label: 'Typical actual TAT', sub: 'outpatient average' },
-                { stat: '$80–350', label: 'Traditional after-hours cost per study', sub: 'after-hours reads' },
+                { stat: '$80–$350', label: 'Traditional after-hours cost per study', sub: 'after-hours reads' },
                 { stat: '2–12 hrs', label: 'xAID AI TAT', sub: '24/7, no surcharge' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -138,7 +137,7 @@ const CtReportTurnaroundTime = () => {
                 The American College of Radiology (ACR) publishes formal practice guidelines for radiology report turnaround time. These are the reference benchmarks used by accreditation bodies and hospital quality programs:
               </p>
 
-              <div className="overflow-x-auto mb-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                 <table className="w-full text-sm border-collapse">
                   <thead>
                     <tr className="border-b-2 border-gray-200">
@@ -241,7 +240,7 @@ const CtReportTurnaroundTime = () => {
               <div className="bg-xaid-blue/10 border border-xaid-blue/20 rounded-xl p-6 mb-8">
                 <h3 className="text-[#0D0D0D] font-medium mb-2">After-Hours Cost Comparison</h3>
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-3">
-                  Traditional teleradiology services charge $80–350 per study for after-hours coverage. A center reading 60 after-hours CTs per month at $175 average pays $126,000 per year for overnight reads alone.
+                  Traditional teleradiology services charge $80–$350 per study for after-hours coverage. A center reading 60 after-hours CTs per month at $175 average pays $126,000 per year for overnight reads alone.
                 </p>
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light">
                   xAID charges a flat per-study rate with no after-hours surcharge — 11pm reads cost the same as 11am reads. For centers with significant after-hours volume, this is typically the fastest ROI component of AI CT reporting adoption.
@@ -266,7 +265,7 @@ const CtReportTurnaroundTime = () => {
                   },
                   {
                     q: 'What is the cost of after-hours CT reporting?',
-                    a: 'Traditional teleradiology services charge $80–350 per study for after-hours coverage, with no volume discount for smaller centers. xAID charges a flat per-study rate with no after-hours surcharge — making it substantially cheaper for centers with significant evening and weekend CT volume.',
+                    a: 'Traditional teleradiology services charge $80–$350 per study for after-hours coverage, with no volume discount for smaller centers. xAID charges a flat per-study rate with no after-hours surcharge — making it substantially cheaper for centers with significant evening and weekend CT volume.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">
@@ -301,7 +300,6 @@ const CtReportTurnaroundTime = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

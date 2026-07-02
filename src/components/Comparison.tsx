@@ -69,7 +69,7 @@ const Comparison = () => {
             <div />
             <div className="bg-[#F5F5F5] rounded-xl shadow-sm" />
             <div className="bg-[#F5F5F5] rounded-xl shadow-sm" />
-            <div className="bg-xaid-blue rounded-xl shadow-sm" />
+            <div className="bg-xaid-blue-strong rounded-xl shadow-sm" />
           </div>
 
           {/* Content grid (z-10, transparent cells so bg shows through) */}
@@ -118,7 +118,7 @@ const Comparison = () => {
           <div className="grid grid-cols-3 gap-2 mb-2">
             <div className="bg-[#F5F5F5] rounded-xl p-3 text-center text-xs font-medium text-[#1A1A1A]">Traditional Teleradiology</div>
             <div className="bg-[#F5F5F5] rounded-xl p-3 text-center text-xs font-medium text-[#1A1A1A]">Narrow AI Overlays</div>
-            <div className="bg-xaid-blue rounded-xl p-3 text-center text-xs font-medium text-white">xAID</div>
+            <div className="bg-xaid-blue-strong rounded-xl p-3 text-center text-xs font-medium text-white">xAID</div>
           </div>
           {rows.map((row) => (
             <div key={row.label} className="bg-[#F5F5F5] rounded-xl overflow-hidden">
@@ -128,7 +128,7 @@ const Comparison = () => {
               <div className="grid grid-cols-3">
                 <div className="p-3 text-center text-xs text-[#555] border-r border-[#E5E5E5]">{row.teleradiology}</div>
                 <div className="p-3 text-center text-xs text-[#555] border-r border-[#E5E5E5]">{row.narrowAI}</div>
-                <div className="p-3 text-center text-xs font-medium text-white bg-xaid-blue flex flex-col items-center justify-center gap-1">
+                <div className="p-3 text-center text-xs font-medium text-white bg-xaid-blue-strong flex flex-col items-center justify-center gap-1">
                   <Check className="w-3 h-3 flex-shrink-0" />
                   {row.xaid}
                 </div>
@@ -139,13 +139,13 @@ const Comparison = () => {
 
         {/* Links */}
         <div className="fade-up text-center mt-10 flex flex-col sm:flex-row gap-6 justify-center flex-wrap">
-          <Link to="/ai-vs-teleradiology/" className="text-xaid-blue text-sm font-normal hover:underline">
+          <Link to="/ai-vs-teleradiology/" className="text-xaid-blue-strong text-sm font-normal hover:underline">
             AI CT Reporting vs Teleradiology →
           </Link>
-          <Link to="/blog/ct-radiology-coverage-costs-2026/" className="text-xaid-blue text-sm font-normal hover:underline">
+          <Link to="/blog/ct-radiology-coverage-costs-2026/" className="text-xaid-blue-strong text-sm font-normal hover:underline">
             CT Coverage Cost Comparison →
           </Link>
-          <Link to="/blog/after-hours-radiology-coverage-options/" className="text-xaid-blue text-sm font-normal hover:underline">
+          <Link to="/blog/after-hours-radiology-coverage-options/" className="text-xaid-blue-strong text-sm font-normal hover:underline">
             After-hours coverage options →
           </Link>
         </div>

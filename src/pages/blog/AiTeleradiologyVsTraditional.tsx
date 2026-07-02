@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const AiTeleradiologyVsTraditional = () => {
   const post = {
@@ -9,7 +8,7 @@ const AiTeleradiologyVsTraditional = () => {
     date: 'November 6, 2025',
     category: 'Buyer Guide',
     readingTime: 10,
-    description: 'Traditional teleradiology services charge $80–350 per study and take 4–24 hours. AI-assisted teleradiology delivers the same output in 2–12 hours at lower per-study cost. But there are real differences worth understanding before you switch.',
+    description: 'Traditional teleradiology services charge $80–$350 per study and take 4–24 hours. AI-assisted teleradiology delivers the same output in 2–12 hours at lower per-study cost. But there are real differences worth understanding before you switch.',
   };
 
   return (
@@ -67,7 +66,7 @@ const AiTeleradiologyVsTraditional = () => {
               "name": "How does AI teleradiology compare to traditional teleradiology in cost?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Traditional teleradiology services typically charge $80–350 per study, with after-hours surcharges adding 30–100% to routine rates. AI-assisted teleradiology services like xAID charge a flat per-study rate with no after-hours surcharge. For centers with significant off-hours volume, the cost difference is substantial. The total cost comparison depends on study mix, volume, and whether the buyer values guaranteed TAT and quality commitments."
+                "text": "Traditional teleradiology services typically charge $80–$350 per study, with after-hours surcharges adding 30–100% to routine rates. AI-assisted teleradiology services like xAID charge a flat per-study rate with no after-hours surcharge. For centers with significant off-hours volume, the cost difference is substantial. The total cost comparison depends on study mix, volume, and whether the buyer values guaranteed TAT and quality commitments."
               }
             },
             {
@@ -97,19 +96,19 @@ const AiTeleradiologyVsTraditional = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Buyer Guide
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI Teleradiology vs Traditional Teleradiology:<br />
               <span className="text-white/60">Full 2026 Comparison Guide</span>
             </h1>
             <p className="text-white/60 text-lg font-light leading-[1.65]">
-              Traditional teleradiology services charge $80–350 per study and take 4–24 hours. AI-assisted teleradiology delivers complete preliminary reports in 2–12 hours. Here's what you need to know before you switch.
+              Traditional teleradiology services charge $80–$350 per study and take 4–24 hours. AI-assisted teleradiology delivers complete preliminary reports in 2–12 hours. Here's what you need to know before you switch.
             </p>
           </div>
         </section>
@@ -119,7 +118,7 @@ const AiTeleradiologyVsTraditional = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { stat: '$80–350', label: 'Traditional cost/study', sub: 'plus after-hours surcharge' },
+                { stat: '$80–$350', label: 'Traditional cost/study', sub: 'plus after-hours surcharge' },
                 { stat: '4–24 hrs', label: 'Traditional TAT', sub: 'routine studies' },
                 { stat: '2–12 hrs', label: 'AI teleradiology TAT', sub: '24/7, no surcharge' },
                 { stat: '95%', label: 'accuracy — or we reimburse', sub: '' },
@@ -127,7 +126,7 @@ const AiTeleradiologyVsTraditional = () => {
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -155,7 +154,7 @@ const AiTeleradiologyVsTraditional = () => {
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
                 Side-by-side comparison
               </h2>
-              <div className="overflow-x-auto mb-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                 <table className="w-full text-sm border-collapse">
                   <thead>
                     <tr className="border-b-2 border-gray-200">
@@ -166,7 +165,7 @@ const AiTeleradiologyVsTraditional = () => {
                   </thead>
                   <tbody>
                     {[
-                      ['Per-study cost', '$80–350', 'Lower flat rate'],
+                      ['Per-study cost', '$80–$350', 'Lower flat rate'],
                       ['After-hours surcharge', '+30–100%', 'None'],
                       ['Routine TAT', '4–24 hours', '2–12 hours'],
                       ['Weekend/holiday TAT', '12–48 hours', '2–12 hours'],
@@ -211,7 +210,7 @@ const AiTeleradiologyVsTraditional = () => {
                 The most common concern when switching from traditional to AI teleradiology is accuracy. Is AI-generated reporting as good?
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 The key caveat: AI-assisted teleradiology is not the same as autonomous AI radiology. Every xAID report is reviewed by our in-house European radiologist. The AI generates the draft; the radiologist is professionally accountable for the final product. This is the same accountability model as traditional teleradiology.
@@ -316,7 +315,6 @@ const AiTeleradiologyVsTraditional = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

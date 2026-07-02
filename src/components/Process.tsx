@@ -40,7 +40,7 @@ const Process = () => {
   }, []);
 
   return (
-    <section id="how-it-works" ref={sectionRef} className="section-padding bg-xaid-blue">
+    <section id="how-it-works" ref={sectionRef} className="section-padding bg-xaid-blue-strong">
       <div className="container-xaid">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
           {/* Left: White Card */}

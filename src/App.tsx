@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import BackToTop from "./components/BackToTop";
 import Navigation from "./components/Navigation";
+import Footer from "@/components/Footer";
 import { PageTransitionWrapper } from "./components/PageTransitionWrapper";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
           </PageTransitionWrapper>
+          <Footer />
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>

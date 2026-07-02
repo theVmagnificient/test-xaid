@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import BlogCTA from '@/components/BlogCTA';
 
 const AiDisclosurePatientTrust = () => {
@@ -97,12 +96,12 @@ const AiDisclosurePatientTrust = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 AI Ethics &amp; Trust
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Should patients be told when AI reads their scan?<br />
@@ -127,7 +126,7 @@ const AiDisclosurePatientTrust = () => {
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -143,7 +142,7 @@ const AiDisclosurePatientTrust = () => {
                 What the survey found
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Researchers set out to understand how patients actually feel about AI in their imaging care, and published the results in RSNA's journal <a href="https://pubs.rsna.org/journal/radiology" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline"><em>Radiology</em></a>. The team surveyed more than 1,000 patients in the waiting areas of an imaging department between July 2024 and April 2025.
+                Researchers set out to understand how patients actually feel about AI in their imaging care, and published the results in RSNA's journal <a href="https://pubs.rsna.org/journal/radiology" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline"><em>Radiology</em></a>. The team surveyed more than 1,000 patients in the waiting areas of an imaging department between July 2024 and April 2025.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 The headline number is hard to ignore: about <strong>96%</strong> said patients should be informed when AI is used to report on their images. That's not a slim majority — it's near-unanimous. AI disclosure in imaging is no longer a hypothetical policy question; it's an expectation patients already hold.
@@ -197,7 +196,7 @@ const AiDisclosurePatientTrust = () => {
                 Where this fits with how AI CT reporting actually works
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">comprehensive report draft</Link>, and a radiologist reviews and signs every one before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
+                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong hover:underline">comprehensive report draft</Link>, and a radiologist reviews and signs every one before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
               </p>
 
               {/* FAQ */}
@@ -266,7 +265,6 @@ const AiDisclosurePatientTrust = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const RadiologistShortage2026 = () => {
   const post = {
@@ -9,7 +8,7 @@ const RadiologistShortage2026 = () => {
     date: 'December 10, 2025',
     category: 'Radiology Workforce',
     readingTime: 7,
-    description: 'The US faces a projected shortage of 42,000 physicians by 2034, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
+    description: 'The US faces a projected shortage of 54,100–139,000 physicians by 2034, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
   };
 
   return (
@@ -75,7 +74,7 @@ const RadiologistShortage2026 = () => {
               "name": "What is the cost of the radiologist shortage for imaging centers?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "For outpatient imaging centers, the radiologist shortage increases costs through three channels: (1) locum radiologist rates have risen to $150–250/hour ($500,000–$650,000 annually for full-time coverage), (2) delayed reads reduce patient throughput and revenue, and (3) after-hours reads through traditional teleradiology services cost $80–350 per study. AI CT reporting addresses all three cost drivers."
+                "text": "For outpatient imaging centers, the radiologist shortage increases costs through three channels: (1) locum radiologist rates have risen to $150–$250/hour ($500,000–$650,000 annually for full-time coverage), (2) delayed reads reduce patient throughput and revenue, and (3) after-hours reads through traditional teleradiology services cost $80–$350 per study. AI CT reporting addresses all three cost drivers."
               }
             }
           ]
@@ -89,19 +88,19 @@ const RadiologistShortage2026 = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Radiology Workforce
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Radiologist shortage 2026:<br />
               <span className="text-white/60">How AI CT Reporting Fills the Gap</span>
             </h1>
             <p className="text-white/60 text-lg font-light leading-[1.65]">
-              The US faces a projected shortage of 42,000+ physicians by 2034, with radiology among the hardest-hit specialties. Here's what the data says — and what imaging centers are doing about it today.
+              The US faces a projected shortage of 54,100–139,000 physicians by 2034, with radiology among the hardest-hit specialties. Here's what the data says — and what imaging centers are doing about it today.
             </p>
           </div>
         </section>
@@ -119,7 +118,7 @@ const RadiologistShortage2026 = () => {
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -158,11 +157,11 @@ const RadiologistShortage2026 = () => {
                 {[
                   {
                     title: '1. Locum radiologist rates',
-                    desc: 'Locum radiologists — contract readers who cover staffing gaps — now command $150–250/hour in competitive markets. For full-time coverage (200+ hours/month), this represents $500,000–$650,000 per year in reading fees. This has doubled over the past decade as demand outpaces supply.',
+                    desc: 'Locum radiologists — contract readers who cover staffing gaps — now command $150–$250/hour in competitive markets. For full-time coverage (200+ hours/month), this represents $500,000–$650,000 per year in reading fees. This has doubled over the past decade as demand outpaces supply.',
                   },
                   {
                     title: '2. After-hours teleradiology costs',
-                    desc: 'After-hours teleradiology services charge $80–350 per study for overnight and weekend coverage. A center reading 50 after-hours CTs per month at $150 average pays $90,000+ per year just for off-hours coverage.',
+                    desc: 'After-hours teleradiology services charge $80–$350 per study for overnight and weekend coverage. A center reading 50 after-hours CTs per month at $150 average pays $90,000+ per year just for off-hours coverage.',
                   },
                   {
                     title: '3. Delayed reads and throughput loss',
@@ -215,7 +214,7 @@ const RadiologistShortage2026 = () => {
                 AI CT reporting vs. locum radiologists: cost comparison
               </h2>
 
-              <div className="overflow-x-auto mb-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                 <table className="w-full text-sm border-collapse">
                   <thead>
                     <tr className="border-b border-gray-200">
@@ -272,7 +271,7 @@ const RadiologistShortage2026 = () => {
                   },
                   {
                     q: 'How much does a locum radiologist cost in 2026?',
-                    a: 'Locum radiologist rates range from $150–250/hour in most US markets, representing $500,000–$650,000 per year for full-time coverage. After-hours teleradiology services typically charge $80–350 per study. Both have increased significantly over the past decade as shortage conditions worsen.',
+                    a: 'Locum radiologist rates range from $150–$250/hour in most US markets, representing $500,000–$650,000 per year for full-time coverage. After-hours teleradiology services typically charge $80–$350 per study. Both have increased significantly over the past decade as shortage conditions worsen.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">
@@ -307,7 +306,6 @@ const RadiologistShortage2026 = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

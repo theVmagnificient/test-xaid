@@ -23,7 +23,7 @@ const FAQAccordion = ({ faqs, variant = 'dark' }: FAQAccordionProps) => {
     : {
         border: 'border-white/10',
         question: 'text-white',
-        chevron: 'text-white/40',
+        chevron: 'text-white/60',
         answer: 'text-white/60',
       };
 

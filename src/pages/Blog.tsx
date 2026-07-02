@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import { blogPosts } from '@/data/blog-posts';
 
 const Blog = () => {
@@ -75,8 +74,8 @@ const Blog = () => {
                   <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                     {blogPosts[0].category}
                   </span>
-                  <span className="text-white/40 text-sm">{blogPosts[0].date}</span>
-                  <span className="text-white/30 text-sm">{`${blogPosts[0].readingTime} min read`}</span>
+                  <span className="text-white/60 text-sm">{blogPosts[0].date}</span>
+                  <span className="text-white/60 text-sm">{`${blogPosts[0].readingTime} min read`}</span>
                 </div>
                 <h2 className="text-[22px] md:text-[28px] lg:text-[32px] font-normal leading-[1.2] text-white mb-4 group-hover:text-xaid-blue transition-colors">
                   {blogPosts[0].title}
@@ -100,8 +99,8 @@ const Blog = () => {
                     <span className="bg-white/10 text-white/60 text-xs font-medium px-3 py-1 rounded-full">
                       {post.category}
                     </span>
-                    <span className="text-white/40 text-sm">{post.date}</span>
-                    <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+                    <span className="text-white/60 text-sm">{post.date}</span>
+                    <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
                   </div>
                   <h2 className="text-lg font-normal text-white mb-3 group-hover:text-xaid-blue transition-colors leading-snug">
                     {post.title}
@@ -123,14 +122,13 @@ const Blog = () => {
             <p className="text-white/60 mb-8">Start with 5 free studies. No commitment</p>
             <Link
               to="/#contact-us"
-              className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+              className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
             >
               Request free pilot
             </Link>
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

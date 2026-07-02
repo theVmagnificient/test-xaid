@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowDown } from "lucide-react";
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const painPoints = [
@@ -125,7 +124,7 @@ const ForSmallHospitals = () => {
               <div className="flex flex-wrap gap-4">
                 <Link
                   to="/#contact-us"
-                  className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
+                  className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
                 >
                   Start free 5-study pilot
                 </Link>
@@ -217,7 +216,7 @@ const ForSmallHospitals = () => {
               For a small hospital reading 3,000 CT studies per year, the coverage cost gap between models is significant
             </p>
             <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden border border-white/15">
-              <div className="overflow-x-auto">
+              <div className="table-scroll table-scroll--light overflow-x-auto">
                 <table className="w-full min-w-[760px] text-sm">
                   <thead>
                     <tr>
@@ -259,7 +258,7 @@ const ForSmallHospitals = () => {
                 </table>
               </div>
             </div>
-            <p className="text-white/40 text-[12px] text-center mt-6 max-w-2xl mx-auto">
+            <p className="text-white/60 text-[12px] text-center mt-6 max-w-2xl mx-auto">
               Annual cost estimate based on 3,000 CT studies. Actual figures depend on study volume, modality mix, and provider rates
             </p>
           </div>
@@ -366,7 +365,7 @@ const ForSmallHospitals = () => {
               </p>
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-10 py-4 rounded-full transition-all duration-200 inline-block"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-10 py-4 rounded-full transition-all duration-200 inline-block"
               >
                 Request free pilot
               </Link>
@@ -395,7 +394,6 @@ const ForSmallHospitals = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

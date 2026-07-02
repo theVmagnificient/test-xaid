@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import Footer from "@/components/Footer";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -17,8 +16,8 @@ const PrivacyPolicy = () => {
         <meta property="og:description" content="How xAID collects, uses, and protects personal data and PHI." />
       </Helmet>
 
-      <main id="privacy-policy" className="pt-24 pb-16 md:pt-32 md:pb-24">
-        <section className="privacy-policy container-xaid">
+      <div id="privacy-policy" className="pt-24 pb-16 md:pt-32 md:pb-24">
+        <section className="privacy-policy container-xaid max-w-3xl">
           <div className="mb-8">
             <Link
               to="/"
@@ -176,8 +175,7 @@ const PrivacyPolicy = () => {
             </Link>
           </div>
         </section>
-      </main>
-      <Footer />
+      </div>
     </div>
   );
 };

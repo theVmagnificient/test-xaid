@@ -19,7 +19,7 @@ const BackToTop = () => {
       onClick={scrollToTop}
       aria-label="Back to top"
       style={{ boxShadow: '0 0 24px rgba(107, 137, 250, 0.45)' }}
-      className="fixed bottom-[80px] right-3 z-50 w-10 h-10 rounded-full bg-white border-[3px] border-[#2a2858] flex items-center justify-center text-xaid-blue hover:scale-105 transition-all duration-200"
+      className="fixed bottom-[80px] right-2 md:right-3 z-40 w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/90 md:bg-white border-[3px] border-[#2a2858] flex items-center justify-center text-xaid-blue hover:scale-105 transition-all duration-200"
     >
       <ChevronUp size={18} strokeWidth={3} />
     </button>

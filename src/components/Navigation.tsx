@@ -48,6 +48,7 @@ const Navigation = () => {
         isScrolled ? 'bg-background/95 backdrop-blur-md' : 'bg-transparent'
       }`}
     >
+      <a href="#main-content" className="skip-link">Skip to content</a>
       <div className="container-xaid">
         <div className="flex items-center justify-between h-[72px]">
 
@@ -109,6 +110,8 @@ const Navigation = () => {
           <button
             className="lg:hidden text-foreground p-3"
             aria-label="Toggle navigation menu"
+            aria-expanded={isMobileMenuOpen}
+            aria-controls="mobile-menu"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -117,7 +120,7 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-background border-t border-border py-4">
+          <div id="mobile-menu" className="lg:hidden bg-background border-t border-border py-4 shadow-[0_24px_48px_rgba(0,0,0,0.7)] border-b border-white/10">
             <div className="flex flex-col gap-1">
               {navLinks.map((link) => (
                 isHome ? (

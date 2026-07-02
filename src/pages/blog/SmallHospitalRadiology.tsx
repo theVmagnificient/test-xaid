@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const SmallHospitalRadiology = () => {
   return (
@@ -100,12 +99,12 @@ const SmallHospitalRadiology = () => {
           <header className="section-padding pb-0">
             <div className="container-xaid max-w-3xl mx-auto">
               <div className="mb-6">
-                <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+                <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               </div>
               <div className="flex items-center gap-3 mb-4">
                 <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Operations</span>
-                <span className="text-white/40 text-xs">March 19, 2026</span>
-                <span className="text-white/40 text-xs">9 min read</span>
+                <span className="text-white/60 text-xs">March 19, 2026</span>
+                <span className="text-white/60 text-xs">9 min read</span>
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
                 AI Radiology for Small and Community Hospitals 2026: Coverage Options, Costs, and Implementation
@@ -125,7 +124,7 @@ const SmallHospitalRadiology = () => {
                 There are approximately 1,300 Critical Access Hospitals (CAHs) in the United States, plus thousands of additional small community and rural hospitals. For all of them, radiology coverage follows the same painful math: CT volume doesn't justify a full-time radiologist, locum costs exceed budget, and traditional teleradiology contracts include after-hours surcharges that add 30–100% to read costs.
               </p>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                The result is predictable: coverage gaps, delayed reads, or paying rates that compress an already thin margin. The AAMC projects a shortage of 42,000 physicians by 2034 — with radiology among the hardest-hit specialties. In rural and small-hospital markets, that shortage already exists.
+                The result is predictable: coverage gaps, delayed reads, or paying rates that compress an already thin margin. The AAMC projects a shortage of 54,100–139,000 physicians by 2034 — with radiology among the hardest-hit specialties. In rural and small-hospital markets, that shortage already exists.
               </p>
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">The four coverage models — and what they actually cost</h2>
@@ -133,7 +132,7 @@ const SmallHospitalRadiology = () => {
                 For a small hospital reading 3,000 CT studies per year, annual coverage costs vary significantly by model.
               </p>
 
-              <div className="overflow-x-auto my-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto my-8">
                 <table className="w-full border-collapse text-sm">
                   <thead>
                     <tr className="border-b border-white/10">
@@ -160,7 +159,7 @@ const SmallHospitalRadiology = () => {
                   </tbody>
                 </table>
               </div>
-              <p className="text-white/40 text-xs">Source: Published teleradiology rate ranges; AAMC workforce data. Costs vary by volume, geography, and provider.</p>
+              <p className="text-white/60 text-xs">Source: Published teleradiology rate ranges; AAMC workforce data. Costs vary by volume, geography, and provider.</p>
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">Option 1: In-house radiologist</h2>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
@@ -210,7 +209,7 @@ const SmallHospitalRadiology = () => {
                 <li className="text-white/60 text-[15px] font-light leading-[1.65]"><strong className="text-white">HIPAA compliant</strong> — ISO 27001 certified, BAA available</li>
               </ul>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                Clinical evidence for the AI layer: xAID achieves 95% accuracy verified by independent peer-reviewed studies — the only AI CT reporting service with published clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                Clinical evidence for the AI layer: xAID achieves 95% accuracy verified by independent peer-reviewed studies — the only AI CT reporting service with published clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
               </p>
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">Critical Access Hospital (CAH) considerations</h2>
@@ -317,7 +316,6 @@ const SmallHospitalRadiology = () => {
           </section>
 
         </article>
-        <Footer />
       </div>
     </>
   );

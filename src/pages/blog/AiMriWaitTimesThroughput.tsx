@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import BlogCTA from '@/components/BlogCTA';
 
 const AiMriWaitTimesThroughput = () => {
@@ -98,12 +97,12 @@ const AiMriWaitTimesThroughput = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Workflow &amp; Throughput
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI cut a 37-hospital system’s MRI wait times by more than 60%.<br />
@@ -128,7 +127,7 @@ const AiMriWaitTimesThroughput = () => {
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -144,7 +143,7 @@ const AiMriWaitTimesThroughput = () => {
                 What actually happened
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Kaiser Permanente, which operates 37 hospitals in California, integrated an FDA-cleared AI application that reduces image noise to accelerate MRI acquisition. The result: scans that used to take about 45 minutes now take about 30, and the system reported cutting MRI wait times by more than 60%, as <a href="https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/ai-cuts-hospital-systems-mri-wait-times-more-50" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">covered by <em>Radiology Business</em></a>.
+                Kaiser Permanente, which operates 37 hospitals in California, integrated an FDA-cleared AI application that reduces image noise to accelerate MRI acquisition. The result: scans that used to take about 45 minutes now take about 30, and the system reported cutting MRI wait times by more than 60%, as <a href="https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/ai-cuts-hospital-systems-mri-wait-times-more-50" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">covered by <em>Radiology Business</em></a>.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 The economics are the point. By shaving roughly a third off each scan, locations could book more patients on the <em>same</em> hardware — no new scanners required. That’s the cleanest kind of capacity win: more throughput out of assets you already own. It’s exactly the outcome capacity-constrained imaging departments are chasing.
@@ -163,7 +162,7 @@ const AiMriWaitTimesThroughput = () => {
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
                 The two bottlenecks, side by side
               </h2>
-              <div className="overflow-x-auto mb-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                 <table className="w-full text-left border-collapse">
                   <thead>
                     <tr className="border-b border-gray-200">
@@ -204,13 +203,13 @@ const AiMriWaitTimesThroughput = () => {
                 Does AI actually move reporting turnaround?
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The evidence says yes — with the honest caveat that gains depend on context. In a three-reader pilot study, radiologists who revised <em>simulated</em> AI draft reports cut mean reporting time from <strong>573 to 435 seconds</strong> — roughly a 24% reduction (p=0.003) — with <a href="https://doi.org/10.48550/arXiv.2412.12042" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">no statistically significant difference in clinically significant errors between workflows</a>. (The drafts were GPT-4–generated stand-ins for a production AI system, so the figure previews the effect rather than proving it in the wild.)
+                The evidence says yes — with the honest caveat that gains depend on context. In a three-reader pilot study, radiologists who revised <em>simulated</em> AI draft reports cut mean reporting time from <strong>573 to 435 seconds</strong> — roughly a 24% reduction (p=0.003) — with <a href="https://doi.org/10.48550/arXiv.2412.12042" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">no statistically significant difference in clinically significant errors between workflows</a>. (The drafts were GPT-4–generated stand-ins for a production AI system, so the figure previews the effect rather than proving it in the wild.)
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                A separate real-world analysis of AI triage on chest CT found report turnaround time dropped about <strong>32%</strong> during work hours — from <strong>68.9 to 46.7 minutes</strong> (p=0.004) — while off-hours saw only a ~6% change that wasn’t statistically significant, per <a href="https://doi.org/10.48550/arXiv.2510.15237" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">the study’s real-world time-savings analysis</a>. The benefit was largest exactly when it matters: under high volume.
+                A separate real-world analysis of AI triage on chest CT found report turnaround time dropped about <strong>32%</strong> during work hours — from <strong>68.9 to 46.7 minutes</strong> (p=0.004) — while off-hours saw only a ~6% change that wasn’t statistically significant, per <a href="https://doi.org/10.48550/arXiv.2510.15237" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">the study’s real-world time-savings analysis</a>. The benefit was largest exactly when it matters: under high volume.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The counterweight is worth stating plainly. A retrospective analysis of <strong>185,044</strong> chest CT reports across two hospitals found AI-assisted lung-nodule reporting <a href="https://doi.org/10.2196/77967" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">may initially increase drafting time, with sustained efficiency gains at only one of the two sites</a>. Reporting AI is not a plug-and-play speed button; the payoff is heterogeneous and depends on workflow fit, case mix, and implementation. That’s an argument for choosing the reporting layer as carefully as the acquisition layer — not for skipping it.
+                The counterweight is worth stating plainly. A retrospective analysis of <strong>185,044</strong> chest CT reports across two hospitals found AI-assisted lung-nodule reporting <a href="https://doi.org/10.2196/77967" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">may initially increase drafting time, with sustained efficiency gains at only one of the two sites</a>. Reporting AI is not a plug-and-play speed button; the payoff is heterogeneous and depends on workflow fit, case mix, and implementation. That’s an argument for choosing the reporting layer as carefully as the acquisition layer — not for skipping it.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -245,7 +244,7 @@ const AiMriWaitTimesThroughput = () => {
                 Where this fits with AI CT reporting
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The reporting side of this equation is precisely what AI CT report drafting addresses. Rather than a narrow detector bolted onto one finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">foundation-model approach</Link> produces a structured, comprehensive report draft the radiologist reviews and signs — a ready-to-sign report, not an autonomous read. That’s the reporting-capacity lever that pairs with acquisition-speed AI: the scanner gets faster, and the reading room keeps up, with a radiologist accountable for every final report. Cutting MRI wait times is the start; clearing the backlog end-to-end is the goal.
+                The reporting side of this equation is precisely what AI CT report drafting addresses. Rather than a narrow detector bolted onto one finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong hover:underline">foundation-model approach</Link> produces a structured, comprehensive report draft the radiologist reviews and signs — a ready-to-sign report, not an autonomous read. That’s the reporting-capacity lever that pairs with acquisition-speed AI: the scanner gets faster, and the reading room keeps up, with a radiologist accountable for every final report. Cutting MRI wait times is the start; clearing the backlog end-to-end is the goal.
               </p>
 
               {/* FAQ */}
@@ -254,7 +253,7 @@ const AiMriWaitTimesThroughput = () => {
                 {[
                   {
                     q: "How did AI cut a hospital system's MRI wait times by more than 60%?",
-                    a: 'Kaiser Permanente, which operates 37 hospitals in California, integrated an FDA-cleared AI application that reduces image noise to speed up MRI acquisition. Scans that used to take about 40 minutes now take about 30, letting locations schedule more patients on the same scanners. The health system reported reducing MRI wait times by more than 60%, without buying additional scanners.',
+                    a: 'Kaiser Permanente, which operates 37 hospitals in California, integrated an FDA-cleared AI application that reduces image noise to speed up MRI acquisition. Scans that used to take about 45 minutes now take about 30, letting locations schedule more patients on the same scanners. The health system reported reducing MRI wait times by more than 60%, without buying additional scanners.',
                   },
                   {
                     q: 'Does faster MRI acquisition actually clear the imaging backlog?',
@@ -314,7 +313,6 @@ const AiMriWaitTimesThroughput = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

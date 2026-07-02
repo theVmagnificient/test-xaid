@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const AiRadiologyBuyersGuide = () => {
   return (
@@ -106,7 +105,7 @@ const AiRadiologyBuyersGuide = () => {
               <div className="max-w-3xl mx-auto">
                 <div className="flex items-center gap-3 mb-6">
                   <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Buyer Guide</span>
-                  <span className="text-white/40 text-sm">April 28, 2026 · 11 min read</span>
+                  <span className="text-white/60 text-sm">April 28, 2026 · 11 min read</span>
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.1] mb-6">
                   AI Radiology Reporting Software: A 2026 Buyer's Guide for Imaging Centers
@@ -187,7 +186,7 @@ const AiRadiologyBuyersGuide = () => {
                 </div>
 
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                  For reference: xAID achieves 95% accuracy verified by independent peer-reviewed studies — AI-assisted detection consistently outperformed unaided radiologists across multiple pathology categories. Full methodology and results are available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                  For reference: xAID achieves 95% accuracy verified by independent peer-reviewed studies — AI-assisted detection consistently outperformed unaided radiologists across multiple pathology categories. Full methodology and results are available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
                 </p>
 
                 {/* Section 3 */}
@@ -256,7 +255,7 @@ const AiRadiologyBuyersGuide = () => {
                 <div className="bg-xaid-blue/10 border border-xaid-blue/20 rounded-xl p-6 mb-8">
                   <h3 className="text-[#0D0D0D] font-medium mb-2 text-sm">xAID's Accuracy Evidence</h3>
                   <p className="text-[#444] text-[15px] leading-[1.65] font-light">
-                    95% accuracy verified by independent peer-reviewed studies. xAID is the only AI CT reporting service with published independent clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue hover:underline">xaid.ai/accuracy</Link>.
+                    95% accuracy verified by independent peer-reviewed studies. xAID is the only AI CT reporting service with published independent clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
                   </p>
                 </div>
 
@@ -289,7 +288,7 @@ const AiRadiologyBuyersGuide = () => {
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                   Implementation time varies significantly between vendors:
                 </p>
-                <div className="overflow-x-auto mb-8">
+                <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                   <table className="w-full text-sm border-collapse border border-gray-200">
                     <thead className="bg-gray-50">
                       <tr>
@@ -404,7 +403,6 @@ const AiRadiologyBuyersGuide = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

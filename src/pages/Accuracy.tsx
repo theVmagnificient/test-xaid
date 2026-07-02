@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const evidenceStats = [
@@ -147,8 +146,8 @@ const Accuracy = () => {
                 <div key={item.stat} className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center flex flex-col h-full">
                   <div className="text-4xl font-medium text-xaid-blue mb-2">{item.stat}</div>
                   <div className="text-white text-sm font-medium mb-2 leading-snug">{item.label}</div>
-                  <div className="text-white/40 text-xs leading-snug mb-2 flex-1">{item.context}</div>
-                  <div className="text-white/30 text-xs italic">{item.source}</div>
+                  <div className="text-white/60 text-xs leading-snug mb-2 flex-1">{item.context}</div>
+                  <div className="text-white/60 text-xs italic">{item.source}</div>
                 </div>
               ))}
             </div>
@@ -295,7 +294,7 @@ const Accuracy = () => {
               </p>
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
               >
                 Start a free 5-study pilot
               </Link>
@@ -356,7 +355,6 @@ const Accuracy = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'ai-radiology-terminology-glossary',
     title: 'AI Radiology Terminology Glossary: Key Terms Explained',
-    excerpt: 'Reference guide to 18 key terms in AI CT reporting, teleradiology, and medical imaging — from DICOM and HL7 to sensitivity/specificity, no-edit guarantee, foundation models, and after-hours surcharges. Plain-language definitions with clinical and operational context.',
+    excerpt: 'Reference guide to 18 key terms in AI CT reporting, teleradiology, and medical imaging — from DICOM and HL7 to sensitivity/specificity, foundation models, and after-hours surcharges. Plain-language definitions with clinical and operational context.',
     date: 'March 4, 2026',
     dateIso: '2026-03-04',
     category: 'Reference',
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'radiologist-shortage-2026-ai-ct-reporting',
     title: 'Radiologist Shortage 2026: How AI CT Reporting Fills the Gap',
-    excerpt: 'The US faces a projected shortage of 42,000 physicians by 2034, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
+    excerpt: 'The US faces a projected shortage of 54,100–139,000 physicians by 2034, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
     date: 'December 10, 2025',
     dateIso: '2025-12-10',
     category: 'Radiology Workforce',
@@ -167,7 +167,7 @@ export const blogPosts: BlogPost[] = [
     date: 'November 6, 2025',
     dateIso: '2025-11-06',
     category: 'Buyer Guide',
-    readingTime: 10,
+    readingTime: 7,
     keywords: ['AI teleradiology', 'AI vs teleradiology', 'AI teleradiology service comparison'],
   },
   {

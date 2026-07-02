@@ -1,11 +1,10 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const costTable = [
   {
     option: 'In-house radiologist (FTE)',
-    perStudy: '$15–45 (at 10K studies/yr)',
+    perStudy: '$15–$45 (at 10K studies/yr)',
     annual: '$350K–600K salary + benefits',
     setup: '3–12 months to hire',
     afterHours: 'Surcharge or separate on-call',
@@ -14,7 +13,7 @@ const costTable = [
   },
   {
     option: 'Locum radiologist',
-    perStudy: '$80–200+ (depends on volume)',
+    perStudy: '$80–$200+ (depends on volume)',
     annual: '$500K–$650K for full coverage',
     setup: '2–8 weeks to source',
     afterHours: 'Surcharge (30–100%)',
@@ -23,7 +22,7 @@ const costTable = [
   },
   {
     option: 'Traditional teleradiology',
-    perStudy: '$40–80 routine; $80–350 after-hours',
+    perStudy: '$40–$80 routine; $80–$350 after-hours',
     annual: '$500K–1.2M (mid-volume center)',
     setup: '1–4 weeks',
     afterHours: 'Separate contract or surcharge',
@@ -166,7 +165,7 @@ const CtRadiologyCoverageCosts = () => {
               <div className="bg-white rounded-2xl p-6 md:p-10">
                 <h2 className="text-xl md:text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-2">CT Radiology Coverage: Cost Summary</h2>
                 <p className="text-gray-500 text-sm mb-6">All figures are US market estimates for 2026. Per-study costs assume typical outpatient CT volumes.</p>
-                <div className="overflow-x-auto">
+                <div className="table-scroll table-scroll--light overflow-x-auto">
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="border-b-2 border-gray-200">
@@ -206,7 +205,7 @@ const CtRadiologyCoverageCosts = () => {
                 Add employer costs — malpractice insurance ($20,000–$60,000/year for radiology), benefits (25–30% of salary), and administrative overhead — and the all-in cost is <strong className="text-white">$450,000–$750,000 per year</strong>. That does not include recruitment costs ($15,000–$50,000 per placement through search firms) or the 3–12 month time-to-fill for permanent positions.
               </p>
               <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-6">
-                One FTE radiologist can read approximately 25,000–35,000 studies per year at a sustainable pace. For a center running 10,000–15,000 CT studies annually, the effective per-study cost of an in-house hire is <strong className="text-white">$30–75 per study</strong> — before overhead allocation. After-hours coverage requires either a separate on-call arrangement (adding cost and burnout risk) or a teleradiology contract for nights and weekends.
+                One FTE radiologist can read approximately 25,000–35,000 studies per year at a sustainable pace. For a center running 10,000–15,000 CT studies annually, the effective per-study cost of an in-house hire is <strong className="text-white">$30–$75 per study</strong> — before overhead allocation. After-hours coverage requires either a separate on-call arrangement (adding cost and burnout risk) or a teleradiology contract for nights and weekends.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-white mb-4">Locum radiologist cost breakdown</h2>
@@ -347,7 +346,6 @@ const CtRadiologyCoverageCosts = () => {
           </section>
         </article>
 
-        <Footer />
       </div>
     </>
   );

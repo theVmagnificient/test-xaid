@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowDown } from "lucide-react";
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const painPoints = [
@@ -123,9 +122,9 @@ const ForTeleradiologyCompanies = () => {
               <div className="flex flex-wrap gap-4">
                 <Link
                   to="/#contact-us"
-                  className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
+                  className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
                 >
-                  Talk to Us About Volume Pricing
+                  Talk to us about volume pricing
                 </Link>
                 <Link
                   to="/ai-vs-teleradiology/"
@@ -243,7 +242,7 @@ const ForTeleradiologyCompanies = () => {
               </ul>
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
               >
                 Start a free 5-study pilot
               </Link>
@@ -342,7 +341,6 @@ const ForTeleradiologyCompanies = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

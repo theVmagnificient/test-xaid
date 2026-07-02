@@ -8,7 +8,6 @@ import ReportExample from '@/components/ReportExample';
 import FAQ from '@/components/FAQ';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
 import LatestFromBlog from '@/components/LatestFromBlog';
 
 const Index = () => {
@@ -28,7 +27,6 @@ const Index = () => {
       <CTA />
       <Contact />
       <LatestFromBlog />
-      <Footer />
     </div>
   );
 };

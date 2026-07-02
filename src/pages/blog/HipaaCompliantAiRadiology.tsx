@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const HipaaCompliantAiRadiology = () => {
   const post = {
@@ -97,12 +96,12 @@ const HipaaCompliantAiRadiology = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Compliance
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Is AI Radiology Reporting HIPAA Compliant?<br />
@@ -129,7 +128,7 @@ const HipaaCompliantAiRadiology = () => {
                 <div key={s.label} className="bg-white/5 border border-white/10 rounded-xl p-4">
                   <div className="text-xaid-blue text-xs font-medium mb-1">{s.status}</div>
                   <div className="text-white text-sm font-medium mb-0.5">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.note}</div>
+                  <div className="text-white/60 text-xs">{s.note}</div>
                 </div>
               ))}
             </div>
@@ -323,7 +322,6 @@ const HipaaCompliantAiRadiology = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const comparisonData = [
@@ -75,7 +74,7 @@ const Pricing = () => {
         <title>AI CT Reporting Pricing vs Locum & Teleradiology | xAID</title>
         <meta
           name="description"
-          content="Compare AI CT reporting costs: xAID vs locum radiologist ($500K+/yr) vs traditional teleradiology ($40–80/study). See the ROI of ready-to-sign AI radiology reports."
+          content="Compare AI CT reporting costs: xAID vs locum radiologist ($500K+/yr) vs traditional teleradiology ($40–$80/study). See the ROI of ready-to-sign AI radiology reports."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting Pricing — xAID vs Locum vs Teleradiology" />
@@ -153,7 +152,7 @@ const Pricing = () => {
             </p>
             <a
               href="/#contact-us"
-              className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+              className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
             >
               Get Pricing — Free 5-Study Pilot
             </a>
@@ -187,7 +186,7 @@ const Pricing = () => {
             </div>
 
             <div className="rounded-2xl overflow-hidden border border-white/15">
-              <div className="overflow-x-auto">
+              <div className="table-scroll table-scroll--light overflow-x-auto">
                 <table className="w-full min-w-[720px] text-sm">
                   <thead>
                     <tr>
@@ -250,7 +249,7 @@ const Pricing = () => {
             <div className="text-center">
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
               >
                 Get exact pricing for your volume
               </Link>
@@ -311,7 +310,6 @@ const Pricing = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

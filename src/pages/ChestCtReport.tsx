@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const findings = [
@@ -96,7 +95,7 @@ const ChestCtReport = () => {
                 AI-generated chest CT preliminary reports, reviewed by our in-house radiologist — structured, ready to sign, delivered within 2–12 hours. Validated in a peer-reviewed emergency radiology study
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/#contact-us" className="bg-xaid-blue hover:bg-xaid-blue/90 text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
+                <Link to="/#contact-us" className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
                   Start free pilot
                 </Link>
                 <Link to="/accuracy/" className="border border-white/20 text-white hover:bg-white/5 font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
@@ -120,7 +119,7 @@ const ChestCtReport = () => {
                 <div key={item.stat} className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center flex flex-col h-full">
                   <div className="text-3xl md:text-4xl font-medium text-xaid-blue mb-2">{item.stat}</div>
                   <div className="text-white text-sm font-medium mb-1">{item.label}</div>
-                  <div className="text-white/40 text-xs">{item.sub}</div>
+                  <div className="text-white/60 text-xs">{item.sub}</div>
                 </div>
               ))}
             </div>
@@ -197,14 +196,13 @@ const ChestCtReport = () => {
             </p>
             <Link
               to="/#contact-us"
-              className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+              className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
             >
               Request free pilot
             </Link>
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

@@ -63,7 +63,7 @@ const Guarantee = () => {
 
           <Link
             to="/#contact-us"
-            className="group inline-flex items-center justify-center gap-2 bg-xaid-blue hover:bg-xaid-blue/90 text-white text-[15px] font-medium px-8 py-4 rounded-full transition-all duration-200 hover:-translate-y-[1px] flex-shrink-0"
+            className="group inline-flex items-center justify-center gap-2 bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-[15px] font-medium px-8 py-4 rounded-full transition-all duration-200 hover:-translate-y-[1px] flex-shrink-0"
           >
             Book a demo
             <ArrowRight

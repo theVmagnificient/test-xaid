@@ -8,6 +8,10 @@
     /* xAID brand color — single source of truth */
     --xaid-blue: 227 92% 71%;
     --xaid-blue-hover: 227 92% 64%;
+    /* Darker shade for interactive elements: white text on --xaid-blue is 3.03:1
+       (fails WCAG AA 4.5:1); this hits 4.83:1 while keeping the brand hue. */
+    --xaid-blue-strong: 227 92% 60%;
+    --xaid-blue-strong-hover: 227 92% 54%;
 
     /* Core Colors - Dark Theme */
     --background: 0 0% 5%;
@@ -127,12 +131,12 @@
   /* Button Variants */
   .btn-primary {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium text-[14px] transition-all duration-200;
-    background-color: hsl(var(--primary));
+    background-color: hsl(var(--xaid-blue-strong));
     color: hsl(var(--primary-foreground));
   }
 
   .btn-primary:hover {
-    background-color: hsl(var(--xaid-blue-hover));
+    background-color: hsl(var(--xaid-blue-strong-hover));
     transform: translateY(-1px);
   }
 
@@ -315,14 +319,14 @@
 /* Primary/Accept Button */
 .osano-cm-button--type_accept,
 .osano-cm-button--type_save {
-  background-color: hsl(227 92% 71%) !important;
+  background-color: hsl(var(--xaid-blue-strong)) !important;
   color: hsl(0 0% 100%) !important;
   border: none !important;
 }
 
 .osano-cm-button--type_accept:hover,
 .osano-cm-button--type_save:hover {
-  background-color: hsl(227 92% 64%) !important;
+  background-color: hsl(var(--xaid-blue-strong-hover)) !important;
   transform: translateY(-1px) !important;
 }
 
@@ -362,7 +366,7 @@
 }
 
 .osano-cm-toggle input[type=checkbox]:checked {
-  background-color: hsl(227 92% 71%) !important;
+  background-color: hsl(var(--xaid-blue-strong)) !important;
 }
 
 /* Labels */
@@ -394,13 +398,70 @@ label.osano-cm-label {
 
 /* Widget Button */
 .osano-cm-widget {
-  background-color: hsl(227 92% 71%) !important;
+  background-color: hsl(var(--xaid-blue-strong)) !important;
   border-radius: 50% !important;
   box-shadow: 0 4px 12px rgba(91, 127, 255, 0.3) !important;
   transition: all 0.2s ease !important;
 }
 
 .osano-cm-widget:hover {
-  background-color: hsl(227 92% 64%) !important;
+  background-color: hsl(var(--xaid-blue-strong-hover)) !important;
   transform: scale(1.05) !important;
+}
+
+/* === Accessibility & mobile-table affordance (site audit 2026-07-02) === */
+
+/* Respect prefers-reduced-motion: neutralize scroll/entrance animations.
+   The Spline 3D scene is separately skipped in Hero.tsx under this setting. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .fade-up {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* Skip-to-content link: visually hidden until keyboard-focused */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: hsl(var(--xaid-blue-strong));
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 0.5rem 0;
+  font-size: 14px;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+/* Horizontally scrollable comparison tables on mobile: right-edge fade tells
+   the user the xAID column is off-screen (audit F2 — the scroll was undiscoverable). */
+.table-scroll {
+  position: relative;
+}
+.table-scroll::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 36px;
+  pointer-events: none;
+  background: linear-gradient(to left, rgba(13, 13, 13, 0.55), transparent);
+}
+@media (min-width: 768px) {
+  .table-scroll::after {
+    display: none;
+  }
+}
+.table-scroll--light::after {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.18), transparent);
 }

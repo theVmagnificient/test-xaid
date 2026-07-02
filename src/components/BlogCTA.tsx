@@ -29,7 +29,7 @@ const BlogCTA = ({
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link
             to={primaryTo}
-            className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+            className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
           >
             {primaryLabel}
           </Link>

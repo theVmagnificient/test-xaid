@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const rows = [
@@ -131,11 +130,11 @@ const AiVsLocumRadiologist = () => {
                       <p className="text-[10px] text-white/35 mb-1 md:hidden">Locum Radiologist</p>
                       <div className="bg-white/[0.06] border border-white/10 rounded-xl p-4 flex-1">
                         <div className="text-white/70 font-medium text-xl leading-tight">{row.locumValue}</div>
-                        <div className="text-white/40 text-xs mt-1">{row.locumSub}</div>
+                        <div className="text-white/60 text-xs mt-1">{row.locumSub}</div>
                       </div>
                     </div>
                     {/* Arrow */}
-                    <div className="text-white/30 text-base flex-shrink-0 flex items-center">→</div>
+                    <div className="text-white/60 text-base flex-shrink-0 flex items-center">→</div>
                     {/* xAID card */}
                     <div className="flex-1 flex flex-col">
                       <p className="text-[10px] text-xaid-blue mb-1 md:hidden">xAID</p>
@@ -158,7 +157,7 @@ const AiVsLocumRadiologist = () => {
               AI CT reporting vs locum radiologist — full comparison
             </h2>
             <div className="rounded-2xl overflow-hidden border border-white/15">
-              <div className="overflow-x-auto">
+              <div className="table-scroll table-scroll--light overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
                     <tr>
@@ -202,7 +201,7 @@ const AiVsLocumRadiologist = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white font-medium px-8 py-4 rounded-full transition-all duration-200"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white font-medium px-8 py-4 rounded-full transition-all duration-200"
               >
                 Start free pilot
               </Link>
@@ -237,7 +236,6 @@ const AiVsLocumRadiologist = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

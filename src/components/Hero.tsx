@@ -72,7 +72,7 @@ const Hero = () => {
             >
               <button
                 onClick={scrollToReport}
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
               >
                 See a sample report
               </button>

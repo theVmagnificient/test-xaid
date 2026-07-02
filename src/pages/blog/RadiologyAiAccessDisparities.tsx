@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import BlogCTA from '@/components/BlogCTA';
 
 const RadiologyAiAccessDisparities = () => {
@@ -98,12 +97,12 @@ const RadiologyAiAccessDisparities = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/40 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Market &amp; Policy
               </span>
-              <span className="text-white/40 text-sm">{post.date}</span>
-              <span className="text-white/30 text-sm">{`${post.readingTime} min read`}</span>
+              <span className="text-white/60 text-sm">{post.date}</span>
+              <span className="text-white/60 text-sm">{`${post.readingTime} min read`}</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               Who gets radiology AI?<br />
@@ -128,7 +127,7 @@ const RadiologyAiAccessDisparities = () => {
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
-                  <div className="text-white/40 text-xs">{s.sub}</div>
+                  <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -144,7 +143,7 @@ const RadiologyAiAccessDisparities = () => {
                 What the research found
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                A new study from the <a href="https://www.neimanhpi.org/" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline">Harvey L. Neiman Health Policy Institute</a>, published in the <a href="https://doi.org/10.3174/ajnr.A9494" target="_blank" rel="noopener noreferrer" className="text-xaid-blue hover:underline"><em>American Journal of Neuroradiology</em></a> on June 24, 2026, looked at how one of radiology's most-watched AI reimbursement experiments actually played out. The team analyzed <strong>2,116</strong> inpatient acute ischemic stroke episodes across <strong>1,076</strong> facilities from October 2020 through December 2023 — the window in which Medicare offered a New Technology Add-on Payment (NTAP) for AI that flags suspected large vessel occlusion.
+                A new study from the <a href="https://www.neimanhpi.org/" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">Harvey L. Neiman Health Policy Institute</a>, published in the <a href="https://doi.org/10.3174/ajnr.A9494" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline"><em>American Journal of Neuroradiology</em></a> on June 24, 2026, looked at how one of radiology's most-watched AI reimbursement experiments actually played out. The team analyzed <strong>2,116</strong> inpatient acute ischemic stroke episodes across <strong>1,076</strong> facilities from October 2020 through December 2023 — the window in which Medicare offered a New Technology Add-on Payment (NTAP) for AI that flags suspected large vessel occlusion.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 Adoption grew year over year but stayed low. NTAP-billed AI use <strong>peaked at 21%</strong> of eligible cases in 2022, then declined in 2023 as the temporary code began to sunset. Where the AI was used followed a clear pattern: it clustered at <strong>comprehensive stroke centers</strong> and at hospitals with <strong>1,000 or more beds</strong>, and in the Stroke Belt. In adjusted models, the odds of NTAP-billed AI use were roughly <strong>6&times; higher in 2022</strong>, about <strong>2&times; higher</strong> for patients in the Stroke Belt, and around <strong>1.5&times; higher</strong> at comprehensive stroke centers.
@@ -160,7 +159,7 @@ const RadiologyAiAccessDisparities = () => {
                 To see why access concentrated, look at how NTAP works. It is a <strong>temporary, inpatient-only</strong> add-on that pays a hospital above the standard DRG amount — covering up to <strong>65%</strong> of the qualifying technology's cost for <strong>no more than three years</strong>, after which it sunsets. For the stroke-AI tool the study examined, the per-case add-on was capped at roughly $1,040.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                That structure quietly selects for a certain kind of provider. Capturing the payment requires inpatient stroke volume, the coding and billing infrastructure to submit NTAP claims correctly, and the capital to buy and integrate the software while the add-on offsets only part of the cost — and only for a few years. Large academic and comprehensive stroke centers clear those bars easily. <Link to="/blog/ai-radiology-for-small-hospitals-2026/" className="text-xaid-blue hover:underline">Community hospitals</Link> and outpatient imaging centers often don't: much of their imaging is outpatient (where NTAP doesn't apply at all), their case volumes are thinner, and a temporary add-on is a shaky basis for a capital decision.
+                That structure quietly selects for a certain kind of provider. Capturing the payment requires inpatient stroke volume, the coding and billing infrastructure to submit NTAP claims correctly, and the capital to buy and integrate the software while the add-on offsets only part of the cost — and only for a few years. Large academic and comprehensive stroke centers clear those bars easily. <Link to="/blog/ai-radiology-for-small-hospitals-2026/" className="text-xaid-blue-strong hover:underline">Community hospitals</Link> and outpatient imaging centers often don't: much of their imaging is outpatient (where NTAP doesn't apply at all), their case volumes are thinner, and a temporary add-on is a shaky basis for a capital decision.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 The result is a reimbursement mechanism intended to spur adoption that, in practice, concentrates it. When the code disappears, sites that leaned on it are exposed — and sites that never qualified were never in the game. That is how an access gap becomes a disparity: not through any clinical decision, but through the design of a payment.
@@ -172,7 +171,7 @@ const RadiologyAiAccessDisparities = () => {
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 The underlying problem is that AI adoption has been priced like a capital purchase and financed through a narrow, temporary payment. Change the pricing and the access math changes with it. The contrast:
               </p>
-              <div className="overflow-x-auto mb-8">
+              <div className="table-scroll table-scroll--light overflow-x-auto mb-8">
                 <table className="w-full text-left border-collapse text-[14px]">
                   <thead>
                     <tr className="border-b border-gray-200">
@@ -211,14 +210,14 @@ const RadiologyAiAccessDisparities = () => {
                 </table>
               </div>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                A <Link to="/blog/performance-based-pricing-radiology-ai/" className="text-xaid-blue hover:underline">per-study or performance-based price</Link> turns AI from a line item on a capital budget into a variable cost that rises and falls with volume. That removes the exact barrier the NTAP research exposes: the need for capital and inpatient scale before a site can even start. A smaller provider can adopt AI CT reporting on the same per-report terms as a large one, without betting on a payment code that expires.
+                A <Link to="/blog/performance-based-pricing-radiology-ai/" className="text-xaid-blue-strong hover:underline">per-study or performance-based price</Link> turns AI from a line item on a capital budget into a variable cost that rises and falls with volume. That removes the exact barrier the NTAP research exposes: the need for capital and inpatient scale before a site can even start. A smaller provider can adopt AI CT reporting on the same per-report terms as a large one, without betting on a payment code that expires.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
                 Where this fits with how AI CT reporting works
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Access is only half the equation; the other half is what the AI actually delivers once a site can use it. AI CT reporting is built so a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue hover:underline">foundation model</Link> produces a structured, comprehensive report draft across findings — not a single narrow flag — and a radiologist reviews and signs every report before it reaches the chart. Priced per study rather than as capital, that model lets a community hospital or outpatient center get the same ready-to-sign, radiologist-reviewed output as a large center. Reimbursement can still evolve; access shouldn't have to wait for it.
+                Access is only half the equation; the other half is what the AI actually delivers once a site can use it. AI CT reporting is built so a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong hover:underline">foundation model</Link> produces a structured, comprehensive report draft across findings — not a single narrow flag — and a radiologist reviews and signs every report before it reaches the chart. Priced per study rather than as capital, that model lets a community hospital or outpatient center get the same ready-to-sign, radiologist-reviewed output as a large center. Reimbursement can still evolve; access shouldn't have to wait for it.
               </p>
 
               {/* FAQ */}
@@ -287,7 +286,6 @@ const RadiologyAiAccessDisparities = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );

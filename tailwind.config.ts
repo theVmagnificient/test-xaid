@@ -53,6 +53,8 @@ export default {
         },
         xaid: {
           blue: "hsl(var(--xaid-blue))",
+          "blue-strong": "hsl(var(--xaid-blue-strong))",
+          "blue-strong-hover": "hsl(var(--xaid-blue-strong-hover))",
           dark: "hsl(var(--xaid-dark))",
           gray: "hsl(var(--xaid-gray))",
         },

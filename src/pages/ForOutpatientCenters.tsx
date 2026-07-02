@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowDown } from "lucide-react";
-import Footer from '@/components/Footer';
 
 const painPoints = [
   {
@@ -104,7 +103,7 @@ const ForOutpatientCenters = () => {
               <div className="flex flex-wrap gap-4">
                 <Link
                   to="/#contact-us"
-                  className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
+                  className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200"
                 >
                   Start free 5-study pilot
                 </Link>
@@ -277,7 +276,7 @@ const ForOutpatientCenters = () => {
               </p>
               <Link
                 to="/#contact-us"
-                className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
+                className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
               >
                 Start free pilot
               </Link>
@@ -285,7 +284,6 @@ const ForOutpatientCenters = () => {
           </div>
         </section>
 
-        <Footer />
       </div>
     </>
   );
