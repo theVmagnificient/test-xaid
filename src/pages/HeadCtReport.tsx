@@ -27,7 +27,7 @@ const headFaqs = [
   },
   {
     q: 'Can AI detect stroke on CT?',
-    a: 'xAID analyzes head CT for early ischemic stroke signs, including subtle parenchymal hypodensity and loss of grey-white matter differentiation. The AI-generated findings are reviewed by our in-house radiologist before the final report is delivered',
+    a: 'xAID analyzes head CT for early ischemic stroke signs, including subtle parenchymal hypodensity and loss of gray-white matter differentiation. The AI-generated findings are reviewed by our in-house radiologist before the final report is delivered',
   },
   {
     q: 'Is AI head CT reporting suitable for emergency use?',

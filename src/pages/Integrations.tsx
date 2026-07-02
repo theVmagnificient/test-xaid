@@ -10,7 +10,7 @@ const integrationFaqs = [
   },
   {
     q: 'How are completed reports returned to my RIS?',
-    a: 'Completed, preliminary reports are returned via HL7 ORU message to your RIS, or as PDF — whichever your workflow requires. HL7 FHIR DiagnosticReport is available for modern integrations. The report appears in your system just like any other read',
+    a: 'Completed preliminary reports are returned via HL7 ORU message to your RIS, or as PDF — whichever your workflow requires. HL7 FHIR DiagnosticReport is available for modern integrations. The report appears in your system just like any other read',
   },
   {
     q: 'How long does xAID integration take?',

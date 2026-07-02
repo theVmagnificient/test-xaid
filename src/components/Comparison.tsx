@@ -23,9 +23,9 @@ const rows = [
   },
   {
     label: 'Pathologies covered',
-    teleradiology: 'Full report',
+    teleradiology: 'All (radiologist read)',
     narrowAI: '3–5 specific findings',
-    xaid: 'Full report',
+    xaid: '100+ findings',
   },
 ];
 

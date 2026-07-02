@@ -109,7 +109,7 @@ const faqs = [
     a: 'xAID achieves 95% accuracy verified by peer-reviewed studies. No traditional teleradiology provider publishes equivalent clinical accuracy data. Full study details are available at xaid.ai/accuracy.',
   },
   {
-    q: 'What does "sensitivity" and "specificity" mean for AI CT reporting accuracy?',
+    q: 'What do "sensitivity" and "specificity" mean for AI CT reporting accuracy?',
     a: 'Sensitivity is the proportion of actual positive findings that the AI correctly identifies. Specificity is the proportion of true negatives — cases without a finding — that the AI correctly classifies as negative. A high sensitivity means very few real findings are missed. A high specificity means very few false alarms. Both matter: low sensitivity means missed diagnoses; low specificity means unnecessary follow-up. xAID achieves 95% accuracy verified by peer-reviewed studies, with AI-assisted detection consistently outperforming unaided radiologists across pathology categories.',
   },
 ];

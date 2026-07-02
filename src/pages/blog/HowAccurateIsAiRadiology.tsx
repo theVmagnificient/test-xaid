@@ -60,7 +60,7 @@ const HowAccurateIsAiRadiology = () => {
               "name": "How accurate is AI CT reporting compared to a radiologist?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In a peer-reviewed study published in Polish Radiology (2025), AI CT reporting achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories in emergency chest CT — compared to 58.3% sensitivity and 80.6% specificity for radiologists reading scans without AI assistance. AI outperformed unaided radiologists in detecting coronary calcifications, pulmonary artery dilatation, and vertebral fractures."
+                "text": "In a peer-reviewed study published in the Polish Journal of Radiology (2025), AI CT reporting achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories in emergency chest CT — compared to 58.3% sensitivity and 80.6% specificity for radiologists reading scans without AI assistance. AI outperformed unaided radiologists in detecting coronary calcifications, pulmonary artery dilatation, and vertebral fractures."
               }
             },
             {
@@ -76,7 +76,7 @@ const HowAccurateIsAiRadiology = () => {
               "name": "What studies have evaluated AI CT reporting accuracy?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Two key independent studies evaluated xAID: (1) A retrospective single-center study published in Polish Radiology (Pol Radiol, 2025) evaluated 90 unenhanced emergency chest CT scans, finding 92.2% AI sensitivity vs 58.3% for unaided radiologists. (2) A multi-center retrospective clinical utility assessment across four European centers (France, Greece, Slovakia, UK) found 94.9% of radiologists approved AI-generated report elements for clinical integration."
+                "text": "Two key independent studies evaluated xAID: (1) A retrospective single-center study published in the Polish Journal of Radiology (Pol J Radiol, 2025) evaluated 90 unenhanced emergency chest CT scans, finding 92.2% AI sensitivity vs 58.3% for unaided radiologists. (2) A multi-center retrospective clinical utility assessment across four European centers (France, Greece, Slovakia, UK) found 94.9% of radiologists approved AI-generated report elements for clinical integration."
               }
             },
             {
@@ -84,7 +84,7 @@ const HowAccurateIsAiRadiology = () => {
               "name": "What accuracy does xAID AI radiology reporting achieve?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. In a study published in Polish Radiology (2025), AI CT reporting achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories. A second multi-center study across four European centers found 94.9% radiologist approval rate for AI-generated report elements. Every report is also reviewed by a European radiologist before delivery."
+                "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. In a study published in the Polish Journal of Radiology (2025), AI CT reporting achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories. A second multi-center study across four European centers found 94.9% radiologist approval rate for AI-generated report elements. Every report is also reviewed by a European radiologist before delivery."
               }
             }
           ]
@@ -151,10 +151,10 @@ const HowAccurateIsAiRadiology = () => {
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
-                Study 1: Emergency chest CT in a clinical setting (Polish Radiology, 2025)
+                Study 1: Emergency chest CT in a clinical setting (the Polish Journal of Radiology, 2025)
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The most rigorous evaluation of xAID's AI CT reporting to date was published in <em>Polish Radiology</em> (Pol Radiol, 2025). The study was a retrospective single-center evaluation conducted at an emergency radiology department, using 90 consecutive unenhanced chest CT scans.
+                The most rigorous evaluation of xAID's AI CT reporting to date was published in <em>the Polish Journal of Radiology</em> (Pol Radiol, 2025). The study was a retrospective single-center evaluation conducted at an emergency radiology department, using 90 consecutive unenhanced chest CT scans.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 <strong>Study design:</strong> The same 90 cases were read by radiologists with AI assistance (AI-assisted) and without (unaided). Pathologies were evaluated across 9 categories:
@@ -205,7 +205,7 @@ const HowAccurateIsAiRadiology = () => {
                 A second independent study evaluated AI CT reporting clinical utility across four European radiology centers — France, Greece, Slovakia, and the United Kingdom. The study assessed 81 non-contrast chest CT cases with four board-certified radiologists.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Unlike the Polish Radiology study (which measured detection accuracy), this study focused on clinical integration: would radiologists actually trust and use AI-generated report elements in practice?
+                Unlike the the Polish Journal of Radiology study (which measured detection accuracy), this study focused on clinical integration: would radiologists actually trust and use AI-generated report elements in practice?
               </p>
 
               <div className="bg-gray-50 rounded-xl p-6 mb-6">
@@ -250,7 +250,7 @@ const HowAccurateIsAiRadiology = () => {
                 Most AI radiology vendors cite performance numbers from internal evaluations or narrow single-pathology studies. When evaluating accuracy claims, ask:
               </p>
               <ol className="list-decimal list-inside text-[#444] space-y-3 mb-6 ml-2">
-                <li><strong>Is the study independent?</strong> Was it conducted by the vendor or by an independent research team? The Polish Radiology study and the European multi-center study were both independent.</li>
+                <li><strong>Is the study independent?</strong> Was it conducted by the vendor or by an independent research team? The the Polish Journal of Radiology study and the European multi-center study were both independent.</li>
                 <li><strong>What was the study design?</strong> Real emergency cases on a consecutive series are harder to cherry-pick than curated test sets.</li>
                 <li><strong>What pathologies were evaluated?</strong> Single-pathology performance (e.g., nodule detection) does not predict full-scan reporting performance.</li>
                 <li><strong>Is there published peer-reviewed evidence?</strong> Published performance numbers from independent studies — not vendor self-assessments — are required for a meaningful accuracy claim.</li>
@@ -260,7 +260,7 @@ const HowAccurateIsAiRadiology = () => {
               <div className="bg-xaid-blue/10 border border-xaid-blue/20 rounded-xl p-6 mb-8">
                 <h3 className="text-[#0D0D0D] font-medium mb-2">95% accuracy — verified by peer-reviewed studies</h3>
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light">
-                  xAID's accuracy is backed by two independent peer-reviewed studies: 92.2% sensitivity and 95.6% specificity (Bonatti et al., Polish Radiology, 2025) and 94.9% radiologist approval rate across four European centers (Polushkin et al., ResearchGate, 2025). Every report is reviewed by a European radiologist before delivery. No other AI radiology vendor has published this level of independent clinical evidence.
+                  xAID's accuracy is backed by two independent peer-reviewed studies: 92.2% sensitivity and 95.6% specificity (Bonatti et al., the Polish Journal of Radiology, 2025) and 94.9% radiologist approval rate across four European centers (Polushkin et al., ResearchGate, 2025). Every report is reviewed by a European radiologist before delivery. No other AI radiology vendor has published this level of independent clinical evidence.
                 </p>
                 <Link to="/accuracy" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
                   View full accuracy documentation →
@@ -274,7 +274,7 @@ const HowAccurateIsAiRadiology = () => {
                 {[
                   {
                     q: 'How accurate is AI CT reporting compared to a radiologist?',
-                    a: 'In a peer-reviewed study published in Polish Radiology (2025), AI CT reporting achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories in emergency chest CT — compared to 58.3% sensitivity and 80.6% specificity for radiologists reading scans without AI assistance. AI showed particularly large advantages in structured quantitative findings: coronary calcium, pulmonary artery measurements, and vertebral fractures.',
+                    a: 'In a peer-reviewed study published in the Polish Journal of Radiology (2025), AI CT reporting achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories in emergency chest CT — compared to 58.3% sensitivity and 80.6% specificity for radiologists reading scans without AI assistance. AI showed particularly large advantages in structured quantitative findings: coronary calcium, pulmonary artery measurements, and vertebral fractures.',
                   },
                   {
                     q: 'Is AI radiology reporting as good as a human radiologist?',

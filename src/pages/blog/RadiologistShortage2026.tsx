@@ -67,7 +67,7 @@ const RadiologistShortage2026 = () => {
               "name": "How is AI addressing the radiologist shortage?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "AI CT reporting services allow outpatient imaging centers and teleradiology providers to expand CT read capacity without adding radiologist headcount. AI-assisted reporting generates structured report drafts that a remote radiologist can review and sign in 20–30% less time than reading from scratch — effectively increasing throughput per radiologist without increasing burnout. Centers using AI CT reporting have filled coverage gaps that previously required locum radiologists at $500,000â$650,000 per year."
+                "text": "AI CT reporting services allow outpatient imaging centers and teleradiology providers to expand CT read capacity without adding radiologist headcount. AI-assisted reporting generates structured report drafts that a remote radiologist can review and sign in 20–30% less time than reading from scratch — effectively increasing throughput per radiologist without increasing burnout. Centers using AI CT reporting have filled coverage gaps that previously required locum radiologists at $500,000–$650,000 per year."
               }
             },
             {
@@ -75,7 +75,7 @@ const RadiologistShortage2026 = () => {
               "name": "What is the cost of the radiologist shortage for imaging centers?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "For outpatient imaging centers, the radiologist shortage increases costs through three channels: (1) locum radiologist rates have risen to $150–250/hour ($500,000â$650,000 annually for full-time coverage), (2) delayed reads reduce patient throughput and revenue, and (3) after-hours reads through traditional teleradiology services cost $80–350 per study. AI CT reporting addresses all three cost drivers."
+                "text": "For outpatient imaging centers, the radiologist shortage increases costs through three channels: (1) locum radiologist rates have risen to $150–250/hour ($500,000–$650,000 annually for full-time coverage), (2) delayed reads reduce patient throughput and revenue, and (3) after-hours reads through traditional teleradiology services cost $80–350 per study. AI CT reporting addresses all three cost drivers."
               }
             }
           ]
@@ -158,7 +158,7 @@ const RadiologistShortage2026 = () => {
                 {[
                   {
                     title: '1. Locum radiologist rates',
-                    desc: 'Locum radiologists — contract readers who cover staffing gaps — now command $150–250/hour in competitive markets. For full-time coverage (200+ hours/month), this represents $500,000â$650,000 per year in reading fees. This has doubled over the past decade as demand outpaces supply.',
+                    desc: 'Locum radiologists — contract readers who cover staffing gaps — now command $150–250/hour in competitive markets. For full-time coverage (200+ hours/month), this represents $500,000–$650,000 per year in reading fees. This has doubled over the past decade as demand outpaces supply.',
                   },
                   {
                     title: '2. After-hours teleradiology costs',
@@ -197,7 +197,7 @@ const RadiologistShortage2026 = () => {
                 {[
                   {
                     title: 'Capacity expansion without headcount',
-                    desc: 'AI generates a fully structured CT report draft in minutes of DICOM receipt. A radiologist reviewing an AI draft versus reading from scratch can complete the same study in significantly less time — effectively increasing throughput without adding radiologist FTEs. Centers reading 15 studies/day have expanded to 30+ without additional staff.',
+                    desc: 'AI generates a fully structured CT report draft within minutes of DICOM receipt. A radiologist reviewing an AI draft versus reading from scratch can complete the same study in significantly less time — effectively increasing throughput without adding radiologist FTEs. Centers reading 15 studies/day have expanded to 30+ without additional staff.',
                   },
                   {
                     title: 'Elimination of geographic constraints',
@@ -226,12 +226,12 @@ const RadiologistShortage2026 = () => {
                   </thead>
                   <tbody>
                     {[
-                      ['Annual cost', '$500Kâ$650K', 'Per-study pricing'],
+                      ['Annual cost', '$500K–$650K', 'Per-study pricing'],
                       ['Setup time', '2–8 weeks recruiting', '<1 week integration'],
                       ['24/7 coverage', 'Separate contract', 'Included'],
                       ['Scalability', 'Hire another locum', 'Immediate scale'],
                       ['Burnout risk', 'High', 'N/A (AI-assisted)'],
-                      ['Accuracy evidence', 'None published', 'or we reimburse'],
+                      ['Accuracy evidence', 'None published', '95% — or we reimburse'],
                       ['Report turnaround', 'Varies', '2–12 hours'],
                     ].map(([f, locum, ai], i) => (
                       <tr key={f} className={i % 2 === 0 ? 'bg-gray-50' : ''}>
@@ -264,7 +264,7 @@ const RadiologistShortage2026 = () => {
                   },
                   {
                     q: 'How is AI addressing the radiologist shortage?',
-                    a: 'AI CT reporting services allow imaging centers to expand read capacity without adding radiologist headcount. AI generates structured report drafts in minutes; radiologists review and sign faster than reading from scratch, effectively increasing throughput per radiologist. Centers have used AI reporting to fill coverage gaps that previously required locum radiologists at $500,000â$650,000 per year.',
+                    a: 'AI CT reporting services allow imaging centers to expand read capacity without adding radiologist headcount. AI generates structured report drafts in minutes; radiologists review and sign faster than reading from scratch, effectively increasing throughput per radiologist. Centers have used AI reporting to fill coverage gaps that previously required locum radiologists at $500,000–$650,000 per year.',
                   },
                   {
                     q: 'Can AI replace radiologists entirely?',
@@ -272,7 +272,7 @@ const RadiologistShortage2026 = () => {
                   },
                   {
                     q: 'How much does a locum radiologist cost in 2026?',
-                    a: 'Locum radiologist rates range from $150–250/hour in most US markets, representing $500,000â$650,000 per year for full-time coverage. After-hours teleradiology services typically charge $80–350 per study. Both have increased significantly over the past decade as shortage conditions worsen.',
+                    a: 'Locum radiologist rates range from $150–250/hour in most US markets, representing $500,000–$650,000 per year for full-time coverage. After-hours teleradiology services typically charge $80–350 per study. Both have increased significantly over the past decade as shortage conditions worsen.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">

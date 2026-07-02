@@ -149,7 +149,7 @@ const AiTeleradiologyVsTraditional = () => {
                 In traditional teleradiology, a remote radiologist receives the DICOM study, views images, dictates or types a report from scratch, and signs it. The entire process is manual — and its speed is limited by how fast the radiologist can work through their queue.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                In AI teleradiology, the AI generates a structured draft in minutes of DICOM receipt. The radiologist reviews the AI draft — verifying, correcting, and signing — rather than creating the report from scratch. The same radiologist processes more studies per shift at the same or higher quality.
+                In AI teleradiology, the AI generates a structured draft within minutes of DICOM receipt. The radiologist reviews the AI draft — verifying, correcting, and signing — rather than creating the report from scratch. The same radiologist processes more studies per shift at the same or higher quality.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -175,7 +175,7 @@ const AiTeleradiologyVsTraditional = () => {
                       ['DICOM integration', 'Standard', 'Standard'],
                       ['HL7 delivery', 'Standard', 'Standard'],
                       ['Radiologist sign-off', 'Yes', 'Yes (every report)'],
-                      ['Accuracy evidence', 'None published', 'or we reimburse'],
+                      ['Accuracy evidence', 'None published', '95% — or we reimburse'],
                       ['Report format', 'Unstructured narrative', 'Structured + narrative'],
                       ['Liability', 'Signing radiologist', 'Signing radiologist'],
                       ['ISO 27001', 'Varies', 'Yes'],
@@ -201,7 +201,7 @@ const AiTeleradiologyVsTraditional = () => {
                 <li><strong>Highly complex multi-phase studies:</strong> Multi-phase contrast studies with complex clinical context may require more radiologist attention than AI-assisted workflows provide efficiently</li>
                 <li><strong>Rare or atypical presentations:</strong> AI performs best on common pathologies and structured quantitative findings; very rare presentations benefit from specialist human review</li>
                 <li><strong>Non-CT modalities:</strong> xAID and most AI radiology services currently focus on CT — MRI and X-ray workflows may require traditional service models</li>
-                <li><strong>Regulatory environments requiring specific credentialing:</strong> Some states have specific teleradiology licensing requirements that apply to service model regardless of AI involvement</li>
+                <li><strong>Regulatory environments requiring specific credentialing:</strong> Some states have specific teleradiology licensing requirements that apply to the service model regardless of AI involvement</li>
               </ul>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -241,7 +241,7 @@ const AiTeleradiologyVsTraditional = () => {
                       <div className="flex justify-between"><span className="text-[#666]">300 studies flat rate</span><span className="text-xaid-blue font-medium">Lower</span></div>
                       <div className="flex justify-between"><span className="text-[#666]">After-hours surcharge</span><span className="text-xaid-blue font-medium">$0</span></div>
                       <div className="border-t border-gray-200 pt-2 flex justify-between font-medium"><span className="text-[#0D0D0D]">Monthly total</span><span className="text-xaid-blue">Lower</span></div>
-                      <div className="flex justify-between text-[#999]"><span>Accuracy evidence</span><span>or we reimburse</span></div>
+                      <div className="flex justify-between text-[#999]"><span>Accuracy evidence</span><span>95% — or we reimburse</span></div>
                     </div>
                   </div>
                 </div>

@@ -206,7 +206,7 @@ const HipaaCompliantAiRadiology = () => {
                     number: '7',
                     title: 'Radiologist review on every report',
                     required: false,
-                    desc: 'From a compliance standpoint, autonomous AI diagnosis without physician oversight creates liability exposure under both state practice acts and payor requirements. Autonomous AI radiology reports (no radiologist review) are not billable under most payer contracts and create professional liability risk for the facility. Every xAID report is reviewed by our in-house European radiologist.',
+                    desc: 'From a compliance standpoint, autonomous AI diagnosis without physician oversight creates liability exposure under both state practice acts and payer requirements. Autonomous AI radiology reports (no radiologist review) are not billable under most payer contracts and create professional liability risk for the facility. Every xAID report is reviewed by our in-house European radiologist.',
                     xaid: 'Every xAID report is reviewed by our in-house European radiologist before delivery.',
                   },
                 ].map((item) => (

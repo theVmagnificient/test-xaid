@@ -325,7 +325,7 @@ const AiRadiologyBuyersGuide = () => {
                     'What is the exact output — detection flag or complete preliminary report?',
                     'Is radiologist review included in the price, or billed separately?',
                     'Can you provide peer-reviewed published accuracy data (not internal validation)?',
-                    'Do you have peer-reviewed published studies on your accuracy?',
+                    'What is the guaranteed turnaround time (SLA) — and is after-hours included without surcharge?',
                     'Will you sign a BAA before we share any PHI or DICOM files?',
                     'Where is data processed and stored — US-only?',
                     'Are you ISO 27001 certified? Can you provide the certificate?',

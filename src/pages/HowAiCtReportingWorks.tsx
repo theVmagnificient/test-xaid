@@ -207,7 +207,7 @@ const HowAiCtReportingWorks = () => {
 
               {/* xAID */}
               <div className="flex flex-col h-full rounded-2xl bg-xaid-blue/[0.08] border border-xaid-blue/30 p-7 md:p-9">
-                <span className="text-[12px] font-semibold tracking-[0.12em] text-xaid-blue uppercase mb-2">
+                <span className="text-[12px] font-semibold tracking-[0.12em] text-xaid-blue mb-2">
                   xAID
                 </span>
                 <p className="text-xaid-blue/80 text-[13px] font-light mb-7">AI CT reporting</p>
@@ -289,7 +289,7 @@ const HowAiCtReportingWorks = () => {
               </div>
               <div>
                 <div className="text-3xl font-medium text-xaid-blue mb-2">95%</div>
-                <div className="text-gray-400 text-sm leading-snug">95% accuracy — or we reimburse</div>
+                <div className="text-gray-400 text-sm leading-snug">accuracy — or we reimburse</div>
               </div>
             </div>
           </div>

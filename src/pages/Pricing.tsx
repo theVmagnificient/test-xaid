@@ -152,7 +152,7 @@ const Pricing = () => {
               Per-study pricing at narrow AI rates — with radiologist review included. Compare the real cost of AI CT reporting vs locum radiologists and traditional teleradiology
             </p>
             <a
-              href="https://xaid.ai/#contact-us"
+              href="/#contact-us"
               className="bg-xaid-blue hover:bg-xaid-blue/90 text-white text-base font-medium px-8 py-4 rounded-full transition-all duration-200 inline-block"
             >
               Get Pricing — Free 5-Study Pilot

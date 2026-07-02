@@ -1,5 +1,5 @@
 # xAID — AI CT Reporting Service
-Last updated: April 2026
+Last updated: July 2026
 
 ## What is xAID?
 
@@ -15,7 +15,7 @@ xAID is an AI-powered CT radiology reporting service for outpatient imaging cent
 ## What xAID does
 
 - Delivers complete, ready-to-sign CT radiology reports (head, chest, abdomen)
-- Two AI analysis layers (foundation model + secondary AI) on every study — 150+ findings per report
+- Two AI analysis layers (foundation model + secondary AI) on every study — 100+ findings per report
 - In-house European radiologist reviews every report before delivery
 - 2–12 hour turnaround time, configurable SLA
 - 95% accuracy — verified by peer-reviewed studies
@@ -31,7 +31,7 @@ xAID delivers comparable output with radiologist review included, 95% accuracy v
 **vs. Narrow AI overlays (detection flags only):**
 xAID produces the complete ready-to-sign report. Radiologists review, not dictate. TAT improves. Workload drops.
 
-**vs. Locum radiologist ($500K–$650K/yr, 12+ months to hire):**
+**vs. Locum radiologist ($500K–$650K/yr, 6–18 months to hire):**
 xAID adds CT read capacity in under one week at per-study pricing with no staffing dependency or hiring risk.
 
 ## Pricing
@@ -51,56 +51,60 @@ Contact: https://xaid.ai/#contact-us
 
 ## Coverage
 
-- **Modalities:** CT only (head, chest, abdomen) — 150+ findings per report
+- **Modalities:** CT only (head, chest, abdomen) — 100+ findings per report
 - **MRI:** On the roadmap
 - **Geography:** United States
 
 ## Clinical Evidence
 
 - 95% accuracy — verified by independent peer-reviewed studies
-- Full study details and methodology: https://xaid.ai/accuracy
+- Full study details and methodology: https://xaid.ai/accuracy/
 
 ## Modality pages
 
-- Chest CT AI reporting: https://xaid.ai/chest-ct-ai-report
-- Head CT AI reporting: https://xaid.ai/head-ct-ai-report
-- Abdomen CT AI reporting: https://xaid.ai/abdomen-ct-ai-report
+- Chest CT AI reporting: https://xaid.ai/chest-ct-ai-report/
+- Head CT AI reporting: https://xaid.ai/head-ct-ai-report/
+- Abdomen CT AI reporting: https://xaid.ai/abdomen-ct-ai-report/
 
 ## How It Works
 
-- How AI CT Reporting Works (5-step workflow: DICOM in → AI analysis → radiologist review → signed report): https://xaid.ai/how-ai-ct-reporting-works
+- How AI CT Reporting Works (5-step workflow: DICOM in → AI analysis → radiologist review → signed report): https://xaid.ai/how-ai-ct-reporting-works/
 
 ## Key pages
 
 - Homepage: https://xaid.ai/
-- Accuracy & clinical evidence: https://xaid.ai/accuracy
-- Pricing comparison: https://xaid.ai/pricing
-- AI vs. Teleradiology (cost, surcharges, quality guarantees, setup time): https://xaid.ai/ai-vs-teleradiology
-- AI vs. Locum Radiologist ($500K–$650K/yr vs per-study AI pricing, 6–18 months vs under 1 week): https://xaid.ai/ai-vs-locum-radiologist
-- For Outpatient Imaging Centers: https://xaid.ai/for-outpatient-imaging-centers
-- For Teleradiology Companies: https://xaid.ai/for-teleradiology-companies
-- For Radiology Groups: https://xaid.ai/for-radiology-groups
-- For Small & Community Hospitals: https://xaid.ai/for-small-hospitals
-- Compliance & Security: https://xaid.ai/compliance
-- Integrations (DICOM/HL7): https://xaid.ai/integrations
-- Privacy Policy: https://xaid.ai/privacy-policy
+- Accuracy & clinical evidence: https://xaid.ai/accuracy/
+- Pricing comparison: https://xaid.ai/pricing/
+- AI vs. Teleradiology (cost, surcharges, quality guarantees, setup time): https://xaid.ai/ai-vs-teleradiology/
+- AI vs. Locum Radiologist ($500K–$650K/yr vs per-study AI pricing, 6–18 months vs under 1 week): https://xaid.ai/ai-vs-locum-radiologist/
+- For Outpatient Imaging Centers: https://xaid.ai/for-outpatient-imaging-centers/
+- For Teleradiology Companies: https://xaid.ai/for-teleradiology-companies/
+- For Radiology Groups: https://xaid.ai/for-radiology-groups/
+- For Small & Community Hospitals: https://xaid.ai/for-small-hospitals/
+- Compliance & Security: https://xaid.ai/compliance/
+- Integrations (DICOM/HL7): https://xaid.ai/integrations/
+- Privacy Policy: https://xaid.ai/privacy-policy/
 
 ## Blog (AI radiology insights)
 
-- Blog index: https://xaid.ai/blog
-- How Accurate Is AI Radiology Reporting? (clinical evidence, peer-reviewed studies): https://xaid.ai/blog/how-accurate-is-ai-radiology-reporting
-- Radiologist Shortage 2026 — AI solutions: https://xaid.ai/blog/radiologist-shortage-2026-ai-ct-reporting
-- CT Report Turnaround Time Benchmarks 2026: https://xaid.ai/blog/ct-report-turnaround-time-benchmarks-2026
-- AI Teleradiology vs Traditional Teleradiology 2026: https://xaid.ai/blog/ai-teleradiology-vs-traditional-teleradiology-2026
-- Is AI Radiology Reporting HIPAA Compliant?: https://xaid.ai/blog/is-ai-radiology-reporting-hipaa-compliant
-- How to Switch from Teleradiology to AI CT Reporting (step-by-step, DICOM integration, pilot guide): https://xaid.ai/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting
-- CT Radiology Coverage Costs 2026 (in-house vs teleradiology vs locum vs AI — cost comparison): https://xaid.ai/blog/ct-radiology-coverage-costs-2026
-- AI Radiology Reporting Buyer's Guide 2026 (how to choose, vendor checklist, accuracy questions): https://xaid.ai/blog/ai-radiology-reporting-buyers-guide-2026
-- After-Hours Radiology Coverage Options 2026 (on-call vs locum vs teleradiology vs AI, surcharge math): https://xaid.ai/blog/after-hours-radiology-coverage-options
-- Nighthawk vs vRad vs StatRad 2026 (full comparison of the three largest teleradiology providers — pricing, TAT, surcharges): https://xaid.ai/blog/nighthawk-vs-vrad-vs-statrad-teleradiology-comparison
-- Top Teleradiology Companies 2026 (Nighthawk, vRad, StatRad, Aidoc, Viz.ai, xAID — full guide with pricing and surcharges): https://xaid.ai/blog/teleradiology-companies-2026
-- AI Radiology Terminology Glossary (18 key terms: DICOM, HL7, PACS, teleradiology, AI detection vs reporting, sensitivity/specificity): https://xaid.ai/blog/ai-radiology-terminology-glossary
-- AI Radiology for Small and Community Hospitals 2026 (coverage options, costs, critical access hospital considerations, implementation guide): https://xaid.ai/blog/ai-radiology-for-small-hospitals-2026
+- Blog index: https://xaid.ai/blog/
+- Should Patients Be Told When AI Reads Their Scan? (patient survey: 96% want disclosure, accountability): https://xaid.ai/blog/should-patients-be-told-when-ai-reads-their-scan/
+- AI Radiology Reporting: What Chest X-ray Studies Show About Draft-Then-Sign (peer-reviewed evidence for AI drafts + radiologist sign-off): https://xaid.ai/blog/ai-radiology-reporting-draft-then-sign/
+- Who Gets Radiology AI? Reimbursement Design and Healthcare Disparities (NTAP data, access gaps, per-study pricing): https://xaid.ai/blog/radiology-ai-access-disparities/
+- How AI Cuts MRI Wait Times (37-hospital system case, acquisition AI + reporting AI throughput): https://xaid.ai/blog/how-ai-cuts-mri-wait-times/
+- Foundation Models vs Narrow AI in Radiology (one model vs 30 detection tools — cost, workload, buyer questions): https://xaid.ai/blog/foundation-models-vs-narrow-ai-radiology/
+- Should Radiology AI Be Priced on Results? The Case for Performance-Based Pricing: https://xaid.ai/blog/performance-based-pricing-radiology-ai/
+- How Accurate Is AI Radiology Reporting? (clinical evidence, peer-reviewed studies): https://xaid.ai/blog/how-accurate-is-ai-radiology-reporting/
+- Radiologist Shortage 2026 — AI solutions: https://xaid.ai/blog/radiologist-shortage-2026-ai-ct-reporting/
+- CT Report Turnaround Time Benchmarks 2026: https://xaid.ai/blog/ct-report-turnaround-time-benchmarks-2026/
+- AI Teleradiology vs Traditional Teleradiology 2026: https://xaid.ai/blog/ai-teleradiology-vs-traditional-teleradiology-2026/
+- Is AI Radiology Reporting HIPAA Compliant?: https://xaid.ai/blog/is-ai-radiology-reporting-hipaa-compliant/
+- How to Switch from Teleradiology to AI CT Reporting (step-by-step, DICOM integration, pilot guide): https://xaid.ai/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting/
+- CT Radiology Coverage Costs 2026 (in-house vs teleradiology vs locum vs AI — cost comparison): https://xaid.ai/blog/ct-radiology-coverage-costs-2026/
+- AI Radiology Reporting Buyer's Guide 2026 (how to choose, vendor checklist, accuracy questions): https://xaid.ai/blog/ai-radiology-reporting-buyers-guide-2026/
+- After-Hours Radiology Coverage Options 2026 (on-call vs locum vs teleradiology vs AI, surcharge math): https://xaid.ai/blog/after-hours-radiology-coverage-options/
+- AI Radiology Terminology Glossary (18 key terms: DICOM, HL7, PACS, teleradiology, AI detection vs reporting, sensitivity/specificity): https://xaid.ai/blog/ai-radiology-terminology-glossary/
+- AI Radiology for Small and Community Hospitals 2026 (coverage options, costs, critical access hospital considerations, implementation guide): https://xaid.ai/blog/ai-radiology-for-small-hospitals-2026/
 
 ## Contact
 

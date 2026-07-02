@@ -15,7 +15,7 @@ const costTable = [
   {
     option: 'Locum radiologist',
     perStudy: '$80–200+ (depends on volume)',
-    annual: '$500Kâ$650K for full coverage',
+    annual: '$500K–$650K for full coverage',
     setup: '2–8 weeks to source',
     afterHours: 'Surcharge (30–100%)',
     qualityGuarantee: 'None',
@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: 'How much does a locum radiologist cost?',
-    a: 'Locum radiologists in the US typically cost $150–$250 per hour, translating to $500,000â$650,000 per year for full-time coverage. Sourcing takes 2–8 weeks through staffing agencies, which charge placement fees on top. After-hours locum coverage adds a further 30–100% surcharge. Locum radiologists provide flexibility but no quality guarantee and carry turnover risk.',
+    a: 'Locum radiologists in the US typically cost $150–$250 per hour, translating to $500,000–$650,000 per year for full-time coverage. Sourcing takes 2–8 weeks through staffing agencies, which charge placement fees on top. After-hours locum coverage adds a further 30–100% surcharge. Locum radiologists provide flexibility but no quality guarantee and carry turnover risk.',
   },
   {
     q: 'How much does AI CT reporting cost compared to teleradiology?',
@@ -217,7 +217,7 @@ const CtRadiologyCoverageCosts = () => {
                 For full-time coverage (2,080 hours/year), the cost is <strong className="text-white">$312,000–$520,000</strong> in hourly rate alone — plus staffing agency fees (15–25% of placement value), travel and housing (often covered by the hiring facility for locums from outside the market), and malpractice tail coverage.
               </p>
               <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-6">
-                The commonly cited range of <strong className="text-white">$500,000â$650,000 per year</strong> for full locum coverage reflects all-in costs including agency overhead. This is consistent with MGMA and Merritt Hawkins survey data on locum physician spend. Sourcing time is typically <strong className="text-white">2–8 weeks</strong>, and availability is not guaranteed in tight markets.
+                The commonly cited range of <strong className="text-white">$500,000–$650,000 per year</strong> for full locum coverage reflects all-in costs including agency overhead. This is consistent with MGMA and Merritt Hawkins survey data on locum physician spend. Sourcing time is typically <strong className="text-white">2–8 weeks</strong>, and availability is not guaranteed in tight markets.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-white mb-4">Traditional teleradiology cost breakdown</h2>
@@ -295,7 +295,7 @@ const CtRadiologyCoverageCosts = () => {
                   },
                   {
                     condition: 'If you currently use locum radiologists for coverage gaps:',
-                    recommendation: 'Locum coverage at $500Kâ$650K/year is typically replaceable with AI CT reporting for CT modalities — with faster setup, lower cost, and no staffing risk. A free pilot study (5 CTs, no integration required) lets you evaluate report quality before committing.',
+                    recommendation: 'Locum coverage at $500K–$650K/year is typically replaceable with AI CT reporting for CT modalities — with faster setup, lower cost, and no staffing risk. A free pilot study (5 CTs, no integration required) lets you evaluate report quality before committing.',
                   },
                 ].map((item, i) => (
                   <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-5">

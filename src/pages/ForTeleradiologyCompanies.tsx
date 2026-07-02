@@ -187,7 +187,7 @@ const ForTeleradiologyCompanies = () => {
                     {/* Solution card */}
                     <div className="flex flex-col h-full rounded-xl bg-xaid-blue/[0.06] border border-xaid-blue/30 p-6 md:p-7">
                       <span className="text-[11px] font-semibold tracking-[0.12em] text-xaid-blue uppercase mb-3">
-                        With xAID
+                        With <span className="normal-case">xAID</span>
                       </span>
                       <p className="text-[#1A1A1A] text-[15px] leading-[1.6]">
                         {item.solution}

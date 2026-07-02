@@ -153,7 +153,7 @@ const AbdomenCtReport = () => {
         <section className="section-padding">
           <div className="container-xaid">
             <h2 className="text-[28px] font-normal leading-[1.15] text-white mb-4 text-center">Who uses xAID for abdomen CT</h2>
-            <p className="text-white/60 text-center max-w-xl mx-auto mb-12">Abdomen CT is one of the highest-volume elective and urgent reads. xAID handles both</p>
+            <p className="text-white/60 text-center max-w-xl mx-auto mb-12">Abdomen CT is one of the highest-volume elective and urgent reads. xAID handles both — scheduled and after-hours</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {

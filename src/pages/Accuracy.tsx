@@ -8,13 +8,13 @@ const evidenceStats = [
     stat: '92.2%',
     label: 'AI sensitivity across 9 pathology categories',
     context: 'vs. 58.3% without AI assistance',
-    source: 'Pol Radiol, 2025',
+    source: 'Pol J Radiol, 2025',
   },
   {
     stat: '95.6%',
     label: 'AI specificity in emergency chest CT',
     context: 'vs. 80.6% without AI assistance',
-    source: 'Pol Radiol, 2025',
+    source: 'Pol J Radiol, 2025',
   },
   {
     stat: '94.9%',
@@ -91,7 +91,7 @@ const Accuracy = () => {
               "name": "How accurate is AI CT reporting compared to radiologists?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In a clinical study published in Polish Radiology (Pol Radiol, 2025), xAID Chest CT achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories — compared to 58.3% sensitivity and 80.6% specificity for radiologists reviewing scans without AI assistance. AI outperformed radiologists in detecting coronary calcifications, pulmonary artery dilatation, and vertebral fractures."
+                "text": "In a clinical study published in the Polish Journal of Radiology (Pol J Radiol, 2025), xAID Chest CT achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories — compared to 58.3% sensitivity and 80.6% specificity for radiologists reviewing scans without AI assistance. AI outperformed radiologists in detecting coronary calcifications, pulmonary artery dilatation, and vertebral fractures."
               }
             },
             {
@@ -99,7 +99,7 @@ const Accuracy = () => {
               "name": "What accuracy does xAID achieve?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. In a published study in Polish Radiology (2025), xAID achieved 92.2% sensitivity and 95.6% specificity — and 94.9% of radiologists approved AI-generated report elements in a multi-center European study."
+                "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. In a published study in the Polish Journal of Radiology (2025), xAID achieved 92.2% sensitivity and 95.6% specificity — and 94.9% of radiologists approved AI-generated report elements in a multi-center European study."
               }
             },
             {
@@ -115,7 +115,7 @@ const Accuracy = () => {
               "name": "What clinical studies support xAID's accuracy claims?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Two key studies: (1) A retrospective single-center study published in Polish Radiology (Pol Radiol, 2025) evaluated 90 unenhanced chest CT scans and found xAID achieved 92.2% sensitivity vs 58.3% without AI. (2) A multi-center retrospective clinical utility assessment across European centers found 94.9% of radiologists approved xAID-generated structured report elements for clinical integration."
+                "text": "Two key studies: (1) A retrospective single-center study published in the Polish Journal of Radiology (Pol J Radiol, 2025) evaluated 90 unenhanced chest CT scans and found xAID achieved 92.2% sensitivity vs 58.3% without AI. (2) A multi-center retrospective clinical utility assessment across European centers found 94.9% of radiologists approved xAID-generated structured report elements for clinical integration."
               }
             }
           ]
@@ -168,7 +168,7 @@ const Accuracy = () => {
                 <div className="border-b border-gray-100 pb-10">
                   <div className="flex flex-wrap items-center gap-3 mb-4">
                     <span className="bg-xaid-blue/10 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Peer-Reviewed Study</span>
-                    <span className="text-[#999] text-sm">Polish Radiology (Pol Radiol), 2025</span>
+                    <span className="text-[#999] text-sm">Polish Journal of Radiology (Pol J Radiol), 2025</span>
                   </div>
                   <h3 className="text-xl font-medium text-[#0D0D0D] mb-4">
                     AI assistance in unenhanced chest CT: emergency setting evaluation
@@ -312,15 +312,15 @@ const Accuracy = () => {
               faqs={[
                 {
                   q: 'How accurate is AI CT reporting compared to a radiologist?',
-                  a: 'In a peer-reviewed study published in Polish Radiology (2025), xAID achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories in emergency chest CT — compared to 58.3% and 80.6% respectively for radiologists reviewing scans without AI assistance',
+                  a: 'In a peer-reviewed study published in the Polish Journal of Radiology (2025), xAID achieved 92.2% pooled sensitivity and 95.6% specificity across 9 pathology categories in emergency chest CT — compared to 58.3% and 80.6% respectively for radiologists reviewing scans without AI assistance',
                 },
                 {
                   q: 'Does AI CT reporting have a higher error rate than traditional radiology?',
-                  a: 'Published evidence suggests AI-assisted reading reduces missed findings rather than increasing them. In the Polish Radiology study, AI outperformed unaided radiologists in detecting coronary calcifications, pulmonary artery dilatation, and vertebral fractures. Every xAID report also receives radiologist review before delivery',
+                  a: 'Published evidence suggests AI-assisted reading reduces missed findings rather than increasing them. In the Polish Journal of Radiology study, AI outperformed unaided radiologists in detecting coronary calcifications, pulmonary artery dilatation, and vertebral fractures. Every xAID report also receives radiologist review before delivery',
                 },
                 {
                   q: 'What accuracy does xAID achieve and how is it verified?',
-                  a: 'xAID achieves 95% accuracy verified by peer-reviewed studies. In a published study in Polish Radiology (2025), xAID achieved 92.2% sensitivity and 95.6% specificity. A separate multi-center European study found 94.9% of radiologists approved AI-generated report elements for clinical use',
+                  a: 'xAID achieves 95% accuracy verified by peer-reviewed studies. In a published study in the Polish Journal of Radiology (2025), xAID achieved 92.2% sensitivity and 95.6% specificity. A separate multi-center European study found 94.9% of radiologists approved AI-generated report elements for clinical use',
                 },
                 {
                   q: 'What AI architecture does xAID use?',
@@ -328,7 +328,7 @@ const Accuracy = () => {
                 },
                 {
                   q: 'Are these accuracy figures from independent studies?',
-                  a: 'Yes. The sensitivity/specificity figures come from a single-center retrospective study published in Polish Radiology (an independent peer-reviewed journal). The clinical utility data comes from a multi-center study across four European radiology centers. Neither was conducted by xAID internally',
+                  a: 'Yes. The sensitivity/specificity figures come from a single-center retrospective study published in the Polish Journal of Radiology (an independent peer-reviewed journal). The clinical utility data comes from a multi-center study across four European radiology centers. Neither was conducted by xAID internally',
                 },
               ]}
             />
