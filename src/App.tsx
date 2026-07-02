@@ -36,6 +36,12 @@ import AfterHoursRadiologyCoverage from "./pages/blog/AfterHoursRadiologyCoverag
 import HowAiCtReportingWorks from "./pages/HowAiCtReportingWorks";
 import AiRadiologyGlossary from "./pages/blog/AiRadiologyGlossary";
 import SmallHospitalRadiology from "./pages/blog/SmallHospitalRadiology";
+import FoundationModelsVsNarrowAI from "./pages/blog/FoundationModelsVsNarrowAI";
+import PerformanceBasedPricingRadiologyAI from "./pages/blog/PerformanceBasedPricingRadiologyAI";
+import AiDisclosurePatientTrust from "./pages/blog/AiDisclosurePatientTrust";
+import GenerativeAiRadiologyReportingDraft from "./pages/blog/GenerativeAiRadiologyReportingDraft";
+import RadiologyAiAccessDisparities from "./pages/blog/RadiologyAiAccessDisparities";
+import AiMriWaitTimesThroughput from "./pages/blog/AiMriWaitTimesThroughput";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -80,6 +86,12 @@ const App = () => (
             <Route path="/how-ai-ct-reporting-works" element={<HowAiCtReportingWorks />} />
             <Route path="/blog/ai-radiology-terminology-glossary" element={<AiRadiologyGlossary />} />
             <Route path="/blog/ai-radiology-for-small-hospitals-2026" element={<SmallHospitalRadiology />} />
+            <Route path="/blog/foundation-models-vs-narrow-ai-radiology" element={<FoundationModelsVsNarrowAI />} />
+            <Route path="/blog/performance-based-pricing-radiology-ai" element={<PerformanceBasedPricingRadiologyAI />} />
+            <Route path="/blog/should-patients-be-told-when-ai-reads-their-scan" element={<AiDisclosurePatientTrust />} />
+            <Route path="/blog/ai-radiology-reporting-draft-then-sign" element={<GenerativeAiRadiologyReportingDraft />} />
+            <Route path="/blog/radiology-ai-access-disparities" element={<RadiologyAiAccessDisparities />} />
+            <Route path="/blog/how-ai-cuts-mri-wait-times" element={<AiMriWaitTimesThroughput />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
