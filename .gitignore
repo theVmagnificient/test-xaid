@@ -4,6 +4,11 @@ id_ed25519_xaid_landing_deploy.pub
 *.pem
 *.key
 
+# Env / API secrets — never commit (DataForSEO etc.). .env.example is safe to track.
+.env
+.env.*
+!.env.example
+
 # Logs
 logs
 *.log
