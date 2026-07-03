@@ -196,7 +196,7 @@ const AiDisclosurePatientTrust = () => {
                 Where this fits with how AI CT reporting actually works
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link>, xAID's in-house radiologist reviews every preliminary, and the reading radiologist reviews and signs the final before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design — and signed by yours. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
+                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link>, xAID's in-house radiologist reviews every preliminary, and the reading radiologist signs the final before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design — and signed by yours. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
               </p>
 
               {/* FAQ */}
