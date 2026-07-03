@@ -16,18 +16,18 @@ const WrongPatientRadiologyError = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>Wrong-Patient Radiology Error: What a Server Recall Teaches AI Reporting | xAID</title>
-        <meta name="description" content="A silent worklist glitch triggered an FDA recall after radiologists could read the wrong patient's images. What it means for patient-context integrity and radiologist sign-off in AI CT reporting." />
+        <title>Wrong-Patient Radiology Error: Recall Lessons for AI | xAID</title>
+        <meta name="description" content="An FDA Class 2 recall: imaging servers could display the wrong patient's images with no warning. What the failure teaches about safety layers in AI reporting." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Wrong-Patient Radiology Error: What a Server Recall Teaches AI Reporting | xAID" />
-        <meta property="og:description" content="A silent worklist glitch triggered an FDA recall after radiologists could read the wrong patient's images. What it means for patient-context integrity and radiologist sign-off in AI CT reporting." />
+        <meta property="og:title" content="Wrong-Patient Radiology Error: Recall Lessons for AI | xAID" />
+        <meta property="og:description" content="An FDA Class 2 recall: imaging servers could display the wrong patient's images with no warning. What the failure teaches about safety layers in AI reporting." />
         <meta property="og:url" content="https://xaid.ai/blog/wrong-patient-radiology-error" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Wrong-Patient Radiology Error: What a Server Recall Teaches AI Reporting | xAID" />
-        <meta name="twitter:description" content="A silent worklist glitch triggered an FDA recall after radiologists could read the wrong patient's images. What it means for patient-context integrity and radiologist sign-off in AI CT reporting." />
+        <meta name="twitter:title" content="Wrong-Patient Radiology Error: Recall Lessons for AI | xAID" />
+        <meta name="twitter:description" content="An FDA Class 2 recall: imaging servers could display the wrong patient's images with no warning. What the failure teaches about safety layers in AI reporting." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -84,7 +84,7 @@ const WrongPatientRadiologyError = () => {
               "name": "What should imaging centers ask AI reporting vendors about patient-safety architecture?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ask how patient identity is verified across the pipeline: whether the system reconciles worklist, DICOM header, and order data before a report is generated; what happens when those sources disagree; whether the workflow can proceed silently on a mismatch or forces a stop; and whether a qualified radiologist reviews and signs every final report. Safety architecture, including how the system fails, is a legitimate buyer evaluation criterion alongside accuracy, turnaround time, and price."
+                "text": "Ask how patient identity is verified across the pipeline: whether the system reconciles worklist, DICOM header, and order data before a report is generated; what happens when those sources disagree; whether the workflow can proceed silently on a mismatch or forces a stop; and whether a qualified radiologist reviews every preliminary and the reading radiologist signs every final report. Safety architecture, including how the system fails, is a legitimate buyer evaluation criterion alongside accuracy, turnaround time, and price."
               }
             }
           ]
@@ -122,7 +122,6 @@ const WrongPatientRadiologyError = () => {
                 { stat: 'Class 2', label: 'FDA recall', sub: 'GE HealthCare AW Server' },
                 { stat: '340', label: 'Units affected', sub: 'distributed globally' },
                 { stat: '0', label: 'System warnings', sub: 'when the mismatch occurs' },
-                { stat: '0', label: 'Adverse events reported', sub: 'at time of the notice' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
@@ -143,13 +142,13 @@ const WrongPatientRadiologyError = () => {
                 What actually happened
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                In mid-2026, the FDA issued a Class 2 recall of an image-processing server after a software defect could put the wrong patient's images in front of a reader. As reported by <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/servers-recalled-after-glitch-results-radiologists-reading-images-wrong-patients" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">Radiology Business</a>, the recall covered GE HealthCare's AW Server 3.2 ext. 6.5 and affected <strong>340 units</strong> distributed globally, including in the U.S.
+                In mid-2026, GE initiated a voluntary recall that the FDA classified as Class 2 of an image-processing server after a software defect could put the wrong patient's images in front of a reader. As reported by <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/servers-recalled-after-glitch-results-radiologists-reading-images-wrong-patients" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">Radiology Business</a>, the recall covered GE HealthCare's AW Server 3.2 ext. 6.5 and affected <strong>340 units</strong> distributed globally, including in the U.S.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 The FDA notice described the failure precisely: "When a user selects a patient or exam in the AW Server Web Client work list and launches an interactive application (e.g., Volume Viewer), the application may open the previous patient's exam instead of the intended one." The most important line comes next — "When this issue occurs, there is no system warning or error notification."
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                In other words, a radiologist could select Patient A, open the viewer, and unknowingly interpret Patient B's study, with nothing on screen to signal the swap. The FDA warned this could lead to misdiagnoses, incorrect clinical decisions, and delayed or improper treatment. GE issued Urgent Medical Device Correction notices to affected customers and is working on a software fix; in the interim, users are told to manually verify that the exam matches the patient's requisition. No adverse incidents had been reported at the time of the notice.
+                In other words, a radiologist could select Patient A, open the viewer, and unknowingly interpret Patient B's study, with nothing on screen to signal the swap. The FDA warned this could lead to misdiagnoses, incorrect clinical decisions, and delayed or improper treatment. GE issued Urgent Medical Device Correction notices to affected customers and is working on a software fix; in the interim, users are told to manually verify that the exam matches the patient's requisition.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -179,7 +178,7 @@ const WrongPatientRadiologyError = () => {
                   },
                   {
                     title: 'A mandatory radiologist sign-off gate',
-                    desc: 'A qualified radiologist reviewing and signing every final report is the backstop that gives context checks somewhere to escalate. No AI system today is approved to issue a final report autonomously; the human sign-off is not a formality, it is the safety gate.',
+                    desc: 'A qualified radiologist reviewing and signing every final report is the backstop that gives context checks somewhere to escalate. No AI system is FDA-authorized in the U.S. to issue a final report autonomously; the human sign-off is not a formality, it is the safety gate.',
                   },
                   {
                     title: 'Fail loud, not silent',
@@ -210,7 +209,7 @@ const WrongPatientRadiologyError = () => {
                 Where this fits with how AI CT reporting actually works
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The model that survives this kind of failure is the one where AI assists and a radiologist stays accountable. That is how AI CT reporting is built: the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link>, and a reading radiologist reviews and signs the final report before it reaches a patient's chart. A recall like this does not argue against using AI in reporting — it argues for demanding that any reporting workflow, AI-assisted or not, treats patient-context integrity as a first-class requirement and keeps a human in the position to catch what the software missed.
+                The model that survives this kind of failure is the one where AI assists and a radiologist stays accountable. That is how AI CT reporting is built: the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link>, and xAID's in-house radiologist reviews every preliminary, and the reading radiologist signs the final before it reaches a patient's chart. A recall like this does not argue against using AI in reporting — it argues for demanding that any reporting workflow, AI-assisted or not, treats patient-context integrity as a first-class requirement and keeps a human in the position to catch what the software missed.
               </p>
 
               {/* FAQ */}
@@ -231,7 +230,7 @@ const WrongPatientRadiologyError = () => {
                   },
                   {
                     q: 'What should imaging centers ask AI reporting vendors about patient-safety architecture?',
-                    a: 'Ask how patient identity is verified across the pipeline: whether the system reconciles worklist, DICOM header, and order data before a report is generated; what happens when those sources disagree; whether the workflow can proceed silently on a mismatch or forces a stop; and whether a qualified radiologist reviews and signs every final report. Safety architecture, including how the system fails, is a legitimate buyer evaluation criterion alongside accuracy, turnaround time, and price.',
+                    a: 'Ask how patient identity is verified across the pipeline: whether the system reconciles worklist, DICOM header, and order data before a report is generated; what happens when those sources disagree; whether the workflow can proceed silently on a mismatch or forces a stop; and whether a qualified radiologist reviews every preliminary and the reading radiologist signs every final report. Safety architecture, including how the system fails, is a legitimate buyer evaluation criterion alongside accuracy, turnaround time, and price.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">
@@ -250,7 +249,7 @@ const WrongPatientRadiologyError = () => {
         </article>
 
         <BlogCTA
-          heading="AI drafts the report. A radiologist reviews and signs. Every time."
+          heading="AI drafts. xAID's radiologist reviews every preliminary. Your radiologist signs."
           sub="Patient-context integrity and a human sign-off gate aren't add-ons — they're how xAID is built. Try it on 5 free studies and see the radiologist-reviewed reports."
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"

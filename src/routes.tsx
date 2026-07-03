@@ -52,6 +52,8 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/lung-cancer-screening-ct-criteria': () => import('./pages/blog/LungCancerScreeningCtCriteria'),
   '/blog/medical-device-cybersecurity': () => import('./pages/blog/MedicalDeviceCybersecurity'),
   '/blog/radiology-prior-authorization-imaging-throughput': () => import('./pages/blog/RadiologyPriorAuthorizationThroughput'),
+  '/blog/wrong-patient-radiology-error': () => import('./pages/blog/WrongPatientRadiologyError'),
+  '/blog/radiology-malpractice-ai-reporting': () => import('./pages/blog/RadiologyMalpracticeAiReporting'),
 };
 
 export const normalizePath = (pathname: string): string =>

@@ -11,6 +11,26 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'wrong-patient-radiology-error',
+    title: 'A Server Glitch Made Radiologists Read the Wrong Patient. What It Means for AI Reporting Pipelines',
+    excerpt: "An FDA Class 2 recall of 340 GE HealthCare AW Server units shows how a silent worklist defect can open the previous patient's exam with no warning. Why AI CT reporting pipelines need hard patient-context integrity checks and a mandatory sign-off gate.",
+    date: 'July 3, 2026',
+    dateIso: '2026-07-03',
+    category: 'Patient Safety & QA',
+    readingTime: 7,
+    keywords: ['wrong patient radiology error', 'radiology QA', 'worklist patient mismatch', 'AI CT reporting safety', 'FDA imaging recall'],
+  },
+  {
+    slug: 'radiology-malpractice-ai-reporting',
+    title: 'Anatomy of a $7M Missed-Cancer Verdict — and Where AI Reporting Fits in the Liability Picture',
+    excerpt: "A Florida jury awarded nearly $7M after a palpable breast lump reported as benign turned out to be terminal cancer. A neutral look at the case — and where AI CT reporting sits in the malpractice picture: a second-read safety net, not autonomous diagnosis.",
+    date: 'July 3, 2026',
+    dateIso: '2026-07-03',
+    category: 'Risk & Liability',
+    readingTime: 7,
+    keywords: ['radiology malpractice', 'missed cancer diagnosis', 'radiology liability', 'second read radiology', 'AI radiology reporting'],
+  },
+  {
     slug: 'lung-cancer-screening-ct-criteria',
     title: 'Simpler Lung Cancer Screening Criteria Could Mean a Lot More Chest CTs',
     excerpt: "A new JAMA Internal Medicine study finds a simple 'years smoked' threshold captures 97% of the highest-benefit patients versus 77% under current USPSTF pack-year criteria — and could roughly double the eligible population. Here's what broader eligibility means for low-dose chest CT volume and reporting capacity.",

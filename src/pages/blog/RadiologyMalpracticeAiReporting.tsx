@@ -16,18 +16,18 @@ const RadiologyMalpracticeAiReporting = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>Radiology Malpractice: A $7M Missed-Cancer Verdict and Where AI Fits | xAID</title>
-        <meta name="description" content="A $7M breast cancer miss led to a verdict and mandated policy changes. A neutral look at radiology malpractice and where AI reporting fits — as a second read and documentation trail, not autonomous diagnosis." />
+        <title>Radiology Malpractice: $7M Verdict and Where AI Fits | xAID</title>
+        <meta name="description" content="A Florida jury awarded nearly $7M after a missed breast cancer. What the verdict says about radiology risk — and where AI reporting fits as a safety layer." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Radiology Malpractice: A $7M Missed-Cancer Verdict and Where AI Fits | xAID" />
-        <meta property="og:description" content="A $7M breast cancer miss led to a verdict and mandated policy changes. A neutral look at radiology malpractice and where AI reporting fits — as a second read and documentation trail, not autonomous diagnosis." />
+        <meta property="og:title" content="Radiology Malpractice: $7M Verdict and Where AI Fits | xAID" />
+        <meta property="og:description" content="A Florida jury awarded nearly $7M after a missed breast cancer. What the verdict says about radiology risk — and where AI reporting fits as a safety layer." />
         <meta property="og:url" content="https://xaid.ai/blog/radiology-malpractice-ai-reporting" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Radiology Malpractice: A $7M Missed-Cancer Verdict and Where AI Fits | xAID" />
-        <meta name="twitter:description" content="A $7M breast cancer miss led to a verdict and mandated policy changes. A neutral look at radiology malpractice and where AI reporting fits — as a second read and documentation trail, not autonomous diagnosis." />
+        <meta name="twitter:title" content="Radiology Malpractice: $7M Verdict and Where AI Fits | xAID" />
+        <meta name="twitter:description" content="A Florida jury awarded nearly $7M after a missed breast cancer. What the verdict says about radiology risk — and where AI reporting fits as a safety layer." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -143,7 +143,7 @@ const RadiologyMalpracticeAiReporting = () => {
                 What the case was about
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                In February 2022, a 59-year-old woman in Pensacola, Florida, presented to an imaging facility after discovering a palpable breast lump. The imaging was interpreted and the finding was reported as benign. When she returned in October 2022 — the lump larger and more painful — she was diagnosed with terminal breast cancer. Her attorneys filed a medical malpractice suit, and after an eight-day trial a jury reached a verdict in June, as reported by <a href="https://radiologybusiness.com/topics/healthcare-management/legal-news/radiology-providers-must-pay-7m-modify-policies-after-breast-cancer-miss" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">Radiology Business</a>.
+                In February 2022, a 59-year-old woman in Pensacola, Florida, presented to an imaging facility after discovering a palpable breast lump. The imaging was interpreted and the finding was reported as benign. When she returned in October 2022 — the lump larger and more painful — she was diagnosed with terminal breast cancer. Her attorneys filed a medical malpractice suit, and after an eight-day trial a jury reached a verdict in June 2026, as reported by <a href="https://radiologybusiness.com/topics/healthcare-management/legal-news/radiology-providers-must-pay-7m-modify-policies-after-breast-cancer-miss" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">Radiology Business</a>.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 The award totaled roughly <strong>$7 million</strong>, split as approximately <strong>$5 million</strong> attributed to the hospital and <strong>$2 million</strong> to the radiology group, according to the same reporting. We're describing a single reported case, not a statistical trend — but the shape of it is familiar to anyone who follows radiology liability.

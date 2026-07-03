@@ -107,7 +107,9 @@
       "/blog/how-ai-cuts-mri-wait-times/",
       "/blog/lung-cancer-screening-ct-criteria/",
       "/blog/medical-device-cybersecurity/",
-      "/blog/radiology-prior-authorization-imaging-throughput/"
+      "/blog/radiology-prior-authorization-imaging-throughput/",
+      "/blog/wrong-patient-radiology-error/",
+      "/blog/radiology-malpractice-ai-reporting/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,

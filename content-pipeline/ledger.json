@@ -103,14 +103,14 @@
       "topic": "wrong-patient read / DICOM worklist recall (GE AW Server, FDA Class 2)",
       "source": "Radiology Business + FDA",
       "date": "2026-07-03",
-      "status": "pending-approval"
+      "approved": "2026-07-03 founder-approved after fact-check"
     },
     {
       "slug": "radiology-malpractice-ai-reporting",
       "topic": "radiology malpractice / missed-cancer $7M verdict / AI as safety net",
       "source": "Radiology Business",
       "date": "2026-07-03",
-      "status": "pending-approval"
+      "approved": "2026-07-03 founder-approved after fact-check"
     }
   ],
   "seen": [
