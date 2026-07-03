@@ -166,8 +166,8 @@ const Accuracy = () => {
                 {/* Study 1 */}
                 <div className="border-b border-gray-100 pb-10">
                   <div className="flex flex-wrap items-center gap-3 mb-4">
-                    <span className="bg-xaid-blue/10 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Peer-Reviewed Study</span>
-                    <span className="text-[#999] text-sm">Polish Journal of Radiology (Pol J Radiol), 2025</span>
+                    <span className="bg-xaid-blue/10 text-xaid-blue-strong-hover text-xs font-medium px-3 py-1 rounded-full">Peer-Reviewed Study</span>
+                    <span className="text-[#666] text-sm">Polish Journal of Radiology (Pol J Radiol), 2025</span>
                   </div>
                   <h3 className="text-xl font-medium text-[#0D0D0D] mb-4">
                     AI assistance in unenhanced chest CT: emergency setting evaluation
@@ -183,13 +183,13 @@ const Accuracy = () => {
                       { metric: '9', label: 'Pathology categories', sub: 'assessed' },
                     ].map((d) => (
                       <div key={d.metric} className="bg-gray-50 rounded-xl p-4 text-center">
-                        <div className="text-2xl font-medium text-xaid-blue mb-1">{d.metric}</div>
+                        <div className="text-2xl font-medium text-xaid-blue-strong mb-1">{d.metric}</div>
                         <div className="text-[#0D0D0D] text-sm font-medium">{d.label}</div>
-                        <div className="text-[#999] text-xs mt-1">{d.sub}</div>
+                        <div className="text-[#666] text-xs mt-1">{d.sub}</div>
                       </div>
                     ))}
                   </div>
-                  <p className="text-[#999] text-sm mt-4">
+                  <p className="text-[#666] text-sm mt-4">
                     AI outperformed radiologists in detection of coronary artery calcifications, pulmonary artery dilatation, and vertebral fractures
                   </p>
                 </div>
@@ -197,8 +197,8 @@ const Accuracy = () => {
                 {/* Study 2 */}
                 <div className="border-b border-gray-100 pb-10">
                   <div className="flex flex-wrap items-center gap-3 mb-4">
-                    <span className="bg-xaid-blue/10 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Multi-Center Study</span>
-                    <span className="text-[#999] text-sm">ResearchGate, 2025 — 4 European centers</span>
+                    <span className="bg-xaid-blue/10 text-xaid-blue-strong-hover text-xs font-medium px-3 py-1 rounded-full">Multi-Center Study</span>
+                    <span className="text-[#666] text-sm">ResearchGate, 2025 — 4 European centers</span>
                   </div>
                   <h3 className="text-xl font-medium text-[#0D0D0D] mb-4">
                     xAID chest CT: retrospective clinical utility assessment
@@ -214,13 +214,13 @@ const Accuracy = () => {
                       { metric: '4', label: 'European countries', sub: 'France, Greece, Slovakia, UK' },
                     ].map((d) => (
                       <div key={d.metric} className="bg-gray-50 rounded-xl p-4 text-center">
-                        <div className="text-2xl font-medium text-xaid-blue mb-1">{d.metric}</div>
+                        <div className="text-2xl font-medium text-xaid-blue-strong mb-1">{d.metric}</div>
                         <div className="text-[#0D0D0D] text-sm font-medium">{d.label}</div>
-                        <div className="text-[#999] text-xs mt-1">{d.sub}</div>
+                        <div className="text-[#666] text-xs mt-1">{d.sub}</div>
                       </div>
                     ))}
                   </div>
-                  <p className="text-[#999] text-sm mt-4">
+                  <p className="text-[#666] text-sm mt-4">
                     94.9% of radiologists agreed AI-generated structured report elements could be integrated into clinical practice with minor modifications
                   </p>
                 </div>
@@ -228,8 +228,8 @@ const Accuracy = () => {
                 {/* Foundation model */}
                 <div>
                   <div className="flex flex-wrap items-center gap-3 mb-4">
-                    <span className="bg-xaid-blue/10 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">Technical Evaluation</span>
-                    <span className="text-[#999] text-sm">xAID Foundation Model</span>
+                    <span className="bg-xaid-blue/10 text-xaid-blue-strong-hover text-xs font-medium px-3 py-1 rounded-full">Technical Evaluation</span>
+                    <span className="text-[#666] text-sm">xAID Foundation Model</span>
                   </div>
                   <h3 className="text-xl font-medium text-[#0D0D0D] mb-4">
                     Foundation model performance
@@ -244,9 +244,9 @@ const Accuracy = () => {
                       { metric: '256³', label: 'Input resolution', sub: 'voxel-level analysis' },
                     ].map((d) => (
                       <div key={d.metric} className="bg-gray-50 rounded-xl p-4 text-center">
-                        <div className="text-2xl font-medium text-xaid-blue mb-1">{d.metric}</div>
+                        <div className="text-2xl font-medium text-xaid-blue-strong mb-1">{d.metric}</div>
                         <div className="text-[#0D0D0D] text-sm font-medium">{d.label}</div>
-                        <div className="text-[#999] text-xs mt-1">{d.sub}</div>
+                        <div className="text-[#666] text-xs mt-1">{d.sub}</div>
                       </div>
                     ))}
                   </div>
@@ -289,7 +289,7 @@ const Accuracy = () => {
               <p className="text-[#666] leading-relaxed mb-6">
                 xAID achieves 95% accuracy verified by peer-reviewed studies. Published clinical evidence from independent research institutions confirms the accuracy of AI-assisted CT reporting with radiologist review
               </p>
-              <p className="text-[#999] text-[15px] leading-[1.65] font-light mb-8">
+              <p className="text-[#666] text-[15px] leading-[1.65] font-light mb-8">
                 Two independent peer-reviewed studies validate xAID's accuracy claims. Traditional teleradiology and narrow AI overlays offer no equivalent published clinical evidence
               </p>
               <Link

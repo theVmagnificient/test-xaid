@@ -46,7 +46,7 @@ const differences = [
     report: 'Yes — dictated manually',
     signed: 'Yes',
     afterHours: '30–100% surcharge',
-    cost: '$40–$350/study',
+    cost: '$40–$80 routine; $80–$200+ after-hours',
     guarantee: 'None',
   },
   {
@@ -209,7 +209,7 @@ const HowAiCtReportingWorks = () => {
                 <span className="text-[12px] font-semibold tracking-[0.12em] text-xaid-blue mb-2">
                   xAID
                 </span>
-                <p className="text-xaid-blue/80 text-[13px] font-light mb-7">AI CT reporting</p>
+                <p className="text-xaid-blue text-[13px] font-light mb-7">AI CT reporting</p>
 
                 <ul className="space-y-4 flex-1 mb-7">
                   {[
@@ -241,7 +241,7 @@ const HowAiCtReportingWorks = () => {
             <div className="bg-white rounded-2xl p-8 md:p-12 lg:p-16">
               <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-10 lg:gap-16">
                 <div className="lg:sticky lg:top-24 lg:self-start">
-                  <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">
+                  <span className="text-xaid-blue-strong-hover font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">
                     Workflow
                   </span>
                   <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal leading-[1.1] text-[#0D0D0D] mb-5">
@@ -347,11 +347,11 @@ const HowAiCtReportingWorks = () => {
                 <table className="w-full min-w-[760px] text-sm">
                   <thead>
                     <tr className="bg-[#FAFAFA] border-b border-gray-200">
-                      <th className="text-left px-6 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#7A7A7A] w-[26%]">Category</th>
-                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#7A7A7A]">Output</th>
-                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#7A7A7A]">Radiologist reports?</th>
-                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#7A7A7A]">After-hours surcharge</th>
-                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#7A7A7A]">Quality guarantee</th>
+                      <th className="text-left px-6 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#707070] w-[26%]">Category</th>
+                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#707070]">Output</th>
+                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#707070]">Radiologist reports?</th>
+                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#707070]">After-hours surcharge</th>
+                      <th className="text-left px-5 py-4 text-[11px] font-semibold tracking-[0.12em] uppercase text-[#707070]">Quality guarantee</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -362,7 +362,7 @@ const HowAiCtReportingWorks = () => {
                           key={i}
                           className={`border-t border-gray-100 ${isXaid ? 'bg-xaid-blue/[0.06]' : ''}`}
                         >
-                          <td className={`px-6 py-5 align-top text-[14px] leading-snug font-medium relative ${isXaid ? 'text-xaid-blue' : 'text-[#0D0D0D]'}`}>
+                          <td className={`px-6 py-5 align-top text-[14px] leading-snug font-medium relative ${isXaid ? 'text-xaid-blue-strong-hover' : 'text-[#0D0D0D]'}`}>
                             {isXaid && (
                               <span className="absolute left-0 top-3 bottom-3 w-[3px] rounded-r bg-xaid-blue" aria-hidden="true" />
                             )}
@@ -374,10 +374,10 @@ const HowAiCtReportingWorks = () => {
                           <td className={`px-5 py-5 align-top text-[13px] leading-snug ${isXaid ? 'text-[#1A1A1A]' : 'text-[#666]'}`}>
                             {row.report}
                           </td>
-                          <td className={`px-5 py-5 align-top text-[13px] leading-snug ${isXaid ? 'text-xaid-blue font-medium' : 'text-[#666]'}`}>
+                          <td className={`px-5 py-5 align-top text-[13px] leading-snug ${isXaid ? 'text-xaid-blue-strong-hover font-medium' : 'text-[#666]'}`}>
                             {row.afterHours}
                           </td>
-                          <td className={`px-5 py-5 align-top text-[13px] leading-snug ${isXaid ? 'text-xaid-blue font-medium' : 'text-[#666]'}`}>
+                          <td className={`px-5 py-5 align-top text-[13px] leading-snug ${isXaid ? 'text-xaid-blue-strong-hover font-medium' : 'text-[#666]'}`}>
                             {row.guarantee}
                           </td>
                         </tr>

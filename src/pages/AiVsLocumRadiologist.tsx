@@ -4,7 +4,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 
 const rows = [
   { aspect: 'Annual cost', locum: '$500,000–$650,000/yr (salary + benefits + agency fee)', xaid: 'Per-study pricing — scales with volume, no fixed overhead' },
-  { aspect: 'Time to start', locum: '6–18 months (recruiting, credentialing, licensing)', xaid: 'Under 1 week (DICOM/HL7 integration)' },
+  { aspect: 'Time to start', locum: '2–4+ months (agency sourcing + credentialing/privileging)', xaid: 'Under 1 week (DICOM/HL7 integration)' },
   { aspect: 'After-hours coverage', locum: 'Requires additional locum or on-call premium pay', xaid: 'Flat per-study rate 24/7 — no surcharge' },
   { aspect: 'Quality guarantee', locum: 'None — individual radiologist variability', xaid: '95% accuracy — or we reimburse' },
   { aspect: 'Staffing risk', locum: 'High — cancellations, no-shows, contract gaps', xaid: 'None — AI + in-house radiologist team, no single point of failure' },
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'How long does it take to hire a locum radiologist?',
-    a: 'Recruiting, credentialing, and privileging a locum radiologist typically takes 6–18 months from initial outreach to first read. Credentialing alone averages 90–120 days. During that window, your facility carries the coverage gap. AI CT reporting (xAID) can be integrated in under one week via standard DICOM C-STORE and HL7 ORU — no credentialing process required',
+    a: 'Sourcing a locum radiologist takes 2–8 weeks through a staffing agency, and facility credentialing and privileging typically add another 60–120 days — 2–4+ months to first read in practice. A permanent radiologist hire takes 6–18 months from initial outreach to first read. Credentialing alone averages 90–120 days. During that window, your facility carries the coverage gap. AI CT reporting (xAID) can be integrated in under one week via standard DICOM C-STORE and HL7 ORU — no credentialing process required',
   },
   {
     q: 'Does AI CT reporting require a radiologist?',
@@ -63,11 +63,11 @@ const AiVsLocumRadiologist = () => {
         <title>AI CT Reporting vs Locum Radiologist Costs | xAID</title>
         <meta
           name="description"
-          content="AI CT reporting vs a locum radiologist: $500K–$650K a year vs per-study pricing, 6–18 months vs under a week to start. Compare cost, speed, and risk."
+          content="AI CT reporting vs a locum radiologist: $500K–$650K a year vs per-study pricing, months vs under a week to start. Compare cost, speed, and risk."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI CT Reporting vs Locum Radiologist Costs | xAID" />
-        <meta property="og:description" content="AI CT reporting vs a locum radiologist: $500K–$650K a year vs per-study pricing, 6–18 months vs under a week to start. Compare cost, speed, and risk." />
+        <meta property="og:description" content="AI CT reporting vs a locum radiologist: $500K–$650K a year vs per-study pricing, months vs under a week to start. Compare cost, speed, and risk." />
         <meta property="og:url" content="https://xaid.ai/ai-vs-locum-radiologist" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
@@ -89,7 +89,7 @@ const AiVsLocumRadiologist = () => {
               AI CT reporting vs locum radiologist
             </h1>
             <p className="text-white/60 text-[15px] leading-[1.65] font-light mb-4">
-              A locum radiologist costs $500,000–$650,000 per year and takes 6–18 months to recruit and credential. AI CT reporting starts in under one week at per-study pricing with no fixed overhead
+              A locum radiologist costs $500,000–$650,000 per year and takes months to source and credential — and a permanent hire takes 6–18 months. AI CT reporting starts in under one week at per-study pricing with no fixed overhead
             </p>
             <p className="text-white/60 text-[15px] leading-[1.65] font-light">
               Both deliver complete preliminary CT reports — radiologist-reviewed and ready to sign. The difference is cost structure, setup time, and what happens when demand spikes or the locum cancels
@@ -104,7 +104,7 @@ const AiVsLocumRadiologist = () => {
             <div className="hidden md:flex items-center gap-4 mb-3 px-5">
               <div className="w-[180px] flex-shrink-0" />
               <div className="flex-1">
-                <span className="text-[11px] font-medium tracking-widest text-white/35 uppercase">Locum Radiologist</span>
+                <span className="text-[11px] font-medium tracking-widest text-white/60 uppercase">Locum Radiologist</span>
               </div>
               <div className="w-8 flex-shrink-0" />
               <div className="flex-1">
@@ -115,19 +115,19 @@ const AiVsLocumRadiologist = () => {
             <div className="space-y-3">
               {[
                 { aspect: 'Annual cost', sub: 'Total all-in per year', locumValue: '$500K–$650K', locumSub: 'Salary + agency + benefits', xaidValue: 'Per study', xaidSub: 'No fixed overhead' },
-                { aspect: 'Time to start', sub: 'From outreach to first read', locumValue: '6–18 months', locumSub: 'Recruiting & credentialing', xaidValue: 'Under 1 week', xaidSub: 'DICOM/HL7 integration' },
+                { aspect: 'Time to start', sub: 'From outreach to first read', locumValue: '2–4+ months', locumSub: 'Sourcing & credentialing', xaidValue: 'Under 1 week', xaidSub: 'DICOM/HL7 integration' },
                 { aspect: 'Quality guarantee', sub: 'Contractual accuracy commitment', locumValue: 'None', locumSub: 'No published data', xaidValue: '95% accuracy', xaidSub: 'Or we reimburse' },
               ].map((row) => (
                 <div key={row.aspect} className="bg-white/[0.04] border border-white/10 rounded-2xl p-5 flex flex-col md:flex-row md:items-center gap-4">
                   {/* Aspect label */}
                   <div className="md:w-[180px] md:flex-shrink-0">
                     <div className="text-white font-medium text-sm">{row.aspect}</div>
-                    <div className="text-white/45 text-xs mt-0.5 leading-snug">{row.sub}</div>
+                    <div className="text-white/60 text-xs mt-0.5 leading-snug">{row.sub}</div>
                   </div>
                   <div className="flex items-stretch gap-3 flex-1">
                     {/* Locum card */}
                     <div className="flex-1 flex flex-col">
-                      <p className="text-[10px] text-white/35 mb-1 md:hidden">Locum Radiologist</p>
+                      <p className="text-[10px] text-white/60 mb-1 md:hidden">Locum Radiologist</p>
                       <div className="bg-white/[0.06] border border-white/10 rounded-xl p-4 flex-1">
                         <div className="text-white/70 font-medium text-xl leading-tight">{row.locumValue}</div>
                         <div className="text-white/60 text-xs mt-1">{row.locumSub}</div>

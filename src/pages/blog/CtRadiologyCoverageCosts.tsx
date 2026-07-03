@@ -22,7 +22,7 @@ const costTable = [
   },
   {
     option: 'Traditional teleradiology',
-    perStudy: '$40–$80 routine; $80–$350 after-hours',
+    perStudy: '$40–$80 routine; $80–$200+ after-hours',
     annual: '$500K–1.2M (mid-volume center)',
     setup: '1–4 weeks',
     afterHours: 'Separate contract or surcharge',
@@ -43,11 +43,11 @@ const costTable = [
 const faqs = [
   {
     q: 'How much does a full-time radiologist cost per year?',
-    a: 'A board-certified radiologist in the United States earns $350,000–$600,000 in base salary, plus employer costs for benefits, malpractice insurance, and overhead — bringing the total all-in cost to $450,000–$750,000 per year for a full-time hire. Recruitment typically takes 3–12 months for a permanent position. Turnover and burnout risk are significant, with 40% of radiologists reporting burnout symptoms in 2024 surveys.',
+    a: 'A board-certified radiologist in the United States earns $350,000–$600,000 in base salary, plus employer costs for benefits, malpractice insurance, and overhead — bringing the total all-in cost to $450,000–$750,000 per year for a full-time hire. Recruitment typically takes 3–12 months for a permanent position. Turnover and burnout risk are significant, with 45% of radiologists reporting burnout in the AMA\'s 2025 benchmarking survey.',
   },
   {
     q: 'What does teleradiology cost per CT study?',
-    a: 'Traditional teleradiology typically charges $40–$80 per routine CT study during business hours, with after-hours and weekend surcharges of 30–100% — pushing the effective per-study cost to $80–$350 for nights and weekends. Annual spend for a mid-volume outpatient center (15,000–25,000 CT studies per year) commonly reaches $500,000–$1.2 million. Costs vary by service, volume tier, modality, and contract terms.',
+    a: 'Traditional teleradiology typically charges $40–$80 per routine CT study during business hours, with after-hours and weekend surcharges of 30–100% — pushing the effective per-study cost to $80–$200 for nights and weekends (up to $350 on low-volume STAT contracts). Annual spend for a mid-volume outpatient center (15,000–25,000 CT studies per year) commonly reaches $500,000–$1.2 million. Costs vary by service, volume tier, modality, and contract terms.',
   },
   {
     q: 'How much does a locum radiologist cost?',
@@ -149,7 +149,7 @@ const CtRadiologyCoverageCosts = () => {
               <p className="text-gray-400 text-[15px] leading-[1.65] font-light mb-6">
                 A mid-volume outpatient imaging center reading 15,000–25,000 CT studies per year can spend anywhere from $300,000 to over $1.2 million annually on radiology coverage — depending entirely on which model they use. Here is a complete cost breakdown of every option, with per-study rates, annual figures, after-hours costs, and what each model actually includes.
               </p>
-              <div className="flex items-center gap-4 text-gray-500 text-sm border-t border-white/10 pt-6">
+              <div className="flex items-center gap-4 text-white/60 text-sm border-t border-white/10 pt-6">
                 <span>xAID</span>
                 <span>·</span>
                 <span>February 3, 2026</span>
@@ -179,7 +179,7 @@ const CtRadiologyCoverageCosts = () => {
                     <tbody>
                       {costTable.map((row, i) => (
                         <tr key={i} className={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white', i === costTable.length - 1 ? 'font-medium' : ''].filter(Boolean).join(' ')}>
-                          <td className={`py-3 pr-4 align-top ${i === costTable.length - 1 ? 'text-xaid-blue' : 'text-[#0D0D0D]'}`}>{row.option}</td>
+                          <td className={`py-3 pr-4 align-top ${i === costTable.length - 1 ? 'text-xaid-blue-strong' : 'text-[#0D0D0D]'}`}>{row.option}</td>
                           <td className="py-3 pr-4 text-gray-700 align-top leading-snug">{row.perStudy}</td>
                           <td className="py-3 pr-4 text-gray-700 align-top leading-snug">{row.annual}</td>
                           <td className="py-3 pr-4 text-gray-700 align-top leading-snug">{row.afterHours}</td>
@@ -227,7 +227,7 @@ const CtRadiologyCoverageCosts = () => {
                 After-hours and weekend pricing is where teleradiology costs escalate sharply. Surcharges of <strong className="text-white">30–100%</strong> over business-hours rates are standard. A CT chest that costs $50 during the day may cost $75–$100 on a Saturday evening — not including the per-study reading fee on top of the base contract.
               </p>
               <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-4">
-                For a mid-volume center reading 20,000 CT studies per year — with roughly 30–40% of volume falling in after-hours windows — annual teleradiology spend commonly reaches <strong className="text-white">$600,000–$1.2 million</strong>. Some traditional teleradiology providers charge in the $80–$350 range for after-hours reads in smaller-volume arrangements.
+                For a mid-volume center reading 20,000 CT studies per year — with roughly 30–40% of volume falling in after-hours windows — annual teleradiology spend commonly reaches <strong className="text-white">$600,000–$1.2 million</strong>. Some traditional teleradiology providers charge in the $80–$350 range for after-hours reads in the smallest-volume STAT arrangements.
               </p>
               <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-6">
                 Teleradiology contracts typically run <strong className="text-white">1–3 years</strong>, with volume commitments and auto-renewal provisions. Quality varies by service and individual radiologist — there is no contractual quality guarantee in traditional teleradiology.
@@ -264,7 +264,7 @@ const CtRadiologyCoverageCosts = () => {
               </p>
               <ul className="text-gray-300 text-sm space-y-3 leading-relaxed mb-6 list-none pl-0">
                 {[
-                  ['Radiologist burnout and turnover', 'Replacing a radiologist costs $50,000–$150,000 in recruitment fees, onboarding time, and productivity loss during transition. Burnout-driven turnover in radiology is well-documented — 40% of radiologists report burnout symptoms (Medscape Physician Burnout & Depression Report, 2024).'],
+                  ['Radiologist burnout and turnover', 'Replacing a radiologist costs $50,000–$150,000 in recruitment fees, onboarding time, and productivity loss during transition. Burnout-driven turnover in radiology is well-documented — 45% of radiologists report burnout (AMA National Burnout Benchmarking survey, 2025).'],
                   ['After-hours surcharge creep', 'Traditional teleradiology\'s after-hours surcharges compound with volume. Centers that underestimate their weekend CT volume often face invoices 40–60% higher than projected at contract signing.'],
                   ['Re-read and amendment costs', 'Reports requiring significant amendments create billing, compliance, and clinical risk costs that are rarely quantified. xAID\'s 95% accuracy rate — verified by peer-reviewed studies — directly reduces this risk.'],
                   ['Integration and IT overhead', 'Enterprise AI detection tools require significant IT, CISO, and legal review prior to deployment — adding $50,000–$200,000 in implementation cost before the first study is read. Standard DICOM/HL7 services like xAID avoid this.'],

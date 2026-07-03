@@ -178,7 +178,7 @@ const AiRadiologyBuyersGuide = () => {
                       'What is the confidence interval on the reported accuracy numbers?',
                     ].map((q, i) => (
                       <div key={i} className="flex items-start gap-3 text-sm text-[#444]">
-                        <span className="text-xaid-blue font-medium flex-shrink-0">{i + 1}.</span>
+                        <span className="text-xaid-blue-strong font-medium flex-shrink-0">{i + 1}.</span>
                         <span>{q}</span>
                       </div>
                     ))}
@@ -186,7 +186,7 @@ const AiRadiologyBuyersGuide = () => {
                 </div>
 
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                  For reference: xAID achieves 95% accuracy verified by independent peer-reviewed studies — AI-assisted detection consistently outperformed unaided radiologists across multiple pathology categories. Full methodology and results are available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
+                  For reference: xAID achieves 95% accuracy verified by independent peer-reviewed studies — AI-assisted detection consistently outperformed unaided radiologists across multiple pathology categories. Full methodology and results are available at <Link to="/accuracy/" className="text-xaid-blue-strong-hover underline underline-offset-2">xaid.ai/accuracy</Link>.
                 </p>
 
                 {/* Section 3 */}
@@ -221,7 +221,7 @@ const AiRadiologyBuyersGuide = () => {
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-[#666]">
                         <div><span className="font-medium text-[#444]">Best for: </span>{m.best}</div>
                         <div><span className="font-medium text-[#444]">Risk level: </span>{m.risk}</div>
-                        <div><span className="font-medium text-amber-600">Watch for: </span>{m.watch}</div>
+                        <div><span className="font-medium text-amber-700">Watch for: </span>{m.watch}</div>
                       </div>
                     </div>
                   ))}
@@ -255,7 +255,7 @@ const AiRadiologyBuyersGuide = () => {
                 <div className="bg-xaid-blue/10 border border-xaid-blue/20 rounded-xl p-6 mb-8">
                   <h3 className="text-[#0D0D0D] font-medium mb-2 text-sm">xAID's Accuracy Evidence</h3>
                   <p className="text-[#444] text-[15px] leading-[1.65] font-light">
-                    95% accuracy verified by independent peer-reviewed studies. xAID is the only AI CT reporting service with published independent clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
+                    95% accuracy verified by independent peer-reviewed studies. xAID is the only AI CT reporting service with published independent clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue-strong-hover underline underline-offset-2">xaid.ai/accuracy</Link>.
                   </p>
                 </div>
 
@@ -272,7 +272,7 @@ const AiRadiologyBuyersGuide = () => {
                     { req: 'Data retention and deletion policy', why: 'How long is PHI retained? What is the deletion process after the reporting relationship ends?', required: false },
                   ].map(item => (
                     <div key={item.req} className="flex items-start gap-4 py-3 border-b border-gray-100">
-                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full flex-shrink-0 mt-0.5 ${item.required ? 'bg-red-50 text-red-600' : 'bg-blue-50 text-blue-600'}`}>
+                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full flex-shrink-0 mt-0.5 ${item.required ? 'bg-red-50 text-red-700' : 'bg-blue-50 text-blue-600'}`}>
                         {item.required ? 'HIPAA Required' : 'Best Practice'}
                       </span>
                       <div>
@@ -302,11 +302,11 @@ const AiRadiologyBuyersGuide = () => {
                         ['Enterprise AI detection tools', '4–12 weeks', 'Deep IT integration, PACS/EHR connection, clinical workflow configuration, staff training'],
                         ['Traditional teleradiology', 'Days to 2 weeks', 'DICOM send destination setup, HL7 delivery config'],
                         ['AI reporting services (xAID)', '<1 week', 'DICOM push to xAID destination, HL7 output routing — standard configuration your IT team already knows'],
-                        ['Locum radiologist', '12+ months to hire', 'Credentialing, contracting, onboarding, malpractice coverage'],
+                        ['Locum radiologist', '2–4+ months to first read', 'Agency sourcing, credentialing, contracting, malpractice coverage'],
                       ].map(([type, time, req]) => (
                         <tr key={type} className="border-b border-gray-100">
                           <td className="py-3 px-4 text-[#444] font-medium text-xs">{type}</td>
-                          <td className="py-3 px-4 text-center text-xaid-blue font-medium text-xs">{time}</td>
+                          <td className="py-3 px-4 text-center text-xaid-blue-strong font-medium text-xs">{time}</td>
                           <td className="py-3 px-4 text-[#666] text-xs">{req}</td>
                         </tr>
                       ))}
@@ -333,7 +333,7 @@ const AiRadiologyBuyersGuide = () => {
                     'What are the contract terms — per-study, annual, or minimum commitment?',
                   ].map((q, i) => (
                     <div key={i} className="flex items-start gap-3 text-sm text-[#444] py-2 border-b border-gray-100">
-                      <div className="w-6 h-6 rounded-full bg-xaid-blue/15 border border-xaid-blue/30 flex items-center justify-center text-xaid-blue font-medium text-xs flex-shrink-0 mt-0.5">
+                      <div className="w-6 h-6 rounded-full bg-xaid-blue/15 border border-xaid-blue/30 flex items-center justify-center text-xaid-blue-strong-hover font-medium text-xs flex-shrink-0 mt-0.5">
                         {i + 1}
                       </div>
                       <span>{q}</span>

@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'How does AI CT reporting compare to locum radiologists in cost?',
-    answer: 'Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 6–18 months to recruit and credential, and carry burnout and turnover risk. xAID charges per study at narrow AI rates, sets up in under one week, and includes 24/7 coverage — with no staffing overhead',
+    answer: 'Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months) and credential, and carry burnout and turnover risk. xAID charges per study at narrow AI rates, sets up in under one week, and includes 24/7 coverage — with no staffing overhead',
   },
   {
     question: 'How does DICOM and HL7 integration work?',

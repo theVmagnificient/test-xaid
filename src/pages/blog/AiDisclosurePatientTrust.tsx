@@ -142,7 +142,7 @@ const AiDisclosurePatientTrust = () => {
                 What the survey found
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Researchers set out to understand how patients actually feel about AI in their imaging care, and published the results in RSNA's journal <a href="https://pubs.rsna.org/journal/radiology" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline"><em>Radiology</em></a>. The team surveyed more than 1,000 patients in the waiting areas of an imaging department between July 2024 and April 2025.
+                Researchers set out to understand how patients actually feel about AI in their imaging care, and published the results in RSNA's journal <a href="https://pubs.rsna.org/journal/radiology" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2"><em>Radiology</em></a>. The team surveyed more than 1,000 patients in the waiting areas of an imaging department between July 2024 and April 2025.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 The headline number is hard to ignore: about <strong>96%</strong> said patients should be informed when AI is used to report on their images. That's not a slim majority — it's near-unanimous. AI disclosure in imaging is no longer a hypothetical policy question; it's an expectation patients already hold.
@@ -196,7 +196,7 @@ const AiDisclosurePatientTrust = () => {
                 Where this fits with how AI CT reporting actually works
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong hover:underline">comprehensive report draft</Link>, and a radiologist reviews and signs every one before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
+                The survey describes the model patients already trust: AI assists, a radiologist stays accountable. That's the model AI CT reporting is built on — the AI produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link>, and a radiologist reviews and signs every one before it reaches a patient's chart. Every xAID report is radiologist-reviewed by design. The transparency patients are asking for isn't a constraint on this workflow — it's a description of it.
               </p>
 
               {/* FAQ */}
@@ -227,7 +227,7 @@ const AiDisclosurePatientTrust = () => {
                 ))}
               </div>
 
-              <p className="text-[#999] text-[13px] leading-[1.6] font-light mt-10">
+              <p className="text-[#757575] text-[13px] leading-[1.6] font-light mt-10">
                 Source: survey of imaging patients published in RSNA's <em>Radiology</em> (2026), as reported by <a href="https://radiologybusiness.com/topics/artificial-intelligence/nearly-100-patients-surveyed-say-theyd-want-know-when-ai-used-imaging" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a> and <a href="https://www.auntminnie.com/imaging-informatics/artificial-intelligence/article/15829002/most-patients-want-to-know-if-ai-being-used-for-imaging-reports" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">AuntMinnie</a>. Figures are rounded as reported.
               </p>
 

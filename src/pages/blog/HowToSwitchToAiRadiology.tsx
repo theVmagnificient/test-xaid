@@ -147,7 +147,7 @@ const HowToSwitchToAiRadiology = () => {
               <p className="text-gray-400 text-[15px] leading-[1.65] font-light mb-6">
                 Transitioning from a traditional teleradiology provider to AI CT reporting is simpler than most facilities expect. DICOM integration typically completes in under one week, and a structured pilot lets you validate report quality before any contract change. Here is the complete transition process — from evaluation to full cutover.
               </p>
-              <div className="flex items-center gap-4 text-gray-500 text-sm border-t border-white/10 pt-6">
+              <div className="flex items-center gap-4 text-white/60 text-sm border-t border-white/10 pt-6">
                 <span>xAID</span>
                 <span>·</span>
                 <span>April 14, 2026</span>
@@ -237,7 +237,7 @@ const HowToSwitchToAiRadiology = () => {
                       <span className="text-white font-medium text-sm">{item.task}</span>
                       <div className="flex gap-3">
                         <span className="text-xaid-blue text-xs">{item.time}</span>
-                        <span className="text-gray-500 text-xs">{item.who}</span>
+                        <span className="text-white/60 text-xs">{item.who}</span>
                       </div>
                     </div>
                     <p className="text-gray-400 text-[15px] leading-[1.65] font-light">{item.what}</p>
@@ -245,7 +245,7 @@ const HowToSwitchToAiRadiology = () => {
                 ))}
               </div>
               <p className="text-gray-400 text-sm mt-6 leading-relaxed">
-                Total IT time: typically <strong className="text-white">2–4 hours</strong> for a PACS administrator. xAID provides step-by-step integration documentation and a dedicated onboarding contact for the duration of setup. See <Link to="/integrations/" className="text-xaid-blue-strong hover:underline">Integrations</Link> for the full technical reference.
+                Total IT time: typically <strong className="text-white">2–4 hours</strong> for a PACS administrator. xAID provides step-by-step integration documentation and a dedicated onboarding contact for the duration of setup. See <Link to="/integrations/" className="text-xaid-blue underline underline-offset-2">Integrations</Link> for the full technical reference.
               </p>
             </div>
           </section>

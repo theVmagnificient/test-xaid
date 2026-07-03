@@ -27,7 +27,7 @@ const comparisonData = [
   {
     category: 'Turnaround time',
     locum: 'Depends on radiologist',
-    teleradiology: '1–24 hrs',
+    teleradiology: '4–24 hrs',
     xaid: '2–12 hrs (guaranteed SLA)',
     xaidWins: true,
   },
@@ -40,7 +40,7 @@ const comparisonData = [
   },
   {
     category: 'Setup time',
-    locum: '6–18 months to hire',
+    locum: '2–4+ months to first read',
     teleradiology: '2–8 weeks',
     xaid: 'Under one week',
     xaidWins: true,
@@ -129,7 +129,7 @@ const Pricing = () => {
               "name": "What is the ROI of AI CT reporting vs hiring a locum radiologist?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A locum radiologist costs $500,000–$650,000 per year in compensation alone. xAID delivers comparable CT coverage at a fraction of that cost, with setup under one week instead of 12+ months."
+                "text": "A locum radiologist costs $500,000–$650,000 per year in compensation alone. xAID delivers comparable CT coverage at a fraction of that cost, with setup under one week instead of months of sourcing and credentialing."
               }
             }
           ]
@@ -281,7 +281,7 @@ const Pricing = () => {
                   },
                   {
                     q: 'What is the ROI vs hiring a locum radiologist?',
-                    a: 'A locum radiologist costs $500,000–$650,000 per year in compensation alone. xAID delivers comparable CT coverage at a fraction of that cost, with setup under one week instead of 12+ months',
+                    a: 'A locum radiologist costs $500,000–$650,000 per year in compensation alone. xAID delivers comparable CT coverage at a fraction of that cost, with setup under one week instead of months of sourcing and credentialing',
                   },
                 ]}
               />

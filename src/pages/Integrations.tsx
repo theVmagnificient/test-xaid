@@ -116,7 +116,7 @@ const Integrations = () => {
             <div className="bg-white rounded-2xl p-8 md:p-12 lg:p-16">
               <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-10 lg:gap-16">
                 <div className="lg:sticky lg:top-24 lg:self-start">
-                  <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">
+                  <span className="text-xaid-blue-strong-hover font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">
                     Integration
                   </span>
                   <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal leading-[1.1] text-[#0D0D0D] mb-5">

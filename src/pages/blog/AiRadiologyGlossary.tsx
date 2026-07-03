@@ -79,7 +79,7 @@ const terms = [
   },
   {
     term: 'Turnaround Time (TAT)',
-    definition: 'The time from a CT study being received to delivery of the completed report. ACR guideline for routine CT: 24 hours. xAID typical TAT: 2–12 hours from DICOM receipt to report delivery, 24/7. Traditional teleradiology TAT: typically 30 minutes–4 hours for STAT reads; 1–12 hours for routine reads. TAT can degrade during peak demand periods for traditional teleradiology; AI CT reporting TAT is consistent because AI processing begins immediately on receipt.',
+    definition: 'The time from a CT study being received to delivery of the completed report. ACR guideline for routine CT: 24 hours. xAID typical TAT: 2–12 hours from DICOM receipt to report delivery, 24/7. Traditional teleradiology TAT: typically 30–60 minutes for STAT reads; typically 4–24 hours for routine reads (contract SLA usually under 24 hours). TAT can degrade during peak demand periods for traditional teleradiology; AI CT reporting TAT is consistent because AI processing begins immediately on receipt.',
     relatedTerms: ['ACR Guidelines', 'STAT', 'SLA'],
   },
   {
@@ -183,7 +183,7 @@ const AiRadiologyGlossary = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-white/5 border border-white/10 rounded-full px-3 py-1 text-xs text-xaid-blue font-medium">Reference</span>
-              <span className="text-gray-500 text-sm self-center">March 4, 2026 · 10 min read</span>
+              <span className="text-white/60 text-sm self-center">March 4, 2026 · 10 min read</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-[1.3] mb-6">
               AI Radiology Terminology Glossary: Key Terms Explained
@@ -204,7 +204,7 @@ const AiRadiologyGlossary = () => {
                   <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-3">{item.definition}</p>
                   {item.relatedTerms && item.relatedTerms.length > 0 && (
                     <div className="flex flex-wrap gap-2 mt-3">
-                      <span className="text-gray-500 text-xs">See also:</span>
+                      <span className="text-white/60 text-xs">See also:</span>
                       {item.relatedTerms.map((rt, j) => (
                         <span key={j} className="text-xaid-blue text-xs font-medium">{rt}</span>
                       ))}

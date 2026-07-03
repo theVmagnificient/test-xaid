@@ -173,21 +173,21 @@ const HowAccurateIsAiRadiology = () => {
               <div className="bg-gray-50 rounded-xl p-6 mb-6">
                 <div className="grid grid-cols-2 gap-6">
                   <div>
-                    <div className="text-xs font-medium text-[#999] uppercase tracking-wider mb-3">With AI assistance</div>
+                    <div className="text-xs font-medium text-[#666] uppercase tracking-wider mb-3">With AI assistance</div>
                     <div className="space-y-2">
-                      <div><span className="text-xaid-blue font-medium text-lg">92.2%</span> <span className="text-[#444] text-[15px] font-light">pooled sensitivity</span></div>
-                      <div><span className="text-xaid-blue font-medium text-lg">95.6%</span> <span className="text-[#444] text-[15px] font-light">pooled specificity</span></div>
+                      <div><span className="text-xaid-blue-strong font-medium text-lg">92.2%</span> <span className="text-[#444] text-[15px] font-light">pooled sensitivity</span></div>
+                      <div><span className="text-xaid-blue-strong font-medium text-lg">95.6%</span> <span className="text-[#444] text-[15px] font-light">pooled specificity</span></div>
                     </div>
                   </div>
                   <div>
-                    <div className="text-xs font-medium text-[#999] uppercase tracking-wider mb-3">Without AI (unaided)</div>
+                    <div className="text-xs font-medium text-[#666] uppercase tracking-wider mb-3">Without AI (unaided)</div>
                     <div className="space-y-2">
                       <div><span className="text-[#0D0D0D] font-medium text-[18px] leading-[1.3]">58.3%</span> <span className="text-[#444] text-[15px] font-light">pooled sensitivity</span></div>
                       <div><span className="text-[#0D0D0D] font-medium text-[18px] leading-[1.3]">80.6%</span> <span className="text-[#444] text-[15px] font-light">pooled specificity</span></div>
                     </div>
                   </div>
                 </div>
-                <p className="text-[#999] text-xs mt-4">Source: Bonatti et al., Pol Radiol, 2025. Single-center retrospective study, emergency radiology setting.</p>
+                <p className="text-[#666] text-xs mt-4">Source: Bonatti et al., Pol Radiol, 2025. Single-center retrospective study, emergency radiology setting.</p>
               </div>
 
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
@@ -215,13 +215,13 @@ const HowAccurateIsAiRadiology = () => {
                     { metric: '81.5%', label: 'Diagnostic contribution', sub: 'of AI segmentation data' },
                   ].map((d) => (
                     <div key={d.metric} className="text-center">
-                      <div className="text-xaid-blue font-medium text-xl mb-1">{d.metric}</div>
+                      <div className="text-xaid-blue-strong font-medium text-xl mb-1">{d.metric}</div>
                       <div className="text-[#0D0D0D] text-xs font-medium">{d.label}</div>
-                      <div className="text-[#999] text-xs mt-0.5">{d.sub}</div>
+                      <div className="text-[#666] text-xs mt-0.5">{d.sub}</div>
                     </div>
                   ))}
                 </div>
-                <p className="text-[#999] text-xs mt-4">Source: Polushkin et al., ResearchGate, 2025. Multi-center study across France, Greece, Slovakia, UK.</p>
+                <p className="text-[#666] text-xs mt-4">Source: Polushkin et al., ResearchGate, 2025. Multi-center study across France, Greece, Slovakia, UK.</p>
               </div>
 
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
@@ -261,7 +261,7 @@ const HowAccurateIsAiRadiology = () => {
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light">
                   xAID's accuracy is backed by two independent peer-reviewed studies: 92.2% sensitivity and 95.6% specificity (Bonatti et al., the Polish Journal of Radiology, 2025) and 94.9% radiologist approval rate across four European centers (Polushkin et al., ResearchGate, 2025). Every report is reviewed by a European radiologist before delivery. No other AI radiology vendor has published this level of independent clinical evidence.
                 </p>
-                <Link to="/accuracy/" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
+                <Link to="/accuracy/" className="mt-4 inline-block text-xaid-blue-strong-hover text-sm font-medium hover:underline">
                   View full accuracy documentation →
                 </Link>
               </div>

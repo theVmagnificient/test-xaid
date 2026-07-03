@@ -112,7 +112,7 @@ const CtReportTurnaroundTime = () => {
               {[
                 { stat: '24 hrs', label: 'ACR guideline (routine)', sub: 'industry standard' },
                 { stat: '36–72 hrs', label: 'Typical actual TAT', sub: 'outpatient average' },
-                { stat: '$80–$350', label: 'Traditional after-hours cost per study', sub: 'after-hours reads' },
+                { stat: '$80–$200+', label: 'Traditional after-hours cost per study', sub: 'after-hours reads' },
                 { stat: '2–12 hrs', label: 'xAID AI TAT', sub: '24/7, no surcharge' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
@@ -144,7 +144,7 @@ const CtReportTurnaroundTime = () => {
                       <th className="text-left py-3 pr-4 text-[#0D0D0D] font-medium">Study type</th>
                       <th className="text-center py-3 px-4 text-[#0D0D0D] font-medium">ACR guideline</th>
                       <th className="text-center py-3 px-4 text-[#0D0D0D] font-medium">Typical actual</th>
-                      <th className="text-center py-3 px-4 text-xaid-blue font-medium">xAID AI</th>
+                      <th className="text-center py-3 px-4 text-xaid-blue-strong font-medium">xAID AI</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -159,12 +159,12 @@ const CtReportTurnaroundTime = () => {
                         <td className="py-3 pr-4 text-[#444]">{type}</td>
                         <td className="py-3 px-4 text-center text-[#666]">{acr}</td>
                         <td className="py-3 px-4 text-center text-[#666]">{actual}</td>
-                        <td className="py-3 px-4 text-center text-xaid-blue font-medium">{ai}</td>
+                        <td className="py-3 px-4 text-center text-xaid-blue-strong font-medium">{ai}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
-                <p className="text-[#999] text-xs mt-2">*Emergent cases involve priority routing and immediate radiologist notification.</p>
+                <p className="text-[#757575] text-xs mt-2">*Emergent cases involve priority routing and immediate radiologist notification.</p>
               </div>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -240,7 +240,7 @@ const CtReportTurnaroundTime = () => {
               <div className="bg-xaid-blue/10 border border-xaid-blue/20 rounded-xl p-6 mb-8">
                 <h3 className="text-[#0D0D0D] font-medium mb-2">After-Hours Cost Comparison</h3>
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-3">
-                  Traditional teleradiology services charge $80–$350 per study for after-hours coverage. A center reading 60 after-hours CTs per month at $175 average pays $126,000 per year for overnight reads alone.
+                  Traditional teleradiology services charge $80–$200 per study for after-hours (up to $350 on low-volume STAT contracts) coverage. A center reading 60 after-hours CTs per month at $175 average pays $126,000 per year for overnight reads alone.
                 </p>
                 <p className="text-[#444] text-[15px] leading-[1.65] font-light">
                   xAID charges a flat per-study rate with no after-hours surcharge — 11pm reads cost the same as 11am reads. For centers with significant after-hours volume, this is typically the fastest ROI component of AI CT reporting adoption.
@@ -265,7 +265,7 @@ const CtReportTurnaroundTime = () => {
                   },
                   {
                     q: 'What is the cost of after-hours CT reporting?',
-                    a: 'Traditional teleradiology services charge $80–$350 per study for after-hours coverage, with no volume discount for smaller centers. xAID charges a flat per-study rate with no after-hours surcharge — making it substantially cheaper for centers with significant evening and weekend CT volume.',
+                    a: 'Traditional teleradiology services charge $80–$200 per study for after-hours (up to $350 on low-volume STAT contracts) coverage, with no volume discount for smaller centers. xAID charges a flat per-study rate with no after-hours surcharge — making it substantially cheaper for centers with significant evening and weekend CT volume.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">

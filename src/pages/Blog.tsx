@@ -71,7 +71,7 @@ const Blog = () => {
                 className="block bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12 hover:bg-white/10 transition-colors group"
               >
                 <div className="flex flex-wrap items-center gap-3 mb-4">
-                  <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
+                  <span className="bg-xaid-blue/20 text-white text-xs font-medium px-3 py-1 rounded-full">
                     {blogPosts[0].category}
                   </span>
                   <span className="text-white/60 text-sm">{blogPosts[0].date}</span>

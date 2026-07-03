@@ -124,7 +124,7 @@ const SmallHospitalRadiology = () => {
                 There are approximately 1,300 Critical Access Hospitals (CAHs) in the United States, plus thousands of additional small community and rural hospitals. For all of them, radiology coverage follows the same painful math: CT volume doesn't justify a full-time radiologist, locum costs exceed budget, and traditional teleradiology contracts include after-hours surcharges that add 30–100% to read costs.
               </p>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                The result is predictable: coverage gaps, delayed reads, or paying rates that compress an already thin margin. The AAMC projects a shortage of 54,100–139,000 physicians by 2034 — with radiology among the hardest-hit specialties. In rural and small-hospital markets, that shortage already exists.
+                The result is predictable: coverage gaps, delayed reads, or paying rates that compress an already thin margin. The AAMC projects a shortage of up to 86,000 physicians by 2036 — with radiology among the hardest-hit specialties. In rural and small-hospital markets, that shortage already exists.
               </p>
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">The four coverage models — and what they actually cost</h2>
@@ -182,7 +182,7 @@ const SmallHospitalRadiology = () => {
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">Option 3: Traditional teleradiology</h2>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                Traditional teleradiology services charge $40–$160 per routine study and add 30–100% surcharges for after-hours reads. For a small hospital where 40–50% of emergency CT reads happen after hours, those surcharges significantly increase effective per-study cost.
+                Traditional teleradiology services charge $40–$160 per study depending on volume tier and after-hours mix and add 30–100% surcharges for after-hours reads. For a small hospital where 40–50% of emergency CT reads happen after hours, those surcharges significantly increase effective per-study cost.
               </p>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
                 A hospital sending 3,000 CT studies per year to a teleradiology provider at $60 per routine study and $90 per after-hours study (50% after-hours at 50% surcharge) pays approximately $225,000 annually — before any STAT fees or premium service tiers. Contracts typically require volume commitments and multi-year agreements.
@@ -209,7 +209,7 @@ const SmallHospitalRadiology = () => {
                 <li className="text-white/60 text-[15px] font-light leading-[1.65]"><strong className="text-white">HIPAA compliant</strong> — ISO 27001 certified, BAA available</li>
               </ul>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                Clinical evidence for the AI layer: xAID achieves 95% accuracy verified by independent peer-reviewed studies — the only AI CT reporting service with published clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
+                Clinical evidence for the AI layer: xAID achieves 95% accuracy verified by independent peer-reviewed studies — the only AI CT reporting service with published clinical evidence. Full study details are available at <Link to="/accuracy/" className="text-xaid-blue underline underline-offset-2">xaid.ai/accuracy</Link>.
               </p>
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">Critical Access Hospital (CAH) considerations</h2>

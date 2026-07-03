@@ -173,7 +173,7 @@ const ForSmallHospitals = () => {
                   >
                     {/* Challenge card */}
                     <div className="flex flex-col h-full rounded-xl bg-[#F4F4F4] border border-[#E5E5E5] p-6 md:p-7">
-                      <span className="text-[11px] font-semibold tracking-[0.12em] text-[#8A8A8A] uppercase mb-3">
+                      <span className="text-[11px] font-semibold tracking-[0.12em] text-[#666] uppercase mb-3">
                         Challenge
                       </span>
                       <p className="text-[#1A1A1A] text-[15px] leading-[1.6]">
@@ -192,7 +192,7 @@ const ForSmallHospitals = () => {
 
                     {/* Solution card */}
                     <div className="flex flex-col h-full rounded-xl bg-xaid-blue/[0.06] border border-xaid-blue/30 p-6 md:p-7">
-                      <span className="text-[11px] font-semibold tracking-[0.12em] text-xaid-blue uppercase mb-3">
+                      <span className="text-[11px] font-semibold tracking-[0.12em] text-xaid-blue-strong-hover uppercase mb-3">
                         With <span className="normal-case">xAID</span>
                       </span>
                       <p className="text-[#1A1A1A] text-[15px] leading-[1.6]">
@@ -230,7 +230,7 @@ const ForSmallHospitals = () => {
                     {[
                       { model: 'In-house radiologist', cost: '$450K–$600K salary + benefits', surcharge: 'N/A (fixed cost)', guarantee: 'None' },
                       { model: 'Locum radiologist', cost: '$500K–$650K equivalent', surcharge: '30–50% premium', guarantee: 'None' },
-                      { model: 'Traditional teleradiology', cost: '$120K–$480K ($40–$160/study)', surcharge: '30–100% per study', guarantee: 'None' },
+                      { model: 'Traditional teleradiology', cost: '$120K–$480K ($40–$160/study incl. after-hours mix)', surcharge: '30–100% per study', guarantee: 'None' },
                       { model: 'xAID AI CT reporting', cost: 'Narrow AI pricing + radiologist review', surcharge: '$0 — flat per-study rate', guarantee: '95% accuracy — or we reimburse', highlight: true },
                     ].map((row) => (
                       <tr

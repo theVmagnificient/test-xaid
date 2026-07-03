@@ -155,7 +155,7 @@ const FoundationModelsVsNarrowAI = () => {
                 Narrow AI produces fragments: detections, measurements, flags. The synthesis step — turning those fragments into a signed report — stays with the radiologist. That is exactly where the extra time comes from.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                This is not a vendor talking point. In a February 2026 <a href="https://www.acr.org/News-and-Publications/2026/policy-guidance-on-clinical-ai" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">comment letter</a> to the U.S. Department of Health and Human Services, the American College of Radiology — representing more than 40,000 physicians — put it in writing:
+                This is not a vendor talking point. In a February 2026 <a href="https://www.acr.org/News-and-Publications/2026/policy-guidance-on-clinical-ai" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">comment letter</a> to the U.S. Department of Health and Human Services, the American College of Radiology — representing more than 40,000 physicians — put it in writing:
               </p>
               <blockquote className="border-l-2 border-xaid-blue pl-5 my-6">
                 <p className="text-[#444] text-[16px] leading-[1.65] font-light italic">
@@ -163,10 +163,10 @@ const FoundationModelsVsNarrowAI = () => {
                 </p>
               </blockquote>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                False positives make the math worse. In one real-world evaluation of a commercial lung nodule algorithm, 39% of flagged findings were not true nodules, and the observed false-positive rate was 1.36 per scan — more than double the vendor's published rate of 0.58 (AJR, Hong &amp; Leung, Stanford; DOI: <a href="https://doi.org/10.2214/AJR.26.34524" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">10.2214/AJR.26.34524</a>). Benign vessels, branching opacities, and mucus plugging get flagged routinely. Every false alert is a finding the radiologist has to open, evaluate, and dismiss.
+                False positives make the math worse. In one real-world evaluation of a commercial lung nodule algorithm, 39% of flagged findings were not true nodules, and the observed false-positive rate was 1.36 per scan — more than double the vendor's published rate of 0.58 (AJR, Hong &amp; Leung, Stanford; DOI: <a href="https://doi.org/10.2214/AJR.26.34524" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">10.2214/AJR.26.34524</a>). Benign vessels, branching opacities, and mucus plugging get flagged routinely. Every false alert is a finding the radiologist has to open, evaluate, and dismiss.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Then there's the budget. Buy five separate solutions plus a platform to unify their outputs plus text processing to merge the reports, and the <Link to="/blog/ct-radiology-coverage-costs-2026/" className="text-xaid-blue-strong hover:underline">cost per chest CT</Link> climbs toward a level that competes with what you pay a radiologist — without removing the radiologist's validation work. Bolt-on detection that generates more than one false positive per scan isn't saving time. It's consuming it.
+                Then there's the budget. Buy five separate solutions plus a platform to unify their outputs plus text processing to merge the reports, and the <Link to="/blog/ct-radiology-coverage-costs-2026/" className="text-xaid-blue-strong underline underline-offset-2">cost per chest CT</Link> climbs toward a level that competes with what you pay a radiologist — without removing the radiologist's validation work. Bolt-on detection that generates more than one false positive per scan isn't saving time. It's consuming it.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -176,7 +176,7 @@ const FoundationModelsVsNarrowAI = () => {
                 A foundation model takes the opposite approach. Instead of one algorithm per finding, it is trained on large volumes of imaging-and-report data to produce a complete, structured report for an entire body part or modality — a draft a radiologist can review and sign, not a pile of disconnected flags.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Two architectural advantages drive this. The first is multimodality. A radiologist does far more than look at the image — they read priors, labs, and clinical notes. Models built the same way outperform image-only systems. A 2026 npj Digital Medicine study of a multimodal model (Prost-LM) fused MRI, PSA, and clinical notes across 3,940 prostate cancer patients at seven hospitals (DOI: <a href="https://doi.org/10.1038/s41746-026-02670-x" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">10.1038/s41746-026-02670-x</a>):
+                Two architectural advantages drive this. The first is multimodality. A radiologist does far more than look at the image — they read priors, labs, and clinical notes. Models built the same way outperform image-only systems. A 2026 npj Digital Medicine study of a multimodal model (Prost-LM) fused MRI, PSA, and clinical notes across 3,940 prostate cancer patients at seven hospitals (DOI: <a href="https://doi.org/10.1038/s41746-026-02670-x" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">10.1038/s41746-026-02670-x</a>):
               </p>
               <ul className="list-disc list-inside text-[#444] space-y-2 mb-6 ml-2">
                 <li>+7.8% AUC versus a vision-only model, and +7.2% versus gradient boosting on the same combined features</li>
@@ -198,7 +198,7 @@ const FoundationModelsVsNarrowAI = () => {
                     <tr className="border-b border-gray-200">
                       <th className="text-left py-3 pr-4 text-[#0D0D0D] font-medium">Factor</th>
                       <th className="text-center py-3 px-4 text-[#0D0D0D] font-medium">Narrow / Detection AI</th>
-                      <th className="text-center py-3 px-4 text-xaid-blue font-medium">Foundation Model</th>
+                      <th className="text-center py-3 px-4 text-xaid-blue-strong font-medium">Foundation Model</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -214,7 +214,7 @@ const FoundationModelsVsNarrowAI = () => {
                       <tr key={f} className={i % 2 === 0 ? 'bg-gray-50' : ''}>
                         <td className="py-3 pr-4 text-[#444] font-medium">{f}</td>
                         <td className="py-3 px-4 text-center text-[#666]">{narrow}</td>
-                        <td className="py-3 px-4 text-center text-xaid-blue font-medium">{found}</td>
+                        <td className="py-3 px-4 text-center text-xaid-blue-strong font-medium">{found}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -225,7 +225,7 @@ const FoundationModelsVsNarrowAI = () => {
                 What this means before you buy
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                In our view, the hospital AI stack will compress from dozens of point tools toward a handful of comprehensive models: one for CT, one for MRI, one for X-ray and mammography. If you're evaluating radiology AI, the questions that matter shift accordingly — and they build on the broader checklist in our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="text-xaid-blue-strong hover:underline">2026 buyer's guide</Link>:
+                In our view, the hospital AI stack will compress from dozens of point tools toward a handful of comprehensive models: one for CT, one for MRI, one for X-ray and mammography. If you're evaluating radiology AI, the questions that matter shift accordingly — and they build on the broader checklist in our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="text-xaid-blue-strong underline underline-offset-2">2026 buyer's guide</Link>:
               </p>
               <div className="space-y-4 mb-8">
                 {[
@@ -253,7 +253,7 @@ const FoundationModelsVsNarrowAI = () => {
                 What doesn't change
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Foundation models don't remove the radiologist — they change what the radiologist spends time on. Every xAID report is reviewed by a radiologist before delivery, and you can see <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="text-xaid-blue-strong hover:underline">how that accuracy is measured</Link> in the published evidence. The model handles structured analysis, quantitative measurement, and report drafting across the full study; the radiologist handles clinical reasoning, context, and professional accountability. The shift from narrow to foundation AI is about giving that radiologist a complete draft to sign instead of seven fragments to assemble.
+                Foundation models don't remove the radiologist — they change what the radiologist spends time on. Every xAID report is reviewed by a radiologist before delivery, and you can see <Link to="/blog/how-accurate-is-ai-radiology-reporting/" className="text-xaid-blue-strong underline underline-offset-2">how that accuracy is measured</Link> in the published evidence. The model handles structured analysis, quantitative measurement, and report drafting across the full study; the radiologist handles clinical reasoning, context, and professional accountability. The shift from narrow to foundation AI is about giving that radiologist a complete draft to sign instead of seven fragments to assemble.
               </p>
 
               {/* FAQ */}

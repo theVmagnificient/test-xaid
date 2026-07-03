@@ -8,7 +8,7 @@ const RadiologistShortage2026 = () => {
     date: 'December 10, 2025',
     category: 'Radiology Workforce',
     readingTime: 7,
-    description: 'The US faces a projected shortage of 54,100–139,000 physicians by 2034, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
+    description: 'The US faces a projected a shortage of up to 86,000 physicians by 2036, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
   };
 
   return (
@@ -58,7 +58,7 @@ const RadiologistShortage2026 = () => {
               "name": "Is there a radiologist shortage in the US?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. The Association of American Medical Colleges (AAMC) projects a shortage of 54,100–139,000 physicians in the US by 2034, with radiology among the most affected specialties. According to the American College of Radiology, approximately 27% of US counties have no radiologist. The shortage is driven by an aging radiologist workforce, increasing imaging volume, and geographic maldistribution."
+                "text": "Yes. The Association of American Medical Colleges (AAMC) projects a shortage of up to 86,000 physicians by 2036, with radiology among the most affected specialties. According to the American College of Radiology, approximately 27% of US counties have no radiologist. The shortage is driven by an aging radiologist workforce, increasing imaging volume, and geographic maldistribution."
               }
             },
             {
@@ -74,7 +74,7 @@ const RadiologistShortage2026 = () => {
               "name": "What is the cost of the radiologist shortage for imaging centers?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "For outpatient imaging centers, the radiologist shortage increases costs through three channels: (1) locum radiologist rates have risen to $150–$250/hour ($500,000–$650,000 annually for full-time coverage), (2) delayed reads reduce patient throughput and revenue, and (3) after-hours reads through traditional teleradiology services cost $80–$350 per study. AI CT reporting addresses all three cost drivers."
+                "text": "For outpatient imaging centers, the radiologist shortage increases costs through three channels: (1) locum radiologist rates have risen to $150–$250/hour ($500,000–$650,000 annually for full-time coverage), (2) delayed reads reduce patient throughput and revenue, and (3) after-hours reads through traditional teleradiology services cost $80–$200 per study (up to $350 on low-volume STAT contracts). AI CT reporting addresses all three cost drivers."
               }
             }
           ]
@@ -100,7 +100,7 @@ const RadiologistShortage2026 = () => {
               <span className="text-white/60">How AI CT Reporting Fills the Gap</span>
             </h1>
             <p className="text-white/60 text-lg font-light leading-[1.65]">
-              The US faces a projected shortage of 54,100–139,000 physicians by 2034, with radiology among the hardest-hit specialties. Here's what the data says — and what imaging centers are doing about it today.
+              The US faces a projected a shortage of up to 86,000 physicians by 2036, with radiology among the hardest-hit specialties. Here's what the data says — and what imaging centers are doing about it today.
             </p>
           </div>
         </section>
@@ -110,10 +110,10 @@ const RadiologistShortage2026 = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { stat: '42K+', label: 'Projected physician shortage', sub: 'by 2034 (AAMC)', },
+                { stat: '86K', label: 'Projected physician shortage', sub: 'by 2036 (AAMC, upper bound)', },
                 { stat: '27%', label: 'US counties with no radiologist', sub: 'ACR data', },
                 { stat: '$500K', label: 'Annual locum radiologist cost', sub: 'full-time coverage', },
-                { stat: '44%', label: 'Radiologists reporting burnout', sub: 'Medscape 2024', },
+                { stat: '45%', label: 'Radiologists reporting burnout', sub: 'AMA survey 2025', },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
@@ -134,7 +134,7 @@ const RadiologistShortage2026 = () => {
                 The scale of the problem
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The Association of American Medical Colleges (AAMC) projects a shortage of 54,100–139,000 physicians in the US by 2034. Radiology is consistently among the most affected specialties for several structural reasons:
+                The Association of American Medical Colleges (AAMC) projects a shortage of up to 86,000 physicians by 2036 (The Complexities of Physician Supply and Demand: Projections From 2021 to 2036, March 2024). Radiology is consistently among the most affected specialties for several structural reasons:
               </p>
               <ul className="list-disc list-inside text-[#444] space-y-2 mb-6 ml-2">
                 <li>An aging radiologist workforce: median age of US radiologists is 51, with 25%+ approaching retirement age</li>
@@ -161,7 +161,7 @@ const RadiologistShortage2026 = () => {
                   },
                   {
                     title: '2. After-hours teleradiology costs',
-                    desc: 'After-hours teleradiology services charge $80–$350 per study for overnight and weekend coverage. A center reading 50 after-hours CTs per month at $150 average pays $90,000+ per year just for off-hours coverage.',
+                    desc: 'After-hours teleradiology services charge $80–$200 per study (up to $350 on low-volume STAT contracts) for overnight and weekend coverage. A center reading 50 after-hours CTs per month at $150 average pays $90,000+ per year just for off-hours coverage.',
                   },
                   {
                     title: '3. Delayed reads and throughput loss',
@@ -179,7 +179,7 @@ const RadiologistShortage2026 = () => {
                 Burnout: Compounding the Shortage
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The radiologist shortage is not purely a supply problem — it is also a utilization problem. According to Medscape's 2024 Physician Burnout Report, 44% of radiologists report burnout, driven primarily by administrative burden, excessive workload, and inadequate staffing support.
+                The radiologist shortage is not purely a supply problem — it is also a utilization problem. According to the AMA's 2025 National Burnout Benchmarking survey, 45% of radiologists report burnout, driven primarily by administrative burden, excessive workload, and inadequate staffing support.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 Burned-out radiologists read more slowly, make more errors, and are more likely to leave their current position — accelerating the shortage rather than solving it. Any solution to the radiologist shortage must address workload intensity, not just headcount.
@@ -220,7 +220,7 @@ const RadiologistShortage2026 = () => {
                     <tr className="border-b border-gray-200">
                       <th className="text-left py-3 pr-4 text-[#0D0D0D] font-medium">Factor</th>
                       <th className="text-center py-3 px-4 text-[#0D0D0D] font-medium">Locum Radiologist</th>
-                      <th className="text-center py-3 px-4 text-xaid-blue font-medium">AI CT Reporting</th>
+                      <th className="text-center py-3 px-4 text-xaid-blue-strong font-medium">AI CT Reporting</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -236,7 +236,7 @@ const RadiologistShortage2026 = () => {
                       <tr key={f} className={i % 2 === 0 ? 'bg-gray-50' : ''}>
                         <td className="py-3 pr-4 text-[#444] font-medium">{f}</td>
                         <td className="py-3 px-4 text-center text-[#666]">{locum}</td>
-                        <td className="py-3 px-4 text-center text-xaid-blue font-medium">{ai}</td>
+                        <td className="py-3 px-4 text-center text-xaid-blue-strong font-medium">{ai}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -259,7 +259,7 @@ const RadiologistShortage2026 = () => {
                 {[
                   {
                     q: 'Is there a radiologist shortage in the US?',
-                    a: 'Yes. The AAMC projects a shortage of 54,100–139,000 physicians by 2034. Radiology is among the most affected specialties due to an aging workforce, constrained training pipelines, and growing imaging volume. 27% of US counties currently have no radiologist, per ACR data.',
+                    a: 'Yes. The AAMC projects a shortage of up to 86,000 physicians by 2036. Radiology is among the most affected specialties due to an aging workforce, constrained training pipelines, and growing imaging volume. 27% of US counties currently have no radiologist, per ACR data.',
                   },
                   {
                     q: 'How is AI addressing the radiologist shortage?',
@@ -271,7 +271,7 @@ const RadiologistShortage2026 = () => {
                   },
                   {
                     q: 'How much does a locum radiologist cost in 2026?',
-                    a: 'Locum radiologist rates range from $150–$250/hour in most US markets, representing $500,000–$650,000 per year for full-time coverage. After-hours teleradiology services typically charge $80–$350 per study. Both have increased significantly over the past decade as shortage conditions worsen.',
+                    a: 'Locum radiologist rates range from $150–$250/hour in most US markets, representing $500,000–$650,000 per year for full-time coverage. After-hours teleradiology services typically charge $80–$200 per study (up to $350 on low-volume STAT contracts). Both have increased significantly over the past decade as shortage conditions worsen.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">

@@ -145,7 +145,7 @@ const Compliance = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {compliancePoints.map((item) => (
                   <div key={item.title} className="bg-[#FAFAFA] border border-gray-100 rounded-xl p-6 md:p-7">
-                    <span className="inline-block text-xs font-medium text-xaid-blue bg-xaid-blue/10 rounded-full px-3 py-1 mb-4">
+                    <span className="inline-block text-xs font-medium text-xaid-blue-strong-hover bg-xaid-blue/10 rounded-full px-3 py-1 mb-4">
                       {item.badge}
                     </span>
                     <h3 className="font-medium text-[#0D0D0D] text-lg mb-3">{item.title}</h3>

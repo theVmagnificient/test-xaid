@@ -144,7 +144,7 @@ const ChestCtReport = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-[#999] text-sm mt-8">
+              <p className="text-[#757575] text-sm mt-8">
                 Preliminary reports are structured, radiologist-reviewed, and delivered as HL7 FHIR or PDF to your RIS/PACS — ready for your radiologist to review and sign
               </p>
             </div>

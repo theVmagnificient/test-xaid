@@ -22,7 +22,7 @@ const options = [
   },
   {
     name: 'Traditional Teleradiology',
-    cost: '$80–$350/study after-hours — 30–100% surcharge over daytime rate',
+    cost: '$80–$200+/study after-hours — 30–100% surcharge over daytime rate',
     availability: 'Available — that\'s the value proposition',
     quality: 'Variable by service; no contractual quality commitment',
     guarantee: 'None',
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: 'What is the radiologist burnout cost of after-hours call?',
-    a: 'Radiologist burnout from call duty is well-documented. A 2024 Medscape Physician Burnout & Depression Report found that 40% of radiologists report burnout symptoms, with call duty cited as a primary driver. The cost of burnout includes: reduced productivity (estimated 20–40% output reduction during active burnout periods), increased error rates on night reads, and turnover — replacing a radiologist costs $50,000–$150,000 in recruitment fees, onboarding, and productivity loss. AI CT reporting for after-hours reads eliminates call duty for in-house radiologists entirely.',
+    a: 'Radiologist burnout from call duty is well-documented. The AMA\'s 2025 National Burnout Benchmarking survey found that 45% of radiologists report burnout, with call duty cited as a primary driver. The cost of burnout includes: reduced productivity (estimated 20–40% output reduction during active burnout periods), increased error rates on night reads, and turnover — replacing a radiologist costs $50,000–$150,000 in recruitment fees, onboarding, and productivity loss. AI CT reporting for after-hours reads eliminates call duty for in-house radiologists entirely.',
   },
   {
     q: 'What CT scan types does xAID cover for after-hours reads?',
@@ -145,7 +145,7 @@ const AfterHoursRadiologyCoverage = () => {
               <p className="text-gray-400 text-[15px] leading-[1.65] font-light mb-6">
                 After-hours CT coverage is the most expensive line item in many outpatient imaging center budgets — and it is the line item that benefits most from AI CT reporting. Here is a complete comparison of every coverage option, with actual cost figures, availability realities, and what each model actually delivers at 2 AM on a Saturday.
               </p>
-              <div className="flex items-center gap-4 text-gray-500 text-sm border-t border-white/10 pt-6">
+              <div className="flex items-center gap-4 text-white/60 text-sm border-t border-white/10 pt-6">
                 <span>xAID</span>
                 <span>·</span>
                 <span>February 17, 2026</span>
@@ -182,26 +182,26 @@ const AfterHoursRadiologyCoverage = () => {
                 <div className="space-y-6">
                   {options.map((opt, i) => (
                     <div key={i} className={`rounded-xl p-6 border ${i === options.length - 1 ? 'border-blue-200 bg-blue-50' : 'border-gray-200 bg-gray-50'}`}>
-                      <div className={`font-medium text-base mb-4 ${i === options.length - 1 ? 'text-xaid-blue' : 'text-[#0D0D0D]'}`}>{opt.name}</div>
+                      <div className={`font-medium text-base mb-4 ${i === options.length - 1 ? 'text-xaid-blue-strong-hover' : 'text-[#0D0D0D]'}`}>{opt.name}</div>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                         <div>
-                          <div className="text-gray-500 text-xs uppercase tracking-wide mb-1">After-Hours Cost</div>
+                          <div className="text-[#666] text-xs uppercase tracking-wide mb-1">After-Hours Cost</div>
                           <div className="text-gray-800 leading-snug">{opt.cost}</div>
                         </div>
                         <div>
-                          <div className="text-gray-500 text-xs uppercase tracking-wide mb-1">Availability</div>
+                          <div className="text-[#666] text-xs uppercase tracking-wide mb-1">Availability</div>
                           <div className="text-gray-800 leading-snug">{opt.availability}</div>
                         </div>
                         <div>
-                          <div className="text-gray-500 text-xs uppercase tracking-wide mb-1">Quality</div>
+                          <div className="text-[#666] text-xs uppercase tracking-wide mb-1">Quality</div>
                           <div className="text-gray-800 leading-snug">{opt.quality}</div>
                         </div>
                         <div>
-                          <div className="text-gray-500 text-xs uppercase tracking-wide mb-1">Quality Guarantee</div>
-                          <div className={`leading-snug ${i === options.length - 1 ? 'text-xaid-blue font-medium' : 'text-gray-800'}`}>{opt.guarantee}</div>
+                          <div className="text-[#666] text-xs uppercase tracking-wide mb-1">Quality Guarantee</div>
+                          <div className={`leading-snug ${i === options.length - 1 ? 'text-xaid-blue-strong-hover font-medium' : 'text-gray-800'}`}>{opt.guarantee}</div>
                         </div>
                       </div>
-                      <div className={`mt-4 pt-4 border-t text-sm font-medium ${i === options.length - 1 ? 'border-blue-200 text-xaid-blue' : 'border-gray-200 text-gray-600'}`}>
+                      <div className={`mt-4 pt-4 border-t text-sm font-medium ${i === options.length - 1 ? 'border-blue-200 text-xaid-blue-strong-hover' : 'border-gray-200 text-gray-600'}`}>
                         {opt.summary}
                       </div>
                     </div>

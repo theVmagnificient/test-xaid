@@ -8,7 +8,7 @@ const AiTeleradiologyVsTraditional = () => {
     date: 'November 6, 2025',
     category: 'Buyer Guide',
     readingTime: 10,
-    description: 'Traditional teleradiology services charge $80–$350 per study and take 4–24 hours. AI-assisted teleradiology delivers the same output in 2–12 hours at lower per-study cost. But there are real differences worth understanding before you switch.',
+    description: 'Traditional teleradiology charges $40–$80 per routine study — rising to $80–$200 for after-hours and STAT reads (up to $350 on low-volume STAT contracts) and take 4–24 hours. AI-assisted teleradiology delivers the same output in 2–12 hours at lower per-study cost. But there are real differences worth understanding before you switch.',
   };
 
   return (
@@ -66,7 +66,7 @@ const AiTeleradiologyVsTraditional = () => {
               "name": "How does AI teleradiology compare to traditional teleradiology in cost?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Traditional teleradiology services typically charge $80–$350 per study, with after-hours surcharges adding 30–100% to routine rates. AI-assisted teleradiology services like xAID charge a flat per-study rate with no after-hours surcharge. For centers with significant off-hours volume, the cost difference is substantial. The total cost comparison depends on study mix, volume, and whether the buyer values guaranteed TAT and quality commitments."
+                "text": "Traditional teleradiology typically charges $40–$80 per routine study — rising to $80–$200 after-hours (up to $350 on low-volume STAT contracts). After-hours surcharges add 30–100% to routine rates. AI-assisted teleradiology services like xAID charge a flat per-study rate with no after-hours surcharge. For centers with significant off-hours volume, the cost difference is substantial. The total cost comparison depends on study mix, volume, and whether the buyer values guaranteed TAT and quality commitments."
               }
             },
             {
@@ -108,7 +108,7 @@ const AiTeleradiologyVsTraditional = () => {
               <span className="text-white/60">Full 2026 Comparison Guide</span>
             </h1>
             <p className="text-white/60 text-lg font-light leading-[1.65]">
-              Traditional teleradiology services charge $80–$350 per study and take 4–24 hours. AI-assisted teleradiology delivers complete preliminary reports in 2–12 hours. Here's what you need to know before you switch.
+              Traditional teleradiology charges $40–$80 per routine study — rising to $80–$200 for after-hours and STAT reads (up to $350 on low-volume STAT contracts) and take 4–24 hours. AI-assisted teleradiology delivers complete preliminary reports in 2–12 hours. Here's what you need to know before you switch.
             </p>
           </div>
         </section>
@@ -118,7 +118,7 @@ const AiTeleradiologyVsTraditional = () => {
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { stat: '$80–$350', label: 'Traditional cost/study', sub: 'plus after-hours surcharge' },
+                { stat: '$80–$200+', label: 'Traditional after-hours cost/study', sub: 'up to $350 on low-volume STAT' },
                 { stat: '4–24 hrs', label: 'Traditional TAT', sub: 'routine studies' },
                 { stat: '2–12 hrs', label: 'AI teleradiology TAT', sub: '24/7, no surcharge' },
                 { stat: '95%', label: 'accuracy — or we reimburse', sub: '' },
@@ -160,12 +160,12 @@ const AiTeleradiologyVsTraditional = () => {
                     <tr className="border-b-2 border-gray-200">
                       <th className="text-left py-3 pr-4 text-[#0D0D0D] font-medium">Factor</th>
                       <th className="text-center py-3 px-4 text-[#0D0D0D] font-medium">Traditional Teleradiology</th>
-                      <th className="text-center py-3 px-4 text-xaid-blue font-medium">AI Teleradiology (xAID)</th>
+                      <th className="text-center py-3 px-4 text-xaid-blue-strong font-medium">AI Teleradiology (xAID)</th>
                     </tr>
                   </thead>
                   <tbody>
                     {[
-                      ['Per-study cost', '$80–$350', 'Lower flat rate'],
+                      ['Per-study cost (after-hours)', '$80–$200+', 'Lower flat rate'],
                       ['After-hours surcharge', '+30–100%', 'None'],
                       ['Routine TAT', '4–24 hours', '2–12 hours'],
                       ['Weekend/holiday TAT', '12–48 hours', '2–12 hours'],
@@ -183,7 +183,7 @@ const AiTeleradiologyVsTraditional = () => {
                       <tr key={f} className={i % 2 === 0 ? 'bg-gray-50' : ''}>
                         <td className="py-3 pr-4 text-[#444] font-medium">{f}</td>
                         <td className="py-3 px-4 text-center text-[#666]">{trad}</td>
-                        <td className="py-3 px-4 text-center text-xaid-blue font-medium">{ai}</td>
+                        <td className="py-3 px-4 text-center text-xaid-blue-strong font-medium">{ai}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -210,7 +210,7 @@ const AiTeleradiologyVsTraditional = () => {
                 The most common concern when switching from traditional to AI teleradiology is accuracy. Is AI-generated reporting as good?
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy/" className="text-xaid-blue-strong hover:underline">xaid.ai/accuracy</Link>.
+                Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy/" className="text-xaid-blue-strong underline underline-offset-2">xaid.ai/accuracy</Link>.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 The key caveat: AI-assisted teleradiology is not the same as autonomous AI radiology. Every xAID report is reviewed by our in-house European radiologist. The AI generates the draft; the radiologist is professionally accountable for the final product. This is the same accountability model as traditional teleradiology.
@@ -226,25 +226,25 @@ const AiTeleradiologyVsTraditional = () => {
               <div className="bg-gray-50 rounded-xl p-6 mb-8">
                 <div className="grid grid-cols-2 gap-8">
                   <div>
-                    <div className="text-xs font-medium text-[#999] uppercase tracking-wider mb-3">Traditional Teleradiology</div>
+                    <div className="text-xs font-medium text-[#666] uppercase tracking-wider mb-3">Traditional Teleradiology</div>
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between"><span className="text-[#666]">220 routine × $120</span><span className="text-[#0D0D0D] font-medium">$26,400</span></div>
                       <div className="flex justify-between"><span className="text-[#666]">80 after-hours × $200</span><span className="text-[#0D0D0D] font-medium">$16,000</span></div>
                       <div className="border-t border-gray-200 pt-2 flex justify-between font-medium"><span className="text-[#0D0D0D]">Monthly total</span><span className="text-[#0D0D0D]">$42,400</span></div>
-                      <div className="flex justify-between text-[#999]"><span>Annual total</span><span>$508,800</span></div>
+                      <div className="flex justify-between text-[#666]"><span>Annual total</span><span>$508,800</span></div>
                     </div>
                   </div>
                   <div>
-                    <div className="text-xs font-medium text-xaid-blue tracking-wider mb-3">AI Teleradiology (xAID)</div>
+                    <div className="text-xs font-medium text-xaid-blue-strong-hover tracking-wider mb-3">AI Teleradiology (xAID)</div>
                     <div className="space-y-2 text-sm">
-                      <div className="flex justify-between"><span className="text-[#666]">300 studies flat rate</span><span className="text-xaid-blue font-medium">Lower</span></div>
-                      <div className="flex justify-between"><span className="text-[#666]">After-hours surcharge</span><span className="text-xaid-blue font-medium">$0</span></div>
-                      <div className="border-t border-gray-200 pt-2 flex justify-between font-medium"><span className="text-[#0D0D0D]">Monthly total</span><span className="text-xaid-blue">Lower</span></div>
-                      <div className="flex justify-between text-[#999]"><span>Accuracy evidence</span><span>95% — or we reimburse</span></div>
+                      <div className="flex justify-between"><span className="text-[#666]">300 studies flat rate</span><span className="text-xaid-blue-strong font-medium">Lower</span></div>
+                      <div className="flex justify-between"><span className="text-[#666]">After-hours surcharge</span><span className="text-xaid-blue-strong font-medium">$0</span></div>
+                      <div className="border-t border-gray-200 pt-2 flex justify-between font-medium"><span className="text-[#0D0D0D]">Monthly total</span><span className="text-xaid-blue-strong">Lower</span></div>
+                      <div className="flex justify-between text-[#666]"><span>Accuracy evidence</span><span>95% — or we reimburse</span></div>
                     </div>
                   </div>
                 </div>
-                <p className="text-[#999] text-xs mt-4">Traditional costs are illustrative market rates. xAID pricing is per-study; contact for exact quote based on modality mix and volume.</p>
+                <p className="text-[#666] text-xs mt-4">Traditional costs are illustrative market rates. xAID pricing is per-study; contact for exact quote based on modality mix and volume.</p>
               </div>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">

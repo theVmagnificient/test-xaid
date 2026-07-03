@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FAQAccordion from '@/components/FAQAccordion';
 
 const rows = [
-  { aspect: 'Per-study cost (CT)', teleradiology: '$40–$350', xaid: 'Narrow AI rates — flat per study' },
+  { aspect: 'Per-study cost (CT)', teleradiology: '$40–$80 routine; $80–$200+ after-hours', xaid: 'Narrow AI rates — flat per study' },
   { aspect: 'After-hours surcharge', teleradiology: '30–100% on nights, weekends, holidays', xaid: 'None — same rate 24/7' },
   { aspect: 'Clinical accuracy', teleradiology: 'No published data — variable, unverified', xaid: '95% accuracy — verified by peer-reviewed studies' },
   { aspect: 'Quality guarantee', teleradiology: 'None — no contractual commitment', xaid: '95% accuracy — or we reimburse' },
@@ -106,7 +106,7 @@ const AiVsTeleradiology = () => {
             <div className="hidden md:flex items-center gap-4 mb-3 px-5">
               <div className="w-[180px] flex-shrink-0" />
               <div className="flex-1">
-                <span className="text-[11px] font-medium tracking-widest text-white/35 uppercase">Overseas Teleradiology</span>
+                <span className="text-[11px] font-medium tracking-widest text-white/60 uppercase">Overseas Teleradiology</span>
               </div>
               <div className="w-8 flex-shrink-0" />
               <div className="flex-1">
@@ -124,12 +124,12 @@ const AiVsTeleradiology = () => {
                   {/* Aspect label */}
                   <div className="md:w-[180px] md:flex-shrink-0">
                     <div className="text-white font-medium text-sm">{row.aspect}</div>
-                    <div className="text-white/45 text-xs mt-0.5 leading-snug">{row.sub}</div>
+                    <div className="text-white/60 text-xs mt-0.5 leading-snug">{row.sub}</div>
                   </div>
                   <div className="flex items-stretch gap-3 flex-1">
                     {/* Competitor card */}
                     <div className="flex-1 flex flex-col">
-                      <p className="text-[10px] text-white/35 mb-1 md:hidden">Overseas Teleradiology</p>
+                      <p className="text-[10px] text-white/60 mb-1 md:hidden">Overseas Teleradiology</p>
                       <div className="bg-white/[0.06] border border-white/10 rounded-xl p-4 flex-1">
                         <div className="text-white/70 font-medium text-xl leading-tight">{row.teleValue}</div>
                         <div className="text-white/60 text-xs mt-1">{row.teleSub}</div>

@@ -135,10 +135,10 @@ const PerformanceBasedPricingRadiologyAI = () => {
                 Picture the workflow. A radiologist opens an AI-prefilled report. The findings are off. Now they have to re-read the study from scratch <em>and</em> correct the AI output. That's not time saved — it's two passes instead of one, slower than if the AI had never been involved.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                This isn't a fringe complaint. In a February 2026 <a href="https://www.acr.org/News-and-Publications/2026/policy-guidance-on-clinical-ai" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">comment letter</a> to the U.S. Department of Health and Human Services, the American College of Radiology — representing more than 40,000 physicians — wrote that radiologists "must spend added time reviewing, validating, and interpreting AI outputs," so the short-term effect is frequently an increase, not a decrease, in workload.
+                This isn't a fringe complaint. In a February 2026 <a href="https://www.acr.org/News-and-Publications/2026/policy-guidance-on-clinical-ai" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">comment letter</a> to the U.S. Department of Health and Human Services, the American College of Radiology — representing more than 40,000 physicians — wrote that radiologists "must spend added time reviewing, validating, and interpreting AI outputs," so the short-term effect is frequently an increase, not a decrease, in workload.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                False positives are where the cost accumulates. In one real-world evaluation of a commercial lung nodule algorithm, 39% of flagged findings were not true nodules, at a rate of 1.36 false positives per scan (AJR; DOI: <a href="https://doi.org/10.2214/AJR.26.34524" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong hover:underline">10.2214/AJR.26.34524</a>). Each false alert is a finding the radiologist has to open, evaluate, and dismiss — paid for at the same per-study rate as a result that genuinely helped.
+                False positives are where the cost accumulates. In one real-world evaluation of a commercial lung nodule algorithm, 39% of flagged findings were not true nodules, at a rate of 1.36 false positives per scan (AJR; DOI: <a href="https://doi.org/10.2214/AJR.26.34524" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">10.2214/AJR.26.34524</a>). Each false alert is a finding the radiologist has to open, evaluate, and dismiss — paid for at the same per-study rate as a result that genuinely helped.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -182,7 +182,7 @@ const PerformanceBasedPricingRadiologyAI = () => {
                     <tr className="border-b border-gray-200">
                       <th className="text-left py-3 pr-4 text-[#0D0D0D] font-medium">Dimension</th>
                       <th className="text-center py-3 px-4 text-[#0D0D0D] font-medium">Per-study pricing</th>
-                      <th className="text-center py-3 px-4 text-xaid-blue font-medium">Performance-based pricing</th>
+                      <th className="text-center py-3 px-4 text-xaid-blue-strong font-medium">Performance-based pricing</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -196,7 +196,7 @@ const PerformanceBasedPricingRadiologyAI = () => {
                       <tr key={d} className={i % 2 === 0 ? 'bg-gray-50' : ''}>
                         <td className="py-3 pr-4 text-[#444] font-medium">{d}</td>
                         <td className="py-3 px-4 text-center text-[#666]">{per}</td>
-                        <td className="py-3 px-4 text-center text-xaid-blue font-medium">{perf}</td>
+                        <td className="py-3 px-4 text-center text-xaid-blue-strong font-medium">{perf}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -210,14 +210,14 @@ const PerformanceBasedPricingRadiologyAI = () => {
                 The real issue underneath pricing is trust. Efficiency gains from AI only exist when radiologists trust the output enough to <em>not</em> re-read everything from zero. Without that trust, you're not buying a productivity tool — you're buying an expensive second opinion that still needs a first opinion.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Performance-based pricing is, in effect, a way of putting that trust in writing. A vendor willing to tie its fee to results is making a statement about how much it believes in its own accuracy. This is why a <Link to="/blog/ai-radiology-terminology-glossary/" className="text-xaid-blue-strong hover:underline">no-edit guarantee</Link> — where the provider stands behind a report and reimburses when a radiologist has to materially correct it — matters more than any single benchmark on a slide. It aligns the vendor's incentive with the one thing the practice actually needs: output it can sign without redoing.
+                Performance-based pricing is, in effect, a way of putting that trust in writing. A vendor willing to tie its fee to results is making a statement about how much it believes in its own accuracy. This is why a <Link to="/blog/ai-radiology-terminology-glossary/" className="text-xaid-blue-strong underline underline-offset-2">no-edit guarantee</Link> — where the provider stands behind a report and reimburses when a radiologist has to materially correct it — matters more than any single benchmark on a slide. It aligns the vendor's incentive with the one thing the practice actually needs: output it can sign without redoing.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
                 What to ask before you sign
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Even before result-based contracts become standard, the framing changes the <em>pricing</em> questions worth asking a vendor: What accuracy level do you commit to, and what happens to my bill if you fall below it? Does your pricing reflect results, or only usage? And do you stand behind your output financially when a radiologist has to materially fix it? The answers tell you who is carrying the risk — you, or the vendor that built the model. (For the full vendor-evaluation checklist beyond pricing, see our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="text-xaid-blue-strong hover:underline">2026 buyer's guide</Link>.)
+                Even before result-based contracts become standard, the framing changes the <em>pricing</em> questions worth asking a vendor: What accuracy level do you commit to, and what happens to my bill if you fall below it? Does your pricing reflect results, or only usage? And do you stand behind your output financially when a radiologist has to materially fix it? The answers tell you who is carrying the risk — you, or the vendor that built the model. (For the full vendor-evaluation checklist beyond pricing, see our <Link to="/blog/ai-radiology-reporting-buyers-guide-2026/" className="text-xaid-blue-strong underline underline-offset-2">2026 buyer's guide</Link>.)
               </p>
 
               {/* FAQ */}

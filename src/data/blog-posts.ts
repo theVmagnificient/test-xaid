@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'radiologist-shortage-2026-ai-ct-reporting',
     title: 'Radiologist Shortage 2026: How AI CT Reporting Fills the Gap',
-    excerpt: 'The US faces a projected shortage of 54,100–139,000 physicians by 2034, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
+    excerpt: 'The US faces a projected a shortage of up to 86,000 physicians by 2036, with radiology among the hardest-hit specialties. Here\'s what the data says — and how outpatient centers and teleradiology providers are using AI to cover the gap today.',
     date: 'December 10, 2025',
     dateIso: '2025-12-10',
     category: 'Radiology Workforce',

@@ -218,11 +218,11 @@ const HipaaCompliantAiRadiology = () => {
                         <div className="flex flex-wrap items-center gap-2 mb-2">
                           <h3 className="text-[#0D0D0D] font-medium">{item.title}</h3>
                           {item.required && (
-                            <span className="bg-red-50 text-red-600 text-xs font-medium px-2 py-0.5 rounded-full">HIPAA Required</span>
+                            <span className="bg-red-50 text-red-700 text-xs font-medium px-2 py-0.5 rounded-full">HIPAA Required</span>
                           )}
                         </div>
                         <p className="text-[#666] text-[15px] leading-[1.65] font-light mb-3">{item.desc}</p>
-                        <div className="text-xaid-blue text-xs font-medium">✓ {item.xaid}</div>
+                        <div className="text-xaid-blue-strong-hover text-xs font-medium">✓ {item.xaid}</div>
                       </div>
                     </div>
                   </div>
@@ -264,7 +264,7 @@ const HipaaCompliantAiRadiology = () => {
                     </li>
                   ))}
                 </ul>
-                <Link to="/compliance/" className="mt-4 inline-block text-xaid-blue text-sm font-medium hover:underline">
+                <Link to="/compliance/" className="mt-4 inline-block text-xaid-blue-strong-hover text-sm font-medium hover:underline">
                   View full compliance documentation →
                 </Link>
               </div>

@@ -151,7 +151,7 @@ const ForOutpatientCenters = () => {
                   >
                     {/* Challenge card */}
                     <div className="flex flex-col h-full rounded-xl bg-[#F4F4F4] border border-[#E5E5E5] p-6 md:p-7">
-                      <span className="text-[11px] font-semibold tracking-[0.12em] text-[#8A8A8A] uppercase mb-3">
+                      <span className="text-[11px] font-semibold tracking-[0.12em] text-[#666] uppercase mb-3">
                         Challenge
                       </span>
                       <p className="text-[#1A1A1A] text-[15px] leading-[1.6]">
@@ -170,7 +170,7 @@ const ForOutpatientCenters = () => {
 
                     {/* Solution card */}
                     <div className="flex flex-col h-full rounded-xl bg-xaid-blue/[0.06] border border-xaid-blue/30 p-6 md:p-7">
-                      <span className="text-[11px] font-semibold tracking-[0.12em] text-xaid-blue uppercase mb-3">
+                      <span className="text-[11px] font-semibold tracking-[0.12em] text-xaid-blue-strong-hover uppercase mb-3">
                         With <span className="normal-case">xAID</span>
                       </span>
                       <p className="text-[#1A1A1A] text-[15px] leading-[1.6]">
@@ -230,7 +230,7 @@ const ForOutpatientCenters = () => {
                   <div className="flex items-center justify-between gap-2 mb-3">
                     <h3 className="text-white font-medium text-[20px] group-hover:text-xaid-blue transition-colors">{m.title}</h3>
                     {m.badge && (
-                      <span className="bg-xaid-blue/15 text-xaid-blue text-[10px] font-medium uppercase tracking-wider px-2 py-1 rounded-full whitespace-nowrap">
+                      <span className="bg-xaid-blue/15 text-[#B7C6FF] text-[10px] font-medium uppercase tracking-wider px-2 py-1 rounded-full whitespace-nowrap">
                         {m.badge}
                       </span>
                     )}
