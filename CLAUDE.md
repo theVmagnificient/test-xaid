@@ -13,6 +13,7 @@ bun run build:dev    # Development build (keeps source maps etc.)
 bun run lint         # Run ESLint
 bun run test         # Run tests once (Vitest)
 bun run test:watch   # Run tests in watch mode
+bun run guard        # Visual-quality guard: contrast baseline + text-overflow, all pages (run after build, before deploy)
 bun run deploy       # Deploy dist/ to /var/www/xaid.ai/ on aurora via rsync (see Deployment below)
 ```
 
@@ -61,7 +62,7 @@ Tests live in `src/**/*.{test,spec}.{ts,tsx}` and use Vitest + jsdom + `@testing
 ### To deploy
 
 ```bash
-bun run build && bun run deploy
+bun run build && bun run guard && bun run deploy
 ```
 
 That's it. The `deploy` script in `package.json` runs:
@@ -95,7 +96,7 @@ rsync -avr --exclude ".DS_Store" dist/ aurora-xaid-landing-deploy:./
 ## Notes
 
 - **TypeScript strictness**: `strict`, `noImplicitAny`, and `strictNullChecks` are all `false` intentionally — keep it that way.
-- **Spline 3D**: `Hero` renders `<spline-viewer>` web components and lazily injects the viewer script (unpkg, v1.12.61) on idle, homepage only, skipping prerender and `prefers-reduced-motion`. There is intentionally NO global viewer script in `index.html` and NO `@splinetool/*` npm deps — loading it globally cost every page 636KB/~10s CPU (homepage was Lighthouse 25). Don't re-add either.
+- **Spline 3D**: `Hero` renders `<spline-viewer>` web components and lazily injects the viewer script (unpkg, v1.12.61) on idle, homepage only, skipping prerender (NOT reduced-motion — that setting must not remove content; bug 2026-07-03). There is intentionally NO global viewer script in `index.html` and NO `@splinetool/*` npm deps — loading it globally cost every page 636KB/~10s CPU (homepage was Lighthouse 25). Don't re-add either.
 - **Analytics**: Google Tag Manager (`GTM-K398M2F6`) is embedded in `index.html`. Do not remove it.
 - **Formspark/reCAPTCHA keys**: Both are hardcoded in `Contact.tsx` (public-facing keys, not secrets).
 - **lovable-tagger**: Vite plugin only active in dev mode — it instruments components for the Lovable visual editor. Do not remove it.
@@ -111,3 +112,4 @@ This repo (the **site**) has a sibling repo `../site-poster` (the **content brai
 - **`../site-poster/sources.json`** — the news-source registry the pipeline ingests from.
 - **Keyword research uses DataForSEO.** Credentials live in `.env` (`DATAFORSEO_AUTH_B64`, base64 of `login:password`) and are read only by tooling/agents at content-generation time. **They must NEVER be bundled into the site** — do not prefix with `VITE_`, do not reference them in any `src/` file, and keep `.env` gitignored. The static SPA makes no DataForSEO calls at runtime.
 - Reusable end-of-article CTA component: `src/components/BlogCTA.tsx`.
+- **Quality guard for daily articles**: `bun run guard` (after build) checks every sitemap page for (a) contrast combos not in the accepted baseline (`scripts/guard-baseline.json` — the unified-color debt is blessed there; a broken template or off-brand color turns red with exact location), (b) any structural axe violation, (c) text overflowing its box at 1440px and 390px. Standard-template articles pass without baseline updates. Refresh baseline ONLY after deliberate design changes: `node scripts/guard.mjs --update-baseline`.

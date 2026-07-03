@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "rsync -rlv --no-perms --no-times --no-owner --no-group --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./"
+    "deploy": "rsync -rlv --no-perms --no-times --no-owner --no-group --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./",
+    "guard": "node scripts/guard.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -103,7 +104,10 @@
       "/blog/should-patients-be-told-when-ai-reads-their-scan/",
       "/blog/ai-radiology-reporting-draft-then-sign/",
       "/blog/radiology-ai-access-disparities/",
-      "/blog/how-ai-cuts-mri-wait-times/"
+      "/blog/how-ai-cuts-mri-wait-times/",
+      "/blog/lung-cancer-screening-ct-criteria/",
+      "/blog/medical-device-cybersecurity/",
+      "/blog/radiology-prior-authorization-imaging-throughput/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,
@@ -122,12 +126,14 @@
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react-swc": "^3.11.0",
     "autoprefixer": "^10.4.21",
+    "axe-core": "^4.12.1",
     "eslint": "^9.32.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
     "jsdom": "^20.0.3",
     "lovable-tagger": "^1.1.13",
+    "playwright": "1.61.1",
     "postcss": "^8.5.6",
     "react-snap": "^1.23.0",
     "tailwindcss": "^3.4.17",

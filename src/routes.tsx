@@ -49,6 +49,9 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/ai-radiology-reporting-draft-then-sign': () => import('./pages/blog/GenerativeAiRadiologyReportingDraft'),
   '/blog/radiology-ai-access-disparities': () => import('./pages/blog/RadiologyAiAccessDisparities'),
   '/blog/how-ai-cuts-mri-wait-times': () => import('./pages/blog/AiMriWaitTimesThroughput'),
+  '/blog/lung-cancer-screening-ct-criteria': () => import('./pages/blog/LungCancerScreeningCtCriteria'),
+  '/blog/medical-device-cybersecurity': () => import('./pages/blog/MedicalDeviceCybersecurity'),
+  '/blog/radiology-prior-authorization-imaging-throughput': () => import('./pages/blog/RadiologyPriorAuthorizationThroughput'),
 };
 
 export const normalizePath = (pathname: string): string =>

@@ -11,6 +11,36 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'lung-cancer-screening-ct-criteria',
+    title: 'Simpler Lung Cancer Screening Criteria Could Mean a Lot More Chest CTs',
+    excerpt: "A new JAMA Internal Medicine study finds a simple 'years smoked' threshold captures 97% of the highest-benefit patients versus 77% under current USPSTF pack-year criteria — and could roughly double the eligible population. Here's what broader eligibility means for low-dose chest CT volume and reporting capacity.",
+    date: 'July 3, 2026',
+    dateIso: '2026-07-03',
+    category: 'Screening & Capacity',
+    readingTime: 7,
+    keywords: ['lung cancer screening ct criteria', 'USPSTF lung cancer screening', 'years smoked criteria', 'low-dose chest CT', 'AI CT reporting'],
+  },
+  {
+    slug: 'medical-device-cybersecurity',
+    title: 'Medical Device Cybersecurity: What the CISA DICOM Advisory Means for AI Imaging Buyers',
+    excerpt: "CISA's June 2026 advisory flagged five vulnerabilities in OFFIS DCMTK, an open-source DICOM toolkit embedded across imaging software. Here's what it means for imaging IT — and the security questions to ask any AI CT reporting vendor about data handling, PHI flow, and deployment model.",
+    date: 'July 3, 2026',
+    dateIso: '2026-07-03',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['medical device cybersecurity', 'CISA DICOM advisory', 'DCMTK vulnerability', 'AI CT reporting security', 'imaging IT security'],
+  },
+  {
+    slug: 'radiology-prior-authorization-imaging-throughput',
+    title: 'Radiology Prior Authorization Reform: What Faster Medicare Advantage Approvals Mean for Imaging Throughput',
+    excerpt: "A House committee advanced the Improving Seniors' Timely Access to Care Act (H.R. 3514) to curb prior authorization in Medicare Advantage. Faster approvals mean more scans reach the reading room — moving the bottleneck downstream to reporting turnaround.",
+    date: 'July 3, 2026',
+    dateIso: '2026-07-03',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['radiology prior authorization', 'Medicare Advantage prior authorization', 'imaging throughput', 'radiology reporting turnaround', 'prior authorization reform imaging'],
+  },
+  {
     slug: 'should-patients-be-told-when-ai-reads-their-scan',
     title: 'Should Patients Be Told When AI Reads Their Scan? What a New Survey Reveals',
     excerpt: "In a survey of more than 1,000 imaging patients, 96% said they should be told when AI is used to report on their scan — and 64% said both the doctor and the AI share the blame if it's wrong. Here's what the data means for how imaging centers disclose AI and keep a radiologist accountable.",

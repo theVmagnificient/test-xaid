@@ -1,0 +1,92 @@
+{
+  "note": "Accepted contrast combos for the unified #476CFF brand color (founder decision 2026-07-03). Regenerate ONLY after a deliberate design change: node scripts/guard.mjs --update-baseline",
+  "generatedAt": "2026-07-03T15:55:39.641Z",
+  "pages": 37,
+  "acceptedContrastCombos": {
+    "#4870100|#181818": {
+      "ratio": 4.06,
+      "example": "/ :: <span class=\"text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] ",
+      "count": 102
+    },
+    "#4870100|#282828": {
+      "ratio": 3.54,
+      "example": "/ :: <a class=\"text-xaid-blue text-sm font-medium hover:underline self-start\" href=\"/",
+      "count": 62
+    },
+    "#4870100|#100100100": {
+      "ratio": 4.32,
+      "example": "/ :: <span class=\"text-xaid-blue-strong font-medium text-[11px] uppercase tracking-[0",
+      "count": 76
+    },
+    "#100100100|#4870100": {
+      "ratio": 4.32,
+      "example": "/ :: <h3 class=\"text-[18px] font-medium leading-[1.3] text-white mb-1\">You send us th",
+      "count": 55
+    },
+    "#4870100|#101010": {
+      "ratio": 4.49,
+      "example": "/ :: <span class=\"text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em]\"",
+      "count": 84
+    },
+    "#4870100|#e8e8e8": {
+      "ratio": 3.62,
+      "example": "/ :: <a class=\"text-xaid-blue-strong text-sm font-normal hover:underline\" href=\"/ai-v",
+      "count": 3
+    },
+    "#4870100|#181830": {
+      "ratio": 3.93,
+      "example": "/pricing/ :: <th class=\"text-center px-5 py-4 text-[11px] font-medium tracking-wider text-xai",
+      "count": 3
+    },
+    "#4870100|#101020": {
+      "ratio": 4.29,
+      "example": "/pricing/ :: <td class=\"px-5 py-4 text-center text-[14px] font-medium align-top leading-snug ",
+      "count": 32
+    },
+    "#4870100|#202030": {
+      "ratio": 3.74,
+      "example": "/ai-vs-teleradiology/ :: <div class=\"text-xaid-blue font-semibold text-xl leading-tight\">95% verified</di",
+      "count": 6
+    },
+    "#4870100|#182040": {
+      "ratio": 3.69,
+      "example": "/blog/how-accurate-is-ai-radiology-reporting/ :: <span class=\"bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounde",
+      "count": 16
+    },
+    "#4870100|#f8f8f8": {
+      "ratio": 4.13,
+      "example": "/blog/how-accurate-is-ai-radiology-reporting/ :: <span class=\"text-xaid-blue-strong font-medium text-lg\">92.2%</span>",
+      "count": 35
+    },
+    "#4870100|#182030": {
+      "ratio": 3.87,
+      "example": "/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting/ :: <div class=\"text-xaid-blue font-medium mb-1\">Week 1</div>",
+      "count": 3
+    },
+    "#4870100|#202020": {
+      "ratio": 3.76,
+      "example": "/blog/how-to-switch-from-teleradiology-to-ai-ct-reporting/ :: <span class=\"text-xaid-blue text-xs\">15–30 minutes</span>",
+      "count": 4
+    },
+    "#4870100|#f0f0100": {
+      "ratio": 3.81,
+      "example": "/blog/ai-radiology-reporting-buyers-guide-2026/ :: <span class=\"text-xs font-medium px-2 py-0.5 rounded-full flex-shrink-0 mt-0.5 b",
+      "count": 2
+    },
+    "#4870100|#101820": {
+      "ratio": 4.2,
+      "example": "/how-ai-ct-reporting-works/ :: <span class=\"text-[12px] font-semibold tracking-[0.12em] text-xaid-blue mb-2\">xA",
+      "count": 3
+    },
+    "#4870100|#101828": {
+      "ratio": 4.12,
+      "example": "/how-ai-ct-reporting-works/ :: <a class=\"text-xaid-blue text-sm font-medium hover:underline\" href=\"/accuracy/\">",
+      "count": 3
+    },
+    "#707070|#101010": {
+      "ratio": 3.81,
+      "example": "/blog/lung-cancer-screening-ct-criteria/ :: <a class=\"text-white/40 hover:text-white/60 text-[15px] font-light transition-co",
+      "count": 1
+    }
+  }
+}
