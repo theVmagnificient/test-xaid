@@ -68,7 +68,7 @@ Contact: https://xaid.ai/#contact-us
 
 ## How It Works
 
-- How AI CT Reporting Works (5-step workflow: DICOM in → AI analysis → radiologist review → signed report): https://xaid.ai/how-ai-ct-reporting-works/
+- How AI CT Reporting Works (5-step workflow: DICOM in → AI analysis → in-house radiologist review → ready-to-sign report (your radiologist signs)): https://xaid.ai/how-ai-ct-reporting-works/
 
 ## Key pages
 

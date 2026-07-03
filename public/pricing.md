@@ -27,7 +27,7 @@ Last updated: July 2026
 
 - Ready-to-sign CT report — head, chest, or abdomen
 - Two AI analysis layers (foundation model + secondary AI), 100+ findings per report
-- In-house radiologist review and sign-off on every report
+- In-house radiologist review on every preliminary — final sign-off stays with your reading radiologist
 - 2–12 hour turnaround time (configurable SLA)
 - Standard DICOM input / HL7 output
 - Accuracy guarantee: 95% accuracy — or we reimburse
@@ -41,7 +41,7 @@ Last updated: July 2026
 - vs. Locum radiologist: $500,000–$650,000/yr salary cost, 6–18 months to hire
 - vs. Traditional teleradiology: typically $40–$80/study without quality guarantee
 - vs. Nighthawk-style after-hours services: 30–100% after-hours surcharge → xAID flat rate, no surcharge, 24/7
-- vs. Enterprise AI detection tools: $75,000–$200,000+ annual contract; detection flags only, radiologist still reports from scratch → xAID per-study, complete signed report included
+- vs. Enterprise AI detection tools: $75,000–$200,000+ annual contract; detection flags only, radiologist still reports from scratch → xAID per-study, complete radiologist-reviewed, ready-to-sign report included
 
 ## Comparison Pages
 

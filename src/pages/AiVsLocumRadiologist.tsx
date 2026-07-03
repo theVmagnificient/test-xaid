@@ -9,7 +9,7 @@ const rows = [
   { aspect: 'Quality guarantee', locum: 'None — individual radiologist variability', xaid: '95% accuracy — or we reimburse' },
   { aspect: 'Staffing risk', locum: 'High — cancellations, no-shows, contract gaps', xaid: 'None — AI + in-house radiologist team, no single point of failure' },
   { aspect: 'Scalability', locum: 'Linear — one more radiologist per X studies', xaid: 'Elastic — same per-study rate regardless of volume spikes' },
-  { aspect: 'Radiologist sign-off', locum: 'Yes', xaid: 'Yes — in-house European radiologist reviews every report' },
+  { aspect: 'Radiologist sign-off', locum: 'Yes', xaid: 'In-house review on every preliminary — your radiologist signs the final' },
   { aspect: 'Modalities', locum: 'Depends on recruited radiologist\'s subspecialty', xaid: 'CT only (head, chest, abdomen — 100+ findings)' },
   { aspect: 'No commitment pilot', locum: 'Not applicable', xaid: 'Free 5-study pilot, no integration required' },
 ];

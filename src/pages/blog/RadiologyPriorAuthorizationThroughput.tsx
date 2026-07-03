@@ -243,7 +243,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
                     <tr>
                       <td className="py-3 pr-4 font-medium text-[#0D0D0D]">Lever that helps</td>
                       <td className="py-3 px-4">Policy and appeals</td>
-                      <td className="py-3 pl-4">Draft-first AI reporting with radiologist sign-off</td>
+                      <td className="py-3 pl-4">Draft-first AI reporting with in-house review and final sign-off by the reading radiologist</td>
                     </tr>
                   </tbody>
                 </table>

@@ -171,7 +171,7 @@ const Compliance = () => {
                 {[
                   { title: 'AI analyzes the study', desc: 'Two AI layers process 100+ findings across head, chest, or abdomen CT' },
                   { title: 'Radiologist reviews', desc: 'Licensed, credentialed European radiologist reviews the AI draft and all findings' },
-                  { title: 'Radiologist signs off', desc: 'The radiologist is professionally accountable for the report content and approves it before delivery' },
+                  { title: 'Your radiologist signs', desc: 'The reviewed preliminary is delivered ready to sign — the final signature and professional accountability stay with your reading radiologist' },
                 ].map((item, i) => (
                   <div
                     key={item.title}

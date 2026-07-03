@@ -173,7 +173,7 @@ const AiTeleradiologyVsTraditional = () => {
                       ['Setup time', '2–8 weeks', '<1 week'],
                       ['DICOM integration', 'Standard', 'Standard'],
                       ['HL7 delivery', 'Standard', 'Standard'],
-                      ['Radiologist sign-off', 'Yes', 'Yes (every report)'],
+                      ['Radiologist sign-off', 'Yes', 'In-house review — your radiologist signs'],
                       ['Accuracy evidence', 'None published', '95% — or we reimburse'],
                       ['Report format', 'Unstructured narrative', 'Structured + narrative'],
                       ['Liability', 'Signing radiologist', 'Signing radiologist'],
