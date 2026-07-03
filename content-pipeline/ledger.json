@@ -82,18 +82,32 @@
       "topic": "lung cancer screening criteria / CT volume (JAMA Internal Medicine)",
       "source": "Radiology Business + JAMA Internal Medicine",
       "date": "2026-07-03",
-      "status": "pending-approval"
+      "approved": "2026-07-03 founder-approved after fact-check"
     },
     {
       "slug": "medical-device-cybersecurity",
       "topic": "medical device/DICOM cybersecurity (CISA DCMTK advisory)",
       "source": "Radiology Business + CISA",
       "date": "2026-07-03",
-      "status": "pending-approval"
+      "approved": "2026-07-03 founder-approved after fact-check"
     },
     {
       "slug": "radiology-prior-authorization-imaging-throughput",
       "topic": "prior-auth reform / imaging throughput (H.R.3514)",
+      "source": "Radiology Business",
+      "date": "2026-07-03",
+      "approved": "2026-07-03 founder-approved after fact-check"
+    },
+    {
+      "slug": "wrong-patient-radiology-error",
+      "topic": "wrong-patient read / DICOM worklist recall (GE AW Server, FDA Class 2)",
+      "source": "Radiology Business + FDA",
+      "date": "2026-07-03",
+      "status": "pending-approval"
+    },
+    {
+      "slug": "radiology-malpractice-ai-reporting",
+      "topic": "radiology malpractice / missed-cancer $7M verdict / AI as safety net",
       "source": "Radiology Business",
       "date": "2026-07-03",
       "status": "pending-approval"
@@ -134,6 +148,16 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/house-committee-advances-radiology-backed-legislation-curb-prior-authorization",
       "date": "2026-07-03",
       "decision": "drafted -> radiology-prior-authorization-imaging-throughput"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/servers-recalled-after-glitch-results-radiologists-reading-images-wrong-patients",
+      "date": "2026-07-03",
+      "decision": "drafted -> wrong-patient-radiology-error"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiology-providers-must-pay-7m-modify-policies-after-breast-cancer-miss",
+      "date": "2026-07-03",
+      "decision": "drafted -> radiology-malpractice-ai-reporting"
     }
   ]
 }

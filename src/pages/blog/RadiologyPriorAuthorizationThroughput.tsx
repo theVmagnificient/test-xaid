@@ -17,17 +17,17 @@ const RadiologyPriorAuthorizationThroughput = () => {
     <>
       <Helmet defer={false}>
         <title>Prior Authorization Reform and Imaging Throughput | xAID</title>
-        <meta name="description" content="A House committee advanced the Improving Seniors' Timely Access to Care Act to curb radiology prior authorization in Medicare Advantage. Here's how faster approvals shift the imaging bottleneck to reporting turnaround." />
+        <meta name="description" content="Congress advanced prior-auth reform for Medicare Advantage. Fewer imaging denials shift the bottleneck to reporting — the throughput case for AI CT reporting." />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Prior Authorization Reform and Imaging Throughput | xAID" />
-        <meta property="og:description" content="A House committee advanced the Improving Seniors' Timely Access to Care Act to curb radiology prior authorization in Medicare Advantage. Here's how faster approvals shift the imaging bottleneck to reporting turnaround." />
+        <meta property="og:description" content="Congress advanced prior-auth reform for Medicare Advantage. Fewer imaging denials shift the bottleneck to reporting — the throughput case for AI CT reporting." />
         <meta property="og:url" content="https://xaid.ai/blog/radiology-prior-authorization-imaging-throughput" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Prior Authorization Reform and Imaging Throughput | xAID" />
-        <meta name="twitter:description" content="A House committee advanced the Improving Seniors' Timely Access to Care Act to curb radiology prior authorization in Medicare Advantage. Here's how faster approvals shift the imaging bottleneck to reporting turnaround." />
+        <meta name="twitter:description" content="Congress advanced prior-auth reform for Medicare Advantage. Fewer imaging denials shift the bottleneck to reporting — the throughput case for AI CT reporting." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -84,7 +84,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
               "name": "Why does prior authorization reform matter for radiology reporting turnaround?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "If fewer scans are blocked or delayed at the approval stage, more imaging studies reach the reading room. The constraint on throughput then shifts downstream to reporting turnaround — how quickly radiologists can read and sign studies. AI that produces a structured, comprehensive report draft for a radiologist to review and sign helps absorb that added volume without extending turnaround times."
+                "text": "If fewer scans are blocked or delayed at the approval stage, more imaging studies reach the reading room. The constraint on throughput then shifts downstream to reporting turnaround — how quickly radiologists can read and sign studies. AI that produces a structured, comprehensive ready-to-sign report draft — reviewed by an in-house radiologist, signed by the reading radiologist helps absorb that added volume without extending turnaround times."
               }
             }
           ]
@@ -122,7 +122,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
                 { stat: '~53M', label: 'MA prior auth determinations', sub: 'in 2024' },
                 { stat: '7.7%', label: 'Requests denied', sub: '~4.1M in 2024' },
                 { stat: '80.7%', label: 'Appealed denials overturned', sub: 'yet only 11.5% appealed' },
-                { stat: '94%', label: 'Physicians say PA delays care', sub: 'AMA 2024 survey' },
+                { stat: '94%', label: 'Physicians say PA delays care', sub: 'AMA survey published in 2024' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
@@ -199,7 +199,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
                   },
                   {
                     title: 'A radiologist stays accountable for every read',
-                    desc: "Higher volume must not mean lower oversight. A radiologist-in-the-loop model — where AI drafts and a physician reviews and signs every report — keeps accountability intact even as throughput climbs.",
+                    desc: "Higher volume must not mean lower oversight. A radiologist-in-the-loop model — where AI drafts, an in-house radiologist reviews, and the reading physician signs every report — keeps accountability intact even as throughput climbs.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="bg-gray-50 rounded-xl p-5">
@@ -253,7 +253,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
                 Where this fits with AI CT reporting
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                Policy that increases imaging volume raises a question every imaging operation will face: can turnaround hold as more studies arrive? AI CT reporting is built for exactly this pressure. A foundation-model approach produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link> across findings rather than flagging a single pathology, and a radiologist reviews and signs every report before it reaches the chart. When prior authorization reform pushes more scans downstream, ready-to-sign drafts are how a reading room absorbs the volume without letting turnaround slip — and without removing the radiologist from the loop.
+                Policy that increases imaging volume raises a question every imaging operation will face: can turnaround hold as more studies arrive? AI CT reporting is built for exactly this pressure. A foundation-model approach produces a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report draft</Link> across findings rather than flagging a single pathology, and an in-house radiologist reviews every preliminary and the reading radiologist signs the final before it reaches the chart. When prior authorization reform pushes more scans downstream, ready-to-sign drafts are how a reading room absorbs the volume without letting turnaround slip — and without removing the radiologist from the loop.
               </p>
 
               {/* FAQ */}
@@ -274,7 +274,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
                   },
                   {
                     q: 'Why does prior authorization reform matter for radiology reporting turnaround?',
-                    a: 'If fewer scans are blocked or delayed at the approval stage, more imaging studies reach the reading room. The constraint on throughput then shifts downstream to reporting turnaround — how quickly radiologists can read and sign studies. AI that produces a structured, comprehensive report draft for a radiologist to review and sign helps absorb that added volume without extending turnaround times.',
+                    a: 'If fewer scans are blocked or delayed at the approval stage, more imaging studies reach the reading room. The constraint on throughput then shifts downstream to reporting turnaround — how quickly radiologists can read and sign studies. AI that produces a structured, comprehensive ready-to-sign report draft — reviewed by an in-house radiologist, signed by the reading radiologist helps absorb that added volume without extending turnaround times.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">
@@ -285,7 +285,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
               </div>
 
               <p className="text-[#757575] text-[13px] leading-[1.6] font-light mt-10">
-                Sources: House committee action and AMA CEO quote as reported by <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/house-committee-advances-radiology-backed-legislation-curb-prior-authorization" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a>; bill text and status via <a href="https://www.congress.gov/bill/119th-congress/house-bill/3514" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Congress.gov (H.R. 3514)</a> and <a href="https://www.marshall.senate.gov/newsroom/press-releases/house-ways-and-means-committee-advances-the-improving-seniors-timely-access-to-care-act/" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Sen. Marshall's office</a>; prior authorization volume and denial data from <a href="https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">KFF</a> and the <a href="https://oig.hhs.gov/reports/all/2022/some-medicare-advantage-organization-denials-of-prior-authorization-requests-raise-concerns-about-beneficiary-access-to-medically-necessary-care/" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">HHS OIG</a>; physician burden from the <a href="https://www.ama-assn.org/press-center/ama-press-releases/ama-survey-indicates-prior-authorization-wreaks-havoc-patient-care" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">AMA 2024 survey</a>; decision-timeframe rule from <a href="https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">CMS</a>. Figures are rounded as reported.
+                Sources: House committee action and AMA CEO quote as reported by <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/house-committee-advances-radiology-backed-legislation-curb-prior-authorization" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a>; bill text and status via <a href="https://www.congress.gov/bill/119th-congress/house-bill/3514" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Congress.gov (H.R. 3514)</a> and <a href="https://www.marshall.senate.gov/newsroom/press-releases/house-ways-and-means-committee-advances-the-improving-seniors-timely-access-to-care-act/" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Sen. Marshall's office</a>; prior authorization volume and denial data from <a href="https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">KFF</a> and the <a href="https://oig.hhs.gov/reports/all/2022/some-medicare-advantage-organization-denials-of-prior-authorization-requests-raise-concerns-about-beneficiary-access-to-medically-necessary-care/" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">HHS OIG</a>; physician burden from the <a href="https://www.ama-assn.org/press-center/ama-press-releases/ama-survey-indicates-prior-authorization-wreaks-havoc-patient-care" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">AMA survey published in 2024</a>; decision-timeframe rule from <a href="https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">CMS</a>. Figures are rounded as reported.
               </p>
 
             </div>
@@ -294,7 +294,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
 
         <BlogCTA
           heading="More approved scans. The same turnaround."
-          sub="When prior authorization reform pushes volume downstream, ready-to-sign report drafts keep turnaround steady — with a radiologist signing every report. Try xAID on 5 free studies."
+          sub="When prior authorization reform pushes volume downstream, ready-to-sign report drafts keep turnaround steady — with your radiologist signing every report. Try xAID on 5 free studies."
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"

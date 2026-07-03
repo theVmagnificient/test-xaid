@@ -60,6 +60,22 @@ const quant = (hex) => {
 const urls = readFileSync(join(root, 'public/sitemap.xml'), 'utf8')
   .match(/<loc>([^<]+)<\/loc>/g).map((m) => m.replace(/<\/?loc>/g, '').replace('https://xaid.ai', ''));
 
+// Approval gate: a pipeline article whose ledger status is still "pending-approval"
+// must never reach a deployable build (incident 2026-07-03: three pending articles
+// were deployed because they were already integrated into the 4-file contract).
+const approvalFlags = [];
+try {
+  const ledger = JSON.parse(readFileSync(join(root, 'content-pipeline/ledger.json'), 'utf8'));
+  const pending = new Set((ledger.published ?? []).filter((p) => p.status === 'pending-approval').map((p) => p.slug));
+  const known = new Set((ledger.published ?? []).map((p) => p.slug));
+  for (const u of urls) {
+    if (!u.startsWith('/blog/') || u === '/blog/') continue;
+    const slug = u.replace(/^\/blog\//, '').replace(/\/$/, '');
+    if (pending.has(slug)) approvalFlags.push(`PENDING-APPROVAL  ${u}  — ledger says this article is not approved yet; get founder approval (flip ledger status) or pull it from the 4-file contract before deploying`);
+    else if (!known.has(slug)) approvalFlags.push(`NOT-IN-LEDGER  ${u}  — article is integrated but absent from content-pipeline/ledger.json; register it (and get approval) before deploying`);
+  }
+} catch { /* ledger optional */ }
+
 const axeSource = readFileSync(join(root, 'node_modules/axe-core/axe.min.js'), 'utf8');
 
 const CALM_CSS = '.osano-cm-window{display:none!important} .fade-up{opacity:1!important;transform:none!important;transition:none!important} *{animation:none!important} html{scroll-behavior:auto!important}';
@@ -169,6 +185,7 @@ if (UPDATE) {
   process.exit(0);
 }
 
+redFlags.unshift(...approvalFlags);
 if (redFlags.length) {
   console.error(`\n🔴 GUARD FAILED — ${redFlags.length} new issue(s) not in the accepted baseline:\n`);
   for (const f of redFlags) console.error('  ' + f);

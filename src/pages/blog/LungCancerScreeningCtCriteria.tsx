@@ -18,10 +18,10 @@ const LungCancerScreeningCtCriteria = () => {
     <>
       <Helmet defer={false}>
         <title>Simpler Lung CT Screening Criteria, More Scans | xAID</title>
-        <meta name="description" content="A JAMA Internal Medicine study shows a years-smoked threshold captures 97% of highest-benefit patients vs 77% under USPSTF pack-year criteria. What broader lung cancer screening CT criteria mean for low-dose chest CT volume and reporting capacity." />
+        <meta name="description" content="A JAMA Internal Medicine study: a years-smoked threshold captures up to 97% of high-benefit patients. What broader lung screening criteria mean for CT volume." />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Simpler Lung CT Screening Criteria, More Scans | xAID" />
-        <meta property="og:description" content="A JAMA Internal Medicine study shows a years-smoked threshold captures 97% of highest-benefit patients vs 77% under USPSTF pack-year criteria. What broader lung cancer screening CT criteria mean for low-dose chest CT volume and reporting capacity." />
+        <meta property="og:description" content="A JAMA Internal Medicine study: a years-smoked threshold captures up to 97% of high-benefit patients. What broader lung screening criteria mean for CT volume." />
         <meta property="og:url" content={canonical} />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
@@ -86,7 +86,7 @@ const LungCancerScreeningCtCriteria = () => {
               "name": "How can screening programs handle more chest CT volume without adding radiologists?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Reporting, not scanning, is often the bottleneck when screening volume grows. AI CT reporting can generate a structured draft report for each low-dose chest CT that a radiologist reviews and signs, so a program can absorb more studies without expanding radiologist headcount at the same rate. The radiologist remains accountable for every final read; AI handles the repetitive drafting and measurement work that scales with volume."
+                "text": "Reporting, not scanning, is often the bottleneck when screening volume grows. AI CT reporting can generate a ready-to-sign structured draft for each low-dose chest CT — xAID's in-house radiologist reviews the preliminary, and your radiologist signs the final, so a program can absorb more studies without expanding radiologist headcount at the same rate. The radiologist remains accountable for every final read; AI handles the repetitive drafting and measurement work that scales with volume."
               }
             }
           ]
@@ -252,7 +252,7 @@ const LungCancerScreeningCtCriteria = () => {
                 Where AI CT reporting fits
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                If broader criteria arrive, the lever that lets screening scale is throughput per radiologist — not just more radiologists. This is where AI CT reporting is relevant. Rather than flagging a single finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">foundation-model approach</Link> can produce a comprehensive, structured draft for each low-dose chest CT — nodules described and measured, categorized, and formatted into a report a radiologist reviews and signs.
+                If broader criteria arrive, the lever that lets screening scale is throughput per radiologist — not just more radiologists. This is where AI CT reporting is relevant. Rather than flagging a single finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">foundation-model approach</Link> can produce a comprehensive, structured draft for each low-dose chest CT — nodules described and measured, categorized, and formatted into a ready-to-sign report — reviewed in-house, signed by your radiologist.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 The radiologist stays in the loop and remains accountable for every final read. What changes is where their time goes: less repetitive drafting and measurement, more clinical judgment. That is what turns a doubling of eligible patients into a manageable increase in workload rather than a backlog.
@@ -279,7 +279,7 @@ const LungCancerScreeningCtCriteria = () => {
                   },
                   {
                     q: 'How can screening programs handle more chest CT volume without adding radiologists?',
-                    a: 'Reporting, not scanning, is often the bottleneck when screening volume grows. AI CT reporting can generate a structured draft report for each low-dose chest CT that a radiologist reviews and signs, so a program can absorb more studies without expanding radiologist headcount at the same rate. The radiologist remains accountable for every final read; AI handles the repetitive drafting and measurement work that scales with volume.',
+                    a: 'Reporting, not scanning, is often the bottleneck when screening volume grows. AI CT reporting can generate a ready-to-sign structured draft for each low-dose chest CT — xAID’s in-house radiologist reviews the preliminary, and your radiologist signs the final, so a program can absorb more studies without expanding radiologist headcount at the same rate. The radiologist remains accountable for every final read; AI handles the repetitive drafting and measurement work that scales with volume.',
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">

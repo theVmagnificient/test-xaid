@@ -17,17 +17,17 @@ const MedicalDeviceCybersecurity = () => {
     <>
       <Helmet defer={false}>
         <title>CISA DICOM Advisory: What AI Imaging Buyers Must Know | xAID</title>
-        <meta name="description" content="CISA flagged five DICOM toolkit vulnerabilities in June 2026, one rated 9.8 critical. What it means for imaging IT and the security questions to ask any AI CT reporting vendor." />
+        <meta name="description" content="CISA flagged five DCMTK DICOM vulnerabilities (one 9.8 critical). What the advisory means for imaging IT — and the security questions AI imaging buyers should ask." />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="CISA DICOM Advisory: What AI Imaging Buyers Must Know | xAID" />
-        <meta property="og:description" content="CISA flagged five DICOM toolkit vulnerabilities in June 2026, one rated 9.8 critical. What it means for imaging IT and the security questions to ask any AI CT reporting vendor." />
+        <meta property="og:description" content="CISA flagged five DCMTK DICOM vulnerabilities (one 9.8 critical). What the advisory means for imaging IT — and the security questions AI imaging buyers should ask." />
         <meta property="og:url" content="https://xaid.ai/blog/medical-device-cybersecurity" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="CISA DICOM Advisory: What AI Imaging Buyers Must Know | xAID" />
-        <meta name="twitter:description" content="CISA flagged five DICOM toolkit vulnerabilities in June 2026, one rated 9.8 critical. What it means for imaging IT and the security questions to ask any AI CT reporting vendor." />
+        <meta name="twitter:description" content="CISA flagged five DCMTK DICOM vulnerabilities (one 9.8 critical). What the advisory means for imaging IT — and the security questions AI imaging buyers should ask." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -60,7 +60,7 @@ const MedicalDeviceCybersecurity = () => {
               "name": "What did the CISA DICOM advisory warn about in June 2026?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "On June 30, 2026, CISA issued advisory ICSMA-26-181-01 describing five vulnerabilities in OFFIS DCMTK, an open-source DICOM toolkit embedded in many commercial imaging products. One flaw (CVE-2026-50003) is rated critical with a CVSS v3.1 base score of 9.8, and four others are rated high. The vulnerabilities affect DCMTK versions before 3.7.0 (fixed in v3.7.1) and, if exploited, could let an attacker write files outside the intended directory, expose worklist data containing protected health information, exhaust memory, or crash imaging services."
+                "text": "On June 30, 2026, CISA issued advisory ICSMA-26-181-01 describing five vulnerabilities in OFFIS DCMTK, an open-source DICOM toolkit embedded in many commercial imaging products. One flaw (CVE-2026-50003) is rated critical with a CVSS v3.1 base score of 9.8, and four others are rated high. The vulnerabilities affect DCMTK versions 3.7.0 and earlier (OFFIS has committed fixes upstream; CISA directs users to the latest patched GitHub snapshot) and, if exploited, could let an attacker write files outside the intended directory, expose worklist data containing protected health information, exhaust memory, or crash imaging services."
               }
             },
             {
@@ -97,7 +97,7 @@ const MedicalDeviceCybersecurity = () => {
         <section className="pt-32 md:pt-40 pb-10">
           <div className="container-xaid max-w-3xl mx-auto">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <Link to="/blog/" className="text-white/60 hover:text-white/60 text-[15px] font-light transition-colors">← Blog</Link>
+              <Link to="/blog/" className="text-white/60 hover:text-white text-[15px] font-light transition-colors">← Blog</Link>
               <span className="bg-xaid-blue/20 text-xaid-blue text-xs font-medium px-3 py-1 rounded-full">
                 Market &amp; Policy
               </span>
@@ -121,7 +121,7 @@ const MedicalDeviceCybersecurity = () => {
               {[
                 { stat: '5', label: 'DICOM vulnerabilities', sub: 'in one CISA advisory' },
                 { stat: '9.8', label: 'CVSS score of the worst', sub: 'CVE-2026-50003, critical' },
-                { stat: '<3.7.0', label: 'DCMTK versions affected', sub: 'fixed in v3.7.1' },
+                { stat: '≤3.7.0', label: 'DCMTK versions affected', sub: 'fix committed upstream (latest GitHub snapshot)' },
                 { stat: '~100k', label: 'DCMTK downloads / year', sub: 'from OFFIS servers' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
@@ -149,7 +149,7 @@ const MedicalDeviceCybersecurity = () => {
                 DCMTK is not a niche tool. It is one of the most widely used DICOM implementations in the world, <a href="https://www.offis.de/en/offis/project/dicom.html" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">downloaded roughly 100,000 times a year</a> and embedded inside commercial viewers, archives, and worklist and storage servers across the imaging ecosystem. That reach is exactly why the advisory matters: a flaw in shared plumbing propagates into every product that builds on it.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The vulnerabilities affect DCMTK versions <strong>before 3.7.0</strong>, with version 3.7.1 or later resolving all five. According to the advisory, successful exploitation could allow an attacker to write files outside the intended output directory, gain unauthorized access to worklist records, exhaust memory, or crash affected client or server processes. CISA notes the flaws were reported to the agency in May 2026 by independent security researcher Abhinav Agarwal.
+                The vulnerabilities affect DCMTK versions <strong>3.7.0 and earlier</strong> — 3.7.0 itself is affected. OFFIS has committed fixes upstream; CISA directs users to the latest patched GitHub snapshot and network-hardening guidance rather than naming a fixed release. According to the advisory, successful exploitation could allow an attacker to write files outside the intended output directory, gain unauthorized access to worklist records, exhaust memory, or crash affected client or server processes. CISA notes the flaws were reported to the agency in May 2026 by independent security researcher Abhinav Agarwal.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -295,7 +295,7 @@ const MedicalDeviceCybersecurity = () => {
                 {[
                   {
                     q: 'What did the CISA DICOM advisory warn about in June 2026?',
-                    a: 'On June 30, 2026, CISA issued advisory ICSMA-26-181-01 describing five vulnerabilities in OFFIS DCMTK, an open-source DICOM toolkit embedded in many commercial imaging products. One flaw (CVE-2026-50003) is rated critical with a CVSS v3.1 base score of 9.8, and four others are rated high. The vulnerabilities affect DCMTK versions before 3.7.0 (fixed in v3.7.1) and, if exploited, could let an attacker write files outside the intended directory, expose worklist data containing protected health information, exhaust memory, or crash imaging services.',
+                    a: 'On June 30, 2026, CISA issued advisory ICSMA-26-181-01 describing five vulnerabilities in OFFIS DCMTK, an open-source DICOM toolkit embedded in many commercial imaging products. One flaw (CVE-2026-50003) is rated critical with a CVSS v3.1 base score of 9.8, and four others are rated high. The vulnerabilities affect DCMTK versions 3.7.0 and earlier (OFFIS has committed fixes upstream; CISA directs users to the latest patched GitHub snapshot) and, if exploited, could let an attacker write files outside the intended directory, expose worklist data containing protected health information, exhaust memory, or crash imaging services.',
                   },
                   {
                     q: 'Is this a vulnerability in AI radiology software specifically?',
