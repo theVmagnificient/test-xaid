@@ -115,7 +115,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
 
         {/* Key stats */}
         <section className="section-padding bg-white/5">
-          <div className="container-xaid max-w-3xl mx-auto">
+          <div className="container-xaid max-w-4xl mx-auto">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {[
                 { stat: '34.2→19.8s', label: 'Reading time per chest X-ray', sub: 'with AI preliminary report' },
@@ -124,7 +124,7 @@ const GenerativeAiRadiologyReportingDraft = () => {
                 { stat: '15.5%', label: 'Documentation efficiency gain', sub: 'separate cohort study' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
-                  <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
+                  <div className="text-xl md:text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
                   <div className="text-white text-xs font-medium mb-1">{s.label}</div>
                   <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
