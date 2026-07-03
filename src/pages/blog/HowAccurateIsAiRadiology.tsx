@@ -208,7 +208,7 @@ const HowAccurateIsAiRadiology = () => {
               </p>
 
               <div className="bg-gray-50 rounded-xl p-6 mb-6">
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   {[
                     { metric: '94.9%', label: 'Clinician approval rate', sub: 'for clinical integration' },
                     { metric: '89.7%', label: 'Image layout approval', sub: 'across 4 centers' },
