@@ -78,7 +78,7 @@ const Process = () => {
                   {/* Content */}
                   <div className={`pt-2 ${index < steps.length - 1 ? 'pb-8' : ''}`}>
                     <h3 className="text-[18px] font-medium leading-[1.3] text-white mb-1">{step.title}</h3>
-                    <p className="text-white/80 text-[15px] leading-[1.65] font-light">{step.description}</p>
+                    <p className="text-white text-[15px] leading-[1.65] font-light">{step.description}</p>
                   </div>
                 </div>
               ))}

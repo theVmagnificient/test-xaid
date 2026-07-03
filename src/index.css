@@ -5,13 +5,18 @@
 
 @layer base {
   :root {
-    /* xAID brand color — single source of truth */
-    --xaid-blue: 227 92% 71%;
-    --xaid-blue-hover: 227 92% 64%;
-    /* Darker shade for interactive elements: white text on --xaid-blue is 3.03:1
-       (fails WCAG AA 4.5:1); this hits 4.83:1 while keeping the brand hue. */
-    --xaid-blue-strong: 227 92% 56%;
-    --xaid-blue-strong-hover: 227 92% 48%;
+    /* xAID brand color — UNIFIED single tone (founder decision 2026-07-03).
+       hsl(228 100% 64%) = #476CFF, the equilibrium point for one color:
+       white text on it 4.32:1, it on #0D0D0D 4.50:1. No single color can pass
+       strict AA (4.5) on both sides — the −4% on white-on-fill is a deliberate,
+       documented founder tradeoff for brand unity (see tasks/ + memory).
+       Both "-strong" tokens intentionally alias the same value so component
+       class names stay put while the palette is ONE color.
+       Do NOT reintroduce a second blue tone. */
+    --xaid-blue: 228 100% 64%;
+    --xaid-blue-hover: 228 100% 58%;
+    --xaid-blue-strong: 228 100% 64%;
+    --xaid-blue-strong-hover: 228 100% 58%;
 
     /* Core Colors - Dark Theme */
     --background: 0 0% 5%;

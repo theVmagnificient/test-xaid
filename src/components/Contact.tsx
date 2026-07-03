@@ -153,7 +153,7 @@ const Contact = () => {
               <h2 className="text-white text-[28px] md:text-[38px] lg:text-[44px] font-normal mb-3 leading-[1.15]">
                 Get a free 5-study pilot
               </h2>
-              <p className="text-white/80 text-[15px] leading-[1.65] font-light mb-10 max-w-[400px]">
+              <p className="text-white text-[15px] leading-[1.65] font-light mb-10 max-w-[400px]">
                 Send us 5 CT studies. See the reports. No integration required. No commitment
               </p>
 
@@ -162,7 +162,7 @@ const Contact = () => {
                   <h3 className="text-white font-medium text-[11px] uppercase tracking-[0.12em] mb-2">
                     Address
                   </h3>
-                  <p className="text-white/80 text-[15px] leading-[1.65] font-light">
+                  <p className="text-white text-[15px] leading-[1.65] font-light">
                     8 The Green, Ste A, Dover, DE 19901, United States
                   </p>
                 </div>
