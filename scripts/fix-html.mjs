@@ -96,6 +96,11 @@ for (const file of files) {
   let head = canonical + `<meta property="og:url" content="${url}"/><meta name="twitter:url" content="${url}"/>`;
   if (path === '/') {
     head += schemaTags;
+    // reCAPTCHA must be a STATIC tag: Osano's script blocker (loaded via GTM)
+    // silently kills dynamically injected copies — parser-inserted scripts start
+    // fetching before any JS runs, so they are immune. Homepage only (the
+    // contact form lives there); other pages don't pay the ~300KB.
+    head += '<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>';
     injectedSchema = true;
   }
 

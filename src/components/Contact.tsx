@@ -57,17 +57,28 @@ const Contact = () => {
 
   // reCAPTCHA pulls ~830KB from Google on mount — defer it until the visitor
   // actually starts filling the form (first focus). By submit time it's ready.
+  // IMPORTANT: the Google script itself arrives as a STATIC tag injected into
+  // the prerendered homepage head by scripts/fix-html.mjs — Osano's script
+  // blocker silently kills dynamically injected copies (froze the form on
+  // "Sending..." — incident 2026-07-03). Parser-inserted tags are immune.
   const [captchaWanted, setCaptchaWanted] = useState(false);
   const wantCaptcha = () => setCaptchaWanted(true);
 
-  const waitForCaptcha = async (timeoutMs = 8000): Promise<ReCAPTCHA> => {
+  // Waits for BOTH the component ref and the actual grecaptcha API —
+  // the ref alone can exist while the Google script is still blocked/loading.
+  const waitForCaptcha = async (timeoutMs = 10000): Promise<ReCAPTCHA> => {
     const start = Date.now();
-    while (!recaptchaRef.current) {
+    while (!recaptchaRef.current || typeof (window as Window & { grecaptcha?: { execute?: unknown } }).grecaptcha?.execute !== 'function') {
       if (Date.now() - start > timeoutMs) throw new Error('reCAPTCHA failed to load');
       await new Promise((r) => setTimeout(r, 100));
     }
     return recaptchaRef.current;
   };
+
+  // executeAsync can hang forever if the widget is not actually ready —
+  // never let the button sit on "Sending..." indefinitely.
+  const withTimeout = <T,>(p: Promise<T>, ms: number, label: string): Promise<T> =>
+    Promise.race([p, new Promise<T>((_, rej) => setTimeout(() => rej(new Error(label)), ms))]);
 
   const postForm = async (formData: object): Promise<Response> => {
     return await fetch(FORMSPARK_ACTION_URL, {
@@ -92,9 +103,9 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      setCaptchaWanted(true); // safety net if focus never fired (e.g. autofill)
+      wantCaptcha(); // safety net if focus never fired (e.g. autofill)
       const captcha = await waitForCaptcha();
-      const token = await captcha.executeAsync();
+      const token = await withTimeout(captcha.executeAsync(), 15000, 'reCAPTCHA timed out');
       const response = await postForm({ ...formData, "g-recaptcha-response": token });
       if (!response.ok) {
         throw new Error('Failed to post form');
@@ -110,6 +121,7 @@ const Contact = () => {
       }
       toast.success('Thank you! We\'ll be in touch within 24 hours');
     } catch (err) {
+      recaptchaRef.current?.reset?.();
       toast.error('Submission failed. Please try again');
     } finally {
       setIsSubmitting(false);
