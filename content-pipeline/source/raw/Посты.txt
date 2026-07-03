@@ -1,0 +1,784 @@
+I just made it public!
+List of over 200 open vacancies within radiology MedTech startups.
+
+This comprehensive list covers a wide range of roles, from medical and operations to development positions.
+
+Each entry provides:
+
+-> A direct link to the vacancy
+-> Filters for country and city
+-> Details on remote, hybrid, or in-office work arrangements
+-> The specific type of position
+
+
+https://lnkd.in/gc-3h3w2
+
+
+
+
+
+I just made it public!
+
+The list of the top must-attend conferences in Europe.
+
+-> 39 major conferences
+-> All deadlines for registration and paper submissions
+-> Filters by conference specialization
+-> Location details
+-> Event dates
+
+An incredibly useful list for anyone who wants a full overview of the key academic and business conferences in Europe focused on AI in radiology.
+
+https://lnkd.in/gfYEtpNG
+
+
+
+
+
+You can now get the link for the list of EU/UK teleradiology here - it's public!
+
+Over 50+ companies across the region, all in one place.
+
+Here’s what you’ll get in the link:
+
+-> Company name
+-> Website
+-> LinkedIn page
+-> Headquarters location
+
+If you’re building, investing, or selling into this space, this map will save you hours of research.
+
+https://lnkd.in/g9RUPPac
+
+
+
+
+
+One human reader + AI vs. traditional double human reading
+Results?
+
+For breast cancer screening programme in the Netherlands:
+- More cancers detected
+- Better sensitivity
+- No extra overdiagnosis.
+
+
+Here are 7 main takeaways that matter:
+-> +8.4% sensitivity with reader + AI (p < 0.0001)
+
+-> 282 screen-detected, 29 interval, 38 future cancers caught with reader + AI
+
+-> 2,112 recalls vs. 1,244 in double reading - more recalls, but more cancer found
+
+-> Consistent across breast densities - equitable performance
+
+-> Interval & future cancers: 26.7% more invasive, 16.6% more >20 mm
+
+
+-> Clinical significance: 71% of screen-detected and 93.4% of interval/future cancers invasive
+
+-> No increase in overdiagnosis - more relevant cancers, not more noise
+
+What will be the first killer use case for 3D imaging AI (except the lung cancer)?
+
+
+
+
+Death due to waiting for a CT scan?
+
+It seems this problem has simply never been properly digitized before, but it exists even in the most developed countries.
+
+Here are some stats:
+
+In Canada, researchers studied waiting times for surgery and diagnostic procedures. It turned out that in 2023–2024 at least 15,474 people died while waiting. Of these, 11,682 were waiting for an MRI, colonoscopy, or other diagnostic scan, and 3,792 were waiting for surgery.
+
+The waiting times varied - from less than a week to more than 14 years (sic!).
+
+Overall:
+
+- 43% of patients were waiting for CT exams
+- 22% for vascular ultrasound
+- 12% for echocardiography
+
+Of course, it’s impossible to determine exactly whether the delay in a scan was the direct cause of death for each patient. But I checked the total number of deaths in Canada per year - roughly 330,000.
+
+So, 15,474 / 330,950 × 100 = 4.6% of all deaths happen while people are waiting.
+
+That number feels quite high, considering that Canada spends a lot on healthcare - $372 billion in 2024. But what really matters is comparing these figures across different countries.
+But seems the problem is also huge
+
+
+
+
+We just spent more than 10 days mapping out the teleradiology landscape across the US - and we’re happy to share it with you.
+Over 100 companies across the United States, gathered in one place.
+
+Here’s what’s included in the map:
+→ Company name
+→ Website
+→ LinkedIn page
+→ Headquarters location
+→ Short description
+
+This resource will save you hours of research if you’re building something in the space.
+
+If any info about your company - or a company you know - is missing, just DM me and we’ll add it quickly.
+
+Drop a “MAP” in the comments and I’ll send it your way (and make sure we’re connected).
+
+
+
+
+Are you risky enough NOT to act?
+
+Here’s the trap:
+
+Most people think the big risk is adopting AI while it’s still "imperfect."
+
+Refusing AI is also risk.
+
+Just a different kind.
+
+Because while you wait for "perfect AI," others are already reaping benefits. By the time you rush in, you’ll realize:
+
+- It’s not plug & play.
+
+- It takes months to build understanding.
+
+- And if your system is already weak, AI won’t magically save it.
+
+The future is clear: AI will be everywhere.
+
+The only question is which group you'll be in:
+
+1. Hospitals that got stronger with AI.
+2. Hospitals that fell behind without it.
+
+There is no group 3.
+
+Risk is never one-sided - not acting is also a risk.
+
+Better to take the risk and end up in Group 1 than to take the risk and inevitably fall into Group 2 - that would be the strangest move of all.
+
+
+
+
+How you get trapped by AI vendors’ metrics
+
+Here are the most common pitfalls:
+
+I recently came across an excellent paper (ESR Essentials: common performance metrics in AI - practice recommendations by the European Society of Medical Imaging Informatics). The authors highlight a simple truth: relying on a single metric is always a bad idea.
+
+So I put together a short map of how these traps are interconnected - and why hospital and telerad executives should never buy AI based on one shiny number.
+
+1. Sensitivity vs. PPV (Precision)
+
+- High sensitivity looks great on paper → but if PPV is low, most “positives” are false alarms.
+- Trap: Radiologists waste time chasing ghosts.
+
+2. Specificity vs. NPV
+
+- High specificity means few false alarms → but if NPV is weak, negative cases can’t be trusted.
+- Trap: You miss patients you thought were “safe.”
+
+
+3. Accuracy vs. F1-score
+
+- Accuracy is inflated in imbalanced datasets → F1 reveals the ugly truth in rare diseases.
+- Trap: “95% accuracy” AI collapses in a 3% prevalence setting.
+
+
+4. AUROC vs. AUPRC
+
+- AUROC looks impressive even in low-prevalence → AUPRC shows how bad it really is.
+- Trap: Execs approve a tool that works only in theory, not in screening.
+
+
+5. Dice Score (DSC) vs. Boundary Metrics (NSD/Hausdorff)
+
+- DSC shows overlap → but ignores tiny structures or edges.
+- Trap: AI “segments” the liver but misses the 3 mm metastasis.
+
+
+6. Per-class metrics vs. Summary metrics
+
+- Averages (macro/micro F1, mAP) smooth over per-class failures.
+- Trap: The AI looks balanced overall but fails in exactly the subgroup you care about (e.g., small nodules).
+
+
+So, remember to clearly understand what are your goals for AI in your workflow and rely on right metrics. Anything that I missed in my list?
+
+
+Kudos: Michail Klontzas, MD, PhD Kevin Groot Lipman Tugba Akinci D'Antonoli Anna Andreychenko Renato Cuocolo Prof. Dr. Matthias Dietzel, MHBA Salvatore Gitto Henkjan Huisman João Santinha Federica Vernuccio Jacob J. Visser Merel Huisman, MD, PhD
+
+
+hashtag
+#radiology
+hashtag
+#ai
+hashtag
+#medtech
+
+
+
+
+
+Who should actually pay in the end?
+
+After one of Jan Beger’s posts, I started thinking whether it’s even possible to globally make patients pay for AI - here’s where I landed.
+
+Would it be fair to shift the price of AI onto the patient?
+
+Maybe yes - for example, in the case of the public sector and opportunistic findings.
+
+Take the public sector: given their fixed annual budget and KPIs, they have no incentive to spend extra money on detecting, say, opportunistic findings.
+
+But the benefit for the patient is obvious. Does this mean the only option here is to make the patient pay? After all, they should have the right to access such a service.
+
+The problem is that in some healthcare systems, patients are simply not used to paying for add-ons - like in certain European countries. How should tariffs be introduced in such systems without creating the impression that the state or public healthcare is neglecting them or trying to squeeze money out of them? That could even hurt political ratings.
+
+Or should it instead be reimbursed by the government / insurance companies?
+
+That raises the next question: is it really worth it for them, and would they scale it up at all?
+
+Because it’s obvious that insurance companies would clearly benefit from paying for osteoporosis detection - but it’s much less obvious whether they’d want to cover coronary calcium scoring.
+
+At the same time, it’s clear that practically all patients understand the value of AI and view it positively - but how might that perception change if they were forced to pay extra for it?
+
+That’s the paradox.
+
+
+
+
+
+I see more and more posts about how to spin up a SaaS for $200/month.
+
+Just use this stack:
+Perplexity / Cursor / n8n / Vercel / whatever.
+
+Now you can build almost any startup for free, without raising a single dollar.
+It will cost you $200/month - no need to chase a $2M round.
+
+✨ Great new world.
+
+Oh wait… if you’re building MedTech, just forget everything I said and get your popcorn ready.
+
+Here’s what you actually need to pay for:
+-> Certification
+-> Clinical trials
+-> A certification team
+
+You’ll still have to raise money. Forget $200/month — you’ll need at least a million.
+
+Welcome back to the Great Old World.
+
+
+
+
+ESTI 2025 guidelines: Lung cancer screening with low-dose CT
+
+𝗪𝗵𝗼?
+-> Smokers/ex-smokers, age 50–75, ≥20 pack-years, quit ≤10–15y
+How?
+-> Annual LDCT (<1 mSv). Biennial possible after a negative scan
+
+𝗦𝗼𝗹𝗶𝗱 𝗻𝗼𝗱𝘂𝗹𝗲𝘀:
+- <100 mm³ → negative
+- 100–500 mm³ → short-term FU (3–6 mo)
+- ≥500 mm³ or suspicious morphology → work-up
+
+𝗦𝘂𝗯𝘀𝗼𝗹𝗶𝗱 𝗻𝗼𝗱𝘂𝗹𝗲𝘀 (𝗦𝗦𝗡𝘀):
+usually indolent adenocarcinomas → safe to monitor long-term. Only growth of a solid part or new suspicious morphology triggers action
+
+𝗕𝗲𝗻𝗶𝗴𝗻 𝗲𝗻𝘁𝗶𝘁𝗶𝗲𝘀:
+intrapulmonary lymph nodes, perifissural opacities, hamartomas → should be recognized as benign to avoid unnecessary work-up
+
+𝗪𝗵𝗮𝘁 𝗮𝗯𝗼𝘂𝘁 𝗔𝗜?
+>10 CE-marked tools in Europe. Strong role in detection, volumetry, malignancy risk, but best as second reader
+
+
+𝗥𝗲𝗽𝗼𝗿𝘁𝗶𝗻𝗴:
+-> Structured reports
+-> Brock model (Has anybody seen AI capable of doing it?)
+-> volumetric doubling time
+
+
+𝗜𝗻𝗰𝗶𝗱𝗲𝗻𝘁𝗮𝗹 𝗳𝗶𝗻𝗱𝗶𝗻𝗴𝘀:
+Only severe coronary calcifications / aneurysm etc.
+
+Kudos: REVEL Marie-pierre Annemiek Snoeckx, MD, PhD Colin Jacobs Mathias Prokop Arjun Nair Mario Sliva Helmut Prosch Anagha Parkar Thomas Frauenfelder Anna Rita Larici
+
+hashtag
+#ai
+hashtag
+#radiology
+hashtag
+#cancer
+
+
+
+
+Liver lesion. Adrenal lesion. Renal lesion. Kidney stone.
+All in one patient - and nothing missed.
+
+Opportunistic findings? Aortic dilatation. Osteoporosis.
+All detected in a single window, with full estimations and segmentations.
+
+
+
+
+There are multiple layers of risk in today’s teleradiology market.
+
+After dozens of conversations with teleradiology companies, one thing became clear:
+Teleradiology isn’t just outsourcing reading. It’s outsourcing risk.
+
+Think about it: a tired radiologist at 3 AM can miss a critical finding—whether they sit inside the hospital or on the other side of the world.
+The difference? The lawsuit goes to different companies.
+
+And then there’s shadow reporting—cases quietly forwarded to cheaper countries for reading. That adds another invisible layer of risk. A layer that teleradiology companies carry, but one that can’t be insured or defended - because it’s simply illegal.
+
+This is exactly where AI might find its natural role:
+not as a competitor to radiologists in teleradiology,
+but as a competitor to radiologists in shadow reporting companies.
+
+If AI can reach the level of “shadow prereads,” it could erase that uninsured layer of risk and finally fit into the economics of teleradiology.
+
+It’s like AI’s first competitors right now are technicians who are reading studies by themselves, not radiologists.
+
+
+
+
+
+Why is there still no “Booking.com” for teleradiology?
+
+While we were building our recent database of teleradiology companies, one thing became obvious:
+
+There is no single place where hospitals and teleradiology providers meet.
+
+What exists?
+
+Outdated “Top-10” blog posts from 2018.
+Random lists scattered across the internet.
+
+What doesn’t exist?
+
+A living platform that actually connects supply and demand.
+The equivalent of what already exists for AI algorithms - web platforms with all the actual information.
+
+Strange, isn’t it? Hospitals are desperately searching for better prices, teleradiologies are desperately selling - but no central hub exists.
+
+Why do you think the market never created one?
+
+
+
+
+
+The 6 Deadly Sins of clinical AI Papers
+
+We’re flooded with “AI in healthcare” papers.
+
+But let’s be honest: most are unusable in real-world medicine.
+
+The Lancet just published a commentary exposing the scale of the problem - and the new CHART framework is the first serious attempt to fix it.
+
+Here are the hard truths from the systematic review of 137 chatbot health advice studies:
+
+❌ 26% didn’t even specify which AI model was used.
+
+❌ Only 0.7% gave enough detail to identify model version/customization.
+
+❌ 85% had no systematic prompting method.
+
+❌ 87% had no structured evaluation.
+
+❌ In 65% accuracy was judged by investigator opinion rather than evidence-based guidelines.
+
+❌ Only 32% explicitly considered patient safety.
+
+
+That’s why CHART (Chatbot Assessment Reporting Tool) was created:
+
+✅ A 12-item, 39-subitem checklist covering everything from model ID to prompting to safety.
+
+✅ Developed through Delphi consensus with 531 stakeholders & tested for clarity.
+
+✅ A living guideline that will evolve with multimodal models and clinical trial designs.
+
+The choice is simple - keep publishing shiny “AI beats doctors” papers with zero reproducibility or start sticking to frameworks to really make in helpful.
+
+Kudos: Arun James Thirunavukarasu, Ernest Lim, Bright Huo
+
+DOI: 10.1016/j.landig.2025.100910
+
+
+
+
+Who should pay for “better” CT images?
+Just came across great paper about Deep Learning Reconstruction
+Noise is lower. Lesions pop clearer. Dose can drop by 35–70%.
+
+But let’s be honest - DLR doesn’t come for free.
+
+𝗕𝘂𝘁 𝘄𝗵𝗼 𝘀𝗵𝗼𝘂𝗹𝗱 𝗽𝗮𝘆 𝗳𝗼𝗿 𝘁𝗵𝗮𝘁?
+
+-> Should hospitals pay - absorbing yet another tech cost with no direct ROI?
+
+-> Should radiologists pay - since it makes their reads “easier” (but doesn’t increase their reimbursement)?. And to be honest still sometimes worsens the results based on the paper
+
+-> Should patients pay - because they get less radiation and better images (but never asked for the add-on)?
+
+
+At the end of the day, DLR is not like AI that finds disease and prevents lawsuits.
+
+It’s about image cosmetics and dose reduction. The value is diffuse, not direct.
+
+For MRI processing it is much clearer - the procedure getting much faster, ROI is transparent, but for CT it's not the same?
+
+
+Link: https://lnkd.in/gb3MBSup
+
+Kudos: Meghan Lubner,  Perry Pickhardt, Giuseppe V Toia, Timothy Szczykutowicz
+
+
+
+
+Monday poll!
+
+Let's update the stats, during ECR it revealed that
+
+-> 50% are not using AI at all
+-> 35% use AI for 2D imaging (X-ray, mammography)
+-> 15% use AI for 3D imaging
+
+
+Did situation change a bit during the summer?
+
+
+
+
+AI in Medical Imaging: Two Stories, Two Realities
+
+AI isn’t just about pretty heatmaps.
+
+It’s context dependent on where you use it
+
+1. 𝗠𝗮𝗺𝗺𝗼𝗴𝗿𝗮𝗽𝗵𝘆 (𝗥𝗮𝗱𝗶𝗼𝗹𝗼𝗴𝘆 2025)
+
+In 1,097 invasive cancers, AI missed 14%.
+
+- 59% hidden by dense breasts
+
+- Lesions outside mammary zone
+
+- Architectural distortions, microcalcifications
+
+- Luminal subtype -> FNR 17%
+
+A powerful failure analysis. We need more of these if developers are to truly improve AI.
+
+
+2. 𝗖𝗵𝗲𝘀𝘁 𝗫-𝗿𝗮𝘆 𝗶𝗻 𝘁𝗵𝗲 𝗘𝗥 (𝗞𝗼𝗿𝗲𝗮𝗻 𝗝 𝗥𝗮𝗱𝗶𝗼𝗹 2025)
+
+In 3,576 ER patients, AI outperformed human triage.
+
+- AUC: 0.795 vs 0.610 (KTAS)
+
+- Sensitivity: 92% (hospitalization, revisit, death)
+
+- Independent predictor, even after adjusting for triage
+
+Here, AI isn’t replacing radiologists. It’s saving time where none are available.
+
+The real question isn’t “Does AI work in imaging?”
+
+It’s: “Where does AI work today - and where does it still fail?”
+
+
+
+
+From hidden to quantified: lymph nodes are no longer a blind spot with xAID!
+
+We’ve just released our AI for lymph node size estimation - here’s how it works.
+
+
+hashtag
+#xAID
+hashtag
+#medtech
+hashtag
+#ai
+
+
+
+
+Interesting comparison of different LLMs for MRIs
+
+A new study in European Radiology tested 4 large language models (LLMs) on 150 real brain MRI requests.
+
+Radiologists defined the “gold-standard” protocols, then AI was asked to generate them.
+
+Models tested:
+
+-> o3-mini
+-> GPT-4o
+-> DeepSeek-R1
+-> Qwen2.5-72B
+
+Results:
+
+- With only patient info -> mediocre
+- With local MRI standards + context -> accuracy jumped
+- o3-mini (enhanced) came very close to radiology residents
+
+Accuracy index (lower = better):
+
+- o3-mini: 2.65 -> 1.94
+- GPT-4o: 3.11 -> 2.23
+- DeepSeek-R1: 3.42 -> 2.37
+- Qwen2.5-72B: 5.95 -> 2.75
+
+Great example of context dependence.
+
+Without context: confusion.
+With context: clinical value.
+
+The only thing is - technologies are evolving at a much faster pace than medical studies are being validated and published. And this discrepancy will only increase. How to cope with that?
+
+Link: https://lnkd.in/gRMb4aiX
+
+congratulations to the authors: Lisa Adams Felix Busch Keno Bressem Su Hwan Kim Severin Schramm Lena Schmitzer Kerem Serguen Sebastian Ziegelmayer Alexander Komenda Marcus Makowski Claus Zimmer Jan Kirschke Benedikt Wiestler Dennis Hedderich Tom Finck Jannis Bodden
+
+
+
+
+FDA clearance doesn’t pay your bills - Medicare just denied $16M in radiology AI claims
+
+This is over a 5-year period (2018–2023).
+
+And only $8M were accepted.
+
+𝗛𝗲𝗿𝗲 𝗮𝗿𝗲 𝘀𝗼𝗺𝗲 𝘀𝘁𝗮𝘁𝘀:
+
+- 93,392 AI claims submitted.
+
+- 53,857 denied (~53%).
+
+- 39,535 accepted (~47%).
+
+
+𝗠𝗼𝘀𝘁 𝗱𝗲𝗻𝗶𝗲𝗱 𝘁𝗼𝗼𝗹𝘀:
+
+- LiverMultiScan: 98% denial (~$900,000).
+
+- AI-ECG for Low EF: 98% denial (~$2.7M).
+
+
+𝗠𝗼𝘀𝘁 𝗮𝗽𝗽𝗿𝗼𝘃𝗲𝗱:
+
+- FFR-CT: 81% acceptance.
+
+- LumineticsCore: 94% acceptance.
+
+
+𝗪𝗵𝗲𝗿𝗲 𝗿𝗮𝗱𝗶𝗼𝗹𝗼𝗴𝗶𝘀𝘁𝘀 𝗺𝗼𝘀𝘁 𝗼𝗳𝘁𝗲𝗻 𝗮𝗱𝗼𝗽𝘁𝗲𝗱 𝗔𝗜 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀:
+
+- On-campus outpatient hospitals = 61% of all accepted claims.
+
+- Physician offices = 32%.
+
+
+The authors suggested potentially grouping similar AI services into “code families” to permit evolution and “dynamic” coding over time.
+
+
+Seems like reimbursement is not for every company at all - and relying on it can lead to dramatically bad consequences.
+
+DOI: 10.1016/j.jacr.2025.09.011
+
+well done to the team: Elsa Zhang Michael Dang Joseph H. Joo Ching-Ching Claire Lin Joshua M. Liao, MD, MSc
+
+
+
+
+We just built "Booking.com" for teleradiology
+
+After 3 weeks of nonstop work our platform is now live in early access for the EU.
+
+→ Hundreds of teleradiology companies already pre-listed worldwide
+
+→ Verified section for trusted providers (some of the companies are already there)
+
+→ Special page with hospitals currently seeking outsourcing. Some are already on the platform waiting for telerads to apply
+
+𝗪𝗲’𝗿𝗲 𝗼𝗽𝗲𝗻𝗶𝗻𝗴 𝗲𝗮𝗿𝗹𝘆 𝗮𝗰𝗰𝗲𝘀𝘀:
+
+1. Hospitals - want to publish your outsourcing needs (free)?
+
+Comment 'hospital' + repost for priority access. (20 more EU hospitals onboarded this week).
+
+2. Teleradiology companies - want to get listed in the verified section?
+
+Comment 'telerad' + repost for priority access. (First 30 EU companies onboarded this week).
+
+3. Other users - want early access to explore?
+
+Comment 'access' + repost for priority access.
+
+A single platform where hospitals save time, and telerads win business faster
+
+hashtag
+#medtech
+hashtag
+#teleradiology
+
+
+
+
+Overweight patients + multiphase scans = the death of ‘dose reduction.’
+
+A new 10-year study (1.35M CTs, 381k patients) found:
+
+- Exams delivering ≥50 mSv jumped 244% (0.25% → 0.86%) from 2017 to 2022.
+
+- 80% of these high-dose exams were in overweight or obese patients.
+
+- Growth in obese/overweight groups was 7x higher than in normal/underweight.
+
+- Most common culprits:
+
+• Aortic CTA
+
+• Coronary CTA
+
+• Head & neck CTA
+
+• Thorax-abdomen/abdomen (AAA, TAVR planning)
+
+The paradox? This rise happened despite “safer” new scanners. The more powerful the X-ray tubes got, the higher the hidden risks climbed.
+
+All these ‘dose reduction’ technologies are meaningless if the patient is obese or if you run multiphase protocols. The final dose still shoots past 50 mSv. Without real safeguards and hard limits, it’s just marketing.
+
+Because 50 mSv isn’t just a number - it’s crossing into carcinogenic risk territory.
+
+
+
+DOI: 10.1093/bjr/tqaf178
+
+Congratulations to the team: Madan Rehani Maria Mataac Parisa Kaviani Mannudeep Kalra Xinhua Li
+
+
+
+
+We just spent a week compiling a fresh list of open teleradiology vacancies across the EU & UK.
+
+Inside the list you will find:
+-> Names of the comapnies that are hiring
+-> Apply links/links to specific vacancies
+-> Short summary of the job
+
+
+Demand for remote radiologists is exploding.
+Want the full list of vacancies (with apply links)?
+
+Drop “Vacancies” in the comments and I’ll share it with you. Make sure that we are connected!
+
+hashtag
+#telerad
+hashtag
+#medtech
+
+
+
+
+
+If AI replaces anyone in imaging, it won’t be radiologists - it’ll be non-physicians.
+
+A new JACR study (2013 - 2022, 1.4M Medicare imaging claims) shows what happens when scans are interpreted by nurse practitioners and physician assistants.
+
+
+𝗥𝗲𝗽𝗲𝗮𝘁 𝗶𝗺𝗮𝗴𝗶𝗻𝗴 𝘄𝗶𝘁𝗵𝗶𝗻 90 𝗱𝗮𝘆𝘀:
+
+- X-ray → 20.4% (NP/PA) vs 14.6% (Radiologist)
+
+
+- Ultrasound → 11.6% vs 4.5%
+
+- MRI → 8.8% vs 3.8%
+
+
+
+𝗔𝗱𝗷𝘂𝘀𝘁𝗲𝗱 𝗼𝗱𝗱𝘀:
+
+- XR: +35% higher
+
+- US: +141% higher
+
+- MR: +156% higher
+
+
+The only exception? Knee X-rays. Everywhere else, non-physician reads meant more repeat exams.
+
+And here’s the twist: maybe this is the perfect use case for AI.
+
+Because right now, AI seems already safer than outsourcing reads to non-physicians.
+
+
+
+
+
+Emphysema on a “normal” lung cancer screening CT isn’t incidental. It predicts death - for decades.
+
+Study of 9,047 smokers/ex-smokers (follow-up: 25 years):
+
+- 29% had emphysema at baseline low-dose CT.
+
+- Those with emphysema had +29% higher all-cause mortality.
+
+- COPD deaths: risk tripled (HR 3.29).
+
+- Severe emphysema → 12× risk of COPD death.
+
+- Cardiovascular signal faded after adjustments, but COPD risk was robust.
+
+
+A single visual score (0 - 3) by radiologists at baseline LDCT carried prognostic weight for a quarter of a century.
+
+CT screening is showing us more and more hidden risk layers.
+
+What else should be handled?
+
+doi: 10.1148/radiol.250949
+
+Congrats to the team: Jessica Gonzales Gutierrez Rowena Yip Javier J Z. Samuel M. Aguayo, MD Daniel Libby, M.D. Mark W Pasmantier David Yankelevitz Claudia Henschke
+
+
+
+
+Who will read your child’s CT in 2030?
+
+Pediatric radiologists are vanishing in the US.
+
+2016 → 2,190 pediatric radiologists (6.4% of all rads)
+2023 → 2,032 pediatric radiologists (just 4.6%)
+
+Across 109,077 radiologists studied (2016 - 2023, Inovalon claims data):
+
+- Only 8.4% dedicated ≥50% of work to pediatrics.
+
+- Even with looser thresholds (≥25%), it’s just 12.4%.
+
+- Tighten it (≥75%), and the number collapses to 6.8%.
+
+- For “general” radiologists, pediatrics barely registers → median = 0% pediatric cases
+
+Given that the number of radiologists is already unable to keep up with the number of examinations, a reduction in their numbers could be a significant problem.
+
+However, the birth rate has declined, and the aging population is increasing.
+
+So perhaps this is not a problem after all?
+
+DOI: 10.1016/j.jacr.2025.07.029
+
+Congrats to the team: @Tatiana Morales Tisnes Casey Pelzl Eric Christensen Elizabeth Rula, PhD Hansel Otero
+
+
+

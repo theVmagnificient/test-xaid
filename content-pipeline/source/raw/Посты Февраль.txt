@@ -1,0 +1,654 @@
+27.02.26, 17:00 
+10,865 impressions
+
+Your MRI waitlist isn't a capacity problem. It's a software problem.
+
+A new study from Oulu University Hospital (European Journal of Radiology, 2024) ran the numbers - and they're hard to ignore:
+
+→ Deep Learning Reconstruction (DLR) increased MRI scanner capacity by 20–32%
+→ 5 scanners with DLR outperformed 6 scanners without it
+→ Cost of DLR: only 11% of buying a new MRI scanner
+→ Annual savings: €399,000
+→ Cost reduction per exam: €19
+
+The hospital was facing losing one scanner. Instead of spending millions on new hardware, they ran a 3-month trial, optimized 7 exam types, and replaced the capacity entirely - with software.
+
+The question for every radiology CMO: how many of your scanners are running at 60-70% potential because you haven't updated reconstruction algorithms?
+
+MRI demand in Finland grew 15% between 2018 and 2021 alone. The bottleneck isn't iron. It's how fast you're processing what you already have.
+
+DOI: 10.1016/j.ejrad.2024.111434
+Team: Mikael Brix Jyri Järvinen Michaela Bode Mika Nevalainen Marko Nikki Jaakko Niinimäki Eveliina Lammentausta
+
+
+26.02.26, 17:00 
+13,805 impressions
+
+Radiologists are leaving faster than you can replace them.
+
+Turnover jumped 61% in a decade. And the pipeline to fix it? Half-empty.
+
+A new Neiman Institute study (39,439 radiologists, 280,692 practice-years) just dropped hard numbers:
+→ Turnover: 5.3% → 8.5% (2013 to 2022)
+→ Adjusted odds of leaving nearly doubled (OR 1.96) by 2020–2022
+→ Metro areas: +12% higher turnover
+→ Female rads: +6% higher
+→ Academic settings: −9% (the only buffer)
+
+Researchers found a workload "tipping point" — push rads past it, and turnover spikes.
+→ For private practice: ~13,400 wRVUs/year
+→ For academic rads: ~8,800 wRVUs (1/3 lower — teaching and research eat into the limit)
+→ Below it — people stay. Above it — they walk.
+
+Now look at the fellowship pipeline (NRMP, 2026 appointment year):
+-> 8 subspecialties failed to fill even 50% of positions.
+-> Emergency Radiology is one of them — and it won't even participate in the 2026 fellowship match anymore.
+-> Back in 2024, ER radiology filled just 8 out of 27 spots. That's 29.6%.
+
+So the math is simple:
+→ More rads are leaving → Fewer are entering critical subspecialties → And workloads keep climbing
+
+Thoughts about tipping point data?
+
+
+25.02.26, 17:25
+8,453 impressions
+
+We indexed 3,700 radiology jobs across all 50 states. Now you can just... talk to them.
+
+"Remote neuroradiology, $400K+, no call, sign on bonus" → ranked matches in seconds.
+
+"What is subspecialty demand breakdown?"
+→ visual answer, instantly.
+
+"PE-backed vs independent: salary comparison"
+→ done.
+
+No filters. No spreadsheets. No recruiter calls.
+
+For radiologists — find your next position in minutes, not months.
+
+For practice leaders — benchmark salaries, analyze the market, track competitors.
+
+890+ radiology groups. All 50 states. Launching in beta today.
+
+First wave access is limited.
+Drop "BOARD" in the comments and I'll send you the link. Repost for priority access. (Make sure we're connected)
+
+
+24.02.26, 13:45
+26,843 impressions
+
+1,000 FDA-cleared AI tools. 31 economic studies. That's a 97% evidence gap.
+
+A new European Radiology systematic review analyzed 31 economic evaluations of radiology AI (2014–2025).
+
+The headline looks great: 14 out of 16 health economic models found AI to be cost-effective or cost-saving.
+
+But dig deeper and the picture cracks:
+
+→ Only 16 of 31 studies even did a full economic evaluation
+→ Only 6 out of 31 measured productivity outcomes
+→ Just 3 studies measured reading time
+→ Only 1 measured reporting time
+→ CHEERS-AI quality scores ranged from 34 to 89 — wild inconsistency (Framework to asses economic reports on AI for healthcare)
+→ 81% of cost data focused on direct costs only
+→ Most studies came from US (29%) and UK (19%) — almost nothing from continental Europe
+
+Also there is a problem with what we use as main metric:
+
+76% of cost-effectiveness studies used QALYs — a metric designed for drugs, not diagnostic AI.
+
+The authors themselves question whether QALYs are even appropriate for radiology AI. Alternatives like cost per report, cost per diagnosis, or cost per hour saved might actually capture what matters to radiology groups.
+
+Most evaluated tools were CADe (detection only) — no economic evaluations exist yet for autonomous reporting, GenAI, or large vision models.
+
+So, which metric you think is the most important to measure for further real world implementations?
+
+DOI: 10.1007/s00330-025-12308-3
+
+Team: Lucy Gregory Dr Felicity Lock Dr Hugh Harvey Federica Zanca
+
+
+
+23.02.26, 17:00 
+7,789 impressions
+
+You pay per case. You get nothing back when AI is wrong.
+
+A radiologist opens an AI-pre-filled report. Findings are off. Now they re-read the study from scratch AND fix the AI output.
+
+That's not "time saved" — that's double work, slower than starting from zero.
+
+And here's the asymmetry:
+
+To improve accuracy, you're expected to stack tools and pay more. But when AI gets it wrong — you absorb the cost silently every time. No one reimburses you for the radiologist's wasted minutes.
+
+Everything in the GenAI world is moving toward result-based charging. Maybe radiology AI should adopt the same?
+
+Here's how it could look:
+
+→ Every AI tool should have a minimum performance threshold — agreed upon before deployment.
+
+→ If accuracy drops below that threshold — the vendor reimburses.
+
+→ If the tool consistently forces radiologists to redo work, that's negative ROI — and the practice shouldn't be paying full price for it.
+
+Because the real issue is trust. Efficiency gains from AI only exist when radiologists trust the output enough to not re-read everything from zero. Without that trust, you're not buying a productivity tool — you're buying an expensive second opinion that still needs a first opinion.
+
+Thoughts?
+
+
+20.02.26, 15:58
+23,774 impressions
+
+Your imaging department is probably managed wrong.
+
+Emory Healthcare just published their restructure results - and they're striking.
+
+Before (vertical model):
+→ 5 separate operating units, each with its own radiology admin director
+→ Multimodality managers juggling everything
+→ Weekday capacity utilization: 59%
+→ Weekend utilization: 15%
+→ Fragmented staffing, scheduling, quality standards
+
+
+After (modality-based model):
+→ Eliminated all operating-unit director roles
+→ Created 7 enterprise modality directors (one per modality — CT, MRI, etc.)
+→ Single-modality managers → deeper specialization
+→ Added technologist assistants for non-scanning tasks
+
+
+The results after 2 years:
+→ Weekday utilization: 59% → 75%
+→ Weekend utilization: 15% → 47% (3× growth)
+→ Outpatients scheduled within 10 days: 73% → 78%
+→ Imaging wRVUs: +19%
+→ Provider wRVUs: +27%
+
+
+No new scanners or new budgets.
+The game changer was shifting from "who manages the building" to "who manages the modality."
+
+What do you think of these results?
+
+DOI: 10.1016/j.jacr.2026.02.004
+Congrats to the team: Amit Saindane, MD, MBA Laura Benson Debra A. Smith DO, MIHM, MBA, FACPM, FAOCOPM Linda Roesch Kendra Moore Susan Reich Heather Dexter
+
+
+19.02.26, 15:00
+12,625 impressions
+
+𝗧𝘄𝗼 𝗔𝗜 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 𝗯𝗲𝗮𝘁 𝗼𝗻𝗲. 𝗕𝘂𝘁 𝗱𝗼𝗲𝘀 𝘁𝗵𝗮𝘁 𝗺𝗲𝗮𝗻 𝘆𝗼𝘂 𝗽𝗮𝘆 𝘁𝘄𝗶𝗰𝗲?
+
+A new European Radiology study combined two FDA-cleared mammography AIs instead of one.
+
+Results on 3,012 mammograms:
+
+→ Sensitivity jumped to 84% (vs. 81% for single AI or manual reading)
+→ Specificity hit 87.7% — beating every single-AI scenario
+→ Up to 50% of cases handled without radiologist review
+
+The reason it works: each AI was trained on different devices and populations. Their blind spots don't overlap.
+
+But here's the math nobody wants to do:
+
+2 AIs → +3% sensitivity. A third AI would probably add 1-2% more. At some point you're paying exponentially more for diminishing returns measured in single digits.
+
+Is "stack more AI" just the software version of "hire more radiologists"?
+
+And this is only mammography — one of the simplest modalities. The economics get uglier fast when you move to CT or MRI narrow AI solutions.
+
+The radiologist shortage doesn't get cheaper just because the solution runs on a server.
+
+Would you pay 2x for AI if it meaningfully reduced your radiologist burden?
+
+DOI: 10.1007/s00330-025-11849-x
+
+Team: Hee Jeong Kim Hak Hee Kim Hye Joung Eom Woo Jung Cho Eun Young Chae Hee Jung Shin and Joo Hee Cha
+
+
+
+18.02.26, 15:45
+18,635 impressions
+
+
+20 million new patients. Zero new breast imagers.
+
+Medicus just dropped a new report on the breast imaging radiologist shortage. The numbers are brutal:
+
+→ 79% of practices report being short-staffed in breast imaging
+→ ~7,500 breast imaging radiologists serve the entire US
+→ 40 million mammograms performed annually
+→ USPSTF 2024 guidelines lowered the screening age from 50 to 40 — adding 20 million newly eligible women
+
+Worst states per capita: West Virginia, New Mexico, Nevada, Wyoming, Arizona.
+
+What do practices say?
+
+→ 92% attribute the gap to a radiologist shortage
+→ 67% cite increases in patient volume
+→ 63% report both
+
+Teleradiology is the obvious suggested solution. But from my conversations with radiology practices, the problems are usually the same: it puts pressure on their own margins, and turnaround times still continue to struggle - even if you hire the biggest names on the market.
+
+So what's the workaround?
+
+
+
+17.02.26, 16:30 GMT+3
+727 impressions
+
+1,029 PE-backed healthcare deals were tracked in 2025
+
+PESP just dropped their 2025 report - and PE dealmaking in healthcare remained steady.
+
+The busiest subsectors:
+- Health IT → 151 deals
+- Dental Care → 149
+- Outpatient Care → 148
+
+Medical Imaging: 12 deals tracked in 2025 (vs. 13 in 2024), including:
+
+- Houston MRI & Diagnostic Imaging
+- First Choice Mobile Radiology Services
+- Desert Imaging
+- Diagnostic Technology Consultants, Inc.
+- Community of Nevada Diagnostics
+- Transcend Imaging
+- St. Louis Breast Center
+- Knoxville Comprehensive Breast Center
+
+In 2024, notable deals included DirectMed, StatRad, Coastline Imaging, and Breast Center of Acadiana.
+
+The numbers look stable - but they don't tell the full story, as many deals go unreported.
+
+Consolidation is happening quietly, and the downstream effect is often higher prices for imaging services.
+
+Do you think it should be regulated more strictly?
+
+
+
+16.02.26, 16:48 GMT+3
+2,279 impressions
+
+65+ US radiology M&A deals. 2020–2026. One place. 🔥
+
+Imaging centers. Teleradiology groups. AI vendors. Mobile imaging.
+
+Tracked and structured.
+
+Inside the list you'll find:
+→ Acquirer & target
+→ Deal date
+→ Deal size (where disclosed)
+→ Acquirer type - PE, public, health system, pharma
+→ Target type
+→ Geography
+→ Key context on every transaction
+
+Consolidation is accelerating. This tracker shows exactly how.
+
+Comment "M&A" and I'll DM it, make sure we are connected
+
+Deal missing or misclassified? Let me know. We'll fix it.
+
+
+13.02.26, 16:30 GMT+3
+1,312 impressions
+
+
+I spoke with 15 radiology CxOs, and radiology hiring in the US is broken.
+
+Here are the thoughts.
+
+
+What’s important is that this seems to be one of the very few markets where business scaling happens only if you manage to hire a radiologist. There is literally demand from clients - but no ability to deliver the service. Finding a radiologist can take up to a year.
+
+
+At the same time, the market is strongly segmented. There are smaller players that Private Equity hasn’t reached yet, and larger players that are already PE-backed.
+
+On top of that, there are hundreds of different websites where you can search for radiologists. The funniest part? On some of the most well-known ones, you can’t even filter by state (sic!). As a result, whoever can spam the feed with the highest number of vacancies wins.
+
+
+But for regular radiologists, this level of saturation makes it extremely difficult to choose the right company. Conditions are often opaque. It’s unclear whether the company is PE-backed or independent. Compensation structures are not transparent. Many other details are hidden.
+
+
+And yes - there are HR agencies as well. But so far, I haven’t heard many positive reviews about working with them for radiologist recruitment. If you have successful cases, drop them in the comments.
+
+
+It feels like we need a more transparent tool - primarily for radiologists - where in a conversational format they could simply input something like:
+
+"Current R4 about to graduate looking for a job. Completing a 1 year neuro fellowship starting this summer with graduation in 2027.
+Would like to join a group that would allow pay per click, evening, or weekend moonlighting shifts during fellowship and beyond. 5 day a week worker, okay with some evenings and weekend call, no deep overnights. Prefer 40-50% neuro if possible"
+
+And based on that request, the search would already start automatically.
+
+Thoughts?
+
+
+
+12.02.26, 16:16 GMT+3
+28,871 impressions
+
+300+ US radiology providers. One place. 🔥
+
+Imaging centers, teleradiology groups, hospital systems - all of them mapped.
+
+Inside the list you’ll find:
+
+→ Company name
+→ Type of provider
+→ Website
+→ LinkedIn
+→ Short description
+
+If you’re building AI for imaging, selling into radiology, identifying acquisition targets, or analyzing the competitive landscape - this will save you days, if not weeks.
+
+If your organization is missing or incorrectly categorized, DM me.
+We’ll fix it.
+
+Drop “US Map” in the comments and make sure we’re connected - I’ll send you the full version.
+
+
+
+11.02.26, 16:57 GMT+3
+18,521 impressions
+
+Dear AI company,
+Thank you for showing us how you can detect 10 additional pathologies on Chest CT. We will definitely find another six companies that detect the remaining 50, then combine all your interfaces and reports through a platform and train our physicians to use all of it. That should finally solve the hiring shortage and increase our capacity.
+
+We do have a couple of questions though. Are we correct in understanding that for our full-report template we’ll need to purchase additional software to unify all these fragmented pieces of text? Fine, we’ll add that to the budget.
+
+And yes - if we buy five different solutions + a platform + text processing, what will be the cost per study? Right. $30 per chest CT. Our financial model stops working, because that’s almost half of what we pay a radiologist.
+
+He processes studies faster now? Great. At that speed, he won’t miss anything? He still has to validate the AI anyway, because the legal risk is on him. So ROI becomes unclear. Reduce the radiologist’s compensation for an unclear, non-validated result?
+
+Thank you, we’ll call you back.
+
+–
+
+It feels like this is exactly how many AI vendors expect hospitals to respond.
+
+But in reality, AI should fix hiring and radiologist shortages by providing ready-to-sign reports - not by forcing hospitals to stitch together five different tools and layer another platform on top.
+
+Inspired by a reference post from Andrew Lundquist
+
+
+
+10.02.26, 15:02 GMT+3 
+3,879 impressions
+
+95% vs 7% vs 2% 🤯
+
+This is why LLM studies in radiology are almost impossible to compare
+
+A recent systematic review + Delphi consensus (57 studies, 20 experts, 6 countries) revealed:
+
+What almost everyone reports in their papers:
+
+- 95% - the AI model name
+- 93% - the model developer
+- 84% - how the model was accessed (API vs UI)
+
+What is reported “sometimes”:
+
+- 47% - model version
+- 47% - prompt engineering details
+- 39% - date of model access
+
+What almost nobody reports:
+
+- 7% - whether RAG was used
+- 7% - F1-score
+- 2% - sensitivity / specificity
+- 4% - whether the model was fine-tuned
+
+That’s exactly why the FLAIR checklist was introduced - 32 reporting items to make LLM studies in radiology look like science, not demos.
+
+But it looks like this is a fairly standard story for any emerging technology. Imaging AI went through a similar phase, just on a different axis.
+
+Back then, papers were obsessing over sensitivity / specificity / Dice scores, instead of showing the socio-economic impact of AI in real clinical settings.
+
+Will LLM papers follow the same path - what are your thoughts?
+
+Team: Dr. Jonathan Kottlors, B.A. PD Dr. Dr. med Andra-Iza Iuga Christian Bluethgen Keno Bressem Jakob Nikolas Kather Linda Moy Christoph Wald, M.D., Ph.D., M.B.A., F.A.C.R. Wei Wang Tianming Liu Erik R. Ranschaert, MD, PhD Thomas Dratsch Jens Kleesiek Priv.-Doz. Dr. med. Roman Johannes Gertz Pranav Rajpurkar Arash Bedayat Matthias A. Fink Almut Zeeck Akshay Chaudhari Tarik Alkasab Honghan Wu Felix Nensa Benyou Wang Nils Große Hokamp Priv.-Doz. Dr. med. Kai R. Laukamp Thorsten Persigehl David Maintz Daniel Truhn PD Dr. Simon Lennartz
+
+DOI 10.1148/radiol.250913
+
+
+
+09.02.26, 15:31 GMT+3
+4,103 impressions
+
+205 → 97 eye movements per chest X-ray
+
+Researchers tracked radiologists’ eyes to see how AI and structured reporting reduce cognitive load. This is what they found.
+
+They compared 3 reporting modes for bedside chest radiographs:
+
+- Free-text reporting
+- Structured reporting (SR)
+- AI-prefilled structured reporting (AI-SR)
+
+
+1. Visual attention: number of saccades (how many times a radiologist’s eyes rapidly move from one spot to another on the X-ray image itself)
+
+- Free-text: 205.1 ± 134.8
+- SR: 123.1 ± 88.3
+- AI-SR: 96.9 ± 58.0
+
+-40% saccades with SR, −53% with AI-SR vs free-text.
+
+The radiologist understands where to look faster and rechecks the same areas less often.
+
+
+2. Visual attention: total fixation duration (seconds spent on a report display field)
+- Free-text: 11.4 ± 4.7 s
+- SR: 4.8 ± 2.6 s
+- AI-SR: 3.6 ± 0.8 s
+- P < 0.001
+
+Radiologists spend ~3× less time reading text with SR and AI-SR.
+
+
+3. Next, the researchers identified an interesting insight.
+
+SR shifts novice readers’ attention by +6.4 percentage points from text to image.
+
+At the same time, for non-novice (experienced) readers, there was no significant change -experienced radiologists remain image-focused regardless of the reporting mode.
+
+
+Overall, this appears to be one of the first studies of its kind to directly examine how cognitive load changes depending on AI use and reporting mode.
+
+Thoughts?
+
+
+
+Team: Mahta Khoobi, Marc S. von der Stück, Felix Barajas Ordonez
+Anca-Maria Theis Eric Corban Julia Nowak Aleksandar Kargaliev Valeria Perelygina Anna-Sophie Schott Daniel Pinto dos Santos
+Christiane K. Kuhl Daniel Truhn
+
+DOI: 10.1148/radiol.251348
+
+
+
+06.02.26, 15:19 GMT+3
+2,022 impressions
+
+What do ice hockey and medicine have in common?
+
+There’s a concept called the Peltzman Effect. To explain it clearly, let’s start with an example.
+
+Hockey is a very injury-prone sport. To reduce injuries, the NHL introduced visors on helmets as an additional protective measure.
+
+But paradoxically, it turned out that some players became more aggressive, increasing the risk of harm to themselves and others. In other words, adding protection actually increased the risk of injury.
+
+The Peltzman Effect (also known as the offsetting effect) is named after economist Sam Peltzman. He proposed that humans adjust their behavior based on changes in their perceived risk. The key word here is PERCEIVED - as opposed to ACTUAL risk.
+
+In medicine, there’s a striking example of the same phenomenon.
+
+Researchers evaluated the impact of public reporting of quality outcomes for percutaneous coronary interventions (PCI) among Medicare beneficiaries. They compared data from 2002 to 2010 across different U.S. states. Some states publicly reported outcomes, others did not.
+
+And here’s what they found:
+
+In the reporting states, patients with myocardial infarction were less likely to receive PCI than in non-reporting states.
+
+Why?
+
+Because when data is public, physicians start worrying about their scores and outcomes - and therefore take less clinical risk. As a result, a measure that was supposed to improve quality and safety paradoxically increased risk for patients.
+
+It’s ironic: an action taken to improve quality and reduce risk may actually increase that risk.
+
+This is something I’ve written about multiple times. Every action we take carries risk - even when it feels completely safe. We just often fail to recognize it.
+
+So every time you try to “improve” a system, do you stop and think that it might not make things better at all - and could easily make them worse?
+
+If you’ve seen examples like this, share them.
+
+Thanks R. Douglas Bruce or his great article taken as a reference https://lnkd.in/djyicKHh
+
+P.S. I used to play ice hockey as a kid - this is me at 10 years old in the photo :)
+
+
+05.02.26, 15:34 GMT+3
+9,664 impressions
+
+Medtronic is about to buy HeartFlow’s competitor, CathWorks, for up to $585 million 🔥
+
+
+The intent to acquire was formed in 2022, and the acquisition is expected to close in 2027.
+
+
+Some info about CathWorks:
+
+-> Israel-based
+
+-> Founded in 2013
+
+-> Raised $83M
+
+-> The FFRangio System uses AI to compute Fractional Flow Reserve (FFR)
+
+
+
+What’s special about the technology?
+
+-> No need for pressure wires or hyperemic agents
+
+-> CathWorks analyzes routine 2D angiograms in real time
+
+-> The technology shows up to $400 in cost reduction compared to invasive wire-based FFR
+
+
+CEO Ramin Mousavi said that more than 100,000 patients have already been treated using the technology in collaboration with Medtronic.
+
+The investor lineup:
+
+Triventures, Deerfield Management, Corundum Open Innovation, Pontifax, BioStar Ventures, Quark Venture, and Planven
+
+
+Seems like this M&A could significantly accelerate cardiovascular innovation, what do you think about the technology?
+
+
+
+04.02.26, 14:29 GMT+3
+11,296 impressions
+
+✅ 100+ companies in the US are actively hiring radiologists - finally in one place ✅
+
+After a week of digging, cleaning, and verifying, we compiled a single, structured list of 100+ radiology companies that are hiring right now.
+
+Inside the file you’ll find:
+
+-> Company name
+-> Website
+-> LinkedIn
+-> Company type (hospital system, teleradiology, imaging provider)
+-> Who exactly they are hiring (subspecialties)
+
+
+If you’re in the radiology space - radiologist, telerad exec, recruiter, or operator - this list will save you an absurd amount of time.
+
+Drop any comment and make sure we’re connected.
+
+I’ll share the list with you.
+
+
+
+03.02.26, 16:02 GMT+3 
+2,745 impressions
+
+105,000 women were screened using mammography AI
+
+A first-of-its-kind comprehensive study was recently completed in Sweden.
+
+Study setup:
+
+- Participants with a median age of 54
+
+- Conducted in 2021–2022
+
+- 4 screening sites across Sweden
+
+- AI trained on 200,000 samples by ScreenPoint Medical
+
+
+So what were the results?
+
+During two years of follow-up:
+
+- Interval cancers: 1.55 (with AI) vs 1.76 (without AI) per 1,000 → 12% reduction
+
+- 16% fewer invasive cancers in the AI group
+
+- 21% fewer large cancers in the AI group
+
+- 27% fewer aggressive subtype cancers in the AI group
+
+
+Detection performance:
+
+- Cancer detection rate: 81% with AI vs 74% without AI → +9% relative increase
+
+- False positives: essentially the same (1.5% vs 1.4%)
+
+Thoughts?
+
+Results and methods look very solid
+
+DOI: 10.1016/S0140-6736(25)02464-X
+Team: Jessie Gommers Veronica Hernström Viktoria Josefsson Hanna Sartor David Schmidt  Annie Hjelmgren Anna-Maria Larsson Solveig Hofvind Ingvar Andersson Aldana Rosso Oskar Hagberg Kristina Lång
+
+
+
+02.02.26, 17:30 GMT+3 
+3,530 impressions
+
+261,245 cancer papers were flagged as suspicious. 🤯
+
+In top journals included.
+
+Researchers trained a model on 2,202 retracted paper-mill papers and then validated it on a corpus of 2.6 million cancer research publications.
+
+The reported accuracy was 91%.
+
+When applied to the full dataset, the model flagged 261,245 out of 2,647,471 papers and revealed a sharp increase in flagged publications from 1999 to 2024, both across the entire corpus and within the top 10% of journals by impact factor.
+
+Some statistics from the study:
+
+- Highest percentage of flagged papers by publisher: ~67% - Verduci Editore
+
+- Highest percentage of flagged papers by cancer type: ~22% - gastric cancer
+
+- From 2010 to 2024, the number of flagged papers increased almost 12×
+
+
+The rest of the statistics can be found in the carousel.
+
+What are your thoughts on these numbers?
+
+DOI: 10.1136/bmj-2025-087581
+Team: Baptiste Scancar Jennifer Byrne David Causeur Adrian Barnett

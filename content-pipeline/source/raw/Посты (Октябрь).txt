@@ -1,0 +1,747 @@
+10.11.25
+Transparent AI can make radiologists worse?
+
+A new 2025 study took a deep dive into AI interfaces in radiology - and here’s the data.
+
+Researchers screened 5,921 papers, but only 6 met the criteria for studying user interface preferences for AI in radiology (Gill et al., J Med Imaging & Radiation Sci, 2025).
+
+Across those 6 studies:
+
+- The sample sizes were microscopic - no larger than 17 participants.
+
+- 33% used the System Usability Scale (SUS) for evaluation; others added qualitative “think-aloud” or interview methods.
+
+And here’s the strange part:
+
+In one of the diagnostic accuracy studies (Tang et al., Radiol Artif Intell, 2023):
+
+- A text-only AI interface achieved the highest AUC (0.87) for lung nodule detection.
+
+- But radiologists preferred the combined heatmap + text + confidence-score UI - which actually resulted in lower accuracy.
+
+So we definitely need more data - the current sample is far too small.
+
+But even with these limitations, it raises fascinating questions:
+
+Do extra interface features really reduce accuracy?
+
+If so, how transparent should AI actually be?
+
+And what should an ideal AI output look like?
+
+
+DOI: 10.1016/j.jmir.2025.101866
+
+Team: Avneet K Gill Dr Clare Rainey Laura McLaughlin Ciara Hughes Raymond Bond Jonathan McConnell Sonyia McFadden
+
+31.10.25
+Higher malpractice payouts - fewer scans???
+
+
+A new AJR study analyzing 630,000 emergency department headache cases across all US states found something counterintuitive:
+
+where malpractice payouts were higher, doctors ordered fewer scans.
+
+Main findings of the study:
+
+- In states with damage caps, the likelihood of ordering any imaging was 21% lower.
+
+- In states with several liability (where each defendant is responsible only for their share of damages), it was even lower -> −32%.
+
+
+And the most counterintuitive part - higher average malpractice payouts were also associated with lower CT and overall imaging rates. For every $10,000 increase in average malpractice payment, imaging odds dropped 1%.
+
+
+At first glance, it should be the other way around.
+
+
+But possibly this is because:
+
+1. High payouts ≠ high lawsuit risk.
+
+Such states may have stricter legal frameworks and filters, so the actual risk of being sued is lower, and physicians are better protected.
+
+2. High payouts indicate a more mature insurance system.
+
+They might simply reflect a better-functioning legal and compensation environment, not a more aggressive one.
+
+3. Medicaid context.
+
+In the Medicaid population, imaging may already be more tightly regulated due to lower margins and reimbursement levels.
+
+4. Correlation ≠ causation.
+
+The authors note this themselves - we can’t say that higher payouts caused fewer CTs; it’s more likely that both coexist within more developed, legally and organizationally mature healthcare systems where doctors don’t practice “scan everything” medicine.
+
+
+
+More numbers:
+
+- The strongest non-legal predictor: if the ordering provider was not an emergency physician, the likelihood of imaging was 8.5× higher.
+
+- In smaller hospitals (<100 beds), imaging was 35% less likely.
+
+So it always comes down to context - the system in which physicians make decisions.
+
+Perhaps with a better-tuned system, we could safely reduce unnecessary CTs.
+
+Or perhaps not - because at the end of the day, the patient’s life comes first, and we must see how such changes would actually affect outcomes.
+
+
+Team: Casey Pelzl, Gelareh Sadigh Ajay Malhotra Mesha L. Martinez, MD Ashley Prosper Ruth Carlos Eric Christensen Alexandra Drake, MPH Elizabeth Rula, PhD John Jordan
+
+
+DOI: 10.2214/AJR.25.33781
+
+30.10.25
+List of 100+ healthcare grants in Europe & UK - now public
+
+We’ve just compiled a massive open list of grants, programs, and funding calls for MedTech, digital health, and AI startups across Europe and the UK.
+
+Inside the file you’ll find:
+→ Country filters (Austria, Belgium, Netherlands, UK, etc.)
+→ Funding amount & type (grant, soft loan, quasi-grant)
+→ Stage: early, growth, or translational
+→ Submission dates & deadlines
+→ Short eligibility descriptions
+
+
+We built it because most founders spend weeks digging for this info - and it’s scattered across 50+ sites.
+
+If you’re fundraising or planning your next grant application, this list will save you days of research.
+
+Drop “Grants” in the comments and I’ll send you the link (and make sure we’re connected).
+
+29.10.25
+What we always forget about emergency CTs
+
+In the comments under my post about unnecessary emergency exams, an active discussion started (https://lnkd.in/g_uGWgUd).
+
+Most of the takes were about how these scans help doctors save more lives by making diagnosis more accurate. That’s absolutely true.
+
+But I had another thought.
+Right now, most studies focus on how these extra exams help detect and treat diseases. Yet, there’s also the other side of the coin.
+
+We need to remember that every additional scan is actually:
+
+1. A higher workload for radiologists, lowering their focus
+2. A delay for another patient’s scan
+3. A delay in reporting for another patient
+4. Extra radiation dose
+5. And surely there are more factors to add
+
+And here’s the interesting part - there are practically no studies exploring these negative effects.
+
+The only example I quickly found is doi:10.1097/MD.0000000000012112, which shows how CT delays can influence mortality.
+
+We need more of that kind of research - for each of the points above - to understand how these indirect effects impact other patients’ lives.
+
+I’m not claiming to have the right answer. I honestly don’t know what the perfect balance would be.
+
+But it’s important to remember that every decision has two sides of consequences - not just the one that’s easier for us to think about.
+
+28.10.25
+Half of radiology AI models were rejected
+
+Emory’s Radiology AI Council just published an internal audit of 13 AI models used or proposed for deployment - and only 4 were fully approved. Why?
+
+
+Here’s the reality check in numbers:
+
+- 9 out of 13 improved diagnostic accuracy
+
+- 6 out of 13 didn’t provide any time savings
+
+- 3 showed financial benefits within radiology
+
+- 3 showed net financial losses
+
+
+And here’s an interesting observation: even the model for Spine MRI Degenerative Changes, which demonstrated decreased turnaround time (by 1 hour to 1 day), ended up bringing no financial benefit.
+
+That perfectly echoes one of the points made at the recent RSNA Spotlight in Barcelona - we still need to learn how to monetize time reductions. On their own, in isolation, they don’t necessarily translate into value.
+
+Final recommendations: 4 for deployment, 3 for shadow deployment, 3 deferred, and 3 discontinued.
+
+For deployment:
+
+1. Brain volume and segmentation
+2. Coronary artery calcification
+3. Aortic valve calcification
+4. Breast cancer risk
+
+Another major issue: none of the evaluated models included post-deployment quantitative performance tracking.
+
+But perhaps that should actually be part of the hospital’s or teleradiology provider’s own infrastructure.
+
+Because if every vendor comes in with its own monitoring solution, you end up with a chaotic zoo of fragmented systems.
+
+Overall, fascinating statistics - it would be great to start seeing more of these analyses for comprehensive AI models.
+
+Will the numbers look any different there?
+
+
+Team: Hari Trivedi Bardia Khosravi Judy Gichoya Laura Benson
+Damian Dyckman, M.D., Ph.D. James Galt Brian Howard Elias Kikano, MD Jean Kunjummen Neil Lall, MD CIIP Xiao T. Li Sumir Patel, MD, MBA Nabile Safdar Ninad Salastekar Colin Segovis, MD, PhD Marly van Assen Peter Harri
+
+DOI: 10.1016/j.jacr.2025.05.016
+
+27.10.25
+Half of emergency CTs shouldn’t even be done.
+
+In a recent paper, researchers found that over 50% of emergency CT requests were inadequate or unjustified
+
+
+Of nearly 1,300 emergency CT requisitions:
+- 22.2% - adequate
+- 5.5% - barely adequate
+- 65.9% - considerably limited
+- 4.1% - deficient
+- 2.2% - lacking adequate information
+
+
+The reasons are quite obvious - and familiar to everyone:
+
+→ Ordering physicians under pressure
+
+→ Vague clinical indications
+
+→ Fear of missing something
+
+→ And the convenience of “just scan it”
+
+
+But every unnecessary CT comes at a cost:
+
+- Radiation exposure
+
+- False positives that trigger cascades of further testing
+
+
+Most importantly, they consume radiologists’ time - already a scarce resource,
+preventing them from focusing on the cases where imaging was actually needed.
+
+The authors propose a new classification, RI-RADS, that can provide immediate feedback on the justification of each radiology request.
+
+Do you think this approach could help?
+
+It might - but if it remains purely a recommendation, fear of missing a life-threatening diagnosis will probably keep the “just in case” scans coming.
+
+
+
+
+Team: Xianwei Liu Zhengguang Xiao Qinghua Min Tianhao Wu, Yue Xing Yangfan Hu Defang Ding Shun Dai Junjie Lu Jiarui Yang Yue Li Yang Song Minda Lu Jingshen Chu Huan Zhang Weiwu Yao Jingyu Zhong
+
+Link: https://lnkd.in/gH8RVcpv
+
+24.10.25
+Just got my US visa approved for 3 years - see you at RSNA Chicago!
+
+23.10.25
+You will never implement AI properly
+
+if you ignore these points that were discussed in depth at the latest RSNA Spotlight.
+
+Here they are:
+
+-> Seems obvious, yet most forget it. AI shouldn’t be chosen like a product from a shelf - “this one looks nice, let’s try it.” You start from identifying a problem, then look for the AI tool that solves exactly that.
+
+-> TMC shared a smart 2-axis framework they use to map problems by complexity and resource cost. Short answer to “where to start?” - X-rays, to train your workflow muscles.
+
+
+-> Infrastructure is everything. You must send the right series from the right study to the right AI. Only then the whole system starts delivering value.
+
+-> The current pain: DICOM tag standardization. Every vendor should start using visual models to classify what’s actually inside the study (contrast/bodypart). Maybe LLMs will help align everything to RADLEX - but that’s far from certain.
+
+
+
+Other interesting insights:
+
+-> As AI scales up, radiologists start avoiding studies without AI results. Important behavioral shift to keep in mind.
+
+-> Most of the proven ROI today comes from Enhanced Detection Gains - the findings that would otherwise be missed.
+
+
+-> There are still very few prospective studies on time savings. With comprehensive models capable of drafting reports, ROI will start showing there too.
+
+
+-> “I’m reporting 30% faster… now what?” - You must figure out how to extract ROI from that. It doesn’t happen automatically.
+
+Fantastic event overall - huge thanks to all the speakers and the team. It was great!
+Dr Amine Korchi Nina Kottler, MD, MS, FSIIM Charles Kahn Jason Poff Henrik Agrell Ernest Montañà Ortiz Stavroula Kyriazi, MD
+
+22.10.25
+We’ve just spent a week and compiled a list of 200+ MedTech startups across the UK and EU - from AI in radiology to robotics, wearables, and diagnostics.
+
+Inside you’ll find:
+→ Company names & HQs
+→ LinkedIn pages
+→ Short product descriptions
+→ Filterable by country
+
+
+If you’re building, investing, or selling into this market, this list saves you weeks of research.
+
+Drop “MedTech” in the comments and make sure we’re connected - I’ll share the link.
+
+21.10.25
+A 3× longer survival - just from how much muscle your CT shows.
+
+10,340 cancer patients.
+
+Standard CTs.
+
+One fully automated AI model measuring muscle and bone volumes.
+
+
+The result?
+
+Patients with a higher Sarcopenia Index (SI) - the ratio of muscle to bone volume - lived almost three times longer than those with low SI (time ratio = 2.69, p < 0.001).
+
+→ Each unit increase in SI reduced death risk by 44–60%.
+
+→ Across all cancers, muscle loss predicted survival better than BMI or L3-slice metrics.
+
+→ Sarcopenia Index remained the top-ranked feature even after including metastatic status (stage) in the model.
+
+
+Every staging CT already holds this data - we’ve just never looked at it.
+
+And that last point is interesting:
+
+Feature-importance analyses showed SI outranking even classical clinical variables.
+
+If further studies confirm this robustness, sarcopenia might move from being a side effect of cancer to a core biomarker of it.
+
+
+
+
+
+Link: https://lnkd.in/gYsVATf2
+
+Team: Katarzyna Borys Prof. Dr. Johannes Haubold Julius Keyl Maria Antonietta Bali Riccardo De Angelis Kévin Brou Boni Nicolas Coquelet Judith Kohnke Giulia Baldini Lennard Kroll Sara Schramm Andreas Stang Eugen Malamutmann Jens Kleesiek Moon Kim Stefan Kasper Prof. Dr. Jens Siveke Marcel Wiesweg Anja Merkel-Jens Prof. Dr. med. Benedikt Schaarschmidt Viktor Grünwald Sebastian Bauer Arzu Oezcelik Prof. Dr. Servet Bölükbas, MHBA, FETCS, FEBTS Ken Herrmann Rainer Kimmig Stephan Lang Jürgen Treckmann Martin Stuschke Boris Hadaschik Lale Umutlu Michael Forsting Dirk Schadendorf Christoph M. Friedrich Martin Schuler Dr. René Hosch Felix Nensa
+
+20.10.25
+Nine pathologies. Fully drafted preliminary report. Zero clicks. Full explainability.
+
+Check out our latest xAID demo - an acute patient case where xAID detected several opportunistic findings in a single scan.
+
+
+hashtag
+#xaid
+hashtag
+#radiology
+hashtag
+#medtech
+
+17.10.25
+AI that monitors AI
+
+
+Yesterday at the RSNA Spotlight Course on Radiology AI, the topic of continuous monitoring of AI in production came up again.
+
+
+For comprehensive models, the main approach that currently looks viable is LLM-based monitoring - comparing radiologists’ reports with AI-generated ones.
+
+It’s not perfect: there are multiple points in the comparison chain where AI itself can fail.
+
+But still, it’s the most promising path for now - especially if you focus on the most critical pathologies first, without overcomplicating things with weights or multi-class balancing.
+
+
+Then I came across a new paper from Stanford that takes a completely different route.
+
+
+Researchers proposed training a set of sub-models for the same task as the commercial AI model (in this case - intracranial hemorrhage detection).
+
+Then they compare outputs in real time — how much the sub-models agree with the main model.
+
+
+The results?
+
+-> 92% F1 score for real-time confidence estimation.
+-> Cases with low agreement = most likely AI errors.
+
+Seems great.
+
+But the real question is how to implement this at scale in real clinical practice.
+
+Because for every pathology, you’d need to train new models.
+
+And what if your system covers 20+ findings?
+
+What if there’s no open dataset?
+
+And how do you handle data drift?
+
+But the approach itself is interesting - if those challenges can be solved.
+
+And maybe, it could even be combined with the LLM-based monitoring approach - bringing together statistical confidence and semantic understanding into one loop.
+
+Team: Zhongnan Fang Andrew Johnston Lina Cheuy, PhD Hye Sun N. Magdalini Paschaliori Camila González Bonnie A. Armstrong Arogya K. Derrick Laurel Andrew Campion Michael Iv Akshay Chaudhari David Larson
+
+Paper: https://lnkd.in/gF5tjn9j
+
+
+16.10.25
+Shall we rethink AI monitoring?
+
+It seems the strategies that work for single-pathology AI won’t work for comprehensive AI - the kind we’re all inevitably heading toward.
+
+TMC team just published an excellent paper describing how they built AI monitoring directly into their infrastructure.
+
+In short - they developed an in-house dashboard that tracks algorithm performance in real time using structured radiologist feedback.
+
+The system allows either a simple “Agree / Disagree with AI” button or free-text comments.
+
+Example in the carousel below: they managed to cluster responses and calculate relevant real-time metrics for Head CT AI.
+
+
+Out of 23,625 reviewed cases:
+
+• 89.65% rated “AI Helpful”
+
+• Sensitivity: 96%
+
+• Specificity: 90%
+
+• PPV: 88%
+
+• NPV: 97%
+
+• F1 score: 92%
+
+
+But the paper then raises next question - with that level of feedback, deeper AI evaluation becomes tricky in cases where:
+
+-> The finding is correct but the measurement or classification is off.
+
+-> There are multiple co-existing pathologies.
+
+
+In such settings, feedback can become an extra burden rather than support. Efficiency drops, turnaround time suffers.
+
+
+That’s why the authors suggest moving toward LLM-based report comparison.
+
+Yet a big question emerges - what methodology should be used?
+
+With a single pathology, it’s simple: yes/no.
+
+But with many findings, should different errors carry different weights?
+
+Should false positives and false negatives be penalized equally? Even within those, shouldn’t severity matter?
+
+And context matters too - on-call vs. routine settings may demand completely different weighting of the same errors.
+
+Curious to hear how others imagine the ideal AI monitoring framework for multi-pathology systems.
+
+
+Congrats to the team: Dr Geraldine Dean Ernest Montañà Ortiz Stavroula Kyriazi, MD Susan Shelmerdine MBBS, PhD Constantinus Buckens Henrik Agrell Erik R. Ranschaert, MD, PhD Ante Marusic Gareth Davies Phillip Wardle Nicola Schembri Maria Ganten Fausto Labruto Björn Jobke
+
+Link: https://lnkd.in/eqachEmT
+
+15.10.25
+It’s super easy to be a MedTech founder.
+
+You just have to:
+
+- Learn medicine from conversations and Google Scholar.
+- Understand doctors well enough to speak their language.
+- Navigate a thousand incompatible hospital systems.
+- Decode hundreds of medical protocols.
+- Get your product certified (eventually).
+- Survive several years of certification without earning a cent.
+- Find a million dollars somewhere to pay for that certification.
+- Collect medical data for training.
+- Then discover it’s useless outside your country - and start over.
+- Hire a regulatory team you can’t afford.
+
+And of course, in your “spare time”:
+
+- Sell.
+- Design.
+- Build analytics.
+- Handle legal and accounting.
+- Keep chasing product–market fit.
+- Recruit, market, retain, motivate, fire.
+- And, naturally - ensure company survival.
+
+EZ, right?
+
+14.10.25
+Radiology is “cool” again - but who will read the scans?
+
+For the first time in years, Diagnostic Radiology just saw a massive surge in residency applications.
+
+According to JACR (2025), applications jumped nearly 20% year-over-year (!!!), making radiology one of the top 10 most competitive specialties in the Match.
+
+So, did it somehow help the shortage problem?
+
+Not even close.
+
+Here’s what’s really happening:
+
+-> Residency interest is up, but residency slots are still capped.
+
+-> Fellowships remain bottlenecked, especially in body and pediatric imaging.
+
+-> Geographic imbalance is worsening — big cities attract, rural hospitals starve.
+
+If residency and fellowship bottlenecks are at least theoretically fixable, the geo problem isn’t.
+
+The only thing that currently helps is teleradiology.
+
+But that creates a new paradox: the next generation of radiologists often goes straight into teleradiology - skipping the “hospital phase” entirely, without physical interaction or mentoring from senior colleagues.
+
+If this trend continues, shouldn’t training itself adapt somehow?
+
+Skipping that in-hospital phase could directly affect how radiologists work later - faster burnout, weaker clinical context, less feedback on performance.
+
+There are probably other side effects too, we just don't have enough stats on them yet.
+
+
+13.10.25
+Overseas prereads are a Wild West.
+I’ve now spoken to 20+ overseas teleradiology companies doing prelims for the U.S. market - and I’ve never seen such variability in medicine.
+
+Prices and quality for the same set of services differ by 2–3×.
+Turnaround times fluctuate from minutes to days.
+And once the contract goes live - you have no idea what will actually happen.
+The only real method is trial and error.
+Which, in healthcare, is absurd.
+
+At some point, this part of the market will have to be regulated.
+Accreditation or certification for overseas subcontractors is inevitable - the question is how.
+
+How do you prevent cheating?
+How do you avoid creating a new “shady market” of paid accreditors?
+
+Integrate test cases directly into real client flows?
+Let performance on hidden benchmark studies automatically feed into quality scoring regularly.
+
+Because in this segment, quality isn’t something you can verify once - it has to be checked continuously.
+
+Tough for infrastructure, but might be the only transparent decision?
+
+Maybe what is needed not a Kaggle for preread telerads - but a CompareTheMarket for them, built on independent audit data.
+
+Because if overseas prelims are the main scaling trend for the next decade,
+then chaos isn’t a growth model.
+
+It’s a liability.
+
+10.10.25
+The Cures Act cured transparency. But it broke radiologists.
+
+Nearly 40% of radiologists now say the 21st Century Cures Act made their jobs more stressful.
+
+Why? Because “instant access” for patients means radiologists must now:
+
+-> Handle anxious patient calls before the referrer even sees the report.
+-> Add endless disclaimers to avoid misinterpretation.
+-> Lose the time buffer to double-check and refine findings.
+
+- 81% of rads support patient access.
+- But 71% oppose immediate release.
+
+Because transparency without workflow redesign isn’t transparency - it’s chaos.
+
+The paradox:
+A law meant to empower patients ended up burning out the very people diagnosing them.
+
+Maybe it’s time to rethink what “real transparency” means. As I’ve written before, we can’t separate any part of the doctor–patient relationship from the equation. We need more studies that include both sides.
+
+Do you think The Cures Act will be tuned somehow?
+
+More about it here: https://lnkd.in/gXhMQeRN
+
+09.10.25
+We just mapped 100+ teleradiology companies across India, MENA, and LATAM. All in one place.
+
+Inside the list you’ll find:
+-> Company name
+-> Website + LinkedIn links
+-> HQ country & city filters
+-> Short description of each provider
+
+If you’re building, partnering, or selling into these regions - this map will save you weeks of research.
+
+Drop “telex” in the comments (and make sure we’re connected) - I’ll share the full list with you.
+
+07.10.25
+45% sensitivity?
+
+No, that’s not a joke -
+
+that’s the average radiologist sensitivity for detecting ischemic stroke on non-contrast CT.
+But AI isn’t doing much better either - 59.8% on external validation.
+
+This comes from a recent meta-analysis on ischemic stroke detection in NCCT.
+
+Here’s what they found:
+
+AI performance:
+
+- Internal validation → 91.2% sensitivity, 96.0% specificity
+- External validation → sensitivity collapses to 59.8%
+
+Human radiologists:
+
+- Sensitivity: 44.1% (internal) / 46.1% (external)
+- Specificity: ~85%
+
+Clinicians + AI:
+- Sensitivity jumps to 83.7%, specificity 86.7%
+
+→ Nearly double either human-only or AI-only detection.
+
+Two things stand out:
+
+AI dramatically underperforms in external validations → we need more real-world studies, not lab-incubated ones. This meta-analysis clearly shows why internal validation papers are almost useless.
+
+It seems that radiologists and AI might be looking for completely different image patterns - what else could explain such a huge jump when combined? At the same time, should radiologists really trust AI findings that were previously unseen, just because sensitivity doubled? Feels a bit strange.
+
+In short, there are still more questions than answers:
+How should we design studies so they don’t turn into another “one-more-useless sens/spec paper”?
+
+And how do we actually study human-AI interaction - because that kind of metric jump deserves some real explanation.
+
+
+DOI: 10.1016/j.acra.2025.09.010
+Team: Wenzhuo Shen Jihong Peng Jie Lu
+
+​​06.10.25
+We just made it public!
+
+The list of open vacancies across the US teleradiology market
+
+What you will find inside:
+→ Names of the companies
+→ Direct apply links
+→ Short job summaries
+
+Check them here: https://lnkd.in/gujWU_av
+
+05.10.25
+Maybe AI + Prelims, not AI vs Prelims?
+
+Everyone keeps shouting about the shortage of radiologists - but where are the real solutions? Have you seen even one that actually works?
+
+So far, the only thing that really works is prelims - even if the system around them is still a bit shady.
+
+Every year, the U.S. is short by several thousand radiologists, and the gap keeps growing. A large new influx of board-certified rads clearly isn’t coming. Financial incentives haven’t helped much either, since radiologists are already among the highest-paid physicians.
+
+The problem is deepened by the mindset of Gen Z radiologists, who are just entering the profession. Their 4-day-workweek, smoothie, “only-life-balance” philosophy means lower productivity - and more pressure on everyone else, who then get demotivated too.
+
+In the end, the system simply can’t scale - except through AI or overseas radiologists.
+
+So maybe it’s time to accept that overseas prereads are here to stay. Many groups already use them quietly - because they work and they scale. The shortage will only worsen, and prereads look like the most practical path forward. What’s needed now is to make them more regulated and transparent than they are today.
+
+Which brings the key question: should this really be AI vs Overseas, or rather AI + Overseas?
+
+Because AI still can’t handle complex studies at the level of a board-certified radiologist - and it’s unclear when (or if) it will, not to mention the regulatory hurdles ahead.
+
+But when paired with prereads, AI adds an extra layer of error detection and, crucially, cost reduction for complex cases.
+
+So if prereads are inevitable, maybe the future should be AI-assisted prereads - where human expertise and machine precision finally learn to scale together.
+
+03.10.25
+AI + Physician + Patient = ♥️
+
+All three parts need to be in place. But in a recent study, the patient was somehow left out.
+
+A JAMA paper looked at:
+
+Clinician Perspectives on AI-Generated Drafts of Patient Test Result Explanations
+
+Doctors overall gave positive feedback on how AI drafted these reports.
+
+The Stats:
+
+-> 85% found it easy to use
+
+-> 72% said it improved explanation quality
+
+-> 71% said it improved efficiency (median 1.1 min saved per result)
+
+-> 83% said they could see themselves using it long-term
+
+-> Radiology comments were rated the most natural
+
+BUT!
+
+It turned out patients often had more follow-up questions based on AI-generated reports.
+
+And some drafts missed important details, especially in lab results.
+
+That’s why it would be far more interesting to look at end-to-end data on the doctor–patient pair:
+
+-> How do both sides react to AI-generated explanations?
+
+-> Are there correlations between physician satisfaction and patient understanding?
+
+Because if you only look at the doctor’s side, you miss the fact that extra patient questions can eat up the very time doctors thought they saved. And it’s possible patients actually feel more anxious after reading these drafts.
+
+AI’s impact on clinicians is important - but its impact on patients is just as critical.
+
+Can these reports end up doing more harm than good?
+
+
+02.10.25
+Radiology hiring is broken
+
+The more I talk to people across the market, the clearer it becomes: it’s a total mess.
+
+Two extremes are playing out at the same time:
+
+-> In the West (US, UK especially) – there are simply too few radiologists. Demand massively exceeds supply. Companies, unable to scale, end up outsourcing prereads to radiologists on other continents.
+
+-> Overseas - the opposite problem. Too many leads, but each one with painfully low average quality. Companies waste endless hours searching and screening candidates, most of whom won’t make the cut.
+
+That got me thinking: for programmers and machine learning engineers we already have platforms like LeetCode and Kaggle.
+
+What if radiology had its own version? A competition-style platform where radiologists who want jobs in teleradiology could test their skills, prove their quality, and climb the rankings.
+
+The best candidates would win cash prizes and job offers.
+Teleradiology companies would finally hire faster and smarter.
+Everyone would have transparent quality scores from day one.
+
+Maybe we are missing the right mechanism to match quality with demand.
+
+Would a Kaggle-for-radiologists solve it?
+
+Influenced by: MSK Olympics by Christoph Agten, MD and RadGame: https://lnkd.in/gCJ2iiJ9
+
+01.10.25
+Do we risk creating the weakest generation of radiologists?
+
+With AI, we risk producing a generation of residents who are significantly weaker than what the field really needs. Here’s why.
+
+A new Radiology paper tested a generative AI model trained on 8.8M chest X-ray/report pairs.
+
+The results:
+
+- Clinical acceptability: 87.6% of AI-generated reports were usable (similar to radiologists).
+
+- Without edits: AI = 66.8%, radiologists = 75.7%.
+
+- Emergency department: AI outperformed residents (91% vs 81.8%).
+
+- Outpatient setting: AI lagged behind board-certified radiologists (85.1% vs 89%).
+
+- Sensitivity: AI found more abnormalities (81.2% vs 59.4%).
+
+- Specificity: AI had more false positives (81% vs 93.6%).
+
+- Hallucinations: occasionally bizarre - like describing stool and a hip prosthesis in a normal 22-year-old CXR.
+
+
+So Gen AI reports sit somewhere between residents and attendings.
+
+The more interesting question: will AI get stuck in that “in-between” role for years?
+
+And if new residents are already in short supply, won’t AI eventually start automating their role - leading to a generation of radiologists who are less skilled, with thinner real-world experience, because they were forced to lean on AI too early?
+
+Should there always be a part of the workflow where residents train independently, or is it inevitable they’ll rely on AI from day one?
+
+Do we risk creating the weakest generation of radiologists?

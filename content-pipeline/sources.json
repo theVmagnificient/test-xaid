@@ -1,0 +1,91 @@
+{
+  "_comment": "Source registry for the xAID trending-news pipeline. method: how to ingest. curl-rss = plain curl on the feed works; webfetch = Cloudflare/bot-blocked, use WebFetch tool; websearch = no stable feed, discover via WebSearch. Verified live 2026-07-02.",
+  "sources": [
+    {
+      "name": "Radiology Business",
+      "feed": "https://radiologybusiness.com/rss.xml",
+      "method": "curl-rss",
+      "status": "verified-live",
+      "items": 100,
+      "topics": ["radiology business", "policy", "reimbursement", "AI", "workflow", "M&A"],
+      "priority": 1,
+      "notes": "Workhorse. Homepage 403s bots but the feed is open. ~100 fresh items, updated daily. Most on-topic for xAID."
+    },
+    {
+      "name": "MedTech Dive",
+      "feed": "https://www.medtechdive.com/feeds/news/",
+      "method": "curl-rss",
+      "status": "verified-live",
+      "topics": ["FDA", "M&A", "recalls", "earnings", "AI", "medtech"],
+      "priority": 2,
+      "notes": "Fresh daily. Broad medtech; filter for imaging/radiology/AI-diagnostics relevance."
+    },
+    {
+      "name": "AuntMinnie Industry News",
+      "feed": "https://www.auntminnie.com/feed",
+      "method": "webfetch",
+      "status": "cloudflare-blocked-to-curl",
+      "topics": ["imaging", "FDA", "M&A", "products", "market"],
+      "priority": 2,
+      "notes": "curl gets 403 (Cloudflare JS challenge). WebFetch renders it. Daily, free. Consider FeedSpot/proxy if WebFetch flakes."
+    },
+    {
+      "name": "Crunchbase News (health)",
+      "feed": "https://news.crunchbase.com/feed/",
+      "section": "https://news.crunchbase.com/sections/health-wellness-biotech/",
+      "method": "curl-rss + filter",
+      "status": "verified-live-general",
+      "topics": ["funding rounds", "M&A", "IPO", "health VC"],
+      "priority": 3,
+      "notes": "General feed works but is not health-specific; filter items to health/medtech, or find the health-section/tag feed. Use WebSearch as backstop for health rounds."
+    },
+    {
+      "name": "PE Stakeholder Project",
+      "feed": null,
+      "page": "https://pestakeholder.org/news/",
+      "method": "webfetch",
+      "status": "no-feed-found",
+      "topics": ["private equity in healthcare", "consolidation"],
+      "priority": 3,
+      "notes": "No RSS found. WebFetch the news page. Good for PE-consolidation angles that tie to radiology group economics."
+    },
+    {
+      "name": "ITN Online",
+      "feed": "https://www.itnonline.com/rss.xml",
+      "method": "curl-rss",
+      "status": "verified-but-stale",
+      "topics": ["products", "FDA clearances", "partnerships"],
+      "priority": 4,
+      "notes": "Feed works but lagged (latest ~May). Low priority; mostly vendor product news."
+    },
+    {
+      "name": "ACR News & Bulletin",
+      "feed": null,
+      "page": "https://www.acr.org/News-and-Publications",
+      "method": "webfetch",
+      "status": "partial-paywall",
+      "topics": ["policy", "guidelines", "AI regulation"],
+      "priority": 3,
+      "notes": "Bulletin free; JACR journal paywalled. Good for policy/guideline angles."
+    },
+    {
+      "name": "Substack (rad-AI publications)",
+      "feed": "per-publication: <substack-url>/feed",
+      "method": "curl-rss",
+      "status": "pattern-known",
+      "topics": ["opinion", "analysis", "rad-AI commentary"],
+      "priority": 4,
+      "notes": "Every Substack has /feed. Need Anastasia to name the publications worth tracking."
+    },
+    {
+      "name": "Lovable news aggregator",
+      "feed": null,
+      "page": "PENDING - need public deployed URL (link given was the editor)",
+      "method": "unknown",
+      "status": "blocked-need-url",
+      "topics": ["aggregated news"],
+      "priority": 2,
+      "notes": "Anastasia said news is collected here. The lovable.dev/projects/... link is the editor and only returns the header. Need the deployed app URL or an export/API."
+    }
+  ]
+}

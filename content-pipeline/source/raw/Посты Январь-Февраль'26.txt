@@ -1,0 +1,895 @@
+17.02.26, 16:30 GMT+3
+727 impressions
+
+1,029 PE-backed healthcare deals were tracked in 2025
+
+PESP just dropped their 2025 report - and PE dealmaking in healthcare remained steady.
+
+The busiest subsectors:
+- Health IT → 151 deals
+- Dental Care → 149
+- Outpatient Care → 148
+
+Medical Imaging: 12 deals tracked in 2025 (vs. 13 in 2024), including:
+
+- Houston MRI & Diagnostic Imaging
+- First Choice Mobile Radiology Services
+- Desert Imaging
+- Diagnostic Technology Consultants, Inc.
+- Community of Nevada Diagnostics
+- Transcend Imaging
+- St. Louis Breast Center
+- Knoxville Comprehensive Breast Center
+
+In 2024, notable deals included DirectMed, StatRad, Coastline Imaging, and Breast Center of Acadiana.
+
+The numbers look stable - but they don't tell the full story, as many deals go unreported.
+
+Consolidation is happening quietly, and the downstream effect is often higher prices for imaging services.
+
+Do you think it should be regulated more strictly?
+
+
+
+16.02.26, 16:48 GMT+3
+2,279 impressions
+
+65+ US radiology M&A deals. 2020–2026. One place. 🔥
+
+Imaging centers. Teleradiology groups. AI vendors. Mobile imaging.
+
+Tracked and structured.
+
+Inside the list you'll find:
+→ Acquirer & target
+→ Deal date
+→ Deal size (where disclosed)
+→ Acquirer type - PE, public, health system, pharma
+→ Target type
+→ Geography
+→ Key context on every transaction
+
+Consolidation is accelerating. This tracker shows exactly how.
+
+Comment "M&A" and I'll DM it, make sure we are connected
+
+Deal missing or misclassified? Let me know. We'll fix it.
+
+
+13.02.26, 16:30 GMT+3
+1,312 impressions
+
+
+I spoke with 15 radiology CxOs, and radiology hiring in the US is broken.
+
+Here are the thoughts.
+
+
+What’s important is that this seems to be one of the very few markets where business scaling happens only if you manage to hire a radiologist. There is literally demand from clients - but no ability to deliver the service. Finding a radiologist can take up to a year.
+
+
+At the same time, the market is strongly segmented. There are smaller players that Private Equity hasn’t reached yet, and larger players that are already PE-backed.
+
+On top of that, there are hundreds of different websites where you can search for radiologists. The funniest part? On some of the most well-known ones, you can’t even filter by state (sic!). As a result, whoever can spam the feed with the highest number of vacancies wins.
+
+
+But for regular radiologists, this level of saturation makes it extremely difficult to choose the right company. Conditions are often opaque. It’s unclear whether the company is PE-backed or independent. Compensation structures are not transparent. Many other details are hidden.
+
+
+And yes - there are HR agencies as well. But so far, I haven’t heard many positive reviews about working with them for radiologist recruitment. If you have successful cases, drop them in the comments.
+
+
+It feels like we need a more transparent tool - primarily for radiologists - where in a conversational format they could simply input something like:
+
+"Current R4 about to graduate looking for a job. Completing a 1 year neuro fellowship starting this summer with graduation in 2027.
+Would like to join a group that would allow pay per click, evening, or weekend moonlighting shifts during fellowship and beyond. 5 day a week worker, okay with some evenings and weekend call, no deep overnights. Prefer 40-50% neuro if possible"
+
+And based on that request, the search would already start automatically.
+
+Thoughts?
+
+
+
+12.02.26, 16:16 GMT+3
+28,871 impressions
+
+300+ US radiology providers. One place. 🔥
+
+Imaging centers, teleradiology groups, hospital systems - all of them mapped.
+
+Inside the list you’ll find:
+
+→ Company name
+→ Type of provider
+→ Website
+→ LinkedIn
+→ Short description
+
+If you’re building AI for imaging, selling into radiology, identifying acquisition targets, or analyzing the competitive landscape - this will save you days, if not weeks.
+
+If your organization is missing or incorrectly categorized, DM me.
+We’ll fix it.
+
+Drop “US Map” in the comments and make sure we’re connected - I’ll send you the full version.
+
+
+
+11.02.26, 16:57 GMT+3
+18,521 impressions
+
+Dear AI company,
+Thank you for showing us how you can detect 10 additional pathologies on Chest CT. We will definitely find another six companies that detect the remaining 50, then combine all your interfaces and reports through a platform and train our physicians to use all of it. That should finally solve the hiring shortage and increase our capacity.
+
+We do have a couple of questions though. Are we correct in understanding that for our full-report template we’ll need to purchase additional software to unify all these fragmented pieces of text? Fine, we’ll add that to the budget.
+
+And yes - if we buy five different solutions + a platform + text processing, what will be the cost per study? Right. $30 per chest CT. Our financial model stops working, because that’s almost half of what we pay a radiologist.
+
+He processes studies faster now? Great. At that speed, he won’t miss anything? He still has to validate the AI anyway, because the legal risk is on him. So ROI becomes unclear. Reduce the radiologist’s compensation for an unclear, non-validated result?
+
+Thank you, we’ll call you back.
+
+–
+
+It feels like this is exactly how many AI vendors expect hospitals to respond.
+
+But in reality, AI should fix hiring and radiologist shortages by providing ready-to-sign reports - not by forcing hospitals to stitch together five different tools and layer another platform on top.
+
+Inspired by a reference post from Andrew Lundquist
+
+
+
+10.02.26, 15:02 GMT+3 
+3,879 impressions
+
+95% vs 7% vs 2% 🤯
+
+This is why LLM studies in radiology are almost impossible to compare
+
+A recent systematic review + Delphi consensus (57 studies, 20 experts, 6 countries) revealed:
+
+What almost everyone reports in their papers:
+
+- 95% - the AI model name
+- 93% - the model developer
+- 84% - how the model was accessed (API vs UI)
+
+What is reported “sometimes”:
+
+- 47% - model version
+- 47% - prompt engineering details
+- 39% - date of model access
+
+What almost nobody reports:
+
+- 7% - whether RAG was used
+- 7% - F1-score
+- 2% - sensitivity / specificity
+- 4% - whether the model was fine-tuned
+
+That’s exactly why the FLAIR checklist was introduced - 32 reporting items to make LLM studies in radiology look like science, not demos.
+
+But it looks like this is a fairly standard story for any emerging technology. Imaging AI went through a similar phase, just on a different axis.
+
+Back then, papers were obsessing over sensitivity / specificity / Dice scores, instead of showing the socio-economic impact of AI in real clinical settings.
+
+Will LLM papers follow the same path - what are your thoughts?
+
+Team: Dr. Jonathan Kottlors, B.A. PD Dr. Dr. med Andra-Iza Iuga Christian Bluethgen Keno Bressem Jakob Nikolas Kather Linda Moy Christoph Wald, M.D., Ph.D., M.B.A., F.A.C.R. Wei Wang Tianming Liu Erik R. Ranschaert, MD, PhD Thomas Dratsch Jens Kleesiek Priv.-Doz. Dr. med. Roman Johannes Gertz Pranav Rajpurkar Arash Bedayat Matthias A. Fink Almut Zeeck Akshay Chaudhari Tarik Alkasab Honghan Wu Felix Nensa Benyou Wang Nils Große Hokamp Priv.-Doz. Dr. med. Kai R. Laukamp Thorsten Persigehl David Maintz Daniel Truhn PD Dr. Simon Lennartz
+
+DOI 10.1148/radiol.250913
+
+
+
+09.02.26, 15:31 GMT+3
+4,103 impressions
+
+205 → 97 eye movements per chest X-ray
+
+Researchers tracked radiologists’ eyes to see how AI and structured reporting reduce cognitive load. This is what they found.
+
+They compared 3 reporting modes for bedside chest radiographs:
+
+- Free-text reporting
+- Structured reporting (SR)
+- AI-prefilled structured reporting (AI-SR)
+
+
+1. Visual attention: number of saccades (how many times a radiologist’s eyes rapidly move from one spot to another on the X-ray image itself)
+
+- Free-text: 205.1 ± 134.8
+- SR: 123.1 ± 88.3
+- AI-SR: 96.9 ± 58.0
+
+-40% saccades with SR, −53% with AI-SR vs free-text.
+
+The radiologist understands where to look faster and rechecks the same areas less often.
+
+
+2. Visual attention: total fixation duration (seconds spent on a report display field)
+- Free-text: 11.4 ± 4.7 s
+- SR: 4.8 ± 2.6 s
+- AI-SR: 3.6 ± 0.8 s
+- P < 0.001
+
+Radiologists spend ~3× less time reading text with SR and AI-SR.
+
+
+3. Next, the researchers identified an interesting insight.
+
+SR shifts novice readers’ attention by +6.4 percentage points from text to image.
+
+At the same time, for non-novice (experienced) readers, there was no significant change -experienced radiologists remain image-focused regardless of the reporting mode.
+
+
+Overall, this appears to be one of the first studies of its kind to directly examine how cognitive load changes depending on AI use and reporting mode.
+
+Thoughts?
+
+
+
+Team: Mahta Khoobi, Marc S. von der Stück, Felix Barajas Ordonez
+Anca-Maria Theis Eric Corban Julia Nowak Aleksandar Kargaliev Valeria Perelygina Anna-Sophie Schott Daniel Pinto dos Santos
+Christiane K. Kuhl Daniel Truhn
+
+DOI: 10.1148/radiol.251348
+
+
+
+06.02.26, 15:19 GMT+3
+2,022 impressions
+
+What do ice hockey and medicine have in common?
+
+There’s a concept called the Peltzman Effect. To explain it clearly, let’s start with an example.
+
+Hockey is a very injury-prone sport. To reduce injuries, the NHL introduced visors on helmets as an additional protective measure.
+
+But paradoxically, it turned out that some players became more aggressive, increasing the risk of harm to themselves and others. In other words, adding protection actually increased the risk of injury.
+
+The Peltzman Effect (also known as the offsetting effect) is named after economist Sam Peltzman. He proposed that humans adjust their behavior based on changes in their perceived risk. The key word here is PERCEIVED - as opposed to ACTUAL risk.
+
+In medicine, there’s a striking example of the same phenomenon.
+
+Researchers evaluated the impact of public reporting of quality outcomes for percutaneous coronary interventions (PCI) among Medicare beneficiaries. They compared data from 2002 to 2010 across different U.S. states. Some states publicly reported outcomes, others did not.
+
+And here’s what they found:
+
+In the reporting states, patients with myocardial infarction were less likely to receive PCI than in non-reporting states.
+
+Why?
+
+Because when data is public, physicians start worrying about their scores and outcomes - and therefore take less clinical risk. As a result, a measure that was supposed to improve quality and safety paradoxically increased risk for patients.
+
+It’s ironic: an action taken to improve quality and reduce risk may actually increase that risk.
+
+This is something I’ve written about multiple times. Every action we take carries risk - even when it feels completely safe. We just often fail to recognize it.
+
+So every time you try to “improve” a system, do you stop and think that it might not make things better at all - and could easily make them worse?
+
+If you’ve seen examples like this, share them.
+
+Thanks R. Douglas Bruce or his great article taken as a reference https://lnkd.in/djyicKHh
+
+P.S. I used to play ice hockey as a kid - this is me at 10 years old in the photo :)
+
+
+05.02.26, 15:34 GMT+3
+9,664 impressions
+
+Medtronic is about to buy HeartFlow’s competitor, CathWorks, for up to $585 million 🔥
+
+
+The intent to acquire was formed in 2022, and the acquisition is expected to close in 2027.
+
+
+Some info about CathWorks:
+
+-> Israel-based
+
+-> Founded in 2013
+
+-> Raised $83M
+
+-> The FFRangio System uses AI to compute Fractional Flow Reserve (FFR)
+
+
+
+What’s special about the technology?
+
+-> No need for pressure wires or hyperemic agents
+
+-> CathWorks analyzes routine 2D angiograms in real time
+
+-> The technology shows up to $400 in cost reduction compared to invasive wire-based FFR
+
+
+CEO Ramin Mousavi said that more than 100,000 patients have already been treated using the technology in collaboration with Medtronic.
+
+The investor lineup:
+
+Triventures, Deerfield Management, Corundum Open Innovation, Pontifax, BioStar Ventures, Quark Venture, and Planven
+
+
+Seems like this M&A could significantly accelerate cardiovascular innovation, what do you think about the technology?
+
+
+
+04.02.26, 14:29 GMT+3
+11,296 impressions
+
+✅ 100+ companies in the US are actively hiring radiologists - finally in one place ✅
+
+After a week of digging, cleaning, and verifying, we compiled a single, structured list of 100+ radiology companies that are hiring right now.
+
+Inside the file you’ll find:
+
+-> Company name
+-> Website
+-> LinkedIn
+-> Company type (hospital system, teleradiology, imaging provider)
+-> Who exactly they are hiring (subspecialties)
+
+
+If you’re in the radiology space - radiologist, telerad exec, recruiter, or operator - this list will save you an absurd amount of time.
+
+Drop any comment and make sure we’re connected.
+
+I’ll share the list with you.
+
+
+
+03.02.26, 16:02 GMT+3 
+2,745 impressions
+
+105,000 women were screened using mammography AI
+
+A first-of-its-kind comprehensive study was recently completed in Sweden.
+
+Study setup:
+
+- Participants with a median age of 54
+
+- Conducted in 2021–2022
+
+- 4 screening sites across Sweden
+
+- AI trained on 200,000 samples by ScreenPoint Medical
+
+
+So what were the results?
+
+During two years of follow-up:
+
+- Interval cancers: 1.55 (with AI) vs 1.76 (without AI) per 1,000 → 12% reduction
+
+- 16% fewer invasive cancers in the AI group
+
+- 21% fewer large cancers in the AI group
+
+- 27% fewer aggressive subtype cancers in the AI group
+
+
+Detection performance:
+
+- Cancer detection rate: 81% with AI vs 74% without AI → +9% relative increase
+
+- False positives: essentially the same (1.5% vs 1.4%)
+
+Thoughts?
+
+Results and methods look very solid
+
+DOI: 10.1016/S0140-6736(25)02464-X
+Team: Jessie Gommers Veronica Hernström Viktoria Josefsson Hanna Sartor David Schmidt  Annie Hjelmgren Anna-Maria Larsson Solveig Hofvind Ingvar Andersson Aldana Rosso Oskar Hagberg Kristina Lång
+
+
+
+02.02.26, 17:30 GMT+3 
+3,530 impressions
+
+261,245 cancer papers were flagged as suspicious. 🤯
+
+In top journals included.
+
+Researchers trained a model on 2,202 retracted paper-mill papers and then validated it on a corpus of 2.6 million cancer research publications.
+
+The reported accuracy was 91%.
+
+When applied to the full dataset, the model flagged 261,245 out of 2,647,471 papers and revealed a sharp increase in flagged publications from 1999 to 2024, both across the entire corpus and within the top 10% of journals by impact factor.
+
+Some statistics from the study:
+
+- Highest percentage of flagged papers by publisher: ~67% - Verduci Editore
+
+- Highest percentage of flagged papers by cancer type: ~22% - gastric cancer
+
+- From 2010 to 2024, the number of flagged papers increased almost 12×
+
+
+The rest of the statistics can be found in the carousel.
+
+What are your thoughts on these numbers?
+
+DOI: 10.1136/bmj-2025-087581
+Team: Baptiste Scancar Jennifer Byrne David Causeur Adrian Barnett
+
+
+
+30.01.26, 18:00 GMT+3 
+4,049 impressions
+
+Jan 2026 - U.S. radiology M&A is accelerating
+
+Here are the most important moves from January:
+
+
+1. RadNet acquires Radiology Regional (LucidHealth division)
+
+13 outpatient locations across Southwest Florida (Naples, Cape Coral, Fort Myers, Port Charlotte, Sarasota).
+
+https://lnkd.in/d_3bwCPX
+
+2. Premier Radiology acquires NRAD
+
+Premier now operates with 165+ board-certified radiologists and >3M studies/year.
+
+https://lnkd.in/drPvmjSb
+
+3. Stanford Radiology AI Lab partners with Rad Partners
+
+https://lnkd.in/dtvHRSAd
+
+4. Tri-Imaging Solutions + DirectMed Imaging merge under Tri-Imaging brand
+
+Imaging equipment and lifecycle services are consolidating too.
+
+https://lnkd.in/dFJa4W52
+
+
+More and more M&As are emerging. What are your thoughts - and who do you expect to be next?
+
+
+
+29.01.26, 18:10 GMT+3
+21,022 impressions
+
+❗ We just spent a week and mapped 100+ PACS, RIS, and transcription tools - all in one list. ❗
+
+What’s inside:
+-> PACS vendors (enterprise, cloud, niche, legacy)
+-> RIS systems actually running workflows
+-> Transcription and speech tools radiologists rely on
+-> Short descriptions so you instantly see who does what
+
+If you sell AI, build AI, or buy AI for imaging - this is the list for you
+
+If you want the full list - Comment “PACS” and make sure we are connected.
+I’ll send it over.
+
+
+28.01.26, 15:33 GMT+3
+4,147 impressions
+
+Is AI increasing radiologists’ burnout?
+
+A recent study of 6,726 radiologists found that AI use was associated with a higher risk of burnout.
+
+There are still very few studies that directly examine burnout in relation to AI usage. Two of the most cited ones come from China - and they point in opposite directions.
+
+The first was a cross-sectional survey of ~6,000 radiologists, with ~3,000 using AI.
+
+Burnout prevalence:
+
+- AI users: 40.9%
+- Non-AI users: 38.6%
+
+The second study, conducted across 68 public hospitals, showed the opposite:
+
+- AI use may help prevent or alleviate burnout
+- Longer AI use → lower burnout scores
+
+So what’s going on?
+
+Burnout may depend less on whether AI is used, and more on how long it has been part of the workflow.
+
+But efficiency rarely means less work in healthcare. It often means more volume.
+
+Which helps explain why perceptions are split.
+
+European Society of Radiology survey:
+
+-> 50.8% expect AI to reduce workload
+-> 49.2% expect AI to increase workload
+-> 41% believe radiologists carry liability for AI errors
+-> 41% believe liability should be shared with vendors
+
+Curious to hear - has AI reduced your stress, or just made the treadmill faster?
+
+
+Also check Woojin Kim thoughts on burnout - https://lnkd.in/dr3He-hu
+
+And Christoph Agten, MD - https://lnkd.in/d-aeV5cf
+
+
+DOI: 10.1007/s00330-025-12278-6
+Team: Jay R.Parikh Frank J. Lexa
+
+
+
+27.01.26, 15:30 GMT+3
+5,259 impressions
+
+Shadow AI is eating medicine.
+
+Did you know that every 5th doctor is already using unauthorized AI tools at work? But is that really a problem?
+
+A recent survey by Wolters Kluwer shows:
+
+Half of respondents said they use unauthorized AI because they need faster workflows.
+
+Others said the tools are simply better than what hospitals officially provide.
+
+And the latter is especially interesting.
+Hospital software is often painfully outdated.
+
+Take dictation, for example. Compare PowerScribe to any modern voice-to-text app trained on medical language. That gap isn’t small - it’s a decade wide.
+
+For the first time, doctors can build tools for themselves via vibe-coding in a matter of days.
+
+I know, for example, that Christoph Agten, MD vibe-coded his own voice-to-text solution and successfully shared it with peers, simply because existing tools worked poorly for German.
+
+Mario Amaro, MD posted about different vibecoded projects by doctors - check out his recent posts.
+
+And honestly, this feels like a great trend.
+
+Doctors will increasingly buy or vibe-code tools that are personally useful at that exact moment, tools that actually solve their real problems.
+
+So when hospitals say “unauthorized AI”, let’s be precise. This is not about FDA clearance.
+It’s about tools that weren’t purchased by the hospital.
+
+Should this be restricted? Imho - not, what do you think?
+
+
+
+26.01.26, 16:00 GMT+3
+2,251 impressions
+
+Medicare spending could increase by $750 million to $2 billion in a single year.
+
+The Medicare Payment Advisory Commission (MedPAC) has just finalized its recommendations to Congress on how physician and hospital payments should be adjusted in 2027.
+
+Key takeaways:
+
+1. Increase payment rates by 0.5 percentage points above current law.
+
+This would affect Medicare spending as follows:
+
++$750M to $2B in one year
++$1B to $5B over five years
+
+2. Increase funding for the Medicare Safety-Net Index (MSNI).
+
+An additional $1B would be allocated to the MSNI budget. This mechanism is designed to incentivize hospitals to care for more low-income patients, who typically have significantly worse ability to pay and poorer clinical outcomes.
+
+Thoughts?
+Is this increase sufficient, or would addressing workforce shortages require a much larger raise to truly move the needle?
+
+
+
+23.01.26, 15:30 GMT+3
+7,186 impressions
+
+It’s insanely easy to be a MedTech founder.
+
+You just have to:
+
+-> Learn medicine without ever going to med school.
+-> Convince doctors you actually understand medicine.
+-> Integrate with ~1,000 hospital systems that were last updated during the Cold War.
+-> Memorize hundreds of clinical protocols that actively resist automation.
+-> “Just” get your product certified.
+-> Spend several years in certification while generating exactly $0 in revenue.
+-> Magically find $1M+ to pay for certification while still generating $0.
+-> Find medical data that no one wants to share.
+-> Discover that it only works in one country.
+-> Throw it away and start again in another geography.
+-> Hire a regulatory team and accept that “lean startup” is now historical fiction.
+
+And of course, on top of that, the relaxing founder stuff:
+
+-> Sell without a product.
+-> Build a product without users.
+-> Design without feedback.
+-> Do analytics without scale.
+-> Handle legal and accounting without mistakes (good luck).
+-> Search for product-market fit in a market that doesn’t like change.
+-> Hire.
+-> Fire.
+-> Motivate.
+-> Demotivate yourself.
+-> And make sure the company doesn’t die.
+
+That’s basically it.
+
+No technical risk.
+No regulatory risk.
+No capital risk.
+No burnout risk.
+
+Just vibes.
+
+MedTech is easy.
+
+
+
+22.01.26, 15:30 GMT+3
+2,394 impressions
+
+OpenEvidence just raised $250M at a $12B valuation - the fourth fundraise in less than a year!
+
+The valuation doubled compared to the previous round.
+
+The numbers are mind-blowing:
+
+-> $100M ARR in January
+-> 18 million clinical consultations supported by verified physicians in the U.S. (up from 3 million a year ago)
+-> More than 40% of U.S. physicians are using the platform
+-> Over 10,000 hospitals
+
+What changed the game?
+
+“To stay up to date with new evidence in the top-10 medical journals and the most recent changes to specialty guidelines, it would take nine hours per day,” said CEO Daniel Nadler.
+
+OpenEvidence built a chat-like medical search platform that acts as a “brain extender” for clinicians by delivering citation-linked answers from medical literature in seconds. This saves massive amounts of time and helps doctors stay up to date with research in their field.
+
+The investor lineup includes Thrive Capital, DST, GV, Sequoia, Kleiner Perkins, Coatue, and others.
+
+What are your thoughts?
+
+
+21.01.26, 13:21 GMT+3
+14,772 impressions
+
+Our team spent a week and built a filterable list of 400+ MedTech careers in the US
+
+Every entry includes:
+
+-> Job title + direct link
+-> Company
+-> Role type (product, ML, engineering, clinical, ops, QA, sales, etc.)
+-> Remote / hybrid / on-site
+-> US state
+-> Short job summary so you can triage fast
+
+If you’re hiring, job hunting, or mapping where MedTech demand is actually moving - this saves you days.
+
+Comment "HR" on this post - and make sure we’re connected - and I’ll send you the link.
+
+
+21.01.26, 11:30 GMT+3
+2,035 impressions
+
+The EU has just announced a new corporate structure - EU–INC
+
+It makes me wonder: will something similar happen on the MedTech certification side?
+
+The idea behind EU Inc. is to remove the friction of “Europe as 27 separate countries” when you register a company - different taxes, compliance, and a pile of local nuances. The goal is to unify this, because it’s obvious that building a company in Europe today is still much less convenient than Delaware.
+
+Another interesting question: how will VC deal structuring work under EU Inc.? Will we see a European analogue of SAFE?
+
+Now, back to MedTech.
+
+Yes, CE Mark is not country-by-country. But in practice, even after you get CE Mark, entering each EU country still requires a lot of work - mainly language requirements, local registration/notification pathways, and local operator/commercial rules.
+
+It feels like if those post-CE steps could also be unified into a single “point of entry,” it would massively accelerate cross-border expansion for European MedTech companies.
+
+Curious what you think about EU Inc. - and what else Europe should “tune” in MedTech to make scaling across borders actually fast.
+
+
+20.01.26, 14:00 GMT+3
+1,333 impressions
+
+Do we need FDA/CE for humans, not only for AI?
+
+I was thinking about this the other day.
+
+It feels like with every passing day we’re moving closer to an era of AI with human in the loop, where the human becomes an operator and verifier of AI. This is already happening in domains like legal and accounting. And it’s not a coincidence that in both of these fields, outsourcing is extremely common.
+
+In practice, the client is buying an output. That output can theoretically be produced entirely by a human or entirely by a machine. Today, of course, it’s generated by some mix of AI and humans - but over time, that mix will keep shifting toward AI. And if the client is satisfied with the output, they generally don’t care how it was produced.
+
+In medicine, because of workforce imbalances and staff shortages, outsourcing is also becoming more popular. If we extrapolate the same logic to healthcare, we end up with an interesting conclusion: the paradigm may shift toward medical devices not being “pure AI,” but rather AI with human in the loop.
+
+Why? Because the interface between humans and AI is changing and becoming increasingly blurred. With generative AI, there are millions of possible interaction patterns that are simply impossible to fully anticipate or predefine. As a result, a specific human paired with a specific AI system starts to look like a specific medical device.
+
+And that leads to a deeper implication.
+
+At some point, running clinical trials on the AI alone may no longer be sufficient. We may need to rethink how physicians are educated, trained, and tested when they work in tandem with AI systems.
+
+The question is when will this happen, depending on the level of AI adoption
+
+
+19.01.26, 19:00 GMT+3
+1,130 impressions
+
+The silent tax of hospital consolidation on employers
+
+Everyone online loves to blame private equity for buying medical practices and then raising prices and cutting costs.
+But a recent PPI report looked at something else: what happens when large hospital systems acquire private physician practices.
+
+Between 2019 and 2023, the share of independent physician practices (IPPs) that are actually owned by hospitals or large medical systems jumped from 39% to 59%.
+
+What happens next is very predictable.
+
+Consolidation typically increases prices by 6–20%.
+And since healthcare costs are already extremely high, this translates into unexpectedly large additional insurance costs for employers, who pay for employee health plans.
+
+What happens after that?
+
+HR comes to employees with bad news, because they are affected too:
+
+-> Deductibles went up
+-> Copays increased
+-> Benefits got worse
+
+One more important point from the report:
+Quality of care barely changes, while administrative complexity clearly increases after consolidation.
+
+So the end result is simple:
+
+We get medical cost inflation driven by consolidation, growing faster than most other inflation metrics.
+
+And this is where it becomes political.
+
+Both workers and businesses lose in this scenario. It’s hard to imagine this not affecting voter sentiment on both sides.
+
+Does it make sense to limit consolidation - or should the rules of how consolidation works be fundamentally redesigned?
+
+P.S. If you need the report link - ping me in the comments section.
+
+
+15.01.26, 14:40 GMT+3
+5,193 impressions
+
+GIVEAWAY 🎁
+4 healthcare funding lists. One place. Here are the links
+
+We did the boring work once - and put everything together for you.
+
+https://lnkd.in/deBfp4xV - US VCs list
+
+https://lnkd.in/dYcEaH7A - EU & UK VCs list
+
+https://lnkd.in/dBzfChjK - US grants
+
+https://lnkd.in/d6_HHnMN - EU & UK grants
+
+
+14.01.26, 19:00 GMT+3 
+3,029 impressions
+
+Radiology is NOT Jevons’ Paradox. At least not yet.
+
+There’s a popular argument floating around:
+
+“AI makes radiologists faster → costs drop → imaging demand explodes → radiologists end up worse off.”
+
+Sounds like classic Jevons’ Paradox.
+
+
+I recently came across an article by Ben White where he explains why radiology doesn’t actually fit that model
+
+
+1. Demand for imaging is not elastic in the economic sense.
+
+CTs and MRIs are not consumed because they’re cheap. They’re ordered because a clinician thinks they’re necessary. Lower marginal reading cost doesn’t suddenly make doctors order scans for fun.
+
+
+
+2. radiology is supply-constrained, not demand-constrained.
+
+The bottleneck is radiologists, scanners, technologists, slots in the schedule. Even if AI makes reporting faster, you don’t magically get more scanners, more staff, or more hours in a day.
+
+
+
+3. time savings don’t automatically convert into volume.
+
+A radiologist reading 20% faster doesn’t mean 20% more scans get done. It often means:
+
+- slightly shorter turnaround time
+
+- slightly less backlog
+
+- slightly less burnout
+
+
+None of these trigger runaway demand.
+
+
+4. reimbursement is the real brake.
+
+In many systems, imaging volumes are capped or tightly controlled by payers. If AI makes reads cheaper, the savings usually go to the system - not into ordering more scans.
+
+So what does AI actually do in radiology today?
+
+It shifts where the pain is:
+
+- from impossible turnaround times
+
+- to capacity redistribution
+
+- to keeping the system from breaking under growth it already has
+
+That’s damage control, not Jevons’ Paradox
+
+
+The paradox might appear later - if:
+
+- AI removes radiologists from the loop entirely
+
+- scanners become the only remaining bottleneck
+
+- and reimbursement models fundamentally change
+
+
+Maybe AI is not creating demand but rather absorbing it now?
+
+reference: https://lnkd.in/edqD3JTb
+
+
+
+13.01.26, 19:00 GMT+3
+5,340 impressions
+
+Are you in the top quartile of radiology performers?
+
+It seems that based on this article, you can roughly estimate which performance percentile a radiologist falls into.
+
+What they found is that, on average, despite the growth in imaging volumes, radiologists are still reading about the same number of studies as before the pandemic - around 49 exams per day.
+
+The workload increase is concentrated almost entirely in the busiest 25%. This group reports, on average, ~30% more studies: 73 exams per day vs. 56 exams per day at baseline.
+
+At the same time, their number of working days increased by about 20% for this busiest group, from ~39 days per quarter to ~46 days per quarter.
+
+At first glance, it’s not obvious whether this is a problem or simply normal - there are always top performers and an average group. The real question is different: the capacity of the top quartile cannot grow indefinitely. Yes, new top performers will emerge, but will their number grow at the same pace as the total number of new exams?
+
+And another key question: do these top performers share common patterns that allow them to report significantly more studies without a loss in quality compared to everyone else?
+
+DOI: 10.1016/j.jacr.2025.12.026
+Team: Haniyeh Zamani Tom Fruscello Judy Burleson Mythreyi Bhargavan Chatfield Matthew Davenport MD MBA
+
+
+12.01.26, 19:00 GMT+3
+2,336 impressions
+
+Prompting just beat fine-tuning
+
+You no longer need to suffer with data labelling and complex training.
+Here’s an example of a task that consumes up to 6% of radiologists’ time.
+
+
+In a study based on 1,448 real CT requisitions, expert radiologists defined a “reference” protocol for each case. The authors then compared how protocols were selected by:
+
+1. Humans (residents, fellows, attendings)
+
+2. GPT-4o with a very detailed prompt
+
+3. GPT-4o after fine-tuning - requiring additional training and labeled data
+
+
+The interesting part: GPT with a detailed prompt selected the optimal protocol in 96.2% of cases, while humans did so in 88.3%.
+
+The number of errors was similarly low for both humans and GPT (around 1–2%).
+
+But here’s the key finding: fine-tuning GPT did not improve performance at all compared to GPT using context-rich prompting only.
+
+Overall, the paper is a great example of a task that genuinely drains time and energy, yet can be almost fully automated without training, data labeling, or classical ML pipelines.
+
+And it feels like the number of such tasks is growing:
+
+quality checks of imaging requisitions, structuring clinical information, maybe even follow-ups - all potentially doable without complex RAG setups or heavyweight ML.
+
+Curious whether anyone here has hands-on experience with similar cases.
+
+DOI: 10.1148/radiol.25210
+Team:  Bryan Buckley Adriano Basso Dias Yangqing Deng Heidi Schmidt Ania Kielar Satheesh Krishna Rajesh Bhayana
+

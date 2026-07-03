@@ -1,0 +1,1195 @@
+АПРЕЛЬ
+
+30.04.26, 18:30
+2,371 impressions
+
+Vision-only AI in radiology is dead.
+
+A new npj Digital Medicine study just proved it.
+
+A multimodal LLM (Prost-LM) was tested on 3,940 prostate cancer patients across 7 hospitals.
+
+The model fused 3 inputs into one semantic space: MRI + PSA + clinical notes.
+
+Results (averaged across all cohorts):
+
+-> +7.8% AUC vs vision-only ViT
+-> +3.4% AUC vs ViT-MedBert (shallow multimodal fusion)
+-> +7.2% AUC vs XGBoost on the exact same combined features
+
+Clinical impact:
+
+-> False Negatives: 28% -> 12.5% vs traditional ML
+-> Beat a majority vote of 3 senior radiologists with 10+ years experience (AUC 0.902 vs Sens 0.82 / Spec 0.72)
+
+The paradigm is shifting. Vision-only models can't capture the full complexity of medical data.
+
+At xAID we realized this too - that's why we train our foundation models across multiple modalities, not just images.
+
+Because a radiologist does much more than just look at the image, doesn't he?
+
+DOI: 10.1038/s41746-026-02670-x
+
+
+28.04.26, 19:30
+1,697 impressions
+
+Covera Health and Medmo just merged.
+
+And it's a signal worth paying attention to.
+
+The combined platform now manages diagnostic imaging for 6 million Americans - from referral and scheduling to quality oversight and results delivery.
+
+The numbers:
+
+-> Covera's AI routes patients across 1,100+ sites -> up to 12% lower downstream healthcare costs
+
+-> Medmo: 1M+ patient journeys, 35% reduction in radiology spend, 30% higher study completion rates
+
+-> Clients: Walmart, BCBS Michigan, three of the five largest national health plans
+
+The core thesis: "invisible variation" in imaging quality costs payers billions. The same MRI, same clinical reason - wildly different outcomes depending on where it's read. Covera measures accuracy. Medmo ensures the patient shows up.
+
+Together, they close the loop.
+
+Insight Partners is backing the combined entity with additional capital.
+What this really signals: payers are no longer just paying for imaging. They're building a quality control layer around it.
+
+The question for radiology group leaders: if a platform decides which of your sites qualifies as a "Center of Excellence" and routes 6 million patients accordingly - how much of your revenue depends on criteria you don't control?
+
+Consolidation in radiology isn't just PE buying groups anymore.
+
+It's payers building infrastructure around you.
+
+
+27.04.26, 20:00
+1,620 impressions
+Had a great talk with the team of Christoph Agten, MD about how the future of AI in radiology will look. I personally believe that the future will be in more of an "operator mode" for radiologists, who will be administrating different AI agents - as we're seeing right now in coding, legal, and finance.
+
+What's your take on that?
+
+
+24.04.26, 20:50
+787 impressions
+
+
+"Counting coins in the dark."
+
+That's how med students describe radiology - and it's killing recruitment.
+
+A new paper in Insights into Imaging (2026) connects reading room design to the radiologist shortage:
+
+-> 76.7% of German radiologists report burnout (Bastian et al., 2024)
+-> Med students in Austria, Germany, and Switzerland are actively deterred from radiology by the "counting coins in the dark" stereotype (Seng et al., 2025)
+-> 8 fellowship subspecialties failed to fill 50% of positions for the 2026 match
+-> Emergency radiology pulled out of the match entirely
+
+The workspace is part of the problem:
+
+-> Reading rooms: 20–40 lux
+-> Examination rooms: 500 lux
+-> Operating rooms: 3,000+ lux
+
+
+Radiology reading rooms are 10-100× darker than other clinical spaces. In Germany, radiology is explicitly exempt from daylight workplace regulations. EU Directive 89/654/EEC leaves it a gray area.
+
+The profession has literally been regulated into darkness - and then we wonder why the next generation isn't applying.
+
+The authors' fixes don't require a new building:
+
+-> Dimmable LED with bias lighting behind monitors
+-> Zoned areas: dark for reading, daylight for breaks
+-> Individual workstation controls per subspecialty
+
+Most of it costs less than losing one radiologist to burnout.
+
+What's you thoughts on that correlation?
+
+DOI: 10.1186/s13244-026-02248-x
+
+
+23.04.26, 19:30
+3,672 impressions
+
+We just pivoted into the US market 4 months ago.
+
+MRR doubling every month since.
+
+We started from the EU. Reviews were great. Growth - painful.
+
+Then we flipped the geography. Completely different trajectory.
+
+Here's what we learned about why US just works for MedTech AI:
+
+-> In EU you're negotiating with 27 fragmented healthcare systems, each with its own rules. In US - almost unified.
+
+-> Every decision is made 10x faster, starting from email responses, ending with integration.
+
+-> The pain seems sharper. US has a massive radiologist shortage, PE-backed consolidation, and real P&L pressure on practices.
+
+-> Willingness to pay is on another level. Because the ROI math actually closes.
+
+If you want to join our journey on creating a VLM for ready-to-sign CT reports - reach out to me in DM.
+
+
+21.04.26, 21:20
+91,630 impressions
+
+200+ healthcare VC funds in the US. One place. 🔥
+
+Seed -> late-stage. AI, medtech, diagnostics, biotech, digital health.
+
+After days of digging and cleaning, we compiled a structured database of 200+ healthcare-focused VC funds across the US.
+
+Inside the list you'll find:
+-> Fund name & website
+-> HQ state
+-> LinkedIn profile
+-> Funding focus (AI, medtech, diagnostics, biotech, devices, digital health)
+-> Stage (seed → late-stage)
+-> Investment geography
+
+If you're raising, benchmarking investors, or mapping the market for partnerships - this cuts weeks of research into minutes.
+
+If a fund is missing or misclassified, DM me. We'll fix it.
+
+Drop "VC" in the comments and make sure we're connected - I'll send you the link.
+
+20.04.26, 20:47
+8,472 impressions
+
+We spent a week pulling CMS data on Medicare imaging.
+50 states. 6 modalities. 3 years.
+
+Every imaging scan billed to Medicare Part B, 2021 through 2023. CT, MRI, Ultrasound, X-ray, Nuclear - state by state.
+
+Normalized per 1,000 FFS beneficiaries (not total Medicare - that distorts high-MA states).
+
+The spread:
+
+DC: 7,522 imaging services per 1,000 FFS beneficiaries.
+Wyoming: 2,287.
+Same program. Same reimbursement. 3.3x gap.
+
+Then the part that got us:
+
+7 states saw Medicare imaging volumes DECLINE over 3 years. 5 of them were already below the national median of 4,450.
+
+-> West Virginia -2.4%/yr
+-> Kentucky -1.8%
+-> Montana -1.6%
+-> Indiana -0.9%
+-> Nevada flat
+
+Meanwhile Rhode Island grew +8.6%/yr. California +4.9%. Hawaii +5.8%.
+
+We put the full breakdown into an Excel: 52 states × 6 modalities × 3 years.
+
+Rankings per modality, 3-year CAGR heatmap, underserved-market opportunity score, methodology.
+
+Comment "Imaging" and I'll DM you the file.
+
+
+16.04.26, 19:53
+2,250 impressions
+
+Throwing money at the radiologist shortage doesn't work.
+
+(photo proof below 👇)
+
+Sign-on bonuses climb. Hourly rates climb. Locum budgets climb. The shortage stays exactly the same.
+
+Because the real bottleneck isn't money. It's visibility.
+
+Hospitals don't know where the talent is. Locum agencies don't know which hospitals need which subspecialty right now. Everyone's flying blind while the cash flies around.
+
+That's why I'm excited to announce:
+🔥 RadBoard.io × Luna Locums 🔥
+
+We're powering Luna Locums with real-time radiology market data:
+
+-> 4500+ active jobs across all 50 states
+-> Subspecialty demand in real time
+-> Salary benchmarks by region
+-> Which hospitals are understaffed right now - and for what
+
+Faster placements. Smarter coverage. Locums land exactly where the shortage is most acute.
+
+The radiologist shortage won't be solved by bigger paychecks. It'll be solved by better data.
+
+P.S. For best photos in cash tornado please refer to Shawn Dargusch
+
+
+14.04.26, 21:01
+2,733 impressions
+
+Same AI. Same radiologists. Opposite effect on burnout.
+
+A new prospective study (496 radiologists, 68 hospitals, XGBoost model, AUC 0.719) just flipped the "AI vs burnout" conversation.
+
+The finding that nobody expected:
+-> AI for Coronary CTA -> INCREASES burnout risk
+-> AI for Chest CT -> DECREASES burnout risk
+
+Same technology with same users, but opposite outcomes.
+
+Why?
+
+Coronary CTA is high-stakes, cognitively heavy, and AI oversight adds scrutiny on top of already complex reads. The AI becomes another thing to validate, not a tool that offloads work.
+
+Chest CT is more standardized. AI actually removes cognitive load - a separate study showed 22.1% faster interpretation times with Chest CT AI assistance.
+
+The takeaway for radiology leaders:
+"Deploying AI" is not a strategy. The modality, the workflow integration, and what the radiologist actually has to DO with the AI output - that's what decides whether AI reduces burnout or adds to it.
+
+Generic AI duration didn't even make the top predictors. Context did.
+Other top burnout predictors from the model:
+-> Salary satisfaction (paradoxically - proxy for seniority and accountability)
+-> Having children
+-> Weekly working hours
+-> Coronary CTA AI usage
+
+Because those are two very different products. And only one of them actually helps retention.
+
+Thoughts?
+
+DOI: 10.1016/j.acra.2026.03.037
+
+---
+
+P.S. On radboard.io you can now filter radiology jobs by which AI tools the group uses - useful if you care about which workflows you're walking into.
+
+
+13.04.26, 20:19
+3,902 impressions
+
+Half the lung cancers were in patients you'd never screen.
+
+10% had never smoked a cigarette in their life.
+
+A new JAMA Network Open study (40,612 patients, Mississippi Delta) compared two cohorts at Baptist Memorial:
+-> 15,754 in formal Lung Cancer Screening (LCS)
+-> 24,858 flagged through the Incidental Pulmonary Nodule (IPN) program
+
+36-month lung cancer diagnosis rate:
+-> LCS: 3.8%
+-> IPN: 4.3%
+
+For reference - NLST hit 3.97% over a median 6.5 years. Both programs got there in half the time.
+
+The most important part part:
+-> 87% of IPN patients did NOT meet USPSTF 2021 screening criteria
+-> 52% of IPN lung cancers were in patients ineligible for screening
+-> 10.4% had never smoked
+
+These are cancers the formal screening system was designed to miss.
+And IPN found them on scans already being done for other reasons. No new scanners. No new budget. Just structured follow-up of nodules already in the report.
+
+How many incidental nodules in your practice are sitting in free-text reports right now, never triaged into a pathway?
+
+DOI: 10.1001/jamanetworkopen.2026.3171
+
+
+10.04.26, 18:00
+1,006 impressions
+
+Patients are losing trust in AI healthcare. But using it more than ever.
+
+A new Ohio State Wexner Medical Center survey (1,007 US adults, January 2026) just dropped some numbers:
+
+-> Openness to AI in their care: 52% -> 42% (in one year)
+-> Belief that AI makes healthcare more efficient: 64% -> 55%
+-> Yet 51% used AI to make important health decisions WITHOUT consulting a doctor
+
+How patients actually use AI today:
+-> 62% to understand symptoms before seeking care
+-> 44% to explain test results or a diagnosis
+-> 25% to compare treatment options
+-> 20% to prepare for an appointment
+
+The paradox: patients trust AI less - but rely on it more.
+
+What it means for radiology groups:
+The "patients love AI" pitch is dead. You can't sell AI adoption to your board on patient enthusiasm anymore.
+
+Trust is the bottleneck now, not accuracy.
+
+Patients are already self-diagnosing with ChatGPT before they walk in.
+
+The only question is whether AI enters their journey through your radiologist's report - or through a chatbot first.
+
+Thoughts?
+
+
+09.04.26, 18:38
+3,204 impressions
+
+29 part-time radiology jobs in the US right now.
+Out of 4,490. That's 0.6% of the market.
+
+If you want flexibility in radiology, you won't find it in the job title - you'll trade for it.
+
+Here's what the trade looks like.
+-> What you get: Remote rate jumps from 21% to 31%
+-> Salary stays close - $625K median vs $650K for full-time
+
+What you give up:
+-> Partnership track: 17% vs 30%
+-> 59% of part-time openings are at hospital systems. Independent practices almost never post them.
+
+-> Full-time: 1 in 3 shot at equity.
+-> Part-time: 1 in 6.
+
+Part-time buys you flexibility. It costs you ownership. Whether that trade is worth it depends on where you are in your career.
+
+---
+Data from 4,490 active US radiology listings on RadBoard -> radboard.io
+Activate to view larger image,
+
+
+
+08.04.26, 18:00
+1,216 impressions
+
+$45M for physician burnout. Radiology just told Congress to fund it.
+Here's why the math actually works for radiology groups.
+
+The original Dr. Lorna Breen Act delivered $110M to 40 health systems. Results from grantees:
+-> 37% reduction in burnout
+-> 50% decrease in mental health conditions
+-> 250,000+ healthcare workers supported
+-> One hospital: 10-15 min saved per patient visit on documentation -> 47% jump in job satisfaction
+
+Now ACR is pushing for $45M in fresh funding to reauthorize the program through 2030.
+
+The context nobody wants to talk about:
+-> ~50% of US physicians reported burnout symptoms in 2024
+-> Radiologist turnover jumped from 5.3% to 8.5% in a decade (Neiman, 2013-2022)
+-> 8 radiology subspecialties failed to fill 50% of fellowship slots in 2026
+-> Emergency Radiology dropped out of the 2026 match entirely
+$45M across the entire US healthcare workforce is a rounding error compared to what a single replaced radiologist costs a practice.
+
+But federal grants don't fix the workload tipping point (~13,400 wRVUs/year in private practice). They fix stigma and access to mental health care.
+
+The real question for radiology CMOs: is your burnout problem a funding problem, or a workflow problem?
+
+Because if it's workflow, no grant will save you.
+
+--
+P.S. We just indexed 4000+ open radiology jobs across all 50 states on radboard.io - turnover, subspecialty demand, and salary benchmarks in one place.
+
+
+07.04.26, 18:00
+4,607 impressions
+
+
+4,495 active radiology jobs in the US.
+73% require a subspecialty.
+
+Here's how demand breaks down:
+- General radiology - 26.7%
+- Body / abdominal - 12.6%
+- Interventional - 11.4%
+- Neuroradiology - 9.7%
+- Breast imaging - 9.7%
+- Emergency - 9.2%
+- MSK - 7.0%
+- Mammography - 5.6%
+- Nuclear medicine - 4.7%
+- Pediatric - 3.5%
+
+A few observations.
+
+Body and IR together are nearly a quarter of all postings. Both are procedure-heavy, both are hard to fill remotely. The shortage hits hardest where teleradiology can't scale.
+
+Breast imaging and mammography are listed separately across most job boards - combined, they're ~15% of the market. The largest subspecialty block if you count them as one.
+
+General radiology is still the biggest single slice at 27%. But it's shrinking. As imaging volume grows and practices optimize for throughput, the market keeps fragmenting toward specialization.
+
+What subspecialty are you seeing the most demand for?
+
+We track 4,000+ active radiology jobs across the US, so you can easily check them at radboard.io
+
+
+06.04.26, 18:00
+3,897 impressions
+
+Most radiologists pick a job.
+Few pick a state.
+
+The state determines your legal exposure, your insurance cost, and how often you get deposed. Here are 5 states that consistently rank lowest for malpractice risk - with real job numbers.
+
+Texas - 279 openings
+$250K noneconomic damage cap since 2003 (Prop 12). Premiums dropped 46% in the decade after reform. Second-largest radiology job market in the US.
+
+Ohio - 198 openings
+Reformed in 2003. Noneconomic damages capped at $500K. Fifth-largest market. Underrated relative to how often it comes up in job searches.
+
+Indiana - 153 openings
+One of the strictest frameworks in the US: total damages capped at $500K, with a state Patient Compensation Fund covering anything above the physician's limit.
+
+North Carolina - 116 openings
+Damage cap state. Growing imaging market - Charlotte, Raleigh, Durham are all expanding. Quieter than FL or NY but worth the look.
+
+Wisconsin - 94 openings
+Consistently ranked the best state for physician practice. Lowest malpractice premiums nationally. Strong mix of academic and private practice.
+
+For contrast: Florida has 387 openings - most in the US. Average malpractice premium there runs ~$85K/year.
+
+More openings, higher cost, higher legal exposure.
+
+What state are you in?
+---
+
+We track 4000+ active radiology jobs across the US at radboard.io. The best market isn't always the loudest one.
+
+
+03.04.26, 18:00
+2,499 impressions
+
+16 minutes saved. 21% less burnout.
+
+JAMA just published the largest multi-site AI scribe study ever - 8,581 clinicians, 5 health systems, 2+ years of data.
+
+-> AI scribes saved just 16 min of documentation time per 8-hour shift
+-> Total EHR time dropped by only 13 min (3% reduction)
+-> "Pajama time" (after-hours EHR work) didn't change at all
+-> Revenue bump: $167/month per clinician
+
+But a prior Mass General Brigham study found AI scribes cut burnout by 21%.
+
+16 minutes -> 21% burnout reduction? Those numbers don't match - unless what AI fixes isn't time. It's cognitive load.
+
+And this is exactly the trap radiology AI falls into. We keep measuring value in seconds-per-study and cost-per-scan. But the real value might be the mental weight of reading without a safety net.
+
+The study also found only 32% of adopters used the scribe in >50% of visits. Those who did - 27 min saved, nearly double.
+
+Maybe it's time to stop asking "how many minutes does AI save?" and start asking "what does AI take off the radiologist's shoulders?"
+
+---
+
+Want to check which radiology positions specify AI tools or PACS in their listings?
+
+Drop "general remote with visage pacs" into search at radboard.io - it just works
+
+
+02.04.26, 18:17
+4,148 impressions
+
+Everyone wants 7on/21off.
+Almost nobody is hiring for it.
+
+I pulled data from 4,435 active radiology job postings.
+
+Here's what the ED schedule market actually looks like:
+
+-> 7on/7off: 250 jobs
+
+-> 7on/14off: 202 jobs
+
+-> 7on/21off: 11 jobs
+
+7on/21off sounds like the best deal. 3 weeks off between shifts.
+
+But it's an employer math problem.
+
+To fill one continuous coverage slot with 7on/21off, you need 4 radiologists rotating.
+
+With 7on/14off: 3.
+With 7on/7off: just 2.
+
+The schedule that gives radiologists the most time off is the hardest to staff. Employers know it. Most don't try.
+
+7on/14off has become the ED market standard. 202 open positions.
+
+82% are night or evening shifts - pure overnight ER coverage.
+Median max: $700K.
+
+Compare that to 7on/7off at $650K median max. More work, less pay.
+
+7on/21off isn't a myth. It exists. But you're competing for 11 slots nationally.
+
+Which schedule are you on - and was the tradeoff worth it?
+--
+Full data from 4,000+ job postings -> radboard.io
+
+
+
+01.04.26, 18:00
+2,010 impressions
+
+PSLF can forgive $300K in med school debt.
+It costs $217K a year to access it.
+
+We analyzed 4,333 US radiology job postings. Here's what the data shows.
+
+Only 10% of listings mention loan forgiveness. But where it appears tells the whole story:
+
+- Government / VA: 33%
+- Hospital systems: 20%
+- Academic centers: 17%
+- Private equity: 0%
+- Independent practices: 0%
+
+Now the math.
+
+- Academic avg max salary: $528K.
+- Independent avg max salary: $746K.
+- Gap: $217K per year.
+
+PSLF forgives your remaining loan balance after 10 years of qualifying payments. For most radiologists finishing residency, that's $200K–$400K.
+
+The trade-off over 10 years:
+-> Give up $2.17M in potential earnings
+-> Get $200–400K forgiven
+
+The forgiveness doesn't cover the gap. It isn't close.
+
+Academic medicine has real advantages - research, stability, schedule. But if PSLF is your financial justification for taking the pay cut, the numbers don't support it.
+
+Did you run this math before choosing your job?
+--
+Full data from 4,333 job postings -> radboard.io
+
+
+МАРТ
+
+31.03.26, 17:08
+20,401 impressions
+
+We spent a month to collect and analyze 4,333 US radiology jobs from 18 platforms and put everything in one free report.
+
+We aggregated active postings across ACR, RSNA, AuntMinnie, PracticeLink, and more into the RadBoard 2026 Radiology Job Market Report.
+
+Here's a sample of what's inside:
+
+->⁠ ⁠PE groups pay the highest sign-on bonuses ($91.6K avg). Academic centers: $50.3K. But academic leads with the highest median $/wRVU, while PE has the lowest median.
+
+-> ⁠Breast imaging is the sweet spot right now: #1 in pay at $744K avg max, 488 open positions
+
+-> ⁠Choosing academic over independent practice costs $217K/year in salary. That's the price of PSLF eligibility. PE groups offer it to 0% of their physicians.
+
+-> ⁠Only 10% of listings mention loan forgiveness at all - and it's almost entirely concentrated in government (33%) and hospital system (20%) postings
+
+-> ⁠63% of listings specify a compensation model. 23% include a production or incentive component. Only 4% are pure production / RVU-based.
+
+16 pages. Salary by subspecialty, schedule patterns, state maps, employer type breakdowns, compensation models, benefits data, and more.
+
+Comment "REPORT" and I'll send it directly. Make sure we are connected
+
+
+30.03.26, 17:30
+1,481 impressions
+
+Everyone's building AI governance frameworks.
+Less than 50% are actually deploying AI.
+
+95% of enterprise AI tools never reach production - across all industries. In medical imaging, the numbers are probably worse.
+
+Emory just published an internal audit of 13 AI models. Only 4 got approved for full deployment.
+
+The blockers weren't accuracy:
+
+-> 9 out of 13 actually improved diagnostic accuracy
+
+-> But 6 out of 13 showed zero time savings
+
+-> 3 showed net financial losses
+
+-> Even a model that cut turnaround time by up to 1 hour brought no measurable financial benefit
+
+This is exactly the governance gap nobody talks about.
+"AI-ready" in most radiology groups means: we have a policy document, we ran a pilot, we wrote a report.
+
+It doesn't mean: we figured out how to extract ROI from faster reads. Or who absorbs the cost when AI is wrong. Or how performance gets monitored post-deployment.
+
+The real question is how do we get actual cuts on TATs and see clear ROI? That can only be figured out by running AI in production and adjusting metrics in real time.
+
+How many of your AI pilots are actually running in production right now - and why aren't the rest?
+
+---
+
+P.S. Want to find the best radiology jobs from across the internet and get US radiology market stats? Check out radboard.io
+
+
+27.03.26, 16:00
+9,811 impressions
+
+It's insanely easy to be a MedTech founder.
+You just have to:
+-> Learn medicine without ever setting foot in med school
+-> Convince doctors you actually speak their language
+-> Integrate with ~1,000 hospital systems built before the internet existed
+-> Navigate hundreds of clinical protocols that were designed to resist automation
+-> "Simply" get your product certified
+-> Spend years in certification while your bank account trends toward zero
+-> Find $1M+ somewhere to fund that certification. While still at zero revenue
+-> Hunt for medical data that nobody wants to give you
+-> Watch it work beautifully - in exactly one country
+-> Start over in the next geography from scratch
+-> Build a regulatory team and quietly bury the words "lean startup."
+
+And then, in your spare time, the usual founder stuff:
+-> Sell before you have a product
+-> Build a product before you have users
+-> Design without feedback
+-> Run analytics without scale
+-> Handle legal and accounting without a single mistake. Obviously
+-> Chase product-market fit in a market that treats "change" like a diagnosis.
+-> Hire. Fire. Motivate. Get demotivated. Repeat.
+-> And somewhere in there - keep the company alive.
+
+That's basically it.
+
+Zero technical risk. Zero regulatory risk. Zero capital risk. Zero burnout.
+
+Just vibes.
+
+MedTech is easy.
+---
+P.S. Want to find the best radiology jobs from across the internet and get US radiology market stats? Check out radboard.io
+
+
+26.03.26, 18:06
+3,593 impressions
+
+AI just made MRI 30% faster.
+So why will your radiologist shortage get worse?
+
+A new npj Digital Medicine study validated AI denoising across 148,930 real-world MRI pairs - cutting acquisition time by 30% on average, some scans under 1 minute, diagnostic quality intact.
+
+That's the Jevons Paradox at work in radiology.
+
+Named after economist William Jevons: when a resource becomes more efficient, total consumption rises - not falls. Cheaper to use = used more.
+
+Faster scans  more scans ordered per session -> More scans -> more findings flagged -> More findings -> more radiologist time, not less
+
+The capacity gain on the scanner side doesn't translate to capacity gain on the reporting side. It just moves the bottleneck.
+
+The practices winning with AI aren't the ones with faster scanners. They're the ones that solved the reporting workflow first.
+
+DOI: 10.1038/s41746-026-02548-y
+
+Is Jevons Paradox real in your MRI department?
+
+---
+P.S. Want to find the best radiology jobs from across the internet and get US radiology market stats? Check out radboard.io
+
+
+25.03.26, 17:30
+26,396 impressions
+
+Your radiologists CAN spot deepfake X-rays.
+
+If they know what to look for.
+
+ChatGPT can now generate radiographs indistinguishable from real ones - published in Radiology (Mount Sinai, 2026, n=154).
+
+But here's what the headlines miss:
+
+-> 41% of radiologists spotted AI images even without being told to look
+
+-> Once aware - accuracy jumped to 75%
+
+-> The tells are consistent: bilateral symmetry, uniform noise, overly smooth bones, too-clean fracture lines
+
+Experienced musculoskeletal rads hit 83% accuracy - so the patterns are learnable.
+
+So most of the hype around this paper feels exaggerated. A lot of people seem to have read only the headline and rushed to write their posts.
+
+Moreover - GPT-4o itself detected its own fakes at 85%, which means the tooling to flag synthetic images already exists.
+
+And what's the actual risk in real clinical practice anyway?
+
+---
+
+P.S. Want to find the best radiology jobs from across the internet and get US radiology market stats? Check out radboard.io
+
+
+
+24.03.26, 17:28
+24,294 impressions
+
+Florida has 1.5x more open radiology jobs than Texas or California.
+
+If you're a practice leader, that number matters more than you think.
+
+FL: 379 open postings
+TX: 276
+CA: 227
+
+This isn't random - FL has structural advantages that attract the groups paying best nationally:
+-> No state income tax
+-> easier to recruit at equivalent compensation
+-> Outpatient/PE-heavy market
+-> higher rates, more remote flexibility
+-> Average max salary: $761K - high volume and high pay at the same time
+-> That combination means demand is real, not an artifact of oversupply
+
+The implication: if you're recruiting or benchmarking compensation, Florida's market is setting prices - not following them.
+
+Full breakdown by subspecialty and employer type at radboard.io
+
+Thoughts?
+
+
+23.03.26, 17:30 
+4,791 impressions
+
+82.4% of radiology job postings don't mention AI tools.
+
+We analyzed 4,306 active US radiology postings. Only 17.6% reference any AI.
+
+-> PE-backed groups: 29.9%
+-> Hospital systems: 14.9%
+-> Academic: 15.5%
+
+And only 9% mention PACS - even though radiologists consistently rank it as one of the top factors in their job decision.
+
+The PACS breakdown among those who do disclose:
+-> 43 Sectra
+-> 42 Visage
+-> 18 Philips
+-> 16 Intelerad
+
+If candidates are walking away because they found out you're running outdated infrastructure - you'll never know why.
+
+Transparency in job postings isn't just good practice - it can be your recruiting advantage, increasing apply conversion.
+
+Why do you think practices still hide this?
+
+P.S. Find the best positions with easy filtering by infrastructure vendors at radboard.io
+
+
+20.03.26, 18:06
+12,998 impressions
+
+Independent practice vs hospital system.
+$108K difference in average max salary.
+
+We pulled this from 4,306 active radiology job postings right now.
+
+Independent practices: $746K avg max. vs hospital systems: $638K avg max.
+
+That gap is not a rounding error - that's a house.
+
+Most radiologists choose their employer based on location or wherever they did residency. Very few sit down and model out what a career in a hospital system versus an independent practice actually costs them over 10 years.
+
+Over a decade, that $108K gap compounds into seven figures in foregone earnings.
+
+There are legitimate reasons to choose a hospital system - loan forgiveness, PSLF eligibility, structured schedule, academic protection. But you should make that trade knowingly, not by default.
+
+The data is at radboard.io. 4,306 jobs. Filter by ownership type. Compare for yourself.
+
+19.03.26, 17:30 
+2,390 impressions
+
+The radiology job market has 4,000+ open positions now.
+Finding the right one still takes weeks of manual searching.
+
+We built RadBoard.io to fix that.
+
+-> 17 sources aggregated in one place
+-> 4,000+ positions, 1,000+ radiology groups
+-> AI chat: tell it "remote neuro, independent practice, 500k+” - it filters instantly
+-> Interactive map: compare market stats by state
+-> Email alerts: set your filters once, get new matches automatically
+
+If you're a radiology group executive thinking about recruiting - this shows you exactly how competitive your market is.
+
+If you're a radiologist exploring options - this is the fastest way to find what fits.
+
+
+18.03.26, 17:30
+14,801 impressions
+
+1 in 4 radiology jobs is now remote.
+
+Private equity firms: 49.3% of their postings are remote. Hospital systems: 12.8%.
+
+This is not a small difference. Private equity firms groups have essentially built distributed radiology models. Nearly half their jobs can be done from anywhere. Hospital systems still expect the radiologist in the building most of the time.
+
+PE-backed groups are optimizing for coverage economics. Remote radiologists can cover multiple sites. You don't need a physical presence in every facility. You need fast reads, consistent quality, and scalable coverage.
+
+Hospital systems are moving slower. More institutional inertia. Some imaging workflows require physical proximity. And academic culture in particular is skeptical of fully remote models - only a small fraction of academic positions offer remote work.
+
+The practical implication for radiologists: If remote flexibility is a priority, the employer type matters as much as the location. A private equity in Florida is more likely to offer remote than a hospital system in the same city.
+
+All data from RadBoard - the first radiology job board with natural language search. Type what you actually want: "remote body, independent practice, $500K+, no nights" — and get matched -> https://radboard.io/
+
+
+17.03.26, 17:30
+6,648 impressions
+
+Radiologists see domestic violence every day.
+
+They just don't have time to act on it.
+
+A new Harvard/Mass General Brigham study trained an AI model on EMR data from ~6,000 female patients - and it identified intimate partner violence risk with 88% accuracy.
+
+What's more interesting is what the model actually learned from the data:
+-> Higher frequency of upper extremity imaging
+-> More overnight and weekend ED visits
+-> Chest pain, painkiller prescriptions, mental health diagnoses
+-> Fewer routine screenings like mammography
+
+These are patterns radiologists intuitively recognize - but time constraints, subspecialization silos, and cognitive overload make it nearly impossible to connect across a patient's full imaging history.
+
+The model detected risk an average of 3.7 years before patients sought help themselves. The tabular-only version - which works without clinical notes - still hit an AUC of 0.85, meaning it could function even in resource-limited settings.
+
+This is one of the clearest examples of AI doing what it should in radiology: not replacing the radiologist's judgment, but surfacing what the radiologist already suspects from data they can't manually review at scale.
+
+Have you ever encountered this in your practice?
+
+
+DOI: 10.1038/s44294-025-00126-3
+
+Team: Jiayi Gu Kimberly Villalobos Carballo Yu Ma Dimitris Bertsimas Bharti Khurana
+Activate to view larger image,
+
+
+
+16.03.26, 18:15
+1,363 impressions
+
+26 times around the sun today!
+Thank you so much for all the warm wishes - it means a lot.
+
+Building in medtech, sharing ideas, and getting your honest feedback along the way has been the best part of this journey.
+
+Grateful for this community. Here's to what's ahead 🚀
+
+
+13.03.26, 17:45
+3,811 impressions
+
+88% of physicians worry AI will erode clinical skills.
+
+The AMA just dropped their 2026 AI survey - nearly 1,700 doctors across all specialties.
+
+The headline: 81% now use AI professionally, up from 38% in 2023. Average use cases per physician -> 2.3, up from 1.1.
+
+But dig into the data:
+-> 88% express concern about skill loss from AI reliance
+-> 70% of that worry is about residents and medical students
+-> Early-career physicians (less than 10 years in practice) are the most anxious - 35%
+
+Meanwhile, in radiology, shortages are everywhere and continue to rise - so it's essential to find the right approach to teaching the new generation of rads to work with it.
+
+But the concern of that 88% is real - so how should we approach this to not create the weakest generation of new rads ever?
+
+Source: AMA 2026 Physician Survey on Augmented Intelligence (n ~ 1,700)
+
+
+12.03.26, 17:41
+8,565 impressions
+
+2026 Radiology CPT Cheat Sheet with RVUs, payments, and AI codes.
+
+One spreadsheet your billing team will actually use.
+
+We compiled all 597 radiology CPT codes from the 2026 CMS
+
+Physician Fee Schedule - with the $32.35 national conversion factor already applied.
+
+Inside:
+→ Every code from 70015 to 79445 with Work RVUs and Medicare payments
+→ AI-specific codes (75577, 75580) with actual reimbursement
+→ 6 Category III AI codes with coverage status
+→ Breakdown by modality - MRI, CT, X-ray, Nuclear, US, PET
+→ Top 50 highest-paying procedures ranked
+
+Whether you're negotiating contracts, evaluating AI ROI, or auditing your billing - it's all in one place.
+
+Comment "CPT" and make sure we're connected - I'll send it over.
+
+
+11.03.26, 18:00
+1,470 impressions
+
+ECRI just named AI the #1 patient safety concern for 2026.
+
+Above staffing shortages, funding cuts, and rural hospital closures.
+
+Their annual report puts "Navigating the AI Diagnostic Dilemma" at the very top of the list. The data behind it:
+
+→ 66% of physicians used AI in 2024 - up from 38% in 2023
+
+→ ML models failed to recognize 66% of critical conditions in synthesized cases
+
+→ GenAI accuracy drops when prompts shift from textbook descriptions to real patient conversations
+
+→ Certain cancers and rare diseases remain harder for AI to detect due to limited training data
+
+→ Overreliance on AI erodes clinicians' critical thinking skills over time
+
+→ No federal regulations governing AI liability for diagnostic errors exist today
+
+But for radiology the perspective is different.
+
+Shortages are massive and keep growing. Without AI, it will soon be physically impossible to handle the volume. The real risk isn't AI itself - it's deploying it without a clear understanding of what problem you're solving.
+
+If the goal is improving detection for specific pathologies - that's triage and narrow AI. If the problem is scaling capacity and clearing backlogs - that's comprehensive AI with ready-to-sign reports. If reporting takes too long and kills workflow - that's dictation AI.
+
+Each of these is a different tool for a different job. And the outcomes depend entirely on matching the right solution to the right bottleneck.
+
+At what point does radiology become impossible to run without AI?
+
+
+10.03.26, 17:30
+2,322 impressions
+
+Radiologists miss 37.7% of rib fractures.
+
+In the outpatient setting - 75.8%.
+
+A new AJR study tested 13 AI models on 88,645 exams at a large national US practice (Larson et al., Radiology Partners + Stanford).
+
+The study introduced a metric called "gain-to-pain ratio" (GPR) - how many real missed findings AI catches per each false positive it generates. The higher the GPR, the more radiologists will trust and accept the model.
+
+The findings:
+→ Radiologist miss rates: 4.3% (free gas) to 37.7% (rib fractures). Outpatient rib fractures: 75.8%
+
+→ AI caught up to 60.5% additional positive cases radiologists missed
+
+→ But not all models added value - one caught zero misses and was sent back for retraining
+
+→ An aortic dissection model had 85% sensitivity and 99% specificity - but only 21% PPV due to 0.3% prevalence
+
+→ Incidental PE model: 94.5% sensitivity, 91% PPV, GPR of 2.71 - nearly 3 real catches per false alert
+
+→ Aortic dissection: GPR of 0.03 — that's ~33 false positives per catch
+
+
+All 13 models came from one vendor, deployed on one platform.
+
+Predeployment predictions matched real-world radiologist perceptions for 10 out of 12 tasks.
+
+Again - sensitivity and specificity alone don't tell you if a model helps or hurts your workflow.
+
+Before you deploy, ask: what's the prevalence in your practice? And what's the gain-to-pain ratio expected?
+
+doi:10.2214/AJR.25.34340
+Team: David Larson Jason Poff Sriyesh Krishnan Jerome Avondo Bonnie Armstrong, Ph.D. Akshay Chaudhari Nina Kottler, MD, MS, FSIIM, FAIM
+
+
+09.03.26, 17:30
+19,505 impressions
+
+"AI has gotten better than radiologists at doing scans."
+- Dario Amodei, CEO of Anthropic
+One problem: it's not true.
+
+→ 50% of radiology positions go unfilled
+→ Post-COVID attrition up 50%
+→ 1,000+ FDA-cleared AI tools - zero replace a radiologist
+→ Imaging demand growing 3-4%/year
+
+Amodei also said radiologists "walk patients through the scan." That's what technologists do. Not radiologists.
+
+This is the 3rd time a tech CEO recycled the same myth: Hinton 2016. Huang 2024. Amodei 2026.
+
+Obviously AI will change radiology - but it's funny how every few years a tech CEO "discovers" radiology and interprets trends in it in a wrong way.
+
+Any thoughts why this happens?
+
+
+
+06.03.26, 17:15
+652 impressions
+
++12% headcount. +56% more exits.
+
+The PE staffing paradox just got its own study:
+
+Health Affairs (March 2026) analyzed 451 PE-acquired primary care practices vs. 2,241 independent controls. 2018–2022 data. Difference-in-differences design.
+
+After acquisition:
+→ +0.39 clinicians per practice (12.2% growth from baseline of 3.2)
+→ Physician growth: +0.21
+→ Advanced practice provider growth: +0.18
+
+PE delivers on the growth promise. That part is real.
+
+But exits tell a different story.
+
+→ Clinician departures jumped by +0.22 per practice
+→ Nearly all the turnover was among APPs - the exact people hired to scale
+
+Net gain: +0.17 per practice. Growth is there, but it's leakier than the top-line suggests.
+
+This isn't a PE-specific problem. It's a scaling problem. Any group - PE-backed or independent - that grows headcount without investing in retention, culture, and workload balance will see the same pattern.
+
+And in radiology, the stakes are even higher. Turnover already hit 8.5% in 2022, up from 5.3% in 2013. The Neiman Institute found a clear workload tipping point: push past ~13,400 wRVUs/year in private practice and radiologists start walking.
+
+Whether you're PE-backed, hospital-employed, or independent - the math is the same.
+
+Hiring without retention isn't growth. It's churn with better PR.
+
+What are your thoughts on your exit rate vs. your hire rate?
+
+
+
+05.03.26, 17:27
+3,318 impressions
+
+500+ Radiology AI companies. With their scientific publications. 🔥
+
+We compiled them into a single database.
+
+Inside the list:
+
+→ Company name
+→ Category (AI / workflow / etc.)
+→ Website
+→ Links to all their scientific publications
+
+If you’re building, investing, or buying AI for imaging - this will save you hours of digging.
+
+Drop “AI list” in the comments and make sure we’re connected - I’ll send it.
+
+
+05.03.26, 16:30
+478 impressions
+
+90% of small practices fear losing independence.
+
+And AI is accelerating it.
+
+athenahealth just surveyed 1,045 physicians. And here is what they found:
+
+→ 65% of doctors at enterprise organizations are comfortable with AI
+
+→ Only 43% at small practices feel the same
+
+→ 90% of small practices now fear losing their independence
+
+And it's about capital, infrastructure, and bandwidth.
+
+Large groups automate revenue cycles, scale patient outreach, deploy AI workflows. Small practices are still figuring out the budget.
+
+Meanwhile in rural America:
+
+→ Burnout: 67% vs 52% (rural vs urban)
+
+→ 69% of rural physicians are considering leaving medicine entirely
+
+The one bright spot? 42% of physicians say AI has already reduced their admin burden (up from 37% last year). And 62% say their EHR makes them more efficient.
+
+AI is working - for those who can access it and deploy it correctly. But moving in that direction seems like a no-go, especially for smaller practices. You just won't be able to compete.
+
+Thoughts?
+
+
+04.03.26, 14:00
+1,113 impressions
+
+41 health system leader. 1 question.
+"What's the biggest myth in healthcare AI?"
+
+Becker's just asked 41 C-suite execs - CIOs, CMIOs, VPs - and the answers all converge:
+
+AI is not a plug-and-play fix.
+
+→ "Set it and forget it." It surfaces patterns - but doesn't replace payer strategy or clinical judgment.
+
+→ "AI will replace clinicians." It won't. Success depends on integration and governance - not model size.
+
+→ "It's just hype." Only if you bought tools that weren't workflow-native and had no accountability to results.
+
+→ "It's a magic pill." AI amplifies the challenges you already have. Without governance, you lose control fast.
+
+The real pattern across all 41 answers?
+
+AI works only when treated as an operating model change - tied to workflows, governed with clear ownership, measured iteratively.
+
+What's the biggest AI myth in your department?
+
+Inspired by yesterday's Jan Beger post -https://lnkd.in/enMYc4zN
+
+
+03.03.26, 18:00
+8,570 impressions
+
+39% of AI-flagged lung nodules aren't real.
+And the real-world numbers are twice as bad as vendors claim.
+
+A new AJR counterpoint paper by Hong & Leung from Stanford
+
+Radiology lays out what many radiology leaders already suspect but few AI vendors want to discuss.
+
+Here's what the data shows:
+
+→ In a real-world evaluation of a commercial AI algorithm, 39% of flagged findings were not true nodules
+
+→ The observed false-positive rate was 1.36 per scan - more than double the vendor's published rate of 0.58
+
+→ Benign structures like branching opacities, vessels, and mucus plugging are routinely flagged
+
+→ Many AI models trained on diagnostic-quality CT degrade significantly on low-dose screening scans
+
+→ Performance varies by scanner type, protocol, and reconstruction kernel - creating inconsistency across sites
+
+And here's the workflow problem nobody's solving:
+Radiologists now have to interpret both the original scan and AI one.
+
+This is exactly why the industry needs to move beyond "detection-only" AI toward ready-to-sign reports that actually fit into existing workflows.
+
+Bolt-on detection tools that generate 1.36 false positives per scan aren't saving time - they're consuming it.
+
+AI should reduce the radiologist's burden, not double it.
+
+What's your experience with AI in lung screening?
+
+DOI: 10.2214/AJR.26.34524
+Team: Eun Kyoung (Amy) Hong Ann Leung
+
+
+02.03.26, 17:15
+3,379 impressions
+
+Radiology AI is increasing physician workload.
+The ACR just put that in writing.
+
+In February 2026, the American College of Radiology filed a formal comment letter to HHS. 40,000+ physicians. The US government asked: how is AI adoption going?
+
+And the answer was:
+
+"Radiologists often invest additional time to review, validate, and interpret AI outputs - the short-term effect is often an increase, not a decrease, in cognitive and workflow demands."
+
+And I keep hearing same about all current narrow AI when speaking with our clients.
+
+Not that the AI doesn't work. That it works - and then the radiologist has to synthesize the outputs into a report. Every scan. Without extra time in the schedule. Without any reimbursement for that work.
+
+There's a structural reason for this.
+
+Most radiology AI produces fragments - detections, measurements, flags. The radiologist still has to build the report from them. That synthesis step is exactly where the extra time comes from.
+
+ACR named what the alternative looks like: AI that integrates the full clinical picture - prior imaging, labs, clinical notes - and produces a full output, not just a detection flag. Foundation models, not narrow algorithms.
+
+That's a different architectural bet. And it's the only one that actually changes the economics ACR is describing.
+
+The math only works if the AI handles the end-2-end synthesis, not just the detection.
+
+
+01.03.26, 18:44
+6,314 impressions
+
+Radiology AI is going from 30 vendors per hospital to 3.
+
+The old model: one AI per pathology. Lung nodule - one vendor. Coronary calcium - another. Pulmonary embolism - another.
+
+To cover chest CT comprehensively, you need 7+ separate tools. You still don't have a full report. You have 7 rectangles on a screen.
+
+The new model: foundation models trained on hundreds of thousands of report pairs. One model for one body part or even modality. Full ready-to-sign plain-text report.
+
+A future hospital stack could look like this:
+→ One comprehensive CT solution
+→ One comprehensive MRI solution
+→ One comprehensive X-ray/mammography solution
+
+Three vendors, not thirty.
+
+Other categories certainly exist - these are just examples to illustrate the scale of the shift.
+
+The real question now: what does the future look like for platform and narrow AI vendors? What are your thoughts?

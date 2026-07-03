@@ -1,0 +1,139 @@
+{
+  "_comment": "Dedup ledger for the trending-news pipeline. 'published' = live/approved xaid.ai blog slugs. 'seen' = source items already evaluated (add {url, date, decision} as the pipeline runs) so we never re-score or re-cover the same news. Seeded 2026-07-02 with the existing blog + the 2 pilot articles.",
+  "published": [
+    {
+      "slug": "ai-radiology-reporting-buyers-guide-2026",
+      "topic": "vendor evaluation / buyer guide"
+    },
+    {
+      "slug": "how-to-switch-from-teleradiology-to-ai-ct-reporting",
+      "topic": "teleradiology -> AI transition"
+    },
+    {
+      "slug": "ai-radiology-for-small-hospitals-2026",
+      "topic": "small/community hospital coverage"
+    },
+    {
+      "slug": "ai-radiology-terminology-glossary",
+      "topic": "glossary / terminology"
+    },
+    {
+      "slug": "after-hours-radiology-coverage-options",
+      "topic": "after-hours coverage"
+    },
+    {
+      "slug": "ct-radiology-coverage-costs-2026",
+      "topic": "coverage cost comparison"
+    },
+    {
+      "slug": "how-accurate-is-ai-radiology-reporting",
+      "topic": "accuracy / clinical evidence"
+    },
+    {
+      "slug": "radiologist-shortage-2026-ai-ct-reporting",
+      "topic": "radiologist shortage"
+    },
+    {
+      "slug": "ct-report-turnaround-time-benchmarks-2026",
+      "topic": "turnaround time benchmarks"
+    },
+    {
+      "slug": "ai-teleradiology-vs-traditional-teleradiology-2026",
+      "topic": "AI vs traditional teleradiology"
+    },
+    {
+      "slug": "is-ai-radiology-reporting-hipaa-compliant",
+      "topic": "HIPAA compliance"
+    },
+    {
+      "slug": "foundation-models-vs-narrow-ai-radiology",
+      "topic": "foundation models vs narrow AI (pilot)"
+    },
+    {
+      "slug": "performance-based-pricing-radiology-ai",
+      "topic": "performance-based pricing / ROI (pilot)"
+    },
+    {
+      "slug": "should-patients-be-told-when-ai-reads-their-scan",
+      "topic": "AI disclosure / patient trust / consent",
+      "source": "Radiology Business + AuntMinnie, RSNA Radiology 2026 survey",
+      "date": "2026-07-02"
+    },
+    {
+      "slug": "ai-radiology-reporting-draft-then-sign",
+      "topic": "generative AI report drafting / draft-then-sign / QA",
+      "source": "RSNA Radiology + JAMA Network Open studies (via Radiology Business)",
+      "date": "2026-07-02"
+    },
+    {
+      "slug": "radiology-ai-access-disparities",
+      "topic": "AI access disparities / NTAP reimbursement (Neiman, AJNR)",
+      "source": "Radiology Business + AuntMinnie + AJNR",
+      "date": "2026-07-02"
+    },
+    {
+      "slug": "how-ai-cuts-mri-wait-times",
+      "topic": "MRI acquisition AI throughput / bottleneck shift to reporting",
+      "source": "Kaiser Permanente + Radiology Business + arXiv/JMIR",
+      "date": "2026-07-02"
+    },
+    {
+      "slug": "lung-cancer-screening-ct-criteria",
+      "topic": "lung cancer screening criteria / CT volume (JAMA Internal Medicine)",
+      "source": "Radiology Business + JAMA Internal Medicine",
+      "date": "2026-07-03",
+      "status": "pending-approval"
+    },
+    {
+      "slug": "medical-device-cybersecurity",
+      "topic": "medical device/DICOM cybersecurity (CISA DCMTK advisory)",
+      "source": "Radiology Business + CISA",
+      "date": "2026-07-03",
+      "status": "pending-approval"
+    },
+    {
+      "slug": "radiology-prior-authorization-imaging-throughput",
+      "topic": "prior-auth reform / imaging throughput (H.R.3514)",
+      "source": "Radiology Business",
+      "date": "2026-07-03",
+      "status": "pending-approval"
+    }
+  ],
+  "seen": [
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/nearly-100-patients-surveyed-say-theyd-want-know-when-ai-used-imaging",
+      "date": "2026-07-01",
+      "decision": "published -> should-patients-be-told-when-ai-reads-their-scan"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/generative-ai-chest-x-ray-models-offer-new-approach-radiology-reporting-and-quality-improvement",
+      "date": "2026-06-30",
+      "decision": "drafted -> ai-radiology-reporting-draft-then-sign"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/uneven-access-radiology-ai-could-deepen-healthcare-disparities",
+      "date": "2026-06-29",
+      "decision": "drafted -> radiology-ai-access-disparities"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/ai-cuts-hospital-systems-mri-wait-times-more-50",
+      "date": "2026-06-29",
+      "decision": "drafted -> how-ai-cuts-mri-wait-times"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/simpler-lung-cancer-screening-criteria-could-capture-more-patients-likely-benefit",
+      "date": "2026-07-03",
+      "decision": "drafted -> lung-cancer-screening-ct-criteria"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/homeland-security-warns-vulnerabilities-medical-imaging-software",
+      "date": "2026-07-03",
+      "decision": "drafted -> medical-device-cybersecurity"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/house-committee-advances-radiology-backed-legislation-curb-prior-authorization",
+      "date": "2026-07-03",
+      "decision": "drafted -> radiology-prior-authorization-imaging-throughput"
+    }
+  ]
+}
