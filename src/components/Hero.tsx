@@ -18,8 +18,9 @@ const Hero = () => {
   useEffect(() => {
     // Skip during react-snap prerender (script would be baked into the HTML and load eagerly)
     if (navigator.userAgent.includes('ReactSnap')) return;
-    // Respect reduced-motion: the scene is decorative animation
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    // NOTE: do NOT gate this on prefers-reduced-motion — that setting means "reduce
+    // motion", not "remove content", and skipping the load leaves the hero half empty
+    // (bug report 2026-07-03). The scene is the brand visual; it loads for everyone.
     const idle = (window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number }).requestIdleCallback;
     if (idle) idle(loadSplineViewer, { timeout: 2500 });
     else setTimeout(loadSplineViewer, 1200);
