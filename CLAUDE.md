@@ -41,7 +41,7 @@ This is a single-page marketing website for **xAID** — an AI-powered CT scan a
 
 - Dark theme only (near-black `#0D0D0D` background)
 - Custom design tokens defined as CSS variables in `src/index.css` under `:root`
-- Key custom Tailwind colors: `xaid-blue` (HSL 227 92% 71% — text/accents on dark, passes contrast), `xaid-blue-strong` (HSL 227 92% 60% — solid fills with white text: buttons, Comparison xAID column, Contact card, Process section; the light blue fails WCAG 4.5:1 under white text, so keep this split), `xaid-dark`, `xaid-gray`
+- **Two-role blue system** (designer-approved July 2026; physics forces two tones — no single blue passes AA on both dark and white). The whole rule: **"Is the background dark?"** Dark → `xaid-blue` (Sky, HSL 227 92% 71%). Light → `xaid-blue-strong` (Royal, HSL 227 92% 56% — also ALL solid fills with white text, matching CTAs). `xaid-blue-strong-hover` (Deep, 48%) only inside `hover:` or as static text inside blue-tinted callouts (`bg-xaid-blue/10`). Never two blue tones in one component; never Tailwind `blue-*` (off-brand 217° hue); `#B7C6FF` (blue-200 family) only for tiny pills on tinted-dark cards where Sky fails. Other colors: `xaid-dark`, `xaid-gray`
 - Custom utility classes in `index.css`: `.container-xaid`, `.section-padding`, `.heading-hero`, `.heading-section`, `.card-dark`, `.btn-primary`, `.btn-outline`, `.fade-up`
 - Font: Poppins (Google Fonts; weights 300/400/500)
 - Osano cookie consent widget styles are customized at the bottom of `index.css`

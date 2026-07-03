@@ -46,11 +46,11 @@ const Process = () => {
           {/* Left: White Card */}
           <div className="lg:w-[55%] fade-up">
             <div className="bg-white rounded-2xl p-8 md:p-12 h-full">
-              <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-6 block">
+              <span className="text-xaid-blue-strong font-medium text-[11px] uppercase tracking-[0.12em] mb-6 block">
                 How it works
               </span>
               <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal leading-[1.4] text-[#0D0D0D] ">
-                <span className="bg-xaid-blue text-white box-decoration-clone whitespace-nowrap px-2">Three simple steps</span>{' '}
+                <span className="bg-xaid-blue-strong text-white box-decoration-clone whitespace-nowrap px-2">Three simple steps</span>{' '}
                 <span>from scan to ready-to-sign report</span>
               </h2>
             </div>

@@ -69,7 +69,7 @@ const FAQ = () => {
         <div className="bg-white rounded-2xl p-8 md:p-10 lg:p-12">
           {/* Section Header */}
           <div className="mb-8 md:mb-10 fade-up">
-            <span className="text-xaid-blue font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">FAQ</span>
+            <span className="text-xaid-blue-strong font-medium text-[11px] uppercase tracking-[0.12em] mb-4 block">FAQ</span>
             <h2 className="text-[28px] md:text-[38px] lg:text-[44px] font-normal text-[#0D0D0D] leading-[1.15]">Questions from real calls</h2>
           </div>
 

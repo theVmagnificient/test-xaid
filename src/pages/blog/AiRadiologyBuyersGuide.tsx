@@ -272,7 +272,7 @@ const AiRadiologyBuyersGuide = () => {
                     { req: 'Data retention and deletion policy', why: 'How long is PHI retained? What is the deletion process after the reporting relationship ends?', required: false },
                   ].map(item => (
                     <div key={item.req} className="flex items-start gap-4 py-3 border-b border-gray-100">
-                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full flex-shrink-0 mt-0.5 ${item.required ? 'bg-red-50 text-red-700' : 'bg-blue-50 text-blue-600'}`}>
+                      <span className={`text-xs font-medium px-2 py-0.5 rounded-full flex-shrink-0 mt-0.5 ${item.required ? 'bg-red-50 text-red-700' : 'bg-xaid-blue/10 text-xaid-blue-strong'}`}>
                         {item.required ? 'HIPAA Required' : 'Best Practice'}
                       </span>
                       <div>

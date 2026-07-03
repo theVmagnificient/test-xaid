@@ -10,8 +10,8 @@
     --xaid-blue-hover: 227 92% 64%;
     /* Darker shade for interactive elements: white text on --xaid-blue is 3.03:1
        (fails WCAG AA 4.5:1); this hits 4.83:1 while keeping the brand hue. */
-    --xaid-blue-strong: 227 92% 60%;
-    --xaid-blue-strong-hover: 227 92% 54%;
+    --xaid-blue-strong: 227 92% 56%;
+    --xaid-blue-strong-hover: 227 92% 48%;
 
     /* Core Colors - Dark Theme */
     --background: 0 0% 5%;

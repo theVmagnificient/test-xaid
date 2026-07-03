@@ -181,7 +181,7 @@ const AfterHoursRadiologyCoverage = () => {
                 <p className="text-gray-500 text-sm text-center mb-8">Cost and availability for nights, weekends, and holidays.</p>
                 <div className="space-y-6">
                   {options.map((opt, i) => (
-                    <div key={i} className={`rounded-xl p-6 border ${i === options.length - 1 ? 'border-blue-200 bg-blue-50' : 'border-gray-200 bg-gray-50'}`}>
+                    <div key={i} className={`rounded-xl p-6 border ${i === options.length - 1 ? 'border-xaid-blue/30 bg-xaid-blue/10' : 'border-gray-200 bg-gray-50'}`}>
                       <div className={`font-medium text-base mb-4 ${i === options.length - 1 ? 'text-xaid-blue-strong-hover' : 'text-[#0D0D0D]'}`}>{opt.name}</div>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                         <div>
@@ -201,7 +201,7 @@ const AfterHoursRadiologyCoverage = () => {
                           <div className={`leading-snug ${i === options.length - 1 ? 'text-xaid-blue-strong-hover font-medium' : 'text-gray-800'}`}>{opt.guarantee}</div>
                         </div>
                       </div>
-                      <div className={`mt-4 pt-4 border-t text-sm font-medium ${i === options.length - 1 ? 'border-blue-200 text-xaid-blue-strong-hover' : 'border-gray-200 text-gray-600'}`}>
+                      <div className={`mt-4 pt-4 border-t text-sm font-medium ${i === options.length - 1 ? 'border-xaid-blue/30 text-xaid-blue-strong-hover' : 'border-gray-200 text-gray-600'}`}>
                         {opt.summary}
                       </div>
                     </div>
