@@ -111,6 +111,20 @@
       "source": "Radiology Business",
       "date": "2026-07-03",
       "approved": "2026-07-03 founder-approved after fact-check"
+    },
+    {
+      "slug": "radiology-outsourcing-gone-wrong",
+      "topic": "failed teleradiology transition case study (CommonSpirit Chattanooga) / outsourcing due diligence",
+      "source": "Radiology Business + Chattanoogan open letter + Fox Chattanooga + US Medicine (VA OIG) + JACR",
+      "date": "2026-07-06",
+      "approved": "2026-07-07 founder-approved after staging review"
+    },
+    {
+      "slug": "site-neutral-payments-imaging",
+      "topic": "site-neutral payments / CY 2027 OPPS proposed rule / imaging reimbursement",
+      "source": "CMS-1850-P fact sheet + Healthcare Dive + HFMA + AHA + Radiology Business",
+      "date": "2026-07-06",
+      "approved": "2026-07-07 founder-approved after staging review"
     }
   ],
   "seen": [
@@ -158,6 +172,36 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiology-providers-must-pay-7m-modify-policies-after-breast-cancer-miss",
       "date": "2026-07-03",
       "decision": "drafted -> radiology-malpractice-ai-reporting"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/patient-care/telehealth/docs-sound-alarm-imaging-delays-amid-health-systems-troubling-teleradiology-transition",
+      "date": "2026-07-06",
+      "decision": "drafted -> radiology-outsourcing-gone-wrong; PUBLISHED (founder-approved 2026-07-07)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/cms-seeks-cut-260m-imaging-spending-through-site-neutral-reforms",
+      "date": "2026-07-06",
+      "decision": "drafted -> site-neutral-payments-imaging; PUBLISHED (founder-approved 2026-07-07)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/pennsylvania-may-soon-require-medical-imaging-professionals-obtain-state-licensure",
+      "date": "2026-07-06",
+      "decision": "drafted -> radiologic-technologist-license-requirements-2026; REJECTED by founder 2026-07-06 (do not publish; draft remains in drafts/ for reference only)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/guardants-shield-colon-cancer-blood-test-snags-unitedhealth-coverage/824365/",
+      "date": "2026-07-06",
+      "decision": "skipped - indirect audience fit, no measurable keyword demand (fit 4 / seo 3)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/top-10-medtech-deals-in-the-first-half-of-2026/824435/",
+      "date": "2026-07-06",
+      "decision": "skipped - broad M&A listicle, imaging content unverified, near-zero search demand"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/22m-malpractice-verdict-after-ct-scan-canceled-when-patient-couldnt-sit-still-exam",
+      "date": "2026-07-06",
+      "decision": "rejected - near-duplicate of radiology-malpractice-ai-reporting (2026-07-03); fact pattern (scan never performed) outside AI reporting value prop"
     }
   ]
 }

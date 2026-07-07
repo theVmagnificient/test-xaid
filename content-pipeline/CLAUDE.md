@@ -1,29 +1,40 @@
 # CLAUDE.md — content-pipeline (formerly the sibling "site-poster" repo; merged 2026-07-03)
 
-This file guides Claude Code when working in this repository.
+This file guides Claude Code when working in this directory. **Keep it in sync with the root
+`CLAUDE.md`** — the root file is the source of truth for build/deploy/integration rules; this one
+covers the content pipeline itself (article style, structure, workflow). If they conflict, the root
+wins — and fix the drift here.
 
 ## What this is
 
-**site-poster** is a (currently greenfield) content-automation tool for the **xAID** marketing
-site. Its job is to turn source material into publish-ready blog articles on `xaid.ai`:
+The **content pipeline** is the content-automation brain for the **xAID** marketing site. Its job
+is to turn source material into publish-ready blog articles on `xaid.ai`:
 
-1. **LinkedIn → article** — take Kirill's LinkedIn posts and rewrite them into full SEO blog articles.
-2. **Trending news → article** — pull trending radiology/AI-healthcare news and turn it into articles.
+1. **Trending news → article** — the main flow, automated: `workflows/daily-news-pipeline.mjs`
+   (a Claude Code Workflow script). Phases: Ingest (feeds from `sources.json`) → Score (dedup vs
+   `ledger.json`, fit/SEO scoring, DataForSEO keyword check) → Draft → adversarial fact-check →
+   editorial/SEO QA. Outputs review-ready drafts to `drafts/` — it **NEVER deploys**.
+   Args: `{ maxDrafts?: number (default 3), sinceDays?: number (default 4) }`.
+2. **LinkedIn → article** — take Kirill's LinkedIn posts and rewrite them into SEO blog articles
+   (manual/ad-hoc for now).
 
-Both pipelines output into the **same destination**: the blog of the `xaid-landing` site.
-
-> Status: design phase. Architecture not yet decided — do not assume a stack. We are designing
-> the two pipelines together, step by step.
+Key files here:
+- `ledger.json` — **shared source of truth for what is published / pending.** Read it before
+  creating a post (no duplicate topics/slugs); add every new post to it. Articles with
+  pending-approval status **block deploy** (`bun run guard` enforces this mechanically).
+  **Founder approval is required before any article goes live** — code-integrated ≠ approved.
+- `sources.json` — news-source registry the pipeline ingests from.
+- `drafts/` — review-ready drafts awaiting founder approval.
+- `source/` — raw source material.
 
 ## The destination: `xaid-landing` blog (the integration contract)
 
-The target site lives at `the repo root` (sibling dir). It is a **static** Vite + React 18 + TS +
-shadcn/ui SPA, dark theme, **no backend**, prerendered at build time with `react-snap`, deployed via
-`rsync` to the `aurora` server (`/var/www/xaid.ai/`). Package manager: **bun**. See
-`../CLAUDE.md` for full build/deploy details.
+The site is this repo's root: static Vite + React 18 + TS + shadcn/ui SPA, dark theme, no backend,
+prerendered with `react-snap`, deployed via rsync to `aurora`. Package manager: **bun**. See the
+root `CLAUDE.md` for build/deploy details.
 
-**There is no CMS.** Each blog article is hand-coded across **four files**. Any tool that "posts" an
-article must produce/modify all four:
+**There is no CMS.** Each blog article is hand-coded across **four files**. Any tool that "posts"
+an article must produce/modify all four:
 
 1. **Metadata** — append an entry to `src/data/blog-posts.ts` (drives the `/blog` index + listing
    cards). Shape:
@@ -33,39 +44,70 @@ article must produce/modify all four:
    ```
    Newest post goes **first** in the array — `blogPosts[0]` is rendered as the featured post.
 
-2. **Article page** — create `src/pages/blog/<PascalCaseName>.tsx`. A self-contained React component,
-   ~20–30 KB, with a rigid structure:
-   - `<Helmet>` block: `<title>`, meta description, `<link rel="canonical">`, OG + Twitter tags, and
-     **three `application/ld+json` schema blocks**: `BreadcrumbList`, `BlogPosting`, and `FAQPage`.
-   - Body sections using **fixed Tailwind class patterns** (copy an existing post as the template):
+2. **Article page** — create `src/pages/blog/<PascalCaseName>.tsx`. A self-contained React
+   component, ~20–30 KB, with a rigid structure:
+   - `<Helmet defer={false}>` (plain `<Helmet>` loses the head in prerender): `<title>` ≤60 chars,
+     meta description 120–160 chars, `<link rel="canonical">`, OG + Twitter tags (no `og:url`
+     needed — fix-html.mjs sets it), and **three `application/ld+json` schema blocks**:
+     `BreadcrumbList`, `BlogPosting`, and `FAQPage`.
+   - Body sections using **fixed Tailwind class patterns** (clone an existing post as template):
      - Header section: `pt-32 md:pt-40 pb-10`, category pill `bg-xaid-blue/20 text-xaid-blue`, `<h1>`.
      - Optional "key stats" grid on `bg-white/5`.
      - `<article className="section-padding bg-[#EBEBEB]">` → white card `bg-white rounded-2xl`
        with `<h2 className="text-[28px] ...">` headings and `<p className="text-[#444] text-[15px]
        leading-[1.65] font-light mb-4">` body paragraphs (note: article body is **light theme**,
        unlike the rest of the dark site).
-   - Ends with `<Footer />`.
-   - Canonical URL, OG url, breadcrumb, and BlogPosting `url` all = `https://xaid.ai/blog/<slug>`.
+   - End-of-article CTA: reusable `src/components/BlogCTA.tsx`.
+   - Ends with `<Footer />`. Do NOT render Navigation/Footer per-page beyond that — Navigation is
+     global in App.tsx.
+   - Canonical URL, breadcrumb, and BlogPosting `url` all = `https://xaid.ai/blog/<slug>`.
 
-3. **Route** — in `src/App.tsx`: add the `import` and a `<Route path="/blog/<slug>"
-   element={<Component />} />` **above** the catch-all `<Route path="*" ...>`.
+3. **Route** — register the importer in the `routeImporters` map in **`src/routes.tsx`**
+   (routes moved out of App.tsx; App.tsx generates `<Route>`s from the map).
 
-4. **Prerender** — add `/blog/<slug>` to the `reactSnap.include` array in `package.json`, or the page
-   won't be statically generated for SEO/crawlers.
+4. **Prerender** — add the slug to `reactSnap.include` in `package.json` **in trailing-slash form**
+   (`/blog/my-post/`), matching all internal links sitewide. Mixed forms make react-snap
+   double-crawl and fail.
 
-**Reference template:** `src/pages/blog/RadiologistShortage2026.tsx` is a clean, representative
-example to clone. The FAQ JSON-LD questions must mirror real `<h2>`/Q&A content on the page.
+There is **no 5th step**: `public/sitemap.xml` is auto-generated by `scripts/gen-sitemap.mjs` on
+every `bun run build` from `reactSnap.include` + `blog-posts.ts` (`dateIso` → `<lastmod>`). Never
+hand-edit it. The generator fails the build on drift between routes and `blog-posts.ts`.
+
+**Reference template:** `src/pages/blog/AiDisclosurePatientTrust.tsx` is the current template the
+pipeline clones. The FAQ JSON-LD questions must mirror real `<h2>`/Q&A content on the page.
+
+## Publish flow
+
+1. Pipeline produces drafts → founder reviews and approves (approval gate; ledger tracks status).
+2. Integrate approved article via the 4-file contract; update `ledger.json`.
+3. `bun run build && bun run guard && bun run deploy`.
+4. Google Search Console: URL Inspection → Request Indexing on the new URL. Do **not** re-submit
+   the sitemap — it does nothing.
 
 ## Product context (for tone & accuracy)
 
-xAID is an **AI CT reporting** product: AI generates structured CT report drafts that a radiologist
-reviews and signs. Audience: outpatient imaging centers, teleradiology companies, radiology groups,
-small/community hospitals. Existing blog voice: evidence-led, specific numbers, cites AAMC/ACR/
-Medscape, comparison-heavy, B2B, US market. Articles target SEO keywords. Medical claims must be
-defensible — no invented statistics.
+xAID is an **AI CT reporting** product: AI generates structured CT report drafts, xAID's in-house
+(European) radiologist reviews every preliminary, and the report is delivered **ready-to-sign** —
+the client's US reading radiologist signs the final. Audience: outpatient imaging centers,
+teleradiology companies, radiology groups, small/community hospitals. Existing blog voice:
+evidence-led, specific numbers, cites AAMC/ACR/Medscape, comparison-heavy, B2B, US market.
+Articles target SEO keywords. Medical claims must be defensible — no invented statistics.
+
+**HARD CLAIM RULE — who signs (legal, founder-flagged 2026-07-03): xAID NEVER signs reports.**
+Forbidden phrasings in xAID-workflow context: "a radiologist reviews and signs" (ambiguous),
+"radiologist sign-off: yes", "signed report" as our deliverable. Correct patterns: "ready-to-sign",
+"your radiologist signs", "in-house review on every preliminary — final signature stays with your
+reading radiologist". For the client side say simply "signs" — do NOT emphasize client-side
+re-review (undermines the time-saving value prop) and do NOT claim they don't review; "review and
+sign, not dictate" is fine. Study-context descriptions of published papers may say their readers
+signed.
+
+**Branding:** always "xAID" (lowercase x) — never apply `text-transform: uppercase` to elements
+containing the brand name.
 
 ## Working agreement
 
-- We are in **design phase**. Propose architecture and confirm before building.
-- Do not modify `the repo root` without explicit approval — that is the live production site.
 - Never invent clinical/statistical claims in generated articles. Source or omit.
+- Do not deploy from the pipeline. Drafting and deploying are separate, founder-gated steps.
+- Keyword research uses DataForSEO; creds in `.env` (`DATAFORSEO_AUTH_B64`), tooling-only —
+  never referenced from `src/` or bundled into the site.

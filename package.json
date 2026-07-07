@@ -109,7 +109,9 @@
       "/blog/medical-device-cybersecurity/",
       "/blog/radiology-prior-authorization-imaging-throughput/",
       "/blog/wrong-patient-radiology-error/",
-      "/blog/radiology-malpractice-ai-reporting/"
+      "/blog/radiology-malpractice-ai-reporting/",
+      "/blog/radiology-outsourcing-gone-wrong/",
+      "/blog/site-neutral-payments-imaging/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,

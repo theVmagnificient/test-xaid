@@ -11,6 +11,26 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-outsourcing-gone-wrong',
+    title: 'When Radiology Outsourcing Goes Wrong: Anatomy of a Failed Teleradiology Transition',
+    excerpt: "A Tennessee health system replaced its local radiology group with an overseas teleradiology company — within days, STAT scans waited up to six hours and non-radiologists were doing preliminary reads. A failure-mode analysis, a due-diligence checklist for any outsourcing contract, and the alternative that keeps turnaround control in-house.",
+    date: 'July 6, 2026',
+    dateIso: '2026-07-06',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['radiology outsourcing', 'teleradiology transition', 'teleradiology delays', 'radiology turnaround time', 'outsourced radiology reads', 'radiology outsourcing contract'],
+  },
+  {
+    slug: 'site-neutral-payments-imaging',
+    title: "Site-Neutral Payments, Explained: What CMS's Proposed $260M Imaging Cut Changes",
+    excerpt: "CMS's proposed 2027 OPPS rule would pay grandfathered off-campus hospital departments physician-office rates for imaging without contrast — about 40% of the current hospital rate, a $260 million first-year cut. What site-neutral payments are, who wins and who loses, and why per-study reporting cost becomes the margin lever both sides can control.",
+    date: 'July 6, 2026',
+    dateIso: '2026-07-06',
+    category: 'Policy & Reimbursement',
+    readingTime: 7,
+    keywords: ['site neutral payments', 'OPPS 2027 proposed rule', 'hospital outpatient imaging reimbursement', 'off-campus provider-based department', 'imaging center economics'],
+  },
+  {
     slug: 'wrong-patient-radiology-error',
     title: 'A Server Glitch Made Radiologists Read the Wrong Patient. What It Means for AI Reporting Pipelines',
     excerpt: "An FDA Class 2 recall of 340 GE HealthCare AW Server units shows how a silent worklist defect can open the previous patient's exam with no warning. Why AI CT reporting pipelines need hard patient-context integrity checks and a mandatory sign-off gate.",
