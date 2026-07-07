@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npx vite build:*)",
+      "Bash(vercel:*)",
+      "Bash(curl:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(bun run build)",
+      "Bash(bun run guard)"
+    ],
+    "deny": [
+      "Bash(bun run deploy)",
+      "Bash(rsync:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

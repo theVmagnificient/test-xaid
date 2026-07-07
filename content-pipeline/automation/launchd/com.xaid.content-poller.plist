@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.xaid.content-poller</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-c</string>
+    <string>export PATH="/opt/homebrew/bin:$HOME/.bun/bin:$HOME/.local/bin:$HOME/.nvm/versions/node/v24.14.0/bin:/usr/local/bin:/usr/bin:/bin"; cd /Users/anastasia/Projects/xAID/xaid-landing &amp;&amp; node content-pipeline/automation/poller.mjs</string>
+  </array>
+  <!-- Every 15 minutes; publish happens within ~15 min of a button press. -->
+  <key>StartInterval</key><integer>900</integer>
+  <key>StandardOutPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-poller.log</string>
+  <key>StandardErrorPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-poller.log</string>
+</dict>
+</plist>

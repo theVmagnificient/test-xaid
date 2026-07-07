@@ -34,3 +34,6 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# content automation runtime state (offsets, pending approvals, logs)
+content-pipeline/automation/state/
