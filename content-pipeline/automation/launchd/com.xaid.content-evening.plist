@@ -8,12 +8,11 @@
     <string>/bin/zsh</string>
     <string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/evening.sh</string>
   </array>
-  <!-- 19:00 Moscow time = 18:00 CET (summer). launchd uses the Mac's local
-       timezone; adjust Hour if the Mac's timezone changes. Missed runs
-       (Mac asleep) fire on wake. -->
+  <!-- 18:00 by the Mac's local clock (founder decision 2026-07-07: her local
+       time, not CET). Missed runs (Mac asleep) fire on wake. -->
   <key>StartCalendarInterval</key>
   <dict>
-    <key>Hour</key><integer>19</integer>
+    <key>Hour</key><integer>18</integer>
     <key>Minute</key><integer>0</integer>
   </dict>
   <key>StandardOutPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-evening.log</string>
