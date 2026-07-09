@@ -56,6 +56,12 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/radiology-malpractice-ai-reporting': () => import('./pages/blog/RadiologyMalpracticeAiReporting'),
   '/blog/radiology-outsourcing-gone-wrong': () => import('./pages/blog/RadiologyOutsourcingGoneWrong'),
   '/blog/site-neutral-payments-imaging': () => import('./pages/blog/SiteNeutralPaymentsImaging'),
+  '/blog/teleradiology-companies-policy-watchlist': () => import('./pages/blog/TeleradiologyCompaniesPolicyWatchlist'),
+  '/blog/lung-cancer-screening-program-integration': () => import('./pages/blog/LungCancerScreeningProgramIntegration'),
+  '/blog/radiologist-salary-transparency-2026': () => import('./pages/blog/RadiologistSalaryTransparency'),
+  '/blog/best-metro-areas-for-radiologists-2026': () => import('./pages/blog/BestMetroAreasForRadiologists'),
+  '/blog/radiology-private-equity-stay-independent': () => import('./pages/blog/RadiologyPrivateEquityStayIndependent'),
+  '/blog/overutilization-of-medical-imaging': () => import('./pages/blog/OverutilizationOfMedicalImaging'),
 };
 
 export const normalizePath = (pathname: string): string =>

@@ -125,6 +125,46 @@
       "source": "CMS-1850-P fact sheet + Healthcare Dive + HFMA + AHA + Radiology Business",
       "date": "2026-07-06",
       "approved": "2026-07-07 founder-approved after staging review"
+    },
+    {
+      "slug": "teleradiology-companies-policy-watchlist",
+      "topic": "RADPAC launches Teleradiology Subcommittee — policy watch-list for teleradiology companies",
+      "source": "Radiology Business + June 29 LinkedIn (Kimberly Beavers, MD)",
+      "date": "2026-07-07",
+      "approved": "2026-07-08 founder-approved (batch publish of July 7 articles)"
+    },
+    {
+      "slug": "lung-cancer-screening-program-integration",
+      "topic": "JACR: mammography-completion gap in a lung cancer screening cohort — integrated screening",
+      "source": "Radiology Business (JACR, Maceyko et al.)",
+      "date": "2026-07-07",
+      "approved": "2026-07-08 founder-approved (batch publish of July 7 articles)"
+    },
+    {
+      "slug": "radiologist-salary-transparency-2026",
+      "topic": "Radiologist salary/compensation transparency as a shortage signal (Kirill Lopatin / xAID analysis)",
+      "source": "Radiology Business (analysis by Kirill Lopatin, xAID founder) + ACR Career Center",
+      "date": "2026-07-08",
+      "approved": "2026-07-08 founder-approved"
+    },
+    {
+      "slug": "best-metro-areas-for-radiologists-2026",
+      "topic": "Geographic maldistribution of radiologists / best US metros to practice (Marit Health ranking)",
+      "source": "Radiology Business (Marit Health analysis)",
+      "date": "2026-07-08",
+      "approved": "2026-07-08 founder-approved"
+    },
+    {
+      "slug": "radiology-private-equity-stay-independent",
+      "date": "2026-07-09",
+      "title": "Radiology and Private Equity: How Independent Groups Can Stay Independent",
+      "approved": "2026-07-09 founder-approved (console) after full web fact-check"
+    },
+    {
+      "slug": "overutilization-of-medical-imaging",
+      "date": "2026-07-09",
+      "title": "Fewer Imaging Gatekeepers, More Scans: The Capacity Squeeze",
+      "approved": "2026-07-09 founder-approved (console) after full web fact-check"
     }
   ],
   "seen": [
@@ -202,6 +242,96 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/22m-malpractice-verdict-after-ct-scan-canceled-when-patient-couldnt-sit-still-exam",
       "date": "2026-07-06",
       "decision": "rejected - near-duplicate of radiology-malpractice-ai-reporting (2026-07-03); fact pattern (scan never performed) outside AI reporting value prop"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radpac-launches-new-subcommittee-dedicated-teleradiology-advocacy",
+      "date": "2026-07-07",
+      "decision": "drafted -> teleradiology-companies-policy-watchlist; PUBLISHED (founder-approved 2026-07-08)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/experts-call-integration-breast-and-lung-cancer-screening-programs",
+      "date": "2026-07-07",
+      "decision": "drafted -> lung-cancer-screening-program-integration; PUBLISHED (founder-approved 2026-07-08)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/ultrasound-imaging/automated-breast-ultrasound-effective-alternative-handheld-options",
+      "date": "2026-07-07",
+      "decision": "drafted -> automated-breast-ultrasound-vs-handheld; REJECTED by founder 2026-07-08 via telegram bot (draft kept in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/only-48-current-radiologist-job-listings-include-salary-estimate",
+      "date": "2026-07-08",
+      "decision": "drafted -> radiologist-salary-transparency-2026; PUBLISHED (founder-approved 2026-07-08)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/top-metro-areas-radiologists-practice",
+      "date": "2026-07-08",
+      "decision": "drafted -> best-metro-areas-for-radiologists-2026; PUBLISHED (founder-approved 2026-07-08)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-helps-spot-previously-invisible-gray-matter-ms-lesions",
+      "date": "2026-07-07",
+      "decision": "drafted -> ai-mri-lesion-detection; REJECTED by founder 2026-07-08 via telegram bot (draft kept in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/health-system-pauses-outpatient-imaging-amid-ongoing-delays",
+      "date": "2026-07-07",
+      "decision": "skipped - near-duplicate of published radiology-outsourcing-gone-wrong (same Tennessee teleradiology-transition saga)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/urologists-continue-expand-interventional-radiology-2-new-openings",
+      "date": "2026-07-08",
+      "decision": "skipped - IR turf expansion, no clear xAID CT-reporting angle (fit 2)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/ultrasound-imaging/patients-produce-quality-ultrasound-scans-home-remote-assistance",
+      "date": "2026-07-07",
+      "decision": "skipped - at-home gynecologic ultrasound, off-modality and off-audience for CT reporting (fit 2)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/attempted-murder-charges-dismissed-against-radiologist-accused-driving-family-cliff",
+      "date": "2026-07-07",
+      "decision": "skipped - true-crime legal item, no product relevance (fit 0)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/neuroimaging/imaging-shows-structural-differences-brains-murderers",
+      "date": "2026-07-06",
+      "decision": "skipped - true-crime/neuroimaging curiosity, off-topic (fit 0)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/regulators-propose-slashing-340b-payments-broadening-site-neutral-policies-2027/824452/",
+      "date": "2026-07-06",
+      "decision": "skipped - same CY2027 OPPS/site-neutral rule already covered by site-neutral-payments-imaging (near-duplicate)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiation-oncology-providers-form-nonprofit-network-bid-preserve-independence",
+      "date": "2026-07-09",
+      "decision": "drafted - radiology-private-equity-stay-independent (gate needs-human, awaiting founder approval): PE-consolidation independence angle for radiology groups"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/are-imaging-cautious-ordering-physicians-dying-breed",
+      "date": "2026-07-09",
+      "decision": "drafted - overutilization-of-medical-imaging (gate needs-human, awaiting founder approval): demand-side imaging-volume capacity squeeze"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/generative-ai-use-radiology-manuscript-writing-has-more-doubled",
+      "date": "2026-07-09",
+      "decision": "drafted -> generative-ai-in-radiology-oversight; REJECTED by founder 2026-07-09 via telegram bot (draft kept in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologist-pushes-back-against-snowbird-couples-claim-he-missed-signs-stroke",
+      "date": "2026-07-09",
+      "decision": "skipped - individual malpractice-defense legal anecdote, low product fit; malpractice angle already covered by radiology-malpractice-ai-reporting"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-solutions-provider-leo-cancer-care-rakes-65m",
+      "date": "2026-07-08",
+      "decision": "skipped - upright radiation-therapy/proton device maker funding, off core (AI CT reporting), fit low"
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/administration/economics/news/15829335/acrasnc-highlight-changes-in-proposed-2027-hopps-rule",
+      "date": "2026-07-06",
+      "decision": "skipped - same CY2027 HOPPS/site-neutral rule already covered by site-neutral-payments-imaging (near-duplicate)"
     }
   ]
 }
