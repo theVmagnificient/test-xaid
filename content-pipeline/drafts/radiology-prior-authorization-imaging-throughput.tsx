@@ -311,7 +311,7 @@ const RadiologyPriorAuthorizationThroughput = () => {
                 <div className="text-xaid-blue text-xs font-medium mb-2">AI Technology</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">Foundation Models vs Narrow AI in Radiology</div>
               </Link>
-              <Link to="/blog/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
+              <Link to="/how-ai-ct-reporting-works/" className="bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-colors group">
                 <div className="text-xaid-blue text-xs font-medium mb-2">Workflow</div>
                 <div className="text-white text-sm font-medium group-hover:text-xaid-blue transition-colors leading-snug">How AI CT Reporting Works</div>
               </Link>
