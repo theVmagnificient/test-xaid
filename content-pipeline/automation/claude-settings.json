@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "WebSearch",
+      "WebFetch",
       "Bash(node:*)",
       "Bash(npx vite build:*)",
       "Bash(vercel:*)",
