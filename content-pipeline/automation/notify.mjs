@@ -1,6 +1,8 @@
-// Sends the evening digest to Telegram: one message per pending draft with
-// inline [Публикуем]/[Пропустить] buttons. Run after the evening pipeline
-// has integrated drafts and deployed staging.
+// Sends the evening PREVIEW digest to Telegram: one message per pending draft
+// with a staging preview link. NO approve/reject buttons — the founder reviews
+// the previews and approves via the Claude Code console, not the bot
+// (decision 2026-07-08). Run after the evening pipeline has integrated drafts
+// and deployed staging.
 import { loadEnv, tg, readPending, writePending } from './tg.mjs';
 
 const { token, chatId } = loadEnv();
@@ -8,20 +10,21 @@ if (!chatId) throw new Error('TELEGRAM_CHAT_ID missing from .env');
 
 const pending = readPending();
 const fresh = pending.filter((p) => p.status === 'pending' && !p.messageId);
-const stale = pending.filter((p) => p.status === 'pending' && p.messageId);
+const awaiting = pending.filter((p) => p.status === 'pending' && p.messageId);
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 if (fresh.length === 0) {
   let text = '📭 Сегодня подходящих новостей для статей нет.';
-  if (stale.length) text += `\n\n⏳ Ждут решения с прошлых дней: ${stale.length} шт. (кнопки в сообщениях выше).`;
-  await tg(token, 'sendMessage', { chat_id: chatId, text });
+  if (awaiting.length) text += `\n\n⏳ Ещё ждут твоего решения: ${awaiting.length} (превью в сообщениях выше).`;
+  await tg(token, 'sendMessage', { chat_id: chatId, text, link_preview_options: { is_disabled: true } });
   process.exit(0);
 }
 
 await tg(token, 'sendMessage', {
   chat_id: chatId,
-  text: `🌙 Вечерняя подборка xAID: ${fresh.length} ${fresh.length === 1 ? 'черновик' : 'черновика'} на одобрение.${stale.length ? `\n⏳ Плюс ${stale.length} ждут решения с прошлых дней.` : ''}`,
+  link_preview_options: { is_disabled: true },
+  text: `🌙 Вечерняя подборка xAID: ${fresh.length} на ревью. Глянь превью ниже и скажи в Claude Code, какие публиковать.${awaiting.length ? `\n⏳ Плюс ${awaiting.length} ждут решения с прошлых дней.` : ''}`,
 });
 
 for (const p of fresh) {
@@ -37,15 +40,9 @@ for (const p of fresh) {
     text: lines.join('\n'),
     parse_mode: 'HTML',
     link_preview_options: { is_disabled: true },
-    reply_markup: {
-      inline_keyboard: [[
-        { text: '✅ Публикуем', callback_data: `pub:${p.slug}` },
-        { text: '❌ Пропустить', callback_data: `skip:${p.slug}` },
-      ]],
-    },
   });
   p.messageId = msg.message_id;
 }
 
 writePending(pending);
-console.log(`digest sent: ${fresh.length} drafts`);
+console.log(`preview digest sent: ${fresh.length} drafts`);

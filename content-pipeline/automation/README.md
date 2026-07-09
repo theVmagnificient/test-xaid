@@ -1,9 +1,11 @@
-# Автоматизация контент-пайплайна (Telegram-approval)
+# Автоматизация контент-пайплайна (Telegram-уведомления + апрув через Claude Code)
 
-Каждый вечер в 18:00 по времени Mac пайплайн сам собирает новости,
-пишет черновики, заливает их на Vercel-стейджинг и присылает в Telegram кнопки
-**✅ Публикуем / ❌ Пропустить**. Нажатие ✅ публикует статью на xaid.ai в течение ~15 минут
-(детерминированный скрипт: ledger → build → guard → deploy → commit; guard остаётся воротами).
+Каждый вечер в **17:00** по времени Mac пайплайн сам собирает новости, пишет черновики,
+заливает их на Vercel-стейджинг и присылает в Telegram **дайджест с превью-ссылками** (без кнопок).
+Апрув — **через Claude Code, не через бота** (решение 2026-07-08): смотришь превью, говоришь Claude,
+какие публиковать; Claude публикует на xaid.ai (ledger approve → build → guard → deploy; guard остаётся
+воротами) и присылает в бот **ссылки на живые статьи** как напоминание сделать Request Indexing.
+Бот — только исходящие уведомления; всё общение и решения идут через Claude Code.
 
 ## Разовая настройка (~5 минут)
 
@@ -21,7 +23,6 @@
    ```
    TELEGRAM_CHAT_ID=<число из вывода>
    ```
-Бот принимает решения **только** с этого chat_id.
 
 ### 3. Проверить связь
 ```bash
@@ -31,28 +32,48 @@ node content-pipeline/automation/notify-failure.mjs "Тест: бот подкл
 
 ### 4. Включить расписание (launchd)
 ```bash
-cp content-pipeline/automation/launchd/*.plist ~/Library/LaunchAgents/
+cp content-pipeline/automation/launchd/com.xaid.content-evening.plist ~/Library/LaunchAgents/
+cp content-pipeline/automation/launchd/com.xaid.content-evening-retry.plist ~/Library/LaunchAgents/
 launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.xaid.content-evening.plist
-launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.xaid.content-poller.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.xaid.content-evening-retry.plist
 ```
-Выключить: `launchctl bootout gui/$(id -u)/com.xaid.content-evening` (и `...content-poller`).
+Выключить: `launchctl bootout gui/$(id -u)/com.xaid.content-evening` (и `...content-evening-retry`).
 
 ## Как это работает
 
 | Компонент | Что делает |
 |---|---|
-| `evening.sh` + `evening-prompt.md` | 19:00: headless Claude запускает пайплайн (Ingest→Score→Draft→Verify→QA), интегрирует черновики по 4-файловому контракту, деплоит стейджинг, пишет `state/pending.json`, шлёт дайджест. Прод-деплой и git запрещены ему через `claude-settings.json` (deny). |
-| `notify.mjs` | Дайджест в TG: заголовок, факт-чек, judgment call, ссылка на стейджинг, кнопки. |
-| `poller.mjs` | Каждые 15 мин читает нажатия кнопок (long-poll, сервер не нужен), проверяет chat_id. |
-| `publish.mjs <slug>` | ✅: ledger approve → `bun run build` → `bun run guard` → `bun run deploy` → git commit. Без LLM. |
-| `reject.mjs <slug>` | ❌: откатывает интеграцию (4 файла), пишет rejected в ledger. Черновик остаётся в `drafts/`. |
+| `evening.sh` + `evening-prompt.md` | 17:00: headless Claude запускает пайплайн (Ingest→Score→Draft→Verify→QA), интегрирует черновики по 4-файловому контракту, деплоит стейджинг, пишет `state/pending.json`, шлёт превью-дайджест. Прод-деплой и git запрещены ему через `claude-settings.json` (deny). |
+| `notify.mjs` | Превью-дайджест в TG: заголовок, факт-чек, judgment call, ссылка на стейджинг. **Без кнопок** — только для просмотра. |
+| `notify-indexing.mjs <slug…>` | После публикации шлёт в TG ссылки на живые статьи xaid.ai как напоминание про Request Indexing. Запускает Claude после прод-деплоя. |
+| `notify-failure.mjs` | Если прогон упал — читаемое сообщение в TG: причина (распознаёт лимит Claude / недоверенный воркспейс) + хвост лога. Консоль открывать не нужно. |
+| `retry.sh` (23:05) | Если 17:00-прогон упал **из-за лимита Claude**, ставится маркер `state/retry-<дата>.marker`; в 23:05 (после сброса квоты) retry.sh перезапускает прогон один раз. Нет маркера → тихий no-op. Успех прогона снимает маркер. |
+| `publish.mjs <slug>` | Публикация ОДНОЙ одобренной статьи: ledger approve → build → guard → deploy. Без LLM. ⚠️ При нескольких неодобренных интегрированных статьях см. «Публикация подмножества» ниже. |
+| `reject.mjs <slug>` | Откат интеграции (4 файла), rejected в ledger. Черновик остаётся в `drafts/`. Запускает Claude по твоему решению. |
+| `poller.mjs` | **Отключён 2026-07-08** (кнопок больше нет). Файл оставлен для истории; launchd-джоба `com.xaid.content-poller` выгружена. |
 | `state/` | pending.json, offset, логи. В git не попадает (.gitignore). |
+
+## Публикация (через Claude Code)
+
+1. Вечером приходит превью-дайджест. Смотришь статьи на стейджинге.
+2. Говоришь Claude в консоли, какие публиковать (и какие удалить).
+3. Claude публикует одобренные на прод. Если в очереди несколько неодобренных статей,
+   он временно исключает лишние из сборки, чтобы `bun run deploy` (льёт весь `dist/`) не вынес
+   на прод неодобренное, а `guard` служит страховкой (не пускает NOT-IN-LEDGER). После деплоя —
+   `notify-indexing.mjs` со ссылками.
 
 ## Ограничения / заметки
 
-- **Mac должен быть включён.** Если спал в 19:00 — launchd запустит прогон при пробуждении. Поллер тоже догонит нажатия.
+- **Mac должен быть включён.** Если спал в 17:00 — launchd запустит прогон при пробуждении.
 - **Стоимость:** один вечерний прогон ≈ 700–800k токенов.
-- **Часовой пояс:** в plist стоит 18:00 локального времени Mac (решение 2026-07-07: по её часам, не по CET). Если сменишь таймзону Mac — время сдвинется вместе с ней, править ничего не нужно.
-- **Правки к статье** через бота не делаются (только ✅/❌) — правки как раньше, через Claude Code.
-- **После публикации** бот напомнит про Request Indexing в Search Console (ручной шаг).
-- Ручной запуск вечернего прогона: `zsh content-pipeline/automation/evening.sh`; поллера: `node content-pipeline/automation/poller.mjs`.
+- **Лимит Claude:** прогон работает под личной учёткой, той же, что и интерактивный Claude — они делят
+  одну квоту (скользящее окно ~5 ч). Если днём много работала, 17:00-прогон может упереться в лимит.
+  Тогда он **сам перезапустится после сброса (~23:00)** через `retry.sh`, и подборка придёт ночью.
+  Если и после сброса не хватило — придёт сообщение «вернусь завтра». Точное время сброса плавающее;
+  retry стоит на фиксированных 23:05. Хочешь стабильно вечером без ночных догонов — заведи отдельный
+  `ANTHROPIC_API_KEY` для автоматизации.
+- **Часовой пояс:** в plist стоит 17:00 локального времени Mac. Если сменишь таймзону Mac — время
+  сдвинется вместе с ней, править ничего не нужно.
+- **Апрув и правки** — через Claude Code. Бот интерактив не принимает (кнопок нет).
+- **После публикации** бот шлёт ссылки на живые статьи — напоминание сделать Request Indexing (ручной шаг).
+- Ручной запуск вечернего прогона: `zsh content-pipeline/automation/evening.sh`.

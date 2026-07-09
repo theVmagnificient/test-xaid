@@ -2,18 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Label</key><string>com.xaid.content-evening</string>
+  <key>Label</key><string>com.xaid.content-evening-retry</string>
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
-    <string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/evening.sh</string>
+    <string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/retry.sh</string>
   </array>
-  <!-- 17:00 by the Mac's local clock (founder decision 2026-07-08: moved from
-       18:00; her local time, not CET). Missed runs (Mac asleep) fire on wake. -->
+  <!-- 23:05 local: just after the Claude quota resets (~23:00). No-op unless
+       the 18:00 run failed on the usage limit (dated retry marker present). -->
   <key>StartCalendarInterval</key>
   <dict>
-    <key>Hour</key><integer>17</integer>
-    <key>Minute</key><integer>0</integer>
+    <key>Hour</key><integer>23</integer>
+    <key>Minute</key><integer>5</integer>
   </dict>
   <key>StandardOutPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-evening.log</string>
   <key>StandardErrorPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-evening.log</string>

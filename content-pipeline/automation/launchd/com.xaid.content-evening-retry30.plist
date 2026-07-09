@@ -2,19 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Label</key><string>com.xaid.content-evening</string>
+  <key>Label</key><string>com.xaid.content-evening-retry30</string>
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
-    <string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/evening.sh</string>
+    <string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/retry30.sh</string>
   </array>
-  <!-- 17:00 by the Mac's local clock (founder decision 2026-07-08: moved from
-       18:00; her local time, not CET). Missed runs (Mac asleep) fire on wake. -->
-  <key>StartCalendarInterval</key>
-  <dict>
-    <key>Hour</key><integer>17</integer>
-    <key>Minute</key><integer>0</integer>
-  </dict>
+  <!-- Every 30 min. No-op unless the evening run failed on a TRANSIENT error
+       (network/auth 403 — not a usage limit), which arms retry-30-<date>.marker.
+       Self-terminates on success or after MAX_RETRIES (see retry30.sh). -->
+  <key>StartInterval</key><integer>1800</integer>
   <key>StandardOutPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-evening.log</string>
   <key>StandardErrorPath</key><string>/Users/anastasia/Projects/xAID/xaid-landing/content-pipeline/automation/state/launchd-evening.log</string>
 </dict>
