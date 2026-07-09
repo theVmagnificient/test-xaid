@@ -15,7 +15,18 @@ is to turn source material into publish-ready blog articles on `xaid.ai`:
    `ledger.json`, fit/SEO scoring, DataForSEO keyword check) → Draft → adversarial fact-check →
    editorial/SEO QA. Outputs review-ready drafts to `drafts/` — it **NEVER deploys**.
    Args: `{ maxDrafts?: number (default 3), sinceDays?: number (default 4) }`.
-2. **LinkedIn → article** — take Kirill's LinkedIn posts and rewrite them into SEO blog articles
+2. **Keyword → evergreen pillar** — the guaranteed daily SEO flow (added 2026-07-09):
+   `workflows/evergreen-seo-pipeline.mjs`. Picks the top queued keyword from
+   `keyword-backlog.json` (real searched keywords, DataForSEO-verified volume/KD — news drafts
+   usually target ~0-volume phrases; this track exists to guarantee ≥1 genuinely SEO-targeted
+   article per day). Phases: Pick (dedup vs ledger/pending, cannibalization check) → Draft
+   (1,500–2,200-word pillar, keyword in title/H1/meta/first-paragraph/H2, 3–6 internal links) →
+   adversarial fact-check (hard rule: no web access ⇒ verdict fail, never pass-from-memory) →
+   SEO/editorial QA → marks the keyword `used` in the backlog. Outputs to `drafts/` — NEVER
+   deploys. Args: `{ maxDrafts?: number (default 1) }`. Replenish the backlog via DataForSEO
+   keyword_suggestions when the run reports `backlogLow` (filter vol≥100, drop local/navigational
+   intent and competitor brand terms).
+3. **LinkedIn → article** — take Kirill's LinkedIn posts and rewrite them into SEO blog articles
    (manual/ad-hoc for now).
 
 Key files here:

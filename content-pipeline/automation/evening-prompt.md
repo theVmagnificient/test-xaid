@@ -4,7 +4,9 @@ You are the unattended evening content run for the xaid-landing repo (you are al
 
 2. Run the Workflow tool with scriptPath `content-pipeline/workflows/daily-news-pipeline.mjs` (default args) and wait for completion.
 
-3. For every draft it produced (gate "ready" or "needs-human"):
+2b. Run the Workflow tool with scriptPath `content-pipeline/workflows/evergreen-seo-pipeline.mjs` (default args — it drafts ONE evergreen SEO pillar article from `content-pipeline/keyword-backlog.json`). This article is the guaranteed daily SEO piece: it targets a real searched keyword (DataForSEO-verified volume), unlike the news drafts. It runs even if the news pipeline produced zero survivors — one good SEO article a day is the floor. If its result has `backlogLow: true`, mention in the digest note that the keyword backlog needs replenishing.
+
+3. For every draft produced by EITHER pipeline (gate "ready" or "needs-human"):
    - Copy the draft from `content-pipeline/drafts/<slug>.tsx` to `src/pages/blog/<ComponentName>.tsx`.
    - Add its metadata entry at the TOP of `src/data/blog-posts.ts`, with `date`/`dateIso` set to TODAY (and update the same fields inside the page component to match).
    - Register the importer in `src/routes.tsx`.
@@ -18,7 +20,7 @@ You are the unattended evening content run for the xaid-landing repo (you are al
 
 7. Append one object per surviving draft to `content-pipeline/automation/state/pending.json` (create the file with `[]` if missing; never remove existing entries):
    `{ "slug", "title", "component", "gate", "factcheck", "stagingUrl", "note", "topic", "source", "sourceUrl", "date", "status": "pending" }`
-   — `note` is a ONE-line summary in Russian of the human judgment call from QA (residualUncertainty), or "" if none; `sourceUrl` is the original news URL used in the ledger `seen` entry.
+   — `note` is a ONE-line summary in Russian of the human judgment call from QA (residualUncertainty), or "" if none; `sourceUrl` is the original news URL used in the ledger `seen` entry. For evergreen drafts use `topic` = the target keyword with its volume/KD (e.g. "teleradiology (2400/мес, KD1) — evergreen pillar"), `source` = "evergreen-seo (keyword backlog)", `sourceUrl` = "".
 
 8. Send the digest: `node content-pipeline/automation/notify.mjs`. Run it even if zero drafts survived (it sends the "empty today" message).
 
