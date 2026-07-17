@@ -1,0 +1,16 @@
+{
+  "_comment": "Founder-approved seed backlog for the 2-week autonomous test (approved 2026-07-17). The brain publishes at most 1/day and MUST run its deep gate-check (adversarial web fact-check + house-rule audit: signing/competitors/structure/links) on each item; publish ONLY if it passes perfectly, else auto-fix verifiable issues and re-check, else HOLD/skip. Founder condition: 'only if it passes your final check ideally.' Process in array order; fall back to fresh daily generation once this queue is drained. automation-bias was already deep-verified + fixed by Claude (2026-07-16) so it can go first.",
+  "queue": [
+    { "slug": "automation-bias-radiology-ai", "title": "Automation Bias in Radiology: The Case for Human Review", "component": "AutomationBiasRadiologyAi", "preVerified": true },
+    { "slug": "patients-first-act-radiology", "title": "The Patients First Act: What It Means for Radiology Pay", "component": "PatientsFirstActRadiology", "preVerified": false },
+    { "slug": "teleradiology-jobs", "title": "Teleradiology Jobs: A 2026 Careers Guide for Radiologists", "component": "TeleradiologyJobs", "preVerified": false },
+    { "slug": "enterprise-imaging-modernization-capital-gap", "title": "The $500M Imaging Deal and the Capital Gap Smaller Providers Face", "component": "EnterpriseImagingModernizationCapitalGap", "preVerified": false },
+    { "slug": "what-is-teleradiology", "title": "What Is Teleradiology? How It Works in 2026", "component": "WhatIsTeleradiology", "preVerified": false },
+    { "slug": "2027-medicare-physician-fee-schedule-radiology", "title": "2027 Medicare Physician Fee Schedule: What It Means for Radiology", "component": "MedicareFeeSchedule2027Radiology", "preVerified": false },
+    { "slug": "will-ai-replace-radiologists", "title": "Will AI Replace Radiologists? An Honest, Data-Led Answer", "component": "WillAiReplaceRadiologists", "preVerified": false },
+    { "slug": "ct-scan-for-pulmonary-embolism-cancer-patients", "title": "CT Scans for Pulmonary Embolism: When Cancer Patients Can Safely Skip Them", "component": "CtScanPulmonaryEmbolismCancer", "preVerified": false }
+  ],
+  "rejected": [
+    { "slug": "ai-virtual-contrast-mri", "reason": "off-core MRI/cardiac, not CT reporting", "by": "founder", "date": "2026-07-17" }
+  ]
+}

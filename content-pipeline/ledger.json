@@ -165,6 +165,66 @@
       "date": "2026-07-09",
       "title": "Fewer Imaging Gatekeepers, More Scans: The Capacity Squeeze",
       "approved": "2026-07-09 founder-approved (console) after full web fact-check"
+    },
+    {
+      "slug": "low-value-imaging-clinician-knowledge",
+      "date": "2026-07-14",
+      "title": "Low-Value Imaging: What Clinician Knowledge Reveals About Appropriate Use",
+      "approved": "2026-07-16 founder-approved (console) after web fact-check — DOI 10.1001/jamainternmed.2026.2889 + headline figures verified"
+    },
+    {
+      "slug": "radiology-reporting-guide",
+      "date": "2026-07-16",
+      "title": "Radiology Reporting: A Complete Guide",
+      "approved": "2026-07-16 founder-approved (console) — evergreen pillar; ACR/RSNA + error-rate claims web-verified; Hickey correction applied (radiograph, not roentgenology; 1899)"
+    },
+    {
+      "slug": "teleradiology-jobs",
+      "date": "2026-07-17",
+      "title": "Teleradiology Jobs: A 2026 Careers Guide for Radiologists",
+      "approved": "2026-07-17 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "patients-first-act-radiology",
+      "date": "2026-07-17",
+      "title": "The Patients First Act: What It Means for Radiology Pay",
+      "approved": "2026-07-17 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "enterprise-imaging-modernization-capital-gap",
+      "date": "2026-07-17",
+      "title": "The $500M Imaging Deal and the Capital Gap Smaller Providers Face",
+      "approved": "2026-07-17 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "automation-bias-radiology-ai",
+      "date": "2026-07-16",
+      "title": "Automation Bias in Radiology: The Case for Human Review",
+      "approved": "2026-07-16 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "what-is-teleradiology",
+      "date": "2026-07-15",
+      "title": "What Is Teleradiology? How It Works in 2026",
+      "approved": "2026-07-15 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "2027-medicare-physician-fee-schedule-radiology",
+      "date": "2026-07-15",
+      "title": "2027 Medicare Physician Fee Schedule: What It Means for Radiology",
+      "approved": "2026-07-15 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "will-ai-replace-radiologists",
+      "date": "2026-07-14",
+      "title": "Will AI Replace Radiologists? An Honest, Data-Led Answer",
+      "approved": "2026-07-14 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "ct-scan-for-pulmonary-embolism-cancer-patients",
+      "date": "2026-07-14",
+      "title": "CT Scans for Pulmonary Embolism: When Cancer Patients Can Safely Skip Them",
+      "approved": "2026-07-14 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
     }
   ],
   "seen": [
@@ -332,6 +392,326 @@
       "url": "https://www.auntminnie.com/practice-management/administration/economics/news/15829335/acrasnc-highlight-changes-in-proposed-2027-hopps-rule",
       "date": "2026-07-06",
       "decision": "skipped - same CY2027 HOPPS/site-neutral rule already covered by site-neutral-payments-imaging (near-duplicate)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/docs-greater-clinical-knowledge-less-likely-order-low-value-imaging",
+      "date": "2026-07-14",
+      "decision": "drafted -> low-value-imaging-clinician-knowledge; PUBLISHED (founder-approved 2026-07-16 via console after web fact-check)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/algorithm-lets-cancer-patients-skip-ct-scans-pulmonary-embolism",
+      "date": "2026-07-13",
+      "decision": "drafted -> ct-scan-for-pulmonary-embolism-cancer-patients (gate needs-human, awaiting founder approval): Hydra/YEARS trial, appropriate-use CT angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiology-ranks-highly-among-medical-specialties-work-life-balance",
+      "date": "2026-07-13",
+      "decision": "drafted -> radiologist-work-life-balance-2026; REJECTED (auto, unattended run) after fact-check found a CONTRADICTED central claim (Medscape most-popular report says money, not work-life balance, was the top factor) + two-survey conflation + overstated headline; unverifiable/paywalled specifics. Draft kept in drafts/ for reference."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/bipartisan-bill-seeks-bolster-ai-use-pediatric-cancer-care",
+      "date": "2026-07-14",
+      "decision": "skipped - shortlisted (AI-policy angle) but below top-3 draft cutoff; pediatric-oncology framing indirect for CT-reporting audience (fit 5)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/over-50m-americans-live-counties-without-radiation-oncology-clinic",
+      "date": "2026-07-10",
+      "decision": "skipped - shortlisted (care-deserts/access) but below top-3 cutoff; rad-onc off-core, overlaps radiology-ai-access-disparities/best-metro"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/former-pro-baseball-player-sues-university-miami-over-alleged-radiology-flub",
+      "date": "2026-07-10",
+      "decision": "skipped - dedupOk false; overlaps published radiology-malpractice-ai-reporting + untracked radiology-follow-up-recommendations draft"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15829419/cleerly-cleerly-to-debut-customizable-full-text-reports-at-scct-2026",
+      "date": "2026-07-11",
+      "decision": "skipped - dedupOk false; overlaps untracked structured-radiology-reporting-customization draft (treat as news refresh, not new post)"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15829422/clinicomp-gets-fda-nod-for-pacs-viewer-integrated-within-ehr",
+      "date": "2026-07-11",
+      "decision": "skipped - shortlisted (PACS/EHR integration) but below top-3 cutoff; lower search demand"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/pragmatic-framework-evaluating-financial-impact-radiology-ai",
+      "date": "2026-07-09",
+      "decision": "skipped - covered by untracked radiology-ai-roi-evaluation-framework draft (avoid duplicate)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/4-takeaways-from-mdufa-vi-draft-agreement/824846/",
+      "date": "2026-07-09",
+      "decision": "skipped - covered by untracked fda-ai-medical-devices-mdufa-vi draft (avoid duplicate)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/solis-mammography-opens-2-new-imaging-centers",
+      "date": "2026-07-14",
+      "decision": "skipped - imaging-center expansion, mammography; no AI/CT-reporting angle (fit 2)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/clinical/COVID-19/new-pet-findings-could-change-how-long-covid-treated",
+      "date": "2026-07-13",
+      "decision": "skipped - clinical PET research, off core CT reporting (fit 1)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/lawsuit-claims-wrong-imaging-contrast-injection-left-woman-unable-move-legs",
+      "date": "2026-07-13",
+      "decision": "skipped - contrast-safety legal item, off core (fit 1)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/2nd-pet-scan-changes-treatment-nearly-half-prostate-cancer-patients",
+      "date": "2026-07-13",
+      "decision": "skipped - clinical PET research, off core (fit 1)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/ge-healthcare-teams-mayo-clinic-theranostics-trial",
+      "date": "2026-07-10",
+      "decision": "skipped - molecular-imaging theranostics trial, off core (fit 1)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15829623/preludedx-learn-look-locate-launch-dcis-patient-education-resource",
+      "date": "2026-07-13",
+      "decision": "skipped - DCIS patient-education resource, off core (fit 1)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15829617/philips-philips-u-of-washington-explore-ai-for-noncontrast-breast-mri",
+      "date": "2026-07-12",
+      "decision": "skipped - AI non-contrast breast MRI research, off-CT modality (fit 3)"
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/news/15829625/blue-earth-diagnostics-blue-earth-ucl-dose-first-patient-in-ac225-psma-prostate-trial",
+      "date": "2026-07-12",
+      "decision": "skipped - radiopharmaceutical prostate trial, off core (fit 0)"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15829633/vizai-vizai-cortechsai-partner-to-integrate-quantitative-ms-neuroimaging",
+      "date": "2026-07-12",
+      "decision": "skipped - AI MS neuroimaging partnership, off-CT modality (fit 3); competitor vendor - no coverage"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15829554/leo-cancer-care-nets-65m-to-deploy-proton-therapy-system",
+      "date": "2026-07-11",
+      "decision": "skipped - duplicate of RB Leo Cancer Care $65M (already seen); proton therapy, off core"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15829525/ge-healthcare-mayo-clinic-begin-new-theranostics-trial-in-minnesota",
+      "date": "2026-07-11",
+      "decision": "skipped - duplicate of RB GE/Mayo theranostics; off core"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15829543/philips-philips-launches-new-ultrasound-system",
+      "date": "2026-07-11",
+      "decision": "skipped - ultrasound product launch, off core (fit 1)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15829538/siemens-healthineers-imagion-extends-collaboration-with-siemens-on-mri-imaging-agent",
+      "date": "2026-07-11",
+      "decision": "skipped - MRI contrast-agent collaboration, off core (fit 1)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/interventional/news/15829409/microbot-medical-reports-over-100-revenue-growth-in-q2",
+      "date": "2026-07-10",
+      "decision": "skipped - endovascular-robotics financials, off core (fit 0)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15829434/trice-imaging-launches-obstetrics-reporting-tool-for-fetal-medicine",
+      "date": "2026-07-10",
+      "decision": "skipped - obstetrics ultrasound reporting tool, off-modality/audience (fit 2)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/edwards-will-pay-10m-to-settle-ftc-charges-of-skirting-antitrust-review/825129/",
+      "date": "2026-07-13",
+      "decision": "skipped - heart-valve antitrust M&A, non-imaging (fit 0)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/whoop-tests-wearable-platform-in-joint-replacement-recovery/825068/",
+      "date": "2026-07-13",
+      "decision": "skipped - ortho/wearable recovery, dropped per ortho rule"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/freenome-colorectal-cancer-test-data-improve-on-earlier-results/825069/",
+      "date": "2026-07-13",
+      "decision": "skipped - blood-based colorectal dx, not imaging (fit 1)"
+    },
+    {
+      "url": "https://www.medtechdive.com/spons/expert-insights-to-transform-your-evidence-generation-strategy/824427/",
+      "date": "2026-07-13",
+      "decision": "skipped - sponsored content"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/illumina-builds-out-c-suite-with-2-new-execs/824958/",
+      "date": "2026-07-10",
+      "decision": "skipped - gene-sequencing exec appointments, non-imaging (fit 0)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/medicaroid-wins-europes-ce-mark-for-hinotori-surgical-robot/824959/",
+      "date": "2026-07-10",
+      "decision": "skipped - surgical robot CE mark, non-imaging (fit 0)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/stereotaxis-closes-robocath-takeover/824901/",
+      "date": "2026-07-09",
+      "decision": "skipped - endovascular-robotics M&A, non-imaging (fit 1)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/jj-wins-fda-approval-for-dual-energy-ablation-catheter/824797/",
+      "date": "2026-07-09",
+      "decision": "skipped - cardiac ablation device approval, non-imaging (fit 0)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/physician-wearable-data-use-hindered-workflow-reimbursement-challenges-american-medical-association/824746/",
+      "date": "2026-07-09",
+      "decision": "skipped - wearables reimbursement/workflow survey, off imaging (fit 2)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/medicare-releases-2027-physician-fee-schedule-devastating-cuts-radiologist-payments",
+      "date": "2026-07-15",
+      "decision": "drafted - 2027 MPFS conversion-factor cut (-1.68%), reframed to CMS net +2% radiology (slug 2027-medicare-physician-fee-schedule-radiology, gate needs-human)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/job-board-ranks-top-available-radiologist-positions",
+      "date": "2026-07-15",
+      "decision": "skipped - Marit Health job-board ranking, dup of published best-metro-areas / salary-transparency"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiation-oncologists-hold-briefing-capitol-hill-highlighting-payment-challenges",
+      "date": "2026-07-15",
+      "decision": "skipped - rad-onc Capitol Hill payment briefing, off-core (fit low)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/radiologists-demand-urgent-radiation-protection-measures-interventional-staffers",
+      "date": "2026-07-15",
+      "decision": "skipped - IR occupational radiation-protection advocacy, low xAID fit"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/portable-system-captures-1st-diagnostic-quality-x-rays-during-spaceflight",
+      "date": "2026-07-15",
+      "decision": "skipped - spaceflight portable X-ray novelty, low fit"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/article/15829958/petition-asks-fda-to-implement-new-rule-for-mri-safety",
+      "date": "2026-07-15",
+      "decision": "skipped - MRI-safety OEM rule petition, low xAID fit"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15829938/nucs-ai-segmed-to-build-ai-validation-platform-for-theranostics",
+      "date": "2026-07-15",
+      "decision": "skipped - weak secondary (fit 4); theranostics off-core + overlaps untracked radiology-ai-roi-evaluation-framework draft"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15829948/actineer-completes-ra226-recycling-process-to-support-ac225-supply",
+      "date": "2026-07-15",
+      "decision": "skipped - radioisotope supply-chain chemistry, off-core"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15829950/rayence-launches-shine-denoising-software-for-digital-xray",
+      "date": "2026-07-15",
+      "decision": "skipped - vendor denoising product launch, low fit"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/downside-ai-some-rads-accept-recommendations-even-when-theyre-incorrect",
+      "date": "2026-07-16",
+      "decision": "drafted -> automation-bias-radiology-ai; fixed 2026-07-16 (removed misattributed fixation-duration stat; de-quoted 2 unverifiable Clauser quotes) — clean, HELD for next slot (07-17)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/physician-lawmakers-introduce-bipartisan-fix-radiologist-medicare-pay-woes",
+      "date": "2026-07-17",
+      "decision": "drafted - patients-first-act-radiology (gate ready, factcheck pass)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/7-minute-knee-mri-possible-deep-learning-reconstruction",
+      "date": "2026-07-16",
+      "decision": "skipped - MRI reconstruction, off-CT modality, near-dup of how-ai-cuts-mri-wait-times"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/vicarious-surgical-board-proposes-dissolving-the-company/825365/",
+      "date": "2026-07-16",
+      "decision": "skipped - surgical robot wind-down, non-imaging"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/abbotts-cancer-diagnostics-vision-theres-always-a-hunger-to-make-these/825307/",
+      "date": "2026-07-16",
+      "decision": "skipped - blood/molecular cancer dx, non-imaging"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/jj-misses-company-expectations-for-cardiovascular-in-q2/825310/",
+      "date": "2026-07-16",
+      "decision": "skipped - cardiovascular device earnings, non-imaging"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ss-innovations-names-sarah-romano-as-cfo/825265/",
+      "date": "2026-07-16",
+      "decision": "skipped - robotic surgery exec appointment, non-imaging"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/medtronic-recalls-heart-valve-delivery-catheter-for-risk-of-tip-detaching/825186/",
+      "date": "2026-07-16",
+      "decision": "skipped - heart valve catheter recall, non-imaging"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/histosonics-wins-europes-ce-mark-for-histotripsy-system/825141/",
+      "date": "2026-07-16",
+      "decision": "skipped - histotripsy tumor ablation, non-imaging"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15830096/advancell-raises-315m-for-targeted-alpha-therapy",
+      "date": "2026-07-16",
+      "decision": "skipped - radiopharma alpha therapy funding, off core"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/15830168/ge-healthcare-gehc-catholic-health-announce-500m-imaging-care-alliance",
+      "date": "2026-07-17",
+      "decision": "drafted - enterprise-imaging-modernization-capital-gap (gate ready)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/ge-healthcare-inks-500m-radiology-partnership-new-york-health-system",
+      "date": "2026-07-17",
+      "decision": "skipped - same GE/Catholic Health $500M deal, drafted as enterprise-imaging-modernization-capital-gap"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/cardiac-imaging/magnetic-resonance-imaging-mri/ai-could-eliminate-imaging-contrast-some-mri-scans",
+      "date": "2026-07-17",
+      "decision": "drafted - ai-virtual-contrast-mri; REJECTED by founder 2026-07-17 (off-core: MRI/cardiac, not CT reporting) — do not publish"
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/legislation/news/15830145/societies-applaud-introduction-of-patients-first-act",
+      "date": "2026-07-17",
+      "decision": "skipped - same Patients First Act, covered by drafted patients-first-act-radiology"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/whole-body-imaging-firm-neko-health-raises-700m",
+      "date": "2026-07-17",
+      "decision": "skipped - shortlisted, below daily draft cap"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15830164/raidium-launches-ainative-oncology-imaging-platform",
+      "date": "2026-07-17",
+      "decision": "skipped - shortlisted, below daily draft cap"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-pans-proposal-shake-federal-grantmaking",
+      "date": "2026-07-17",
+      "decision": "skipped - shortlisted (weakest), below daily draft cap"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/university-pittsburgh-names-new-radiology-chair",
+      "date": "2026-07-17",
+      "decision": "skipped - off-topic (leadership appointment)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/rad-techs-push-soften-strict-pass-fail-rule-credentialing-exam",
+      "date": "2026-07-17",
+      "decision": "skipped - off-topic (rad-tech credentialing)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/abbott-reports-diagnostics-growth-since-21b-exact-sciences-buy/825435/",
+      "date": "2026-07-17",
+      "decision": "skipped - off-core (Abbott IVD diagnostics earnings)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15830218/siemens-healthineers-varian-highlights-fast02-proton-flash-therapy-trial-results",
+      "date": "2026-07-17",
+      "decision": "skipped - off-core (proton Flash therapy trial)"
     }
   ]
 }

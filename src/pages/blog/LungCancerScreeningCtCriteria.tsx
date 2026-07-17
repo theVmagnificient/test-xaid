@@ -255,10 +255,10 @@ const LungCancerScreeningCtCriteria = () => {
                 If broader criteria arrive, the lever that lets screening scale is throughput per radiologist — not just more radiologists. This is where AI CT reporting is relevant. Rather than flagging a single finding, a <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">foundation-model approach</Link> can produce a comprehensive, structured draft for each low-dose chest CT — nodules described and measured, categorized, and formatted into a ready-to-sign report — reviewed in-house, signed by your radiologist.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The radiologist stays in the loop and remains accountable for every final read. What changes is where their time goes: less repetitive drafting and measurement, more clinical judgment. That is what turns a doubling of eligible patients into a manageable increase in workload rather than a backlog.
+                What changes is where their time goes: less repetitive drafting and measurement, more clinical judgment. That is what turns a doubling of eligible patients into a manageable increase in workload rather than a backlog.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                A ready-to-sign report is not a shortcut around the radiologist — it is a way to let screening programs meet demand that policy, not marketing, is about to create.
+                That is a way to let screening programs meet demand that policy, not marketing, is about to create.
               </p>
 
               {/* FAQ */}

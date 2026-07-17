@@ -110,7 +110,10 @@ Forbidden phrasings in xAID-workflow context: "a radiologist reviews and signs" 
 "your radiologist signs", "in-house review on every preliminary — final signature stays with your
 reading radiologist". For the client side say simply "signs" — do NOT emphasize client-side
 re-review (undermines the time-saving value prop) and do NOT claim they don't review; "review and
-sign, not dictate" is fine. Study-context descriptions of published papers may say their readers
+sign, not dictate" is fine. **STYLE (founder 2026-07-17): state the ready-to-sign / human-in-loop
+point ONCE per article (the "where xAID fits" section or the CTA) — do NOT restate it across
+consecutive sentences. "ready-to-sign" already implies the client signs; repeating "their radiologist
+reviews, corrects, and signs, not bypassed" reads overloaded. One clean mention, then move on.** Study-context descriptions of published papers may say their readers
 signed.
 
 **Branding:** always "xAID" (lowercase x) — never apply `text-transform: uppercase` to elements

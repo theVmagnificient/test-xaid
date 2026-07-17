@@ -3,37 +3,57 @@
   "queue": [
     {
       "keyword": "will ai replace radiologists",
-      "cluster": ["will ai replace radiology (720)", "will radiology be replaced by ai (720)", "will ai take over radiology (320)", "ai replacing radiology (170)", "radiology replaced by ai (140)"],
+      "cluster": [
+        "will ai replace radiology (720)",
+        "will radiology be replaced by ai (720)",
+        "will ai take over radiology (320)",
+        "ai replacing radiology (170)",
+        "radiology replaced by ai (140)"
+      ],
       "volume": 2000,
       "kd": 6,
       "intent": "informational — the classic question, huge combined volume, near-zero difficulty",
       "angle": "Honest, data-driven answer: what AI actually does today (drafting, triage), what it can't (accountability, signature), what the workforce data shows. Natural home for the draft-then-sign narrative.",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-14",
+      "slug": "will-ai-replace-radiologists"
     },
     {
       "keyword": "teleradiology",
-      "cluster": ["teleradiology (2400, KD1)", "what is teleradiology (320, KD2)"],
+      "cluster": [
+        "teleradiology (2400, KD1)",
+        "what is teleradiology (320, KD2)"
+      ],
       "volume": 2400,
       "kd": 1,
       "intent": "informational pillar — definitive 'what is teleradiology' guide",
       "angle": "How teleradiology works in 2026: models (prelim vs final), nighthawk history, credentialing/licensing, economics, where AI drafting fits. Must NOT cannibalize /ai-vs-teleradiology (comparison intent) or /for-teleradiology-companies (landing) — this is the neutral educational pillar that links to both.",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-15",
+      "slug": "what-is-teleradiology"
     },
     {
       "keyword": "radiology reporting",
-      "cluster": ["radiology reporting (720, KD4)", "radiology reporting software (140, KD20)"],
+      "cluster": [
+        "radiology reporting (720, KD4)",
+        "radiology reporting software (140, KD20)"
+      ],
       "volume": 720,
       "kd": 4,
       "intent": "informational/commercial — core product territory",
       "angle": "Complete guide to radiology reporting: narrative vs structured, ACR/RSNA templates, turnaround benchmarks, dictation → AI drafting evolution, what ready-to-sign means. Links to ct-report-turnaround-time.",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-16",
+      "slug": "radiology-reporting-guide"
     },
     {
       "keyword": "nighthawk radiology",
-      "cluster": ["nighthawk radiology (260, KD0)"],
+      "cluster": [
+        "nighthawk radiology (260, KD0)"
+      ],
       "volume": 260,
       "kd": 0,
       "intent": "informational — after-hours coverage, directly adjacent to xAID's value prop",
@@ -43,7 +63,9 @@
     },
     {
       "keyword": "radiologist shortage",
-      "cluster": ["radiologist shortage (320, KD11)"],
+      "cluster": [
+        "radiologist shortage (320, KD11)"
+      ],
       "volume": 320,
       "kd": 11,
       "intent": "informational — data pillar",
@@ -53,17 +75,27 @@
     },
     {
       "keyword": "teleradiology jobs",
-      "cluster": ["teleradiology jobs (590, KD0)", "teleradiology careers (590, KD0)", "teleradiology salary (320, KD0)"],
+      "cluster": [
+        "teleradiology jobs (590, KD0)",
+        "teleradiology careers (590, KD0)",
+        "teleradiology salary (320, KD0)"
+      ],
       "volume": 1500,
       "kd": 0,
       "intent": "career — audience-building like the salary-transparency article (worked before)",
       "angle": "Teleradiology careers guide: how remote reading works, comp vs on-site, licensing across states, what groups look for. Radiologist-audience authority play; links salary-transparency and best-metro.",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-17",
+      "slug": "teleradiology-jobs"
     },
     {
       "keyword": "how to choose a teleradiology company",
-      "cluster": ["teleradiology solutions (260, KD20, $19.20)", "teleradiology companies (210, KD18, $17.55)", "teleradiology specialists (110, KD0, $17.33)"],
+      "cluster": [
+        "teleradiology solutions (260, KD20, $19.20)",
+        "teleradiology companies (210, KD18, $17.55)",
+        "teleradiology specialists (110, KD0, $17.33)"
+      ],
       "volume": 580,
       "kd": 20,
       "intent": "commercial — buyer checklist, very high CPC = real purchase intent",
@@ -73,7 +105,12 @@
     },
     {
       "keyword": "ai in radiology",
-      "cluster": ["radiology ai (1300, KD30)", "ai in radiology (1000, KD26)", "ai radiology (880, KD30)", "ai for radiology (260, KD40)"],
+      "cluster": [
+        "radiology ai (1300, KD30)",
+        "ai in radiology (1000, KD26)",
+        "ai radiology (880, KD30)",
+        "ai for radiology (260, KD40)"
+      ],
       "volume": 3400,
       "kd": 30,
       "intent": "informational pillar — biggest prize, hardest; do LAST when the cluster has internal links to feed it",

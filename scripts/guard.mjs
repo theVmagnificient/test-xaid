@@ -132,6 +132,14 @@ if (!UPDATE && !baseline) {
 
 for (const [vpName, vp, runAxe] of [['desktop', { width: 1440, height: 900 }, true], ['mobile', { width: 390, height: 844 }, false]]) {
   const page = await browser.newPage({ viewport: vp });
+  // Block third-party requests (GTM, Spline/unpkg, analytics) so networkidle settles in ANY environment
+  // — on some hosts they hang and networkidle never fires (30s timeout). Keep localhost + Google Fonts
+  // so layout/contrast fidelity matches the baseline.
+  await page.route('**/*', (route) => {
+    const host = new URL(route.request().url()).hostname;
+    const keep = host === 'localhost' || host === '127.0.0.1' || host.endsWith('googleapis.com') || host.endsWith('gstatic.com');
+    return keep ? route.continue() : route.abort();
+  });
   for (const u of urls) {
     await page.goto(`http://localhost:${PORT}${u}`, { waitUntil: 'networkidle' });
     await page.addStyleTag({ content: CALM_CSS });
