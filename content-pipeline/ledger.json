@@ -225,6 +225,13 @@
       "date": "2026-07-14",
       "title": "CT Scans for Pulmonary Embolism: When Cancer Patients Can Safely Skip Them",
       "approved": "2026-07-14 founder-approved 2026-07-17 (backlog); Claude deep-verified (web fact-check + house audit)"
+    },
+    {
+      "slug": "nighthawk-radiology",
+      "topic": "Nighthawk Radiology: History, Economics, and How AI Is Changing After-Hours Coverage",
+      "source": "",
+      "date": "2026-07-17",
+      "approved": "2026-07-17 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -712,6 +719,16 @@
       "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15830218/siemens-healthineers-varian-highlights-fast02-proton-flash-therapy-trial-results",
       "date": "2026-07-17",
       "decision": "skipped - off-core (proton Flash therapy trial)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15830239/provect-ai-wins-fda-clearance-for-3d-imaging-software",
+      "date": "2026-07-17",
+      "decision": "drafted - c-arm-imaging-reporting-bottleneck (gate needs-human, factcheck fix-needed: Kaiser MRI wait-time stat sourcing needs founder decision); not chosen for today's publish, nighthawk-radiology (gate ready) picked instead"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/abbott-discloses-cyberattack-on-cancer-diagnostics-business/825529/",
+      "date": "2026-07-17",
+      "decision": "skipped - off-core (Abbott cancer-diagnostics/IVD business, not imaging; same pattern as prior Abbott skips)"
     }
   ]
 }

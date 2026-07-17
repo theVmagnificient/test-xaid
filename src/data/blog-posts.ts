@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'nighthawk-radiology',
+    title: 'Nighthawk Radiology: History, Economics, and How AI Is Changing After-Hours Coverage',
+    excerpt: "Nighthawk radiology explained: the history of NightHawk Radiology Services, overnight preliminary-read economics, and how AI reshapes after-hours coverage.",
+    date: 'July 17, 2026',
+    dateIso: '2026-07-17',
+    category: 'Reference',
+    readingTime: 9,
+    keywords: ['nighthawk radiology', 'NightHawk Radiology Services', 'overnight teleradiology', 'preliminary read radiology', 'after-hours radiology coverage', 'AI CT reporting'],
+  },
+  {
     slug: 'teleradiology-jobs',
     title: 'Teleradiology Jobs: A 2026 Careers Guide for Radiologists',
     excerpt: 'Teleradiology jobs, explained for radiologists: how remote reading works, pay versus on-site roles, multi-state licensing and the Interstate Medical Licensure Compact, and what groups look for in 2026.',

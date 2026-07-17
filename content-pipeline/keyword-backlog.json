@@ -58,8 +58,10 @@
       "kd": 0,
       "intent": "informational — after-hours coverage, directly adjacent to xAID's value prop",
       "angle": "What nighthawk radiology is, its history (NightHawk Radiology Services), overnight preliminary-read economics, and how AI drafting changes after-hours coverage math.",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-17",
+      "slug": "nighthawk-radiology"
     },
     {
       "keyword": "radiologist shortage",
