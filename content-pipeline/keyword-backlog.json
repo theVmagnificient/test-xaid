@@ -117,8 +117,10 @@
       "kd": 30,
       "intent": "informational pillar — biggest prize, hardest; do LAST when the cluster has internal links to feed it",
       "angle": "The complete 2026 guide to AI in radiology: detection vs drafting vs triage, FDA/CE landscape, evidence base, workflow integration. Check cannibalization vs ai-radiology-glossary and foundation-models articles before drafting — this should be the hub they all link to.",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-19",
+      "slug": "ai-in-radiology"
     }
   ]
 }

@@ -5,8 +5,8 @@ import BlogCTA from '@/components/BlogCTA';
 const HowToChooseATeleradiologyCompany = () => {
   const post = {
     title: "How to Choose a Teleradiology Company: A Buyer's Guide",
-    dateIso: '2026-07-17',
-    date: 'July 17, 2026',
+    dateIso: '2026-07-18',
+    date: 'July 18, 2026',
     category: 'Buyer Guide',
     readingTime: 10,
     description:
@@ -125,7 +125,7 @@ const HowToChooseATeleradiologyCompany = () => {
               <span className="text-white/60">A neutral buyer's guide</span>
             </h1>
             <p className="text-white/60 text-lg font-light leading-[1.65]">
-              Every teleradiology company promises fast, accurate, subspecialty-covered reads. Few say exactly how they measure it. Here is what to actually check — preliminary vs final reads, turnaround SLAs, subspecialty coverage, quality assurance, licensing, and pricing — with the published evidence behind each checkpoint.
+              Every teleradiology company promises fast, accurate, subspecialty-covered reads. Few say exactly how they measure it. Knowing how to choose a teleradiology company means checking specific things — preliminary vs final reads, turnaround SLAs, subspecialty coverage, quality assurance, licensing, and pricing — with the published evidence behind each checkpoint.
             </p>
           </div>
         </section>
@@ -232,7 +232,7 @@ const HowToChooseATeleradiologyCompany = () => {
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
-                Questions to ask before you sign
+                How to choose a teleradiology company: questions to ask before you sign
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
                 Turn the sections above into a due-diligence checklist:
@@ -323,7 +323,7 @@ const HowToChooseATeleradiologyCompany = () => {
 
         <BlogCTA
           heading="Comparing teleradiology companies? See the AI-assisted alternative."
-          sub="A structured, ready-to-sign report before your radiologist opens the study — reviewed in-house, signed by yours. Try it on 5 free studies."
+          sub="A structured, ready-to-sign report before your radiologist opens the study. Try it on 5 free studies."
           primaryLabel="Request free pilot"
           primaryTo="/#contact-us"
           secondaryLabel="See how it works"

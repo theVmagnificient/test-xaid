@@ -232,6 +232,13 @@
       "source": "",
       "date": "2026-07-17",
       "approved": "2026-07-17 founder-approved via telegram bot"
+    },
+    {
+      "slug": "ai-in-radiology",
+      "topic": "AI in Radiology: The Complete 2026 Guide",
+      "source": "",
+      "date": "2026-07-19",
+      "approved": "2026-07-19 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -688,17 +695,17 @@
     {
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/whole-body-imaging-firm-neko-health-raises-700m",
       "date": "2026-07-17",
-      "decision": "skipped - shortlisted, below daily draft cap"
+      "decision": "drafted - whole-body-mri-screening-radiology-capacity (gate ready, factcheck fix-needed: clinic-count precision softened to a range, quote attribution clarified, canonical tag added); not chosen for today's publish - evergreen pillar ai-in-radiology picked instead"
     },
     {
       "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15830164/raidium-launches-ainative-oncology-imaging-platform",
       "date": "2026-07-17",
-      "decision": "skipped - shortlisted, below daily draft cap"
+      "decision": "drafted - radiomics-software-ai-native-vs-legacy-platforms (gate ready, factcheck fix-needed: two source misattributions fixed, no facts altered); not chosen for today's publish - evergreen pillar ai-in-radiology picked instead"
     },
     {
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-pans-proposal-shake-federal-grantmaking",
       "date": "2026-07-17",
-      "decision": "skipped - shortlisted (weakest), below daily draft cap"
+      "decision": "drafted - medical-research-funding-cuts-radiology-ai (gate ready, factcheck fix-needed: fabricated/spliced Sec.200.340 quote corrected to verbatim text, FAQ/JSON-LD mismatch fixed); not chosen for today's publish - politically-charged one-sided framing + weakest xAID fit (fitScore 4) vs evergreen pillar ai-in-radiology, which was picked instead"
     },
     {
       "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/university-pittsburgh-names-new-radiology-chair",

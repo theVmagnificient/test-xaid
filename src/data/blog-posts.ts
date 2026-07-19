@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ai-in-radiology',
+    title: 'AI in Radiology: The Complete 2026 Guide',
+    excerpt: 'A complete 2026 guide to AI in radiology: detection vs. drafting vs. triage, the FDA/CE regulatory landscape, the evidence base, and how practices adopt it safely.',
+    date: 'July 19, 2026',
+    dateIso: '2026-07-19',
+    category: 'Reference',
+    readingTime: 10,
+    keywords: ['AI in radiology', 'radiology AI', 'AI radiology', 'AI for radiology', 'radiology artificial intelligence', 'AI CT reporting'],
+  },
+  {
     slug: 'nighthawk-radiology',
     title: 'Nighthawk Radiology: History, Economics, and How AI Is Changing After-Hours Coverage',
     excerpt: "Nighthawk radiology explained: the history of NightHawk Radiology Services, overnight preliminary-read economics, and how AI reshapes after-hours coverage.",
