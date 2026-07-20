@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'fda-approved-ai-radiology-funding-bill',
+    title: 'Congress Wants to Pay for FDA-Cleared Imaging AI. Here’s Why That Matters Beyond Veterans.',
+    excerpt: 'A bipartisan bill would put $25M behind FDA-cleared lung-imaging software for veterans. What direct federal AI-imaging funding signals for CT reporting.',
+    date: 'July 20, 2026',
+    dateIso: '2026-07-20',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['fda approved ai radiology', 'ai imaging reimbursement', 'AI CT reporting', 'veterans imaging bill', 'AIR CARE for Vets Act'],
+  },
+  {
     slug: 'ai-in-radiology',
     title: 'AI in Radiology: The Complete 2026 Guide',
     excerpt: 'A complete 2026 guide to AI in radiology: detection vs. drafting vs. triage, the FDA/CE regulatory landscape, the evidence base, and how practices adopt it safely.',

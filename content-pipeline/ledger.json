@@ -239,6 +239,13 @@
       "source": "",
       "date": "2026-07-19",
       "approved": "2026-07-19 founder-approved via telegram bot"
+    },
+    {
+      "slug": "fda-approved-ai-radiology-funding-bill",
+      "topic": "Congress Wants to Pay for FDA-Cleared Imaging AI. Here's Why That Matters Beyond Veterans.",
+      "source": "",
+      "date": "2026-07-20",
+      "approved": "2026-07-20 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -736,6 +743,31 @@
       "url": "https://www.medtechdive.com/news/abbott-discloses-cyberattack-on-cancer-diagnostics-business/825529/",
       "date": "2026-07-17",
       "decision": "skipped - off-core (Abbott cancer-diagnostics/IVD business, not imaging; same pattern as prior Abbott skips)"
+    },
+    {
+      "topic": "how to choose a teleradiology company (evergreen keyword backlog)",
+      "date": "2026-07-20",
+      "decision": "drafted -> how-to-choose-a-teleradiology-company; REJECTED (auto, unattended run) — fact-check found the AJR/Chong-Hanna teleradiology-databank study (DOI 10.2214/AJR.21.26656) claim stated backwards in 3 places (body H2, FAQ JSON-LD, visible FAQ), used to support subspecialty-routing advice the study doesn't actually support. Needs human redraft decision (invert claim + reframe, or drop citation). Draft kept in drafts/; keyword-backlog entry left status=queued (not consumed) for a corrected retry."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/bipartisan-bill-would-invest-25m-bolster-use-key-medical-imaging-software",
+      "date": "2026-07-20",
+      "decision": "drafted -> fda-approved-ai-radiology-funding-bill; INTEGRATED into 4-file contract 2026-07-20 (autonomous run), pending founder approval + deploy — gate ready, factcheck fix-needed at first pass (false 'first reported by RB' claim, mismatched Torres-quote citation, Health Tech Investment Act Senate-bill date); all 3 issues corrected in the draft file before integration, no underlying facts changed. Chosen over the other 2 same-day news drafts for highest xAID relevance (fitScore 6, federal AI-imaging funding/reimbursement precedent + radiologist capacity-strain angle)."
+    },
+    {
+      "url": "https://radiologybusiness.com/mri-helps-visualize-presence-microplastics-imaging-1st-time",
+      "date": "2026-07-20",
+      "decision": "drafted -> microplastics-in-lungs-mri (gate ready, factcheck pass); not chosen for today's publish — off-core modality (MRI, not CT) and off-audience (general-health search intent, not B2B imaging-center buyers), fitScore 3. Draft kept in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/parents-awarded-2m-after-ultrasound-misinterpretation-leads-childs-stillbirth",
+      "date": "2026-07-20",
+      "decision": "skipped - dedupOk false; near-duplicate of published radiology-malpractice-ai-reporting (missed-finding + malpractice-verdict narrative already used), and modality (prenatal ultrasound) is outside CT-reporting core"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/hospital-opens-1st-its-kind-new-interventional-radiology-suite",
+      "date": "2026-07-20",
+      "decision": "drafted -> pediatric-interventional-radiology-suite-capacity (gate ready, factcheck pass); not chosen for today's publish — pure facility/procedural-capacity news with no diagnostic-reporting or AI angle, weakest fit of the day (fitScore 1). Draft kept in drafts/."
     }
   ]
 }
