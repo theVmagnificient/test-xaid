@@ -102,8 +102,10 @@
       "kd": 20,
       "intent": "commercial — buyer checklist, very high CPC = real purchase intent",
       "angle": "Buyer's guide: prelim vs final reads, turnaround SLAs, subspecialty coverage, QA process, pricing models, questions to ask. Neutral checklist tone; careful not to cannibalize /for-teleradiology-companies (that page sells, this one educates the buyer).",
-      "status": "queued",
-      "addedAt": "2026-07-09"
+      "status": "used",
+      "addedAt": "2026-07-09",
+      "usedAt": "2026-07-21",
+      "slug": "how-to-choose-a-teleradiology-company"
     },
     {
       "keyword": "ai in radiology",

@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://xaid.ai/blog/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -357,6 +357,12 @@
   <url>
     <loc>https://xaid.ai/blog/overutilization-of-medical-imaging/</loc>
     <lastmod>2026-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/how-to-choose-a-teleradiology-company/</loc>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

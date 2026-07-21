@@ -246,6 +246,13 @@
       "source": "",
       "date": "2026-07-20",
       "approved": "2026-07-20 founder-approved via telegram bot"
+    },
+    {
+      "slug": "how-to-choose-a-teleradiology-company",
+      "topic": "How to Choose a Teleradiology Company: A Buyer's Guide",
+      "source": "",
+      "date": "2026-07-21",
+      "approved": "2026-07-21 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -768,6 +775,81 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/hospital-opens-1st-its-kind-new-interventional-radiology-suite",
       "date": "2026-07-20",
       "decision": "drafted -> pediatric-interventional-radiology-suite-capacity (gate ready, factcheck pass); not chosen for today's publish — pure facility/procedural-capacity news with no diagnostic-reporting or AI angle, weakest fit of the day (fitScore 1). Draft kept in drafts/."
+    },
+    {
+      "topic": "how to choose a teleradiology company (evergreen keyword backlog)",
+      "date": "2026-07-21",
+      "decision": "REDRAFTED -> how-to-choose-a-teleradiology-company; the 2026-07-20 rejection reason (AJR/Chong-Hanna citation stated backwards) confirmed fully absent from this version. New fact-check pass found 2 different minor issues (AAMC shortage claim over-attributed to radiology specifically; Medicare international-reimbursement claim cited to a mismatched AuntMinnie article) — both fixed in-draft (attribution/citation only, no facts changed). Gate ready, factcheck fix-needed (pre-fix) / resolved post-fix. CHOSEN for today's publish (highest keyword volume of the day, 580/mo KD20; core teleradiology-vendor-evaluation relevance to xAID). Keyword-backlog entry marked used, usedAt 2026-07-21. INTEGRATED into 4-file contract 2026-07-21 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/tempus-to-buy-cancer-test-maker-personalis-for-15b/825684/",
+      "date": "2026-07-21",
+      "decision": "skipped - off-core (cancer-diagnostics/genomic-testing M&A, not imaging or CT reporting)"
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/product-news/news/15830465/spectrum-dynamics-expands-veriton-spectct-line",
+      "date": "2026-07-21",
+      "decision": "skipped - hardware/product-line news (nuclear medicine SPECT/CT scanner), no AI-reporting or CT-report-drafting angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/product-news/news/15830462/fuse-oncology-launches-fuserx-prescribing-platform",
+      "date": "2026-07-21",
+      "decision": "skipped - off-core (oncology e-prescribing platform, not radiology/imaging reporting)"
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/news/15830461/radiology-partners-taps-new-leaders-for-rp-clinical-services",
+      "date": "2026-07-21",
+      "decision": "skipped - personnel/leadership announcement (cross-source duplicate of the same Radiology Partners leadership story also carried by Radiology Business), no reporting/AI angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15830454/qureai-names-new-sales-marketing-leaders",
+      "date": "2026-07-21",
+      "decision": "skipped - competitor-vendor personnel announcement, no fit for xAID editorial angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiology-partners-names-new-head-clinical-services",
+      "date": "2026-07-21",
+      "decision": "skipped - personnel/leadership announcement, no reporting/AI angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-pans-proposal-shake-federal-grantmaking",
+      "date": "2026-07-21",
+      "decision": "skipped - federal-grantmaking/research-funding policy story, no direct CT-reporting or AI angle; possible future revisit if the proposal advances"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/whole-body-imaging-firm-neko-health-raises-700m",
+      "date": "2026-07-21",
+      "decision": "skipped - dedupOk-adjacent; near-duplicate of published whole-body-mri-screening-radiology-capacity (2026-07-19), same whole-body-scanning-boom narrative"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/university-pittsburgh-names-new-radiology-chair",
+      "date": "2026-07-21",
+      "decision": "skipped - personnel/leadership announcement, no reporting/AI angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/rad-techs-push-soften-strict-pass-fail-rule-credentialing-exam",
+      "date": "2026-07-21",
+      "decision": "skipped - radiologic technologist credentialing-exam policy, tangential to xAID's radiologist-reporting focus and to the already-published radiologic-technologist-license-requirements-2026 topic"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/senate-democrats-push-end-medicare-prior-authorization-pilot-fails",
+      "date": "2026-07-21",
+      "decision": "drafted -> wiser-prior-authorization-radiology (gate ready, factcheck fix-needed at first pass — 2 minor issues fixed in-draft, no facts changed); not chosen for today's publish — founder-flagged residual optics concern (juxtaposing WISeR's AI-driven denial review against xAID's AI drafting) needs a human read before going out. Draft kept in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/fda-issues-recall-portable-imaging-systems",
+      "date": "2026-07-21",
+      "decision": "skipped - mechanical/hardware recall (column malfunction), no AI or CT-reporting hook, weakest of today's 4 news survivors (fitScore 3.5); not drafted"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/ge-healthcare-launches-new-platform-streamline-remote-imaging-access",
+      "date": "2026-07-21",
+      "decision": "drafted -> teleradiology-software-remote-imaging-access (gate ready, factcheck FAIL at first pass — fabricated 'contouring' detail baked into body/FAQ/JSON-LD plus a mismatched acquisition-figure citation, both corrected in-draft with no facts changed, re-verified via SEC 10-Q); not chosen for today's publish per hard rule (fact-check verdict was 'fail', excluded regardless of post-fix state). Draft kept in drafts/ for human review of the fix."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/visible-breast-lesions-often-overlooked-emergency-chest-ct-scans",
+      "date": "2026-07-21",
+      "decision": "drafted -> incidental-findings-chest-ct-breast-lesions (gate ready, factcheck fix-needed at first pass — 1 minor author-affiliation attribution fixed in-draft, no facts changed); not chosen for today's publish — evergreen candidate had higher SEO volume (580 vs ~10/mo) and equally solid fact-check; distinct low-cannibalization topic, kept in drafts/ as a strong candidate for tomorrow."
     }
   ]
 }

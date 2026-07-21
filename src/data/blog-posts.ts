@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'how-to-choose-a-teleradiology-company',
+    title: "How to Choose a Teleradiology Company: A Buyer's Guide",
+    excerpt: "How to choose a teleradiology company: prelim vs final reads, turnaround SLAs, subspecialty coverage, QA, pricing, and the questions to ask before signing.",
+    date: 'July 21, 2026',
+    dateIso: '2026-07-21',
+    category: 'Buyer Guide',
+    readingTime: 10,
+    keywords: ['how to choose a teleradiology company', 'teleradiology solutions', 'teleradiology companies', 'teleradiology specialists', 'preliminary vs final read'],
+  },
+  {
     slug: 'fda-approved-ai-radiology-funding-bill',
     title: 'Congress Wants to Pay for FDA-Cleared Imaging AI. Here’s Why That Matters Beyond Veterans.',
     excerpt: 'A bipartisan bill would put $25M behind FDA-cleared lung-imaging software for veterans. What direct federal AI-imaging funding signals for CT reporting.',
