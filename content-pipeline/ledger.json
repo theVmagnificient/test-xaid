@@ -253,6 +253,13 @@
       "source": "",
       "date": "2026-07-21",
       "approved": "2026-07-21 founder-approved via telegram bot"
+    },
+    {
+      "slug": "incidental-findings-chest-ct-breast-lesions",
+      "topic": "Incidental Findings on Chest CT: The Breast Lesions Radiologists Are Missing",
+      "source": "",
+      "date": "2026-07-23",
+      "approved": "2026-07-23 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -850,6 +857,71 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/visible-breast-lesions-often-overlooked-emergency-chest-ct-scans",
       "date": "2026-07-21",
       "decision": "drafted -> incidental-findings-chest-ct-breast-lesions (gate ready, factcheck fix-needed at first pass — 1 minor author-affiliation attribution fixed in-draft, no facts changed); not chosen for today's publish — evergreen candidate had higher SEO volume (580 vs ~10/mo) and equally solid fact-check; distinct low-cannibalization topic, kept in drafts/ as a strong candidate for tomorrow."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-07-22",
+      "decision": "no pick - only remaining queued keyword ('radiologist shortage') dedups against the already-published radiologist-shortage-2026-ai-ct-reporting topic; backlogLow flagged, needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ge-healthcare-inks-10-year-500m-alliance-with-catholic-health/825740/",
+      "date": "2026-07-22",
+      "decision": "skipped - near-duplicate of published enterprise-imaging-modernization-capital-gap (2026-07-17, same underlying GE/Catholic Health $500M deal); adds device-count/Sutter/UC San Diego detail but no new angle worth a second article"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15830514/ge-healthcare-ge-healthcare-introduces-mim-anyware-remote-access-platform",
+      "date": "2026-07-22",
+      "decision": "skipped - cross-source duplicate of the Radiology Business MIM Anyware story already logged 2026-07-21 (drafted -> teleradiology-software-remote-imaging-access, factcheck FAIL, excluded per hard rule); same product launch, no incremental angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/appeals-court-revives-radiologists-lawsuit-over-his-public-support-youth-trans-care-ban",
+      "date": "2026-07-22",
+      "decision": "skipped - individual First Amendment/political litigation involving a state medical board (10th Circuit revived radiologist Eric Cubin's suit over youth trans-care-ban advocacy); zero CT reporting/AI/workflow/reimbursement angle, politically charged and off-core; no article drafted"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15830516/fujifilm-healthcare-americas-corporation-fujifilm-sonosite-launches-new-ultrasound-system-for-vascular-access",
+      "date": "2026-07-22",
+      "decision": "skipped - off-modality (point-of-care ultrasound hardware for vascular-access needle guidance) and off-workflow (procedural guidance, not diagnostic reporting); no plausible xAID angle without fabrication, no article drafted"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-07-23",
+      "decision": "no pick - backlogLow flagged again, no queued keywords available; needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/visible-breast-lesions-often-overlooked-emergency-chest-ct-scans",
+      "date": "2026-07-23",
+      "decision": "drafted -> incidental-findings-chest-ct-breast-lesions (gate ready, factcheck pass, held over from 2026-07-21); CHOSEN for today's publish over the other two ready+pass news drafts on fitScore (8), seoScore (5), and search volume (~10/mo vs ~0 for PE-RADS); on-modality (chest CT), reinforces AI whole-volume structured reporting value prop. INTEGRATED into 4-file contract 2026-07-23 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/experts-unveil-pe-rads-new-reporting-framework-pulmonary-embolism",
+      "date": "2026-07-23",
+      "decision": "drafted -> pe-rads-pulmonary-embolism-reporting (gate ready, factcheck pass, no flagged claims); not chosen for today's publish — lower fitScore (7 vs 8) and near-zero measurable search volume vs the incidental-findings pick. Draft kept in drafts/ as a strong candidate for a future slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/language-radiologists-use-reports-crucial-new-research-shows",
+      "date": "2026-07-23",
+      "decision": "drafted -> radiology-report-language-precision (gate ready, factcheck fix-needed at first pass — first-author misattribution 'led by Rathachai Kaewlai' corrected to Piyachai Siriphiphatcharoen as lead author, with Kaewlai noted as corresponding author, fixed in-draft/body/citation, no facts changed); not chosen for today's publish — lower-confidence factcheck history than the two clean-pass drafts. Draft kept in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-backed-imaging-workflow-helps-generalist-radiologists-perform-breast-specialists",
+      "date": "2026-07-23",
+      "decision": "skipped - shortlisted (fitScore 6) but not drafted; mammography modality rather than CT is a partial fit ding vs the CT-modality candidates drafted today"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/bill-requiring-greater-imaging-price-transparency-advances-senate",
+      "date": "2026-07-23",
+      "decision": "skipped - shortlisted (fitScore 5) but not drafted; patient-pricing angle is secondary-tier relative to the research-driven CT-modality candidates"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/only-13-patients-diagnosed-lung-cancer-met-low-dose-ct-screening-criteria",
+      "date": "2026-07-23",
+      "decision": "skipped - dedupOk false; near-duplicate of already-published lung-cancer-screening-ct-criteria (same screening-criteria-misses-patients narrative); revisit only for a data-refresh angle later"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/radnet-launches-free-lung-cancer-screening-program-firefighters",
+      "date": "2026-07-23",
+      "decision": "skipped - single-vendor CSR/PR initiative, no AI/reporting/reimbursement angle for a B2B imaging-center audience, weakest of today's CT-modality candidates (fitScore 3)"
     }
   ]
 }

@@ -5,8 +5,8 @@ import BlogCTA from '@/components/BlogCTA';
 const IncidentalFindingsChestCtBreastLesions = () => {
   const post = {
     title: 'Incidental Findings on Chest CT: The Breast Lesions Radiologists Are Missing',
-    dateIso: '2026-07-21',
-    date: 'July 21, 2026',
+    dateIso: '2026-07-23',
+    date: 'July 23, 2026',
     category: 'Clinical Evidence',
     readingTime: 7,
     description: "A new Academic Radiology study of ED chest CTs found that 70% of scans with a visible, later biopsy-confirmed breast cancer went unreported at the initial read. Here's what it shows about incidental findings on chest CT — and the case for structured secondary review.",

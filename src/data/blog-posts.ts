@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'incidental-findings-chest-ct-breast-lesions',
+    title: 'Incidental Findings on Chest CT: The Breast Lesions Radiologists Are Missing',
+    excerpt: "A new Academic Radiology study of ED chest CTs found that 70% of scans with a visible, later biopsy-confirmed breast cancer went unreported at the initial read. Here's what it shows about incidental findings on chest CT.",
+    date: 'July 23, 2026',
+    dateIso: '2026-07-23',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['incidental findings on chest ct', 'missed breast lesions ct', 'breast cancer emergency ct', 'incidental breast findings chest ct', 'ai radiology incidental findings'],
+  },
+  {
     slug: 'how-to-choose-a-teleradiology-company',
     title: "How to Choose a Teleradiology Company: A Buyer's Guide",
     excerpt: "How to choose a teleradiology company: prelim vs final reads, turnaround SLAs, subspecialty coverage, QA, pricing, and the questions to ask before signing.",

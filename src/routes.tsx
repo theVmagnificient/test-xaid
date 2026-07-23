@@ -76,6 +76,7 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/radiology-private-equity-stay-independent': () => import('./pages/blog/RadiologyPrivateEquityStayIndependent'),
   '/blog/overutilization-of-medical-imaging': () => import('./pages/blog/OverutilizationOfMedicalImaging'),
   '/blog/how-to-choose-a-teleradiology-company': () => import('./pages/blog/HowToChooseATeleradiologyCompany'),
+  '/blog/incidental-findings-chest-ct-breast-lesions': () => import('./pages/blog/IncidentalFindingsChestCtBreastLesions'),
 };
 
 export const normalizePath = (pathname: string): string =>
