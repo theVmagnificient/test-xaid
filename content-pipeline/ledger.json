@@ -260,6 +260,13 @@
       "source": "",
       "date": "2026-07-23",
       "approved": "2026-07-23 founder-approved via telegram bot"
+    },
+    {
+      "slug": "ai-radiology-quality-assurance",
+      "topic": "Can an LLM Catch Radiology QC Errors? New Study",
+      "source": "",
+      "date": "2026-07-24",
+      "approved": "2026-07-24 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -922,6 +929,86 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/radnet-launches-free-lung-cancer-screening-program-firefighters",
       "date": "2026-07-23",
       "decision": "skipped - single-vendor CSR/PR initiative, no AI/reporting/reimbursement angle for a B2B imaging-center audience, weakest of today's CT-modality candidates (fitScore 3)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/llms-could-automate-quality-control-processes-saving-radiology-departments-significant-time",
+      "date": "2026-07-24",
+      "decision": "drafted -> ai-radiology-quality-assurance (gate ready, factcheck pass, no flagged claims, no fixes needed beyond keyword-targeting/voice polish); CHOSEN for today's publish over the other two ready drafts (residency-training-funding-gap, foundation-model-buyer-checklist) as the only one with a clean fact-check pass rather than fix-needed. INTEGRATED into 4-file contract 2026-07-24 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine",
+      "date": "2026-07-24",
+      "decision": "drafted -> radiology-residency-training-funding-gap (gate ready, factcheck fix-needed at first pass - an arithmetic error, '27-year-old statute' corrected to '29-year-old', no facts changed); not chosen for today's publish - lower-confidence factcheck history than the clean-pass QC-study draft. Draft kept in drafts/ as a strong candidate for a future slot (highest search volume of the day's pool, ~1600/mo)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15830752/hoppr-launches-foundation-model-for-chest-ct",
+      "date": "2026-07-24",
+      "decision": "drafted -> radiology-foundation-model-buyer-checklist (gate ready, factcheck fix-needed at first pass - source-attribution and FAQ/JSON-LD mismatch fixes applied, no facts changed); not chosen for today's publish - lower-confidence factcheck history than the clean-pass QC-study draft, plus medium cannibalization risk flagged vs published foundation-models-vs-narrow-ai-radiology. Draft kept in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/mired-litigation-longtime-imaging-partner-hospital-system-switches-radiology-groups",
+      "date": "2026-07-24",
+      "decision": "skipped - shortlisted (fitScore 7) but not among today's top-3 drafted; lower priority than the QC/shortage/foundation-model picks; near-zero measurable search volume, mainly a trust-building/AEO angle for a future slot"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-artificial-intelligence-marketplace-carplai-raises-10m",
+      "date": "2026-07-24",
+      "decision": "skipped - shortlisted (fitScore 6) but not among today's top-3 drafted; funding-round positioning piece, low search volume (~10/mo)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-based-exam-queue-tool-prioritizes-ct-scans-ed",
+      "date": "2026-07-24",
+      "decision": "skipped - shortlisted (fitScore 6) but not among today's top-3 drafted; adjacent angle (acquisition-queue prioritization, not report generation) so lower fit than the picks that were drafted"
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/1068/sectra/sectra-launches-world-class-ai-driven-reporting-solution-us",
+      "date": "2026-07-24",
+      "decision": "skipped - shortlisted (fitScore 5) but not among today's top-3 drafted; sponsored/promotional source requiring independent verification of any competitor claims, thin keyword volume"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15830796/wellumio-nabs-975m-for-portable-stroke-imaging-device",
+      "date": "2026-07-24",
+      "decision": "skipped - shortlisted (fitScore 4, lowest of the pool) but not among today's top-3 drafted; off-core modality (MRI, stroke) vs xAID's CT-reporting focus"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15830750/carplai-carplai-raises-10m",
+      "date": "2026-07-24",
+      "decision": "skipped - duplicate corroborating source for the same CARPL.ai $10M funding event covered via the Radiology Business URL; not separately scored"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/cybersecurity/mri-center-notifies-patients-data-breach",
+      "date": "2026-07-24",
+      "decision": "skipped - not shortlisted; cybersecurity/data-breach incident, no AI/reporting/reimbursement angle for a B2B imaging-center audience"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mri-reveals-muscle-loss-related-weight-fluctuations",
+      "date": "2026-07-24",
+      "decision": "skipped - not shortlisted; off-modality (MRI) research curiosity, no reporting/AI-workflow angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/novel-x-ray-detector-produces-clearer-images-much-lower-radiation-dose",
+      "date": "2026-07-24",
+      "decision": "skipped - not shortlisted; off-modality hardware (X-ray detector), no AI-reporting angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/careers/news/15830754/rad-ai-rad-ai-names-leonard-law-chief-product-officer",
+      "date": "2026-07-24",
+      "decision": "skipped - not shortlisted; personnel/leadership announcement, no substantive reporting/AI-workflow content"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15830517/bracco-diagnostics-inc-bracco-launches-vueway-contrast-agent-in-mexico",
+      "date": "2026-07-24",
+      "decision": "skipped - not shortlisted; off-core contrast-agent product launch in an ex-US market, no CT-reporting/AI angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/careers/news/15830519/uppi-names-colin-spear-president",
+      "date": "2026-07-24",
+      "decision": "skipped - not shortlisted; personnel/leadership announcement, no substantive reporting/AI-workflow content"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-07-24",
+      "decision": "no pick - backlogLow flagged again, no queued keywords available; needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
     }
   ]
 }

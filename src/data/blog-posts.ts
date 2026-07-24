@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ai-radiology-quality-assurance',
+    title: 'Can an LLM Catch Radiology QC Errors? New Study',
+    excerpt: "A 735-patient study found an LLM beat manual reviewers on accuracy, finishing 50 reports in 13 vs 213 minutes — what it means for radiology quality assurance.",
+    date: 'July 24, 2026',
+    dateIso: '2026-07-24',
+    category: 'AI Safety & Oversight',
+    readingTime: 7,
+    keywords: ['radiology quality assurance', 'radiology quality control', 'LLM radiology reports', 'AI report auditing', 'BI-RADS quality control', 'radiologist AI review'],
+  },
+  {
     slug: 'incidental-findings-chest-ct-breast-lesions',
     title: 'Incidental Findings on Chest CT: The Breast Lesions Radiologists Are Missing',
     excerpt: "A new Academic Radiology study of ED chest CTs found that 70% of scans with a visible, later biopsy-confirmed breast cancer went unreported at the initial read. Here's what it shows about incidental findings on chest CT.",

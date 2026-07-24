@@ -132,7 +132,8 @@
       "/blog/radiology-private-equity-stay-independent/",
       "/blog/overutilization-of-medical-imaging/",
       "/blog/how-to-choose-a-teleradiology-company/",
-      "/blog/incidental-findings-chest-ct-breast-lesions/"
+      "/blog/incidental-findings-chest-ct-breast-lesions/",
+      "/blog/ai-radiology-quality-assurance/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,
