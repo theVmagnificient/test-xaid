@@ -133,7 +133,8 @@
       "/blog/overutilization-of-medical-imaging/",
       "/blog/how-to-choose-a-teleradiology-company/",
       "/blog/incidental-findings-chest-ct-breast-lesions/",
-      "/blog/ai-radiology-quality-assurance/"
+      "/blog/ai-radiology-quality-assurance/",
+      "/blog/radiology-report-language-precision/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,

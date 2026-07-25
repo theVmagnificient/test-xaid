@@ -267,6 +267,13 @@
       "source": "",
       "date": "2026-07-24",
       "approved": "2026-07-24 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-report-language-precision",
+      "topic": "Why the Words Radiologists Use Can Delay Care: What New Research Shows",
+      "source": "",
+      "date": "2026-07-25",
+      "approved": "2026-07-25 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -1009,6 +1016,51 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-07-24",
       "decision": "no pick - backlogLow flagged again, no queued keywords available; needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-07-25",
+      "decision": "no pick - backlogLow flagged again, no queued keywords available; needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/language-radiologists-use-reports-crucial-new-research-shows",
+      "date": "2026-07-25",
+      "decision": "drafted -> radiology-report-language-precision (gate ready, factcheck pass, 13/13 claims supported, zero fixes needed on today's re-check); CHOSEN for today's publish over the other two ready drafts (residency-training-funding-gap: factcheck fix-needed on an attrition-stat mismatch; pe-rads: factcheck pass but lower fitScore 7 vs 8 and no measurable search volume). Direct evidence hook for xAID's structured/standardized AI-drafted reporting value prop. INTEGRATED into 4-file contract 2026-07-25 (autonomous run) with date=2026-07-25, build validated via `npx vite build --mode development`, pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine",
+      "date": "2026-07-25",
+      "decision": "drafted -> radiology-residency-training-funding-gap (gate ready, factcheck fix-needed - attrition-rate citation mismatch between JACR authors' characterization (1.1%->2.5%) and the underlying linked study's own figures (1.4%->2.7%), caveat added in-draft; plus one unsupported invented detail removed and meta description keyword-tightened); not chosen for today's publish - lower-confidence factcheck (fix-needed) vs. the clean-pass report-language-precision pick, despite highest search volume of the day's pool (~1600/mo). Draft kept in drafts/ as a strong candidate for a future slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/experts-unveil-pe-rads-new-reporting-framework-pulmonary-embolism",
+      "date": "2026-07-25",
+      "decision": "drafted -> pe-rads-pulmonary-embolism-reporting (gate ready, factcheck pass, no flagged claims, zero fixes needed); not chosen for today's publish - lower fitScore (7 vs 8) and no measurable search volume vs. the report-language-precision pick. Draft kept in drafts/ as a strong candidate for a future slot."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15830752/hoppr-launches-foundation-model-for-chest-ct",
+      "date": "2026-07-25",
+      "decision": "skipped - dedupOk false; a gate-ready draft already exists (radiology-foundation-model-buyer-checklist) but carries a flagged medium cannibalization risk vs. the published foundation-models-vs-narrow-ai-radiology pillar. Not re-drafted; only worth revisiting with a tightly-scoped procurement-checklist/HOPPR-case-study reframe distinct from the conceptual foundation-vs-narrow comparison already covered."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/mired-litigation-longtime-imaging-partner-hospital-system-switches-radiology-groups",
+      "date": "2026-07-25",
+      "decision": "skipped - shortlisted (fitScore 6) again, still not drafted; legitimate contract/exit-liability angle distinct from published how-to-choose-a-teleradiology-company and radiology-outsourcing-gone-wrong, but no measurable keyword volume so it's a thought-leadership play only, deprioritized vs. today's picks."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/senate-democrats-push-end-medicare-prior-authorization-pilot-fails",
+      "date": "2026-07-25",
+      "decision": "skipped - founder-flagged optics risk carries over from the related held-back wiser-prior-authorization-radiology draft (juxtaposing an AI-driven claim-denial tool against xAID's own AI-drafting workflow); a safe reframe (pure reimbursement/administrative-burden angle, no mention that WISeR is AI-based) needs a human read before drafting. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-based-exam-queue-tool-prioritizes-ct-scans-ed",
+      "date": "2026-07-25",
+      "decision": "skipped - shortlisted (fitScore 6) again, still not among top picks; adjacent angle (acquisition-queue prioritization, not report generation) so lower fit than the drafted picks."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-artificial-intelligence-marketplace-carplai-raises-10m",
+      "date": "2026-07-25",
+      "decision": "skipped - shortlisted (fitScore 5) but not drafted; funding-round positioning piece, low search volume (~10/mo), same story already logged 2026-07-24."
     }
   ]
 }

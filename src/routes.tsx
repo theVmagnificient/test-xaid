@@ -78,6 +78,7 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/how-to-choose-a-teleradiology-company': () => import('./pages/blog/HowToChooseATeleradiologyCompany'),
   '/blog/incidental-findings-chest-ct-breast-lesions': () => import('./pages/blog/IncidentalFindingsChestCtBreastLesions'),
   '/blog/ai-radiology-quality-assurance': () => import('./pages/blog/AiRadiologyQualityAssurance'),
+  '/blog/radiology-report-language-precision': () => import('./pages/blog/RadiologyReportLanguagePrecision'),
 };
 
 export const normalizePath = (pathname: string): string =>

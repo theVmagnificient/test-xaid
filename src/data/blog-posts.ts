@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-report-language-precision',
+    title: 'Why the Words Radiologists Use Can Delay Care: What New Research Shows',
+    excerpt: "A new CT study found imprecise wording drove indeterminate reports, and vague reports led to surgery more often. What it means for radiology report language.",
+    date: 'July 25, 2026',
+    dateIso: '2026-07-25',
+    category: 'Patient Safety & QA',
+    readingTime: 7,
+    keywords: ['radiology report language', 'indeterminate radiology reports', 'diagnostic certainty language', 'structured radiology reporting', 'hedging language radiology'],
+  },
+  {
     slug: 'ai-radiology-quality-assurance',
     title: 'Can an LLM Catch Radiology QC Errors? New Study',
     excerpt: "A 735-patient study found an LLM beat manual reviewers on accuracy, finishing 50 reports in 13 vs 213 minutes — what it means for radiology quality assurance.",

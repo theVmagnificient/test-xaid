@@ -9,25 +9,25 @@ const RadiologyResidencyTrainingFundingGap = () => {
     date: 'July 24, 2026',
     category: 'Radiology Workforce',
     readingTime: 7,
-    description: "New JACR data: radiology residency positions grew 24% (2010-23) vs 95% for family medicine. 85% of program directors say funding, not demand, is the bottleneck.",
+    description: "New JACR data: radiology residency training capacity grew 24% (2010-23) vs 95% for family medicine. 85% of directors say funding, not demand, is the bottleneck.",
   };
 
   return (
     <>
       <Helmet defer={false}>
         <title>Radiology Residency Training Bottleneck Is Financial | xAID</title>
-        <meta name="description" content="New JACR data: radiology residency positions grew 24% (2010-23) vs 95% for family medicine. 85% of program directors say funding, not demand, is the bottleneck." />
+        <meta name="description" content="New JACR data: radiology residency training capacity grew 24% (2010-23) vs 95% for family medicine. 85% of directors say funding, not demand, is the bottleneck." />
         <link rel="canonical" href="https://xaid.ai/blog/radiology-residency-training-funding-gap" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Radiology Residency Training Bottleneck Is Financial | xAID" />
-        <meta property="og:description" content="New JACR data: radiology residency positions grew 24% (2010-23) vs 95% for family medicine. 85% of program directors say funding, not demand, is the bottleneck." />
+        <meta property="og:description" content="New JACR data: radiology residency training capacity grew 24% (2010-23) vs 95% for family medicine. 85% of directors say funding, not demand, is the bottleneck." />
         <meta property="og:url" content="https://xaid.ai/blog/radiology-residency-training-funding-gap" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Radiology Residency Training Bottleneck Is Financial | xAID" />
-        <meta name="twitter:description" content="New JACR data: radiology residency positions grew 24% (2010-23) vs 95% for family medicine. 85% of program directors say funding, not demand, is the bottleneck." />
+        <meta name="twitter:description" content="New JACR data: radiology residency training capacity grew 24% (2010-23) vs 95% for family medicine. 85% of directors say funding, not demand, is the bottleneck." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -169,7 +169,7 @@ const RadiologyResidencyTrainingFundingGap = () => {
                 Financial, not structural — the distinction that matters
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The most consequential finding may be the one about capacity, not funding directly. The researchers cited survey data showing that about <strong>85%</strong> of U.S. radiology program directors report having room to add resident positions right now. Money — not faculty bandwidth, applicant supply, or accreditation limits — was identified as the primary barrier to actually doing so.
+                The most consequential finding may be the one about capacity, not funding directly. The researchers cited survey data showing that about <strong>85%</strong> of U.S. radiology program directors report having room to add resident positions right now. Funding — not applicant demand or program capacity — was identified as the primary barrier to actually doing so.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 "These findings collectively suggest that the bottleneck in radiology training capacity may be financial rather than structural," the authors concluded, pointing to the Resident Physician Shortage Reduction Act and MedPAC recommendations for targeted GME allocation as legislative avenues that could incorporate specialty-specific workforce data into funding policy. In plain terms: this isn't a shortage of interested applicants or capable programs. It's a shortage of federal dollars earmarked for radiology specifically, inside a 1997-era cap that has never been reopened for specialty rebalancing.
@@ -179,7 +179,7 @@ const RadiologyResidencyTrainingFundingGap = () => {
                 A slow-moving fix against a fast-moving demand curve
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                The same paper adds a demand-side data point that sharpens the urgency: unadjusted attrition among practicing radiologists has accelerated, rising from <strong>1.1%</strong> in 2014 to <strong>2.5%</strong> in 2022, according to <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/attrition-rising-across-all-radiology-subspecialties-some-leaving-workforce-faster-others" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">a related study</a> cited by the authors. Imaging utilization keeps climbing while more radiologists leave the workforce each year, and the pipeline meant to replace them is expanding at less than half the rate of medicine overall.
+                The same paper adds a demand-side data point that sharpens the urgency: the authors cite <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/attrition-rising-across-all-radiology-subspecialties-some-leaving-workforce-faster-others" target="_blank" rel="noopener noreferrer" className="text-xaid-blue-strong underline underline-offset-2">a related attrition study</a> as showing unadjusted rates rising from <strong>1.1%</strong> in 2014 to <strong>2.5%</strong> in 2022 — though the linked study itself reports a somewhat different range for its cohort (about 1.4% to 2.7%, a 2.2% overall rate across the period). Either way, the direction is the same: imaging utilization keeps climbing while more radiologists leave the workforce each year, and the pipeline meant to replace them is expanding at less than half the rate of medicine overall.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 That combination — accelerating attrition, decelerating training growth, and a funding cap that requires an act of Congress to meaningfully change — points to a supply gap measured in years, not one or two match cycles. Even in an optimistic scenario where the Resident Physician Shortage Reduction Act or a MedPAC-driven reallocation passes soon, new residency slots take years to fill and additional years for those residents to finish training and start reading independently.
@@ -248,7 +248,7 @@ const RadiologyResidencyTrainingFundingGap = () => {
               </div>
 
               <p className="text-[#757575] text-[13px] leading-[1.6] font-light mt-10">
-                Source: Malhotra A, et al., <em>Journal of the American College of Radiology</em> (published July 22, 2026), <a href="https://www.jacr.org/article/S1546-1440(26)00367-4/fulltext" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">full text</a>; as reported by <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a>. Attrition figures cited from <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/attrition-rising-across-all-radiology-subspecialties-some-leaving-workforce-faster-others" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">a related Radiology Business report</a>. Figures are rounded as reported.
+                Source: Malhotra A, et al., <em>Journal of the American College of Radiology</em> (published July 22, 2026), <a href="https://www.jacr.org/article/S1546-1440(26)00367-4/fulltext" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">full text</a>; as reported by <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a>. Attrition figures as characterized by the JACR authors, citing <a href="https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/attrition-rising-across-all-radiology-subspecialties-some-leaving-workforce-faster-others" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">a related Radiology Business report</a>, whose own figures differ slightly (about 1.4% to 2.7%, a 2.2% overall rate). Figures are rounded as reported.
               </p>
 
             </div>
