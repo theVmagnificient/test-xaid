@@ -10,15 +10,21 @@ const slug = process.argv[2];
 if (!slug) throw new Error('usage: node reject.mjs <slug>');
 
 const pending = readPending();
-const entry = pending.find((p) => p.slug === slug);
-if (!entry) throw new Error(`slug not in pending.json: ${slug}`);
-if (entry.status !== 'pending') throw new Error(`slug already ${entry.status}: ${slug}`);
+const entry = pending.find((p) => p.slug === slug);   // may be undefined (the autonomous run integrates without a pending.json entry)
 
 const today = new Date().toISOString().slice(0, 10);
 
-// 1. Delete the page component.
-const page = resolve(ROOT, `src/pages/blog/${entry.component}.tsx`);
-if (existsSync(page)) unlinkSync(page);
+// Resolve the page component name: from pending if present, else from the routes.tsx importer line.
+let component = entry?.component;
+if (!component) {
+  const routesSrc = readFileSync(resolve(ROOT, 'src/routes.tsx'), 'utf8');
+  const m = routesSrc.match(new RegExp(`'/blog/${slug}':[^\\n]*?pages/blog/([A-Za-z0-9_]+)`));
+  component = m ? m[1] : null;
+}
+
+// 1. Delete the page component (if known).
+const page = component ? resolve(ROOT, `src/pages/blog/${component}.tsx`) : null;
+if (page && existsSync(page)) unlinkSync(page);
 
 // 2. Remove the metadata block from blog-posts.ts (lines from "  {" of the
 // entry containing our slug through its matching "  },").
@@ -54,13 +60,15 @@ writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n');
 const ledgerPath = resolve(ROOT, 'content-pipeline/ledger.json');
 const ledger = JSON.parse(readFileSync(ledgerPath, 'utf8'));
 for (const s of ledger.seen) {
-  if (entry.sourceUrl && s.url === entry.sourceUrl) {
-    s.decision = `drafted -> ${slug}; REJECTED by founder ${today} via telegram bot (draft kept in drafts/)`;
+  if ((entry?.sourceUrl && s.url === entry.sourceUrl) || (s.decision && s.decision.includes(`-> ${slug}`) && !s.decision.includes('REJECTED'))) {
+    s.decision = `drafted -> ${slug}; REJECTED ${today} (autorun deep-verify HOLD/REJECT — draft kept in drafts/)`;
   }
 }
 writeFileSync(ledgerPath, JSON.stringify(ledger, null, 2) + '\n');
 
-entry.status = 'rejected';
-entry.rejectedAt = new Date().toISOString();
-writePending(pending);
-console.log(`rejected: ${slug} (integration reverted; staging updates on next evening run)`);
+if (entry) {
+  entry.status = 'rejected';
+  entry.rejectedAt = new Date().toISOString();
+  writePending(pending);
+}
+console.log(`rejected: ${slug} — integration reverted${component ? ' (' + component + ')' : ''}`);

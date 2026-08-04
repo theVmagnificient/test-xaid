@@ -945,7 +945,7 @@
     {
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine",
       "date": "2026-07-24",
-      "decision": "drafted -> radiology-residency-training-funding-gap (gate ready, factcheck fix-needed at first pass - an arithmetic error, '27-year-old statute' corrected to '29-year-old', no facts changed); not chosen for today's publish - lower-confidence factcheck history than the clean-pass QC-study draft. Draft kept in drafts/ as a strong candidate for a future slot (highest search volume of the day's pool, ~1600/mo)."
+      "decision": "drafted -> radiology-residency-training-funding-gap; REJECTED 2026-08-04 (autorun deep-verify HOLD/REJECT — draft kept in drafts/)"
     },
     {
       "url": "https://www.auntminnie.com/clinical-news/ct/news/15830752/hoppr-launches-foundation-model-for-chest-ct",
@@ -1030,7 +1030,7 @@
     {
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine",
       "date": "2026-07-25",
-      "decision": "drafted -> radiology-residency-training-funding-gap (gate ready, factcheck fix-needed - attrition-rate citation mismatch between JACR authors' characterization (1.1%->2.5%) and the underlying linked study's own figures (1.4%->2.7%), caveat added in-draft; plus one unsupported invented detail removed and meta description keyword-tightened); not chosen for today's publish - lower-confidence factcheck (fix-needed) vs. the clean-pass report-language-precision pick, despite highest search volume of the day's pool (~1600/mo). Draft kept in drafts/ as a strong candidate for a future slot."
+      "decision": "drafted -> radiology-residency-training-funding-gap; REJECTED 2026-08-04 (autorun deep-verify HOLD/REJECT — draft kept in drafts/)"
     },
     {
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/experts-unveil-pe-rads-new-reporting-framework-pulmonary-embolism",
@@ -1061,6 +1061,146 @@
       "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-artificial-intelligence-marketplace-carplai-raises-10m",
       "date": "2026-07-25",
       "decision": "skipped - shortlisted (fitScore 5) but not drafted; funding-round positioning piece, low search volume (~10/mo), same story already logged 2026-07-24."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-07-26",
+      "decision": "no pick - backlogLow flagged again, no queued keywords available; needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/radiology-sees-substantially-lower-relative-growth-training-capacity-compared-rest-medicine",
+      "date": "2026-07-26",
+      "decision": "drafted -> radiology-residency-training-funding-gap; REJECTED 2026-08-04 (autorun deep-verify HOLD/REJECT — draft kept in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/bill-requiring-greater-imaging-price-transparency-advances-senate",
+      "date": "2026-07-26",
+      "decision": "drafted -> ct-price-transparency-senate-bill (gate ready, factcheck fix-needed - CPT 70470 miscategorized as non-contrast, corrected; no dollar figures changed); not chosen for today's publish - fix-needed factcheck vs the clean-pass residency-funding-gap pick. Draft kept in drafts/ as a strong candidate for a future slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-based-exam-queue-tool-prioritizes-ct-scans-ed",
+      "date": "2026-07-26",
+      "decision": "drafted -> ct-triage-ai-pipeline (gate ready, factcheck fix-needed - corrected a tail-wait-time omission, a cohort-size attribution mismatch (131,027 vs 20,795 studies), a 2-day publish-date discrepancy, and added a missing canonical tag; no facts invented, only corrected). Not chosen for today's publish - fix-needed factcheck vs the clean-pass residency-funding-gap pick. Draft kept in drafts/ as a strong candidate for a future slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-backed-imaging-workflow-helps-generalist-radiologists-perform-breast-specialists",
+      "date": "2026-07-26",
+      "decision": "skipped - shortlisted (fitScore 5) but not among today's top-3 drafted; modality mismatch (mammography vs xAID's CT focus), low search volume (~30/mo)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-artificial-intelligence-marketplace-carplai-raises-10m",
+      "date": "2026-07-26",
+      "decision": "skipped - shortlisted (fitScore 5) again, still not drafted; funding-round positioning piece, low search volume (~10/mo), same story previously logged 2026-07-24/25."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/mired-litigation-longtime-imaging-partner-hospital-system-switches-radiology-groups",
+      "date": "2026-07-26",
+      "decision": "skipped - shortlisted (fitScore 5, declining from 7->6->5 over three days) again, still not drafted; contract/exit-liability angle distinct from published pieces but no measurable keyword volume, thought-leadership only, deprioritized vs today's picks."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/1068/sectra/sectra-launches-world-class-ai-driven-reporting-solution-us",
+      "date": "2026-07-26",
+      "decision": "skipped - shortlisted (fitScore 4) again, still not drafted; sponsored/promotional source requiring independent verification of any competitor claims, negligible keyword volume."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/only-13-patients-diagnosed-lung-cancer-met-low-dose-ct-screening-criteria",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; overlaps existing draft lung-cancer-screening-ct-criteria topic (screening-criteria gap), no fresh angle identified by scorer."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/appeals-court-revives-radiologists-lawsuit-over-his-public-support-youth-trans-care-ban",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; politically sensitive personnel/legal story unrelated to CT-reporting/AI workflow, no product angle for a B2B imaging blog."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/radnet-launches-free-lung-cancer-screening-program-firefighters",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; single-operator PR/CSR story, no AI-reporting/product angle."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/aim-medical-robotics-names-new-cfo/825861/",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; personnel announcement at an MRI-robotics/neurosurgery device maker, off-core for a CT-reporting audience."
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/news/15830859/ge-healthcare-ge-healthcare-names-new-cfo",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; personnel/leadership announcement, no substantive reporting/AI-workflow content."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15830514/ge-healthcare-ge-healthcare-introduces-mim-anyware-remote-access-platform",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; PACS/viewer remote-access product launch, no AI-reporting angle."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15830516/fujifilm-healthcare-americas-corporation-fujifilm-sonosite-launches-new-ultrasound-system-for-vascular-access",
+      "date": "2026-07-26",
+      "decision": "skipped - not shortlisted; off-core modality (ultrasound) product launch, no CT/AI-reporting angle."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15830870/dopl-technologies-raises-63m-for-ultrasound-platform",
+      "date": "2026-07-27",
+      "decision": "skipped - not shortlisted; ultrasound-platform funding round, off-core modality, no CT/AI-reporting angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/rsna-seeks-ideas-how-radiology-can-help-save-planet",
+      "date": "2026-07-27",
+      "decision": "skipped - not shortlisted; RSNA sustainability/CSR challenge announcement, no product or reporting-workflow angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/hospitals-rocky-radiology-transition-leaves-patients-almost-rioting-er",
+      "date": "2026-07-27",
+      "decision": "skipped - shortlisted (fitScore 5) but dedupOk=false; same underlying Mary Washington Healthcare / Radiologic Associates of Fredericksburg vendor-transition story as the already-seen 'mired-litigation' URL scored 3x on 2026-07-24/25/26 with declining fitScore and zero measurable keyword volume ('radiology outsourcing risk', 'hospital changes radiology provider', 'imaging vendor transition' all returned no DataForSEO results); thematically overlaps two published pillars (radiology-outsourcing-gone-wrong, how-to-choose-a-teleradiology-company)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/fda-rejects-application-new-oral-mr-imaging-contrast-agent",
+      "date": "2026-07-27",
+      "decision": "skipped - not shortlisted; MRI contrast-agent regulatory rejection, off-core (contrast agents/MRI, not CT/AI-reporting)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/wellumio-raises-nearly-10m-advance-point-care-mri-system",
+      "date": "2026-07-27",
+      "decision": "skipped - not shortlisted; Radiology Business companion coverage of the same Wellumio point-of-care MRI funding round already seen via AuntMinnie on 2026-07-23; off-core modality (MRI hardware), no reporting-workflow angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/relocating-ct-scanners-closer-ed-cuts-turnaround-times-potential-save-lives",
+      "date": "2026-07-27",
+      "decision": "drafted and integrated as 'door-to-ct-time-stroke' (gate ready, factcheck fix-needed -> fixes applied, residual uncertainty none) - distinct angle from published 'ct-report-turnaround-time-benchmarks-2026' pillar (this piece covers acquisition/door-to-CT timing, not report-signing benchmarks). Target keyword 'door to CT time stroke' (vol 140, KD 0)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/why-aidoc-is-taking-a-generative-ai-device-to-the-fda/826245/",
+      "date": "2026-07-28",
+      "decision": "drafted as 'fda-generative-ai-radiology-reports' but NOT integrated (gate needs-human, factcheck fix-needed -> fixes applied) - medium cannibalization risk flagged: target keyword 'generative ai radiology' duplicates the exact keyword already on the live published article 'ai-radiology-reporting-draft-then-sign' (2026-07-02); needs a human decision on SERP-cluster strategy vs. retargeting before it can go out. Draft left in content-pipeline/drafts/ awaiting founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/paltry-medicare-pay-fueling-imaging-access-gaps-radiology-experts-charge",
+      "date": "2026-07-28",
+      "decision": "drafted and integrated as 'medicare-radiology-reimbursement-squeeze' (gate ready, factcheck fix-needed -> fixes applied: corrected mis-cited paper title, added missing 2023 Neiman/JACR source link; residual: none blocking) - distinct from published MPFS-mechanics pillar (2027-medicare-physician-fee-schedule-radiology) and AI-specific access-disparities piece (radiology-ai-access-disparities); this is the broader 20-year inflation-vs-access retrospective study. Target keyword 'medicare radiology reimbursement' (vol 10, KD 44)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/pet-ct/petct-should-be-first-line-tool-patients-fever-unknown-origin-study-says",
+      "date": "2026-07-28",
+      "decision": "drafted as 'pet-ct-fever-of-unknown-origin' but NOT integrated (gate ready, factcheck fix-needed -> fixes applied) - not chosen over 'medicare-radiology-reimbursement-squeeze' because of weak xAID product fit (fitScore 3: off-modality PET/nuclear-medicine, not CT; off-workflow diagnostic-test-selection, not AI report drafting) despite clean dedup. Draft left in content-pipeline/drafts/ for possible future use."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/american-college-radiology-outlines-2027-medicare-fee-schedules-impact-imaging-pay",
+      "date": "2026-07-28",
+      "decision": "skipped - shortlisted but dedupOk=false; near-duplicate of already-published pillar 'Congress/2027 Medicare Physician Fee Schedule: What It Means for Radiology' (2027-medicare-physician-fee-schedule-radiology, 2026-07-15); ACR document adds code-level granularity but not a distinct enough angle without deliberate reframe."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/siemens-healthineers-inks-87m-value-partnership-vanderbilt",
+      "date": "2026-07-28",
+      "decision": "skipped - shortlisted but dedupOk=false; overlaps published GE/Catholic Health $500M capital-gap piece (enterprise-imaging-modernization-capital-gap, 2026-07-17); pure equipment/vendor deal with no AI-reporting or workflow hook, cross-published by AuntMinnie same day."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/curium-reportedly-closing-deal-buy-radiopharma-rival-lantheus-7b",
+      "date": "2026-07-28",
+      "decision": "skipped - not selected; radiopharmaceutical manufacturing M&A, off-core for diagnostic CT-reporting AI (fitScore 2)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/fda-denies-petition-reclassify-mri-safety-event",
+      "date": "2026-07-28",
+      "decision": "skipped - not selected; MRI-suite projectile-incident device-classification dispute, hardware safety only, off-modality/off-workflow (fitScore 2)."
     }
   ]
 }
