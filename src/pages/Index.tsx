@@ -6,6 +6,7 @@ import Guarantee from '@/components/Guarantee';
 import Comparison from '@/components/Comparison';
 import ReportExample from '@/components/ReportExample';
 import FAQ from '@/components/FAQ';
+import Team from '@/components/Team';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
 import LatestFromBlog from '@/components/LatestFromBlog';
@@ -24,6 +25,7 @@ const Index = () => {
       <Comparison />
       <ReportExample />
       <FAQ />
+      <Team />
       <CTA />
       <Contact />
       <LatestFromBlog />
