@@ -274,6 +274,20 @@
       "source": "",
       "date": "2026-07-25",
       "approved": "2026-07-25 founder-approved via telegram bot"
+    },
+    {
+      "slug": "clinical-indication-radiology-orders",
+      "topic": "LLMs Beat Clinicians at Writing Radiology Order Indications",
+      "source": "UCSF 77,626-exam study",
+      "date": "2026-08-05",
+      "status": "pending-approval"
+    },
+    {
+      "slug": "radiology-care-navigation-software",
+      "topic": "radiology AI stack layers / care-navigation software (Azra AI + Blackford partnership)",
+      "source": "AuntMinnie + Medical Device Network",
+      "date": "2026-08-06",
+      "status": "pending-approval"
     }
   ],
   "seen": [

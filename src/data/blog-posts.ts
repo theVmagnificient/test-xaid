@@ -11,6 +11,26 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-care-navigation-software',
+    title: 'Radiology Care Navigation Software: Where It Fits in the AI Stack',
+    excerpt: 'A new Azra AI-Blackford deal links imaging AI to patient navigation. What the detection, reporting, and navigation AI layers mean for imaging center buyers.',
+    date: 'August 6, 2026',
+    dateIso: '2026-08-06',
+    category: 'Buyer Guide',
+    readingTime: 7,
+    keywords: ['radiology care navigation software', 'imaging AI stack', 'incidental findings follow-up', 'AI radiology vendor evaluation', 'structured radiology reports'],
+  },
+  {
+    slug: 'clinical-indication-radiology-orders',
+    title: 'LLMs Beat Clinicians at Writing Radiology Order Indications',
+    excerpt: "A 77,626-exam UCSF study found LLMs write more comprehensive, more factual clinical indications than clinicians. Why that gap matters for AI report accuracy.",
+    date: 'August 5, 2026',
+    dateIso: '2026-08-05',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['clinical indication radiology order', 'imaging order clinical context', 'AI radiology report accuracy', 'radiology requisition quality', 'LLM clinical history generation'],
+  },
+  {
     slug: 'radiology-report-language-precision',
     title: 'Why the Words Radiologists Use Can Delay Care: What New Research Shows',
     excerpt: "A new CT study found imprecise wording drove indeterminate reports, and vague reports led to surgery more often. What it means for radiology report language.",

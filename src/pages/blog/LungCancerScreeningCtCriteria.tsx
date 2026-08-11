@@ -127,8 +127,8 @@ const LungCancerScreeningCtCriteria = () => {
                 { stat: '57M+', label: 'Ever-smoking adults analyzed', sub: '2024 NHIS data' },
               ].map((s) => (
                 <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
-                  <div className="text-2xl font-medium text-xaid-blue mb-1">{s.stat}</div>
-                  <div className="text-white text-xs font-medium mb-1">{s.label}</div>
+                  <div className="text-2xl font-medium text-xaid-blue mb-1 break-words">{s.stat}</div>
+                  <div className="text-white text-xs font-medium mb-1 break-words">{s.label}</div>
                   <div className="text-white/60 text-xs">{s.sub}</div>
                 </div>
               ))}

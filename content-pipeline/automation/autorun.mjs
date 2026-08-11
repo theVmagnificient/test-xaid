@@ -39,6 +39,34 @@ function claude(prompt) {
     { cwd: ROOT, encoding: 'utf8', timeout: 70 * 60 * 1000, stdio: ['ignore', 'inherit', 'inherit'] });
 }
 
+const firstLine = (e) => String(e?.message || e || '').split('\n')[0].slice(0, 160);
+
+// De-integrate an article (4-file contract + ledger) so the working tree is clean for the next run.
+// Used both for a non-CLEAN verdict and for a publish that a gate rejected.
+function rollback(slug, why) {
+  try {
+    execSync(`node content-pipeline/automation/reject.mjs ${slug}`, { cwd: ROOT, stdio: 'inherit' });
+    say(`черновик де-интегрирован (${why}) — база остаётся чистой к завтрашнему прогону.`);
+  } catch (e) {
+    say(`⚠️ reject не отработал (${firstLine(e)}) — дерево может быть грязным, проверь вручную.`);
+  }
+}
+
+// Presentation-only repair pass after a gate rejection. Deliberately narrow: the article's claims
+// were already fact-checked by deepVerify, so this pass must not touch substance, and must never
+// re-bless the guard baseline (that would hide a broken template site-wide).
+function guardFixPrompt(componentFile) {
+  return `The pre-publish visual-quality gate rejected an article. Fix it, changing NOTHING but presentation.
+
+Article file: ${componentFile}
+
+1. Run: bun run build && bun run guard
+2. Read the guard output. It reports (a) text OVERFLOW — an element wider than its box at 1440px or 390px, (b) a contrast combination outside the accepted baseline, (c) a structural axe violation.
+3. Fix ONLY issues whose location is ${componentFile}, and ONLY by changing layout/markup: add "break-words" to a stat tile whose text overflows, shorten an over-long label, restore a class the standard template uses. The usual cause is a long unbreakable word in a "key stats" tile (e.g. "Top-comprehensiveness", "Hundreds") inside a 4-column grid.
+4. HARD LIMITS: never run "--update-baseline"; never edit scripts/guard-baseline.json; never change the article's facts, numbers, claims, headings or meaning; never edit any file other than ${componentFile}; never run any deploy, git or rsync command.
+5. Re-run "bun run build && bun run guard". Stop when it passes, or when the only remaining failures are NOT in ${componentFile} — in that case leave them alone and stop.`;
+}
+
 function generateAndPick() {
   if (existsSync(PICK_FILE)) rmSync(PICK_FILE);
   claude(readFileSync(GEN_PROMPT, 'utf8').replaceAll('{{TODAY}}', today));
@@ -94,16 +122,38 @@ async function main() {
 
   if (v.verdict !== 'CLEAN') {
     say(`НЕ публикую (${v.verdict}). Нерешённое: ${(v.unresolved || []).join('; ') || '—'}.`);
-    try { execSync(`node content-pipeline/automation/reject.mjs ${pick.slug}`, { cwd: ROOT, stdio: 'inherit' }); say('черновик де-интегрирован (reject) — база остаётся чистой к завтрашнему прогону.'); }
-    catch (e) { say(`(reject не отработал: ${String(e.message || '').slice(0, 80)})`); }
+    rollback(pick.slug, 'reject');
     return finish();
   }
 
   const pend = readPending();
   if (!pend.find((p) => p.slug === pick.slug)) { pend.push({ slug: pick.slug, title: pick.title || pick.slug, date: today, status: 'pending' }); writePending(pend); }
 
+  const publish = () => execSync(`node content-pipeline/automation/publish.mjs ${pick.slug}`,
+    { cwd: ROOT, stdio: 'inherit', env: { ...process.env, CHANGESET_MAX: String(CHANGESET_MAX) } });
+
   say('публикую: build → guard → change-set guard → deploy…');
-  execSync(`node content-pipeline/automation/publish.mjs ${pick.slug}`, { cwd: ROOT, stdio: 'inherit', env: { ...process.env, CHANGESET_MAX: String(CHANGESET_MAX) } });
+  try {
+    publish();
+  } catch (e1) {
+    // A gate (build / guard / change-set) rejected the article. This MUST NOT leave the article
+    // integrated: an integrated-but-unpublished article fails every LATER run's guard too, so the
+    // dead-man switch was guaranteed to halt the pipeline within two days and it stayed halted
+    // until a human intervened (2026-07-29 and again 2026-08-05, ~12 lost days between them).
+    // One auto-fix attempt for the mechanical cases (text overflow is the common one), then roll
+    // the integration back either way so tomorrow's run starts from a clean tree.
+    say(`⚠️ гейт отклонил статью: ${firstLine(e1)}`);
+    say('пробую авто-починку вёрстки (1 попытка)…');
+    try {
+      claude(guardFixPrompt(comp));
+      publish();
+    } catch (e2) {
+      say(`после авто-починки всё ещё не проходит: ${firstLine(e2)}`);
+      rollback(pick.slug, 'publish failed');
+      throw new Error(`publish gate rejected ${pick.slug}, integration rolled back: ${firstLine(e1)}`);
+    }
+    say('авто-починка помогла — статья прошла гейты со второй попытки.');
+  }
   say(`✅ опубликовано: https://xaid.ai/blog/${pick.slug}/`);
   try { execSync(`node content-pipeline/automation/notify-indexing.mjs ${pick.slug}`, { cwd: ROOT }); } catch { /* best-effort */ }
   return finish();

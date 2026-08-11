@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://xaid.ai/blog/</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://xaid.ai/blog/nighthawk-radiology/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -381,6 +381,18 @@
   <url>
     <loc>https://xaid.ai/blog/radiology-report-language-precision/</loc>
     <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/clinical-indication-radiology-orders/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/radiology-care-navigation-software/</loc>
+    <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

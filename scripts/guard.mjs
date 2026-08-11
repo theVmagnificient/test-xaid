@@ -57,8 +57,26 @@ const quant = (hex) => {
   return '#' + m.slice(0, 3).map((c) => (Math.round(parseInt(c, 16) / 8) * 8).toString(16).padStart(2, '0')).join('');
 };
 
-const urls = readFileSync(join(root, 'public/sitemap.xml'), 'utf8')
+const allUrls = readFileSync(join(root, 'public/sitemap.xml'), 'utf8')
   .match(/<loc>([^<]+)<\/loc>/g).map((m) => m.replace(/<\/?loc>/g, '').replace('https://xaid.ai', ''));
+
+// --only=<substring>: check just the matching page(s). For iterating on ONE article without waiting
+// on a full sitemap sweep. It is a debugging aid, NOT a deploy gate — a passing --only run says
+// nothing about the other pages, so the deploy flow must always use the full, unfiltered guard.
+const onlyArg = process.argv.find((a) => a.startsWith('--only='));
+const ONLY = onlyArg ? onlyArg.slice('--only='.length) : null;
+const urls = ONLY ? allUrls.filter((u) => u.includes(ONLY)) : allUrls;
+if (ONLY) {
+  if (!urls.length) {
+    console.error(`guard: --only=${ONLY} matched none of the ${allUrls.length} sitemap URLs.`);
+    process.exit(1);
+  }
+  if (UPDATE) {
+    console.error('guard: --only cannot be combined with --update-baseline (it would bless a partial sweep).');
+    process.exit(1);
+  }
+  console.log(`guard: --only=${ONLY} → checking ${urls.length} of ${allUrls.length} page(s). NOT a deploy gate.`);
+}
 
 // Approval gate: a pipeline article whose ledger status is still "pending-approval"
 // must never reach a deployable build (incident 2026-07-03: three pending articles

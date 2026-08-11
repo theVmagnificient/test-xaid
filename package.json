@@ -134,7 +134,9 @@
       "/blog/how-to-choose-a-teleradiology-company/",
       "/blog/incidental-findings-chest-ct-breast-lesions/",
       "/blog/ai-radiology-quality-assurance/",
-      "/blog/radiology-report-language-precision/"
+      "/blog/radiology-report-language-precision/",
+      "/blog/clinical-indication-radiology-orders/",
+      "/blog/radiology-care-navigation-software/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,

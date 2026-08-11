@@ -59,6 +59,17 @@ writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n');
 // 5. Ledger: record the rejection.
 const ledgerPath = resolve(ROOT, 'content-pipeline/ledger.json');
 const ledger = JSON.parse(readFileSync(ledgerPath, 'utf8'));
+
+// 5a. Drop any "published" claim for this slug. publish.mjs has to write the ledger before the guard
+// runs (the guard red-flags integrated articles missing from it) and restores it on a gate failure —
+// but if that process is killed in between, the claim survives and the ledger lies about what is live.
+// We are de-integrating the article, so it is by definition not published.
+const phantom = ledger.published.findIndex((p) => p.slug === slug);
+if (phantom !== -1) {
+  ledger.published.splice(phantom, 1);
+  console.log(`ledger: removed stale published entry for ${slug} (article is not live)`);
+}
+
 for (const s of ledger.seen) {
   if ((entry?.sourceUrl && s.url === entry.sourceUrl) || (s.decision && s.decision.includes(`-> ${slug}`) && !s.decision.includes('REJECTED'))) {
     s.decision = `drafted -> ${slug}; REJECTED ${today} (autorun deep-verify HOLD/REJECT — draft kept in drafts/)`;
