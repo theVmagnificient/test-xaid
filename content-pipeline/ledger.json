@@ -280,7 +280,7 @@
       "topic": "LLMs Beat Clinicians at Writing Radiology Order Indications",
       "source": "UCSF 77,626-exam study",
       "date": "2026-08-05",
-      "status": "pending-approval"
+      "approved": "2026-08-11 founder-approved (reviewed on staging)"
     }
   ],
   "seen": [
