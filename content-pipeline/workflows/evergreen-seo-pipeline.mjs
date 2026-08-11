@@ -13,8 +13,8 @@ export const meta = {
 const cfg = args || {};
 const MAX_DRAFTS = cfg.maxDrafts || 1;
 
-const REPO = '/home/xaid/xaid-landing';
-const BRAIN = `${REPO}/content-pipeline`;
+const REPO = process.cwd();
+const BRAIN = `${process.cwd()}/content-pipeline`;
 const TEMPLATE = `${REPO}/src/pages/blog/AiDisclosurePatientTrust.tsx`;
 
 // ---------- Schemas (mirror daily-news-pipeline) ----------

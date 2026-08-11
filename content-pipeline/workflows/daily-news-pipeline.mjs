@@ -15,8 +15,8 @@ const cfg = args || {};
 const MAX_DRAFTS = cfg.maxDrafts || 3;
 const SINCE_DAYS = cfg.sinceDays || 4;
 
-const REPO = '/home/xaid/xaid-landing';
-const BRAIN = `${REPO}/content-pipeline`;
+const REPO = process.cwd();
+const BRAIN = `${process.cwd()}/content-pipeline`;
 const TEMPLATE = `${REPO}/src/pages/blog/AiDisclosurePatientTrust.tsx`;
 
 // ---------- Schemas ----------
