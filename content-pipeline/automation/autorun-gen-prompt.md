@@ -15,10 +15,10 @@ GOAL: produce and integrate exactly ONE fresh, publish-ready article for TODAY (
    - add `"/blog/<slug>/"` (trailing slash) to `reactSnap.include` in `package.json`.
    Leave ALL OTHER drafts in `content-pipeline/drafts/` un-integrated (do not touch the 4 files for them).
 
-3b. LAYOUT SAFETY for the "key stats" tiles (they sit in a 4-column grid, so each tile is only ~140px wide at 1440px). The visual guard fails the publish on any text wider than its box, and that failure used to stall the whole pipeline:
-   - keep BOTH the `{s.stat}` and `{s.label}` divs on the standard template classes, which now include `break-words`;
+3b. LAYOUT SAFETY for the "key stats" band (a 4-column grid, so each tile is only ~140px wide at 1440px). The visual guard fails the publish on any text wider than its box, and that failure used to stall the whole pipeline:
+   - use the shared component — `import KeyStats from '@/components/KeyStats';` then `<KeyStats items={[{ stat, label, sub }, …]} />`. Do NOT copy the raw grid markup out of an older article: the 40 pre-2026-08-11 articles carry inlined copies and must not gain a 41st;
    - keep `stat` short — a number, percentage, ratio or date (`37.1%`, `68.1% vs 50%`, `77,626`, `Aug 5, 2026`). Never a long single word like `Hundreds` or `Nationwide`; write `100s+` or move the idea into `label`;
-   - keep `label` under ~28 characters and avoid unbreakable compounds like `Top-comprehensiveness` — prefer `Top-quality rate` or `Comprehensiveness`.
+   - keep `label` under ~28 characters and avoid unbreakable compounds like `Top-comprehensiveness` — prefer `Rated most comprehensive`.
 
 4. Ensure `content-pipeline/ledger.json` "seen" has an entry for every item evaluated today (decision drafted/skipped/rejected) so tomorrow never re-scores them.
 

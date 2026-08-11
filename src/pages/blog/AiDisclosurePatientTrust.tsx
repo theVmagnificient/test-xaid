@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import BlogCTA from '@/components/BlogCTA';
+import KeyStats from '@/components/KeyStats';
 
 const AiDisclosurePatientTrust = () => {
   const post = {
@@ -114,24 +115,14 @@ const AiDisclosurePatientTrust = () => {
         </section>
 
         {/* Key stats */}
-        <section className="section-padding bg-white/5">
-          <div className="container-xaid max-w-3xl mx-auto">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              {[
-                { stat: '96%', label: 'Want to be told when AI is used', sub: 'to report their scan' },
-                { stat: '1,000+', label: 'Imaging patients surveyed', sub: 'Ireland, 2024–2025' },
-                { stat: '53%', label: 'Prefer written consent', sub: 'vs 34% verbal' },
-                { stat: '64%', label: 'Blame both doctor and AI', sub: 'if the result is wrong' },
-              ].map((s) => (
-                <div key={s.stat} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
-                  <div className="text-2xl font-medium text-xaid-blue mb-1 break-words">{s.stat}</div>
-                  <div className="text-white text-xs font-medium mb-1 break-words">{s.label}</div>
-                  <div className="text-white/60 text-xs">{s.sub}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <KeyStats
+          items={[
+            { stat: '96%', label: 'Want to be told when AI is used', sub: 'to report their scan' },
+            { stat: '1,000+', label: 'Imaging patients surveyed', sub: 'Ireland, 2024–2025' },
+            { stat: '53%', label: 'Prefer written consent', sub: 'vs 34% verbal' },
+            { stat: '64%', label: 'Blame both doctor and AI', sub: 'if the result is wrong' },
+          ]}
+        />
 
         {/* Article body */}
         <article className="section-padding bg-[#EBEBEB]">

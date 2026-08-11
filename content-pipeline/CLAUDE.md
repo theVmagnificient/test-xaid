@@ -63,7 +63,12 @@ an article must produce/modify all four:
      `BreadcrumbList`, `BlogPosting`, and `FAQPage`.
    - Body sections using **fixed Tailwind class patterns** (clone an existing post as template):
      - Header section: `pt-32 md:pt-40 pb-10`, category pill `bg-xaid-blue/20 text-xaid-blue`, `<h1>`.
-     - Optional "key stats" grid on `bg-white/5`.
+     - Optional "key stats" band: use the **`src/components/KeyStats.tsx` component**
+       (`<KeyStats items={[{ stat, label, sub }, …]} />`) — do NOT hand-roll the grid markup. The
+       40 pre-2026-08-11 articles still carry inlined copies; leave them, but never add a 41st.
+       Keep `stat` short (a number/percentage/ratio/date — never a long unbreakable word like
+       "Hundreds") and `label` under ~28 chars: the tile is only ~140px wide at 1440px and
+       `bun run guard` fails the publish on overflow.
      - `<article className="section-padding bg-[#EBEBEB]">` → white card `bg-white rounded-2xl`
        with `<h2 className="text-[28px] ...">` headings and `<p className="text-[#444] text-[15px]
        leading-[1.65] font-light mb-4">` body paragraphs (note: article body is **light theme**,
