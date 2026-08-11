@@ -119,6 +119,15 @@ signed.
 **Branding:** always "xAID" (lowercase x) — never apply `text-transform: uppercase` to elements
 containing the brand name.
 
+**HARD TOPIC RULE — no competitor airtime (founder 2026-08-11):** never build an article around a
+competitor's or competitor-adjacent vendor's partnership, alliance, funding round or product launch
+(Viz.ai, Aidoc, RapidAI, Annalise, Lunit, Nanox, Gleamer, Blackford, Azra AI, …). Covering someone
+else's deal hands them the airtime, so such a draft is disqualified **even when every fact in it
+checks out** — `radiology-care-navigation-software` was fact-check CLEAN and still pulled. This is
+separate from, and stricter than, the existing "no outbound links to rival vendors" rule. Neutral
+market, policy, regulatory, clinical-evidence and workflow topics are unaffected: a peer-reviewed
+study is not a vendor announcement.
+
 ## Working agreement
 
 - Never invent clinical/statistical claims in generated articles. Source or omit.

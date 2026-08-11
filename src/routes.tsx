@@ -80,7 +80,6 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/ai-radiology-quality-assurance': () => import('./pages/blog/AiRadiologyQualityAssurance'),
   '/blog/radiology-report-language-precision': () => import('./pages/blog/RadiologyReportLanguagePrecision'),
   '/blog/clinical-indication-radiology-orders': () => import('./pages/blog/ClinicalIndicationRadiologyOrders'),
-  '/blog/radiology-care-navigation-software': () => import('./pages/blog/RadiologyCareNavigationSoftware'),
 };
 
 export const normalizePath = (pathname: string): string =>

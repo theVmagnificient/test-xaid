@@ -6,6 +6,8 @@ GOAL: produce and integrate exactly ONE fresh, publish-ready article for TODAY (
 
 2. From ALL drafts produced today across both pipelines, choose the SINGLE best candidate to publish: require fact-check not failed; prefer gate "ready" with factcheck "pass"; break ties by relevance to xAID (AI CT reporting) and SEO value. If every draft is gate "reject" / fabrication-flagged / has no live-web fact-check, choose NONE.
 
+2b. DISQUALIFIER — competitor airtime (founder rule, 2026-08-11). Never choose a draft whose SUBJECT is a competitor's or competitor-adjacent vendor's partnership, alliance, funding round or product launch (Viz.ai, Aidoc, RapidAI, Annalise, Lunit, Nanox, Gleamer, Blackford, Azra AI, and the like). An article built around someone else's deal gives them the airtime, and it stays disqualified even if every fact in it checks out. Skip it and take the next-best draft; publishing NOTHING is better than publishing one of these. This does NOT restrict neutral market, policy, regulatory, clinical-evidence or workflow topics — a peer-reviewed study is not a vendor announcement.
+
 3. For the chosen draft ONLY, do the full 4-file integration with date = TODAY ({{TODAY}}):
    - copy `content-pipeline/drafts/<slug>.tsx` to `src/pages/blog/<ComponentName>.tsx`,
    - add its metadata entry at the TOP of `src/data/blog-posts.ts` (date/dateIso = {{TODAY}}; update the same fields inside the page component to match),
