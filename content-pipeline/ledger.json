@@ -281,6 +281,13 @@
       "source": "UCSF 77,626-exam study",
       "date": "2026-08-05",
       "approved": "2026-08-11 founder-approved (reviewed on staging)"
+    },
+    {
+      "slug": "radiology-ai-clinical-outcomes-evidence-gap",
+      "topic": "Radiology AI and Clinical Outcomes: The Evidence Gap",
+      "source": "",
+      "date": "2026-08-12",
+      "approved": "2026-08-12 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -1208,6 +1215,51 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/fda-denies-petition-reclassify-mri-safety-event",
       "date": "2026-07-28",
       "decision": "skipped - not selected; MRI-suite projectile-incident device-classification dispute, hardware safety only, off-modality/off-workflow (fitScore 2)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-12",
+      "decision": "no pick - only remaining queued keyword ('radiologist shortage') dedups against the already-published radiologist-shortage-2026-ai-ct-reporting topic; backlogLow flagged, needs founder replenishment via DataForSEO keyword_suggestions. No draft produced. (Same situation as the 2026-07-22 run - backlog still not replenished.)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiologists-report-relatively-few-meaningful-benefits-breast-imaging-ai",
+      "date": "2026-08-12",
+      "decision": "CHOSEN for today's publish - drafted as radiology-ai-clinical-outcomes-evidence-gap; gate ready, factcheck pass (no fixes needed), cannibalization risk low vs published how-accurate-is-ai-radiology-reporting (accuracy benchmarking vs. this piece's adoption-vs-outcome perception gap in breast imaging). INTEGRATED into 4-file contract 2026-08-12 (autonomous run), build validated, pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/factors-make-radiologists-less-likely-be-fooled-large-language-models",
+      "date": "2026-08-12",
+      "decision": "drafted but not chosen - radiologist-ai-overreliance; gate ready, factcheck fix-needed (2 citation/attribution errors found and fixed in-draft: wrong first author omitted, expertise mischaracterized as training-level vs. baseline-accuracy split). Higher fitScore (9) than the chosen draft but medium cannibalization risk vs published automation-bias-radiology-ai; left un-integrated in drafts/ for a future run or founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/congressmen-propose-expanding-medicare-reimbursement-radiologist-assistants",
+      "date": "2026-08-12",
+      "decision": "drafted but not chosen - radiologist-assistant-medicare-reimbursement; gate needs-human (FAQ 'regardless of care setting' framing slightly outruns the article's own Reed Smith caveat - a founder judgment call), factcheck fix-needed (2 mis-citations found and fixed in-draft). Left un-integrated in drafts/ pending founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radnet-touts-disproportionately-higher-growth-advanced-imaging",
+      "date": "2026-08-12",
+      "decision": "skipped - shortlisted (fitScore 6, dedupOk true) but not among today's top-3 drafted; lower priority than the LLM-overreliance/breast-imaging-evidence/radiologist-assistant picks."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/radiologists-criticize-noted-neuroscientist-podcasters-claims-supporting-whole-body-mri",
+      "date": "2026-08-12",
+      "decision": "skipped - dedupOk false; off-core modality (whole-body MRI vs. CT) and thematically overlaps published should-patients-be-told-when-ai-reads-their-scan and overutilization-of-medical-imaging/low-value-imaging-clinician-knowledge closely enough to flag dedup risk without a sharply distinct reframe."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/members-congress-seek-stabilize-radiologist-pay-medicare-program",
+      "date": "2026-08-12",
+      "decision": "skipped - dedupOk false; meaningfully overlaps already-published reimbursement pieces (2027-medicare-physician-fee-schedule-radiology, medicare-radiology-reimbursement-squeeze) without a sharply new framing."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/teledyne-inks-11b-takeover-of-varex-imaging/827526/",
+      "date": "2026-08-12",
+      "decision": "skipped - not selected; X-ray hardware-component M&A (tubes/detectors), weak product fit for reporting/AI-software story, lowest fitScore (4) of today's pool."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/reimagined-night-call-model-boosts-interventional-radiologist-well-being",
+      "date": "2026-08-12",
+      "decision": "skipped - not selected; interventional (procedural) radiology night-call redesign, requires a generalization step to diagnostic CT reads, lowest-priority candidate (fitScore 4)."
     }
   ]
 }

@@ -135,7 +135,8 @@
       "/blog/incidental-findings-chest-ct-breast-lesions/",
       "/blog/ai-radiology-quality-assurance/",
       "/blog/radiology-report-language-precision/",
-      "/blog/clinical-indication-radiology-orders/"
+      "/blog/clinical-indication-radiology-orders/",
+      "/blog/radiology-ai-clinical-outcomes-evidence-gap/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,
