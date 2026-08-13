@@ -68,6 +68,7 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/blog/wrong-patient-radiology-error': () => import('./pages/blog/WrongPatientRadiologyError'),
   '/blog/radiology-malpractice-ai-reporting': () => import('./pages/blog/RadiologyMalpracticeAiReporting'),
   '/blog/radiology-ai-clinical-outcomes-evidence-gap': () => import('./pages/blog/RadiologyAiClinicalOutcomesEvidenceGap'),
+  '/blog/incidental-lung-nodule-malignancy-risk-ai': () => import('./pages/blog/IncidentalLungNoduleMalignancyRisk'),
   '/blog/radiology-outsourcing-gone-wrong': () => import('./pages/blog/RadiologyOutsourcingGoneWrong'),
   '/blog/site-neutral-payments-imaging': () => import('./pages/blog/SiteNeutralPaymentsImaging'),
   '/blog/teleradiology-companies-policy-watchlist': () => import('./pages/blog/TeleradiologyCompaniesPolicyWatchlist'),

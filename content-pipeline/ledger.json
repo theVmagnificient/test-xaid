@@ -288,6 +288,13 @@
       "source": "",
       "date": "2026-08-12",
       "approved": "2026-08-12 founder-approved via telegram bot"
+    },
+    {
+      "slug": "incidental-lung-nodule-malignancy-risk-ai",
+      "topic": "AI Malignancy Risk Models for Incidental Lung Nodules",
+      "source": "",
+      "date": "2026-08-13",
+      "approved": "2026-08-13 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -1260,6 +1267,41 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/reimagined-night-call-model-boosts-interventional-radiologist-well-being",
       "date": "2026-08-12",
       "decision": "skipped - not selected; interventional (procedural) radiology night-call redesign, requires a generalization step to diagnostic CT reads, lowest-priority candidate (fitScore 4)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/deep-learning-shines-predicting-incidental-lung-nodules-severity",
+      "date": "2026-08-13",
+      "decision": "CHOSEN for today's publish - drafted as incidental-lung-nodule-malignancy-risk-ai; gate ready, factcheck fix-needed (one FAQ/JSON-LD em-dash mismatch found and fixed, zero flagged substantive claims - cleanest fact-check of today's three drafts), cannibalization risk low vs published lung-cancer-screening-ct-criteria/lung-cancer-screening-program-integration (screening-eligibility angle, distinct from this piece's malignancy-risk-scoring-generalization angle) and incidental-findings-chest-ct-breast-lesions (different anatomy). INTEGRATED into 4-file contract 2026-08-13 (autonomous run), build validated via npx vite build --mode development, pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/american-board-radiology-taking-cautious-approach-ai",
+      "date": "2026-08-13",
+      "decision": "drafted but not chosen - american-board-radiology-certification-ai; gate ready, factcheck fix-needed (forbidden HARD CLAIM phrase 'a radiologist reviews and signs' in CTA heading, a false-verbatim quote, and tense drift overstating ABR's AI use as already-live vs. source's future/exploratory framing - all fixed in-draft). Lower SEO score (5, modest 90/mo long-tail volume) than the chosen incidental-lung-nodule draft. Left un-integrated in drafts/ for a future run or founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/ct-technologist-demand-has-doubled-2021-staffing-firm-says",
+      "date": "2026-08-13",
+      "decision": "drafted but not chosen - ct-technologist-shortage-2026; gate ready, factcheck fix-needed (one quote-fidelity fix: dropped word 'being' in a Cary Grace/AMN Healthcare quote, corrected in-draft). Several KeyStats labels exceed the ~28-char layout guideline ('Rise in CT tech staffing requests' 34 chars, 'Growth in positions actually filled' 36 chars) - overflow risk at the 4-column 1440px grid, would need editorial trim before publish. Left un-integrated in drafts/ for a future run or founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/appeals-court-strikes-down-formula-used-calculate-qualifying-payment-amount-under-no-surprises-act",
+      "date": "2026-08-13",
+      "decision": "skipped - shortlisted (fitScore 6, dedupOk true, distinct from published MPFS/site-neutral/Patients-First-Act/Medicare-reimbursement-squeeze pieces) but not among today's top-3 drafted; low measurable long-tail search volume (10/mo, KD37) deprioritized it below the lung-nodule/ABR/CT-technologist picks."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/clinical/clinical-research/nih-spends-88m-radiology-research-specialty-still-represents-small-share-pie",
+      "date": "2026-08-13",
+      "decision": "skipped - shortlisted (fitScore 5, dedupOk true) but not among today's top-3 drafted; no measurable DataForSEO demand for any keyword variant tried, weakest SEO case of the six survivors."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/lumexa-imaging-turns-profit-q2-after-previous-losses",
+      "date": "2026-08-13",
+      "decision": "skipped - shortlisted (fitScore 5, dedupOk true, genuinely new topic/no prior Lumexa/US Radiology Specialists mention) but not among today's top-3 drafted; thin single-company earnings story with negligible measurable search demand, weakest of the six survivors."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-13",
+      "decision": "no pick - keyword backlog running low (<5 queued); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as 2026-07-22 and 2026-08-12 runs)."
     }
   ]
 }

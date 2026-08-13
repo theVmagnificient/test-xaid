@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'incidental-lung-nodule-malignancy-risk-ai',
+    title: 'AI Malignancy Risk Models for Incidental Lung Nodules',
+    excerpt: "A multicentre European Radiology study tested two deep learning models against the Brock risk score on 269 incidental lung nodules from three hospitals. The AI models beat Brock and stayed consistent site to site.",
+    date: 'August 13, 2026',
+    dateIso: '2026-08-13',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['incidental lung nodule', 'lung nodule malignancy risk', 'deep learning pulmonary nodule', 'Brock model', 'incidental findings CT'],
+  },
+  {
     slug: 'radiology-ai-clinical-outcomes-evidence-gap',
     title: 'Radiology AI and Clinical Outcomes: The Evidence Gap',
     excerpt: "A radiologist survey finds AI adoption in breast imaging outpaces measurable outcomes: fewer than half report a real benefit on recall rates or burnout.",

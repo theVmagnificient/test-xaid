@@ -136,7 +136,8 @@
       "/blog/ai-radiology-quality-assurance/",
       "/blog/radiology-report-language-precision/",
       "/blog/clinical-indication-radiology-orders/",
-      "/blog/radiology-ai-clinical-outcomes-evidence-gap/"
+      "/blog/radiology-ai-clinical-outcomes-evidence-gap/",
+      "/blog/incidental-lung-nodule-malignancy-risk-ai/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,
