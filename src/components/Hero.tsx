@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import HeroRing from './HeroRing';
 
 const SPLINE_VIEWER_SRC = 'https://unpkg.com/@splinetool/viewer@1.12.61/build/spline-viewer.js';
 
@@ -18,6 +19,7 @@ const Hero = () => {
   useEffect(() => {
     // Skip during react-snap prerender (script would be baked into the HTML and load eagerly)
     if (navigator.userAgent.includes('ReactSnap')) return;
+
     // NOTE: do NOT gate this on prefers-reduced-motion — that setting means "reduce
     // motion", not "remove content", and skipping the load leaves the hero half empty
     // (bug report 2026-07-03). The scene is the brand visual; it loads for everyone.
@@ -87,10 +89,7 @@ const Hero = () => {
 
             {/* 3D element (mobile) — under CTAs */}
             <div className="lg:hidden h-[350px] mx-auto max-w-[400px] mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '250ms' }}>
-              <spline-viewer
-                url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
-                style={{ width: '100%', height: '100%', display: 'block' }}
-              ></spline-viewer>
+              <HeroRing />
             </div>
 
             {/* Stats bar (mobile: under 3D) */}
@@ -115,10 +114,7 @@ const Hero = () => {
 
           {/* Right column — 3D element (desktop) */}
           <div className="hidden lg:block h-[600px] opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-            <spline-viewer
-              url="https://prod.spline.design/NTXqycpZhjx9GyOF/scene.splinecode"
-              style={{ width: '100%', height: '100%', display: 'block' }}
-            ></spline-viewer>
+            <HeroRing interactive />
           </div>
         </div>
       </div>
