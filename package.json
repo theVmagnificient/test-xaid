@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/radiology-viewer-software-reporting-bottleneck/",
       "/privacy-policy/",
       "/pricing/",
       "/ai-vs-teleradiology/",

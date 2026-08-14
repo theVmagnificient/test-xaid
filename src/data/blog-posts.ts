@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-viewer-software-reporting-bottleneck',
+    title: "St. Luke's $23M Viewer Deal Shows Where Radiology IT Money Still Isn't Going",
+    excerpt: "St. Luke's $23M Pro Medicus deal buys a cloud imaging viewer, not reporting AI. What the purchase says about where radiology IT budgets go — and don't.",
+    date: 'August 14, 2026',
+    dateIso: '2026-08-14',
+    category: 'Market & Strategy',
+    readingTime: 7,
+    keywords: ['radiology PACS viewer software', 'enterprise imaging platform', 'radiology report turnaround time', 'AI radiology reporting', 'Visage 7', 'radiology IT budget'],
+  },
+  {
     slug: 'incidental-lung-nodule-malignancy-risk-ai',
     title: 'AI Malignancy Risk Models for Incidental Lung Nodules',
     excerpt: "A multicentre European Radiology study tested two deep learning models against the Brock risk score on 269 incidental lung nodules from three hospitals. The AI models beat Brock and stayed consistent site to site.",

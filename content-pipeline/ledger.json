@@ -295,6 +295,10 @@
       "source": "",
       "date": "2026-08-13",
       "approved": "2026-08-13 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-viewer-software-reporting-bottleneck",
+      "topic": "PACS/viewer IT spend vs. AI reporting bottleneck (Pro Medicus/St. Luke's deal news hook)"
     }
   ],
   "seen": [
@@ -1302,6 +1306,41 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-08-13",
       "decision": "no pick - keyword backlog running low (<5 queued); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as 2026-07-22 and 2026-08-12 runs)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cms-seeks-feedback-on-faster-coverage-for-breakthrough-devices/827490/",
+      "date": "2026-08-14",
+      "decision": "drafted - chosen for publish today as breakthrough-device-designation-medicare-coverage (fitScore 8, gate ready, factcheck fix-needed then resolved during QA). Not selected as the final pick (fact-check pass took priority per selection rule); left as an unintegrated draft in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/epic-launches-new-one-click-feature-allowing-outside-hospitals-share-medical-images-without-cds",
+      "date": "2026-08-14",
+      "decision": "drafted - gate ready, factcheck fix-needed then resolved during QA (cloud-based-medical-image-sharing). Not selected as today's pick; left as an unintegrated draft in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/15832335/pro-medicus-inks-23m-contract-with-st-lukes",
+      "date": "2026-08-14",
+      "decision": "drafted and PUBLISHED today as radiology-viewer-software-reporting-bottleneck (fitScore 5, gate ready, factcheck pass — the only clean pass of today's 3 drafts). Subject (Pro Medicus/Visage, a PACS/viewer vendor) is not on the competitor-airtime list and framing is critical/contrastive, not promotional; judged compliant with the no-competitor-airtime rule."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15832397/lg-lg-gets-fda-nod-for-40inch-ultrawide-diagnostic-monitor",
+      "date": "2026-08-14",
+      "decision": "skipped - shortlisted (fitScore 5, dedupOk true) but not among today's top-3 drafted; indirect fit (hardware, not reporting AI) and modest keyword volume made it the weaker of the surviving candidates."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-disparities/rad-aid-brings-radiology-expertise-underserved-communities-home-and-abroad",
+      "date": "2026-08-14",
+      "decision": "skipped - near-duplicate of published radiologist-shortage-2026-ai-ct-reporting, best-metro-areas-for-radiologists-2026, and radiology-ai-access-disparities; dedupOk false, no distinct reframe found."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/15m-jury-verdict-after-radiologist-improperly-places-catheter-leading-patient-death",
+      "date": "2026-08-14",
+      "decision": "skipped - procedural (catheter-placement) malpractice story, outside xAID's AI-drafts-the-report value proposition; near-zero keyword volume; consistent with prior rejections of structurally similar procedural-malpractice stories."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-14",
+      "decision": "no pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
     }
   ]
 }
