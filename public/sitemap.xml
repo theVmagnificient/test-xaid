@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://xaid.ai/blog/coalition-for-health-ai-vendor-security-checklist/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xaid.ai/blog/radiology-viewer-software-reporting-bottleneck/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -98,7 +104,7 @@
   </url>
   <url>
     <loc>https://xaid.ai/blog/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

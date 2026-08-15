@@ -299,6 +299,12 @@
     {
       "slug": "radiology-viewer-software-reporting-bottleneck",
       "topic": "PACS/viewer IT spend vs. AI reporting bottleneck (Pro Medicus/St. Luke's deal news hook)"
+    },
+    {
+      "slug": "coalition-for-health-ai-vendor-security-checklist",
+      "topic": "CHAI's new Health AI Cybersecurity Work Group -> vendor security checklist for imaging centers evaluating AI-reporting vendors",
+      "source": "https://www.medtechdive.com/news/chai-creates-work-group-to-counter-frontier-ai-model-cybersecurity-risks/827825/",
+      "date": "2026-08-15"
     }
   ],
   "seen": [
@@ -1340,6 +1346,26 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-08-14",
+      "decision": "no pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/chai-creates-work-group-to-counter-frontier-ai-model-cybersecurity-risks/827825/",
+      "date": "2026-08-15",
+      "decision": "drafted and INTEGRATED today as coalition-for-health-ai-vendor-security-checklist (fitScore 7, seoScore 7, interestScore 7, gate ready, factcheck fix-needed then resolved during QA — Q1/H1 remediation-rate mislabel corrected). CHAI is a neutral standards body, not a rival vendor, so no competitor-airtime conflict. Low cannibalization risk vs. published medical-device-cybersecurity (that piece is a DICOM/PACS hardware CVE advisory; this is AI-model/vendor-governance). Awaiting founder approval before deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/medicare-approves-new-technology-add-payment-inpatient-radiology-ai-solution",
+      "date": "2026-08-15",
+      "decision": "skipped - DISQUALIFIED under the no-competitor-airtime rule. Best volume/difficulty ratio today (ntap reimbursement, 260/mo, KD 0) and fact-check passed all 10 claims, but the news hook and opening ~150 words are built around one specific competitor's (Aidoc's) CT-triage device winning a CMS NTAP reimbursement approval -- the same 'built around a competitor's news' pattern that got radiology-care-navigation-software pulled even though fact-check clean. Never named the vendor and no outbound competitor links, but the subject is a competitor's reimbursement/product milestone, so it stays disqualified per the hard rule regardless of fact-check cleanliness. A draft was produced (ntap-reimbursement-radiology-ai.tsx, gate needs-human) and left un-integrated in content-pipeline/drafts/ for founder review, but was not selected as today's pick."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/philips-authorizes-largest-shareholder-to-increase-stake-to-22/827642/",
+      "date": "2026-08-15",
+      "decision": "skipped - drafted (imaging-equipment-oem-ownership-stability, gate ready after fixing a Sijbesma misquote) but not chosen: weakest candidate today by a wide margin (fitScore 3, seoScore 2, interestScore 3) -- an investor-relations/OEM-ownership story with no measurable on-topic keyword demand and only a speculative tie to imaging-equipment buyers. Left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-15",
       "decision": "no pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
     }
   ]

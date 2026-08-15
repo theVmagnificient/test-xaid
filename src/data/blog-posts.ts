@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'coalition-for-health-ai-vendor-security-checklist',
+    title: "The Coalition for Health AI's New Security Work Group: A Vendor Checklist for Imaging Centers",
+    excerpt: "CHAI formed a work group to build playbooks against frontier-model cyber risk in clinical AI. What it means, and the questions imaging centers should ask an AI-reporting vendor before signing.",
+    date: 'August 15, 2026',
+    dateIso: '2026-08-15',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['coalition for health ai', 'CHAI cybersecurity', 'AI vendor vetting radiology', 'frontier model risk healthcare', 'AI reporting vendor security checklist'],
+  },
+  {
     slug: 'radiology-viewer-software-reporting-bottleneck',
     title: "St. Luke's $23M Viewer Deal Shows Where Radiology IT Money Still Isn't Going",
     excerpt: "St. Luke's $23M Pro Medicus deal buys a cloud imaging viewer, not reporting AI. What the purchase says about where radiology IT budgets go — and don't.",
