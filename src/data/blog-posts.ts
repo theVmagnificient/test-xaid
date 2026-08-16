@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'cloud-based-medical-image-sharing',
+    title: 'Cloud-Based Medical Image Sharing: The Next Gap',
+    excerpt: "Epic's new one-click tool moves full-resolution scans between hospitals without CDs. The radiology report riding along still has no standard structure.",
+    date: 'August 16, 2026',
+    dateIso: '2026-08-16',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['cloud based medical image sharing', 'Epic Care Everywhere', 'medical image interoperability', 'radiology report standardization', 'structured radiology reporting'],
+  },
+  {
     slug: 'coalition-for-health-ai-vendor-security-checklist',
     title: "The Coalition for Health AI's New Security Work Group: A Vendor Checklist for Imaging Centers",
     excerpt: "CHAI formed a work group to build playbooks against frontier-model cyber risk in clinical AI. What it means, and the questions imaging centers should ask an AI-reporting vendor before signing.",

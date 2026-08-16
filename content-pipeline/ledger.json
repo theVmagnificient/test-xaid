@@ -305,6 +305,12 @@
       "topic": "CHAI's new Health AI Cybersecurity Work Group -> vendor security checklist for imaging centers evaluating AI-reporting vendors",
       "source": "https://www.medtechdive.com/news/chai-creates-work-group-to-counter-frontier-ai-model-cybersecurity-risks/827825/",
       "date": "2026-08-15"
+    },
+    {
+      "slug": "cloud-based-medical-image-sharing",
+      "topic": "Epic Care Everywhere Diagnostic Image Exchange (one-click cross-hospital full-resolution image sharing) -> the radiology report, unlike the image, still has no standard structure",
+      "source": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/epic-launches-new-one-click-feature-allowing-outside-hospitals-share-medical-images-without-cds",
+      "date": "2026-08-16"
     }
   ],
   "seen": [
@@ -1367,6 +1373,36 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-08-15",
       "decision": "no pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-16",
+      "decision": "no pick - backlogLow flagged again (0 drafts); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/ct-technologist-demand-has-doubled-2021-staffing-firm-says",
+      "date": "2026-08-16",
+      "decision": "NOT a fresh pick - same URL already drafted 2026-08-13 as ct-technologist-shortage-2026 (gate ready), left unintegrated due to KeyStats label-overflow risk; no measurable DataForSEO demand for the direct keyword. Not re-drafted; existing draft kept in drafts/ for a future run or founder trim."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/congressmen-propose-expanding-medicare-reimbursement-radiologist-assistants",
+      "date": "2026-08-16",
+      "decision": "NOT a fresh pick - same URL already drafted 2026-08-12 as radiologist-assistant-medicare-reimbursement (gate needs-human, a founder judgment call on FAQ framing), left unintegrated. Not re-drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/factors-make-radiologists-less-likely-be-fooled-large-language-models",
+      "date": "2026-08-16",
+      "decision": "NOT a fresh pick - same URL already drafted 2026-08-12 as radiologist-ai-overreliance (gate ready, fitScore 9, highest of the survivor pool) but carries a flagged medium cannibalization risk vs. published automation-bias-radiology-ai; left unintegrated again. Not re-drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/american-board-radiology-taking-cautious-approach-ai",
+      "date": "2026-08-16",
+      "decision": "NOT a fresh pick - same URL already drafted 2026-08-13 as american-board-radiology-certification-ai (gate ready after in-draft fixes), left unintegrated; trivial keyword volume (10/mo). Not re-drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/epic-launches-new-one-click-feature-allowing-outside-hospitals-share-medical-images-without-cds",
+      "date": "2026-08-16",
+      "decision": "CHOSEN for today's publish - held-over draft cloud-based-medical-image-sharing (drafted 2026-08-14, gate ready, factcheck fix-needed then resolved during that day's QA); best measurable keyword volume of today's survivor pool (170/mo, KD 0), no cannibalization or needs-human flag, critical/contrastive framing of an EHR interoperability feature (not a competitor AI-reporting vendor, so no competitor-airtime conflict). Four KeyStats labels (32/29/32/32 chars) exceeded the ~28-char layout guideline and were trimmed to 21-24 chars before integration to avoid 4-column overflow at 1440px. INTEGRATED into 4-file contract 2026-08-16 (autonomous run) with date=2026-08-16, build validated via `npx vite build --mode development`, pending founder approval + deploy."
     }
   ]
 }
