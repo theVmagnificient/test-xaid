@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/qualifying-payment-amount-no-surprises-act/",
       "/blog/cloud-based-medical-image-sharing/",
       "/blog/coalition-for-health-ai-vendor-security-checklist/",
       "/blog/radiology-viewer-software-reporting-bottleneck/",

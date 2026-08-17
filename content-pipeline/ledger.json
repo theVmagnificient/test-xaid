@@ -311,6 +311,12 @@
       "topic": "Epic Care Everywhere Diagnostic Image Exchange (one-click cross-hospital full-resolution image sharing) -> the radiology report, unlike the image, still has no standard structure",
       "source": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/epic-launches-new-one-click-feature-allowing-outside-hospitals-share-medical-images-without-cds",
       "date": "2026-08-16"
+    },
+    {
+      "slug": "qualifying-payment-amount-no-surprises-act",
+      "topic": "Fifth Circuit en banc ruling (Texas Medical Association v. HHS) vacating parts of the QPA formula under the No Surprises Act -> what it means for radiology's out-of-network reimbursement leverage",
+      "source": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/appeals-court-strikes-down-formula-used-calculate-qualifying-payment-amount-under-no-surprises-act",
+      "date": "2026-08-17"
     }
   ],
   "seen": [
@@ -1403,6 +1409,41 @@
       "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/epic-launches-new-one-click-feature-allowing-outside-hospitals-share-medical-images-without-cds",
       "date": "2026-08-16",
       "decision": "CHOSEN for today's publish - held-over draft cloud-based-medical-image-sharing (drafted 2026-08-14, gate ready, factcheck fix-needed then resolved during that day's QA); best measurable keyword volume of today's survivor pool (170/mo, KD 0), no cannibalization or needs-human flag, critical/contrastive framing of an EHR interoperability feature (not a competitor AI-reporting vendor, so no competitor-airtime conflict). Four KeyStats labels (32/29/32/32 chars) exceeded the ~28-char layout guideline and were trimmed to 21-24 chars before integration to avoid 4-column overflow at 1440px. INTEGRATED into 4-file contract 2026-08-16 (autonomous run) with date=2026-08-16, build validated via `npx vite build --mode development`, pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/american-board-radiology-taking-cautious-approach-ai",
+      "date": "2026-08-17",
+      "decision": "drafted - gate ready, factcheck fix-needed (a misquoted Tessa Cook/ACR attribution, corrected during QA) as american-board-of-radiology-ai-vendor-checklist (fitScore 8, highest of today's pool). Not chosen: QPA draft had a clean factcheck pass with zero flagged claims, which took priority per the selection rule. Left un-integrated in content-pipeline/drafts/. Note: same underlying news item was already drafted 2026-08-13 as american-board-radiology-certification-ai (also unintegrated) -- two distinct-angle drafts of the same URL now sit in drafts/; a founder should pick one and discard the other rather than integrating both."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/lumexa-imaging-turns-profit-q2-after-previous-losses",
+      "date": "2026-08-17",
+      "decision": "drafted - gate ready, factcheck fix-needed (a $7M full-year-guidance figure misattributed to the Q2 quarterly margin driver, corrected during QA) as outpatient-imaging-center-profitability-playbook (fitScore 7.5). Not chosen: QPA draft's clean factcheck pass took priority per the selection rule. Left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/appeals-court-strikes-down-formula-used-calculate-qualifying-payment-amount-under-no-surprises-act",
+      "date": "2026-08-17",
+      "decision": "drafted and PUBLISHED today as qualifying-payment-amount-no-surprises-act (fitScore 6.5, gate ready, factcheck pass -- all 9 fact-checked claims supported, zero flagged, the only clean pass of today's 3 drafts). One uncited soft editorial claim (attributing QPA-fix advocacy to 'the American College of Radiology' by name) was softened pre-integration to 'provider advocacy groups' to remove the unsourced specific attribution. No competitor-airtime conflict (court ruling / reimbursement policy, no vendor). INTEGRATED into 4-file contract 2026-08-17 (autonomous run) with date=2026-08-17, build validated via `npx vite build --mode development`, pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/medical-center-must-pay-500000-after-radiologist-resident-both-miss-hip-fracture-x-ray",
+      "date": "2026-08-17",
+      "decision": "skipped - dedupOk false: near-duplicate of published radiology-malpractice-ai-reporting ($7M missed-cancer verdict, same 'AI as safety net' resolution and legal-news genre); no sharply distinct double-miss/resident-training reframe was drafted. Not among today's top-3 drafted candidates."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/15m-jury-verdict-after-radiologist-improperly-places-catheter-leading-patient-death",
+      "date": "2026-08-17",
+      "decision": "skipped - shortlisted (fitScore 5, dedupOk true) but not among today's top-3 drafted; procedural/interventional error (catheter misplacement), not an interpretive miss, so weaker core fit for an AI-drafts-the-report value proposition; negligible keyword volume."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15832397/lg-lg-gets-fda-nod-for-40inch-ultrawide-diagnostic-monitor",
+      "date": "2026-08-17",
+      "decision": "skipped - shortlisted only as filler (fitScore 3.5, lowest of the six survivors); reading-room hardware, not reporting AI, and no meaningful keyword volume. Not among today's top-3 drafted."
+    },
+    {
+      "url": null,
+      "date": "2026-08-17",
+      "decision": "no evergreen pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
     }
   ]
 }

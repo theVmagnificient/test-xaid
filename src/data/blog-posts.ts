@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'qualifying-payment-amount-no-surprises-act',
+    title: 'QPA Formula Struck Down: What It Means for Radiology',
+    excerpt: "An appeals court vacated the QPA formula insurers use under the No Surprises Act. What changes for radiology out-of-network reimbursement leverage.",
+    date: 'August 17, 2026',
+    dateIso: '2026-08-17',
+    category: 'Policy & Reimbursement',
+    readingTime: 7,
+    keywords: ['qualifying payment amount no surprises act', 'QPA formula', 'No Surprises Act radiology', 'out-of-network reimbursement radiology', 'independent dispute resolution radiology'],
+  },
+  {
     slug: 'cloud-based-medical-image-sharing',
     title: 'Cloud-Based Medical Image Sharing: The Next Gap',
     excerpt: "Epic's new one-click tool moves full-resolution scans between hospitals without CDs. The radiology report riding along still has no standard structure.",
