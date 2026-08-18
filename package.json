@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/radiologist-pay-stagnation-2026/",
       "/blog/qualifying-payment-amount-no-surprises-act/",
       "/blog/cloud-based-medical-image-sharing/",
       "/blog/coalition-for-health-ai-vendor-security-checklist/",

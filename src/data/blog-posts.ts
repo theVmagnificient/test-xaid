@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiologist-pay-stagnation-2026',
+    title: '42% of Millennial Radiologists Say Pay Stagnated: What the Data Shows',
+    excerpt: "A new Medscape survey finds 42% of millennial radiologists saw pay stagnate or fall in 2025 — evidence that throughput, not headcount, is the lever left.",
+    date: 'August 18, 2026',
+    dateIso: '2026-08-18',
+    category: 'Labor Market',
+    readingTime: 7,
+    keywords: ['radiologist pay', 'radiologist compensation', 'millennial radiologist pay', 'radiologist salary stagnation', 'radiology reimbursement', 'AI CT reporting'],
+  },
+  {
     slug: 'qualifying-payment-amount-no-surprises-act',
     title: 'QPA Formula Struck Down: What It Means for Radiology',
     excerpt: "An appeals court vacated the QPA formula insurers use under the No Surprises Act. What changes for radiology out-of-network reimbursement leverage.",

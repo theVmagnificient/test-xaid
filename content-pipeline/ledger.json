@@ -317,6 +317,12 @@
       "topic": "Fifth Circuit en banc ruling (Texas Medical Association v. HHS) vacating parts of the QPA formula under the No Surprises Act -> what it means for radiology's out-of-network reimbursement leverage",
       "source": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/appeals-court-strikes-down-formula-used-calculate-qualifying-payment-amount-under-no-surprises-act",
       "date": "2026-08-17"
+    },
+    {
+      "slug": "radiologist-pay-stagnation-2026",
+      "topic": "Medscape 2026 Millennial Physician Compensation Report (42% pay flat/falling) -> hiring doesn't fix stagnant per-study reimbursement, throughput per radiologist is the lever left",
+      "source": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/42-millennial-radiologists-surveyed-say-their-pay-has-stagnated-over-past-year",
+      "date": "2026-08-18"
     }
   ],
   "seen": [
@@ -1444,6 +1450,61 @@
       "url": null,
       "date": "2026-08-17",
       "decision": "no evergreen pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as prior runs)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/chai-creates-work-group-to-counter-frontier-ai-model-cybersecurity-risks/827825/",
+      "date": "2026-08-18",
+      "decision": "re-ingested duplicate - already published 2026-08-15 as coalition-for-health-ai-vendor-security-checklist. No new draft."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15832650/azra-ai-4dmedical-enter-partnership",
+      "date": "2026-08-18",
+      "decision": "skipped - HARD TOPIC RULE, competitor-adjacent vendor partnership (Azra AI + 4DMedical). Disqualified regardless of fact-check status; not scored/drafted."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/breast/news/15832653/curemetrix-secures-fda-clearance-for-cmangio-20",
+      "date": "2026-08-18",
+      "decision": "skipped - breast-imaging device FDA clearance, weak fit for AI CT reporting value prop; not shortlisted."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/15832657/epic-adds-oneclick-diagnostic-image-exchange",
+      "date": "2026-08-18",
+      "decision": "skipped - near-duplicate of published cloud-based-medical-image-sharing (2026-08-16, Epic Care Everywhere image exchange); not shortlisted."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15832528/lantheus-wins-fda-approval-for-tau-pet-imaging-agent",
+      "date": "2026-08-18",
+      "decision": "skipped - PET imaging-agent FDA approval, not a CT-reporting or radiologist-workflow story; weak fit; not shortlisted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/fda-approves-new-alzheimers-pet-imaging-agent-lantheus",
+      "date": "2026-08-18",
+      "decision": "skipped - duplicate coverage of the same Lantheus tau-PET (Tauklarify) FDA approval as the AuntMinnie item; not a CT-reporting/workflow story; not shortlisted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/imaging-experts-3d-print-specialized-mri-sensors-fraction-standard-cost",
+      "date": "2026-08-18",
+      "decision": "skipped - MRI hardware research (3D-printed sensors), not radiology-reporting workflow; weak fit; not shortlisted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/work-home-mandate-led-mass-exodus-radiologists-1-health-system-oig-says",
+      "date": "2026-08-18",
+      "decision": "drafted as can-a-radiologist-work-from-home (fitScore 8, gate needs-human, factcheck fix-needed -> fixes applied, verified against primary VA OIG PDF + companion NTP OIG report + The Imaging Wire). NOT chosen for publish today: gate remained needs-human pending founder sign-off on naming a sitting VA Secretary/specific federal facility in a marketing blog (politically live topic, factually accurate but a business-risk judgment call, not a QA failure). Draft left un-integrated in content-pipeline/drafts/ for founder review; distinct case-study angle from existing shortage/salary/metro pieces, low cannibalization if used later."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/42-millennial-radiologists-surveyed-say-their-pay-has-stagnated-over-past-year",
+      "date": "2026-08-18",
+      "decision": "drafted and INTEGRATED today as radiologist-pay-stagnation-2026 (fitScore 7, gate ready, factcheck pass -- all 8 fact-checked claims supported, zero flagged, the only clean gate=ready/factcheck=pass draft of today's 2). No competitor-airtime conflict (Medscape compensation survey, no vendor). INTEGRATED into 4-file contract 2026-08-18 (autonomous run) with date=2026-08-18, build validated via `npx vite build --mode development`, pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/medicare-works-speed-coverage-breakthrough-radiology-devices",
+      "date": "2026-08-18",
+      "decision": "skipped - dedupOk false: near-duplicate of the unintegrated 2026-08-14 draft breakthrough-device-designation-medicare-coverage (CMS 'seeks feedback' stage). This item is the firmer, published RAPID-pathway fact sheet -- recommend refreshing/finishing the existing draft with this detail rather than starting a second draft. Not among today's top-2 drafted candidates."
+    },
+    {
+      "url": null,
+      "date": "2026-08-18",
+      "decision": "no evergreen pick - keyword backlog running low (backlogLow: true); no evergreen draft produced. Needs founder replenishment via DataForSEO keyword_suggestions (same recurring situation as 2026-08-17)."
     }
   ]
 }
