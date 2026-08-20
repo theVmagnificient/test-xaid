@@ -30,16 +30,27 @@ https://xaid.ai/xaid-free   928 impressions   5 clicks   avg position 7.5
 ```
 
 Google ranks this URL on page 1 and it has been sending people to an error page.
-It is a leftover from the pre-2025 site — the route does not exist in the current SPA.
+
+It was the **xAID Free** page on the previous site — a research programme offering free AI
+tools, project support and grants to research teams in exchange for publishing their study
+(last Wayback snapshot: 2026-02-14, footer "© 2025 xAID"). It exists nowhere in the current
+repo or its git history; it was simply not carried over to the React site.
+
+**The programme is closed** (confirmed by the founder, 2026-08-20), so the page is not coming
+back — redirect it to the homepage:
 
 ```nginx
 location = /xaid-free { return 301 https://xaid.ai/; }
 ```
 
-If a better landing target exists, `https://xaid.ai/#contact-us` (the free 5-study pilot
-form) matches the old page's intent more closely. Either is fine; the redirect is what matters.
+Homepage, deliberately — **not** `/#contact-us`. Someone searching for free research access
+is not looking for the paid pilot form, and dropping them straight onto a sales form is a
+worse experience than a general landing.
 
 Verify: `curl -sI https://xaid.ai/xaid-free | head -1` → `301`.
+
+Side benefit: this page is the likely source of Google's AI Overview conflating xAID with
+"free tools and grants". Retiring it properly should help that decay.
 
 ---
 
