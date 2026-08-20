@@ -1,64 +1,109 @@
-# Server tasks for xaid.ai (aurora) — from the 2026-07-02 site audit
+# Server tasks for xaid.ai (aurora)
 
-These require shell/root on aurora — the locked-down `xaid_landing_deploy` rsync key can't do them.
-All code-level audit fixes are already deployed; this is the remaining server-side batch.
+Updated **2026-08-20**, statuses re-verified against production the same day.
 
-## 1. Custom 404 page (nginx) — HIGH
+These need shell/root on aurora — the locked-down `xaid_landing_deploy` rsync key can't do them.
+All code-level fixes are already deployed; this is the remaining server-side batch.
 
-Nonexistent URLs currently return nginx's bare default "404 Not Found" page.
-A branded `/404.html` (with correct title + noindex) is already deployed to the web root.
+## Status since the 2026-07-02 audit
 
-```nginx
-# in the xaid.ai server block
-error_page 404 /404.html;
+| # | Task | Status |
+|---|------|--------|
+| 1 | Branded 404 page | ✅ done |
+| 2 | `www.xaid.ai` TLS | ✅ done |
+| 3 | HTTP/2 + brotli + HTML cache headers | ❌ open |
+| 4 | Stale pre-redesign files | ⚠️ partly done |
+| 5 | `/xaid-free` returns 404 to real traffic | 🆕 **new, highest priority** |
+
+Tasks 1 and 2 verified fixed: nonexistent URLs return a real `404` with
+`<title>Page not found – xAID</title>`, and `https://www.xaid.ai/` now serves a valid
+`CN=xaid.ai` certificate and `301`s to the apex. Thank you.
+
+---
+
+## 5. `/xaid-free` returns 404 to live search traffic — HIGH 🆕
+
+Found in Google Search Console (Performance export, last 3 months):
+
+```
+https://xaid.ai/xaid-free   928 impressions   5 clicks   avg position 7.5
 ```
 
-## 2. www.xaid.ai TLS is broken — HIGH
+Google ranks this URL on page 1 and it has been sending people to an error page.
+It is a leftover from the pre-2025 site — the route does not exist in the current SPA.
 
-`https://www.xaid.ai/` presents the cert `CN=git.xaid.ai` → SAN mismatch, connection refused
-for users and crawlers. (`http://www.` correctly 301s to the apex.)
+```nginx
+location = /xaid-free { return 301 https://xaid.ai/; }
+```
 
-- Add `www.xaid.ai` to the cert (SAN) — e.g. `certbot --expand -d xaid.ai -d www.xaid.ai`
-- 301 `https://www.xaid.ai/*` → `https://xaid.ai/*`
+If a better landing target exists, `https://xaid.ai/#contact-us` (the free 5-study pilot
+form) matches the old page's intent more closely. Either is fine; the redirect is what matters.
+
+Verify: `curl -sI https://xaid.ai/xaid-free | head -1` → `301`.
+
+---
 
 ## 3. HTTP/2 + compression + HTML cache headers — MEDIUM (perf)
 
-Server currently speaks HTTP/1.1 only, no brotli, and HTML is served without Cache-Control
-(browsers apply heuristic caching → deploys may be picked up late). Lighthouse estimates
-~1.9s savings from modern HTTP alone.
+Still open as of 2026-08-20. Current state, measured:
+
+- `http_version: 1.1` — no HTTP/2
+- `Content-Encoding: gzip` only — no brotli
+- HTML served with **no `Cache-Control`** header at all (only `ETag`/`Last-Modified`)
+- `charset=utf-8` is now present ✅
+
+This matters more than it did in July: the site is now route-code-split into ~33 chunks,
+and HTTP/1.1 serialises those requests. Core Web Vitals are a ranking factor.
 
 ```nginx
-listen 443 ssl http2;            # or the http2 on; directive on newer nginx
-brotli on; brotli_types text/html text/css application/javascript application/json image/svg+xml;
-# (or at least gzip_static / gzip on)
+listen 443 ssl;
+http2 on;                        # nginx ≥ 1.25.1 (older: `listen 443 ssl http2;`)
 
-location = /index.html { add_header Cache-Control "no-cache"; }
-location / { add_header Cache-Control "no-cache"; }              # HTML
-location /assets/ { add_header Cache-Control "public, max-age=31536000, immutable"; }  # already OK, keep
+brotli on;
+brotli_types text/html text/css application/javascript application/json image/svg+xml;
+# if the brotli module isn't built in, at minimum keep gzip on
+
+location / { add_header Cache-Control "no-cache"; }                                   # HTML
+location /assets/ { add_header Cache-Control "public, max-age=31536000, immutable"; } # already OK
 ```
 
-Also add charset: `charset utf-8;` (HTML is served as `text/html` without charset).
+`no-cache` on HTML means "revalidate before reuse" — not "don't cache". It's what makes a
+deploy visible immediately while still allowing 304s. Hashed assets under `/assets/` are
+already served correctly with `max-age=31536000, immutable` — keep as is.
 
-## 4. Stale pre-redesign files in /var/www/xaid.ai/ — MEDIUM
+---
 
-The deploy rsync has no `--delete`, so July-2025 site files are still live:
+## 4. Stale pre-redesign files in `/var/www/xaid.ai/` — MEDIUM
 
-- `/var/www/xaid.ai/privacy-policy` (a FILE, no extension) — serves the old 2025 privacy page
-  at `https://xaid.ai/privacy-policy` (no trailing slash) with old GTM and no canonical.
-  The current page lives at `privacy-policy/index.html`. Delete the stale file.
-- `/var/www/xaid.ai/assets/img/` (old images, e.g. `lungs.png`, dated 2024) — delete.
-- Old hashed bundles in `/assets/` from previous deploys accumulate; safe to clean anything
-  not referenced by the current HTML (or run one supervised `rsync --delete` sync).
+The deploy rsync has no `--delete`, so files from the July-2025 site are still live.
+Partly cleaned since July. Re-verified today:
 
-Careful: do NOT delete `og-image.png`, `favicon.ico`, `llms.txt`, `pricing.md`, `robots.txt`,
-`sitemap.xml` at the root — those are current.
+- ✅ `/privacy-policy` (the extension-less FILE) — gone, now correctly `301`s to `/privacy-policy/`
+- ❌ `/assets/img/lungs.png` — still `200`, dated 2024, referenced by nothing in the current build
+- ❌ `/assets/js/main.js` — still `200`, old bundle, not referenced by current HTML
+- Old hashed bundles in `/assets/` accumulate with every deploy
+
+Safe cleanup: delete `/assets/img/` and `/assets/js/main.js`, plus any hashed bundle not
+referenced by the current HTML. One supervised `rsync --delete` sync would handle all of it.
+
+**Do NOT delete** at the web root: `og-image.png`, `favicon.ico`, `llms.txt`, `pricing.md`,
+`robots.txt`, `sitemap.xml`, `404.html`, `200.html` — all current and in use.
+
+---
 
 ## Verification after the changes
 
 ```bash
-curl -I  https://xaid.ai/nonexistent-xyz          # → 404 with branded HTML
-curl -sI https://www.xaid.ai/ | head -3           # → 301 https://xaid.ai/
-curl -sI --http2 https://xaid.ai/ | head -3       # → HTTP/2
-curl -sI https://xaid.ai/privacy-policy           # → 301 to /privacy-policy/ (stale file gone)
-curl -sI -H "Accept-Encoding: br" https://xaid.ai/assets/<current>.js | grep -i encoding  # → br
+curl -sI https://xaid.ai/xaid-free | head -1                    # → 301
+curl -sI --http2 https://xaid.ai/ -o /dev/null -w '%{http_version}\n'   # → 2
+curl -sI -H "Accept-Encoding: br" https://xaid.ai/ | grep -i encoding   # → br
+curl -sI https://xaid.ai/ | grep -i cache-control              # → no-cache
+curl -s -o /dev/null -w '%{http_code}\n' https://xaid.ai/assets/img/lungs.png  # → 404
 ```
+
+## Context: why these matter now
+
+The site went from **6 indexed pages on 2026-07-08 to 65 on 2026-08-17** — effectively the
+whole sitemap is now in Google's index, and impressions grew ~7.6× over three months.
+Traffic is arriving. The open items above are the places where that traffic is either
+lost outright (task 5) or served more slowly than it needs to be (task 3).
