@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "rsync -rlv --no-perms --no-times --no-owner --no-group --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./",
+    "deploy": "node scripts/predeploy-check.mjs && rsync -rlv --no-perms --no-times --no-owner --no-group --exclude \".DS_Store\" dist/ aurora-xaid-landing-deploy:./",
     "guard": "node scripts/guard.mjs"
   },
   "dependencies": {
