@@ -15,13 +15,10 @@ All code-level fixes are already deployed; this is the remaining server-side bat
 | 4 | Stale pre-redesign files | ⚠️ partly done |
 | 5 | `/xaid-free` returns 404 to real traffic | 🆕 new |
 
-**If you only have time for one, do task 3.** It affects the loading performance of all 65
-indexed pages; task 5 is a single retired URL worth ~2 clicks a month. Task 5 is the more
-obviously *broken* thing, but the smaller one.
 
 Tasks 1 and 2 verified fixed: nonexistent URLs return a real `404` with
 `<title>Page not found – xAID</title>`, and `https://www.xaid.ai/` now serves a valid
-`CN=xaid.ai` certificate and `301`s to the apex. Thank you.
+`CN=xaid.ai` certificate and `301`s to the apex.
 
 ---
 
@@ -83,9 +80,6 @@ worse experience than a general landing.
 
 Verify: `curl -sI https://xaid.ai/xaid-free | head -1` → `301`.
 
-Side benefit: this page is the likely source of Google's AI Overview conflating xAID with
-"free tools and grants". Retiring it properly should help that decay.
-
 ---
 
 ## 4. Stale pre-redesign files in `/var/www/xaid.ai/` — MEDIUM
@@ -115,10 +109,3 @@ curl -sI -H "Accept-Encoding: br" https://xaid.ai/ | grep -i encoding   # → br
 curl -sI https://xaid.ai/ | grep -i cache-control              # → no-cache
 curl -s -o /dev/null -w '%{http_code}\n' https://xaid.ai/assets/img/lungs.png  # → 404
 ```
-
-## Context: why these matter now
-
-The site went from **6 indexed pages on 2026-07-08 to 65 on 2026-08-17** — effectively the
-whole sitemap is now in Google's index, and impressions grew ~7.6× over three months.
-Traffic is arriving. The open items above are the places where that traffic is either
-served more slowly than it needs to be (task 3) or lost outright (task 5).
