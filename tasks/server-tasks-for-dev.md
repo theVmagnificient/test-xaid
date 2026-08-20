@@ -11,9 +11,13 @@ All code-level fixes are already deployed; this is the remaining server-side bat
 |---|------|--------|
 | 1 | Branded 404 page | ✅ done |
 | 2 | `www.xaid.ai` TLS | ✅ done |
-| 3 | HTTP/2 + brotli + HTML cache headers | ❌ open |
+| 3 | HTTP/2 + brotli + HTML cache headers | ❌ open — **do this first** |
 | 4 | Stale pre-redesign files | ⚠️ partly done |
-| 5 | `/xaid-free` returns 404 to real traffic | 🆕 **new, highest priority** |
+| 5 | `/xaid-free` returns 404 to real traffic | 🆕 new |
+
+**If you only have time for one, do task 3.** It affects the loading performance of all 65
+indexed pages; task 5 is a single retired URL worth ~2 clicks a month. Task 5 is the more
+obviously *broken* thing, but the smaller one.
 
 Tasks 1 and 2 verified fixed: nonexistent URLs return a real `404` with
 `<title>Page not found – xAID</title>`, and `https://www.xaid.ai/` now serves a valid
@@ -21,7 +25,37 @@ Tasks 1 and 2 verified fixed: nonexistent URLs return a real `404` with
 
 ---
 
-## 5. `/xaid-free` returns 404 to live search traffic — HIGH 🆕
+## 3. HTTP/2 + compression + HTML cache headers — HIGH (perf, affects every page)
+
+Still open as of 2026-08-20. Current state, measured:
+
+- `http_version: 1.1` — no HTTP/2
+- `Content-Encoding: gzip` only — no brotli
+- HTML served with **no `Cache-Control`** header at all (only `ETag`/`Last-Modified`)
+- `charset=utf-8` is now present ✅
+
+This matters more than it did in July: the site is now route-code-split into ~33 chunks,
+and HTTP/1.1 serialises those requests. Core Web Vitals are a ranking factor.
+
+```nginx
+listen 443 ssl;
+http2 on;                        # nginx ≥ 1.25.1 (older: `listen 443 ssl http2;`)
+
+brotli on;
+brotli_types text/html text/css application/javascript application/json image/svg+xml;
+# if the brotli module isn't built in, at minimum keep gzip on
+
+location / { add_header Cache-Control "no-cache"; }                                   # HTML
+location /assets/ { add_header Cache-Control "public, max-age=31536000, immutable"; } # already OK
+```
+
+`no-cache` on HTML means "revalidate before reuse" — not "don't cache". It's what makes a
+deploy visible immediately while still allowing 304s. Hashed assets under `/assets/` are
+already served correctly with `max-age=31536000, immutable` — keep as is.
+
+---
+
+## 5. `/xaid-free` returns 404 to live search traffic — LOW 🆕
 
 Found in Google Search Console (Performance export, last 3 months):
 
@@ -51,36 +85,6 @@ Verify: `curl -sI https://xaid.ai/xaid-free | head -1` → `301`.
 
 Side benefit: this page is the likely source of Google's AI Overview conflating xAID with
 "free tools and grants". Retiring it properly should help that decay.
-
----
-
-## 3. HTTP/2 + compression + HTML cache headers — MEDIUM (perf)
-
-Still open as of 2026-08-20. Current state, measured:
-
-- `http_version: 1.1` — no HTTP/2
-- `Content-Encoding: gzip` only — no brotli
-- HTML served with **no `Cache-Control`** header at all (only `ETag`/`Last-Modified`)
-- `charset=utf-8` is now present ✅
-
-This matters more than it did in July: the site is now route-code-split into ~33 chunks,
-and HTTP/1.1 serialises those requests. Core Web Vitals are a ranking factor.
-
-```nginx
-listen 443 ssl;
-http2 on;                        # nginx ≥ 1.25.1 (older: `listen 443 ssl http2;`)
-
-brotli on;
-brotli_types text/html text/css application/javascript application/json image/svg+xml;
-# if the brotli module isn't built in, at minimum keep gzip on
-
-location / { add_header Cache-Control "no-cache"; }                                   # HTML
-location /assets/ { add_header Cache-Control "public, max-age=31536000, immutable"; } # already OK
-```
-
-`no-cache` on HTML means "revalidate before reuse" — not "don't cache". It's what makes a
-deploy visible immediately while still allowing 304s. Hashed assets under `/assets/` are
-already served correctly with `max-age=31536000, immutable` — keep as is.
 
 ---
 
@@ -117,4 +121,4 @@ curl -s -o /dev/null -w '%{http_code}\n' https://xaid.ai/assets/img/lungs.png  #
 The site went from **6 indexed pages on 2026-07-08 to 65 on 2026-08-17** — effectively the
 whole sitemap is now in Google's index, and impressions grew ~7.6× over three months.
 Traffic is arriving. The open items above are the places where that traffic is either
-lost outright (task 5) or served more slowly than it needs to be (task 3).
+served more slowly than it needs to be (task 3) or lost outright (task 5).
