@@ -57,7 +57,7 @@
         "name": "How accurate is AI CT reporting compared to a radiologist?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "xAID achieves 95% accuracy — or we reimburse. Every xAID report is reviewed by our in-house European radiologist before delivery. See full clinical evidence at xaid.ai/accuracy."
+          "text": "xAID achieves 95% accuracy verified by peer-reviewed studies — or we reimburse. Every report is also reviewed by our in-house European radiologist before delivery."
         }
       },
       {
@@ -73,7 +73,7 @@
         "name": "How does AI CT reporting compare to locum radiologists in cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months), and carry burnout and turnover risk. xAID charges per study at narrow AI rates, sets up in under one week, and includes 24/7 coverage — with no staffing overhead."
+          "text": "Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months), and carry burnout and turnover risk. xAID charges per study, sets up in under one week, and includes 24/7 coverage — with no staffing overhead. The rate is lower because the work is different: our in-house European radiologist reviews a complete AI-drafted report instead of dictating from a blank screen. What comes back is ready to sign — your own reading radiologist signs it."
         }
       },
       {
@@ -81,7 +81,7 @@
         "name": "How does DICOM and HL7 integration work for AI CT reporting?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Your PACS sends CT studies to xAID via standard DICOM C-STORE. Preliminary reports are returned via HL7 ORU message to your RIS — or as PDF. No custom middleware or development required. Most installations complete in under one week."
+          "text": "Your PACS sends CT studies to xAID via standard DICOM C-STORE. Ready-to-sign reports are returned via HL7 ORU message to your RIS — or as PDF. No custom middleware or development required. Most installations complete in under one week."
         }
       },
       {
@@ -97,7 +97,7 @@
         "name": "What CT scan types does xAID AI reporting cover?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Head CT, chest CT, and abdomen CT — 100+ findings per report. xAID covers lung nodules, coronary calcium, stroke signs, hemorrhage, abdominal organ findings, fractures, vascular measurements, and more across all three body regions."
+          "text": "Head CT, chest CT, and abdomen CT — 100+ findings per report. xAID covers lung nodules, coronary calcium, stroke signs, hemorrhage, abdominal organ findings, fractures, vascular measurements, and more across all three body regions. When prior CT studies and their reports are supplied with the case, our radiologist reviews them and accounts for interval change. Standalone MRI reporting is on the roadmap."
         }
       },
       {

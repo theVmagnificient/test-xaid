@@ -9,7 +9,7 @@ const integrationFaqs = [
   },
   {
     q: 'How are completed reports returned to my RIS?',
-    a: 'Completed preliminary reports are returned via HL7 ORU message to your RIS, or as PDF — whichever your workflow requires. HL7 FHIR DiagnosticReport is available for modern integrations. The report appears in your system just like any other read',
+    a: 'Completed reports are returned via HL7 ORU message to your RIS, or as PDF — whichever your workflow requires. HL7 FHIR DiagnosticReport is available for modern integrations. The report appears in your system just like any other read',
   },
   {
     q: 'How long does xAID integration take?',
@@ -79,7 +79,7 @@ const Integrations = () => {
                 <span className="text-white/60">Setup under one week</span>
               </h1>
               <p className="text-white/60 text-lg font-light leading-[1.65] mb-10 max-w-xl">
-                xAID connects to your existing PACS and RIS via standard DICOM and HL7 protocols. No custom middleware, no long IT projects. Studies flow in automatically; preliminary reports come back the same way
+                xAID connects to your existing PACS and RIS via standard DICOM and HL7 protocols. No custom middleware, no long IT projects. Studies flow in automatically; ready-to-sign reports come back the same way
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/#contact-us" className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
@@ -152,7 +152,7 @@ const Integrations = () => {
                     {
                       step: '5',
                       title: 'Report returned to your RIS',
-                      desc: 'The preliminary report is delivered back to your RIS via HL7. It appears in your workflow like any other result. Turnaround 2–12 hours from study receipt',
+                      desc: 'The ready-to-sign report is delivered back to your RIS via HL7. It appears in your workflow like any other result. Turnaround 2–12 hours from study receipt',
                     },
                   ].map((item) => (
                     <div key={item.step} className="flex gap-5">

@@ -92,7 +92,7 @@ const AiVsLocumRadiologist = () => {
               A locum radiologist costs $500,000–$650,000 per year and takes months to source and credential — and a permanent hire takes 6–18 months. AI CT reporting starts in under one week at per-study pricing with no fixed overhead
             </p>
             <p className="text-white/60 text-[15px] leading-[1.65] font-light">
-              Both deliver complete preliminary CT reports — radiologist-reviewed and ready to sign. The difference is cost structure, setup time, and what happens when demand spikes or the locum cancels
+              Both deliver complete CT reports — radiologist-reviewed and ready to sign. The difference is cost structure, setup time, and what happens when demand spikes or the locum cancels
             </p>
           </div>
         </section>

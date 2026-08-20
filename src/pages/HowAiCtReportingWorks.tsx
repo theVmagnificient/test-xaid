@@ -25,8 +25,8 @@ const steps = [
   },
   {
     number: '5',
-    title: 'Preliminary report delivered',
-    body: 'The preliminary report is returned to your RIS via HL7 ORU message — or as PDF if preferred. It appears in your system exactly as a teleradiology report would. Turnaround 2–12 hours from study receipt, 24/7 at flat per-study rate',
+    title: 'Ready-to-sign report delivered',
+    body: 'The ready-to-sign report is returned to your RIS via HL7 ORU message — or as PDF if preferred. It appears in your system exactly as a teleradiology report would. Turnaround 2–12 hours from study receipt, 24/7 at flat per-study rate',
   },
 ];
 
@@ -51,7 +51,7 @@ const differences = [
   },
   {
     category: 'AI CT Reporting (xAID)',
-    output: 'Ready-to-sign preliminary report',
+    output: 'Ready-to-sign report',
     report: 'Yes — AI generates, radiologist reviews',
     signed: 'Reviewed by our radiologist',
     afterHours: 'Zero — flat rate 24/7',
@@ -63,7 +63,7 @@ const differences = [
 const faqs = [
   {
     q: 'What is AI CT reporting and how is it different from regular AI radiology tools?',
-    a: 'AI CT reporting is a service that delivers complete ready-to-sign preliminary reports using AI, with radiologist review on every study. "AI radiology" covers two very different products: (1) AI detection tools, which flag suspected high-acuity findings and reprioritize the worklist but do not produce a complete report; and (2) AI CT reporting services like xAID, which generate the complete structured preliminary report using AI — with a radiologist reviewing before delivery. The key question is: does the AI produce a complete preliminary report, or just an alert? xAID produces the complete preliminary report',
+    a: 'AI CT reporting is a service that delivers complete ready-to-sign reports using AI, with radiologist review on every study. "AI radiology" covers two very different products: (1) AI detection tools, which flag suspected high-acuity findings and reprioritize the worklist but do not produce a complete report; and (2) AI CT reporting services like xAID, which generate the complete structured preliminary report using AI — with a radiologist reviewing before delivery. The key question is: does the AI produce a complete preliminary report, or just an alert? xAID produces the complete preliminary report',
   },
   {
     q: 'Can AI replace a radiologist for CT interpretation?',
@@ -107,7 +107,7 @@ const HowAiCtReportingWorks = () => {
     "@context": "https://schema.org",
     "@type": "HowTo",
     "name": "How AI CT Reporting Works: From DICOM Study to AI CT Report",
-    "description": "The step-by-step workflow for AI-assisted CT radiology reporting — from DICOM receipt through AI analysis, radiologist review, and preliminary report delivery.",
+    "description": "The step-by-step workflow for AI-assisted CT radiology reporting — from DICOM receipt through AI analysis, radiologist review, and ready-to-sign report delivery.",
     "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "0" },
     "step": steps.map((s, i) => ({
       "@type": "HowToStep",
@@ -123,11 +123,11 @@ const HowAiCtReportingWorks = () => {
         <title>How AI CT Reporting Works: From DICOM to AI CT Report | xAID</title>
         <meta
           name="description"
-          content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign preliminary reports — unlike detection-only tools."
+          content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign reports — unlike detection-only tools."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="How AI CT Reporting Works: From DICOM to AI CT Report" />
-        <meta property="og:description" content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign preliminary reports — unlike detection-only tools." />
+        <meta property="og:description" content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign reports — unlike detection-only tools." />
         <meta property="og:url" content="https://xaid.ai/how-ai-ct-reporting-works" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -135,7 +135,7 @@ const HowAiCtReportingWorks = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="How AI CT Reporting Works" />
-        <meta name="twitter:description" content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign preliminary reports — unlike detection-only tools." />
+        <meta name="twitter:description" content="How AI CT reporting works: two AI layers plus radiologist review turn DICOM studies into ready-to-sign reports — unlike detection-only tools." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -155,7 +155,7 @@ const HowAiCtReportingWorks = () => {
               How AI CT reporting works
             </h1>
             <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-10">
-              AI CT reporting is not a detection overlay or an alert system. It is a complete reporting service: your DICOM series goes in, a ready-to-sign preliminary report comes out — produced by two AI layers and reviewed by our in-house radiologist
+              AI CT reporting is not a detection overlay or an alert system. It is a complete reporting service: your DICOM series goes in, a ready-to-sign report comes out — produced by two AI layers and reviewed by our in-house radiologist
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/#contact-us" className="btn-primary px-8 py-3 text-base">
@@ -215,7 +215,7 @@ const HowAiCtReportingWorks = () => {
                   {[
                     'AI generates complete structured CT report',
                     'European radiologist reviews the report',
-                    'Preliminary report returned via HL7 to your RIS',
+                    'Ready-to-sign report returned via HL7 to your RIS',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <span className="mt-[9px] w-1.5 h-1.5 rounded-full bg-xaid-blue flex-shrink-0" />
@@ -226,7 +226,7 @@ const HowAiCtReportingWorks = () => {
 
                 <div className="pt-5 border-t border-xaid-blue/25 min-h-[3.5em] flex items-center">
                   <p className="text-xaid-blue text-[15px] font-medium leading-snug">
-                    Complete ready-to-sign preliminary report delivered
+                    Complete ready-to-sign report delivered
                   </p>
                 </div>
               </div>
@@ -443,7 +443,7 @@ const HowAiCtReportingWorks = () => {
           <div className="container-xaid max-w-3xl mx-auto text-center">
             <h2 className="text-[28px] font-normal leading-[1.15] text-white mb-4">See AI CT reporting in practice</h2>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Free 5-study pilot. Send CT studies from your actual case mix — head, chest, or abdomen. Receive preliminary reports within 12 hours. No integration or commitment required to start
+              Free 5-study pilot. Send CT studies from your actual case mix — head, chest, or abdomen. Receive ready-to-sign reports within 12 hours. No integration or commitment required to start
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/#contact-us" className="btn-primary px-8 py-3 text-base">

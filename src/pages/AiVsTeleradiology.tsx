@@ -9,7 +9,7 @@ const rows = [
   { aspect: 'Quality guarantee', teleradiology: 'None — no contractual commitment', xaid: '95% accuracy — or we reimburse' },
   { aspect: 'Setup time', teleradiology: '2–8 weeks (credentialing, contracting)', xaid: 'Under 1 week via DICOM C-STORE / HL7 ORU' },
   { aspect: 'Radiologist review', teleradiology: 'Yes — radiologist reads and dictates', xaid: 'Yes — in-house European radiologist reviews every report' },
-  { aspect: 'Report output', teleradiology: 'Signed report (dictated)', xaid: 'Ready-to-sign preliminary report (radiologist-reviewed)' },
+  { aspect: 'Report output', teleradiology: 'Signed report (dictated)', xaid: 'Ready-to-sign report (radiologist-reviewed)' },
   { aspect: 'Coverage hours', teleradiology: '24/7 (with surcharge)', xaid: '24/7 flat rate' },
   { aspect: 'Modalities', teleradiology: 'CT, MRI, X-ray, nuclear (full suite)', xaid: 'CT only (head, chest, abdomen)' },
   { aspect: 'Volume minimums', teleradiology: 'Often required (annual contracts)', xaid: 'None — per-study pricing, no minimums' },

@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: 'How accurate is AI CT reporting compared to a radiologist?',
-    answer: 'xAID achieves 95% accuracy verified by peer-reviewed studies. Every report is also reviewed by our in-house radiologist before delivery',
+    answer: 'xAID achieves 95% accuracy verified by peer-reviewed studies — or we reimburse. Every report is also reviewed by our in-house European radiologist before delivery',
   },
   {
     question: 'What is the CT report turnaround time?',
@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     question: 'How does AI CT reporting compare to locum radiologists in cost?',
-    answer: 'Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months) and credential, and carry burnout and turnover risk. xAID charges per study at narrow AI rates, sets up in under one week, and includes 24/7 coverage — with no staffing overhead',
+    answer: 'Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months), and carry burnout and turnover risk. xAID charges per study, sets up in under one week, and includes 24/7 coverage — with no staffing overhead. The rate is lower because the work is different: our in-house European radiologist reviews a complete AI-drafted report instead of dictating from a blank screen. What comes back is ready to sign — your own reading radiologist signs it',
   },
   {
     question: 'How does DICOM and HL7 integration work?',
-    answer: 'Your PACS sends CT studies to xAID via standard DICOM C-STORE. Preliminary reports are returned via HL7 ORU message to your RIS — or as PDF. No custom middleware or development required. Most installations are complete in under one week',
+    answer: 'Your PACS sends CT studies to xAID via standard DICOM C-STORE. Ready-to-sign reports are returned via HL7 ORU message to your RIS — or as PDF. No custom middleware or development required. Most installations are complete in under one week',
   },
   {
     question: 'Is AI CT reporting HIPAA compliant?',
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: 'What CT scan types does xAID cover?',
-    answer: 'Head CT, chest CT, and abdomen CT — 100+ findings per report. xAID analyzes lung nodules, coronary calcium, stroke signs, hemorrhage, abdominal organs, fractures, vascular measurements, and more. MRI is on the roadmap. We focus on depth of CT coverage rather than breadth of modalities',
+    answer: 'Head CT, chest CT, and abdomen CT — 100+ findings per report. xAID analyzes lung nodules, coronary calcium, stroke signs, hemorrhage, abdominal organs, fractures, vascular measurements, and more. When prior CT studies and their reports are supplied with the case, our radiologist reviews them and accounts for interval change. Standalone MRI reporting is on the roadmap',
   },
   {
     question: 'How does xAID differ from AI detection tools?',

@@ -73,7 +73,7 @@ const ForTeleradiologyCompanies = () => {
               "name": "How can teleradiology companies use AI to scale CT coverage?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID provides ready-to-sign preliminary reports for teleradiology providers — head, chest, and abdomen CT with 2–12 hour turnaround. Route overflow or designated studies via DICOM; reports return via HL7 within your SLA."
+                "text": "xAID provides ready-to-sign reports for teleradiology providers — head, chest, and abdomen CT with 2–12 hour turnaround. Route overflow or designated studies via DICOM; reports return via HL7 within your SLA."
               }
             },
             {
@@ -86,7 +86,7 @@ const ForTeleradiologyCompanies = () => {
             },
             {
               "@type": "Question",
-              "name": "What accuracy do preliminary reports from xAID achieve for teleradiology providers?",
+              "name": "What accuracy does xAID provide for teleradiology operations?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. Every report is reviewed by our in-house European radiologist before delivery."

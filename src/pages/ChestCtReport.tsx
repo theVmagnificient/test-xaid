@@ -22,11 +22,11 @@ const chestFaqs = [
   },
   {
     q: 'What does a chest CT AI report include?',
-    a: 'An xAID chest CT preliminary report includes structured findings for all major chest pathologies: lung nodules (with size, density, and location), opacifications, pleural and pericardial effusion, pneumothorax, coronary calcium scoring, aortic and pulmonary artery measurements, lymph nodes, and vertebral fractures. Reviewed by our in-house radiologist before delivery. Preliminary reports follow standard radiology report format and are delivered as HL7 FHIR or PDF — ready for your radiologist to review and sign',
+    a: 'An xAID chest CT report includes structured findings for all major chest pathologies: lung nodules (with size, density, and location), opacifications, pleural and pericardial effusion, pneumothorax, coronary calcium scoring, aortic and pulmonary artery measurements, lymph nodes, and vertebral fractures. Reviewed by our in-house radiologist before delivery. Reports follow standard radiology report format and are delivered as HL7 FHIR or PDF — ready for your radiologist to review and sign',
   },
   {
     q: 'How fast is AI chest CT report turnaround?',
-    a: 'AI-generated report drafts are produced within minutes of DICOM receipt. Full preliminary reports are typically delivered within 2–12 hours, depending on queue and complexity',
+    a: 'AI-generated report drafts are produced within minutes of DICOM receipt. Full ready-to-sign reports are typically delivered within 2–12 hours, depending on queue and complexity',
   },
   {
     q: 'Does xAID support emergency chest CT reads?',
@@ -45,11 +45,11 @@ const ChestCtReport = () => {
         <title>AI Chest CT Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
-          content="AI chest CT reporting: structured preliminary reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot."
+          content="AI chest CT reporting: structured, ready-to-sign reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Chest CT Reports in 2–12 Hours | xAID" />
-        <meta property="og:description" content="AI chest CT reporting: structured preliminary reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot." />
+        <meta property="og:description" content="AI chest CT reporting: structured, ready-to-sign reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot." />
         <meta property="og:url" content="https://xaid.ai/chest-ct-ai-report" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -57,7 +57,7 @@ const ChestCtReport = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Chest CT Reports in 2–12 Hours | xAID" />
-        <meta name="twitter:description" content="AI chest CT reporting: structured preliminary reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot." />
+        <meta name="twitter:description" content="AI chest CT reporting: structured, ready-to-sign reports in 2–12 hours. 95% accuracy verified, HIPAA compliant, 24/7 coverage. Start with a free 5-study pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -92,7 +92,7 @@ const ChestCtReport = () => {
                 <span className="text-white/60">2–12 hour delivery</span>
               </h1>
               <p className="text-white/60 text-lg font-light leading-[1.65] mb-10 max-w-xl">
-                AI-generated chest CT preliminary reports, reviewed by our in-house radiologist — structured, ready to sign, delivered within 2–12 hours. Validated in a peer-reviewed emergency radiology study
+                AI-generated chest CT reports, reviewed by our in-house radiologist — structured, ready to sign, delivered within 2–12 hours. Validated in a peer-reviewed emergency radiology study
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/#contact-us" className="bg-xaid-blue-strong hover:bg-xaid-blue-strong-hover text-white font-medium px-8 py-4 rounded-full transition-all duration-200 text-center">
@@ -145,7 +145,7 @@ const ChestCtReport = () => {
                 ))}
               </div>
               <p className="text-[#757575] text-sm mt-8">
-                Preliminary reports are structured, radiologist-reviewed, and delivered as HL7 FHIR or PDF to your RIS/PACS — ready for your radiologist to review and sign
+                Reports are structured, radiologist-reviewed, and delivered as HL7 FHIR or PDF to your RIS/PACS — ready for your radiologist to review and sign
               </p>
             </div>
           </div>
@@ -154,14 +154,14 @@ const ChestCtReport = () => {
         {/* How it works */}
         <section className="section-padding">
           <div className="container-xaid max-w-3xl mx-auto">
-            <h2 className="text-[28px] font-normal leading-[1.15] text-white mb-4 text-center">From DICOM to preliminary report</h2>
+            <h2 className="text-[28px] font-normal leading-[1.15] text-white mb-4 text-center">From DICOM to ready-to-sign report</h2>
             <p className="text-white/60 text-center mb-12">Your workflow, unchanged. xAID fits in as a read provider</p>
             <div className="space-y-6">
               {[
                 { step: '1', title: 'DICOM received', desc: 'Chest CT images arrive via DICOM to xAID. No manual uploads — fully automated ingest' },
                 { step: '2', title: 'AI analysis', desc: 'Two AI layers — foundation model and secondary verification — analyze the study across 100+ findings. Results are structured into a report draft' },
                 { step: '3', title: 'Radiologist review', desc: 'Our in-house European radiologist reviews the AI-generated report before delivery' },
-                { step: '4', title: 'Preliminary report delivered', desc: 'Preliminary report returned via HL7 or PDF to your RIS. Turnaround 2–12 hours' },
+                { step: '4', title: 'Ready-to-sign report delivered', desc: 'Report returned via HL7 or PDF to your RIS. Turnaround 2–12 hours' },
               ].map((item) => (
                 <div key={item.step} className="flex gap-6">
                   <div className="w-10 h-10 rounded-full bg-xaid-blue/20 border border-xaid-blue/40 flex items-center justify-center text-xaid-blue font-medium flex-shrink-0">

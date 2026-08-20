@@ -13,7 +13,7 @@ const painPoints = [
   },
   {
     problem: 'Your AI overlay didn\'t reduce TAT — radiologists still dictate everything',
-    solution: 'xAID delivers a complete radiologist-reviewed preliminary report — ready to sign, not just detection flags. Your radiologists sign, not dictate',
+    solution: 'xAID delivers a complete radiologist-reviewed report — ready to sign, not just detection flags. Your radiologists sign, not dictate',
   },
 ];
 
@@ -62,7 +62,7 @@ const ForOutpatientCenters = () => {
               "name": "How can outpatient imaging centers add CT read capacity without hiring?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID provides ready-to-sign preliminary reports for outpatient imaging centers — head, chest, and abdomen CT with 2–12 hour turnaround. Setup takes under one week via standard DICOM/HL7 integration, with no new equipment required."
+                "text": "xAID provides ready-to-sign reports for outpatient imaging centers — head, chest, and abdomen CT with 2–12 hour turnaround. Setup takes under one week via standard DICOM/HL7 integration, with no new equipment required."
               }
             },
             {

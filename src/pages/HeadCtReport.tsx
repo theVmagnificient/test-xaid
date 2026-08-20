@@ -18,11 +18,11 @@ const findings = [
 const headFaqs = [
   {
     q: 'What does a head CT AI report include?',
-    a: 'An xAID head CT report covers all major intracranial and extracranial findings: ischemic changes, hemorrhage (epidural, subdural, subarachnoid, intraparenchymal), brain parenchyma, ventricular assessment, midline shift, skull fractures, and incidental vascular findings. Delivered as ready-to-sign preliminary reports in standard radiology report format, reviewed by our in-house radiologist before delivery',
+    a: 'An xAID head CT report covers all major intracranial and extracranial findings: ischemic changes, hemorrhage (epidural, subdural, subarachnoid, intraparenchymal), brain parenchyma, ventricular assessment, midline shift, skull fractures, and incidental vascular findings. Delivered as ready-to-sign reports in standard radiology report format, reviewed by our in-house radiologist before delivery',
   },
   {
     q: 'How fast is AI head CT report turnaround?',
-    a: 'AI-generated structured drafts are produced within minutes of DICOM receipt. Full preliminary reports are delivered within 2–12 hours. 24/7 coverage available for after-hours and overnight reads',
+    a: 'AI-generated structured drafts are produced within minutes of DICOM receipt. Full ready-to-sign reports are delivered within 2–12 hours. 24/7 coverage available for after-hours and overnight reads',
   },
   {
     q: 'Can AI detect stroke on CT?',
@@ -45,11 +45,11 @@ const HeadCtReport = () => {
         <title>AI Head CT Reporting — Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
-          content="AI head CT reporting: structured preliminary reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot."
+          content="AI head CT reporting: structured, ready-to-sign reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Head CT Reporting Service | xAID" />
-        <meta property="og:description" content="AI head CT reporting: structured preliminary reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot." />
+        <meta property="og:description" content="AI head CT reporting: structured, ready-to-sign reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta property="og:url" content="https://xaid.ai/head-ct-ai-report" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -57,7 +57,7 @@ const HeadCtReport = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Head CT Reporting Service | xAID" />
-        <meta name="twitter:description" content="AI head CT reporting: structured preliminary reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot." />
+        <meta name="twitter:description" content="AI head CT reporting: structured, ready-to-sign reports in 2–12 hours covering stroke signs, hemorrhage, fractures. HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -157,7 +157,7 @@ const HeadCtReport = () => {
               {[
                 {
                   title: 'Outpatient imaging centers',
-                  desc: 'Expand head CT read capacity without hiring a radiologist. Send studies to xAID and receive preliminary reports back within 2–12 hours',
+                  desc: 'Expand head CT read capacity without hiring a radiologist. Send studies to xAID and receive ready-to-sign reports back within 2–12 hours',
                 },
                 {
                   title: 'After-hours & overnight coverage',
@@ -165,7 +165,7 @@ const HeadCtReport = () => {
                 },
                 {
                   title: 'Teleradiology overflow',
-                  desc: 'Scale read volume during peak periods without adding headcount. AI handles the initial analysis; our radiologist reviews the preliminary before delivery — ready for your team to sign',
+                  desc: 'Scale read volume during peak periods without adding headcount. AI handles the initial analysis; our radiologist reviews the draft before delivery — ready for your team to sign',
                 },
               ].map((item) => (
                 <div key={item.title} className="bg-white/5 border border-white/10 rounded-2xl p-8">

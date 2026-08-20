@@ -9,7 +9,7 @@ const useCases = [
   },
   {
     title: 'Reducing radiologist burnout',
-    desc: 'AI handles the analysis and xAID\'s radiologist reviews before delivery. Your radiologists review a finished preliminary — not a raw AI output — freeing bandwidth for complex, high-value reads',
+    desc: 'AI handles the analysis and xAID\'s radiologist reviews before delivery. Your radiologists review a finished report — not a raw AI output — freeing bandwidth for complex, high-value reads',
   },
   {
     title: 'Second read & overread',
@@ -109,7 +109,7 @@ const ForRadiologyGroups = () => {
                 <span className="text-white/60">for radiology groups</span>
               </h1>
               <p className="text-white/60 text-lg font-light leading-[1.65] max-w-2xl mb-8">
-                Handle CT overflow, after-hours coverage, and radiologist burnout without adding headcount. xAID delivers ready-to-sign preliminary reports — your radiologists review and sign, not dictate
+                Handle CT overflow, after-hours coverage, and radiologist burnout without adding headcount. xAID delivers ready-to-sign reports — your radiologists review and sign, not dictate
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link

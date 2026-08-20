@@ -34,7 +34,7 @@ const ReportExample = () => {
             See what you're signing
           </h2>
           <p className="text-white/60 mt-2 max-w-2xl mx-auto text-[15px] leading-[1.65] font-light">
-            Built to your template. Ready to sign
+            Built to your template, compared against prior CT studies when supplied. Ready to sign
           </p>
         </div>
 

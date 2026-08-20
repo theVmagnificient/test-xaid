@@ -18,11 +18,11 @@ const findings = [
 const abdomenFaqs = [
   {
     q: 'What does an AI abdomen CT report include?',
-    a: 'An xAID abdomen CT report covers the full abdominal cavity: liver (including focal lesions and morphology), gallbladder, biliary system, pancreas, spleen, kidneys (stones, masses, hydronephrosis), adrenals, bowel, peritoneal fluid, vascular structures, lymph nodes, and vertebral findings. Delivered as ready-to-sign preliminary reports in standard radiology report format, reviewed by our in-house radiologist before delivery',
+    a: 'An xAID abdomen CT report covers the full abdominal cavity: liver (including focal lesions and morphology), gallbladder, biliary system, pancreas, spleen, kidneys (stones, masses, hydronephrosis), adrenals, bowel, peritoneal fluid, vascular structures, lymph nodes, and vertebral findings. Delivered as ready-to-sign reports in standard radiology report format, reviewed by our in-house radiologist before delivery',
   },
   {
     q: 'How fast is AI abdominal CT report turnaround?',
-    a: 'AI-generated structured drafts are produced within minutes of DICOM receipt. Full preliminary reports are delivered within 2–12 hours. 24/7 coverage is available for after-hours and overnight reads',
+    a: 'AI-generated structured drafts are produced within minutes of DICOM receipt. Full ready-to-sign reports are delivered within 2–12 hours. 24/7 coverage is available for after-hours and overnight reads',
   },
   {
     q: 'Does xAID cover both non-contrast and contrast abdomen CT?',
@@ -45,11 +45,11 @@ const AbdomenCtReport = () => {
         <title>AI Abdomen CT Reports in 2–12 Hours | xAID</title>
         <meta
           name="description"
-          content="AI abdomen CT reporting: structured preliminary reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot."
+          content="AI abdomen CT reporting: structured, ready-to-sign reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="AI Abdomen CT Reports in 2–12 Hours | xAID" />
-        <meta property="og:description" content="AI abdomen CT reporting: structured preliminary reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot." />
+        <meta property="og:description" content="AI abdomen CT reporting: structured, ready-to-sign reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta property="og:url" content="https://xaid.ai/abdomen-ct-ai-report" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
@@ -57,7 +57,7 @@ const AbdomenCtReport = () => {
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI Abdomen CT Reports in 2–12 Hours | xAID" />
-        <meta name="twitter:description" content="AI abdomen CT reporting: structured preliminary reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot." />
+        <meta name="twitter:description" content="AI abdomen CT reporting: structured, ready-to-sign reports in 2–12 hours. Liver, kidneys, pancreas, bowel and more — HIPAA compliant, 24/7. Free 5-study pilot." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -165,7 +165,7 @@ const AbdomenCtReport = () => {
                 },
                 {
                   title: 'Teleradiology scale-up',
-                  desc: 'Handle abdomen CT overflow during peak volume periods. AI reads the scan; xAID\'s in-house radiologist reviews the preliminary and delivers faster',
+                  desc: 'Handle abdomen CT overflow during peak volume periods. AI reads the scan; xAID\'s in-house radiologist reviews the draft and delivers faster',
                 },
               ].map((item) => (
                 <div key={item.title} className="bg-white/5 border border-white/10 rounded-2xl p-8">

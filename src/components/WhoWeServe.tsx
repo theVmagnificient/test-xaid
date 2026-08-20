@@ -11,7 +11,7 @@ const audiences = [
   },
   {
     title: 'Teleradiology providers',
-    description: 'Scale your read volume with AI CT reporting that delivers full radiologist-reviewed preliminary reports, not just detection flags. DICOM in, HL7 out — setup under one week',
+    description: 'Scale your read volume with AI CT reporting that delivers complete ready-to-sign reports with radiologist review, not just detection flags. DICOM in, HL7 out — setup under one week',
     Icon: Radio,
     href: '/for-teleradiology-companies/',
   },

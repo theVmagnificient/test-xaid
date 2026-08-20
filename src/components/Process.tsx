@@ -9,12 +9,12 @@ const steps = [
   {
     number: 2,
     title: 'AI + radiologist produce the report',
-    description: 'Our foundation models analyze 100+ findings. An in-house radiologist reviews every report',
+    description: 'Our foundation models analyze 100+ findings. Our in-house European radiologist reviews every report, comparing against prior CT studies when supplied',
   },
   {
     number: 3,
     title: 'Ready-to-sign report in your system',
-    description: 'Delivered via HL7 directly into your reporting system. You review and sign',
+    description: 'Delivered via HL7 directly into your reporting system, ready to sign. The final signature stays with your radiologist',
   },
 ];
 

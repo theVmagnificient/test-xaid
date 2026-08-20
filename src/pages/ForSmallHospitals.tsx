@@ -26,7 +26,7 @@ const workflow = [
   { step: '1', title: 'Send CT via DICOM', desc: 'Standard DICOM push. Works with your existing PACS — no new hardware' },
   { step: '2', title: 'Two AI layers analyze', desc: 'Foundation model + secondary AI screen 100+ findings. Every CT. Every time' },
   { step: '3', title: 'Radiologist reviews', desc: 'In-house European radiologist reviews every report before delivery' },
-  { step: '4', title: 'Preliminary report via HL7', desc: 'Delivered into your system in 2–12 hours. Ready to act on immediately' },
+  { step: '4', title: 'Ready-to-sign report via HL7', desc: 'Delivered into your system in 2–12 hours. Ready to act on immediately' },
 ];
 
 const ForSmallHospitals = () => {
@@ -330,7 +330,7 @@ const ForSmallHospitals = () => {
               faqs={[
                 {
                   q: 'How can a small hospital get radiology coverage without a full-time radiologist?',
-                  a: 'xAID provides AI-powered CT reporting at per-study pricing with no FTE commitment. Setup takes under one week via standard DICOM integration. Our in-house European radiologist reviews every report before delivery. The output is a ready-to-sign preliminary report — comparable to teleradiology in workflow, at lower cost, and with 95% accuracy verified by peer-reviewed studies',
+                  a: 'xAID provides AI-powered CT reporting at per-study pricing with no FTE commitment. Setup takes under one week via standard DICOM integration. Our in-house European radiologist reviews every report before delivery. The output is a ready-to-sign report — comparable to teleradiology in workflow, at lower cost, and with 95% accuracy verified by peer-reviewed studies',
                 },
                 {
                   q: 'What is the cost of AI CT reporting vs a locum radiologist?',
@@ -361,7 +361,7 @@ const ForSmallHospitals = () => {
                 Start with a 5-study pilot
               </h2>
               <p className="text-white/60 mb-8 leading-relaxed">
-                Send five CT studies. Receive complete preliminary reports. No integration required, no commitment, no risk. See the output before any decision
+                Send five CT studies. Receive complete ready-to-sign reports. No integration required, no commitment, no risk. See the output before any decision
               </p>
               <Link
                 to="/#contact-us"

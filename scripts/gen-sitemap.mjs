@@ -25,7 +25,7 @@ const ORIGIN = 'https://xaid.ai';
 const locFor = (route) => (route === '/' ? `${ORIGIN}/` : `${ORIGIN}${route}/`);
 
 // Bump when static (non-blog) pages materially change.
-const STATIC_LASTMOD = '2026-06-05';
+const STATIC_LASTMOD = '2026-08-20';
 
 // Static (non-blog) pages: priority + changefreq. Any route in reactSnap.include
 // that is neither listed here nor a /blog/* article triggers a warning.
