@@ -78,6 +78,16 @@ run(
   `git commit -m "Publish founder-approved article: ${slug}" -m "Approved via telegram bot ${today}." -m "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"`
 );
 
+// 3b. Publish the commit. The laptop deploys the same web root, so GitHub has to
+// be the shared truth — a commit that never leaves this box is a tree the other
+// machine will overwrite. Non-fatal: the article is already live, and autorun's
+// next pull --rebase will carry it.
+try {
+  run('git push origin main');
+} catch {
+  console.warn('[publish] git push failed — the article is live but this commit is only local. Push it before the laptop deploys.');
+}
+
 // 4. Mark done.
 entry.status = 'published';
 entry.publishedAt = new Date().toISOString();

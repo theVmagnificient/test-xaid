@@ -31,5 +31,21 @@ trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
 LOG="$STATE/autorun-$(date +%F).log"
 echo "=== autorun $(date -u +%FT%TZ) ===" >> "$LOG"
+
+# Sync with GitHub before generating anything. This box and the founder's laptop
+# both rsync a full dist/ into the same web root, and sitemap.xml is overwritten
+# whole — so building from a tree that is behind silently drops the other side's
+# pages (happened 2026-08-20, in both directions in one day). Pull first so the
+# build always reflects everything.
+#
+# Bail out rather than run stale: a skipped day costs one article, a stale deploy
+# costs whatever the other machine shipped. Silence in the daily Telegram report
+# is the existing dead-man signal.
+# --rebase, not --ff-only: publish.mjs commits here, so this tree legitimately
+# carries its own commits between runs.
+if ! git pull --rebase origin main >> "$LOG" 2>&1; then
+  echo "ABORT: git pull failed — refusing to build from a possibly stale tree" >> "$LOG"
+  exit 1
+fi
 node content-pipeline/automation/autorun.mjs >> "$LOG" 2>&1
 echo "exit=$? $(date -u +%FT%TZ)" >> "$LOG"
