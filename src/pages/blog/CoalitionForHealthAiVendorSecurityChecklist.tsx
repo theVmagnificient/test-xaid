@@ -17,18 +17,18 @@ const CoalitionForHealthAiVendorSecurityChecklist = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>Coalition for Health AI's Security Work Group | xAID</title>
-        <meta name="description" content="CHAI formed a work group for frontier-model cyber risk in clinical AI. What to ask an AI-reporting vendor about model governance and security before signing." />
+        <title>AI Vendor Security Checklist for Imaging Buyers | xAID</title>
+        <meta name="description" content="The security questions to put to a radiology AI vendor before signing — model governance, data handling and incident response, framed by CHAI's 2026 work group." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Coalition for Health AI's Security Work Group | xAID" />
-        <meta property="og:description" content="CHAI formed a work group for frontier-model cyber risk in clinical AI. What to ask an AI-reporting vendor about model governance and security before signing." />
+        <meta property="og:title" content="AI Vendor Security Checklist for Imaging Buyers | xAID" />
+        <meta property="og:description" content="The security questions to put to a radiology AI vendor before signing — model governance, data handling and incident response, framed by CHAI's 2026 work group." />
         <meta property="og:url" content="https://xaid.ai/blog/coalition-for-health-ai-vendor-security-checklist" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Coalition for Health AI's Security Work Group | xAID" />
-        <meta name="twitter:description" content="CHAI formed a work group for frontier-model cyber risk in clinical AI. What to ask an AI-reporting vendor about model governance and security before signing." />
+        <meta name="twitter:title" content="AI Vendor Security Checklist for Imaging Buyers | xAID" />
+        <meta name="twitter:description" content="The security questions to put to a radiology AI vendor before signing — model governance, data handling and incident response, framed by CHAI's 2026 work group." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

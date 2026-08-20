@@ -18,19 +18,19 @@ const AutomationBiasRadiologyAi = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>Automation Bias in Radiology AI | xAID</title>
-        <meta name="description" content="A 2026 RSNA Radiology study found radiologists' sensitivity dropped from 71% to 39% when AI missed a cancer. What automation bias means for AI reporting safeguards." />
+        <title>Automation Bias in Radiology AI: 71% to 39% | xAID</title>
+        <meta name="description" content="A 2026 RSNA Radiology study found radiologists' sensitivity fell from 71% to 39% on the cancers AI missed. What that means for how AI reporting is designed." />
         <link rel="canonical" href={canonical} />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Automation Bias in Radiology AI | xAID" />
-        <meta property="og:description" content="A 2026 RSNA Radiology study found radiologists' sensitivity dropped from 71% to 39% when AI missed a cancer. What automation bias means for AI reporting safeguards." />
+        <meta property="og:title" content="Automation Bias in Radiology AI: 71% to 39% | xAID" />
+        <meta property="og:description" content="A 2026 RSNA Radiology study found radiologists' sensitivity fell from 71% to 39% on the cancers AI missed. What that means for how AI reporting is designed." />
         <meta property="og:url" content={canonical} />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Automation Bias in Radiology AI | xAID" />
-        <meta name="twitter:description" content="A 2026 RSNA Radiology study found radiologists' sensitivity dropped from 71% to 39% when AI missed a cancer. What automation bias means for AI reporting safeguards." />
+        <meta name="twitter:title" content="Automation Bias in Radiology AI: 71% to 39% | xAID" />
+        <meta name="twitter:description" content="A 2026 RSNA Radiology study found radiologists' sensitivity fell from 71% to 39% on the cancers AI missed. What that means for how AI reporting is designed." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

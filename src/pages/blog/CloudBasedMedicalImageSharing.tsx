@@ -5,18 +5,18 @@ import KeyStats from '@/components/KeyStats';
 
 const CloudBasedMedicalImageSharing = () => {
   const post = {
-    title: 'Cloud-Based Medical Image Sharing: The Next Gap',
+    title: 'Cloud-Based Medical Image Sharing: The Report Gap',
     dateIso: '2026-08-16',
     date: 'August 16, 2026',
     category: 'Market & Policy',
     readingTime: 7,
-    description: "Epic's new one-click tool moves full-resolution scans between hospitals without CDs. The radiology report riding along still has no standard structure.",
+    description: "Epic's one-click tool moves full-resolution scans between hospitals without CDs. The report riding along still has no standard structure — that is the real gap.",
   };
 
   return (
     <>
       <Helmet defer={false}>
-        <title>{post.title} | xAID</title>
+        <title>Cloud-Based Medical Image Sharing: The Report Gap | xAID</title>
         <meta name="description" content={post.description} />
         <link rel="canonical" href="https://xaid.ai/blog/cloud-based-medical-image-sharing/" />
         <meta property="og:type" content="article" />

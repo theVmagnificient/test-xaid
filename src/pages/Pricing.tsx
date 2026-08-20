@@ -71,22 +71,22 @@ const Pricing = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>AI CT Reporting Pricing vs Locum & Teleradiology | xAID</title>
+        <title>Teleradiology Pricing Per Study: 2026 Cost Comparison | xAID</title>
         <meta
           name="description"
-          content="Compare AI CT reporting costs: xAID vs locum radiologist ($500K+/yr) vs traditional teleradiology ($40–$80/study). See the ROI of ready-to-sign AI radiology reports."
+          content="What teleradiology costs per CT study in 2026 — $40–$80 routine, plus after-hours surcharges — compared against locum cover and per-study AI reporting."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="AI CT Reporting Pricing — xAID vs Locum vs Teleradiology" />
-        <meta property="og:description" content="Full cost comparison: AI radiology reporting vs locum radiologists vs traditional teleradiology. Free 5-study pilot." />
+        <meta property="og:title" content="Teleradiology Pricing Per Study: 2026 Cost Comparison" />
+        <meta property="og:description" content="What teleradiology costs per CT study in 2026 — $40–$80 routine, plus after-hours surcharges — compared against locum cover and per-study AI reporting." />
         <meta property="og:url" content="https://xaid.ai/pricing" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="xAID" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AI CT Reporting Pricing — xAID vs Locum vs Teleradiology" />
-        <meta name="twitter:description" content="Full cost comparison: AI radiology reporting vs locum radiologists vs traditional teleradiology. Free 5-study pilot." />
+        <meta name="twitter:title" content="Teleradiology Pricing Per Study: 2026 Cost Comparison" />
+        <meta name="twitter:description" content="What teleradiology costs per CT study in 2026 — $40–$80 routine, plus after-hours surcharges — compared against locum cover and per-study AI reporting." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

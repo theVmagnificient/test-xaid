@@ -15,18 +15,18 @@ const NighthawkRadiology = () => {
   return (
     <>
       <Helmet defer={false}>
-        <title>Nighthawk Radiology: History &amp; the AI Shift | xAID</title>
-        <meta name="description" content="Nighthawk radiology explained — the history of NightHawk Radiology Services, how overnight preliminary reads work, and how AI is changing after-hours coverage." />
+        <title>Nighthawk Radiology: Overnight Reads Explained | xAID</title>
+        <meta name="description" content="What nighthawk radiology is, how overnight preliminary reads actually work, what the model costs today, and what replaced the original NightHawk service." />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Nighthawk Radiology: History &amp; the AI Shift | xAID" />
-        <meta property="og:description" content="Nighthawk radiology explained — the history of NightHawk Radiology Services, how overnight preliminary reads work, and how AI is changing after-hours coverage." />
+        <meta property="og:title" content="Nighthawk Radiology: Overnight Reads Explained | xAID" />
+        <meta property="og:description" content="What nighthawk radiology is, how overnight preliminary reads actually work, what the model costs today, and what replaced the original NightHawk service." />
         <meta property="og:url" content="https://xaid.ai/blog/nighthawk-radiology" />
         <meta property="og:image" content="https://xaid.ai/og-image.png" />
         <meta property="og:site_name" content="xAID" />
         <meta property="article:published_time" content={post.dateIso} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Nighthawk Radiology: History &amp; the AI Shift | xAID" />
-        <meta name="twitter:description" content="Nighthawk radiology explained — the history of NightHawk Radiology Services, how overnight preliminary reads work, and how AI is changing after-hours coverage." />
+        <meta name="twitter:title" content="Nighthawk Radiology: Overnight Reads Explained | xAID" />
+        <meta name="twitter:description" content="What nighthawk radiology is, how overnight preliminary reads actually work, what the model costs today, and what replaced the original NightHawk service." />
         <meta name="twitter:image" content="https://xaid.ai/og-image.png" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
