@@ -7,6 +7,42 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://xaid.ai/blog/incidental-renal-mass-ct-report/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/radiologist-pay-stagnation-2026/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/qualifying-payment-amount-no-surprises-act/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/cloud-based-medical-image-sharing/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/coalition-for-health-ai-vendor-security-checklist/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/radiology-viewer-software-reporting-bottleneck/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xaid.ai/privacy-policy/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>yearly</changefreq>
@@ -92,7 +128,7 @@
   </url>
   <url>
     <loc>https://xaid.ai/blog/</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -387,6 +423,18 @@
   <url>
     <loc>https://xaid.ai/blog/clinical-indication-radiology-orders/</loc>
     <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/radiology-ai-clinical-outcomes-evidence-gap/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaid.ai/blog/incidental-lung-nodule-malignancy-risk-ai/</loc>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
