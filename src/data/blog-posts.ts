@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'incidental-renal-mass-ct-report',
+    title: 'Incidental Renal Mass on CT: Why the Report Matters',
+    excerpt: 'The FDA just fast-tracked a PET agent for indeterminate renal masses. But most incidental kidney findings never reach any second test — they live or die on how precisely the original CT or MRI report describes them.',
+    date: 'August 20, 2026',
+    dateIso: '2026-08-20',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['incidental renal mass', 'renal mass workup', 'indeterminate renal mass CT', 'Bosniak classification', 'kidney mass PET agent', 'CAIX PET imaging'],
+  },
+  {
     slug: 'radiologist-pay-stagnation-2026',
     title: '42% of Millennial Radiologists Say Pay Stagnated: What the Data Shows',
     excerpt: "A new Medscape survey finds 42% of millennial radiologists saw pay stagnate or fall in 2025 — evidence that throughput, not headcount, is the lever left.",
