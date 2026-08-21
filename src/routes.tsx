@@ -32,6 +32,7 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/integrations': () => import('./pages/Integrations'),
   '/how-ai-ct-reporting-works': () => import('./pages/HowAiCtReportingWorks'),
   '/blog': () => import('./pages/Blog'),
+  '/blog/glioblastoma-imaging-tumor-extent-reporting': () => import('./pages/blog/GlioblastomaImagingTumorExtentReporting'),
   '/blog/incidental-renal-mass-ct-report': () => import('./pages/blog/IncidentalRenalMassCtReport'),
   '/blog/radiologist-pay-stagnation-2026': () => import('./pages/blog/RadiologistPayStagnation2026'),
   '/blog/qualifying-payment-amount-no-surprises-act': () => import('./pages/blog/QualifyingPaymentAmountNoSurprisesAct'),

@@ -2,6 +2,10 @@
   "_comment": "Dedup ledger for the trending-news pipeline. 'published' = live/approved xaid.ai blog slugs. 'seen' = source items already evaluated (add {url, date, decision} as the pipeline runs) so we never re-score or re-cover the same news. Seeded 2026-07-02 with the existing blog + the 2 pilot articles.",
   "published": [
     {
+      "slug": "glioblastoma-imaging-tumor-extent-reporting",
+      "topic": "neuro-oncology imaging / quantitative tumor-extent reporting (news hook: NIH glioblastoma PET grant)"
+    },
+    {
       "slug": "ai-radiology-reporting-buyers-guide-2026",
       "topic": "vendor evaluation / buyer guide"
     },
@@ -1667,6 +1671,46 @@
       "url": null,
       "date": "2026-08-20",
       "decision": "no evergreen pick - keyword-backlog Pick agent returned zero picks (backlogLow: true), same recurring situation as 2026-08-17/18/19. Needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/pet-ct/researchers-awarded-nearly-3m-nih-grant-advance-glioblastoma-imaging",
+      "date": "2026-08-21",
+      "decision": "drafted and PUBLISHED today as glioblastoma-imaging-tumor-extent-reporting (fitScore 4, seoScore 6, gate ready, factcheck pass on all 10 claims). Chosen as today's autorun pick: the only candidate with gate=ready AND factcheck=pass (no fix-needed items), no competitor-airtime issue. Integrated via the 4-file contract with dateIso 2026-08-21."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/structural-alterations-brain-evident-mri-7-years-amyloid-plaques-ad-patients",
+      "date": "2026-08-21",
+      "decision": "drafted as amyloid-pet-imaging-mri-structured-reporting (fitScore 3, seoScore 4, gate ready after fixing an authorship misattribution found by fact-check). NOT chosen for publish today: weaker xAID fit (MRI/Alzheimer's research, not CT) than the glioblastoma pick, and only one candidate could be published. Draft left un-integrated in content-pipeline/drafts/ for founder review; may be reconsidered on a future day."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/work-home-mandate-led-mass-exodus-radiologists-1-health-system-oig-says",
+      "date": "2026-08-21",
+      "decision": "redrafted today with an evergreen reframe as can-radiologists-work-from-home (fitScore 7, seoScore 8, targets \"can a radiologist work from home\" 320/mo KD0) that drops the specific VA facility/Secretary naming that blocked the 2026-08-18 draft (can-a-radiologist-work-from-home). Fact-check fix-needed item (one mis-sourced 99% statistic) was corrected in-place; all other claims verified exact-match against primary OIG PDFs. Gate remained needs-human: reviewer flagged that citing a real, still-live federal RTO/VA staffing controversy (even anonymized) may still read as too politically charged for the brand, independent of naming. NOT chosen for publish today pending that founder call. Draft left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/news/15832951/studies-link-moleculight-imaging-to-wound-graft-success-rates",
+      "date": "2026-08-21",
+      "decision": "skipped - wound-imaging device study, off-core (not CT/AI reporting), no workflow hook; not shortlisted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-rallies-support-bill-reform-physician-pay",
+      "date": "2026-08-21",
+      "decision": "skipped - same Patients First Act bill already covered by the published patients-first-act-radiology article and by an earlier explicitly-skipped ACR-advocacy follow-up; this ACR-rallies-support story is the same pattern again, no new standalone angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/patient-care/indiana-university-health-launches-new-theranostics-center-excellence-help-40m-commitment",
+      "date": "2026-08-21",
+      "decision": "skipped - single-site nuclear-medicine/theranostics center launch, off-core modality (not CT/AI reporting), same category as prior skipped theranostics-center items; not shortlisted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/siemens-healthineers-receiving-31m-federal-funding-develop-robotic-ir-stroke-treatment",
+      "date": "2026-08-21",
+      "decision": "skipped - interventional/procedural robotics story (stroke treatment device, not diagnostic CT reporting), off-core; no matching keyword demand ('robotic stroke treatment' searches are dominated by rehab-glove/consumer intent). Considered only as a contrast-case angle, did not make final drafting cut."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/imaging-group-beefs-c-suite-radiologist-roster-hits-200-amid-rapid-growth",
+      "date": "2026-08-21",
+      "decision": "skipped - single-company personnel/leadership-growth news, no AI-reporting or workflow hook; not shortlisted."
     }
   ]
 }

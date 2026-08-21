@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'glioblastoma-imaging-tumor-extent-reporting',
+    title: 'A $2.54M Glioblastoma Imaging Grant Points to the Real Bottleneck: Reporting Extent, Not Just Detection',
+    excerpt: "Wayne State researchers won a $2.54M NIH grant to build a quantitative PET tracer for glioblastoma. The real story isn't detection — it's why turning a scan into a number surgeons can act on is the hard, underfunded part of neuro-oncology imaging.",
+    date: 'August 21, 2026',
+    dateIso: '2026-08-21',
+    category: 'Neuro-Oncology Imaging',
+    readingTime: 7,
+    keywords: ['glioblastoma imaging', 'tumor extent reporting', 'quantitative MRI', 'PET imaging glioblastoma', 'structured radiology reporting'],
+  },
+  {
     slug: 'incidental-renal-mass-ct-report',
     title: 'Incidental Renal Mass on CT: Why the Report Matters',
     excerpt: 'The FDA just fast-tracked a PET agent for indeterminate renal masses. But most incidental kidney findings never reach any second test — they live or die on how precisely the original CT or MRI report describes them.',
