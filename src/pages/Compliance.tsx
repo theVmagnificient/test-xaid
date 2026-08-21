@@ -25,7 +25,7 @@ const compliancePoints = [
   },
   {
     title: 'Radiologist review on every report',
-    desc: 'Every xAID report is reviewed by our licensed, credentialed in-house European radiologist. AI-assisted, not autonomous — your radiologist delivers the final report',
+    desc: 'Every xAID report is reviewed in-house by a licensed, credentialed European radiologist. AI-assisted, not autonomous — your radiologist delivers the final report',
     badge: 'Radiologist Reviewed',
   },
   {
@@ -89,7 +89,7 @@ const Compliance = () => {
               "name": "Who is liable for an AI-generated radiology report?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID is AI-assisted, not autonomous. Every report is reviewed by our licensed, credentialed in-house European radiologist before delivery. The reviewing radiologist is professionally and legally responsible for the report content."
+                "text": "xAID is AI-assisted, not autonomous. Every report is reviewed in-house by a licensed, credentialed European radiologist before delivery. The reviewing radiologist is professionally and legally responsible for the report content."
               }
             },
             {
@@ -97,7 +97,7 @@ const Compliance = () => {
               "name": "Does AI CT reporting require FDA clearance?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID's workflow includes radiologist review on every report. The output is a complete preliminary report reviewed by our in-house European radiologist — ready for your radiologist to review and sign. Contact xAID for specific questions about regulatory context for your use case."
+                "text": "xAID's workflow includes radiologist review on every report. The output is a complete preliminary report reviewed in-house by a European radiologist — ready for your radiologist to review and sign. Contact xAID for specific questions about regulatory context for your use case."
               }
             },
             {
@@ -165,12 +165,12 @@ const Compliance = () => {
                 Radiologist review on every report
               </h2>
               <p className="text-white/60 text-lg font-light leading-[1.65] mb-6 text-center">
-                xAID is AI-assisted, not autonomous. The final report is always reviewed by our in-house European radiologist — making the accountability model identical to traditional teleradiology
+                xAID is AI-assisted, not autonomous. The final report is always reviewed in-house by a European radiologist — making the accountability model identical to traditional teleradiology
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 items-stretch mt-10">
                 {[
                   { title: 'AI analyzes the study', desc: 'Two AI layers process 100+ findings across head, chest, or abdomen CT' },
-                  { title: 'Radiologist reviews', desc: 'Licensed, credentialed European radiologist reviews the AI draft and all findings' },
+                  { title: 'Radiologist reviews', desc: 'Licensed, credentialed European radiologists review the AI draft and all findings' },
                   { title: 'Your radiologist signs', desc: 'The reviewed preliminary is delivered ready to sign — the final signature and professional accountability stay with your reading radiologist' },
                 ].map((item, i) => (
                   <div
@@ -226,7 +226,7 @@ const Compliance = () => {
                 },
                 {
                   q: 'Who is responsible if an AI radiology report contains an error?',
-                  a: 'The European radiologist who reviews the report is professionally accountable for its content. xAID is AI-assisted, not autonomous. No report is delivered without radiologist review',
+                  a: 'The European radiologist who reviews a given report is professionally accountable for its content. xAID is AI-assisted, not autonomous. No report is delivered without radiologist review',
                 },
                 {
                   q: 'Does xAID use cloud infrastructure outside the US?',

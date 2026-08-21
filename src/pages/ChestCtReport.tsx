@@ -160,7 +160,7 @@ const ChestCtReport = () => {
               {[
                 { step: '1', title: 'DICOM received', desc: 'Chest CT images arrive via DICOM to xAID. No manual uploads — fully automated ingest' },
                 { step: '2', title: 'AI analysis', desc: 'Two AI layers — foundation model and secondary verification — analyze the study across 100+ findings. Results are structured into a report draft' },
-                { step: '3', title: 'Radiologist review', desc: 'Our in-house European radiologist reviews the AI-generated report before delivery' },
+                { step: '3', title: 'Radiologist review', desc: 'An in-house European radiologist reviews the AI-generated report before delivery' },
                 { step: '4', title: 'Ready-to-sign report delivered', desc: 'Report returned via HL7 or PDF to your RIS. Turnaround 2–12 hours' },
               ].map((item) => (
                 <div key={item.step} className="flex gap-6">

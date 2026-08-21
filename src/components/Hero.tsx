@@ -65,7 +65,7 @@ const Hero = () => {
               className="font-['Poppins'] font-light text-white/60 text-[15px] leading-[1.65] max-w-[480px] mb-8 opacity-0 animate-fade-in-up"
               style={{ animationDelay: '150ms' }}
             >
-              AI radiology reporting for outpatient imaging centers and teleradiology providers. Head, chest, and abdomen CT — two AI layers + in-house European radiologist review at narrow AI pricing. 2–12 hr TAT
+              AI radiology reporting for outpatient imaging centers and teleradiology providers. Head, chest, and abdomen CT — two AI layers + review by our in-house European radiologists at narrow AI pricing. 2–12 hr TAT
             </p>
 
             {/* CTAs (mobile: under subtitle) */}

@@ -8,7 +8,7 @@ const rows = [
   { aspect: 'Clinical accuracy', teleradiology: 'No published data — variable, unverified', xaid: '95% accuracy — verified by peer-reviewed studies' },
   { aspect: 'Quality guarantee', teleradiology: 'None — no contractual commitment', xaid: '95% accuracy — or we reimburse' },
   { aspect: 'Setup time', teleradiology: '2–8 weeks (credentialing, contracting)', xaid: 'Under 1 week via DICOM C-STORE / HL7 ORU' },
-  { aspect: 'Radiologist review', teleradiology: 'Yes — radiologist reads and dictates', xaid: 'Yes — in-house European radiologist reviews every report' },
+  { aspect: 'Radiologist review', teleradiology: 'Yes — radiologist reads and dictates', xaid: 'Yes — in-house European radiologists review every report' },
   { aspect: 'Report output', teleradiology: 'Signed report (dictated)', xaid: 'Ready-to-sign report (radiologist-reviewed)' },
   { aspect: 'Coverage hours', teleradiology: '24/7 (with surcharge)', xaid: '24/7 flat rate' },
   { aspect: 'Modalities', teleradiology: 'CT, MRI, X-ray, nuclear (full suite)', xaid: 'CT only (head, chest, abdomen)' },
@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: 'Does AI replace the radiologist in AI CT reporting?',
-    a: 'No. In xAID\'s model, AI generates the complete structured report and our in-house European radiologist reviews and edits if needed before delivery. The radiologist is the accountable clinician. AI eliminates the dictation and structuring workload — it does not remove radiologist accountability',
+    a: 'No. In xAID\'s model, AI generates the complete structured report and an in-house European radiologist reviews and edits if needed before delivery. The radiologist is the accountable clinician. AI eliminates the dictation and structuring workload — it does not remove radiologist accountability',
   },
   {
     q: 'Why is AI CT reporting cheaper than teleradiology for after-hours?',

@@ -25,7 +25,7 @@ const painPoints = [
 const workflow = [
   { step: '1', title: 'Send CT via DICOM', desc: 'Standard DICOM push. Works with your existing PACS — no new hardware' },
   { step: '2', title: 'Two AI layers analyze', desc: 'Foundation model + secondary AI screen 100+ findings. Every CT. Every time' },
-  { step: '3', title: 'Radiologist reviews', desc: 'In-house European radiologist reviews every report before delivery' },
+  { step: '3', title: 'Radiologist reviews', desc: 'In-house European radiologists review every report before delivery' },
   { step: '4', title: 'Ready-to-sign report via HL7', desc: 'Delivered into your system in 2–12 hours. Ready to act on immediately' },
 ];
 
@@ -302,7 +302,7 @@ const ForSmallHospitals = () => {
                   { label: 'HIPAA', value: 'Fully compliant — US-based AWS infrastructure only, zero-footprint viewers' },
                   { label: 'ISO 27001', value: 'Certified — annual third-party security audit' },
                   { label: 'BAA', value: 'Business Associate Agreement available — sign before pilot begins' },
-                  { label: 'Radiologist accountability', value: 'Every report reviewed by our in-house European radiologist' },
+                  { label: 'Radiologist accountability', value: 'Every report reviewed in-house by a European radiologist' },
                   { label: 'Data residency', value: 'All PHI stays on US servers — no data leaves US infrastructure' },
                   { label: 'DICOM/HL7', value: 'Standard DICOM input / HL7 output — no proprietary formats required' },
                 ].map((item) => (
@@ -330,7 +330,7 @@ const ForSmallHospitals = () => {
               faqs={[
                 {
                   q: 'How can a small hospital get radiology coverage without a full-time radiologist?',
-                  a: 'xAID provides AI-powered CT reporting at per-study pricing with no FTE commitment. Setup takes under one week via standard DICOM integration. Our in-house European radiologist reviews every report before delivery. The output is a ready-to-sign report — comparable to teleradiology in workflow, at lower cost, and with 95% accuracy verified by peer-reviewed studies',
+                  a: 'xAID provides AI-powered CT reporting at per-study pricing with no FTE commitment. Setup takes under one week via standard DICOM integration. Our in-house European radiologists review every report before delivery. The output is a ready-to-sign report — comparable to teleradiology in workflow, at lower cost, and with 95% accuracy verified by peer-reviewed studies',
                 },
                 {
                   q: 'What is the cost of AI CT reporting vs a locum radiologist?',

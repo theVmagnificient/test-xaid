@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: 'How accurate is AI CT reporting compared to a radiologist?',
-    answer: 'xAID achieves 95% accuracy verified by peer-reviewed studies — or we reimburse. Every report is also reviewed by our in-house European radiologist before delivery',
+    answer: 'xAID achieves 95% accuracy verified by peer-reviewed studies — or we reimburse. Every report is also reviewed in-house by a European radiologist before delivery',
   },
   {
     question: 'What is the CT report turnaround time?',
@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'How does AI CT reporting compare to locum radiologists in cost?',
-    answer: 'Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months), and carry burnout and turnover risk. xAID charges per study, sets up in under one week, and includes 24/7 coverage — with no staffing overhead. The rate is lower because the work is different: our in-house European radiologist reviews a complete AI-drafted report instead of dictating from a blank screen. What comes back is ready to sign — your own reading radiologist signs it',
+    answer: 'Locum radiologists cost $500,000–$650,000 per year for full-time coverage, take 2–4+ months to source and credential (a permanent hire takes 6–18 months), and carry burnout and turnover risk. xAID charges per study, sets up in under one week, and includes 24/7 coverage — with no staffing overhead. The rate is lower because the work is different: an in-house European radiologist reviews a complete AI-drafted report instead of dictating from a blank screen. What comes back is ready to sign — your own reading radiologist signs it',
   },
   {
     question: 'How does DICOM and HL7 integration work?',
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: 'How does xAID differ from AI detection tools?',
-    answer: 'AI detection tools flag suspected findings and reprioritize the worklist, but the radiologist still reads and writes the full report from scratch. xAID is a full reporting service: AI analysis generates the complete structured report, which our in-house European radiologist reviews before delivery. The output from xAID is a ready-to-sign document; the output from detection tools is an alert. Detection tools are designed for hospital ED workflows; xAID is designed for outpatient imaging centers and teleradiology providers that need the complete report delivered',
+    answer: 'AI detection tools flag suspected findings and reprioritize the worklist, but the radiologist still reads and writes the full report from scratch. xAID is a full reporting service: AI analysis generates the complete structured report, which an in-house European radiologist reviews before delivery. The output from xAID is a ready-to-sign document; the output from detection tools is an alert. Detection tools are designed for hospital ED workflows; xAID is designed for outpatient imaging centers and teleradiology providers that need the complete report delivered',
   },
   {
     question: 'What does AI CT reporting cost compared to traditional teleradiology?',

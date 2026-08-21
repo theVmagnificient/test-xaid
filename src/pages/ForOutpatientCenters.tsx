@@ -20,7 +20,7 @@ const painPoints = [
 const workflow = [
   { step: '1', title: 'Send CT via DICOM', desc: 'Standard DICOM push to our PACS. No new equipment, no workflow changes' },
   { step: '2', title: 'Two AI layers process the study', desc: 'Foundation model + secondary AI analyze 100+ findings across head, chest, or abdomen CT' },
-  { step: '3', title: 'Radiologist reviews', desc: 'Every report reviewed by our in-house European radiologist before delivery' },
+  { step: '3', title: 'Radiologist reviews', desc: 'Every report reviewed in-house by a European radiologist before delivery' },
   { step: '4', title: 'Report delivered via HL7', desc: 'Ready-to-sign report arrives in your system within 2–12 hours' },
 ];
 

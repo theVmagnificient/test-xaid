@@ -25,7 +25,7 @@ const painPoints = [
 const workflow = [
   { step: '1', title: 'Route CT via DICOM', desc: 'Send overflow or designated studies via standard DICOM push. No new equipment required' },
   { step: '2', title: 'Two AI layers analyze the study', desc: 'Foundation model + secondary AI review 100+ findings across head, chest, or abdomen CT' },
-  { step: '3', title: 'Radiologist reviews', desc: 'Every report reviewed by our in-house European radiologist before delivery' },
+  { step: '3', title: 'Radiologist reviews', desc: 'Every report reviewed in-house by a European radiologist before delivery' },
   { step: '4', title: 'Report returned via HL7', desc: 'Ready-to-sign report delivered to your system within 2–12 hours' },
 ];
 
@@ -89,7 +89,7 @@ const ForTeleradiologyCompanies = () => {
               "name": "What accuracy does xAID provide for teleradiology operations?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. Every report is reviewed by our in-house European radiologist before delivery."
+                "text": "xAID achieves 95% accuracy verified by peer-reviewed studies. Every report is reviewed in-house by a European radiologist before delivery."
               }
             },
             {
@@ -271,7 +271,7 @@ const ForTeleradiologyCompanies = () => {
                 },
                 {
                   q: 'What accuracy does xAID provide for teleradiology operations?',
-                  a: 'xAID achieves 95% accuracy verified by peer-reviewed studies. Every report is reviewed by our in-house European radiologist before delivery',
+                  a: 'xAID achieves 95% accuracy verified by peer-reviewed studies. Every report is reviewed in-house by a European radiologist before delivery',
                 },
               ]}
             />

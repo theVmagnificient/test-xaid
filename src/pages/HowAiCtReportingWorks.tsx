@@ -71,7 +71,7 @@ const faqs = [
   },
   {
     q: 'How accurate is AI CT reporting compared to a human radiologist?',
-    a: 'xAID achieves 95% accuracy verified by independent peer-reviewed studies. These figures reflect AI-plus-radiologist performance, not autonomous AI, since every xAID report is reviewed by our in-house European radiologist before delivery. Full clinical evidence is available at xaid.ai/accuracy',
+    a: 'xAID achieves 95% accuracy verified by independent peer-reviewed studies. These figures reflect AI-plus-radiologist performance, not autonomous AI, since every xAID report is reviewed in-house by a European radiologist before delivery. Full clinical evidence is available at xaid.ai/accuracy',
   },
   {
     q: 'What AI model does xAID use for CT interpretation?',
@@ -214,7 +214,7 @@ const HowAiCtReportingWorks = () => {
                 <ul className="space-y-4 flex-1 mb-7">
                   {[
                     'AI generates complete structured CT report',
-                    'European radiologist reviews the report',
+                    'A European radiologist reviews the report',
                     'Ready-to-sign report returned via HL7 to your RIS',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">

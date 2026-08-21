@@ -24,7 +24,7 @@ const useCases = [
 const workflow = [
   { step: '1', title: 'Send CT via DICOM', desc: 'Standard DICOM push to xAID. No new equipment or workflow changes required' },
   { step: '2', title: 'AI analyzes 100+ findings', desc: 'Foundation model + secondary AI layer process the study. Head, chest, or abdomen CT' },
-  { step: '3', title: 'Radiologist reviews', desc: 'Every report reviewed by our in-house European radiologist. Your radiologists review — they don\'t dictate' },
+  { step: '3', title: 'Radiologist reviews', desc: 'Every report reviewed in-house by a European radiologist. Your radiologists review — they don\'t dictate' },
   { step: '4', title: 'Report returned via HL7', desc: 'Ready-to-sign report in your system within 2–12 hours' },
 ];
 
@@ -191,7 +191,7 @@ const ForRadiologyGroups = () => {
                 {[
                   'Ready-to-sign CT reports — head, chest, abdomen — at narrow AI pricing',
                   'Two AI layers analyzing 100+ findings per report — foundation model + secondary AI',
-                  'European radiologist review included on every report before delivery',
+                  'In-house European radiologists review every report before delivery',
                   '95% accuracy verified by peer-reviewed studies — the only AI CT reporting service with published clinical evidence',
                   '2–12 hour SLA-backed turnaround, configurable to your schedule',
                   'Standard DICOM/HL7 — typically live in under one week',

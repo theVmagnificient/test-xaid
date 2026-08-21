@@ -9,7 +9,7 @@ const steps = [
   {
     number: 2,
     title: 'AI + radiologist produce the report',
-    description: 'Our foundation models analyze 100+ findings. Our in-house European radiologist reviews every report, comparing against prior CT studies when supplied',
+    description: 'Our foundation models analyze 100+ findings. Our in-house European radiologists review every report, comparing against prior CT studies when supplied',
   },
   {
     number: 3,

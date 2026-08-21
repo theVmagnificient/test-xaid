@@ -147,7 +147,7 @@ const Integrations = () => {
                     {
                       step: '4',
                       title: 'Radiologist review',
-                      desc: 'Our in-house European radiologist reviews the AI-generated report before delivery. The report is returned as HL7 ORU or PDF — formatted to match your RIS expectations',
+                      desc: 'An in-house European radiologist reviews the AI-generated report before delivery. The report is returned as HL7 ORU or PDF — formatted to match your RIS expectations',
                     },
                     {
                       step: '5',
