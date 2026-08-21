@@ -67,7 +67,7 @@ const SmallHospitalRadiology = () => {
               "name": "Can AI replace a teleradiology service at a small hospital?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. AI CT reporting services deliver the same output as traditional teleradiology — a ready-to-sign CT report reviewed by our in-house European radiologist — at lower per-study cost, with no after-hours surcharge, and with 95% accuracy verified by peer-reviewed studies. The integration uses the same DICOM/HL7 interface as existing teleradiology providers, making the transition operationally straightforward for most small hospital IT teams."
+                "text": "Yes. AI CT reporting services deliver the same output as traditional teleradiology — a ready-to-sign CT report reviewed in-house by a European radiologist — at lower per-study cost, with no after-hours surcharge, and with 95% accuracy verified by peer-reviewed studies. The integration uses the same DICOM/HL7 interface as existing teleradiology providers, making the transition operationally straightforward for most small hospital IT teams."
               }
             },
             {
@@ -196,7 +196,7 @@ const SmallHospitalRadiology = () => {
 
               <h2 className="text-[22px] font-medium text-white leading-[1.3] mt-10 mb-3">Option 4: AI CT reporting</h2>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
-                AI CT reporting services deliver the same output as traditional teleradiology — a complete, ready-to-sign CT report reviewed by our in-house European radiologist — at lower per-study cost and with no after-hours premium. The two-AI-layer approach (foundation model + secondary verification) generates 100+ finding flags per study, which the radiologist reviews before delivery.
+                AI CT reporting services deliver the same output as traditional teleradiology — a complete, ready-to-sign CT report reviewed in-house by a European radiologist — at lower per-study cost and with no after-hours premium. The two-AI-layer approach (foundation model + secondary verification) generates 100+ finding flags per study, which the radiologist reviews before delivery.
               </p>
               <p className="text-white/60 text-[15px] font-light leading-[1.65] mb-4">
                 The key difference for small hospitals is the economic structure:
@@ -265,7 +265,7 @@ const SmallHospitalRadiology = () => {
                 {[
                   {
                     q: 'How can a small hospital get radiology coverage without hiring a radiologist?',
-                    a: 'AI CT reporting services provide per-study coverage at a fraction of hiring cost. Every report is reviewed by our in-house European radiologist. Setup takes under one week via standard DICOM integration, with no minimum volume or long-term commitment.'
+                    a: 'AI CT reporting services provide per-study coverage at a fraction of hiring cost. Every report is reviewed in-house by a European radiologist. Setup takes under one week via standard DICOM integration, with no minimum volume or long-term commitment.'
                   },
                   {
                     q: 'What does radiology coverage cost for a small hospital?',

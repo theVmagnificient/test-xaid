@@ -83,7 +83,7 @@ const RadiologistSalaryTransparency = () => {
               "name": "How does AI CT reporting help imaging centers facing the radiologist shortage?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "AI can add reading capacity instead of headcount. Foundation-model AI drafts a structured CT report, xAID's in-house European radiologist reviews every preliminary, and the report is delivered ready-to-sign so the client's US reading radiologist signs the final. That relieves throughput pressure without competing in a hiring race for scarce radiologists — the final signature always stays with your reading radiologist."
+                "text": "AI can add reading capacity instead of headcount. Foundation-model AI drafts a structured CT report, xAID's in-house European radiologists review every preliminary, and the report is delivered ready-to-sign so the client's US reading radiologist signs the final. That relieves throughput pressure without competing in a hiring race for scarce radiologists — the final signature always stays with your reading radiologist."
               }
             }
           ]
@@ -223,7 +223,7 @@ const RadiologistSalaryTransparency = () => {
                 Where AI CT reporting fits
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                If the market is telling imaging centers that radiologists are scarce and expensive to recruit, the practical move is to make each radiologist hour count for more. That is what AI CT reporting is built to do: a foundation-model system drafts a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report</Link>, xAID's in-house European radiologist reviews every preliminary, and the report is delivered ready-to-sign so the client's US reading radiologist signs the final. The scarce resource — a radiologist's judgment — is spent on review and signature, not on drafting from a blank page. Read against a market where half of listings will not even name a salary, that is capacity relief, not another entry in the hiring race.
+                If the market is telling imaging centers that radiologists are scarce and expensive to recruit, the practical move is to make each radiologist hour count for more. That is what AI CT reporting is built to do: a foundation-model system drafts a structured, <Link to="/blog/foundation-models-vs-narrow-ai-radiology/" className="text-xaid-blue-strong underline underline-offset-2">comprehensive report</Link>, xAID's in-house European radiologists review every preliminary, and the report is delivered ready-to-sign so the client's US reading radiologist signs the final. The scarce resource — a radiologist's judgment — is spent on review and signature, not on drafting from a blank page. Read against a market where half of listings will not even name a salary, that is capacity relief, not another entry in the hiring race.
               </p>
 
               {/* FAQ */}
@@ -244,7 +244,7 @@ const RadiologistSalaryTransparency = () => {
                   },
                   {
                     q: 'How does AI CT reporting help imaging centers facing the radiologist shortage?',
-                    a: "AI can add reading capacity instead of headcount. Foundation-model AI drafts a structured CT report, xAID's in-house European radiologist reviews every preliminary, and the report is delivered ready-to-sign so the client's US reading radiologist signs the final. That relieves throughput pressure without competing in a hiring race for scarce radiologists — the final signature always stays with your reading radiologist.",
+                    a: "AI can add reading capacity instead of headcount. Foundation-model AI drafts a structured CT report, xAID's in-house European radiologists review every preliminary, and the report is delivered ready-to-sign so the client's US reading radiologist signs the final. That relieves throughput pressure without competing in a hiring race for scarce radiologists — the final signature always stays with your reading radiologist.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">

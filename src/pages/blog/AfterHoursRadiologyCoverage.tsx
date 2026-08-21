@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: 'Can AI CT reporting cover overnight radiology?',
-    a: 'Yes. AI CT reporting services like xAID deliver complete preliminary reports 24 hours a day, 7 days a week — including nights, weekends, and holidays. The per-study rate is flat regardless of time of day. xAID includes our in-house European radiologist review in the per-study price, so every overnight study is reviewed before delivery. Turnaround time is 2–12 hours from DICOM receipt.',
+    a: 'Yes. AI CT reporting services like xAID deliver complete preliminary reports 24 hours a day, 7 days a week — including nights, weekends, and holidays. The per-study rate is flat regardless of time of day. xAID includes review by our in-house European radiologists in the per-study price, so every overnight study is reviewed before delivery. Turnaround time is 2–12 hours from DICOM receipt.',
   },
   {
     q: 'What is the radiologist burnout cost of after-hours call?',

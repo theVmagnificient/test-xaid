@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     q: 'Do AI CT reporting services replace teleradiology entirely?',
-    a: 'For outpatient imaging centers that route head, chest, and abdomen CTs, AI CT reporting can replace the majority of teleradiology spend. xAID covers all three CT modalities (head, chest, abdomen) with 100+ findings per report, 24/7 coverage with no after-hours surcharge, and includes our in-house European radiologist review in the per-study price. Organizations also use xAID alongside existing teleradiology arrangements — for overnight CT coverage, overflow reads, or specific modalities — rather than as a full replacement.',
+    a: 'For outpatient imaging centers that route head, chest, and abdomen CTs, AI CT reporting can replace the majority of teleradiology spend. xAID covers all three CT modalities (head, chest, abdomen) with 100+ findings per report, 24/7 coverage with no after-hours surcharge, and includes review by our in-house European radiologists in the per-study price. Organizations also use xAID alongside existing teleradiology arrangements — for overnight CT coverage, overflow reads, or specific modalities — rather than as a full replacement.',
   },
 ];
 
@@ -238,7 +238,7 @@ const CtRadiologyCoverageCosts = () => {
                 AI CT reporting services — including xAID — charge per study at <strong className="text-white">narrow AI pricing rates</strong>, which are materially lower than traditional teleradiology per-study rates. The exact price is volume-dependent and varies by service.
               </p>
               <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-4">
-                The key structural difference from all other options is what is included in the per-study price: AI analysis of the full CT scan (100+ findings across head, chest, and abdomen), our in-house European radiologist review before delivery, and <strong className="text-white">24/7 turnaround with no after-hours surcharge</strong>. There is no separate cost for nights, weekends, or holidays.
+                The key structural difference from all other options is what is included in the per-study price: AI analysis of the full CT scan (100+ findings across head, chest, and abdomen), review by our in-house European radiologists before delivery, and <strong className="text-white">24/7 turnaround with no after-hours surcharge</strong>. There is no separate cost for nights, weekends, or holidays.
               </p>
               <p className="text-gray-300 text-[15px] leading-[1.65] font-light mb-4">
                 xAID additionally provides <strong className="text-white">95% accuracy verified by peer-reviewed studies</strong>: two independent peer-reviewed studies confirm the accuracy of AI-assisted CT reporting with radiologist review. No other AI or teleradiology service publishes equivalent clinical evidence.

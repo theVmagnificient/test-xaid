@@ -58,7 +58,7 @@ const AiTeleradiologyVsTraditional = () => {
               "name": "What is AI teleradiology?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "AI teleradiology is a remote radiology reading service where AI analyzes CT studies and generates structured report drafts, which are then reviewed by our in-house European radiologist. Unlike traditional teleradiology (where radiologists dictate or type reports from scratch), AI teleradiology generates the structured report first — reducing reading time, improving consistency, and enabling faster turnaround."
+                "text": "AI teleradiology is a remote radiology reading service where AI analyzes CT studies and generates structured report drafts, which are then reviewed in-house by a European radiologist. Unlike traditional teleradiology (where radiologists dictate or type reports from scratch), AI teleradiology generates the structured report first — reducing reading time, improving consistency, and enabling faster turnaround."
               }
             },
             {
@@ -74,7 +74,7 @@ const AiTeleradiologyVsTraditional = () => {
               "name": "Is AI teleradiology as accurate as traditional teleradiology?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Published evidence supports the accuracy of AI-assisted CT reporting. xAID achieves 95% accuracy verified by independent peer-reviewed studies. Importantly, every xAID report is reviewed by our in-house European radiologist before delivery, providing the same professional accountability as traditional teleradiology."
+                "text": "Published evidence supports the accuracy of AI-assisted CT reporting. xAID achieves 95% accuracy verified by independent peer-reviewed studies. Importantly, every xAID report is reviewed in-house by a European radiologist before delivery, providing the same professional accountability as traditional teleradiology."
               }
             },
             {
@@ -213,7 +213,7 @@ const AiTeleradiologyVsTraditional = () => {
                 Published evidence is encouraging. xAID achieves 95% accuracy verified by independent peer-reviewed studies — and AI-assisted detection outperformed unaided radiologists across multiple pathology categories. Full clinical evidence is available at <Link to="/accuracy/" className="text-xaid-blue-strong underline underline-offset-2">xaid.ai/accuracy</Link>.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                The key caveat: AI-assisted teleradiology is not the same as autonomous AI radiology. Every xAID report is reviewed by our in-house European radiologist. The AI generates the draft; the radiologist is professionally accountable for the final product. This is the same accountability model as traditional teleradiology.
+                The key caveat: AI-assisted teleradiology is not the same as autonomous AI radiology. Every xAID report is reviewed in-house by a European radiologist. The AI generates the draft; the radiologist is professionally accountable for the final product. This is the same accountability model as traditional teleradiology.
               </p>
 
               <h2 className="text-[28px] font-normal leading-[1.15] text-[#0D0D0D] mb-4">
@@ -268,7 +268,7 @@ const AiTeleradiologyVsTraditional = () => {
                 {[
                   {
                     q: 'What is AI teleradiology?',
-                    a: 'AI teleradiology is a remote CT reporting service where an AI model analyzes the study and generates a fully structured report draft, which our in-house European radiologist then reviews before delivery. Unlike traditional teleradiology (where radiologists create reports from scratch), AI teleradiology starts from an AI-generated structured draft — enabling faster turnaround and higher consistency.',
+                    a: 'AI teleradiology is a remote CT reporting service where an AI model analyzes the study and generates a fully structured report draft, which an in-house European radiologist then reviews before delivery. Unlike traditional teleradiology (where radiologists create reports from scratch), AI teleradiology starts from an AI-generated structured draft — enabling faster turnaround and higher consistency.',
                   },
                   {
                     q: 'Is AI teleradiology cheaper than traditional teleradiology?',
@@ -276,7 +276,7 @@ const AiTeleradiologyVsTraditional = () => {
                   },
                   {
                     q: 'Is AI teleradiology as accurate as traditional teleradiology?',
-                    a: 'Published clinical evidence supports the accuracy of AI-assisted CT reporting: xAID achieves 95% accuracy verified by peer-reviewed studies. The critical point: xAID AI teleradiology is not autonomous — every report is reviewed by our in-house European radiologist before delivery, providing the same professional accountability standard as traditional teleradiology.',
+                    a: 'Published clinical evidence supports the accuracy of AI-assisted CT reporting: xAID achieves 95% accuracy verified by peer-reviewed studies. The critical point: xAID AI teleradiology is not autonomous — every report is reviewed in-house by a European radiologist before delivery, providing the same professional accountability standard as traditional teleradiology.',
                   },
                   {
                     q: 'What are the limitations of AI teleradiology?',

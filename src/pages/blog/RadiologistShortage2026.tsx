@@ -247,7 +247,7 @@ const RadiologistShortage2026 = () => {
                 What AI doesn't replace
               </h2>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-4">
-                AI CT reporting does not replace radiologists — it changes how they work. Every xAID report is reviewed by our in-house European radiologist before delivery. AI handles structured analysis, quantitative measurements, and report drafting; the radiologist handles clinical judgment, contextual reasoning, and professional accountability.
+                AI CT reporting does not replace radiologists — it changes how they work. Every xAID report is reviewed in-house by a European radiologist before delivery. AI handles structured analysis, quantitative measurements, and report drafting; the radiologist handles clinical judgment, contextual reasoning, and professional accountability.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
                 This matters for the shortage question: AI CT reporting is most effective as a force multiplier for existing radiologist capacity, not as a radiologist replacement. The same radiologist who reads 40 studies per day without AI can read 55–65 per day with AI-generated drafts — reducing the headcount required without removing human oversight.

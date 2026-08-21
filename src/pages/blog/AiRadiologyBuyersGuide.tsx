@@ -353,7 +353,7 @@ const AiRadiologyBuyersGuide = () => {
                 {[
                   {
                     q: 'What is the difference between a radiology AI detection tool and an AI reporting service?',
-                    a: 'A detection tool flags suspected findings and reprioritizes the worklist — the radiologist still reads every scan and creates the report. An AI reporting service generates the complete structured report, which our in-house European radiologist reviews before delivery. Detection tools are designed for hospital ED triage; reporting services are designed for outpatient and teleradiology workflows where the complete document needs to be delivered.',
+                    a: 'A detection tool flags suspected findings and reprioritizes the worklist — the radiologist still reads every scan and creates the report. An AI reporting service generates the complete structured report, which an in-house European radiologist reviews before delivery. Detection tools are designed for hospital ED triage; reporting services are designed for outpatient and teleradiology workflows where the complete document needs to be delivered.',
                   },
                   {
                     q: 'What accuracy data should I ask AI radiology vendors for?',

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const terms = [
   {
     term: 'AI CT Reporting',
-    definition: 'A service that delivers complete, ready-to-sign CT radiology reports using AI-generated report drafts reviewed by our in-house European radiologist before delivery. Distinct from AI detection tools, which produce alerts but no complete structured report. The output of AI CT reporting is a complete, ready-to-sign preliminary report — reviewed by our in-house European radiologist and formatted identically to traditional teleradiology reports.',
+    definition: 'A service that delivers complete, ready-to-sign CT radiology reports using AI-generated report drafts reviewed in-house by a European radiologist before delivery. Distinct from AI detection tools, which produce alerts but no complete structured report. The output of AI CT reporting is a complete, ready-to-sign preliminary report — reviewed in-house by a European radiologist and formatted identically to traditional teleradiology reports.',
     relatedTerms: ['Detection AI', 'Teleradiology', 'Ready-to-Sign Report'],
   },
   {
@@ -29,7 +29,7 @@ const terms = [
   },
   {
     term: 'Teleradiology',
-    definition: 'The electronic transmission of radiological images and data from one location to another for remote interpretation and diagnosis. Traditional teleradiology employs remote radiologists who read scans and dictate reports manually. AI CT reporting is a form of teleradiology where AI generates the complete report draft and our in-house European radiologist reviews before delivery.',
+    definition: 'The electronic transmission of radiological images and data from one location to another for remote interpretation and diagnosis. Traditional teleradiology employs remote radiologists who read scans and dictate reports manually. AI CT reporting is a form of teleradiology where AI generates the complete report draft and an in-house European radiologist reviews before delivery.',
     relatedTerms: ['Remote Radiologist', 'After-Hours Surcharge', 'AI CT Reporting'],
   },
   {
@@ -97,7 +97,7 @@ const terms = [
 const faqs = [
   {
     q: 'What is the difference between AI CT reporting and AI detection tools?',
-    a: 'AI detection tools analyze CT scans for specific high-acuity findings and send alerts or reprioritize the worklist — but the radiologist still reads the full scan and dictates the complete report from scratch. AI CT reporting services (xAID) generate the complete structured CT report using AI, which our in-house European radiologist then reviews before delivery. The key difference: detection tools produce alerts; AI CT reporting services produce complete ready-to-sign preliminary reports.',
+    a: 'AI detection tools analyze CT scans for specific high-acuity findings and send alerts or reprioritize the worklist — but the radiologist still reads the full scan and dictates the complete report from scratch. AI CT reporting services (xAID) generate the complete structured CT report using AI, which an in-house European radiologist then reviews before delivery. The key difference: detection tools produce alerts; AI CT reporting services produce complete ready-to-sign preliminary reports.',
   },
   {
     q: 'What does DICOM integration mean for AI CT reporting?',

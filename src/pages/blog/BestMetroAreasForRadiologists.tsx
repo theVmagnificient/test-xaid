@@ -98,7 +98,7 @@ const BestMetroAreasForRadiologists = () => {
               "name": "How can understaffed imaging centers keep up without winning the metro talent war?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "AI-assisted CT reporting lets centers that cannot recruit local radiologists still deliver fast, structured reads. With xAID, a foundation-model AI drafts a structured CT report, xAID's in-house European radiologist reviews every preliminary, and the report is delivered ready-to-sign so the center's own reading radiologist signs the final. This decouples reporting capacity from local hiring, helping level access for centers that can't out-compete top metros for staff."
+                "text": "AI-assisted CT reporting lets centers that cannot recruit local radiologists still deliver fast, structured reads. With xAID, a foundation-model AI drafts a structured CT report, xAID's in-house European radiologists review every preliminary, and the report is delivered ready-to-sign so the center's own reading radiologist signs the final. This decouples reporting capacity from local hiring, helping level access for centers that can't out-compete top metros for staff."
               }
             }
           ]
@@ -237,7 +237,7 @@ const BestMetroAreasForRadiologists = () => {
                 If the core problem is that reporting capacity is tied to where radiologists want to live, the useful question is how to loosen that tie. AI-assisted CT reporting is one lever: it lets a center that cannot recruit a local radiologist still deliver fast, structured reads without depending on winning the metro talent war.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                That is the model xAID is built on. A foundation-model AI drafts a structured, comprehensive CT report; xAID's in-house European radiologist reviews every preliminary; and the report is delivered <strong>ready-to-sign</strong>, so the center's own reading radiologist signs the final read that enters the patient's chart. A center in Richmond or a rural county doesn't need to out-bid Minneapolis for staff to keep its reading list moving — the capacity travels to the center, not the other way around. The geography that decides the "best place to practice" stops deciding who can get a timely read.
+                That is the model xAID is built on. A foundation-model AI drafts a structured, comprehensive CT report; xAID's in-house European radiologists review every preliminary; and the report is delivered <strong>ready-to-sign</strong>, so the center's own reading radiologist signs the final read that enters the patient's chart. A center in Richmond or a rural county doesn't need to out-bid Minneapolis for staff to keep its reading list moving — the capacity travels to the center, not the other way around. The geography that decides the "best place to practice" stops deciding who can get a timely read.
               </p>
 
               {/* FAQ */}
@@ -258,7 +258,7 @@ const BestMetroAreasForRadiologists = () => {
                   },
                   {
                     q: 'How can understaffed imaging centers keep up without winning the metro talent war?',
-                    a: "AI-assisted CT reporting lets centers that cannot recruit local radiologists still deliver fast, structured reads. With xAID, a foundation-model AI drafts a structured CT report, xAID's in-house European radiologist reviews every preliminary, and the report is delivered ready-to-sign so the center's own reading radiologist signs the final. This decouples reporting capacity from local hiring, helping level access for centers that can't out-compete top metros for staff.",
+                    a: "AI-assisted CT reporting lets centers that cannot recruit local radiologists still deliver fast, structured reads. With xAID, a foundation-model AI drafts a structured CT report, xAID's in-house European radiologists review every preliminary, and the report is delivered ready-to-sign so the center's own reading radiologist signs the final. This decouples reporting capacity from local hiring, helping level access for centers that can't out-compete top metros for staff.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="border-b border-gray-100 pb-6">

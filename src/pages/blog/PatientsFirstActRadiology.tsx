@@ -247,7 +247,7 @@ const PatientsFirstActRadiology = () => {
                 That is the lever a group actually controls today. Margin on Medicare imaging is a function of how many studies each radiologist-hour turns into a signed, billable report. Adding radiologists raises cost in a supply-constrained market; raising throughput per radiologist does not. AI that drafts a structured, comprehensive report lets a radiologist review and sign more studies per hour instead of dictating each one from a blank screen.
               </p>
               <p className="text-[#444] text-[15px] leading-[1.65] font-light mb-8">
-                That is how <Link to="/for-teleradiology-companies/" className="text-xaid-blue-strong underline underline-offset-2">xAID is built to work for reading groups</Link>: the AI produces a structured CT report, xAID's in-house European radiologist reviews every preliminary, and it is delivered ready-to-sign so your reading radiologist signs the final. Legislation moves the revenue line slowly and unpredictably; reporting throughput is the margin lever an independent group can pull now.
+                That is how <Link to="/for-teleradiology-companies/" className="text-xaid-blue-strong underline underline-offset-2">xAID is built to work for reading groups</Link>: the AI produces a structured CT report, xAID's in-house European radiologists review every preliminary, and it is delivered ready-to-sign so your reading radiologist signs the final. Legislation moves the revenue line slowly and unpredictably; reporting throughput is the margin lever an independent group can pull now.
               </p>
 
               {/* FAQ */}
