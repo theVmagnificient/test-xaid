@@ -43,7 +43,13 @@ echo "=== autorun $(date -u +%FT%TZ) ===" >> "$LOG"
 # is the existing dead-man signal.
 # --rebase, not --ff-only: publish.mjs commits here, so this tree legitimately
 # carries its own commits between runs.
-if ! git pull --rebase origin main >> "$LOG" 2>&1; then
+#
+# --autostash because the tree is legitimately dirty between runs too. A run that
+# finds no publishable candidate still records "seen" entries in ledger.json, and
+# only publish.mjs commits — so on a no-article day those edits sit uncommitted.
+# Without autostash the next pull refuses ("You have unstaged changes") and the
+# ABORT below turns one quiet day into a permanent stop. That cost 2026-08-23..27.
+if ! git pull --rebase --autostash origin main >> "$LOG" 2>&1; then
   echo "ABORT: git pull failed — refusing to build from a possibly stale tree" >> "$LOG"
   exit 1
 fi
