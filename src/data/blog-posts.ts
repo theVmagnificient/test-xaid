@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-ai-vendor-evaluation-checklist',
+    title: "ECRI's New AI Error Tracker Changes the Radiology AI Vendor Evaluation Checklist",
+    excerpt: "ECRI now tracks AI errors and near-misses across every AI vendor. Here's what belongs on your radiology AI vendor evaluation checklist now.",
+    date: 'August 27, 2026',
+    dateIso: '2026-08-27',
+    category: 'Buyer Guide',
+    readingTime: 7,
+    keywords: ['radiology ai vendor evaluation checklist', 'ECRI problem reporting network', 'AI error reporting healthcare', 'radiology AI postmarket surveillance', 'radiology AI vendor due diligence'],
+  },
+  {
     slug: 'glioblastoma-imaging-tumor-extent-reporting',
     title: 'A $2.54M Glioblastoma Imaging Grant Points to the Real Bottleneck: Reporting Extent, Not Just Detection',
     excerpt: "Wayne State researchers won a $2.54M NIH grant to build a quantitative PET tracer for glioblastoma. The real story isn't detection — it's why turning a scan into a number surgeons can act on is the hard, underfunded part of neuro-oncology imaging.",

@@ -334,6 +334,13 @@
       "source": "",
       "date": "2026-08-20",
       "approved": "2026-08-20 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-ai-vendor-evaluation-checklist",
+      "topic": "ECRI's New AI Error Tracker Changes the Radiology AI Vendor Evaluation Checklist",
+      "source": "",
+      "date": "2026-08-27",
+      "approved": "2026-08-27 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -1726,6 +1733,51 @@
       "topic": "daily-news-pipeline (autonomous run)",
       "date": "2026-08-22",
       "decision": "no pick - ingested 33 items across radiologybusiness/medtech-dive/auntminnie; all but one were already scored and skipped on 2026-08-21 (off-core: personnel moves, non-CT device launches/recalls, interventional/procedural robotics, unrelated clinical MRI studies) or already covered by published/drafted topics (glioblastoma NIH grant, amyloid/MRI structural changes, Patients First Act physician pay, FDA generative-AI discussion paper); the one new item (Siemens/Philips ARPA-H stroke-robot funding, MedTech Dive) duplicates an already-skipped Radiology Business story. Score+keywords agent returned zero shortlisted candidates. No draft produced."
+    },
+    {
+      "url": "https://www.auntminnie.com/home/news/15833279/radiology-partners-to-acquire-everlight-radiology-in-1-billion-deal",
+      "date": "2026-08-27",
+      "decision": "drafted (vrad-radiology-everlight-acquisition) but NOT selected - gate needs-human, factcheck fix-needed, AND disqualified per HARD TOPIC RULE: article's chosen angle is built around Radiology Partners' in-house 'Mosaic Drafting' AI-report-drafting product being rolled out to 800+ more radiologists via this acquisition - a competitor-adjacent AI-radiology-reporting product launch, same failure mode as the pulled radiology-care-navigation-software precedent. Draft left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15833340/ecri-expands-reporting-network-to-track-ai-errors-in-patient-care",
+      "date": "2026-08-27",
+      "decision": "drafted (radiology-ai-vendor-evaluation-checklist) and SELECTED for publish - gate ready, factcheck pass, no competitor-airtime issue (ECRI is an independent nonprofit patient-safety org). Integrated via 4-file contract, dateIso 2026-08-27."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/neuroimaging/fda-clears-new-blood-based-biomarker-test-targets-tau",
+      "date": "2026-08-27",
+      "decision": "drafted (amyloid-pet-blood-test-alternative) but NOT selected - gate needs-human, factcheck fix-needed (headline 41.68% PET-reduction stat is from a modeled clinical-trial-enrollment scenario, presented without scope caveat as general real-world PET-reduction impact); also weak product fit (off-core modality: blood biomarker/PET-Alzheimer's, not CT). Draft left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15833200/simonmed-optellum-partner-on-ai-lung-nodule-risk-assessment",
+      "date": "2026-08-27",
+      "decision": "skipped - disqualified per HARD TOPIC RULE: SimonMed/Optellum partnership announcement for an AI lung-nodule risk-stratification tool, competitor-adjacent AI-imaging vendor product news. Not drafted."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/philips-details-337m-push-to-develop-a-stroke-robot/828911/",
+      "date": "2026-08-27",
+      "decision": "skipped - duplicate of the ARPA-H robotic-thrombectomy funding story already skipped 2026-08-21 and 2026-08-22 (off-core interventional/procedural robotics, not diagnostic CT/AI reporting)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15833452/hyperfine-touts-portable-brain-mri-study",
+      "date": "2026-08-27",
+      "decision": "skipped - off-core modality (portable low-field MRI hardware), off-audience (point-of-care neuro imaging), no keyword demand found."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15833203/prenuvo-integrates-myocardial-solutions-mri-software",
+      "date": "2026-08-27",
+      "decision": "skipped - consumer-direct whole-body MRI screening, audience/modality mismatch with xAID's B2B CT reporting focus."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15833502/philips-philips-imricor-launch-mriguided-cardiac-intervention-lab-platform",
+      "date": "2026-08-27",
+      "decision": "skipped - interventional/procedural hardware (MRI-guided cardiac ablation), off-core modality and workflow, no plausible xAID angle."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-27",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }
