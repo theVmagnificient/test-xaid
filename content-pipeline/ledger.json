@@ -1711,6 +1711,21 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/imaging-group-beefs-c-suite-radiologist-roster-hits-200-amid-rapid-growth",
       "date": "2026-08-21",
       "decision": "skipped - single-company personnel/leadership-growth news, no AI-reporting or workflow hook; not shortlisted."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/siemens-healthineers-philips-awarded-arpa-h-funds-for-stroke-robots/828513/",
+      "date": "2026-08-22",
+      "decision": "skipped - MedTech Dive's writeup of the same ARPA-H robotic-thrombectomy funding already skipped from Radiology Business's coverage on 2026-08-21 (interventional/procedural robotics, not diagnostic CT reporting; off-core, no matching keyword demand)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-22",
+      "decision": "no pick - only remaining queued keyword ('radiologist shortage') still dedups against the already-published radiologist-shortage-2026-ai-ct-reporting topic; backlogLow flagged again, needs founder replenishment via DataForSEO keyword_suggestions. No draft produced."
+    },
+    {
+      "topic": "daily-news-pipeline (autonomous run)",
+      "date": "2026-08-22",
+      "decision": "no pick - ingested 33 items across radiologybusiness/medtech-dive/auntminnie; all but one were already scored and skipped on 2026-08-21 (off-core: personnel moves, non-CT device launches/recalls, interventional/procedural robotics, unrelated clinical MRI studies) or already covered by published/drafted topics (glioblastoma NIH grant, amyloid/MRI structural changes, Patients First Act physician pay, FDA generative-AI discussion paper); the one new item (Siemens/Philips ARPA-H stroke-robot funding, MedTech Dive) duplicates an already-skipped Radiology Business story. Score+keywords agent returned zero shortlisted candidates. No draft produced."
     }
   ]
 }
