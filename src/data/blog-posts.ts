@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-second-opinion-discrepancy-rate',
+    title: 'More Than 1 in 5 Neuroradiology Second Opinions Turn Up a Major Discrepancy',
+    excerpt: 'A 580-case UK study found subspecialist neuroradiology second opinions changed the read in 42% of cases — and 21% involved a major, management-changing discrepancy. What that means for how often patients actually get a real second read.',
+    date: 'August 28, 2026',
+    dateIso: '2026-08-28',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['second opinion radiology', 'radiology second opinion', 'neuroradiology discrepancy rate', 'radiology diagnostic error', 'second read radiology'],
+  },
+  {
     slug: 'radiology-ai-vendor-evaluation-checklist',
     title: "ECRI's New AI Error Tracker Changes the Radiology AI Vendor Evaluation Checklist",
     excerpt: "ECRI now tracks AI errors and near-misses across every AI vendor. Here's what belongs on your radiology AI vendor evaluation checklist now.",

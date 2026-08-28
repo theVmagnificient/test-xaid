@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/radiology-second-opinion-discrepancy-rate/",
       "/blog/radiology-ai-vendor-evaluation-checklist/",
       "/blog/glioblastoma-imaging-tumor-extent-reporting/",
       "/blog/incidental-renal-mass-ct-report/",

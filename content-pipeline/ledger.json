@@ -341,6 +341,12 @@
       "source": "",
       "date": "2026-08-27",
       "approved": "2026-08-27 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-second-opinion-discrepancy-rate",
+      "topic": "UK 580-case neuroradiology second-opinion study: 42.2% discrepancy rate, 21.4% major/management-changing",
+      "source": "Radiology Business (Clinical Radiology, Abdelsalam et al., Walton Centre NHS Foundation Trust)",
+      "date": "2026-08-28"
     }
   ],
   "seen": [
@@ -1777,6 +1783,51 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-08-27",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/neuroimaging/more-20-neuroradiologist-second-opinions-uncover-discrepancies",
+      "date": "2026-08-28",
+      "decision": "drafted -> radiology-second-opinion-discrepancy-rate; PUBLISHED (autonomous run, gate ready, fact-check fix-needed issues resolved by QA)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/common-factors-leading-malpractice-lawsuits-radiology",
+      "date": "2026-08-28",
+      "decision": "drafted -> radiology-malpractice-statistics; REJECTED (autonomous run) after fact-check FAILED: fabricated $45M max-award figure, fabricated/misattributed quote, and mischaracterized Renfrew 1992 error taxonomy underpinning the article's central thesis. Draft kept in drafts/ for reference only, not integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/neuroimaging/stroke-related-imaging-costs-have-tripled-recent-years-despite-declining-reperfusion-rates",
+      "date": "2026-08-28",
+      "decision": "drafted -> stroke-imaging-costs-reperfusion-rates (gate needs-human, awaiting founder review): unverifiable direct quote + institution-attribution ambiguity (Rutgers RWJMS vs. Monmouth Medical Center); core statistics independently confirmed. Not integrated this run."
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/news/15833566/midsize-radiology-practices-may-lose-26m-annually-to-billing-gaps",
+      "date": "2026-08-28",
+      "decision": "skipped - shortlisted (revenue-cycle/billing angle) but below top-3 draft cutoff (fit 7 / seo 5 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologists-urge-cms-quash-proposal-would-slash-pay-2nd-services-delivered-same-visit",
+      "date": "2026-08-28",
+      "decision": "skipped - shortlisted (2027 PFS same-visit multiple-procedure-payment-reduction proposal) but below top-3 draft cutoff (fit 7 / seo 3 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/imaging-wait-times-rise-after-hospital-system-purchases-private-radiology-practice",
+      "date": "2026-08-28",
+      "decision": "skipped - shortlisted (Intermountain/Steinberg Diagnostic M&A wait-time case study) but below top-3 draft cutoff (fit 7 / seo 2 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/interventional-radiologists-see-largest-year-over-year-pay-gain-among-physicians-doximity",
+      "date": "2026-08-28",
+      "decision": "skipped - shortlisted (IR vs. diagnostic pay divergence, strong keyword volume 5400/mo) but below top-3 draft cutoff; keyword intent skews IR job-seeker, moderate fit (fit 6 / seo 7 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/department-experiments-adding-button-radiology-reporting-workflows",
+      "date": "2026-08-28",
+      "decision": "skipped - shortlisted ('like' button referrer-feedback workflow pilot) but below top-3 draft cutoff; tangential product fit (fit 6 / seo 3 / interest 7)"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-28",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
