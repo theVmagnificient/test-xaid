@@ -347,6 +347,13 @@
       "topic": "UK 580-case neuroradiology second-opinion study: 42.2% discrepancy rate, 21.4% major/management-changing",
       "source": "Radiology Business (Clinical Radiology, Abdelsalam et al., Walton Centre NHS Foundation Trust)",
       "date": "2026-08-28"
+    },
+    {
+      "slug": "radiology-revenue-cycle-management",
+      "topic": "The $2.6M Radiology Billing Gap Is Also a Reporting Problem",
+      "source": "",
+      "date": "2026-08-29",
+      "approved": "2026-08-29 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -1828,6 +1835,51 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-08-28",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15833644/novarad-novarad-releases-novapacs-update",
+      "date": "2026-08-29",
+      "decision": "skipped - thin version-bump news item, would duplicate published CHAI vendor-security-checklist and medical-device-cybersecurity pieces (fit 3 / seo 2 / interest 3)"
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/news/15833279/radiology-partners-to-acquire-everlight-radiology-in-1-billion-deal",
+      "date": "2026-08-29",
+      "decision": "disqualified - competitor-adjacent AI-reporting product rollout (Radiology Partners' Mosaic Drafting), HARD TOPIC RULE; also overlaps published radiology-private-equity-stay-independent piece"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/interventional/news/15833420/philips-philips-awarded-337m-for-aienabled-robotic-stroke-care",
+      "date": "2026-08-29",
+      "decision": "skipped - same underlying ARPA-H stroke-robot funding as MedTech Dive item; off-core interventional robotics"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15833564/nanox-imaging-nanox-ai-signs-distribution-deal-for-healthost-software",
+      "date": "2026-08-29",
+      "decision": "disqualified - Nanox is on the HARD TOPIC RULE forbidden-competitor list; distribution-deal announcement for a named competitor's product"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15833611/ge-healthcare-gehc-adds-three-systems-to-vivid-ultrasound-portfolio",
+      "date": "2026-08-29",
+      "decision": "skipped - cardiac ultrasound hardware launch tied to ESC congress, not a CT/AI-reporting story, no workflow/reimbursement/accuracy hook (fit 1 / seo 1 / interest 2)"
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/market-analysis/people-in-the-news/news/15833507/fujifilm-healthcare-americas-corporation-fujifilm-americas-names-new-vice-president-general-counsel",
+      "date": "2026-08-29",
+      "decision": "skipped - pure executive-appointment news, no product/positioning fit (ledger precedent: 2026-08-19 GEHC CFO appointment)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/interventional/news/15833316/baird-medical-nets-pakistan-registrations-for-mwa-system",
+      "date": "2026-08-29",
+      "decision": "skipped - interventional oncology device regulatory registration in Pakistan, non-US market, non-imaging-AI, no connection to xAID's CT-reporting product"
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/news/15833566/midsize-radiology-practices-may-lose-26m-annually-to-billing-gaps",
+      "date": "2026-08-29",
+      "decision": "drafted & CHOSEN for today's publish as radiology-revenue-cycle-management (billing-gap/revenue-cycle documentation angle; fit 8 / seo 5 / interest 7, gate ready, factcheck pass). Previously seen/skipped 2026-08-28 below that day's cutoff, never drafted until now. INTEGRATED into 4-file contract 2026-08-29 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-29",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]

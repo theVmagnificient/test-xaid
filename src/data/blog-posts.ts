@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-revenue-cycle-management',
+    title: 'The $2.6M Radiology Billing Gap Is Also a Reporting Problem',
+    excerpt: "A new analysis puts the annual revenue-cycle opportunity at a mid-size radiology practice at $2.6 million, most of it from denials and underpayments. The industry's own denial data points at documentation — not just coding — as a recurring cause.",
+    date: 'August 29, 2026',
+    dateIso: '2026-08-29',
+    category: 'Practice Economics',
+    readingTime: 7,
+    keywords: ['radiology revenue cycle management', 'radiology billing denials', 'radiology claim denials', 'radiology reimbursement', 'structured radiology reporting'],
+  },
+  {
     slug: 'radiology-second-opinion-discrepancy-rate',
     title: 'More Than 1 in 5 Neuroradiology Second Opinions Turn Up a Major Discrepancy',
     excerpt: 'A 580-case UK study found subspecialist neuroradiology second opinions changed the read in 42% of cases — and 21% involved a major, management-changing discrepancy. What that means for how often patients actually get a real second read.',
