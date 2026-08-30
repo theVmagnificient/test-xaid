@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/radiology-practice-consolidation-wait-times/",
       "/blog/radiology-revenue-cycle-management/",
       "/blog/radiology-second-opinion-discrepancy-rate/",
       "/blog/radiology-ai-vendor-evaluation-checklist/",

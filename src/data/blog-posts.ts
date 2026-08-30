@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-practice-consolidation-wait-times',
+    title: 'A Hospital Bought a Radiology Practice. Wait Times Got Worse.',
+    excerpt: "Intermountain Health closed its acquisition of Las Vegas's Steinberg Diagnostic in January. By August, some patients were waiting three weeks for scan results the practice used to turn around in under ten days. What the case shows about radiology practice consolidation and capacity.",
+    date: 'August 30, 2026',
+    dateIso: '2026-08-30',
+    category: 'Practice Management',
+    readingTime: 8,
+    keywords: ['radiology practice consolidation', 'hospital acquisition radiology practice', 'imaging wait times', 'Steinberg Diagnostic Intermountain', 'radiologist shortage'],
+  },
+  {
     slug: 'radiology-revenue-cycle-management',
     title: 'The $2.6M Radiology Billing Gap Is Also a Reporting Problem',
     excerpt: "A new analysis puts the annual revenue-cycle opportunity at a mid-size radiology practice at $2.6 million, most of it from denials and underpayments. The industry's own denial data points at documentation — not just coding — as a recurring cause.",

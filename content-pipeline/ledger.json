@@ -354,6 +354,12 @@
       "source": "",
       "date": "2026-08-29",
       "approved": "2026-08-29 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-practice-consolidation-wait-times",
+      "topic": "A Hospital Bought a Radiology Practice. Wait Times Got Worse. (Intermountain/Steinberg Diagnostic Las Vegas case study)",
+      "source": "Radiology Business, Las Vegas Review-Journal, Intermountain Health, Medicus Healthcare Solutions, GAO",
+      "date": "2026-08-30"
     }
   ],
   "seen": [
@@ -1881,6 +1887,76 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-08-29",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-30",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/imaging-wait-times-rise-after-hospital-system-purchases-private-radiology-practice",
+      "date": "2026-08-30",
+      "decision": "drafted & CHOSEN for today's publish as radiology-practice-consolidation-wait-times (Intermountain/Steinberg Diagnostic wait-time case study; fit 7 / seo 3 / interest 7, gate ready, factcheck fix-needed with 0 flagged claims remaining after QA fixes). Previously seen/skipped 2026-08-28 below that day's cutoff (fit7/seo2/interest6). INTEGRATED into 4-file contract 2026-08-30 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-scores-over-1b-through-no-surprises-acts-independent-dispute-resolution-process",
+      "date": "2026-08-30",
+      "decision": "drafted -> no-surprises-act-radiology-reimbursement (Georgetown/CHIR $22.4B IDR cost report; fit 6.5 / seo 5 / interest 7, gate ready, factcheck fix-needed - EM >$6B figure hedged to 'reportedly' by QA, a wrong claims-list source attribution never reached the published page). NOT chosen today (radiology-practice-consolidation-wait-times had stronger fit + cleaner fact-check). Draft kept in drafts/, not integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologists-urge-cms-quash-proposal-would-slash-pay-2nd-services-delivered-same-visit",
+      "date": "2026-08-30",
+      "decision": "drafted -> multiple-procedure-payment-reduction-radiology (CY2027 same-day multiple-procedure payment reduction; fit 7 / seo 3 / interest 6). NOT chosen - gate needs-human: the article's entire news hook (an Aug 27 2026 letter from 150+ medical orgs to CMS, incl. a verbatim quote and signatory roster) is sole-sourced to one Radiology Business article that both the fact-checker and QA agent independently could not access (persistent Cloudflare block across WebFetch/curl/search engines/Wayback) or corroborate elsewhere. Draft kept in drafts/ for human review with real browser access; not integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/imaging-informatics/department-experiments-adding-button-radiology-reporting-workflows",
+      "date": "2026-08-30",
+      "decision": "skipped - shortlisted ('like' button referrer-feedback workflow pilot, novel angle) but below top-3 draft cutoff (fit 6 / seo 3 / interest 7)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/neuroimaging/amyloid-related-imaging-abnormalities-significant-concern-among-patients-receiving-alzheimers",
+      "date": "2026-08-30",
+      "decision": "skipped - shortlisted (ARIA monitoring volume from Alzheimer's monoclonal-antibody therapies) but below top-3 draft cutoff; off-core modality (MRI, not CT), very low search volume (fit 6 / seo 2 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/interventional-radiologists-see-largest-year-over-year-pay-gain-among-physicians-doximity",
+      "date": "2026-08-30",
+      "decision": "skipped - shortlisted (IR vs. diagnostic pay divergence, best measurable volume in pool 5400/mo) but dedupOk false: meaningfully overlaps published radiologist-pay-stagnation-2026, and keyword intent skews IR job-seeker not xAID's diagnostic CT buyer (fit 6 / seo 7 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/coronary-calcium-scans-not-beneficial-everyone",
+      "date": "2026-08-30",
+      "decision": "skipped - shortlisted (CAC scan appropriate-use/risk-stratification finding) but below top-3 draft cutoff (fit 5.5 / seo 4 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/ai-spots-cardiovascular-concerns-beyond-bacs-mammograms",
+      "date": "2026-08-30",
+      "decision": "skipped - shortlisted (AI-surfaced incidental CVD signal on mammography) but dedupOk false: near-duplicate of ledger's existing incidental-findings family (chest-CT breast lesions, renal mass, lung nodules); off-core modality (mammography, not CT) (fit 5 / seo 6 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/vanderbilt-awarded-34m-grant-advance-mr-cytometry-breast-cancer-imaging",
+      "date": "2026-08-30",
+      "decision": "skipped - off-core modality (MR cytometry research grant for breast cancer imaging), no CT/AI-reporting workflow hook, not scored"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/former-philips-engineer-convicted-sharing-companys-trade-secrets",
+      "date": "2026-08-30",
+      "decision": "skipped - criminal/legal news about a former employee, no product or positioning fit, not scored"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/researchers-raise-doubt-about-usefulness-premedication-prior-contrast-enhanced-imaging",
+      "date": "2026-08-30",
+      "decision": "skipped - clinical-practice premedication question, no CT-reporting/workflow/reimbursement angle for xAID, not scored"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/university-miami-names-new-interventional-radiology-chair",
+      "date": "2026-08-30",
+      "decision": "skipped - personnel appointment news, no product/positioning fit, not scored"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/noted-florida-cancer-center-launches-new-radiopharma-program-600m-investment",
+      "date": "2026-08-30",
+      "decision": "skipped - off-core nuclear medicine/radiopharma capital investment, not diagnostic CT/AI-reporting, not scored"
     }
   ]
 }
