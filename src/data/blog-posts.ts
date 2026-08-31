@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'reduce-patient-no-shows-radiology',
+    title: 'A New Calculator to Reduce Patient No-Shows in Imaging',
+    excerpt: 'A JACR study out of University Hospitals Cleveland built a calculator that flags which imaging appointments are likely to no-show before they happen. It closes one leak in scanner capacity — but the reporting backlog behind every scan that does happen is still open.',
+    date: 'August 31, 2026',
+    dateIso: '2026-08-31',
+    category: 'Workflow & Throughput',
+    readingTime: 7,
+    keywords: ['reduce patient no-shows', 'imaging no-show calculator', 'radiology scheduling AI', 'CT report turnaround time', 'radiology capacity'],
+  },
+  {
     slug: 'radiology-practice-consolidation-wait-times',
     title: 'A Hospital Bought a Radiology Practice. Wait Times Got Worse.',
     excerpt: "Intermountain Health closed its acquisition of Las Vegas's Steinberg Diagnostic in January. By August, some patients were waiting three weeks for scan results the practice used to turn around in under ten days. What the case shows about radiology practice consolidation and capacity.",

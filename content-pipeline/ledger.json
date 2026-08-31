@@ -360,6 +360,12 @@
       "topic": "A Hospital Bought a Radiology Practice. Wait Times Got Worse. (Intermountain/Steinberg Diagnostic Las Vegas case study)",
       "source": "Radiology Business, Las Vegas Review-Journal, Intermountain Health, Medicus Healthcare Solutions, GAO",
       "date": "2026-08-30"
+    },
+    {
+      "slug": "reduce-patient-no-shows-radiology",
+      "topic": "A New Calculator to Reduce Patient No-Shows in Imaging (JACR/University Hospitals Cleveland no-show calculator, framed against xAID's reporting-backlog thesis)",
+      "source": "Radiology Business, Journal of the American College of Radiology",
+      "date": "2026-08-31"
     }
   ],
   "seen": [
@@ -1957,6 +1963,31 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/noted-florida-cancer-center-launches-new-radiopharma-program-600m-investment",
       "date": "2026-08-30",
       "decision": "skipped - off-core nuclear medicine/radiopharma capital investment, not diagnostic CT/AI-reporting, not scored"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-08-31",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/patient-care/radiologists-develop-calculator-predicting-imaging-no-shows",
+      "date": "2026-08-31",
+      "decision": "drafted - reduce-patient-no-shows-radiology (gate ready, factcheck fix-needed/fixed) - CHOSEN and integrated to /blog/reduce-patient-no-shows-radiology/ (fit 7 / seo 5 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/cautionary-tale-radiologists-who-use-ai-rule-out-suspicious-findings",
+      "date": "2026-08-31",
+      "decision": "drafted - ai-rule-out-radiology-review-gap (gate needs-human, factcheck fix-needed, medium cannibalization risk vs published automation-bias-radiology-ai) - left in drafts/, not integrated (fit 9 / seo 4 / interest 8)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/fda-alerts-patients-after-multiple-complaints-west-coast-imaging-center",
+      "date": "2026-08-31",
+      "decision": "drafted then rejected - acr-accreditation-requirements (gate reject, factcheck fail - draft's causal chain between the AMR corrective-action plan and the Dec 2025 accreditation revocation is reversed/unsupported) - left in drafts/, not integrated (fit 5 / seo 6 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/pet-ct/bayers-investigational-pet-tracer-shows-high-accuracy-cardiac-amyloidosis",
+      "date": "2026-08-31",
+      "decision": "skipped - filtered pre-score, off-core modality (investigational PET tracer, not CT), single-vendor product-accuracy news with no reporting-workflow hook (fit 2 / seo 3 / interest 4)"
     }
   ]
 }
