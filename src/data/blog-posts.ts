@@ -11,6 +11,26 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ai-lung-nodule-detection-time-savings',
+    title: 'Commercial AI Cut Chest CT Reporting Time Up to 25% — Here’s What That Number Covers',
+    excerpt: 'A Radiology study of nearly 40,000 chest CT exams at Erasmus MC found nodule-detection AI cut reporting time up to 25% in one subgroup, 14.6% overall. What the study measured — and why "faster nodule call" is not the same claim as "faster signed report."',
+    date: 'September 2, 2026',
+    dateIso: '2026-09-02',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['AI lung nodule detection', 'pulmonary nodule AI', 'chest CT reporting time', 'AI radiology efficiency', 'commercial AI radiology evidence'],
+  },
+  {
+    slug: 'radiology-self-interpretation-imaging-orders',
+    title: 'Radiology Experts Call for Stricter Rules on Self-Interpreted Imaging Orders',
+    excerpt: "New Neiman Health Policy Institute research finds providers who self-interpret their own imaging orders have far higher odds of ordering imaging in the first place. Why radiology groups are calling for stricter rules — and what it means for practices without a radiologist read.",
+    date: 'September 1, 2026',
+    dateIso: '2026-09-01',
+    category: 'Policy & Advocacy',
+    readingTime: 7,
+    keywords: ['radiology self-referral', 'self-interpretation imaging', 'imaging self-interpretation', 'in-office ancillary exception', 'Stark law imaging'],
+  },
+  {
     slug: 'reduce-patient-no-shows-radiology',
     title: 'A New Calculator to Reduce Patient No-Shows in Imaging',
     excerpt: 'A JACR study out of University Hospitals Cleveland built a calculator that flags which imaging appointments are likely to no-show before they happen. It closes one leak in scanner capacity — but the reporting backlog behind every scan that does happen is still open.',

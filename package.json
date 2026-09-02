@@ -72,6 +72,8 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/ai-lung-nodule-detection-time-savings/",
+      "/blog/radiology-self-interpretation-imaging-orders/",
       "/blog/reduce-patient-no-shows-radiology/",
       "/blog/radiology-practice-consolidation-wait-times/",
       "/blog/radiology-revenue-cycle-management/",

@@ -32,6 +32,8 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/integrations': () => import('./pages/Integrations'),
   '/how-ai-ct-reporting-works': () => import('./pages/HowAiCtReportingWorks'),
   '/blog': () => import('./pages/Blog'),
+  '/blog/ai-lung-nodule-detection-time-savings': () => import('./pages/blog/AiLungNoduleDetectionTimeSavings'),
+  '/blog/radiology-self-interpretation-imaging-orders': () => import('./pages/blog/RadiologySelfInterpretationImagingOrders'),
   '/blog/reduce-patient-no-shows-radiology': () => import('./pages/blog/ReducePatientNoShowsRadiology'),
   '/blog/radiology-practice-consolidation-wait-times': () => import('./pages/blog/RadiologyPracticeConsolidationWaitTimes'),
   '/blog/radiology-revenue-cycle-management': () => import('./pages/blog/RadiologyRevenueCycleManagement'),

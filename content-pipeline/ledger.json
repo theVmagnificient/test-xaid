@@ -366,6 +366,16 @@
       "topic": "A New Calculator to Reduce Patient No-Shows in Imaging (JACR/University Hospitals Cleveland no-show calculator, framed against xAID's reporting-backlog thesis)",
       "source": "Radiology Business, Journal of the American College of Radiology",
       "date": "2026-08-31"
+    },
+    {
+      "slug": "radiology-self-interpretation-imaging-orders",
+      "topic": "Self-interpretation of imaging orders by ordering (non-radiologist) providers, and its link to higher imaging-ordering odds (Neiman Health Policy Institute AJR + JACR analyses)",
+      "source": "Radiology Business, American Journal of Roentgenology (Neiman HPI), Journal of the American College of Radiology",
+      "date": "2026-09-01"
+    },
+    {
+      "slug": "ai-lung-nodule-detection-time-savings",
+      "topic": "AI nodule-detection tool cuts chest CT reporting time (Erasmus MC study) — workflow-speed evidence, distinct from malignancy-risk-scoring AI"
     }
   ],
   "seen": [
@@ -1988,6 +1998,76 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/pet-ct/bayers-investigational-pet-tracer-shows-high-accuracy-cardiac-amyloidosis",
       "date": "2026-08-31",
       "decision": "skipped - filtered pre-score, off-core modality (investigational PET tracer, not CT), single-vendor product-accuracy news with no reporting-workflow hook (fit 2 / seo 3 / interest 4)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-experts-call-stricter-rules-around-self-interpretation-imaging-orders",
+      "date": "2026-09-01",
+      "decision": "drafted - radiology-self-interpretation-imaging-orders (gate ready, factcheck pass, 10/10 claims verified, low cannibalization) - CHOSEN and integrated to /blog/radiology-self-interpretation-imaging-orders/ (fit 7.5 / seo 4 / interest 7.5)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/early-riser-radiology-resident-helps-reduce-overnight-misses",
+      "date": "2026-09-01",
+      "decision": "drafted - overnight-radiology-diagnostic-errors (gate ready, factcheck fix-needed on 3 claims - survey-group conflation, unverifiable Ocal quote, unsupported R2-R4-staffs-ERR claim - fixes applied in-draft) - NOT chosen (self-interpretation draft had cleaner initial fact-check pass with zero flagged claims). Draft kept in drafts/, not integrated (fit 7 / seo 3 / interest 7)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/kffs-bill-month-highlights-1200-out-pocket-charge-breast-mri",
+      "date": "2026-09-01",
+      "decision": "drafted - breast-mri-cost-insurance-gap (gate needs-human - one secondary Radiology Business citation Cloudflare-blocked/unverifiable, factcheck pass otherwise) - NOT chosen (needs-human gate + weaker xAID product fit: consumer billing-transparency story, off-core breast MRI). Draft kept in drafts/, not integrated (fit 3.5 / seo 3 / interest 4)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-appointment-booking-platform-scancom-raises-220m",
+      "date": "2026-09-01",
+      "decision": "skipped pre-draft - dedup flagged (thematic overlap with same-day-published enterprise-imaging-modernization-capital-gap and reduce-patient-no-shows-radiology; capital-vs-bottleneck framing not sufficiently distinct); not a competitor (Scan.com is a scheduling marketplace, not an AI-reporting vendor) but low B2B keyword intent regardless (fit 5.5 / seo 3 / interest 6)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/american-college-radiology-receives-6m-gift-late-radiologists-estate",
+      "date": "2026-09-01",
+      "decision": "skipped pre-draft - pure philanthropy/personnel news, no product/policy/reimbursement hook for xAID (fit 1 / seo 1 / interest 2)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/theranostic-pair-shows-promise-diagnosing-and-treating-kidney-cancer",
+      "date": "2026-09-01",
+      "decision": "skipped pre-draft - off-core modality (nuclear medicine/theranostics, not CT/AI-reporting) (fit 1 / seo 1 / interest 3)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/commercial-ai-cuts-pulmonary-nodule-assessment-times-25",
+      "date": "2026-09-02",
+      "decision": "drafted - ai-lung-nodule-detection-time-savings (gate ready, factcheck pass on all 10 claims) - CHOSEN for publish (fit 9 / seo 4 / interest 8)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/new-research-explores-frequency-which-cms-devalues-radiology-services",
+      "date": "2026-09-02",
+      "decision": "drafted - radiology-reimbursement-cuts (gate ready, factcheck fix-needed on 1 claim - RUC adjustment-rate mislabel 22.2% vs correct 23.4%, fixed in-draft) - NOT chosen (factcheck was fix-needed, not a clean pass; ai-lung-nodule-detection-time-savings had a clean pass). Draft kept in drafts/, not integrated (fit 7.5 / seo 4 / interest 7)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/common-sources-work-related-stress-among-radiology-staffers",
+      "date": "2026-09-02",
+      "decision": "drafted - radiology-staff-burnout (gate ready, factcheck fix-needed on 1 claim - fabricated/misattributed ACR Bulletin quote, fixed in-draft) - NOT chosen (factcheck was fix-needed, not a clean pass). Draft kept in drafts/, not integrated (fit 6 / seo 2 / interest 6)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ge-healthcare-secures-ce-mark-for-photon-counting-ct-device/829247/",
+      "date": "2026-09-02",
+      "decision": "skipped pre-draft - not selected for drafting this round; EU CE mark (not FDA) weakens US-market news hook, and an unpublished photon-counting-ct-rural-imaging-access draft already exists on an adjacent angle (fit 6 / seo 3 / interest 6)"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/15833812/radin-selected-to-support-va-teleradiology-through-valor-network",
+      "date": "2026-09-02",
+      "decision": "skipped pre-draft - low differentiation, thin single-vendor contract-win news layered onto a theme already covered by six published teleradiology articles (fit 5 / seo 3 / interest 4)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/breast/news/15833790/mammotome-expands-production-of-breast-biopsy-system-amid-us-needle-shortage",
+      "date": "2026-09-02",
+      "decision": "skipped pre-draft - off-core modality/product news (breast biopsy needle supply, not CT/AI-reporting), no scoring performed (below shortlist cut)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15833863/koning-partners-with-uberdoc-marketplace-for-breast-ct-patient-access",
+      "date": "2026-09-02",
+      "decision": "skipped pre-draft - folded into the Scan.com synthesis angle (see radiology-appointment-booking-platform-scancom-raises-220m entry), not drafted standalone; dedup flagged (fit 6 / seo 2 / interest 7)"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-02",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }
