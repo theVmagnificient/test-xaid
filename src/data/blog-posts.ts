@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'contrast-induced-nephropathy-ct-delays',
+    title: 'Contrast-Induced Nephropathy Fears Are Delaying ICU CT Scans — New Data Say That Caution Is Overblown',
+    excerpt: 'A 7,772-patient MIMIC-IV study found no meaningful difference in acute kidney injury between contrast-enhanced and non-contrast CT in critically ill adults — evidence that reflexively withholding contrast for nephropathy fears may cost more diagnostically than it saves renally.',
+    date: 'September 4, 2026',
+    dateIso: '2026-09-04',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['contrast induced nephropathy', 'iodinated contrast critically ill', 'contrast enhanced CT AKI', 'CIN ICU', 'contrast media kidney injury'],
+  },
+  {
     slug: 'ai-lung-nodule-detection-time-savings',
     title: 'Commercial AI Cut Chest CT Reporting Time Up to 25% — Here’s What That Number Covers',
     excerpt: 'A Radiology study of nearly 40,000 chest CT exams at Erasmus MC found nodule-detection AI cut reporting time up to 25% in one subgroup, 14.6% overall. What the study measured — and why "faster nodule call" is not the same claim as "faster signed report."',

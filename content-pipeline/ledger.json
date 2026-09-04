@@ -376,6 +376,10 @@
     {
       "slug": "ai-lung-nodule-detection-time-savings",
       "topic": "AI nodule-detection tool cuts chest CT reporting time (Erasmus MC study) — workflow-speed evidence, distinct from malignancy-risk-scoring AI"
+    },
+    {
+      "slug": "contrast-induced-nephropathy-ct-delays",
+      "topic": "clinical evidence / contrast-induced nephropathy caution overblown (news hook: MIMIC-IV ICU cohort study, Emergency Radiology 2026)"
     }
   ],
   "seen": [
@@ -2068,6 +2072,76 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-09-02",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/work-list-prioritization-tool-cuts-reporting-and-turnaround-times-over-70",
+      "date": "2026-09-03",
+      "decision": "drafted, gate ready, factcheck pass -> published as radiology-worklist-prioritization-ai"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/changes-medicares-quality-payment-program-may-disadvantage-radiologists",
+      "date": "2026-09-03",
+      "decision": "drafted as mips-value-pathways-radiology, gate ready but factcheck fix-needed -> not integrated, left in drafts/ for founder review/fix"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-company-scores-worlds-1st-approval-breast-triage-tool-skips-radiologist-review",
+      "date": "2026-09-03",
+      "decision": "drafted as ai-breast-cancer-screening-without-radiologist-review, gate reject and factcheck fix-needed; also competitor-adjacent (Vara product/regulatory-approval news) per HARD TOPIC RULE -> disqualified, not integrated, left in drafts/"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-pinpoints-radiology-residents-educational-gaps-helping-expand-personalized-training",
+      "date": "2026-09-03",
+      "decision": "skipped pre-draft - weak product fit (training AI, not reporting AI), no measurable SEO volume, below shortlist cut"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/25-men-require-reintervention-within-5-years-prostate-artery-embolization",
+      "date": "2026-09-03",
+      "decision": "skipped pre-draft - off-core modality (interventional radiology procedure outcomes, not diagnostic CT/AI reporting)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/imaging-artificial-intelligence-vendor-elucid-raises-55m",
+      "date": "2026-09-03",
+      "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent AI-imaging vendor funding round announcement (Elucid, CT-based quantitative plaque/vascular-analysis AI); not drafted"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-03",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-04",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-opposes-changes-radiation-safety-rules",
+      "date": "2026-09-04",
+      "decision": "drafted as alara-radiation-safety-rule-change, gate ready but factcheck fix-needed -> not chosen (contrast-induced-nephropathy-ct-delays was the only factcheck-pass draft today), left in drafts/ for founder review"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/you-sign-what-imaging-joint-venture-contracts-leave-out",
+      "date": "2026-09-04",
+      "decision": "drafted as radiology-joint-venture-contract-checklist, gate ready, factcheck fix-needed (fixes applied for an invented six-provision count) -> not chosen (contrast-induced-nephropathy-ct-delays was the only factcheck-pass draft today), left in drafts/ for founder review"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/iodinated-contrast-safe-imaging-critically-ill-patients",
+      "date": "2026-09-04",
+      "decision": "drafted, gate ready, factcheck pass -> published as contrast-induced-nephropathy-ct-delays"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiologist-seeks-better-understand-consolidation-specialty",
+      "date": "2026-09-04",
+      "decision": "skipped pre-draft - thin news (grant awarded, no findings yet), near-duplicate of already-crowded consolidation/PE family (radiology-practice-consolidation-wait-times, radiology-private-equity-stay-independent)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/manufacturer-ramps-production-breast-biopsy-needles-amid-shortage",
+      "date": "2026-09-04",
+      "decision": "skipped pre-draft - off-core modality/device-supply news (biopsy needles, not CT/AI reporting), near-duplicate of already-skipped Mammotome breast-biopsy-shortage item"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15834086/heartvueai-gets-fda-nod-for-cardiac-mri-analysis-software",
+      "date": "2026-09-04",
+      "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent AI-imaging vendor FDA/regulatory-clearance announcement (Heartvue.ai); also off-core modality (cardiac MRI, not CT). Not drafted."
     }
   ]
 }

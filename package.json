@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/contrast-induced-nephropathy-ct-delays/",
       "/blog/ai-lung-nodule-detection-time-savings/",
       "/blog/radiology-self-interpretation-imaging-orders/",
       "/blog/reduce-patient-no-shows-radiology/",
