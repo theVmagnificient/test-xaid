@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/alara-radiation-safety-rule-change/",
       "/blog/contrast-induced-nephropathy-ct-delays/",
       "/blog/ai-lung-nodule-detection-time-savings/",
       "/blog/radiology-self-interpretation-imaging-orders/",

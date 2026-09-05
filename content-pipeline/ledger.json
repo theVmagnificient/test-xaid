@@ -380,6 +380,12 @@
     {
       "slug": "contrast-induced-nephropathy-ct-delays",
       "topic": "clinical evidence / contrast-induced nephropathy caution overblown (news hook: MIMIC-IV ICU cohort study, Emergency Radiology 2026)"
+    },
+    {
+      "slug": "alara-radiation-safety-rule-change",
+      "topic": "NRC proposal to retire the ALARA radiation-safety principle in favor of a graded-dose-management standard, and ACR's compliance/documentation-burden objections (news hook: NRC docket NRC-2025-1140, ACR Aug 27 2026 comment letter)",
+      "source": "Radiology Business, Federal Register (NRC-2025-1140), ACR comment letter, New Mexico AG press release",
+      "date": "2026-09-05"
     }
   ],
   "seen": [
@@ -2142,6 +2148,91 @@
       "url": "https://www.auntminnie.com/clinical-news/mri/news/15834086/heartvueai-gets-fda-nod-for-cardiac-mri-analysis-software",
       "date": "2026-09-04",
       "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent AI-imaging vendor FDA/regulatory-clearance announcement (Heartvue.ai); also off-core modality (cardiac MRI, not CT). Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-opposes-changes-radiation-safety-rules",
+      "date": "2026-09-05",
+      "decision": "re-drafted as alara-radiation-safety-rule-change, gate ready, factcheck PASS (15/15 claims verified) -> CHOSEN and PUBLISHED today (best SEO value: 720/mo volume, zero cannibalization, cleanest factcheck of the day's candidates)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/changes-medicares-quality-payment-program-may-disadvantage-radiologists",
+      "date": "2026-09-05",
+      "decision": "re-drafted as mips-value-pathways-radiology, gate ready (2 fixes applied: QCDR measure-count math, citation misattribution), factcheck was fix-needed pre-fix -> not chosen (alara-radiation-safety-rule-change had a clean factcheck pass plus far higher search volume), left in drafts/ for founder review"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/new-research-explores-frequency-which-cms-devalues-radiology-services",
+      "date": "2026-09-05",
+      "decision": "re-drafted as radiology-reimbursement-cuts, gate ready, factcheck pass (one non-blocking extraction-artifact caveat on a CMS-stage split stat, recommend spot-check) -> not chosen (negligible 10/mo keyword volume and a now-crowded 5-piece reimbursement cluster vs. alara's 720/mo and zero cannibalization), left in drafts/ for founder review"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/you-sign-what-imaging-joint-venture-contracts-leave-out",
+      "date": "2026-09-05",
+      "decision": "draft (radiology-joint-venture-contract-checklist) re-evaluated, dedupOk=false (crowded PE/consolidation family, 3 published pieces) and zero measurable search volume -> not chosen, left in drafts/ for founder judgment"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/common-sources-work-related-stress-among-radiology-staffers",
+      "date": "2026-09-05",
+      "decision": "draft (radiology-staff-burnout) re-evaluated, weakest fit of today's survivors (fitScore 5.5, low-volume keyword) -> not chosen, left in drafts/"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/kffs-bill-month-highlights-1200-out-pocket-charge-breast-mri",
+      "date": "2026-09-05",
+      "decision": "draft (breast-mri-cost-insurance-gap) re-evaluated, weak fit for B2B CT audience (fitScore 3.5, consumer billing-transparency story, off-core modality) -> not chosen, left in drafts/"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15834224/carestream-health-carestream-updates-longlength-imaging-detector",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - hardware/detector product update (Carestream DXR-LC), off-core (digital x-ray detector, not CT reporting workflow), thin vendor news"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834218/atomvie-opens-new-radiopharmaceutical-manufacturing-facility",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - radiopharmaceutical manufacturing facility opening, off-core (not CT/AI reporting), no reporting-workflow angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834177/sonex-highlights-study-on-ultrasoundguided-carpal-tunnel-release",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - off-core modality (ultrasound-guided MSK procedure study), no CT/AI-reporting fit"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834060/philips-launches-ev142v-transvaginal-transducer-for-obgyn-imaging",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - vendor hardware product launch (transvaginal ultrasound transducer), off-core modality, no reporting-workflow angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834065/mindray-north-america-expands-warehouse-facility-in-new-jersey",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - facilities/logistics news (warehouse expansion), no editorial angle for xAID audience"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834034/juniper-secures-fda-breakthrough-nod-for-hypoxia-pet-tracer",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - off-core modality/pharma (PET tracer breakthrough designation), no CT-reporting angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/interventional/news/15834000/aim-medical-developing-mricompatible-brain-surgery-robot",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - off-core (MRI-compatible surgical robotics), no CT/AI-reporting fit"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834006/telix-completes-enrollment-in-bipass-study",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - thin news (trial enrollment milestone, no findings yet), off-core theranostics"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15833982/elucid-nets-55m-in-funding-round",
+      "date": "2026-09-05",
+      "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent imaging-AI vendor (Elucid) funding round announcement. Not drafted. (Same underlying story already logged via the Radiology Business URL.)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15833985/ionetix-corporation-ionetix-begins-shipping-at211-in-north-america",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - radioisotope supply-chain logistics news, off-core, no reporting-workflow angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/former-radiologist-turns-bourbon-passion-second-career",
+      "date": "2026-09-05",
+      "decision": "skipped pre-draft - human-interest feature, no editorial/SEO angle for xAID"
     }
   ]
 }

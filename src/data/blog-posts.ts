@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'alara-radiation-safety-rule-change',
+    title: 'ACR vs. NRC: What the ALARA Rollback Really Changes',
+    excerpt: "The NRC wants to replace ALARA with a flexible dose standard. ACR isn't fighting that — it's fighting the paperwork it would require of imaging centers.",
+    date: 'September 5, 2026',
+    dateIso: '2026-09-05',
+    category: 'Compliance',
+    readingTime: 7,
+    keywords: ['ALARA radiation safety', 'NRC ALARA rule', 'radiation dose regulation', 'ACR radiation safety comments', 'radiation protection framework'],
+  },
+  {
     slug: 'contrast-induced-nephropathy-ct-delays',
     title: 'Contrast-Induced Nephropathy Fears Are Delaying ICU CT Scans — New Data Say That Caution Is Overblown',
     excerpt: 'A 7,772-patient MIMIC-IV study found no meaningful difference in acute kidney injury between contrast-enhanced and non-contrast CT in critically ill adults — evidence that reflexively withholding contrast for nephropathy fears may cost more diagnostically than it saves renally.',

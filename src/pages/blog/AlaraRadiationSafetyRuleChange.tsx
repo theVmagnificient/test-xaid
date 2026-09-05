@@ -6,8 +6,8 @@ import KeyStats from '@/components/KeyStats';
 const AlaraRadiationSafetyRuleChange = () => {
   const post = {
     title: "ACR vs. NRC: What the ALARA Rollback Really Changes",
-    dateIso: '2026-09-04',
-    date: 'September 4, 2026',
+    dateIso: '2026-09-05',
+    date: 'September 5, 2026',
     category: 'Compliance',
     readingTime: 7,
     description: "The NRC wants to replace ALARA with a flexible dose standard. ACR isn't fighting that — it's fighting the paperwork it would require of imaging centers.",
