@@ -386,6 +386,13 @@
       "topic": "NRC proposal to retire the ALARA radiation-safety principle in favor of a graded-dose-management standard, and ACR's compliance/documentation-burden objections (news hook: NRC docket NRC-2025-1140, ACR Aug 27 2026 comment letter)",
       "source": "Radiology Business, Federal Register (NRC-2025-1140), ACR comment letter, New Mexico AG press release",
       "date": "2026-09-05"
+    },
+    {
+      "slug": "mips-value-pathways-radiology",
+      "topic": "MIPS Value Pathways Are Supposed to Simplify Radiology Reporting. Do They?",
+      "source": "",
+      "date": "2026-09-06",
+      "approved": "2026-09-06 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -2233,6 +2240,76 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/former-radiologist-turns-bourbon-passion-second-career",
       "date": "2026-09-05",
       "decision": "skipped pre-draft - human-interest feature, no editorial/SEO angle for xAID"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/vara-receives-ce-mark-for-first-autonomous-breast-cancer-screening/829696/",
+      "date": "2026-09-06",
+      "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent AI-imaging vendor (Vara) regulatory-approval/product-launch announcement (autonomous breast screening CE mark); not scored/drafted"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-opposes-changes-radiation-safety-rules",
+      "date": "2026-09-06",
+      "decision": "skipped pre-score - already published as alara-radiation-safety-rule-change (2026-09-05), duplicate topic"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiologist-seeks-better-understand-consolidation-specialty",
+      "date": "2026-09-06",
+      "decision": "scored (fit 6 / seo 4 / interest 5) but not selected for drafting - below today's top-3 cut, still thin (grant awarded, no findings yet) and adjacent to the crowded consolidation/PE cluster"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/you-sign-what-imaging-joint-venture-contracts-leave-out",
+      "date": "2026-09-06",
+      "decision": "scored (fit 7 / seo 4 / interest 7) but not selected for drafting - below today's top-3 cut; prior drafts (radiology-joint-venture-contract-checklist) remain in drafts/ unintegrated"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/iodinated-contrast-safe-imaging-critically-ill-patients",
+      "date": "2026-09-06",
+      "decision": "skipped pre-score - already published as contrast-induced-nephropathy-ct-delays (2026-09-04), duplicate topic"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/former-radiologist-turns-bourbon-passion-second-career",
+      "date": "2026-09-06",
+      "decision": "skipped pre-draft - human-interest feature, no editorial/SEO angle for xAID"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/manufacturer-ramps-production-breast-biopsy-needles-amid-shortage",
+      "date": "2026-09-06",
+      "decision": "scored (fit 3 / seo 5 / interest 4, lowest of today's 8 survivors) but not selected for drafting - below today's top-3 cut; off-core device-supply news"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/changes-medicares-quality-payment-program-may-disadvantage-radiologists",
+      "date": "2026-09-06",
+      "decision": "re-drafted (3rd pass) as mips-value-pathways-radiology - fact-check flagged 2 minor errors (clinician-threshold number, quote attribution), QA fixed both in-draft, gate READY, dedupOk true, cannibalization low -> CHOSEN and integrated into blog-posts.ts/routes.tsx/reactSnap.include for 2026-09-06 (pending founder approval + deploy)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-company-scores-worlds-1st-approval-breast-triage-tool-skips-radiologist-review",
+      "date": "2026-09-06",
+      "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent (Vara) product/regulatory-approval news, recurring in feed; not scored/drafted"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/imaging-artificial-intelligence-vendor-elucid-raises-55m",
+      "date": "2026-09-06",
+      "decision": "disqualified under HARD TOPIC RULE - competitor-adjacent AI-imaging vendor (Elucid) funding round, recurring in feed; not scored/drafted"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-pinpoints-radiology-residents-educational-gaps-helping-expand-personalized-training",
+      "date": "2026-09-06",
+      "decision": "scored (fit 5 / seo 3 / interest 6) but not selected for drafting - below today's top-3 cut, weak product fit (training AI, not reporting AI)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/work-list-prioritization-tool-cuts-reporting-and-turnaround-times-over-70",
+      "date": "2026-09-06",
+      "decision": "drafted as does-ai-worklist-triage-cut-ct-turnaround-time, gate needs-human, factcheck PASS - dedupOk=false: near-duplicate of unpublished sibling draft radiology-worklist-prioritization-ai.tsx (2026-09-03, same core AJR/JMIR studies) which the ledger incorrectly marked 'published' though never integrated -> NOT chosen, left in drafts/ for founder to resolve the sibling-draft conflict"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/new-research-explores-frequency-which-cms-devalues-radiology-services",
+      "date": "2026-09-06",
+      "decision": "re-drafted (3rd pass, new slug) as cms-radiology-reimbursement-cuts, gate needs-human, factcheck PASS - dedupOk=false: 3rd pass at the same underlying JAMA Network Open study, now a 6th piece in an already-crowded 5-piece reimbursement cluster on ~10/mo keyword volume -> NOT chosen, left in drafts/ for founder judgment call"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/common-sources-work-related-stress-among-radiology-staffers",
+      "date": "2026-09-06",
+      "decision": "scored (fit 7 / seo 3 / interest 6) but not selected for drafting - below today's top-3 cut; prior draft (radiology-staff-burnout) remains in drafts/ unintegrated"
     }
   ]
 }

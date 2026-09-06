@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mips-value-pathways-radiology',
+    title: 'MIPS Value Pathways Are Supposed to Simplify Radiology Reporting. Do They?',
+    excerpt: "CMS built radiology its first MIPS Value Pathways in 2026. New research shows radiology-only reporting already scores worse than the multispecialty workaround MVPs are designed to close.",
+    date: 'September 6, 2026',
+    dateIso: '2026-09-06',
+    category: 'Policy & Reimbursement',
+    readingTime: 8,
+    keywords: ['MIPS value pathways radiology', 'MVP MIPS radiology', 'MIPS quality measures radiology', 'Medicare Quality Payment Program radiology', 'diagnostic radiology MVP'],
+  },
+  {
     slug: 'alara-radiation-safety-rule-change',
     title: 'ACR vs. NRC: What the ALARA Rollback Really Changes',
     excerpt: "The NRC wants to replace ALARA with a flexible dose standard. ACR isn't fighting that — it's fighting the paperwork it would require of imaging centers.",
