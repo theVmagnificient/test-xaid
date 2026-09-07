@@ -393,6 +393,13 @@
       "source": "",
       "date": "2026-09-06",
       "approved": "2026-09-06 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-joint-venture-ai-vendor-control",
+      "topic": "Radiology Joint Venture Contracts Rarely Name Who Controls the AI Stack",
+      "source": "",
+      "date": "2026-09-07",
+      "approved": "2026-09-07 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -2310,6 +2317,116 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/common-sources-work-related-stress-among-radiology-staffers",
       "date": "2026-09-06",
       "decision": "scored (fit 7 / seo 3 / interest 6) but not selected for drafting - below today's top-3 cut; prior draft (radiology-staff-burnout) remains in drafts/ unintegrated"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-company-scores-worlds-1st-approval-breast-triage-tool-skips-radiologist-review",
+      "date": "2026-09-07",
+      "decision": "topic disqualified under HARD TOPIC RULE (competitor-adjacent vendor Vara, regulatory-approval/product-launch news); disqualified 3x prior (09-03, 09-04 MedTech Dive dup, 09-06); no draft written"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/vara-receives-ce-mark-for-first-autonomous-breast-cancer-screening/829696/",
+      "date": "2026-09-07",
+      "decision": "duplicate coverage of the same Vara CE-mark story; HARD TOPIC RULE disqualification applies identically"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/imaging-artificial-intelligence-vendor-elucid-raises-55m",
+      "date": "2026-09-07",
+      "decision": "topic disqualified under HARD TOPIC RULE (competitor-adjacent vendor Elucid, funding-round announcement); disqualified 3x prior (09-03, 09-05, 09-06); no draft written"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15833982/elucid-nets-55m-in-funding-round",
+      "date": "2026-09-07",
+      "decision": "duplicate coverage of the same Elucid $55M funding round; HARD TOPIC RULE disqualification applies identically"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-opposes-changes-radiation-safety-rules",
+      "date": "2026-09-07",
+      "decision": "exact duplicate, already published as alara-radiation-safety-rule-change (2026-09-05); dropped"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/iodinated-contrast-safe-imaging-critically-ill-patients",
+      "date": "2026-09-07",
+      "decision": "exact duplicate, already published as contrast-induced-nephropathy-ct-delays (2026-09-04); dropped"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/changes-medicares-quality-payment-program-may-disadvantage-radiologists",
+      "date": "2026-09-07",
+      "decision": "exact duplicate, already published as mips-value-pathways-radiology (2026-09-06); dropped"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiologist-seeks-better-understand-consolidation-specialty",
+      "date": "2026-09-07",
+      "decision": "scored (fit 5 / seo 3 / interest 5) but dedupOk=false - near-duplicate of crowded PE/consolidation cluster (radiology-private-equity-stay-independent, radiology-practice-consolidation-wait-times already published); Neiman HPI grant just awarded, no findings yet -> not drafted"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-pinpoints-radiology-residents-educational-gaps-helping-expand-personalized-training",
+      "date": "2026-09-07",
+      "decision": "drafted -> radiology-ai-review-competency-hiring (reframed as hiring/reviewer-competency angle; gate needs-human, factcheck fix-needed -> fixed misquoted JACR paper title) but NOT selected for today's publish (radiology-joint-venture-ai-vendor-control chosen instead: higher fit score and target keyword actually used in visible title/H1/meta, not just JSON-LD); left un-integrated in content-pipeline/drafts/"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/you-sign-what-imaging-joint-venture-contracts-leave-out",
+      "date": "2026-09-07",
+      "decision": "re-drafted with a new angle -> radiology-joint-venture-ai-vendor-control (who controls the AI/reporting-tech vendor stack, distinct from the shelved generic-checklist angle; gate needs-human, factcheck pass) -> SELECTED and PUBLISHED 2026-09-07 via full 4-file integration (added a missing canonical <link> tag as the only additional fix). Medium cannibalization risk noted vs. shelved sibling draft radiology-joint-venture-contract-checklist.tsx, which remains unpublished in drafts/ - founder should decide whether to retire it."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15834224/carestream-health-carestream-updates-longlength-imaging-detector",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core hardware/detector product update, no AI-reporting or CT-diagnostic-workflow hook"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834218/atomvie-opens-new-radiopharmaceutical-manufacturing-facility",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core radiopharmaceutical manufacturing-capacity news, not diagnostic AI/CT reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834177/sonex-highlights-study-on-ultrasoundguided-carpal-tunnel-release",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core modality (ultrasound-guided procedure), not CT/AI reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15834086/heartvueai-gets-fda-nod-for-cardiac-mri-analysis-software",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core modality (cardiac MRI post-processing tool), weak fit vs. CT reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834060/philips-launches-ev142v-transvaginal-transducer-for-obgyn-imaging",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core hardware launch (OB/GYN ultrasound transducer), no AI/CT hook"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834065/mindray-north-america-expands-warehouse-facility-in-new-jersey",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core corporate real-estate/logistics news, no clinical or AI relevance"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834034/juniper-secures-fda-breakthrough-nod-for-hypoxia-pet-tracer",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core (PET radiotracer FDA breakthrough designation), not CT/AI reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/interventional/news/15834000/aim-medical-developing-mricompatible-brain-surgery-robot",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core interventional/surgical robotics, not diagnostic CT reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834006/telix-completes-enrollment-in-bipass-study",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core (radiopharmaceutical trial enrollment milestone), no findings yet, not CT/AI reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15833985/ionetix-corporation-ionetix-begins-shipping-at211-in-north-america",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core radioisotope supply-chain news, not CT/AI reporting"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/former-radiologist-turns-bourbon-passion-second-career",
+      "date": "2026-09-07",
+      "decision": "skipped - off-topic human-interest piece, no clinical or business relevance"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/manufacturer-ramps-production-breast-biopsy-needles-amid-shortage",
+      "date": "2026-09-07",
+      "decision": "skipped - off-core supply-chain/consumables shortage, not AI/CT reporting"
     }
   ]
 }

@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-joint-venture-ai-vendor-control',
+    title: 'Radiology Joint Venture Contracts Rarely Name Who Controls the AI Stack',
+    excerpt: 'A new governance framework puts AI approval on the nondelegable clinical-authority list for radiology joint ventures. It says far less about who controls the reporting technology stack that authority actually runs on.',
+    date: 'September 7, 2026',
+    dateIso: '2026-09-07',
+    category: 'M&A & Deal Structure',
+    readingTime: 7,
+    keywords: ['radiology joint venture contract', 'radiology joint venture', 'AI vendor lock-in radiology', 'reporting technology stack control', 'radiology AI governance joint venture'],
+  },
+  {
     slug: 'mips-value-pathways-radiology',
     title: 'MIPS Value Pathways Are Supposed to Simplify Radiology Reporting. Do They?',
     excerpt: "CMS built radiology its first MIPS Value Pathways in 2026. New research shows radiology-only reporting already scores worse than the multispecialty workaround MVPs are designed to close.",

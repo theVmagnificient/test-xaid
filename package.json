@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/radiology-joint-venture-ai-vendor-control/",
       "/blog/mips-value-pathways-radiology/",
       "/blog/alara-radiation-safety-rule-change/",
       "/blog/contrast-induced-nephropathy-ct-delays/",
