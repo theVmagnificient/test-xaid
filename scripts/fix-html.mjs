@@ -88,6 +88,14 @@ for (const file of files) {
   const url = ORIGIN + path;
   const canonical = `<link rel="canonical" href="${url}"/>`;
 
+  // Internal absolute URLs must carry the trailing slash the server redirects to.
+  // The article template writes JSON-LD breadcrumbs and Article.url without one, so
+  // every page handed Google the pre-redirect form of our own URLs — which is where
+  // the growing "Page with redirect" count in Search Console was coming from. 195
+  // such URLs across 77 of 79 pages when this was added. Extension-less paths only,
+  // so og-image.png / sitemap.xml / llms.txt are left alone.
+  html = html.replace(/(https:\/\/xaid\.ai\/[A-Za-z0-9/_-]*[A-Za-z0-9_-])"/g, '$1/"');
+
   html = html.replace(CANONICAL_RE, '');
   html = dedupeMeta(html);
   // og:url/twitter:url must equal the canonical — strip all variants, re-inject.
