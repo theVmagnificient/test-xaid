@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/philips-ct-recall-imaging-capacity/",
       "/blog/radiology-joint-venture-ai-vendor-control/",
       "/blog/mips-value-pathways-radiology/",
       "/blog/alara-radiation-safety-rule-change/",

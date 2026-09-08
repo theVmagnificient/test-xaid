@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'philips-ct-recall-imaging-capacity',
+    title: 'The Philips CT Recall Is a Capacity Problem, Not Just a Device Problem',
+    excerpt: 'The FDA posted four Class II recalls for Philips CT scanners over a radiation issue. The fix is a free software update, but the rollout still strains capacity.',
+    date: 'September 8, 2026',
+    dateIso: '2026-09-08',
+    category: 'Operations',
+    readingTime: 7,
+    keywords: ['philips ct recall', 'ct scanner recall', 'FDA class 2 recall CT', 'imaging center capacity', 'radiology reporting backlog'],
+  },
+  {
     slug: 'radiology-joint-venture-ai-vendor-control',
     title: 'Radiology Joint Venture Contracts Rarely Name Who Controls the AI Stack',
     excerpt: 'A new governance framework puts AI approval on the nondelegable clinical-authority list for radiology joint ventures. It says far less about who controls the reporting technology stack that authority actually runs on.',

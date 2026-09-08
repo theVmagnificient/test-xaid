@@ -400,9 +400,46 @@
       "source": "",
       "date": "2026-09-07",
       "approved": "2026-09-07 founder-approved via telegram bot"
+    },
+    {
+      "slug": "philips-ct-recall-imaging-capacity",
+      "topic": "The Philips CT Recall Is a Capacity Problem, Not Just a Device Problem",
+      "source": "",
+      "date": "2026-09-08",
+      "approved": "2026-09-08 founder-approved via telegram bot"
     }
   ],
   "seen": [
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-08",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/higher-hormone-levels-linked-changes-brain-activity-mri",
+      "date": "2026-09-08",
+      "decision": "skipped - clinical neuroscience research, no CT-AI-reporting/workflow angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/unintended-radiation-issue-prompts-recall-several-ct-systems",
+      "date": "2026-09-08",
+      "decision": "drafted -> philips-ct-recall-imaging-capacity (factcheck pass, chosen for 2026-09-08 publish)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/experts-believe-potential-breast-ai-say-more-real-world-data-needed",
+      "date": "2026-09-08",
+      "decision": "drafted -> ai-in-mammography-real-world-evidence-gap (factcheck fix-needed after 2 corrections; not selected for today's publish - philips-ct-recall-imaging-capacity had a clean factcheck pass)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-firm-reportedly-lays-staff-ahead-plans-launch-us-teleradiology-business",
+      "date": "2026-09-08",
+      "decision": "skipped - competitor-adjacent AI teleradiology vendor internal-ops story (Harrison.ai layoffs), no xAID-relevant angle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/healthcare-leader-urges-aspiring-radiologists-focus-interventional-side-fear-ai",
+      "date": "2026-09-08",
+      "decision": "skipped - single anecdotal quote at non-US anniversary event, not data; overlaps radiologist-shortage-2026-ai-ct-reporting and will-ai-replace-radiologists"
+    },
     {
       "url": "https://radiologybusiness.com/topics/artificial-intelligence/nearly-100-patients-surveyed-say-theyd-want-know-when-ai-used-imaging",
       "date": "2026-07-01",
