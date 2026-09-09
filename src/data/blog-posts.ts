@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'portable-mri-icu-reporting-bottleneck',
+    title: "Portable MRI Is Safe at the ICU Bedside. The Reporting Wait Isn't Solved.",
+    excerpt: 'A six-year, 1,173-scan Yale analysis finds portable MRI safe and reliable at the ICU bedside. But faster, safer acquisition doesn’t shorten the radiologist reporting queue sitting behind it.',
+    date: 'September 9, 2026',
+    dateIso: '2026-09-09',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['portable mri', 'portable MRI hospitals', 'point-of-care MRI', 'bedside MRI ICU', 'radiology reporting turnaround', 'portable MRI safety data'],
+  },
+  {
     slug: 'philips-ct-recall-imaging-capacity',
     title: 'The Philips CT Recall Is a Capacity Problem, Not Just a Device Problem',
     excerpt: 'The FDA posted four Class II recalls for Philips CT scanners over a radiation issue. The fix is a free software update, but the rollout still strains capacity.',
