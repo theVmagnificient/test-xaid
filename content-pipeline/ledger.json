@@ -414,6 +414,13 @@
       "source": "",
       "date": "2026-09-09",
       "approved": "2026-09-09 founder-approved via telegram bot"
+    },
+    {
+      "slug": "medicare-national-coverage-determination-reform",
+      "topic": "A Bill to Speed Up Medicare Coverage Decisions Is Moving Through Congress",
+      "source": "",
+      "date": "2026-09-11",
+      "approved": "2026-09-11 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -2551,6 +2558,106 @@
       "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834177/sonex-highlights-study-on-ultrasoundguided-carpal-tunnel-release",
       "date": "2026-09-09",
       "decision": "skipped - off-core ultrasound-guided procedure study, not diagnostic CT reporting"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/4-questions-about-the-fdas-approach-to-generative-ai/829871/",
+      "date": "2026-09-10",
+      "decision": "drafted - fda-guidance-ai-vendor-checklist (gate needs-human, factcheck fix-needed after 1 auto-fix; high cannibalization risk vs unpublished fda-ai-regulation-vendor-diligence-checklist draft from 2026-08-19) - not selected for publish 2026-09-10"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/labcorp-acquires-mlm-medical-labs-in-global-expansion/829879/",
+      "date": "2026-09-10",
+      "decision": "skipped - off-core lab-services M&A, not CT/radiology reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834525/ratio-therapeutics-rayzebio-join-forces",
+      "date": "2026-09-10",
+      "decision": "skipped - off-core radiopharmaceutical/theranostics deal, not diagnostic CT reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/administration/news/15834521/colorado-imaging-associates-tra-medical-imaging-launch-affiliated-radiology",
+      "date": "2026-09-10",
+      "decision": "skipped - duplicate of story already evaluated 2026-09-09 via Radiology Business URL (drafted as radiology-group-merger-reporting-standardization, rejected for unverifiable headcount figures)"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15834496/candelis-candelis-wins-health-canada-approval-for-streamvue",
+      "date": "2026-09-10",
+      "decision": "skipped - off-core PACS/VNA regulatory clearance (Canada), not CT/AI reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834454/siemens-expands-pet-detector-manufacturing-site",
+      "date": "2026-09-10",
+      "decision": "skipped - off-core hardware manufacturing-capacity news, not reporting workflow"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/american-medical-association-releases-2027-cpt-code-set-including-key-updates-radiology",
+      "date": "2026-09-10",
+      "decision": "drafted - radiology-cpt-codes-2027 (gate needs-human, factcheck fix-needed; primary AMA/Radiology Business sources Cloudflare-blocked, one quote unverifiable) - not selected for publish 2026-09-10"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/san-francisco-startup-seeks-solve-radiologist-shortage-new-ai-native-imaging-group",
+      "date": "2026-09-10",
+      "decision": "skipped - HARD TOPIC RULE risk, competitor-adjacent AI-native imaging-group funding announcement (Epsilon Health); also zero measurable search demand"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/experts-say-radiology-departments-must-adapt-obesity-pandemic",
+      "date": "2026-09-10",
+      "decision": "drafted - obesity-ct-imaging-reporting-challenges (gate ready, factcheck fix-needed then fixed, low cannibalization) - PUBLISHED 2026-09-10"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/radiologists-culinary-side-gig-draws-celebrity-patrons",
+      "date": "2026-09-10",
+      "decision": "skipped - off-core human-interest piece, no xAID relevance"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/siemens-healthineers-invests-nearly-44m-boost-petct-production",
+      "date": "2026-09-10",
+      "decision": "skipped - duplicate thesis pattern (manufacturing capacity != reporting capacity) already covered by prior published pieces"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-11",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-among-specialties-supporting-bill-speed-medicare-coverage-decisions",
+      "date": "2026-09-11",
+      "decision": "drafted - medicare-national-coverage-determination-reform (gate ready, factcheck pass; 11/11 claims verified against primary sources; one apostrophe-consistency fix applied between visible FAQ and JSON-LD) - PUBLISHED 2026-09-11"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-rubric-could-help-make-patient-friendly-radiology-reports-safer",
+      "date": "2026-09-11",
+      "decision": "drafted - ai-generated-radiology-reports-for-patients (gate reject, factcheck FAIL - draft falsely presented a real, unrelated Radiology Business headline as coverage of the Sun et al./Park et al. studies it actually cites, and misattributed a hallucination-category example to the wrong statistic) - not selected for publish 2026-09-11, requires editorial rewrite before any future resubmission"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/cardiac-imaging/nuclear-cardiology/cardiac-pet/physician-groups-launch-national-alliance-protect-pet-imaging-access",
+      "date": "2026-09-11",
+      "decision": "drafted - imaging-reimbursement-advocacy-coalition (gate ready, factcheck fix-needed then fixed - corrected a 'co-founded by ACC/MedAxiom/ASNC/Association of Black Cardiologists' overstatement to 'collaborates with', and re-cited mis-sourced 2026 HOPPS dollar figures; low cannibalization) - not selected for publish 2026-09-11, lower fit/SEO score than the chosen medicare-national-coverage-determination-reform pick"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/fda-stop-mailing-mammography-quality-standards-act-materials",
+      "date": "2026-09-11",
+      "decision": "skipped - low fit/SEO score (fitScore 3, zero measurable search volume); mammography-specific administrative mailing-to-portal switch, weak tie to CT/AI reporting; would also compound FDA/vendor-checklist genre saturation flagged 2026-09-10"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/medicare-spending-10m-less-each-year-radiation-therapy-due-recent-practice-change",
+      "date": "2026-09-11",
+      "decision": "skipped - off-core radiation-therapy reimbursement/practice-pattern story (breast cancer hypofractionation cost savings), not diagnostic CT/AI reporting"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/investigational-protein-based-mri-agent-spots-difficult-detect-lung-lesions",
+      "date": "2026-09-11",
+      "decision": "skipped - off-core investigational contrast-agent/imaging-biomarker research, not CT/AI reporting workflow"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15834574/epsilon-health-raises-276m-for-ainative-radiology-practice",
+      "date": "2026-09-11",
+      "decision": "skipped - duplicate of story already evaluated 2026-09-10 via the Radiology Business URL (HARD TOPIC RULE risk, competitor-adjacent AI-native imaging-group funding announcement); same Epsilon Health funding news re-surfaced via AuntMinnie"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15834546/nanox-imaging-nanox-signs-costa-rica-distribution-deal-for-nanoxarc-system",
+      "date": "2026-09-11",
+      "decision": "skipped - HARD TOPIC RULE, named competitor-adjacent vendor (Nanox) product-distribution announcement; also off-core (international X-ray tomosynthesis distribution deal, no CT/AI-reporting relevance)"
     }
   ]
 }

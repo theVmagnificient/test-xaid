@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'medicare-national-coverage-determination-reform',
+    title: 'A Bill to Speed Up Medicare Coverage Decisions Is Moving Through Congress',
+    excerpt: "A bipartisan bill sets Medicare's first deadlines for local coverage decisions — what slow NCD and LCD rulings cost radiology AI buyers today.",
+    date: 'September 11, 2026',
+    dateIso: '2026-09-11',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['medicare national coverage determination', 'local coverage determination', 'NCD LCD reform', 'H.R. 8500', 'radiology AI reimbursement'],
+  },
+  {
     slug: 'portable-mri-icu-reporting-bottleneck',
     title: "Portable MRI Is Safe at the ICU Bedside. The Reporting Wait Isn't Solved.",
     excerpt: 'A six-year, 1,173-scan Yale analysis finds portable MRI safe and reliable at the ICU bedside. But faster, safer acquisition doesn’t shorten the radiologist reporting queue sitting behind it.',
