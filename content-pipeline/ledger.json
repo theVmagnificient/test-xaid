@@ -421,6 +421,13 @@
       "source": "",
       "date": "2026-09-11",
       "approved": "2026-09-11 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-groups-share-infrastructure-stay-independent",
+      "topic": "Two Radiology Groups Just Built a Third Path Beyond a Sale",
+      "source": "",
+      "date": "2026-09-13",
+      "approved": "2026-09-13 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -2658,6 +2665,46 @@
       "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15834546/nanox-imaging-nanox-signs-costa-rica-distribution-deal-for-nanoxarc-system",
       "date": "2026-09-11",
       "decision": "skipped - HARD TOPIC RULE, named competitor-adjacent vendor (Nanox) product-distribution announcement; also off-core (international X-ray tomosynthesis distribution deal, no CT/AI-reporting relevance)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/arpa-h-to-award-627m-for-ai-in-cardiovascular-care/830185/",
+      "date": "2026-09-12",
+      "decision": "skipped - ARPA-H ADVOCATE program is agentic care-coordination AI for heart-failure patients (Tempus AI/Updoc/Atman Health), not diagnostic imaging or CT reporting; no credible xAID angle"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15834698/accuray-raysearch-expand-collaboration",
+      "date": "2026-09-12",
+      "decision": "skipped - radiation-oncology treatment-planning software collaboration, off-core for diagnostic CT/AI-reporting product; no reporting-workflow, radiologist-shortage, or reimbursement hook"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-12",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-13",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/4-questions-about-the-fdas-approach-to-generative-ai/829871/",
+      "date": "2026-09-13",
+      "decision": "drafted - fda-ai-medical-devices (gate reject, factcheck FAIL - draft misattributed FDA's first TEMPO pilot participant, naming Limbic when FDA's own release names Dexcom's Glucose Health Program; load-bearing error in body + Source line) - not selected for publish 2026-09-13. Note: this FDA-genAI-regulatory keyword cluster now has 6+ unintegrated drafts sitting in content-pipeline/drafts/ (fda-ai-regulation-vendor-diligence-checklist, fda-guidance-ai-vendor-checklist, fda-generative-ai-radiology-reports, ai-radiology-report-fda-clearances, generative-ai-in-radiology-oversight, fda-ai-medical-devices-mdufa-vi, plus this one) - founder should pick one and retire the rest to avoid self-cannibalization."
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/administration/news/15834521/colorado-imaging-associates-tra-medical-imaging-launch-affiliated-radiology",
+      "date": "2026-09-13",
+      "decision": "drafted - radiology-groups-share-infrastructure-stay-independent (gate needs-human, factcheck PASS 9/9 claims verified against PR Newswire/AJR/AuntMinnie primary sources; medium cannibalization risk as third entry in the 'stay independent / consolidation' cluster, but distinct dated news event and angle from the two already-published siblings) - SELECTED and integrated for publish 2026-09-13 (4-file contract done; build verified). An earlier, separately-gated draft on this same news event (radiology-group-merger-reporting-standardization.tsx, rejected 2026-09-09 for unverifiable headcount figures) remains in drafts/ un-integrated and should be archived/ignored by future runs now that this rewrite is published."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834525/ratio-therapeutics-rayzebio-join-forces",
+      "date": "2026-09-13",
+      "decision": "skipped - off-core radiopharmaceutical/theranostics licensing deal, not diagnostic CT/AI reporting (re-confirmed; same decision as 2026-09-10)"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15834496/candelis-candelis-wins-health-canada-approval-for-streamvue",
+      "date": "2026-09-13",
+      "decision": "skipped - wrong product category (PACS/VNA viewer, not AI report drafting) and wrong market (Canada, xAID is US-focused) (re-confirmed; same decision as 2026-09-10)"
     }
   ]
 }

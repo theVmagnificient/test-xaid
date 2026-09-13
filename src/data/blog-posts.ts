@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-groups-share-infrastructure-stay-independent',
+    title: 'Two Radiology Groups Just Built a Third Path Beyond a Sale',
+    excerpt: "Colorado Imaging Associates and TRA Medical Imaging pooled PACS, AI, and read capacity into one organization — instead of selling to PE or a hospital.",
+    date: 'September 13, 2026',
+    dateIso: '2026-09-13',
+    category: 'Practice Management',
+    readingTime: 7,
+    keywords: ['radiology practice consolidation', 'radiology services organization', 'radiology group merger', 'shared PACS infrastructure', 'radiology reading capacity'],
+  },
+  {
     slug: 'medicare-national-coverage-determination-reform',
     title: 'A Bill to Speed Up Medicare Coverage Decisions Is Moving Through Congress',
     excerpt: "A bipartisan bill sets Medicare's first deadlines for local coverage decisions — what slow NCD and LCD rulings cost radiology AI buyers today.",
