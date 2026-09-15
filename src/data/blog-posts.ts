@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'brain-metastases-mri-lung-cancer-surveillance',
+    title: 'A Practice-Changing Trial Just Traded One Radiation Course for Six MRI Scans',
+    excerpt: "A phase 3 trial (MAVERICK, SWOG S1827) found brain MRI surveillance alone beats adding preventive cranial radiation in small-cell lung cancer — a dated case of how a guideline shift quietly adds recurring imaging volume.",
+    date: 'September 15, 2026',
+    dateIso: '2026-09-15',
+    category: 'Screening & Capacity',
+    readingTime: 7,
+    keywords: ['brain metastases mri', 'brain mri surveillance', 'small cell lung cancer', 'prophylactic cranial irradiation', 'MAVERICK trial', 'radiology imaging volume'],
+  },
+  {
     slug: 'radiology-groups-share-infrastructure-stay-independent',
     title: 'Two Radiology Groups Just Built a Third Path Beyond a Sale',
     excerpt: "Colorado Imaging Associates and TRA Medical Imaging pooled PACS, AI, and read capacity into one organization — instead of selling to PE or a hospital.",

@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/brain-metastases-mri-lung-cancer-surveillance/",
       "/blog/radiology-groups-share-infrastructure-stay-independent/",
       "/blog/medicare-national-coverage-determination-reform/",
       "/blog/portable-mri-icu-reporting-bottleneck/",

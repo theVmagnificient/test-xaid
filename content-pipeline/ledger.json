@@ -428,6 +428,10 @@
       "source": "",
       "date": "2026-09-13",
       "approved": "2026-09-13 founder-approved via telegram bot"
+    },
+    {
+      "slug": "brain-metastases-mri-lung-cancer-surveillance",
+      "topic": "small-cell lung cancer brain-met surveillance / MAVERICK trial (MRI surveillance vs prophylactic cranial irradiation) — recurring imaging-volume angle"
     }
   ],
   "seen": [
@@ -2705,6 +2709,76 @@
       "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15834496/candelis-candelis-wins-health-canada-approval-for-streamvue",
       "date": "2026-09-13",
       "decision": "skipped - wrong product category (PACS/VNA viewer, not AI report drafting) and wrong market (Canada, xAID is US-focused) (re-confirmed; same decision as 2026-09-10)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/fda-approves-new-brain-cancer-imaging-agent-telix",
+      "date": "2026-09-14",
+      "decision": "scored, not chosen - near-duplicate of published glioblastoma-imaging-tumor-extent-reporting theme; single-vendor PET radiotracer approval, weak CT/AI-reporting tie"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/ge-healthcare-talks-buy-radiopharma-firm-sophie-biosciences-1b",
+      "date": "2026-09-14",
+      "decision": "scored, not chosen - off-core radiopharma M&A, overlaps published enterprise-imaging-modernization-capital-gap article"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/california-private-imaging-practice-joins-strategic-radiology",
+      "date": "2026-09-14",
+      "decision": "scored, not chosen - high cannibalization risk, would be 4th article in independent-vs-consolidation cluster"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/study-questions-value-repeat-ct-exams-after-initial-scan-shows-negative-pulmonary-embolism",
+      "date": "2026-09-14",
+      "decision": "drafted -> repeat-ct-scan-pulmonary-embolism; REJECTED 2026-09-14 (autorun deep-verify HOLD/REJECT — draft kept in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/screening-detected-breast-cancer-linked-better-outcomes",
+      "date": "2026-09-14",
+      "decision": "drafted -> breast-cancer-screening-outcomes (factcheck fix-needed -> fixes applied, gate ready, NOT chosen: weaker CT-product fit than repeat-CTPA candidate; left in drafts/ for future consideration"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-14",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/clinical/clinical-research/some-lung-cancer-patients-regular-mri-may-beat-preventive-brain-radiation",
+      "date": "2026-09-15",
+      "decision": "drafted -> brain-metastases-mri-lung-cancer-surveillance; factcheck PASS (11/11 claims independently corroborated, no contradictions) — SELECTED and integrated for publish 2026-09-15 (4-file contract done; build verified). Only draft in today's pool with a clean factcheck pass."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/1-state-over-dozen-counties-have-no-access-mri-implications-elsewhere",
+      "date": "2026-09-15",
+      "decision": "drafted -> rural-mri-deserts-radiology-reporting-gap; gate ready, factcheck fix-needed (2 fixes applied: citation misattribution corrected, CHQPR 30%->one-third moving-target stat hedged) — NOT chosen: weaker factcheck verdict than the brain-metastases pick and near-zero measurable SEO volume (fit/novelty-only play). Left in drafts/ for future consideration."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mri-safety-system-cuts-inpatient-deterioration-events-nearly-80",
+      "date": "2026-09-15",
+      "decision": "drafted -> mri-safety-monitoring-inpatient-deterioration; gate ready, factcheck fix-needed (2 fixes applied) — NOT chosen: weakest core-product fit of the pool (in-scan patient-safety monitoring, not diagnostic reporting) and third article in ~2 months on the same \"scan side improves, reporting doesn't\" narrative frame. Left in drafts/ for future consideration."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-concerned-cms-proposal-slash-260m-imaging-spending",
+      "date": "2026-09-15",
+      "decision": "skipped - high cannibalization, same CY2027 OPPS site-neutral-payment-reform story already published as site-neutral-payments-imaging; negligible keyword volume for all phrasings tried (dedupOk false from scorer)"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15834698/accuray-raysearch-expand-collaboration",
+      "date": "2026-09-15",
+      "decision": "skipped - off-core, radiation-therapy adaptive-planning partnership, not diagnostic CT/AI reporting"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15834574/epsilon-health-raises-276m-for-ainative-radiology-practice",
+      "date": "2026-09-15",
+      "decision": "skipped - competitor-adjacent funding round (AI-native radiology practice); HARD TOPIC RULE disqualifies building an article around a competitor/competitor-adjacent vendor funding round regardless of fact-check cleanliness"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15834546/nanox-imaging-nanox-signs-costa-rica-distribution-deal-for-nanoxarc-system",
+      "date": "2026-09-15",
+      "decision": "skipped - explicit competitor (Nanox) product/distribution-deal news; HARD TOPIC RULE disqualifies competitor product launches/deals"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-15",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }
