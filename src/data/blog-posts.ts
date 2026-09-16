@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mri-technologist-shortage-radiologist-reporting-bottleneck',
+    title: "A New MRI Technologist Degree Won't Fix Radiology's Real Bottleneck",
+    excerpt: "DeVry and Pulse Radiology Institute just launched a new MRI technology degree to fight a 17.4% MRI tech vacancy rate. It's a genuine fix for the acquisition-side shortage — but it does nothing for the reporting queue behind it.",
+    date: 'September 16, 2026',
+    dateIso: '2026-09-16',
+    category: 'Radiology Workforce',
+    readingTime: 7,
+    keywords: ['mri technologist shortage', 'radiologist shortage', 'imaging reporting bottleneck', 'AI CT reporting', 'radiology workforce'],
+  },
+  {
     slug: 'brain-metastases-mri-lung-cancer-surveillance',
     title: 'A Practice-Changing Trial Just Traded One Radiation Course for Six MRI Scans',
     excerpt: "A phase 3 trial (MAVERICK, SWOG S1827) found brain MRI surveillance alone beats adding preventive cranial radiation in small-cell lung cancer — a dated case of how a guideline shift quietly adds recurring imaging volume.",

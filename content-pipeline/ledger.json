@@ -432,6 +432,10 @@
     {
       "slug": "brain-metastases-mri-lung-cancer-surveillance",
       "topic": "small-cell lung cancer brain-met surveillance / MAVERICK trial (MRI surveillance vs prophylactic cranial irradiation) — recurring imaging-volume angle"
+    },
+    {
+      "slug": "mri-technologist-shortage-radiologist-reporting-bottleneck",
+      "topic": "MRI technologist workforce vs. radiologist reporting bottleneck (DeVry/Pulse degree launch news hook)"
     }
   ],
   "seen": [
@@ -2779,6 +2783,51 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-09-15",
       "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-ai-excels-certain-real-world-healthcare-settings-more-so-others",
+      "date": "2026-09-16",
+      "decision": "drafted -> ai-radiology-accuracy-by-care-setting; gate needs-human, factcheck fix-needed (fixes applied). NOT chosen for autonomous publish: underlying Neiman/Northwell JACR study evaluated one specific named commercial FDA-cleared aneurysm-detection algorithm (Aidoc, per fact-check) -- draft body never names the vendor but both its cited neutral sources (Neiman HPI press release, Radiology Business) name the vendor in their own opening paragraph. Possible tension with HARD TOPIC RULE despite the peer-reviewed-study carve-out; flagged for founder sign-off before publish. Left in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/study-questions-value-repeat-ct-exams-after-initial-scan-shows-negative-pulmonary-embolism",
+      "date": "2026-09-16",
+      "decision": "re-scored, re-confirmed skip - dedupOk false, near-duplicate of repeat-ct-scan-pulmonary-embolism (drafted 2026-09-14, REJECTED at factcheck). Good keyword economics but not re-drafted today; would need a clean rewrite with better primary-source verification."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15835001/devry-pulse-radiology-institute-launch-mri-technology-degree",
+      "date": "2026-09-16",
+      "decision": "drafted -> mri-technologist-shortage-radiologist-reporting-bottleneck; gate ready, factcheck fix-needed (fixes applied: citation misattribution corrected, 2030->2055 timeframe error corrected, title/meta length fixed, http->https link). CHOSEN and INTEGRATED into the 4-file contract 2026-09-16 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/1-state-over-dozen-counties-have-no-access-mri-implications-elsewhere",
+      "date": "2026-09-16",
+      "decision": "re-scored, re-confirmed skip - dedupOk false, near-duplicate of rural-mri-deserts-radiology-reporting-gap (drafted 2026-09-15, gate ready/factcheck fix-needed but left un-integrated: near-zero measurable SEO volume, weaker factcheck verdict than that day's pick)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/american-college-radiology-concerned-cms-proposal-slash-260m-imaging-spending",
+      "date": "2026-09-16",
+      "decision": "re-scored, re-confirmed skip - high cannibalization with published site-neutral-payments-imaging (same CY2027 OPPS site-neutral reform story); negligible keyword volume for all phrasings tried."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/ge-healthcare-talks-buy-radiopharma-firm-sofie-biosciences-1b",
+      "date": "2026-09-16",
+      "decision": "re-scored, re-confirmed skip - off-core radiopharmaceutical M&A (therapeutics, not diagnostic CT), overlaps published enterprise-imaging-modernization-capital-gap article. (Same story logged 2026-09-14 under a typo'd URL slug 'sophie-biosciences'.)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/california-private-imaging-practice-joins-strategic-radiology",
+      "date": "2026-09-16",
+      "decision": "re-scored, re-confirmed skip - high cannibalization risk, would be 4th article in independent-vs-consolidation cluster (after radiology-private-equity-stay-independent, radiology-groups-share-infrastructure-stay-independent). No new angle justifies a repeat."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15834925/merge-launches-mergeiq-ai-layer-for-radiology-workflow-orchestration",
+      "date": "2026-09-16",
+      "decision": "skipped pre-draft - HARD TOPIC RULE (founder, 2026-08-11): competitor-adjacent vendor (Merge) product-launch announcement (MergeIQ AI layer for radiology workflow orchestration). Disqualified regardless of fit/interest or fact-check cleanliness; do not re-queue or launder into a softened 'neutral workflow' angle."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-16",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }
