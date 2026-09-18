@@ -436,6 +436,10 @@
     {
       "slug": "mri-technologist-shortage-radiologist-reporting-bottleneck",
       "topic": "MRI technologist workforce vs. radiologist reporting bottleneck (DeVry/Pulse degree launch news hook)"
+    },
+    {
+      "slug": "teleradiology-follow-up-recommendation-variability",
+      "topic": "Teleradiologists recommend follow-up imaging ~4x more than on-site radiologists but with lower adherence/oncologic yield — framed as reader-variability problem, not a telerad quality gap (Academic Radiology study news hook)"
     }
   ],
   "seen": [
@@ -2828,6 +2832,81 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-09-16",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-17",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologists-rec-follow-ct-falls-through-cracks-leading-patients-terminal-diagnosis-3-years-later",
+      "date": "2026-09-17",
+      "decision": "scored (fit 8/seo 4/interest 8) but not drafted - dedupOk false: near-duplicate of already-un-integrated draft radiology-follow-up-recommendations.tsx (same closed-loop-follow-up topic, flagged dedupOk false since 2026-07-10). Not worth a 3rd parallel piece; candidate to refresh the existing stalled draft with this new Roper St. Francis suit as evidence instead."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/rad-partners-scores-1m-fda-grant-test-new-way-evaluating-ai-generated-radiology-reports",
+      "date": "2026-09-17",
+      "decision": "scored (fit 7/seo 3/interest 7) but not drafted - dedupOk false: saturated FDA-genAI-oversight cluster (6+ unintegrated drafts plus published ai-radiology-quality-assurance / radiology-ai-vendor-evaluation-checklist). Also same story reported by AuntMinnie as a $1.29M SBIR contract - confirmed real, but not distinct enough from existing coverage to draft today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/prostate-biopsy-success-highly-dependent-mri-quality-study-shows",
+      "date": "2026-09-17",
+      "decision": "drafted -> prostate-mri-quality-ai-reporting-qa; gate needs-human, factcheck fix-needed. NOT chosen for autonomous publish: the underlying NCI/EJR study (Wunsch et al., DOI 10.1016/j.ejrad.2026.113254) is bibliographically real but brand-new, fully paywalled, and its core figures (124-patient cohort, 15/124 12.1% miss rate, OR 12.1 for T2WI quality) plus two direct author quotes could not be verified against primary text by the fact-checker or by an independent follow-up WebSearch - flagged as a hard blocker (quote-fabrication risk) pending human access to the full text. Left in drafts/ for future human verification."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/pet-ct/fda-clears-ai-platform-pet-imaging-enhancement-and-quantification",
+      "date": "2026-09-17",
+      "decision": "drafted -> fda-cleared-ai-algorithms-pet-quantification; gate needs-human, factcheck fix-needed (date-math error fixed). NOT chosen for autonomous publish: DISQUALIFIED under the HARD TOPIC RULE (founder, 2026-08-11) - the entire piece is built around two other companies' FDA clearances/product launches (MICSI's MICSI-PET and Cortechs.ai's NeuroQuant PET). Neither vendor is on the named competitor list and the modality (PET/neuro-quantification) differs from xAID's CT product, but the piece is structurally a vendor-product-launch story, which the rule disqualifies regardless of fact-check cleanliness or competitor-list membership. Left in drafts/ pending founder gut-check; do not auto-publish even after fixes."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologist-surgeon-general-nominee-faces-1st-confirmation-hearing",
+      "date": "2026-09-17",
+      "decision": "drafted -> radiologist-surgeon-general-nominee; gate reject, factcheck fail. NOT chosen - also weak core-product fit regardless (general political/news-cycle story, nominee is a breast specialist not a diagnostic radiologist, near-zero B2B imaging-AI intent overlap)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/living-disadvantaged-communities-accelerates-brain-aging-mr-imaging-shows",
+      "date": "2026-09-17",
+      "decision": "skipped pre-draft - dedupOk false, near-zero keyword demand under every phrasing tested, and sits close to published radiology-ai-access-disparities plus un-integrated rural-mri-deserts-radiology-reporting-gap draft; real risk of becoming a 3rd equity/access piece without a clearly new angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/new-mri-technique-could-make-scans-more-quiet-while-improving-image-detail",
+      "date": "2026-09-17",
+      "decision": "skipped pre-draft - dedupOk false, weak fit (pure acquisition-hardware research) and the 'scan side improves, reporting doesn't' narrative frame already used 2+ times in the past two months (portable-mri-icu-reporting-bottleneck, mri-safety-monitoring-inpatient-deterioration)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-18",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/teleradiologists-recommend-more-follow-imaging-lower-clinical-yield",
+      "date": "2026-09-18",
+      "decision": "drafted -> teleradiology-follow-up-recommendation-variability; gate ready, factcheck fix-needed (one authorship-framing fix applied: corresponding author Cho mislabeled as lead author; title/meta length also tightened). CHOSEN and INTEGRATED into the 4-file contract 2026-09-18 (autonomous run), pending founder approval + deploy. Highest fit/interest score of today's shortlist (8/8) and directly illustrates xAID's structured-report/reader-variability value prop."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/structural-brain-imaging-substantially-underused-medicare-population",
+      "date": "2026-09-18",
+      "decision": "drafted -> brain-mri-for-dementia-medicare-underuse; gate ready, factcheck fix-needed (fabricated closing-citation title corrected to CrossRef-verified real title; 3 internal links added). NOT chosen for today's publish (teleradiology-follow-up-recommendation-variability preferred - higher fit/interest score). Left in drafts/ for founder review; clean candidate for a future day."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/aetna-expanding-program-bundles-medical-imaging-prior-authorizations-other-cancer-care",
+      "date": "2026-09-18",
+      "decision": "drafted -> aetna-bundled-prior-authorization-imaging-cancer-care; gate ready, factcheck fix-needed (a Guerraz quote had a dropped clause, restored to verbatim; FAQ apostrophe mismatch fixed). NOT chosen for today's publish (teleradiology-follow-up-recommendation-variability preferred). Left in drafts/ for founder review; clean candidate for a future day."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/hospitals-need-management-strategy-radiology-ai-investing",
+      "date": "2026-09-18",
+      "decision": "scored (fit 7/seo 3/interest 6) but not drafted - dedupOk false: cluster-risk, xAID's ledger already has 5 vendor-evaluation/checklist pieces; post-purchase AI-governance framing is narrower but needs a genuinely distinct structure to avoid being checklist #6, and zero keyword-suggestion data confirms it's a pure thought-leadership play."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/breast/news/15835131/ikonopedia-llc-ikonopedia-updates-breast-reporting-platform-for-birads-v2025",
+      "date": "2026-09-18",
+      "decision": "scored (fit 6/seo 5/interest 5) but not drafted - dedupOk false: thematically close to published structured-radiology-reporting-customization; different modality/vendor and a standards-churn hook make it distinct enough to consider later, but lowest priority of today's shortlist and flagged for cannibalization risk."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologists-rec-follow-ct-falls-through-cracks-leading-patients-terminal-diagnosis-3-years-later",
+      "date": "2026-09-18",
+      "decision": "re-surfaced and re-scored (fit 8/seo 4/interest 8), still not drafted - dedupOk false, same near-duplicate of un-integrated radiology-follow-up-recommendations.tsx stalled draft first flagged 2026-07-10 and again 2026-09-17. Recommend using it to finally finish that stalled draft rather than starting a 3rd piece on the same topic."
     }
   ]
 }

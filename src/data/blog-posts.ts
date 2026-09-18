@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'teleradiology-follow-up-recommendation-variability',
+    title: 'Teleradiologists Recommend More Follow-Up Imaging. The Real Problem Is Variability, Not Location.',
+    excerpt: "A 24,146-scan study found teleradiologists recommend follow-up imaging nearly 4x more often than on-site radiologists — but those recommendations are completed less and find cancer less. The data points to reader variability, not a telerad quality gap.",
+    date: 'September 18, 2026',
+    dateIso: '2026-09-18',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['teleradiology follow-up recommendations', 'radiologist practice variability', 'follow-up imaging recommendation rate', 'structured radiology reporting', 'teleradiology quality'],
+  },
+  {
     slug: 'mri-technologist-shortage-radiologist-reporting-bottleneck',
     title: "A New MRI Technologist Degree Won't Fix Radiology's Real Bottleneck",
     excerpt: "DeVry and Pulse Radiology Institute just launched a new MRI technology degree to fight a 17.4% MRI tech vacancy rate. It's a genuine fix for the acquisition-side shortage — but it does nothing for the reporting queue behind it.",
