@@ -440,6 +440,10 @@
     {
       "slug": "teleradiology-follow-up-recommendation-variability",
       "topic": "Teleradiologists recommend follow-up imaging ~4x more than on-site radiologists but with lower adherence/oncologic yield — framed as reader-variability problem, not a telerad quality gap (Academic Radiology study news hook)"
+    },
+    {
+      "slug": "aetna-bundled-prior-authorization-imaging-cancer-care",
+      "topic": "payer-side prior-authorization bundling (Aetna) / imaging documentation & turnaround stakes"
     }
   ],
   "seen": [
@@ -2907,6 +2911,111 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologists-rec-follow-ct-falls-through-cracks-leading-patients-terminal-diagnosis-3-years-later",
       "date": "2026-09-18",
       "decision": "re-surfaced and re-scored (fit 8/seo 4/interest 8), still not drafted - dedupOk false, same near-duplicate of un-integrated radiology-follow-up-recommendations.tsx stalled draft first flagged 2026-07-10 and again 2026-09-17. Recommend using it to finally finish that stalled draft rather than starting a 3rd piece on the same topic."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/aetna-expanding-program-bundles-medical-imaging-prior-authorizations-other-cancer-care",
+      "date": "2026-09-19",
+      "decision": "CHOSEN & PUBLISHED today: slug aetna-bundled-prior-authorization-imaging-cancer-care integrated into the 4-file contract (dateIso 2026-09-19). Gate ready, factcheck pass. Selected over ai-governance-in-healthcare-imaging (factcheck fix-needed) and brain-mri-for-dementia-medicare-underuse (lower fit/SEO score) per today's autorun selection rule."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/healthcares-agentic-ai-boom-is-outpacing-security-governance-report/830749/",
+      "date": "2026-09-19",
+      "decision": "drafted -> ai-governance-in-healthcare-imaging; gate ready, factcheck fix-needed (a Dr. Sean Kelly/Imprivata quote was misquoted, corrected to verbatim during QA). NOT chosen for today's publish (Aetna draft preferred: clean factcheck PASS, per the autorun rule to prefer factcheck pass over fix-needed). Left in drafts/ for founder review; clean candidate for a future day once independently re-verified."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/structural-brain-imaging-substantially-underused-medicare-population",
+      "date": "2026-09-19",
+      "decision": "re-surfaced and re-scored (fit 6/seo 4/interest 7); still gate ready/factcheck pass on the existing brain-mri-for-dementia-medicare-underuse draft. NOT chosen for today's publish (Aetna draft preferred: higher fit/SEO score). Left in drafts/ for founder review; clean candidate for a future day."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologist-among-8-new-members-us-preventive-services-task-force",
+      "date": "2026-09-19",
+      "decision": "scored (fit 4/seo 3/interest 5) but not drafted - dedupOk false: keyword cluster (uspstf lung cancer screening, 2900/mo) already owned by published lung-cancer-screening-ct-criteria article; a personnel-appointment news peg is too thin to justify a second entry in that cluster without a genuinely different angle and lower-volume keyword."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-radnets-foundation-model-based-chest-x-ray-ai-tool",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - RadNet foundation-model chest x-ray AI product clearance is a competitor-adjacent AI-imaging vendor product launch; excluded per the no-competitor-airtime rule regardless of fit."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/webinar-st-lukes-rad-and-it-team-chose-enterprise-imaging-saas-lot-reasons",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - vendor webinar recap (enterprise imaging SaaS selection), low fit/SEO for xAID's AI CT reporting audience."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/clinical/radiation-oncology/astro-publishes-its-1st-clinical-guidelines-radiation-therapy-bladder-cancer",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - radiation-oncology clinical guideline, off-topic for CT diagnostic reporting."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/57751/civie-formerly-collaborative-imaging/sol-radiology-bigger-only-counts-if-its-better",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - sponsored/vendor-branded promotional content, not an editorial news item."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/fda-approves-new-generic-radiopharmaceutical-alternative-curium",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - radiopharmaceutical/nuclear medicine, off-topic for CT reporting."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/mri-method-could-personalize-breast-prosthesis-sizing-after-mastectomy",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - niche clinical/surgical-planning research, low fit for B2B reporting-throughput audience."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cognita-imaging-wins-fda-contract-to-test-llms-in-evaluating-radiology-ai/830788/",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - duplicate coverage of the same Cognita/FDA LLM-evaluation-contract story also picked up via AuntMinnie (cognita-wins-129m-fda-contract-to-evaluate-radiology-ai); not selected as a distinct candidate today."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15835309/deephealth-deephealth-gets-fda-nod-for-chest-xray-ai-tool",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - DeepHealth chest x-ray AI FDA clearance is a competitor-adjacent AI-imaging vendor product launch; excluded per the no-competitor-airtime rule."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/article/15835281/recalls-stable-for-radiation-oncology-tools-despite-tech-advancements",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - radiation-oncology device-recall trend piece, off-topic for CT diagnostic reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15835294/koning-breast-ct-system-receives-australian-tga-approval",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - vendor hardware regulatory approval in a foreign (Australian) market, low fit/SEO for a US B2B audience."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15835300/carestream-health-carestream-healthcare-launches-starview-digital-radiography-system",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - vendor hardware product launch (digital radiography system), not an AI-reporting or workflow story."
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/market-analysis/people-in-the-news/news/15835140/qt-imaging-names-radiologist-as-chief-medical-officer",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - personnel-appointment news, too thin for a standalone article."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15835079/micsi-secures-fda-clearance-for-mrguided-pet-platform",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - vendor hardware FDA clearance (MR-guided PET), off-topic for CT reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15835093/cognita-wins-129m-fda-contract-to-evaluate-radiology-ai",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - duplicate coverage of the same Cognita/FDA LLM-evaluation-contract story also picked up via MedTech Dive; not selected as a distinct candidate today."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834905/sonus-microsystems-medtronic-to-work-on-wearable-preeclampsia-tool",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - ultrasound/OB wearable device, off-topic for CT reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15834912/clarius-mobile-health-clarius-inteleos-bundle-pocus-certification-with-ultrasound-purchase",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - POCUS certification bundling promo, off-topic for CT reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15834934/curium-gets-fda-approval-for-lu177-injection-for-gepnets",
+      "date": "2026-09-19",
+      "decision": "ingested, not scored - radiopharmaceutical therapy approval, off-topic for CT reporting."
     }
   ]
 }

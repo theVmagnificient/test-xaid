@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/aetna-bundled-prior-authorization-imaging-cancer-care/",
       "/blog/teleradiology-follow-up-recommendation-variability/",
       "/blog/mri-technologist-shortage-radiologist-reporting-bottleneck/",
       "/blog/brain-metastases-mri-lung-cancer-surveillance/",

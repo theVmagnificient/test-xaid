@@ -6,8 +6,8 @@ import KeyStats from '@/components/KeyStats';
 const AetnaBundledPriorAuthorizationImaging = () => {
   const post = {
     title: "Aetna's Bundled Prior Authorization Is a Preview of 2027 Medicare Imaging Rules",
-    dateIso: '2026-09-18',
-    date: 'September 18, 2026',
+    dateIso: '2026-09-19',
+    date: 'September 19, 2026',
     category: 'Market & Policy',
     readingTime: 7,
     description:

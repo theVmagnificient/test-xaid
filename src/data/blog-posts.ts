@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'aetna-bundled-prior-authorization-imaging-cancer-care',
+    title: "Aetna's Bundled Prior Authorization Is a Preview of 2027 Medicare Imaging Rules",
+    excerpt: "Aetna now bundles medical oncology, radiation oncology and related MRI/CT prior authorizations into a single approval — live in eight Medicaid states, with Medicare and commercial plans targeted for 2027. What payer-driven bundling means for imaging documentation and turnaround.",
+    date: 'September 19, 2026',
+    dateIso: '2026-09-19',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['radiology prior authorization', 'Aetna prior authorization', 'bundled prior authorization imaging', 'medicare imaging prior authorization', 'cancer care imaging authorization'],
+  },
+  {
     slug: 'teleradiology-follow-up-recommendation-variability',
     title: 'Teleradiologists Recommend More Follow-Up Imaging. The Real Problem Is Variability, Not Location.',
     excerpt: "A 24,146-scan study found teleradiologists recommend follow-up imaging nearly 4x more often than on-site radiologists — but those recommendations are completed less and find cancer less. The data points to reader variability, not a telerad quality gap.",
