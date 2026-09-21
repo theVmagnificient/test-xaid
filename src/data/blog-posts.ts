@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ct-contrast-shortage-cost-length-of-stay',
+    title: 'The 2022 CT Contrast Shortage: The Cost of Delay',
+    excerpt: 'New research on the 2022 CT contrast shortage found higher costs and longer hospital stays. What the data shows about capacity-driven care delays in imaging.',
+    date: 'September 21, 2026',
+    dateIso: '2026-09-21',
+    category: 'Health Economics',
+    readingTime: 7,
+    keywords: ['ct contrast shortage', 'contrast media shortage cost', 'imaging capacity constraint', 'length of stay imaging', 'radiology reporting capacity'],
+  },
+  {
     slug: 'aetna-bundled-prior-authorization-imaging-cancer-care',
     title: "Aetna's Bundled Prior Authorization Is a Preview of 2027 Medicare Imaging Rules",
     excerpt: "Aetna now bundles medical oncology, radiation oncology and related MRI/CT prior authorizations into a single approval — live in eight Medicaid states, with Medicare and commercial plans targeted for 2027. What payer-driven bundling means for imaging documentation and turnaround.",

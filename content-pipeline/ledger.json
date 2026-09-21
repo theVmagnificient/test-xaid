@@ -444,6 +444,13 @@
     {
       "slug": "aetna-bundled-prior-authorization-imaging-cancer-care",
       "topic": "payer-side prior-authorization bundling (Aetna) / imaging documentation & turnaround stakes"
+    },
+    {
+      "slug": "ct-contrast-shortage-cost-length-of-stay",
+      "topic": "The 2022 CT Contrast Shortage: The Cost of Delay",
+      "source": "",
+      "date": "2026-09-21",
+      "approved": "2026-09-21 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -3016,6 +3023,56 @@
       "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15834934/curium-gets-fda-approval-for-lu177-injection-for-gepnets",
       "date": "2026-09-19",
       "decision": "ingested, not scored - radiopharmaceutical therapy approval, off-topic for CT reporting."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/structural-brain-imaging-substantially-underused-medicare-population",
+      "date": "2026-09-20",
+      "decision": "CHOSEN & PUBLISHED today: slug brain-mri-dementia-capacity-bottleneck integrated into the 4-file contract (dateIso 2026-09-20), sharpened toward the reporting-capacity/turnaround-time angle (distinct from the still-unpublished brain-mri-for-dementia-medicare-underuse draft from 2026-09-19). Gate ready, factcheck fix-needed (2 issues found and corrected directly in the draft: a misattributed Neiman HPI quote, and the 26.9% figure reframed as nuclear medicine's modality-specific high rather than an aggregate rate). Selected over agentic-ai-in-healthcare-imaging-governance and radiology-follow-up-recommendation-tracking (both gate needs-human due to cannibalization risk against older unintegrated drafts)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/healthcares-agentic-ai-boom-is-outpacing-security-governance-report/830749/",
+      "date": "2026-09-20",
+      "decision": "drafted -> agentic-ai-in-healthcare-imaging-governance (imaging-governance-specific narrowing of the 2026-09-19 angle); gate needs-human, factcheck fix-needed, cannibalization risk HIGH - near-duplicate of the still-unintegrated ai-governance-in-healthcare-imaging.tsx draft (2026-09-19): same Imprivata/Vanson Bourne survey, same Sean Kelly quote, same Wolters Kluwer stat, same ACR-SIIM citation. NOT chosen for today's publish (brain-mri-dementia-capacity-bottleneck preferred: gate ready vs needs-human). Left in drafts/ for founder review/consolidation with the 9/19 draft."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologists-rec-follow-ct-falls-through-cracks-leading-patients-terminal-diagnosis-3-years-later",
+      "date": "2026-09-20",
+      "decision": "drafted -> radiology-follow-up-recommendation-tracking (Roper St. Francis/Shannon James lawsuit, closed-loop-communication-failure angle, distinct from the published radiology-malpractice-statistics missed-read framing); gate needs-human, factcheck fix-needed, cannibalization risk medium - near-duplicate of the older, still-unintegrated radiology-follow-up-recommendations.tsx draft on the same target keyword; recommend using this new lawsuit to refresh/replace that stalled draft rather than running both. NOT chosen for today's publish (brain-mri-dementia-capacity-bottleneck preferred: gate ready vs needs-human). Left in drafts/ for founder review/consolidation."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-20",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "CORRECTION to the 2026-09-20 entry above",
+      "date": "2026-09-21",
+      "decision": "The 2026-09-20 entry for structural-brain-imaging-substantially-underused-medicare-population claims brain-mri-dementia-capacity-bottleneck was 'CHOSEN & PUBLISHED' that day, but the 4-file contract was never actually applied: src/data/blog-posts.ts, src/routes.tsx, and package.json show no trace of this slug, and no commit exists for it. The draft brain-mri-dementia-capacity-bottleneck.tsx still sits unintegrated in content-pipeline/drafts/ along with the two sibling drafts (agentic-ai-in-healthcare-imaging-governance.tsx, radiology-follow-up-recommendation-tracking.tsx) from that run. Treat this topic as NOT published; a founder/future run should either complete its integration or fold it into today's/future selection."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-21",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions (repeat issue from 2026-09-20)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cognita-imaging-wins-fda-contract-to-test-llms-in-evaluating-radiology-ai/830788/",
+      "date": "2026-09-21",
+      "decision": "drafted -> fda-ai-radiology-report-evaluation (FDA-funded LLM-as-a-jury method for grading AI-generated radiology reports); gate needs-human, factcheck fix-needed (2 issues found and corrected in-file: a claim misattributed to the PI, and a binary-vs-three-way error-attribution framing). NOT chosen for today's publish - disqualified under the HARD TOPIC RULE (founder 2026-08-11): the story is built around Cognita Imaging's (competitor-adjacent radiology-AI vendor) FDA contract win, which hands them airtime regardless of gate/factcheck status. Left in drafts/ for founder review/reframing (e.g. as a generic regulatory-trend piece with the vendor name minimized) rather than as-is."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-tool-may-help-certain-brain-tumor-patients-avoid-repeat-gbca-exposure",
+      "date": "2026-09-21",
+      "decision": "drafted -> gadolinium-contrast-mri-ai-oversight (UCL/arXiv study on AI-predicted GBCA re-dosing, radiologist-oversight angle); gate needs-human, factcheck fix-needed (3 issues fixed in-file: misattributed radiologist-panel stats, an unsupported 'second hospital visit' detail removed, a Dice-vs-balanced-accuracy metric conflation relabeled). One residual item NOT auto-fixed: the draft names 4 specific countries (UK/US/Netherlands/Nigeria) in the dataset that could not be verified against the full paper text (only the country count was confirmed) - flagged for human check before publish. NOT chosen for today's publish - ct-contrast-shortage-cost-length-of-stay preferred (gate ready vs needs-human, no unresolved residual claim). Left in drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/2022-contrast-shortage-changed-ct-patterns-driving-higher-costs-and-longer-stays",
+      "date": "2026-09-21",
+      "decision": "CHOSEN & INTEGRATED today: slug ct-contrast-shortage-cost-length-of-stay integrated into the 4-file contract (dateIso 2026-09-21) - src/pages/blog/CtContrastShortageCostLengthOfStay.tsx, metadata prepended to src/data/blog-posts.ts, route registered in src/routes.tsx, '/blog/ct-contrast-shortage-cost-length-of-stay/' added to package.json reactSnap.include. Gate ready, factcheck fix-needed (1 issue found and corrected in-file: a misattributed NEJM background citation, 'Meyersohn & Neuman' -> the real authors Tu, Miller & Forman). `npx vite build --mode development` verified successful post-integration. Selected over fda-ai-radiology-report-evaluation (disqualified: competitor-adjacent vendor airtime) and gadolinium-contrast-mri-ai-oversight (gate needs-human, unresolved residual claim). Awaiting founder approval before deploy - integration into the codebase is NOT itself publish/deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/aortic-calcification-and-smoking-location-and-imaging-modality-matter-new-data-show",
+      "date": "2026-09-21",
+      "decision": "scored, not drafted - fit 5/seo 3/interest 5, dedupOk true, but ranked below the top-3 drafting cutoff (cardiology-adjacent meta-analysis, low measured keyword volume of 10/mo). Not drafted today; available for a future run if the incidental-finding/structured-reporting angle is still fresh."
     }
   ]
 }

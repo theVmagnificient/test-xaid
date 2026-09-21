@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/ct-contrast-shortage-cost-length-of-stay/",
       "/blog/aetna-bundled-prior-authorization-imaging-cancer-care/",
       "/blog/teleradiology-follow-up-recommendation-variability/",
       "/blog/mri-technologist-shortage-radiologist-reporting-bottleneck/",
