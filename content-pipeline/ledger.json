@@ -451,6 +451,13 @@
       "source": "",
       "date": "2026-09-21",
       "approved": "2026-09-21 founder-approved via telegram bot"
+    },
+    {
+      "slug": "interventional-radiology-workforce-trends",
+      "topic": "IR-concentration workforce reallocation (JVIR/Neiman HPI Medicare claims study) / diagnostic reading-pool supply squeeze",
+      "source": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/more-radiologists-now-devoting-their-practices-interventional-radiology-medicare-analysis-shows",
+      "date": "2026-09-22",
+      "approved": ""
     }
   ],
   "seen": [
@@ -3073,6 +3080,76 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/aortic-calcification-and-smoking-location-and-imaging-modality-matter-new-data-show",
       "date": "2026-09-21",
       "decision": "scored, not drafted - fit 5/seo 3/interest 5, dedupOk true, but ranked below the top-3 drafting cutoff (cardiology-adjacent meta-analysis, low measured keyword volume of 10/mo). Not drafted today; available for a future run if the incidental-finding/structured-reporting angle is still fresh."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-22",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions (repeat issue, same as prior runs since 2026-09-20)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/more-radiologists-now-devoting-their-practices-interventional-radiology-medicare-analysis-shows",
+      "date": "2026-09-22",
+      "decision": "CHOSEN & INTEGRATED today: slug interventional-radiology-workforce-trends integrated into the 4-file contract (dateIso 2026-09-22) - src/pages/blog/InterventionalRadiologyWorkforceTrends.tsx, metadata prepended to src/data/blog-posts.ts, route registered in src/routes.tsx, '/blog/interventional-radiology-workforce-trends/' added to package.json reactSnap.include. Fit 8/seo 5/interest 8, dedupOk true (new angle: IR-concentration reallocation within existing headcount, distinct from published shortage/headcount pieces). Gate ready, factcheck fix-needed (1 substantive issue found and corrected in-file: draft had claimed the IR-concentration trend was 'accelerating in younger radiologists', which the study's senior author directly contradicts on record - rewrote H2/body/FAQ to state the age data as a 2023 snapshot only, with the author's correction cited). One residual non-blocking note: the Radiology Business URL itself couldn't be independently re-fetched (Cloudflare-blocked), but the same study/figures are corroborated by 5 other independently-fetched sources (PubMed abstract, Neiman HPI, ITN, AuntMinnie, DOI). Was the only draft produced by daily-news-pipeline today; evergreen pipeline produced none (backlogLow). `npx vite build --mode development` verified successful post-integration. Awaiting founder approval before deploy - integration into the codebase is NOT itself publish/deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/telix-and-itm-merge-165b-deal-poised-expand-radiopharmaceutical-development-and-manufacturing",
+      "date": "2026-09-22",
+      "decision": "scored, not drafted - fit 3/seo 3/interest 4, weakest of today's pool. Telix/ITM is radioisotope manufacturing and radiopharmaceutical-therapy M&A, not diagnostic CT or radiologist-reporting workflow - thin core-product fit, borders on the 'unrelated funding' category. Also duplicated by an AuntMinnie item on the same deal (https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/article/15835452/telix-inks-deal-to-acquire-itm-for-165b - same story, not separately scored). Real cannibalization risk against the existing consolidation/PE cluster if forced into that frame. Not chosen."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-tool-may-help-certain-brain-tumor-patients-avoid-repeat-gbca-exposure",
+      "date": "2026-09-22",
+      "decision": "reappeared in today's ingest window; dedupOk false - already drafted 2026-09-21 as gadolinium-contrast-mri-ai-oversight (gate needs-human, one unresolved residual claim re: 4 specific countries in the dataset). Not re-drafted today; recommend the founder finish/fix the existing draft rather than starting a duplicate. Still sitting unintegrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/aortic-calcification-and-smoking-location-and-imaging-modality-matter-new-data-show",
+      "date": "2026-09-22",
+      "decision": "reappeared in today's ingest window; same URL scored 2026-09-21 at fit 5/seo 3/interest 5 and again today, below the drafting cutoff both times (cardiology-adjacent, ~10/mo measured keyword volume). No change in the underlying case; not drafted."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/healthcares-agentic-ai-boom-is-outpacing-security-governance-report/830749/",
+      "date": "2026-09-22",
+      "decision": "reappeared in today's ingest window; dedupOk false - already produced two unintegrated drafts (ai-governance-in-healthcare-imaging 2026-09-19, agentic-ai-in-healthcare-imaging-governance 2026-09-20), both gate needs-human/fix-needed, both citing the same Sean Kelly/Imprivata quote and Wolters Kluwer stat. Not re-drafted a third time; recommend the founder consolidate the two existing drafts."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cognita-imaging-wins-fda-contract-to-test-llms-in-evaluating-radiology-ai/830788/",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted by the score+keywords agent (fell below today's top-5 cut). New item, no prior ledger entry - available for a future run if the FDA/LLM-evaluation-of-AI-reports angle is still fresh."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/mayo-clinic-thermo-fisher-partner-to-create-precure/830858/",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - Mayo Clinic/Thermo Fisher oncology-diagnostics partnership (Precure), off-core for xAID's CT-reporting focus. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15835427/altis-labs-raises-25m-for-ct-ai-tool",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - Altis Labs $25M funding round for a CT AI tool. Excluded under the HARD TOPIC RULE (no competitor-adjacent vendor funding-round airtime), regardless of any other fit. Skipped, not drafted."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15835401/a2z-radiology-secures-clearance-for-ct-ai-device",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - a2z Radiology FDA clearance for a CT AI device. Excluded under the HARD TOPIC RULE (no competitor-adjacent vendor product-launch airtime). Skipped, not drafted."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15835309/deephealth-deephealth-gets-fda-nod-for-chest-xray-ai-tool",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - DeepHealth FDA nod for a chest X-ray AI tool. Excluded under the HARD TOPIC RULE (competitor-adjacent vendor product launch) and off-modality (X-ray, not CT). Skipped, not drafted."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/article/15835281/recalls-stable-for-radiation-oncology-tools-despite-tech-advancements",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - radiation-oncology equipment recall trends, off-core for xAID's diagnostic CT-reporting focus. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15835294/koning-breast-ct-system-receives-australian-tga-approval",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - Koning Breast CT System Australian TGA regulatory approval, a single-vendor product-approval announcement. Low fit/off-core. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15835300/carestream-health-carestream-healthcare-launches-starview-digital-radiography-system",
+      "date": "2026-09-22",
+      "decision": "ingested, not shortlisted - Carestream digital radiography system launch, a single-vendor product-launch announcement, off-modality (X-ray, not CT). Skipped."
     }
   ]
 }

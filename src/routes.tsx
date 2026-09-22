@@ -32,6 +32,7 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/integrations': () => import('./pages/Integrations'),
   '/how-ai-ct-reporting-works': () => import('./pages/HowAiCtReportingWorks'),
   '/blog': () => import('./pages/Blog'),
+  '/blog/interventional-radiology-workforce-trends': () => import('./pages/blog/InterventionalRadiologyWorkforceTrends'),
   '/blog/ct-contrast-shortage-cost-length-of-stay': () => import('./pages/blog/CtContrastShortageCostLengthOfStay'),
   '/blog/aetna-bundled-prior-authorization-imaging-cancer-care': () => import('./pages/blog/AetnaBundledPriorAuthorizationImaging'),
   '/blog/teleradiology-follow-up-recommendation-variability': () => import('./pages/blog/TeleradiologyFollowUpRecommendationVariability'),

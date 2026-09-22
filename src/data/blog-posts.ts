@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'interventional-radiology-workforce-trends',
+    title: "Interventional Radiology Is Absorbing More Radiologists — And Shrinking the Diagnostic Pool",
+    excerpt: 'A 2008–2023 Medicare claims analysis of 46,533 radiologists shows more of them concentrating on interventional procedures. Every one is a diagnostic CT reader the reporting queue no longer has.',
+    date: 'September 22, 2026',
+    dateIso: '2026-09-22',
+    category: 'Radiology Workforce',
+    readingTime: 7,
+    keywords: ['interventional radiology workforce trends', 'radiologist shortage', 'diagnostic radiology capacity', 'IR DR workforce', 'Medicare claims radiology'],
+  },
+  {
     slug: 'ct-contrast-shortage-cost-length-of-stay',
     title: 'The 2022 CT Contrast Shortage: The Cost of Delay',
     excerpt: 'New research on the 2022 CT contrast shortage found higher costs and longer hospital stays. What the data shows about capacity-driven care delays in imaging.',
