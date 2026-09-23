@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'chest-ct-vertebral-bone-density-brain-aging',
+    title: 'Chest CT Bone Density Predicts Brain Aging',
+    excerpt: 'A Johns Hopkins study finds spine bone density on routine chest CT predicts cognitive decline — a case for opportunistic incidental-finding extraction.',
+    date: 'September 23, 2026',
+    dateIso: '2026-09-23',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['incidental findings CT scan', 'opportunistic CT screening', 'vertebral bone density', 'chest CT brain aging', 'CT reporting incidental findings'],
+  },
+  {
     slug: 'interventional-radiology-workforce-trends',
     title: "Interventional Radiology Is Absorbing More Radiologists — And Shrinking the Diagnostic Pool",
     excerpt: 'A 2008–2023 Medicare claims analysis of 46,533 radiologists shows more of them concentrating on interventional procedures. Every one is a diagnostic CT reader the reporting queue no longer has.',
