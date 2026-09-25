@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/ct-pancreatitis-organ-failure-ai-prediction/",
       "/blog/chest-ct-vertebral-bone-density-brain-aging/",
       "/blog/interventional-radiology-workforce-trends/",
       "/blog/ct-contrast-shortage-cost-length-of-stay/",

@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ct-pancreatitis-organ-failure-ai-prediction',
+    title: "AI Predicts Organ Failure in Acute Pancreatitis Hours Before It's Clinically Apparent",
+    excerpt: 'A 2,746-patient multicenter study found a CT-radiomics model predicted persistent organ failure in acute pancreatitis a median 3.5 hours early, with a 97.2% negative predictive value — outperforming standard CT severity scores.',
+    date: 'September 25, 2026',
+    dateIso: '2026-09-25',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['ct in pancreatitis', 'acute pancreatitis CT AI', 'organ failure prediction AI', 'CT radiomics acute pancreatitis', 'ORACLE model pancreatitis'],
+  },
+  {
     slug: 'chest-ct-vertebral-bone-density-brain-aging',
     title: 'Chest CT Bone Density Predicts Brain Aging',
     excerpt: 'A Johns Hopkins study finds spine bone density on routine chest CT predicts cognitive decline — a case for opportunistic incidental-finding extraction.',
