@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'how-ai-reduces-healthcare-costs',
+    title: "CMS's Oz Says AI Will Raise Costs First. In Radiology, It Depends Which AI",
+    excerpt: "CMS Administrator Mehmet Oz says AI will inflate healthcare costs before it lowers them. A new BCBSA study on AI coding tools backs him up. But in radiology, the mechanism varies: detection-AI add-ons get their own billable CPT code, while AI-drafted reporting cuts the cost of producing a report that's already billed.",
+    date: 'September 26, 2026',
+    dateIso: '2026-09-26',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['how does ai reduce costs in healthcare', 'AI healthcare costs', 'radiology AI reimbursement', 'AI coding tools costs', 'AI radiology reporting cost savings'],
+  },
+  {
     slug: 'ct-pancreatitis-organ-failure-ai-prediction',
     title: "AI Predicts Organ Failure in Acute Pancreatitis Hours Before It's Clinically Apparent",
     excerpt: 'A 2,746-patient multicenter study found a CT-radiomics model predicted persistent organ failure in acute pancreatitis a median 3.5 hours early, with a 97.2% negative predictive value — outperforming standard CT severity scores.',
