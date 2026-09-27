@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mri-motion-artifact-operational-cost',
+    title: 'MRI Motion Artifact Repeats Cost About $115K a Scanner, a Year',
+    excerpt: "A new 85,300-exam study puts a current number on MRI motion artifact repeats: 4.8% of scans, 115 lost scanner-hours in six months. An older $115K-a-scanner estimate still holds up — and the reporting-side twin of this waste isn't measured the same way.",
+    date: 'September 27, 2026',
+    dateIso: '2026-09-27',
+    category: 'Workflow & Throughput',
+    readingTime: 6,
+    keywords: ['MRI motion artifact', 'mri repeat scan cost', 'motion related repeat MRI', 'radiology reporting backlog', 'imaging capacity'],
+  },
+  {
     slug: 'how-ai-reduces-healthcare-costs',
     title: "CMS's Oz Says AI Will Raise Costs First. In Radiology, It Depends Which AI",
     excerpt: "CMS Administrator Mehmet Oz says AI will inflate healthcare costs before it lowers them. A new BCBSA study on AI coding tools backs him up. But in radiology, the mechanism varies: detection-AI add-ons get their own billable CPT code, while AI-drafted reporting cuts the cost of producing a report that's already billed.",

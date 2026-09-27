@@ -476,6 +476,13 @@
     {
       "slug": "how-ai-reduces-healthcare-costs",
       "topic": "market/policy - AI cost mechanics in healthcare (CMS Administrator Oz remarks + BCBSA AI-coding-cost study), radiology-specific billing-add-on-vs-labor-savings framing"
+    },
+    {
+      "slug": "mri-motion-artifact-operational-cost",
+      "topic": "NYU Grossman/Siemens Healthineers 85,300-exam study on motion-related repeat MRI sequences (4.8% repeat rate, 115 lost scanner-hours/6mo); reconciled with the 2015 UW $115K/scanner/year cost estimate - framed as the acquisition-side twin of xAID's reporting-side-waste thesis",
+      "source": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/motion-related-repeat-mri-sequences-create-considerable-operational-burden",
+      "date": "2026-09-27",
+      "approved": ""
     }
   ],
   "seen": [
@@ -3543,6 +3550,101 @@
       "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15835503/advahealth-gets-fda-nod-for-advaview-diagnostic-imaging-viewer",
       "date": "2026-09-26",
       "decision": "ingested, not shortlisted - single-vendor PACS/VNA diagnostic viewer FDA clearance, competitor-adjacent vendor product-launch news. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/radiologist-salary/radiologist-pay-jumps-18-health-systems-compete-physicians",
+      "date": "2026-09-27",
+      "decision": "ingested, scored (dedupOk false - would be the 4th ledger topic touching radiologist pay/shortage after salary-transparency-2026, pay-stagnation-2026, and the core shortage piece; only defensible with explicit contrast/reconciliation framing vs the stagnation piece). Not drafted. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-outperforms-standard-methods-predicting-organ-failure-acute-pancreatitis-patients",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - duplicate of already-published ct-pancreatitis-organ-failure-ai-prediction (2026-09-25). Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/ed-clinicians-show-gaps-radiation-safety-knowledge-imaging-referral-practices",
+      "date": "2026-09-27",
+      "decision": "drafted -> imaging-utilization-emergency-department (gate needs-human; factcheck fix-needed on 2 quote-misattribution issues, both fixed). NOT chosen for today's publish - mri-motion-artifact-operational-cost picked instead (gate ready, clean factcheck pass on first verify). Medium cannibalization risk noted vs published low-value-imaging-clinician-knowledge. Draft left un-integrated in content-pipeline/drafts/ for a future run's consideration."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-societies-raise-concern-about-medicare-physician-fee-schedule-4-takeaways",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - overlaps existing 2027-medicare-physician-fee-schedule-radiology draft/topic. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/motion-related-repeat-mri-sequences-create-considerable-operational-burden",
+      "date": "2026-09-27",
+      "decision": "drafted -> mri-motion-artifact-operational-cost (gate ready; factcheck pass, 0 flagged claims). Redo of the 2026-09-24 REJECTED mri-repeat-scan-cost draft; the two defects that caused that rejection (fabricated-looking DOI link, unverifiable sub-analysis pair-counts) are confirmed absent from this version. SELECTED FOR PUBLISH 2026-09-27. Integrated into 4-file contract 2026-09-27 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/breast-cancer-research-foundation-launches-100m-venture-fund-radiologist-startup-scoring-1st",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - vendor/startup funding-round news (radiologist-AI startup financing), competitor-adjacent per the no-competitor-airtime rule. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/radiologists-report-highest-pto-among-36-specialties-new-data-show",
+      "date": "2026-09-27",
+      "decision": "ingested, scored (dedupOk false - 3rd occurrence of this exact story; already drafted twice before: radiologist-work-life-balance-coverage 2026-09-25 and radiologist-pto-coverage-continuity-risk 2026-09-26, both gate-ready and still un-integrated in drafts/). Not re-drafted today - publishing an existing draft has better ROI than a 3rd copy. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/rad-techs-call-changes-proposed-radiation-protection-and-licensing-rules",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - policy/advocacy news, overlaps published alara-radiation-safety-rule-change and radiologic-technologist-license-requirements-2026 topics. Skipped."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/lab-test-providers-want-medicare-payment-reform-will-congress-pass-it/831384/",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - lab-test/diagnostics Medicare payment policy, off-core modality (not imaging/CT). Skipped."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ai-will-inflate-healthcare-costs-before-lowering-them-oz-says/831284/",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - duplicate source story for already-published how-ai-reduces-healthcare-costs (2026-09-26). Skipped."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/grail-multicancer-detection-test-wins-fda-advisers-backing/831264/",
+      "date": "2026-09-27",
+      "decision": "ingested, scored (dedupOk false - existing un-integrated draft multi-cancer-blood-test-ct-screening-volume, 2026-09-26, already covers a similar CT-confirmatory-volume thesis; publishing that is more efficient than commissioning a new draft). Not re-drafted today. Grail is a liquid-biopsy diagnostics vendor, not a CT/radiology-AI competitor - no competitor-rule conflict. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835896/fuse-oncology-expands-fuserx-workflow-to-full-radiation-oncology-team",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - radiation-oncology workflow vendor product news, off-core modality (not CT) and vendor-product-launch framing. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15835887/sonosim-launches-obgyn-exam-preparation-program-for-ardms-candidates",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - ultrasound education/exam-prep vendor news, off-core modality and off-topic for CT reporting. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835842/itm-touts-research-studies-at-astro-2026",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - radiopharmaceutical/radioligand-therapy conference news, off-core modality. Skipped (recurring item, same as 2026-09-26)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15835840/ultrasight-adds-24-million-in-new-financing",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - ultrasound-AI vendor financing round, off-core modality and competitor-adjacent vendor funding news. Skipped (recurring item, same as 2026-09-26)."
+    },
+    {
+      "url": "https://www.auntminnie.com/industry-news/news/15835553/east-river-medical-imaging-joins-strategic-radiology-coalition",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - single-practice coalition-membership news, thin CT-reporting relevance. Skipped (recurring item, same as 2026-09-26)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15835538/asrt-opposes-proposal-to-remove-alara-standard-from-radiation-rules",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - overlaps already-published alara-radiation-safety-rule-change. Skipped (recurring item, same as 2026-09-26)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/pacs-vna/news/15835503/advahealth-gets-fda-nod-for-advaview-diagnostic-imaging-viewer",
+      "date": "2026-09-27",
+      "decision": "ingested, not shortlisted - single-vendor PACS/VNA diagnostic viewer FDA clearance, competitor-adjacent vendor product-launch news. Skipped (recurring item, same as 2026-09-26)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-27",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }
