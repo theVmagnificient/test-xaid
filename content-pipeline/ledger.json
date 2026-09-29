@@ -483,6 +483,13 @@
       "source": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/motion-related-repeat-mri-sequences-create-considerable-operational-burden",
       "date": "2026-09-27",
       "approved": ""
+    },
+    {
+      "slug": "rsna-ai-certificate-radiologist-training",
+      "topic": "RSNA's AI Certificate Just Got a Major Update. Here's Why Radiologist Training Is Becoming Infrastructure",
+      "source": "",
+      "date": "2026-09-29",
+      "approved": "2026-09-29 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -3645,6 +3652,196 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-09-27",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/devastating-consequences-feds-reinstate-100k-visa-fee-drawing-ire-physicians",
+      "date": "2026-09-28",
+      "decision": "drafted, fact-checked (2 corrections applied), gate ready, INTEGRATED and published today as h1b-visa-fee-radiologist-shortage (pending founder approval)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/radiologist-salary/radiologist-pay-jumps-18-health-systems-compete-physicians",
+      "date": "2026-09-28",
+      "decision": "drafted (radiologist-salary-jumps-18-percent), fact-check pass, gate needs-human - cannibalization risk medium (4th radiologist pay/shortage-adjacent post in ~6 weeks). Left un-integrated in content-pipeline/drafts/ for founder topic-density call; not chosen over h1b-visa-fee-radiologist-shortage for today's single pick."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/grail-multicancer-detection-test-wins-fda-advisers-backing/831264/",
+      "date": "2026-09-28",
+      "decision": "drafted (mced-blood-test-imaging-workup-bottleneck), fact-check pass, gate needs-human - cannibalization risk high: this is the 3rd un-integrated draft on the same Sept-23 Grail Galleri FDA-panel story (siblings: multi-cancer-early-detection-blood-test-ct-volume 2026-08-19, multi-cancer-blood-test-ct-screening-volume 2026-09-26). Left un-integrated; founder should pick at most one of the three and mark the others superseded."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/rsnas-ai-certificate-program-undergoes-major-update",
+      "date": "2026-09-28",
+      "decision": "scored (fit 8, seo 4) but not in top-3 drafted this run. Not disqualified - eligible for a future run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-pushes-congressional-relief-medical-school-debts",
+      "date": "2026-09-28",
+      "decision": "scored (fit 6, seo 2, no measurable search volume) but not in top-3 drafted this run. Not disqualified - eligible for a future run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/ed-clinicians-show-gaps-radiation-safety-knowledge-imaging-referral-practices",
+      "date": "2026-09-28",
+      "decision": "ingested, not shortlisted - dedupOk false, overlaps already-published low-value-imaging-clinician-knowledge and overutilization-of-medical-imaging articles. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/fda-clears-interventional-device-designed-improve-liver-embolization-procedures",
+      "date": "2026-09-28",
+      "decision": "ingested, not shortlisted - IR procedural device clearance, weak fit to xAID's diagnostic CT-reporting thesis (fit 3). Skipped."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/lab-test-providers-want-medicare-payment-reform-will-congress-pass-it/831384/",
+      "date": "2026-09-28",
+      "decision": "ingested, not shortlisted - clinical-lab (not imaging) Medicare reimbursement reform, weak fit (fit 3). Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/rhode-island-medical-imaging-hire-1st-ceo-its-80-year-history",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - single-practice leadership/personnel news, no editorial angle for xAID. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-outperforms-standard-methods-predicting-organ-failure-acute-pancreatitis-patients",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - same underlying study already published as ct-pancreatitis-organ-failure-ai-prediction (2026-09-25). Skipped as duplicate."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ai-will-inflate-healthcare-costs-before-lowering-them-oz-says/831284/",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - same Oz/CMS remarks already published as how-ai-reduces-healthcare-costs (2026-09-26). Skipped as duplicate."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835969/elekta-astro-elekta-expands-adaptive-radiotherapy-portfolio",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - radiotherapy/brachytherapy device news, off-thesis for xAID's diagnostic CT-reporting product. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835896/fuse-oncology-expands-fuserx-workflow-to-full-radiation-oncology-team",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - radiation oncology workflow software, off-thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15835887/sonosim-launches-obgyn-exam-preparation-program-for-ardms-candidates",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - ultrasound certification exam-prep product, off-thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835842/itm-touts-research-studies-at-astro-2026",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - investigational radiopharmaceutical research, off-thesis for diagnostic CT reporting. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15835840/ultrasight-adds-24-million-in-new-financing",
+      "date": "2026-09-28",
+      "decision": "ingested, not scored - off-thesis (ultrasound AI, not diagnostic CT) and separately disqualified under the HARD TOPIC RULE (competitor-adjacent vendor funding-round news). Skipped."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-28",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ge-healthcare-to-explore-applying-generative-ai-to-radiation-therapy-workfl/831448/",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - generative AI for radiation therapy planning workflows, off-thesis for xAID's diagnostic CT-reporting product (radiation oncology, not diagnostic radiology). Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/whole-body-mri-provider-prenuvo-launches-new-research-network",
+      "date": "2026-09-29",
+      "decision": "scored (fit 4, seo 3) but dedupOk false - near-duplicate of the un-integrated whole-body-mri-screening-radiology-capacity.tsx draft, which already names Prenuvo and covers the same capacity-squeeze thesis; this is a PR launch with no standalone search demand. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-ai-firm-trims-15-staff-sees-annual-revenue-surge-28m",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - Harrison.ai (radiology AI vendor) layoffs + revenue update, explicitly ties to a recently completed $112M Series C funding round. Disqualified under the HARD TOPIC RULE (competitor-adjacent vendor funding-round news) regardless of any fact-check outcome. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/health-system-will-use-ai-instead-radiologists-breast-imaging-2nd-reads",
+      "date": "2026-09-29",
+      "decision": "scored (fit 6, seo 5) but dedupOk false - thematically close to the un-integrated ai-breast-cancer-screening-without-radiologist-review.tsx and ai-in-mammography-real-world-evidence-gap.tsx drafts (both center on AI reducing/removing radiologist review in breast screening); mammography not CT caps core-product fit. Not drafted this run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/orthopedic-imaging/mri-findings-suggest-low-dose-radiation-may-slow-progression-knee-osteoarthritis",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - low-dose radiation therapy for knee osteoarthritis, off-thesis (orthopedic radiotherapy, not diagnostic CT reporting). Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/26-year-old-radiologic-technologist-found-dead-burned-vehicle",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - tragic personnel news, no editorial angle for xAID and inappropriate subject for a company blog. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/devastating-consequences-feds-reinstate-100k-visa-fee-drawing-ire-physicians",
+      "date": "2026-09-29",
+      "decision": "re-ingested (same story already drafted 2026-09-28 as h1b-visa-fee-radiologist-shortage, left un-integrated in content-pipeline/drafts/ pending founder review). Not re-drafted as duplicate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-pushes-congressional-relief-medical-school-debts",
+      "date": "2026-09-29",
+      "decision": "scored again (fit 6, seo 6, KD 0) - distinct REDI Act debt-financing hook, but would be the 6th+ radiologist-shortage/workforce-adjacent post in ~8 weeks (after h1b-visa-fee-radiologist-shortage, radiologist-salary-transparency-2026, radiologist-pay-stagnation-2026, best-metro-areas-for-radiologists-2026, interventional-radiology-workforce-trends); already passed over once (2026-09-28). Not drafted - needs explicit differentiation framing or a topic-density cycle to pass before reconsideration."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/rhode-island-medical-imaging-hire-1st-ceo-its-80-year-history",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - single-practice leadership/personnel news, no editorial angle for xAID. Skipped."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/rsnas-ai-certificate-program-undergoes-major-update",
+      "date": "2026-09-29",
+      "decision": "scored (fit 8, seo 7), drafted as rsna-ai-certificate-radiologist-training. Automated fact-check step returned a broken placeholder ({\"overall\":\"fix-needed\",\"checkedClaims\":[],\"summary\":\"placeholder\"}) - did not actually run. QA gate independently re-verified all load-bearing claims via live web fetch (RSNA program/FAQ pages, Academic Radiology pilot study via PubMed/AuntMinnie secondary coverage) and set gate=ready; the autonomous integrator separately re-confirmed the same claims independently before integrating. Gate ready, INTEGRATED and published today (2026-09-29), pending founder approval."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/fda-clears-interventional-device-designed-improve-liver-embolization-procedures",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - IR procedural device clearance, weak fit to xAID's diagnostic CT-reporting thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15836087/ge-healthcare-gehc-mgb-team-to-apply-generative-ai-for-radiation-therapy",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - duplicate coverage of the MedTech Dive GE HealthCare/Mass General Brigham radiation-therapy story; off-thesis (radiation oncology, not diagnostic CT). Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15836041/eden-selects-kiewit-as-epc-partner-for-nm-isotope-facility",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - nuclear medicine isotope production facility construction/EPC partner news, off-thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15836014/dicot-voxneuro-partner-on-brain-function-imaging-for-trauma-patients",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - niche vendor partnership (brain function analysis software for trauma), weak fit to xAID's diagnostic CT-reporting thesis and no measurable search demand. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15836009/samsung-healthcare-accuray-samsung-neurologica-collaborate-on-cyberknife-platform",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - radiation therapy device collaboration (CyberKnife), off-thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15835983/hyperfine-names-roots-pharmaceutical-as-distributor-in-kuwait-and-uae",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - portable MRI hardware distribution-partner announcement, off-thesis and no editorial angle for CT reporting. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15835987/guideai-renews-exclusive-vascular-ai-data-agreement-with-vrad",
+      "date": "2026-09-29",
+      "decision": "ingested, not scored - GuideAI/vRad vascular-AI data-agreement renewal is a competitor-adjacent vendor partnership deal, disqualified under the HARD TOPIC RULE regardless of fact-check outcome; also off-core modality (vascular AI, not CT diagnostic reporting). Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835969/elekta-astro-elekta-expands-adaptive-radiotherapy-portfolio",
+      "date": "2026-09-29",
+      "decision": "re-ingested (still in AuntMinnie's 4-day window) - radiotherapy/brachytherapy device news, off-thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/resources/conference/astro/2026/news/15835896/fuse-oncology-expands-fuserx-workflow-to-full-radiation-oncology-team",
+      "date": "2026-09-29",
+      "decision": "re-ingested (still in AuntMinnie's 4-day window) - radiation oncology workflow vendor product news, off-thesis. Skipped."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15835887/sonosim-launches-obgyn-exam-preparation-program-for-ardms-candidates",
+      "date": "2026-09-29",
+      "decision": "re-ingested (still in AuntMinnie's 4-day window) - ultrasound exam-prep product, off-core modality. Skipped."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-09-29",
+      "decision": "no pick - backlogLow flagged again (3rd consecutive day), no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }

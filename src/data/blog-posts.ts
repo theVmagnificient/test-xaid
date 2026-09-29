@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'rsna-ai-certificate-radiologist-training',
+    title: "RSNA's AI Certificate Just Got a Major Update. Here's Why Radiologist Training Is Becoming Infrastructure",
+    excerpt: "RSNA overhauled its Imaging AI Foundational Certificate — new case content, updated pricing, four certificate tracks. A pilot study shows resident knowledge scores nearly doubling after the course, and why formal AI training is turning from optional CE into operational infrastructure.",
+    date: 'September 29, 2026',
+    dateIso: '2026-09-29',
+    category: 'Education & Training',
+    readingTime: 7,
+    keywords: ['radiologist training', 'RSNA AI certificate program', 'AI literacy radiology', 'radiologist AI education', 'reviewing AI radiology reports'],
+  },
+  {
     slug: 'mri-motion-artifact-operational-cost',
     title: 'MRI Motion Artifact Repeats Cost About $115K a Scanner, a Year',
     excerpt: "A new 85,300-exam study puts a current number on MRI motion artifact repeats: 4.8% of scans, 115 lost scanner-hours in six months. An older $115K-a-scanner estimate still holds up — and the reporting-side twin of this waste isn't measured the same way.",
