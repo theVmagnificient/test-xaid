@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-efficiency-ai-adoption-study',
+    title: 'A 20-Center, Multi-Vendor Study Just Measured Real Radiology Efficiency Gains From AI',
+    excerpt: "A JACR study of 10 AI tools from 7 vendors across 20 outpatient centers and 58 radiologists found real radiology efficiency gains — and found the bottleneck wasn't the AI. Here's the data and what it means for US buyers.",
+    date: 'October 1, 2026',
+    dateIso: '2026-10-01',
+    category: 'Workflow & Throughput',
+    readingTime: 8,
+    keywords: ['radiology efficiency', 'AI radiology adoption', 'multi-vendor AI radiology', 'radiology turnaround time', 'AI radiology ROI'],
+  },
+  {
     slug: 'rsna-ai-certificate-radiologist-training',
     title: "RSNA's AI Certificate Just Got a Major Update. Here's Why Radiologist Training Is Becoming Infrastructure",
     excerpt: "RSNA overhauled its Imaging AI Foundational Certificate — new case content, updated pricing, four certificate tracks. A pilot study shows resident knowledge scores nearly doubling after the course, and why formal AI training is turning from optional CE into operational infrastructure.",
