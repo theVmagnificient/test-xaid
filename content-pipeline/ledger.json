@@ -497,6 +497,13 @@
       "source": "",
       "date": "2026-10-01",
       "approved": "2026-10-01 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiologist-workflow-interruptions",
+      "topic": "radiologist workflow interruptions / phone-call burden (news hook: JACR REDUCE-CALL study, Royal Melbourne Hospital)",
+      "date": "2026-10-02",
+      "source": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/how-radiology-department-drastically-reduced-incoming-calls-rest-hospital",
+      "approved": ""
     }
   ],
   "seen": [
@@ -4049,6 +4056,44 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-01",
       "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/how-radiology-department-drastically-reduced-incoming-calls-rest-hospital",
+      "date": "2026-10-02",
+      "decision": "drafted-and-published",
+      "slug": "radiologist-workflow-interruptions"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/global-investment-firm-finalizes-24b-acquisition-radiology-network",
+      "date": "2026-10-02",
+      "decision": "drafted-not-chosen",
+      "slug": "jardine-imed-statrad-radiology-acquisition",
+      "note": "gate ready but factcheck fix-needed; also mentions Harrison.ai/Annalise.ai (disqualified competitor family) — passed over for the clean factcheck-pass candidate"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/medical-debt-linked-later-stage-cancer-diagnoses",
+      "date": "2026-10-02",
+      "decision": "drafted-not-chosen",
+      "slug": "financial-toxicity-in-cancer-care",
+      "note": "gate ready but factcheck fix-needed; passed over for the clean factcheck-pass candidate"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15836448/alabama-rural-health-grants-fund-telerobotic-ultrasound-screening",
+      "date": "2026-10-02",
+      "decision": "skipped",
+      "note": "moderate fit only (ultrasound/telerobotics modality mismatch vs CT); not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/early-exposure-program-aims-strengthen-radiology-workforce-pipeline",
+      "date": "2026-10-02",
+      "decision": "skipped",
+      "note": "thematically crowded workforce-pipeline cluster (4th/5th similar article); not drafted this cycle"
+    },
+    {
+      "url": "https://www.auntminnie.com/radiology-education/news/15836432/radnet-inc-radnet-winnextgen-partner-to-introduce-students-to-imaging-careers",
+      "date": "2026-10-02",
+      "decision": "skipped",
+      "note": "near-duplicate of the UC Davis early-exposure-program item in the same batch"
     }
   ]
 }

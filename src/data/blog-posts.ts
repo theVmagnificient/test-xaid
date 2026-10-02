@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiologist-workflow-interruptions',
+    title: 'Radiologist Workflow Interruptions: What a New JACR Study on Phone Calls Found',
+    excerpt: "A JACR study cut daily phone interruptions to radiologists by 55% with EMR chat and education. What it reveals about radiologist workflow interruptions.",
+    date: 'October 2, 2026',
+    dateIso: '2026-10-02',
+    category: 'Workflow & Throughput',
+    readingTime: 7,
+    keywords: ['radiologist workflow interruptions', 'radiology phone call interruptions', 'radiologist interruptions study', 'radiology workflow efficiency', 'JACR radiology study'],
+  },
+  {
     slug: 'radiology-efficiency-ai-adoption-study',
     title: 'A 20-Center, Multi-Vendor Study Just Measured Real Radiology Efficiency Gains From AI',
     excerpt: "A JACR study of 10 AI tools from 7 vendors across 20 outpatient centers and 58 radiologists found real radiology efficiency gains — and found the bottleneck wasn't the AI. Here's the data and what it means for US buyers.",

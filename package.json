@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/radiologist-workflow-interruptions/",
       "/blog/radiology-efficiency-ai-adoption-study/",
       "/blog/rsna-ai-certificate-radiologist-training/",
       "/blog/mri-motion-artifact-operational-cost/",
