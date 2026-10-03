@@ -504,6 +504,10 @@
       "date": "2026-10-02",
       "source": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/how-radiology-department-drastically-reduced-incoming-calls-rest-hospital",
       "approved": ""
+    },
+    {
+      "slug": "fda-ai-guidance-priorities-2027",
+      "topic": "FDA FY2027 AI guidance priorities (PCCP / lifecycle management) for imaging AI buyers"
     }
   ],
   "seen": [
@@ -4094,6 +4098,26 @@
       "date": "2026-10-02",
       "decision": "skipped",
       "note": "near-duplicate of the UC Davis early-exposure-program item in the same batch"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-03",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/fda-to-prioritize-guidance-on-ai-surgical-robots-next-year/831984/",
+      "date": "2026-10-03",
+      "decision": "drafted -> fda-ai-guidance-priorities-2027 (factcheck pass, gate ready, chosen for 2026-10-03 publish)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/data-privacy-concerns-could-hold-patients-back-from-using-ai/831904/",
+      "date": "2026-10-03",
+      "decision": "drafted -> data-privacy-concerns-ai-healthcare (factcheck pass, gate ready, not chosen - thinner keyword volume and topical overlap risk with published should-patients-be-told-when-ai-reads-their-scan; left unintegrated in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mri-links-long-covid-fatigue-reduced-cerebral-blood-flow",
+      "date": "2026-10-03",
+      "decision": "drafted -> long-covid-brain-fog-cerebral-blood-flow-biomarker (factcheck pass, gate ready, not chosen - weaker direct tie to CT-reporting/radiologist-workflow thesis, consumer-intent keyword mismatch; left unintegrated in drafts/)"
     }
   ]
 }

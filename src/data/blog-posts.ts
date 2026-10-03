@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'fda-ai-guidance-priorities-2027',
+    title: "FDA's FY2027 AI Guidance Priorities: What Imaging Buyers Should Watch",
+    excerpt: "FDA's device center named AI-enabled device lifecycle management and predetermined change control plans as top FY2027 guidance priorities. What it means for validating, updating, and procuring CT-reporting AI.",
+    date: 'October 3, 2026',
+    dateIso: '2026-10-03',
+    category: 'Regulatory & Policy',
+    readingTime: 7,
+    keywords: ['FDA AI guidance', 'predetermined change control plan', 'PCCP radiology AI', 'FDA AI-enabled device lifecycle management', 'FDA fiscal year 2027 guidance'],
+  },
+  {
     slug: 'radiologist-workflow-interruptions',
     title: 'Radiologist Workflow Interruptions: What a New JACR Study on Phone Calls Found',
     excerpt: "A JACR study cut daily phone interruptions to radiologists by 55% with EMR chat and education. What it reveals about radiologist workflow interruptions.",
