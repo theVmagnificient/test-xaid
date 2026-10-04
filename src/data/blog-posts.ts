@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ai-better-informed-than-doctors',
+    title: 'Is AI Better Than Doctors? What FDA Rules and Malpractice Law Actually Say',
+    excerpt: "HHS Secretary RFK Jr. called AI \"better informed\" than any doctor. Six medical societies objected. Here's what FDA clearance and malpractice law require.",
+    date: 'October 4, 2026',
+    dateIso: '2026-10-04',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['is ai better than doctors', 'AI vs doctors', 'FDA AI clearance radiology', 'AI malpractice liability', 'RFK Jr AI doctors'],
+  },
+  {
     slug: 'fda-ai-guidance-priorities-2027',
     title: "FDA's FY2027 AI Guidance Priorities: What Imaging Buyers Should Watch",
     excerpt: "FDA's device center named AI-enabled device lifecycle management and predetermined change control plans as top FY2027 guidance priorities. What it means for validating, updating, and procuring CT-reporting AI.",

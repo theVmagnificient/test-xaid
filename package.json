@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/ai-better-informed-than-doctors/",
       "/blog/fda-ai-guidance-priorities-2027/",
       "/blog/radiologist-workflow-interruptions/",
       "/blog/radiology-efficiency-ai-adoption-study/",

@@ -508,6 +508,10 @@
     {
       "slug": "fda-ai-guidance-priorities-2027",
       "topic": "FDA FY2027 AI guidance priorities (PCCP / lifecycle management) for imaging AI buyers"
+    },
+    {
+      "slug": "ai-better-informed-than-doctors",
+      "topic": "market/policy news-hook explainer on the RFK Jr/HHS 'AI better informed than doctors' controversy vs FDA clearance pathways and malpractice law"
     }
   ],
   "seen": [
@@ -4118,6 +4122,46 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mri-links-long-covid-fatigue-reduced-cerebral-blood-flow",
       "date": "2026-10-03",
       "decision": "drafted -> long-covid-brain-fog-cerebral-blood-flow-biomarker (factcheck pass, gate ready, not chosen - weaker direct tie to CT-reporting/radiologist-workflow thesis, consumer-intent keyword mismatch; left unintegrated in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/physicians-fire-back-against-hhs-secretarys-claim-ai-better-informed-human-docs",
+      "date": "2026-10-04",
+      "decision": "drafted -> ai-better-informed-than-doctors (factcheck fix-needed -> fixed, gate ready, chosen for 2026-10-04 publish)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/global-investment-firm-finalizes-24b-acquisition-radiology-network",
+      "date": "2026-10-04",
+      "decision": "drafted -> radiology-private-equity-exit-global-scale (factcheck fix-needed -> fixed, gate needs-human, not chosen - same underlying story as the 2026-10-02 jardine-imed-statrad-radiology-acquisition attempt that was passed over for a Harrison.ai/Annalise.ai mention; this redraft independently reproduced and fixed the same defect plus a citation-attribution error, but QA flagged it needs-human as a second swing at a previously-passed-over story; left unintegrated in drafts/)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/data-privacy-concerns-could-hold-patients-back-from-using-ai/831904/",
+      "date": "2026-10-04",
+      "decision": "drafted -> ai-data-privacy-imaging-center-playbook (factcheck fix-needed -> fixed, gate ready, not chosen - lower fit/interest scores than the chosen RFK Jr/HHS piece and this exact source URL was already drafted once before on 2026-10-03 as data-privacy-concerns-ai-healthcare; left unintegrated in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/75-year-old-independent-radiology-practice-becomes-part-hospital-medical-group",
+      "date": "2026-10-04",
+      "decision": "skipped - thematically close to two already-published consolidation pieces (radiology-private-equity-stay-independent, radiology-practice-consolidation-wait-times) and no measurable search demand for the target term; not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/medical-debt-linked-later-stage-cancer-diagnoses",
+      "date": "2026-10-04",
+      "decision": "skipped - this source URL was already drafted once on 2026-10-02 (slug financial-toxicity-in-cancer-care, not chosen then either); not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mri-links-long-covid-fatigue-reduced-cerebral-blood-flow",
+      "date": "2026-10-04",
+      "decision": "skipped - this source URL was already drafted once on 2026-10-03 (slug long-covid-brain-fog-cerebral-blood-flow-biomarker, not chosen then either); not drafted this cycle"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15836448/alabama-rural-health-grants-fund-telerobotic-ultrasound-screening",
+      "date": "2026-10-04",
+      "decision": "skipped - ultrasound/telerobotics modality mismatch vs CT and no measurable search demand; not drafted this cycle (also previously seen 2026-10-02)"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ge-healthcare-hires-new-global-chief-ai-officer/831730/",
+      "date": "2026-10-04",
+      "decision": "skipped - personnel news at an imaging OEM, only tangential fit to AI CT-reporting product and risk of reading as GE-adjacent promotion; not drafted this cycle"
     }
   ]
 }
