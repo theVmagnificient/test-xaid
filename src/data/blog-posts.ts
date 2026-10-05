@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-staffing-payer-contract-leverage',
+    title: 'Why the Radiologist Shortage Is Changing Payer Contract Leverage',
+    excerpt: "A Texas radiology group's new multi-year BCBS deal shows how staffing scarcity and fast, complete CT reporting translate into payer negotiating power.",
+    date: 'October 5, 2026',
+    dateIso: '2026-10-05',
+    category: 'Practice Economics',
+    readingTime: 7,
+    keywords: ['radiology staffing', 'radiology payer contract negotiation', 'radiology group negotiating leverage', 'CT report turnaround time', 'radiologist shortage'],
+  },
+  {
     slug: 'ai-better-informed-than-doctors',
     title: 'Is AI Better Than Doctors? What FDA Rules and Malpractice Law Actually Say',
     excerpt: "HHS Secretary RFK Jr. called AI \"better informed\" than any doctor. Six medical societies objected. Here's what FDA clearance and malpractice law require.",

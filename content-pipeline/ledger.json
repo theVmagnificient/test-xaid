@@ -512,6 +512,10 @@
     {
       "slug": "ai-better-informed-than-doctors",
       "topic": "market/policy news-hook explainer on the RFK Jr/HHS 'AI better informed than doctors' controversy vs FDA clearance pathways and malpractice law"
+    },
+    {
+      "slug": "radiology-staffing-payer-contract-leverage",
+      "topic": "radiologist shortage / payer contract negotiating leverage (news hook: Singleton Associates-BCBSTX multi-year in-network deal)"
     }
   ],
   "seen": [
@@ -4162,6 +4166,46 @@
       "url": "https://www.medtechdive.com/news/ge-healthcare-hires-new-global-chief-ai-officer/831730/",
       "date": "2026-10-04",
       "decision": "skipped - personnel news at an imaging OEM, only tangential fit to AI CT-reporting product and risk of reading as GE-adjacent promotion; not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/diagnostic-imaging/fda-clears-ai-tool-pediatric-bone-age-assessments",
+      "date": "2026-10-05",
+      "decision": "drafted (slug bone-age-ai) - gate ready after fixes, factcheck fix-needed->fixed; not chosen this cycle (lower priority than radiology-staffing-payer-contract-leverage); draft remains in content-pipeline/drafts/ un-integrated"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/global-investment-firm-finalizes-24b-acquisition-radiology-network",
+      "date": "2026-10-05",
+      "decision": "skipped - third pass at Jardine/I-Med/StatRad deal already drafted twice (2026-10-02 jardine-imed-statrad-radiology-acquisition, 2026-10-04 radiology-private-equity-exit-global-scale); dedupOk=false, not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-partners-affiliate-inks-network-agreement-bcbs-texas",
+      "date": "2026-10-05",
+      "decision": "drafted (slug radiology-staffing-payer-contract-leverage) - gate ready, factcheck pass, zero flagged claims, no competitor mentions; CHOSEN and published 2026-10-05 as /blog/radiology-staffing-payer-contract-leverage/"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/physician-gets-nearly-8-years-prison-37m-radiology-scam",
+      "date": "2026-10-05",
+      "decision": "drafted (slug medicaid-fraud-radiology-audit-trail) - gate needs-human (unverifiable Radiology Business source link, Cloudflare-blocked), factcheck fix-needed->fixed; not chosen this cycle; draft remains in content-pipeline/drafts/ un-integrated"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/medical-debt-linked-later-stage-cancer-diagnoses",
+      "date": "2026-10-05",
+      "decision": "skipped - same source URL already drafted twice (2026-10-02 financial-toxicity-in-cancer-care, re-seen 2026-10-04); dedupOk=false, not drafted this cycle"
+    },
+    {
+      "url": "https://www.medtechdive.com/news/data-privacy-concerns-could-hold-patients-back-from-using-ai/831904/",
+      "date": "2026-10-05",
+      "decision": "skipped - same URL already drafted twice (data-privacy-concerns-ai-healthcare 2026-10-03, ai-data-privacy-imaging-center-playbook 2026-10-04), both overlapping published should-patients-be-told-when-ai-reads-their-scan; dedupOk=false, not drafted this cycle"
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15836522/n1care-launches-ai-clinical-intelligence-platform",
+      "date": "2026-10-05",
+      "decision": "skipped - overlaps published cloud-based-medical-image-sharing thesis; single-vendor product launch with thin independent editorial angle; dedupOk=false, not drafted this cycle"
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836407/clairity-expands-access-to-ai-breast-cancer-risk-tool-via-everlywell",
+      "date": "2026-10-05",
+      "decision": "skipped - off-core-modality (mammography DTC risk scoring, not CT), overlaps published patient-disclosure piece; single-vendor product-expansion PR; dedupOk=false, not drafted this cycle"
     }
   ]
 }
