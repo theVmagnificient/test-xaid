@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/pulmonary-fibrosis-ct-scan-data-reports-miss/",
       "/blog/radiology-staffing-payer-contract-leverage/",
       "/blog/ai-better-informed-than-doctors/",
       "/blog/fda-ai-guidance-priorities-2027/",

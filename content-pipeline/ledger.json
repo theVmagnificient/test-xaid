@@ -516,6 +516,13 @@
     {
       "slug": "radiology-staffing-payer-contract-leverage",
       "topic": "radiologist shortage / payer contract negotiating leverage (news hook: Singleton Associates-BCBSTX multi-year in-network deal)"
+    },
+    {
+      "slug": "pulmonary-fibrosis-ct-scan-data-reports-miss",
+      "topic": "Quantitative CT scoring tracks antifibrotic treatment response in progressive pulmonary fibrosis (news hook: INBUILD trial CT substudy, AJRCCM 2026)",
+      "date": "2026-10-06",
+      "source": "https://doi.org/10.1093/ajrccm/aamag526 ; https://www.auntminnie.com/clinical-news/ct/news/15836397/brainomix-highlights-study-using-elung-ct-software",
+      "approved": ""
     }
   ],
   "seen": [
@@ -4206,6 +4213,36 @@
       "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836407/clairity-expands-access-to-ai-breast-cancer-risk-tool-via-everlywell",
       "date": "2026-10-05",
       "decision": "skipped - off-core-modality (mammography DTC risk scoring, not CT), overlaps published patient-disclosure piece; single-vendor product-expansion PR; dedupOk=false, not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiology-partners-seeks-485m-term-loan-fuel-teleradiology-acquisition",
+      "date": "2026-10-06",
+      "decision": "drafted (slug teleradiology-companies-debt-financed-growth) - gate needs-human, factcheck pass; not chosen this cycle (pulmonary-fibrosis-ct-scan-data-reports-miss was the only gate=ready candidate today). Residual uncertainty flagged for founder: article's 'Where xAID fits' section names Radiology Partners' in-house 'Mosaic Drafting AI' report-drafting tool in a framing that mildly validates it before pivoting to xAID — not a named competitor from the explicit list, but closest any draft has come to legitimizing a rival AI-drafting capability; needs a founder tone check. Draft remains in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15836397/brainomix-highlights-study-using-elung-ct-software",
+      "date": "2026-10-06",
+      "decision": "drafted (slug pulmonary-fibrosis-ct-scan-data-reports-miss) - gate ready, factcheck pass, zero flagged claims; reframed as a clinical-evidence research breakdown (quantitative CT biomarkers tracking PPF treatment response) without naming or promoting the Brainomix/e-Lung vendor in visible text, per the no-competitor-airtime rule. CHOSEN and published 2026-10-06 as /blog/pulmonary-fibrosis-ct-scan-data-reports-miss/."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836407/clairity-expands-access-to-ai-breast-cancer-risk-tool-via-everlywell",
+      "date": "2026-10-06",
+      "decision": "RE-EVALUATED (prior 2026-10-05 entry: skipped). Today's daily-news-pipeline run drafted it anyway (slug ai-breast-cancer-risk-assessment-tool, gate needs-human, factcheck pass) with a reframed angle (DTC AI risk-scoring's referral/liability impact on imaging centers, not vendor promotion). NOT chosen for 2026-10-06 publish: this is a direct reversal of the prior day's explicit skip decision ('single-vendor product-expansion PR') and the draft still spends ~40% of its word count narrating one vendor's commercial launch (two CEO quotes, pricing, ordering mechanics) -- flagged for founder judgment rather than auto-published. Draft remains in content-pipeline/drafts/ un-integrated pending that call."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-ai-solution-aiding-mri-body-composition-assessments",
+      "date": "2026-10-06",
+      "decision": "skipped - narrow FDA clearance (AIRS Medical MRI body-composition), thin SEO volume, overlaps thematically with the already-seen bone-age-ai FDA-clearance-trend candidate; not drafted this cycle"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/ge-healthcare-acquire-radiopharma-firm-sofie-biosciences-945m",
+      "date": "2026-10-06",
+      "decision": "skipped - radiopharma/equipment-manufacturer M&A (PET tracer supply chain), tangential to CT reporting AI; weakest-fit candidate in today's batch; not drafted this cycle"
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-06",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }

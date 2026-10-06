@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'pulmonary-fibrosis-ct-scan-data-reports-miss',
+    title: 'A Pulmonary Fibrosis CT Scan Study Shows Treatment Response Was There All Along',
+    excerpt: "A 474-patient trial substudy found quantitative CT scoring tracked antifibrotic treatment effect in progressive pulmonary fibrosis at 24 and 52 weeks. The signal was always in the pulmonary fibrosis CT scan — narrative reports just never captured it.",
+    date: 'October 6, 2026',
+    dateIso: '2026-10-06',
+    category: 'Research',
+    readingTime: 7,
+    keywords: ['pulmonary fibrosis ct scan', 'quantitative CT', 'progressive pulmonary fibrosis', 'structured radiology reporting', 'CT biomarkers'],
+  },
+  {
     slug: 'radiology-staffing-payer-contract-leverage',
     title: 'Why the Radiologist Shortage Is Changing Payer Contract Leverage',
     excerpt: "A Texas radiology group's new multi-year BCBS deal shows how staffing scarcity and fast, complete CT reporting translate into payer negotiating power.",
