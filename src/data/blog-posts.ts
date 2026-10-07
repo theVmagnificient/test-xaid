@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-imaging-deserts',
+    title: 'What Are Radiology Imaging Deserts? Inside the New County-Level Data',
+    excerpt: "A national county-level study finds 18% of US counties — 6.4 million Americans — have no local radiologist and no local imaging equipment. What a true 'imaging desert' is, and what it takes to close one.",
+    date: 'October 7, 2026',
+    dateIso: '2026-10-07',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['radiology imaging deserts', 'imaging access gap', 'rural CT access', 'radiologist shortage', 'teleradiology'],
+  },
+  {
     slug: 'pulmonary-fibrosis-ct-scan-data-reports-miss',
     title: 'A Pulmonary Fibrosis CT Scan Study Shows Treatment Response Was There All Along',
     excerpt: "A 474-patient trial substudy found quantitative CT scoring tracked antifibrotic treatment effect in progressive pulmonary fibrosis at 24 and 52 weeks. The signal was always in the pulmonary fibrosis CT scan — narrative reports just never captured it.",

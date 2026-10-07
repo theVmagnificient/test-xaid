@@ -523,6 +523,13 @@
       "date": "2026-10-06",
       "source": "https://doi.org/10.1093/ajrccm/aamag526 ; https://www.auntminnie.com/clinical-news/ct/news/15836397/brainomix-highlights-study-using-elung-ct-software",
       "approved": ""
+    },
+    {
+      "slug": "radiology-imaging-deserts",
+      "topic": "radiology imaging deserts / county-level typology of radiologist workforce and imaging equipment access (news hook: Academic Radiology study, Oct 2 2026)",
+      "date": "2026-10-07",
+      "source": "https://doi.org/10.1016/j.acra.2026.09.030 ; https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/nearly-1-5-americans-live-true-imaging-deserts-no-local-radiologists-or-scanners",
+      "approved": ""
     }
   ],
   "seen": [
@@ -4242,6 +4249,26 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-06",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/nearly-1-5-americans-live-true-imaging-deserts-no-local-radiologists-or-scanners",
+      "date": "2026-10-07",
+      "decision": "drafted (slug radiology-imaging-deserts) - gate ready, factcheck fix-needed (2 fixes applied: restored a misquoted pull-quote verbatim, corrected an H1 that conflated the 18%-of-counties figure with a population share), low cannibalization. CHOSEN and integrated 2026-10-07 as /blog/radiology-imaging-deserts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiology-partners-seeks-485m-term-loan-fuel-teleradiology-acquisition",
+      "date": "2026-10-07",
+      "decision": "skipped - dedupOk false; this exact news event (Radiology Partners / Everlight debt-financed acquisition) was already drafted 2026-10-06 as teleradiology-companies-debt-financed-growth (gate needs-human, not chosen). Not a fresh pick; negligible keyword volume (teleradiology company 40/kd19, private equity radiology 20/kd0). Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/nasdaq-threatens-radiology-vendor-delisting-stock-exchange",
+      "date": "2026-10-07",
+      "decision": "drafted (slug radiology-ai-vendor-financial-due-diligence) then REJECTED - entire article is built around Nano-X Imaging's (Nanox) Nasdaq delisting notice; Nanox is on the HARD TOPIC RULE forbidden competitor-adjacent-vendor list (founder 2026-08-11), disqualified even fact-check clean. Separately gate reject/factcheck fail (minor cash-figure discrepancy, ~\u0000.0M vs actual ~9.6M) and high cannibalization with the existing published vendor-evaluation-checklist cluster. Draft left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-07",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
