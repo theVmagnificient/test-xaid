@@ -530,6 +530,13 @@
       "date": "2026-10-07",
       "source": "https://doi.org/10.1016/j.acra.2026.09.030 ; https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/nearly-1-5-americans-live-true-imaging-deserts-no-local-radiologists-or-scanners",
       "approved": ""
+    },
+    {
+      "slug": "software-as-a-medical-device-warning-letter-case-study",
+      "topic": "FDA warning letter to O.N. Diagnostics over unapproved SaMD change control on CT-based VirtuOst VFA bone-fracture-risk software — case study for AI imaging vendor change-control due diligence",
+      "date": "2026-10-08",
+      "source": "https://www.auntminnie.com/clinical-news/ct/news/15836896/on-diagnostics-hit-with-fda-warning-letter",
+      "approved": ""
     }
   ],
   "seen": [
@@ -4270,6 +4277,46 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-07",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-08",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15836896/on-diagnostics-hit-with-fda-warning-letter",
+      "date": "2026-10-08",
+      "decision": "drafted (slug software-as-a-medical-device-warning-letter-case-study) - gate ready, factcheck pass, low cannibalization. CHOSEN and integrated 2026-10-08 as /blog/software-as-a-medical-device-warning-letter-case-study/."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/",
+      "date": "2026-10-08",
+      "decision": "drafted (slug ai-medical-device-post-market-surveillance) - gate ready, factcheck fix-needed (2 fixes applied: co-chair governance error corrected to chair/deputy-chair, pull-quote sourcing re-linked), low cannibalization. Not chosen (software-as-a-medical-device-warning-letter-case-study had a cleaner factcheck pass). Draft left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/how-mass-general-slashed-delays-diagnostic-breast-imaging",
+      "date": "2026-10-08",
+      "decision": "drafted (slug diagnostic-imaging-delay-reduction-lessons) - gate ready, factcheck fix-needed (1 fix applied: KeyStats tile mislabeled overall rate as high-priority-subgroup rate, corrected), low cannibalization. Not chosen (mammography modality mismatch vs CT-centric product, no measurable keyword demand). Draft left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/interventional-prostate-procedure-may-reduce-infection-risk-compared-standard-care",
+      "date": "2026-10-08",
+      "decision": "skipped - scored (fitScore 5) but not among top 3 drafted; clinical/patient-facing keyword (PAE vs TURP), not a B2B imaging-center query. Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-ai-tool-creates-3d-bone-visualizations-standard-mris",
+      "date": "2026-10-08",
+      "decision": "skipped - scored (fitScore 5) but not among top 3 drafted; thin measurable search demand (mri vs ct scan spine, no volume data). Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiologists-looking-leadership-opportunities-employers-coming-short",
+      "date": "2026-10-08",
+      "decision": "skipped - scored (fitScore 4) but not among top 3 drafted; negligible keyword volume (physician leadership training, vol 20) and weak tie to xAID product. Not drafted this cycle."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836875/hologic-hologic-survey-finds-37-of-women-skipped-or-delayed-mammograms",
+      "date": "2026-10-08",
+      "decision": "skipped - dedupOk false; mammography-focused screening-delay survey overlaps with published reduce-patient-no-shows-radiology and radiology-imaging-deserts pieces, and no measurable keyword demand found. Not drafted this cycle."
     }
   ]
 }

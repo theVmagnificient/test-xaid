@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'software-as-a-medical-device-warning-letter-case-study',
+    title: 'What the O.N. Diagnostics FDA Warning Letter Teaches About SaMD Change Control',
+    excerpt: "FDA told O.N. Diagnostics to halt a software update over unapproved AI and platform changes — a real case study in SaMD change control for AI buyers.",
+    date: 'October 8, 2026',
+    dateIso: '2026-10-08',
+    category: 'Regulatory & Policy',
+    readingTime: 7,
+    keywords: ['software as a medical device', 'SaMD change control', 'FDA warning letter', '510k software modification', 'AI vendor due diligence radiology'],
+  },
+  {
     slug: 'radiology-imaging-deserts',
     title: 'What Are Radiology Imaging Deserts? Inside the New County-Level Data',
     excerpt: "A national county-level study finds 18% of US counties — 6.4 million Americans — have no local radiologist and no local imaging equipment. What a true 'imaging desert' is, and what it takes to close one.",
