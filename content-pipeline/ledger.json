@@ -537,6 +537,13 @@
       "date": "2026-10-08",
       "source": "https://www.auntminnie.com/clinical-news/ct/news/15836896/on-diagnostics-hit-with-fda-warning-letter",
       "approved": ""
+    },
+    {
+      "slug": "incidental-findings-mammography-cardiac-risk",
+      "topic": "Maryland Just Made an Incidental Finding a Legal Requirement",
+      "source": "",
+      "date": "2026-10-09",
+      "approved": "2026-10-09 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -4317,6 +4324,51 @@
       "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836875/hologic-hologic-survey-finds-37-of-women-skipped-or-delayed-mammograms",
       "date": "2026-10-08",
       "decision": "skipped - dedupOk false; mammography-focused screening-delay survey overlaps with published reduce-patient-no-shows-radiology and radiology-imaging-deserts pieces, and no measurable keyword demand found. Not drafted this cycle."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-09",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/breast-imaging/maryland-mammography-law-turns-incidental-cardiac-findings-new-screening-opportunity",
+      "date": "2026-10-09",
+      "decision": "drafted (slug incidental-findings-mammography-cardiac-risk) - gate ready, factcheck pass, zero flagged claims, low cannibalization (closest existing article incidental-findings-chest-ct-breast-lesions is clinically distinct). CHOSEN and integrated 2026-10-09 as /blog/incidental-findings-mammography-cardiac-risk/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiology-partners-seeks-485m-term-loan-fuel-teleradiology-acquisition",
+      "date": "2026-10-09",
+      "decision": "RE-EVALUATED (prior entries 2026-10-06 drafted as teleradiology-companies-debt-financed-growth/not chosen, 2026-10-07 skipped as dedup). Today's run drafted a clean rewrite (slug radiology-private-equity-debt-financed-growth) - gate needs-human, factcheck fix-needed->fixed (2 citation corrections: mis-dated Moody's source, uncited Nicola quote), medium cannibalization with the 'stay independent' PE cluster. Not chosen (incidental-findings-mammography-cardiac-risk was the only gate=ready/factcheck=pass candidate today). Residual: an un-integrated same-event sibling (teleradiology-companies-debt-financed-growth.tsx) still sits in drafts/ with a competitor-adjacent tone problem this rewrite avoids - founder should pick at most one and retire the other. Draft remains in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/how-mass-general-slashed-delays-diagnostic-breast-imaging",
+      "date": "2026-10-09",
+      "decision": "RE-EVALUATED (prior entry 2026-10-08: drafted as diagnostic-imaging-delay-reduction-lessons, not chosen - mammography modality mismatch, no measurable keyword demand). Today's run drafted a second take (slug abnormal-mammogram-next-steps) pivoting to a patient-search-intent keyword - gate needs-human, factcheck pass, 2 minor SEO fixes applied (title/meta length), medium cannibalization. Not chosen (same modality-mismatch concern applies; incidental-findings-mammography-cardiac-risk was the cleaner gate=ready pick). Residual: an un-integrated same-source-study sibling (diagnostic-imaging-delay-reduction-lessons.tsx) still sits in drafts/ - founder should decide whether either is worth publishing and retire the other. Draft remains in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/",
+      "date": "2026-10-09",
+      "decision": "skipped - scored (fitScore 7) but not among top 3 drafted; thematically adjacent to the already-published fda-ai-guidance-priorities-2027 piece (UK-vs-US regulatory-convergence angle, no UK-specific search volume). Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/health-and-wellness-company-begins-selling-mammography-ai-directly-consumers-249",
+      "date": "2026-10-09",
+      "decision": "skipped - scored (fitScore 5) but not among top 3 drafted; no measurable search demand for DTC-AI-diagnostics terms, different modality/business model than xAID. Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologists-criticize-congressmans-proposed-no-surprises-act-shakeup",
+      "date": "2026-10-09",
+      "decision": "skipped - dedupOk false; third NSA-adjacent article territory (QPA ruling + payer-contract-leverage already published), high keyword competition (KD 46) despite distinct legislative hook. Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiologists-looking-leadership-opportunities-employers-coming-short",
+      "date": "2026-10-09",
+      "decision": "skipped - scored (fitScore 5) but not among top 3 drafted; negligible keyword volume (physician leadership training, vol 20) and weak direct product tie-in (workforce/HR survey, not AI/CT-specific). Not drafted this cycle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/ge-healthcare-acquire-radiopharma-firm-sofie-biosciences-945m",
+      "date": "2026-10-09",
+      "decision": "RE-EVALUATED (prior entry 2026-10-06: skipped, weakest-fit candidate). Today's run scored it again (fitScore 4, weakest fit of today's batch) but not among top 3 drafted; radiopharma manufacturing M&A remains tangential to CT reporting workflow. Not drafted this cycle."
     }
   ]
 }

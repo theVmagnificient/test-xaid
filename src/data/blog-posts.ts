@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'incidental-findings-mammography-cardiac-risk',
+    title: 'Maryland Just Made an Incidental Finding a Legal Requirement',
+    excerpt: "Maryland's new mammography law requires flagging breast arterial calcification, a cardiac risk marker, in every results letter. It's the mammography-side version of a problem xAID has tracked on CT: incidental findings only help patients if the report catches them every time.",
+    date: 'October 9, 2026',
+    dateIso: '2026-10-09',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['incidental findings', 'breast arterial calcification', 'mammography cardiovascular risk', 'Maryland mammography law', 'opportunistic screening'],
+  },
+  {
     slug: 'software-as-a-medical-device-warning-letter-case-study',
     title: 'What the O.N. Diagnostics FDA Warning Letter Teaches About SaMD Change Control',
     excerpt: "FDA told O.N. Diagnostics to halt a software update over unapproved AI and platform changes — a real case study in SaMD change control for AI buyers.",
