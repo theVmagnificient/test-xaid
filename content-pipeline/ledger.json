@@ -544,6 +544,13 @@
       "source": "",
       "date": "2026-10-09",
       "approved": "2026-10-09 founder-approved via telegram bot"
+    },
+    {
+      "slug": "medical-device-recall-radiologist-oversight",
+      "topic": "FDA early alert on Philips Lumify point-of-care ultrasound software issue tied to 4 deaths/8 serious injuries — reframed as a checkpoint-design/human-oversight argument for AI-enabled imaging software",
+      "source": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837150/fda-philips-lumify-ultrasound-issue-tied-to-4-deaths ; https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-diagnostic-ultrasound-system-issue-philips-ultrasound",
+      "date": "2026-10-10",
+      "approved": ""
     }
   ],
   "seen": [
@@ -4369,6 +4376,41 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/ge-healthcare-acquire-radiopharma-firm-sofie-biosciences-945m",
       "date": "2026-10-09",
       "decision": "RE-EVALUATED (prior entry 2026-10-06: skipped, weakest-fit candidate). Today's run scored it again (fitScore 4, weakest fit of today's batch) but not among top 3 drafted; radiopharma manufacturing M&A remains tangential to CT reporting workflow. Not drafted this cycle."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-10",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837150/fda-philips-lumify-ultrasound-issue-tied-to-4-deaths",
+      "date": "2026-10-10",
+      "decision": "drafted (slug medical-device-recall-radiologist-oversight) - gate ready, factcheck pass, zero flagged claims, low cannibalization vs published philips-ct-recall-imaging-capacity (that piece covers Class II CT-scanner radiation recalls/capacity strain; this one covers a Lumify ultrasound software early-alert tied to deaths/injuries, pivoting to a checkpoint-design/human-oversight argument). Philips is a hardware/ultrasound vendor, not a radiology-AI-reporting competitor, so the no-competitor-airtime rule does not apply. CHOSEN and integrated 2026-10-10 as /blog/medical-device-recall-radiologist-oversight/ (highest combined fit/SEO/interest score tied with portable-x-ray-reporting-bottleneck; chosen on tiebreak for tighter relevance to xAID's core human-in-the-loop value prop and to avoid a third consecutive 'acquisition speeds up, reporting doesn't' article)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/company-developing-ultra-portable-x-ray-system-scores-24m-government-contract",
+      "date": "2026-10-10",
+      "decision": "drafted (slug portable-x-ray-reporting-bottleneck) - gate ready, factcheck pass, zero flagged claims, low cannibalization. Not chosen (tied on score with the Philips Lumify draft; passed over as the third consecutive 'device speeds acquisition, not interpretation' article after how-ai-cuts-mri-wait-times and portable-mri-icu-reporting-bottleneck, and 'portable x-ray' head-term volume is buyer-intent-mismatched per the scoring agent). Draft remains in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-solution-can-help-nearly-1-5-patients-avoid-prostate-biopsies-radnet-says",
+      "date": "2026-10-10",
+      "decision": "drafted (slug ai-prostate-mri-roi-claims-framework) - gate ready, factcheck pass, 1 minor fix applied (FAQ/JSON-LD apostrophe mismatch). Not chosen (lowest combined fit/SEO/interest score of today's 3 drafts; modality mismatch - prostate MRI decision-support vs. xAID's CT-reporting focus - and negligible keyword volume). Draft remains in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologists-criticize-congressmans-proposed-no-surprises-act-shakeup",
+      "date": "2026-10-10",
+      "decision": "skipped - dedupOk false, exact same URL already scored and skipped yesterday (2026-10-09: third NSA-adjacent article territory, high keyword competition KD 46). DataForSEO returned no suggestions for 'no surprises act radiology' today either. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-ai-tool-creates-3d-bone-visualizations-standard-mris",
+      "date": "2026-10-10",
+      "decision": "skipped - dedupOk false, same underlying FDA MRI2CT/NextMR clearance already scored and skipped 2026-10-08 (fitScore 5, thin measurable search demand, no volume data); today's AuntMinnie item is the same clearance re-surfacing a day later. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/why-almost-40-women-surveyed-say-theyve-missed-recommended-mammogram",
+      "date": "2026-10-10",
+      "decision": "skipped - dedupOk false, same Hologic August consumer survey already evaluated and skipped 2026-10-08 via the AuntMinnie '37%' write-up (overlaps with published reduce-patient-no-shows-radiology and radiology-imaging-deserts; off-core modality for a CT-reporting B2B product). Not drafted."
     }
   ]
 }

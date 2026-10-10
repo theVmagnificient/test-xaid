@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'medical-device-recall-radiologist-oversight',
+    title: 'A Medical Device Recall Tied to 4 Deaths Is a Warning About Checkpoint Design',
+    excerpt: "An FDA early alert ties a Philips Lumify ultrasound software issue to 4 deaths and 8 serious injuries. The real lesson for imaging buyers isn't about one device — it's about what happens when software fails and no human checkpoint sits between the failure and the patient.",
+    date: 'October 10, 2026',
+    dateIso: '2026-10-10',
+    category: 'Regulatory & Policy',
+    readingTime: 7,
+    keywords: ['medical device recall', 'FDA early alert', 'imaging software safety', 'AI device oversight', 'radiologist review'],
+  },
+  {
     slug: 'incidental-findings-mammography-cardiac-risk',
     title: 'Maryland Just Made an Incidental Finding a Legal Requirement',
     excerpt: "Maryland's new mammography law requires flagging breast arterial calcification, a cardiac risk marker, in every results letter. It's the mammography-side version of a problem xAID has tracked on CT: incidental findings only help patients if the report catches them every time.",

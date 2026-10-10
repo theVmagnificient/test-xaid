@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/medical-device-recall-radiologist-oversight/",
       "/blog/incidental-findings-mammography-cardiac-risk/",
       "/blog/software-as-a-medical-device-warning-letter-case-study/",
       "/blog/radiology-imaging-deserts/",
