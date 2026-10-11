@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'breakthrough-device-designation-rapid-pathway-diagnostics',
+    title: "Breakthrough Device Designation Meets CMS's RAPID Pathway",
+    excerpt: "AdvaMed wants diagnostics added to CMS's proposed RAPID coverage pathway. What breakthrough device designation does and doesn't change for an AI CT reporting vendor's path to Medicare.",
+    date: 'October 11, 2026',
+    dateIso: '2026-10-11',
+    category: 'Market & Policy',
+    readingTime: 8,
+    keywords: ['breakthrough device designation', 'CMS RAPID pathway', 'AdvaMed', 'Medicare coverage diagnostics', 'AI radiology reimbursement'],
+  },
+  {
     slug: 'medical-device-recall-radiologist-oversight',
     title: 'A Medical Device Recall Tied to 4 Deaths Is a Warning About Checkpoint Design',
     excerpt: "An FDA early alert ties a Philips Lumify ultrasound software issue to 4 deaths and 8 serious injuries. The real lesson for imaging buyers isn't about one device — it's about what happens when software fails and no human checkpoint sits between the failure and the patient.",

@@ -551,6 +551,13 @@
       "source": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837150/fda-philips-lumify-ultrasound-issue-tied-to-4-deaths ; https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-diagnostic-ultrasound-system-issue-philips-ultrasound",
       "date": "2026-10-10",
       "approved": ""
+    },
+    {
+      "slug": "breakthrough-device-designation-rapid-pathway-diagnostics",
+      "topic": "Breakthrough Device Designation Meets CMS's RAPID Pathway",
+      "source": "",
+      "date": "2026-10-11",
+      "approved": "2026-10-11 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -4411,6 +4418,46 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/why-almost-40-women-surveyed-say-theyve-missed-recommended-mammogram",
       "date": "2026-10-10",
       "decision": "skipped - dedupOk false, same Hologic August consumer survey already evaluated and skipped 2026-10-08 via the AuntMinnie '37%' write-up (overlaps with published reduce-patient-no-shows-radiology and radiology-imaging-deserts; off-core modality for a CT-reporting B2B product). Not drafted."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/medtech-lobby-seeks-broader-device-eligibility-for-cms-proposed-rapid-path/832622/",
+      "date": "2026-10-11",
+      "decision": "drafted as breakthrough-device-designation-rapid-pathway-diagnostics (fitScore 8, seoScore 7, gate needs-human, factcheck fix-needed -> fixed in-file: removed an unsupported 'and commercial coverage' addition to AdvaMed's 'nearly six years' Medicare-coverage stat; all other 9 checked claims independently web-verified). CHOSEN for publish today -- only candidate drafted, no competitor-airtime conflict (CMS/AdvaMed policy, not a vendor deal). Integrated via the 4-file contract (2026-10-11). Note for future runs: content-pipeline/drafts/breakthrough-device-designation-medicare-coverage.tsx (2026-08-14, same underlying RAPID/breakthrough-device story at an earlier news stage) remains an unintegrated sibling draft -- do not draft a third pass on this topic without reviewing both first."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/1st-patients-dosed-newly-approved-brain-cancer-imaging-agent",
+      "date": "2026-10-11",
+      "decision": "skipped - modality mismatch, dropped pre-scoring: nuclear-medicine/molecular-imaging radiopharmaceutical dosing news, not CT reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837131/blackford-sopris-capital-buys-blackford-analysis-from-bayer",
+      "date": "2026-10-11",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): Blackford Analysis is explicitly named on the founder's competitor/competitor-adjacent vendor list (2026-08-11 rule). This M&A story is disqualified regardless of factual accuracy. Dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15837143/jubilant-draximage-jubilant-to-invest-cad-945m-in-manufacturing-facility",
+      "date": "2026-10-11",
+      "decision": "skipped - low fit, dropped pre-scoring: radiopharmaceutical manufacturing capex announcement, off-topic for a CT-reporting B2B audience, no SEO angle."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15836927/oxos-secures-96m-federal-contract-for-portable-xray",
+      "date": "2026-10-11",
+      "decision": "skipped - modality/fit mismatch, dropped pre-scoring: portable x-ray federal contract news, not CT reporting, no clear product angle."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15836904/carplai-carplai-hoppr-partner-on-ai-foundation-models",
+      "date": "2026-10-11",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): CARPL.ai/HOPPR AI-foundation-model partnership is a competitor-adjacent vendor alliance announcement; covering it hands them airtime per the founder's 2026-08-11 rule. Dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15836906/telix-reports-first-patients-dosed-with-pixclara",
+      "date": "2026-10-11",
+      "decision": "skipped - modality mismatch, dropped pre-scoring: radiopharmaceutical (Pixclara) first-patients-dosed news, not CT reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15836912/mri2ct-gets-fda-clearance-for-mribased-spine-imaging-software",
+      "date": "2026-10-11",
+      "decision": "skipped - dedupOk false: duplicate of the same-day Radiology Business coverage of this FDA clearance (fda-clears-ai-tool-creates-3d-bone-visualizations-standard-mris, scored and skipped above); also already evaluated and skipped on prior runs. Not drafted."
     }
   ]
 }
