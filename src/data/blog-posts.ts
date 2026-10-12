@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-work-from-home-trainee-survey',
+    title: 'Radiology Work From Home: Zero Trainees Say Yes',
+    excerpt: "A JACR survey found 93% of radiology trainees support hybrid or remote work, and zero chose fully in-person — a retention problem AI reporting helps solve.",
+    date: 'October 12, 2026',
+    dateIso: '2026-10-12',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['radiology work from home', 'radiology trainees hybrid work', 'radiologist retention', 'radiology workforce survey', 'remote radiology reporting'],
+  },
+  {
     slug: 'breakthrough-device-designation-rapid-pathway-diagnostics',
     title: "Breakthrough Device Designation Meets CMS's RAPID Pathway",
     excerpt: "AdvaMed wants diagnostics added to CMS's proposed RAPID coverage pathway. What breakthrough device designation does and doesn't change for an AI CT reporting vendor's path to Medicare.",

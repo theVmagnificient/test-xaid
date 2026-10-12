@@ -558,6 +558,13 @@
       "source": "",
       "date": "2026-10-11",
       "approved": "2026-10-11 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-work-from-home-trainee-survey",
+      "topic": "Radiology Work From Home: Zero Trainees Say Yes",
+      "source": "",
+      "date": "2026-10-12",
+      "approved": "2026-10-12 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -4458,6 +4465,106 @@
       "url": "https://www.auntminnie.com/clinical-news/mri/news/15836912/mri2ct-gets-fda-clearance-for-mribased-spine-imaging-software",
       "date": "2026-10-11",
       "decision": "skipped - dedupOk false: duplicate of the same-day Radiology Business coverage of this FDA clearance (fda-clears-ai-tool-creates-3d-bone-visualizations-standard-mris, scored and skipped above); also already evaluated and skipped on prior runs. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiology-trainees-strongly-support-hybrid-and-work-home-practice-models",
+      "date": "2026-10-12",
+      "decision": "drafted and INTEGRATED/PUBLISHED as radiology-work-from-home-trainee-survey (gate: ready, fact-check: pass, cannibalization: low). Chosen as today's single article."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/acr-pushes-imaging-guardrails-senator-seeks-solutions-healthcare-affordability-crisis",
+      "date": "2026-10-12",
+      "decision": "drafted as imaging-prior-authorization-radiologist-capacity (gate: needs-human, fact-check: fix-needed - two ACR quotes unverifiable due to Cloudflare block; medium cannibalization risk vs published radiology-prior-authorization-imaging-throughput). Not integrated; left in content-pipeline/drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologists-criticize-congressmans-proposed-no-surprises-act-shakeup",
+      "date": "2026-10-12",
+      "decision": "drafted as no-surprises-act-arbitration (gate: needs-human, fact-check: pass; medium cannibalization risk vs published qualifying-payment-amount-no-surprises-act and an unintegrated sibling draft no-surprises-act-arbitration-reform; this exact source URL was previously skipped 2026-10-09 and 2026-10-10 for NSA-territory saturation). Not integrated; left in content-pipeline/drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/health-and-wellness-company-begins-selling-mammography-ai-directly-consumers-249",
+      "date": "2026-10-12",
+      "decision": "scored (fit 8, seo 4, interest 9) - Everlywell Clairity Breast DTC mammogram-AI-without-radiologist-review angle; strong human-in-the-loop trust-content candidate but not in this run's top-3 draft slots. Not drafted; good candidate for a future run."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15836912/mri2ct-gets-fda-clearance-for-mribased-spine-imaging-software",
+      "date": "2026-10-12",
+      "decision": "scored (fit 5, seo 2) - niche single-purpose synthetic-CT-from-MRI spine tool, different modality/niche than CT reporting, low-volume/high-difficulty keyword. Not drafted; also already evaluated and skipped on prior runs (2026-10-11)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/why-almost-40-women-surveyed-say-theyve-missed-recommended-mammogram",
+      "date": "2026-10-12",
+      "decision": "scored but dedupOk=false - patient-behavior adherence survey, weak B2B fit, thematically adjacent to published reduce-patient-no-shows-radiology article. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-solution-can-help-nearly-1-5-patients-avoid-prostate-biopsies-radnet-says",
+      "date": "2026-10-12",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): news hook is RadNet's own AI (DeepHealth) product-performance claim; disqualified per founder's 2026-08-11 no-competitor-airtime rule even though scoring was otherwise clean. Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/57751/civie/radiologys-new-way-reads-rads-roi-and-radpod",
+      "date": "2026-10-12",
+      "decision": "skipped - sponsored/advertorial vendor content (Civie/RadPod), not independent news; dropped pre-scoring."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/philips-ultrasound-imaging-systems-recalled-after-4-deaths",
+      "date": "2026-10-12",
+      "decision": "skipped - duplicate of already-published medical-device-recall-radiologist-oversight article (same Philips Lumify ultrasound recall/4-deaths story); dropped pre-scoring."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/investment-firm-acquires-ai-platform-blackford-analysis-bayer",
+      "date": "2026-10-12",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): acquisition of radiology-AI vendor Blackford Analysis, folded into competitor-adjacent Azra AI; dropped pre-scoring."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/breast-imaging/maryland-mammography-law-turns-incidental-cardiac-findings-new-screening-opportunity",
+      "date": "2026-10-12",
+      "decision": "skipped - dedupOk false: duplicate of already-published incidental-findings-mammography-cardiac-risk article (same Maryland law/incidental cardiac findings story); dropped pre-scoring."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/medtech-lobby-seeks-broader-device-eligibility-for-cms-proposed-rapid-path/832622/",
+      "date": "2026-10-12",
+      "decision": "skipped - dedupOk false: same CMS RAPID-pathway topic as already-published breakthrough-device-designation-rapid-pathway-diagnostics; dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837150/fda-philips-lumify-ultrasound-issue-tied-to-4-deaths",
+      "date": "2026-10-12",
+      "decision": "skipped - duplicate of already-published medical-device-recall-radiologist-oversight article and of the same-day Radiology Business coverage; dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837131/blackford-sopris-capital-buys-blackford-analysis-from-bayer",
+      "date": "2026-10-12",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): Sopris Capital folding Blackford Analysis into Azra AI (both competitor-adjacent vendors); also duplicate of same-day Radiology Business coverage. Dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15837143/jubilant-draximage-jubilant-to-invest-cad-945m-in-manufacturing-facility",
+      "date": "2026-10-12",
+      "decision": "skipped - low fit, dropped pre-scoring: radiopharmaceutical manufacturing capex announcement, off-topic for a CT-reporting B2B audience, no SEO angle. Re-seen from prior run (2026-10-11)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15836896/on-diagnostics-hit-with-fda-warning-letter",
+      "date": "2026-10-12",
+      "decision": "skipped - low fit, dropped pre-scoring: single-vendor FDA warning letter (bone-density software), narrow interest, no clear reporting-capacity or B2B angle distinct from the already-published SaMD warning-letter case study."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/digital-x-ray/news/15836927/oxos-secures-96m-federal-contract-for-portable-xray",
+      "date": "2026-10-12",
+      "decision": "skipped - modality/fit mismatch, dropped pre-scoring: portable x-ray federal contract news, not CT reporting, no clear product angle. Re-seen from prior run (2026-10-11)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15836904/carplai-carplai-hoppr-partner-on-ai-foundation-models",
+      "date": "2026-10-12",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): CARPL.ai/HOPPR AI-foundation-model partnership is a competitor-adjacent vendor alliance announcement. Dropped pre-scoring. Re-seen from prior run (2026-10-11)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15836906/telix-reports-first-patients-dosed-with-pixclara",
+      "date": "2026-10-12",
+      "decision": "skipped - modality mismatch, dropped pre-scoring: radiopharmaceutical (Pixclara) first-patients-dosed news, not CT reporting. Re-seen from prior run (2026-10-11)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836875/hologic-hologic-survey-finds-37-of-women-skipped-or-delayed-mammograms",
+      "date": "2026-10-12",
+      "decision": "skipped - duplicate of same-day Radiology Business coverage of the same Hologic-commissioned survey (why-almost-40-women-surveyed-say-theyve-missed-recommended-mammogram, scored and skipped above); dropped pre-scoring."
     }
   ]
 }
