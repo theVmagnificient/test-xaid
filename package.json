@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/diagnostic-ultrasound-systems-capital-allocation/",
       "/blog/radiology-work-from-home-trainee-survey/",
       "/blog/breakthrough-device-designation-rapid-pathway-diagnostics/",
       "/blog/medical-device-recall-radiologist-oversight/",

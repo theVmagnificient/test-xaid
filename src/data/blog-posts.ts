@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'diagnostic-ultrasound-systems-capital-allocation',
+    title: 'Siemens Exits General Ultrasound, Bets on Procedural',
+    excerpt: "Siemens Healthineers stopped selling general ultrasound systems on October 12, 2026 to focus on procedural imaging. A look at the financials behind the exit — and what it says about where imaging capital is actually going.",
+    date: 'October 13, 2026',
+    dateIso: '2026-10-13',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['diagnostic ultrasound systems', 'Siemens Healthineers ultrasound', 'imaging capital equipment investment', 'procedural imaging', 'radiology reporting capacity'],
+  },
+  {
     slug: 'radiology-work-from-home-trainee-survey',
     title: 'Radiology Work From Home: Zero Trainees Say Yes',
     excerpt: "A JACR survey found 93% of radiology trainees support hybrid or remote work, and zero chose fully in-person — a retention problem AI reporting helps solve.",

@@ -565,6 +565,10 @@
       "source": "",
       "date": "2026-10-12",
       "approved": "2026-10-12 founder-approved via telegram bot"
+    },
+    {
+      "slug": "diagnostic-ultrasound-systems-capital-allocation",
+      "topic": "capital-equipment investment shift (Siemens general-ultrasound exit) / diagnostic reporting capacity underinvestment"
     }
   ],
   "seen": [
@@ -4565,6 +4569,86 @@
       "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15836875/hologic-hologic-survey-finds-37-of-women-skipped-or-delayed-mammograms",
       "date": "2026-10-12",
       "decision": "skipped - duplicate of same-day Radiology Business coverage of the same Hologic-commissioned survey (why-almost-40-women-surveyed-say-theyve-missed-recommended-mammogram, scored and skipped above); dropped pre-scoring."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/philips-updates-instructions-for-ultrasound-system-linked-to-4-deaths/832692/",
+      "date": "2026-10-13",
+      "decision": "skipped - near-duplicate of published 'medical-device-recall-radiologist-oversight' (same Philips Lumify 4-deaths FDA event); only new fact is the software-connectivity root cause, not enough for a second article."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/medtech-lobby-seeks-broader-device-eligibility-for-cms-proposed-rapid-path/832622/",
+      "date": "2026-10-13",
+      "decision": "skipped - dropped pre-scoring, same RAPID pathway topic already covered by published 'breakthrough-device-designation-rapid-pathway-diagnostics' (2026-10-11)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/alterations-brain-connectivity-linked-anxiety-adolescents-mri-study-finds",
+      "date": "2026-10-13",
+      "decision": "skipped - scored (fit 2/10), off-core: pediatric functional/connectivity MRI research in psychiatry, no bridge to CT reporting/workflow and negligible B2B search demand."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/ultrasound-imaging/siemens-healthineers-stopping-all-sales-its-general-ultrasound-systems",
+      "date": "2026-10-13",
+      "decision": "drafted and PUBLISHED as 'diagnostic-ultrasound-systems-capital-allocation' - gate ready, fact-check pass."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/interventional-radiologists-now-treat-over-50-liver-cancer-patients",
+      "date": "2026-10-13",
+      "decision": "drafted as 'liver-cancer-treatment-imaging-volume' (gate ready, fact-check fix-needed/fixed) but not chosen for today's single publish slot - left in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/57751/civie/radiologys-new-way-reads-rads-roi-and-radpod",
+      "date": "2026-10-13",
+      "decision": "skipped - dropped pre-scoring, sponsored/advertorial content, not an editorial news item."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/philips-ultrasound-imaging-systems-recalled-after-4-deaths",
+      "date": "2026-10-13",
+      "decision": "skipped - duplicate of published 'medical-device-recall-radiologist-oversight' (same Philips Lumify recall event, RadiologyBusiness's version of the story)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiology-trainees-strongly-support-hybrid-and-work-home-practice-models",
+      "date": "2026-10-13",
+      "decision": "skipped - duplicate of published 'radiology-work-from-home-trainee-survey' (2026-10-12), same JACR trainee survey."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/acr-pushes-imaging-guardrails-senator-seeks-solutions-healthcare-affordability-crisis",
+      "date": "2026-10-13",
+      "decision": "drafted as 'imaging-appropriate-use-criteria-guardrails' (gate needs-human - medium cannibalization risk vs published 'patients-first-act-radiology') but not chosen for today's single publish slot - left in content-pipeline/drafts/ un-integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/investment-firm-acquires-ai-platform-blackford-analysis-bayer",
+      "date": "2026-10-13",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): Blackford Analysis (AI imaging platform) acquisition by Sopris Capital from Bayer is a competitor-adjacent vendor M&A announcement. Dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837223/siemens-healthineers-siemens-focuses-ultrasound-business-on-procedural-imaging",
+      "date": "2026-10-13",
+      "decision": "drafted and PUBLISHED - AuntMinnie's corroborating coverage of the same Siemens ultrasound-exit story as the RadiologyBusiness item; source used in 'diagnostic-ultrasound-systems-capital-allocation'."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15837233/oxford-brain-diagnostics-touts-study-on-ftd-pathology",
+      "date": "2026-10-13",
+      "decision": "skipped - scored (fit 3/10), off-core: MRI dementia-biomarker vendor press release, not CT/reporting-workflow; would need a forced structured-reporting reframe."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15837236/bayer-healthcare-bayer-touts-i124-evuzamitide-pet-study",
+      "date": "2026-10-13",
+      "decision": "skipped - dropped pre-scoring, modality mismatch: PET radiopharmaceutical first-in-human study, not CT reporting."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837150/fda-philips-lumify-ultrasound-issue-tied-to-4-deaths",
+      "date": "2026-10-13",
+      "decision": "skipped - duplicate of published 'medical-device-recall-radiologist-oversight' (AuntMinnie's version of the same Philips Lumify FDA event)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837131/blackford-sopris-capital-buys-blackford-analysis-from-bayer",
+      "date": "2026-10-13",
+      "decision": "skipped - HARD TOPIC RULE (competitor airtime): same Blackford Analysis / Sopris Capital acquisition as the RadiologyBusiness item above. Dropped pre-scoring."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15837143/jubilant-draximage-jubilant-to-invest-cad-945m-in-manufacturing-facility",
+      "date": "2026-10-13",
+      "decision": "skipped - dropped pre-scoring, off-core: radiopharmaceutical manufacturing-facility investment, not CT reporting/radiology workflow."
     }
   ]
 }
