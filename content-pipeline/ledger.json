@@ -569,6 +569,13 @@
     {
       "slug": "diagnostic-ultrasound-systems-capital-allocation",
       "topic": "capital-equipment investment shift (Siemens general-ultrasound exit) / diagnostic reporting capacity underinvestment"
+    },
+    {
+      "slug": "misleading-imaging-claims-ai-vendor-marketing",
+      "topic": "Misleading Imaging Claims: What a New Radiology Warning Means for AI Vendor Marketing",
+      "source": "",
+      "date": "2026-10-14",
+      "approved": "2026-10-14 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -4649,6 +4656,56 @@
       "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15837143/jubilant-draximage-jubilant-to-invest-cad-945m-in-manufacturing-facility",
       "date": "2026-10-13",
       "decision": "skipped - dropped pre-scoring, off-core: radiopharmaceutical manufacturing-facility investment, not CT reporting/radiology workflow."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/misleading-claims-about-imaging-could-have-damaging-ripple-effect-radiology-experts-warn",
+      "date": "2026-10-14",
+      "decision": "drafted -> misleading-imaging-claims-ai-vendor-marketing; gate ready, factcheck PASS (all 11 claims independently verified against primary sources/DOIs, no fabrications). SELECTED and INTEGRATED into the 4-file contract 2026-10-14 (autonomous run) as today's publish pick -- cleanest gate+factcheck combination of the day's 3 drafts; neutral market/regulatory topic, no competitor-vendor mentions. Pending founder approval + deploy (not deployed by this run)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/researchers-develop-way-adapting-adult-radiology-ai-models-pediatric-population",
+      "date": "2026-10-14",
+      "decision": "drafted -> pediatric-radiology-ai-fda-labeling-gap; gate ready, factcheck fix-needed (one unverifiable direct-quote-to-abstract attribution, resolved by rewording -- no facts changed). NOT SELECTED for today's publish -- misleading-imaging-claims-ai-vendor-marketing had a cleaner fact-check PASS verdict. Draft kept in drafts/ for founder review; strong pediatric-AI-labeling-gap angle, cannibalizationRisk low (no existing ledger overlap)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/american-college-radiology-names-2027-gold-medal-winners",
+      "date": "2026-10-14",
+      "decision": "dropped pre-scoring - off-core: ACR award/personnel announcement (2027 Gold Medal winners), not relevant to CT reporting/AI workflow."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiology-partners-clears-key-hurdle-plan-expand-overseas",
+      "date": "2026-10-14",
+      "decision": "drafted -> radiology-partners-private-equity-capital-allocation; gate needs-human, factcheck fix-needed (fixed in-draft: stale HQ claim, stale headcount, unsupported ownership %, mis-cited AAMC shortfall stat). NOT SELECTED for today's publish -- high cannibalization risk: 4th/5th unintegrated draft on the same RP/Everlight story cluster (siblings: teleradiology-companies-debt-financed-growth, radiology-private-equity-debt-financed-growth, radiology-private-equity-exit-global-scale, vrad-radiology-everlight-acquisition -- none published). Draft kept in drafts/ for founder review; recommend picking one from the cluster and retiring the rest."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-matches-radiologists-prostate-cancer-detection-mri",
+      "date": "2026-10-14",
+      "decision": "skipped - scored (fit 6/10, seo 2/10) but not in top-3 draft slots; moderate overlap risk flagged vs 2 already-published accuracy/evidence-gap articles, and negligible search volume (vol=10)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/study-identifies-gaps-sustainable-use-iodinated-contrast",
+      "date": "2026-10-14",
+      "decision": "skipped - not selected this cycle (environmental/sustainability angle on iodinated contrast use, tangential to CT-reporting workflow; lower fit than the day's drafted candidates)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837377/pockethealth-pockethealth-expands-agentic-ai-platform",
+      "date": "2026-10-14",
+      "decision": "skipped - scored (fit 4/10) but not in top-3 draft slots; also flagged HARD TOPIC RULE risk (competitor-adjacent vendor product launch -- PocketHealth's Conductor agentic AI platform for protocoling/reading-room ops/RCM)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837314/butterfly-network-vcom-form-handheld-ultrasound-education-alliance",
+      "date": "2026-10-14",
+      "decision": "dropped pre-scoring - off-core: handheld point-of-care ultrasound education alliance announcement, not CT-reporting relevant; also vendor-partnership-adjacent (Butterfly Network)."
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/associations/news/15837319/acr-names-2027-gold-medalists-honorary-fellows",
+      "date": "2026-10-14",
+      "decision": "dropped pre-scoring - duplicate of RadiologyBusiness's ACR 2027 Gold Medal/honorary fellows coverage (same event, off-core personnel announcement)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-14",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }

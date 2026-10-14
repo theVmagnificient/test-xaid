@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/misleading-imaging-claims-ai-vendor-marketing/",
       "/blog/diagnostic-ultrasound-systems-capital-allocation/",
       "/blog/radiology-work-from-home-trainee-survey/",
       "/blog/breakthrough-device-designation-rapid-pathway-diagnostics/",

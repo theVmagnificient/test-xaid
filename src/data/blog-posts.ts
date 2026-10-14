@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'misleading-imaging-claims-ai-vendor-marketing',
+    title: 'Misleading Imaging Claims: What a New Radiology Warning Means for AI Vendor Marketing',
+    excerpt: 'Radiology leaders just warned that misleading claims about imaging trends could damage patient access. The same scrutiny applies to AI-reporting vendor marketing — here is how to tell a defensible accuracy claim from hype.',
+    date: 'October 14, 2026',
+    dateIso: '2026-10-14',
+    category: 'AI Ethics & Trust',
+    readingTime: 7,
+    keywords: ['misleading imaging claims', 'AI vendor marketing claims', 'radiology AI accuracy claims', 'AI validation radiology', 'radiology AI vendor evaluation'],
+  },
+  {
     slug: 'diagnostic-ultrasound-systems-capital-allocation',
     title: 'Siemens Exits General Ultrasound, Bets on Procedural',
     excerpt: "Siemens Healthineers stopped selling general ultrasound systems on October 12, 2026 to focus on procedural imaging. A look at the financials behind the exit — and what it says about where imaging capital is actually going.",
