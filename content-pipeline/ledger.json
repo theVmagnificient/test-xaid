@@ -576,6 +576,13 @@
       "source": "",
       "date": "2026-10-14",
       "approved": "2026-10-14 founder-approved via telegram bot"
+    },
+    {
+      "slug": "bi-rads-pediatric-structured-reporting",
+      "topic": "ACR: BI-RADS Wasn't Built for Kids — Why Rigid Reporting Criteria Break in Subpopulations",
+      "source": "",
+      "date": "2026-10-15",
+      "approved": "2026-10-15 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -4705,6 +4712,51 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-14",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/diagnostic-imaging/acr-says-bi-rads-criteria-may-lead-unnecessary-pediatric-procedures",
+      "date": "2026-10-15",
+      "decision": "drafted -> bi-rads-pediatric-structured-reporting; gate ready, factcheck PASS (all 9 claims independently verified against primary sources/DOIs, zero fabrication). SELECTED and INTEGRATED into the 4-file contract 2026-10-15 (autonomous run) as today's publish pick -- cleanest gate+factcheck combination of the day's 3 drafts; neutral clinical-evidence/structured-reporting-design topic, no competitor-vendor mentions. Pending founder approval + deploy (not deployed by this run)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/researchers-develop-way-adapting-adult-radiology-ai-models-pediatric-population",
+      "date": "2026-10-15",
+      "decision": "drafted -> radiology-ai-generalizability-pediatric-population; gate needs-human, factcheck fix-needed (3 small fixes applied: FAQ/JSON-LD apostrophe mismatch, meta-description trim, terminology reword -- no facts changed). NOT SELECTED for today's publish -- bi-rads-pediatric-structured-reporting had a cleaner gate=ready/factcheck=PASS verdict; also heavily overlaps an existing unpublished sibling draft (pediatric-radiology-ai-fda-labeling-gap.tsx, drafted 2026-10-14 from the same two studies). Draft kept in drafts/ for founder review; recommend picking one pediatric-AI-labeling angle and retiring the other."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/study-links-leadership-behavior-radiologist-turnover",
+      "date": "2026-10-15",
+      "decision": "drafted -> radiologist-turnover-leadership-behavior; gate ready, factcheck fix-needed (2 completeness gaps fixed in-draft: single-site-cohort disclosure, fully-adjusted-model caveat; one attribution-only source link returned Cloudflare 403 to live fetch, flagged for human click-check). NOT SELECTED for today's publish -- bi-rads-pediatric-structured-reporting had a cleaner factcheck PASS verdict. Draft kept in drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/acr-pushes-imaging-guardrails-senator-seeks-solutions-healthcare-affordability-crisis",
+      "date": "2026-10-15",
+      "decision": "skipped - scored (fit 7/10, seo 3/10) but not in top-3 draft slots; essentially no direct keyword volume, timeliness/AEO play rather than SEO play."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiology-partners-clears-key-hurdle-plan-expand-overseas",
+      "date": "2026-10-15",
+      "decision": "skipped - scored (fit 6/10, seo 3/10) but not in top-3 draft slots; also high cannibalization risk -- already a sibling draft in drafts/ on the same RP/Everlight story cluster (radiology-partners-private-equity-capital-allocation, from 2026-10-14, also not selected)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-matches-radiologists-prostate-cancer-detection-mri",
+      "date": "2026-10-15",
+      "decision": "skipped - scored (fit 5/10, seo 2/10) but not in top-3 draft slots; off-modality (MRI, not CT) and negligible search volume (vol=10)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/3-step-buyers-guide-evaluating-radiology-ai-solutions",
+      "date": "2026-10-15",
+      "decision": "skipped - dedupOk=false, near-duplicate of already-published buyer's-guide/vendor-evaluation-checklist slugs (ai-radiology-reporting-buyers-guide-2026, radiology-ai-vendor-evaluation-checklist); would need a genuinely new wedge to revisit."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/agilent-to-buy-proscia-for-240m/832933/",
+      "date": "2026-10-15",
+      "decision": "skipped - scored (fit 3/10, seo 2/10) but not in top-3 draft slots; off-core modality (digital pathology, not radiology/CT)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-15",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]

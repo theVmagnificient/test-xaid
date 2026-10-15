@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'bi-rads-pediatric-structured-reporting',
+    title: "ACR: BI-RADS Wasn't Built for Kids — Why Rigid Reporting Criteria Break in Subpopulations",
+    excerpt: 'ACR guidance says adult BI-RADS categories overestimate cancer risk in kids. The lesson for any structured-reporting system, including AI: criteria built for one population do not travel safely to another.',
+    date: 'October 15, 2026',
+    dateIso: '2026-10-15',
+    category: 'AI Technology',
+    readingTime: 7,
+    keywords: ['bi-rads', 'bi-rads pediatric', 'structured radiology reporting', 'BI-RADS category 4', 'pediatric breast imaging', 'AI structured reporting design'],
+  },
+  {
     slug: 'misleading-imaging-claims-ai-vendor-marketing',
     title: 'Misleading Imaging Claims: What a New Radiology Warning Means for AI Vendor Marketing',
     excerpt: 'Radiology leaders just warned that misleading claims about imaging trends could damage patient access. The same scrutiny applies to AI-reporting vendor marketing — here is how to tell a defensible accuracy claim from hype.',
