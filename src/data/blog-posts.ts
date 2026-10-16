@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'pediatric-radiology-ai-fda-labeling-gap',
+    title: 'Pediatric Radiology AI: Why Only 17% of Cleared Devices Are Labeled for Kids',
+    excerpt: "Only 17% of FDA-authorized imaging AI devices are labeled for pediatric use, and most of those were never validated on pediatric data. A new domain-adaptation study offers one way to close the gap — but outpatient centers and community hospitals reading pediatric CT today have almost no labeled AI coverage.",
+    date: 'October 16, 2026',
+    dateIso: '2026-10-16',
+    category: 'AI Technology',
+    readingTime: 8,
+    keywords: ['pediatric radiology ai', 'pediatric radiology ai fda clearance', 'pediatric AI imaging', 'FDA pediatric AI labeling', 'adult AI models pediatric imaging', 'domain adaptation radiology AI'],
+  },
+  {
     slug: 'bi-rads-pediatric-structured-reporting',
     title: "ACR: BI-RADS Wasn't Built for Kids — Why Rigid Reporting Criteria Break in Subpopulations",
     excerpt: 'ACR guidance says adult BI-RADS categories overestimate cancer risk in kids. The lesson for any structured-reporting system, including AI: criteria built for one population do not travel safely to another.',

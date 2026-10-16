@@ -50,7 +50,7 @@ const PediatricRadiologyAiFdaLabelingGap = () => {
           "image": "https://xaid.ai/og-image.png",
           "author": { "@type": "Organization", "name": "xAID", "url": "https://xaid.ai" },
           "publisher": { "@type": "Organization", "name": "xAID", "url": "https://xaid.ai" },
-          "keywords": "pediatric radiology ai, pediatric AI imaging, FDA pediatric AI labeling, adult AI models pediatric imaging, domain adaptation radiology AI"
+          "keywords": "pediatric radiology ai, pediatric radiology ai fda clearance, pediatric AI imaging, FDA pediatric AI labeling, adult AI models pediatric imaging, domain adaptation radiology AI"
         })}</script>
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/pediatric-radiology-ai-fda-labeling-gap/",
       "/blog/bi-rads-pediatric-structured-reporting/",
       "/blog/misleading-imaging-claims-ai-vendor-marketing/",
       "/blog/diagnostic-ultrasound-systems-capital-allocation/",

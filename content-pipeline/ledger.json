@@ -583,6 +583,10 @@
       "source": "",
       "date": "2026-10-15",
       "approved": "2026-10-15 founder-approved via telegram bot"
+    },
+    {
+      "slug": "pediatric-radiology-ai-fda-labeling-gap",
+      "topic": "pediatric AI labeling/validation gap (JAMA Pediatrics 17% figure) + Harvard/Nature Biomedical Engineering domain-adaptation study"
     }
   ],
   "seen": [
@@ -4757,6 +4761,191 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-15",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/us-senator-introduces-bill-would-slash-2b-imaging-spending",
+      "date": "2026-10-16",
+      "decision": "skipped - dup: same underlying Patients First Act / S.5672 ROOT Act bill as already-published patients-first-act-radiology (2026-07-17); today's story is just the Senate companion-bill introduction."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-department-uses-ai-identify-lung-cancer-screening-patients-ehr",
+      "date": "2026-10-16",
+      "decision": "drafted - lung-cancer-screening-software-unstructured-data.tsx (fit7/seo6). Fact-check: fix-needed (mis-cited source URL, corrected in QA). QA gate: needs-human. Not selected for publish today; left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/breast-imaging-startup-besound-launches-flagship-clinic-plans-scale-nationally",
+      "date": "2026-10-16",
+      "decision": "skipped - low fit: direct-to-consumer breast-imaging startup launch, not core AI-CT-reporting B2B audience."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-software-firm-sirona-medical-raises-40m-series-d-financing",
+      "date": "2026-10-16",
+      "decision": "skipped - competitor-adjacent AI radiology software vendor funding round (Sirona Medical / Cortex agentic AI); avoid giving a competitor-adjacent vendor airtime."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/imaging-leaders-explain-how-expand-ai-automation-practice",
+      "date": "2026-10-16",
+      "decision": "skipped - low fit: webinar promo announcement, no standalone news hook."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mri-links-ultraprocessed-foods-vascular-brain-injury",
+      "date": "2026-10-16",
+      "decision": "skipped - off-core modality (MRI/neuro-nutrition research, not CT reporting workflow)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/experts-identify-mri-biomarkers-may-precede-cognitive-decline",
+      "date": "2026-10-16",
+      "decision": "skipped - off-core modality (MRI/neuro biomarker research)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/3-step-buyers-guide-evaluating-radiology-ai-solutions",
+      "date": "2026-10-16",
+      "decision": "skipped - dedupOk=false (fit7/seo3), near-duplicate of existing buyer-guide/vendor-evaluation-checklist articles (ai-radiology-reporting-buyers-guide-2026, radiology-ai-vendor-evaluation-checklist, misleading-imaging-claims-ai-vendor-marketing)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/study-links-leadership-behavior-radiologist-turnover",
+      "date": "2026-10-16",
+      "decision": "drafted - radiologist-turnover-leadership-behavior.tsx (fit6/seo4). Fact-check: fix-needed (mislinked RB source citation, corrected in QA). QA gate: ready. Not selected for publish today (pediatric-radiology-ai-fda-labeling-gap had a cleaner fact-check pass); left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/interventional-procedure-significantly-reduces-reliance-steroid-injections-knee-osteoarthritis",
+      "date": "2026-10-16",
+      "decision": "skipped - off-core (interventional/MSK procedure, not diagnostic CT reporting)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/diagnostic-imaging/acr-says-bi-rads-criteria-may-lead-unnecessary-pediatric-procedures",
+      "date": "2026-10-16",
+      "decision": "skipped - dup of already-published bi-rads-pediatric-structured-reporting (2026-10-15)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/neuroimaging/death-row-inmate-requests-neuroimaging-ahead-scheduled-execution",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic/sensitive, no xAID product or SEO fit."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/misleading-claims-about-imaging-could-have-damaging-ripple-effect-radiology-experts-warn",
+      "date": "2026-10-16",
+      "decision": "skipped - dup of already-published misleading-imaging-claims-ai-vendor-marketing (2026-10-14)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/researchers-develop-way-adapting-adult-radiology-ai-models-pediatric-population",
+      "date": "2026-10-16",
+      "decision": "drafted and PUBLISHED today - pediatric-radiology-ai-fda-labeling-gap.tsx (fit8/seo5). Fact-check: pass (all 14 claims verified live). QA gate: ready. Selected as today's single publish: cleanest fact-check + gate-ready combination among today's candidates."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/american-college-radiology-names-2027-gold-medal-winners",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (awards announcement, no SEO/product angle)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radiology-partners-clears-key-hurdle-plan-expand-overseas",
+      "date": "2026-10-16",
+      "decision": "skipped - dedupOk=false, high cannibalization risk: 4+ existing unpublished drafts already cover the RP/Everlight/PE story cluster (teleradiology-companies-debt-financed-growth, radiology-private-equity-debt-financed-growth, radiology-private-equity-exit-global-scale, vrad-radiology-everlight-acquisition, radiology-partners-private-equity-capital-allocation)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-matches-radiologists-prostate-cancer-detection-mri",
+      "date": "2026-10-16",
+      "decision": "skipped - dedupOk=false, off-modality (MRI not CT) + negligible search volume (10/mo); scored and skipped twice before (2026-10-14, 2026-10-15)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/study-identifies-gaps-sustainable-use-iodinated-contrast",
+      "date": "2026-10-16",
+      "decision": "skipped - tangential fit to xAID reporting workflow; already evaluated and skipped once before (2026-10-14)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/alterations-brain-connectivity-linked-anxiety-adolescents-mri-study-finds",
+      "date": "2026-10-16",
+      "decision": "skipped - off-core modality (MRI neuro/psych research)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/ultrasound-imaging/siemens-healthineers-stopping-all-sales-its-general-ultrasound-systems",
+      "date": "2026-10-16",
+      "decision": "skipped - dup of already-published diagnostic-ultrasound-systems-capital-allocation (2026-10-13)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/interventional-radiologists-now-treat-over-50-liver-cancer-patients",
+      "date": "2026-10-16",
+      "decision": "skipped - overlaps existing unpublished draft liver-cancer-treatment-imaging-volume.tsx topic area; not fresh enough for a new article."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/siemens-healthineers-to-stop-selling-general-ultrasound-systems/832976/",
+      "date": "2026-10-16",
+      "decision": "skipped - dup of already-published diagnostic-ultrasound-systems-capital-allocation (2026-10-13); same story as Radiology Business/AuntMinnie coverage."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/agilent-to-buy-proscia-for-240m/832933/",
+      "date": "2026-10-16",
+      "decision": "skipped - scored (fit3/seo2), off-core modality (digital pathology, not radiology/CT)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/labcorp-to-buy-bioreference-assets-for-up-to-872m/833116/",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (lab-diagnostics M&A, not imaging/radiology-AI)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15837553/atomvie-jubilant-radiopharma-enter-distribution-partnership",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (radiopharmaceutical supply-chain deal)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837579/olympus-launches-slim-ebus-bronchoscope-in-us",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (interventional device launch, not AI reporting)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/15837538/sirona-medical-raises-40m-in-series-d-funding",
+      "date": "2026-10-16",
+      "decision": "skipped - competitor-adjacent AI radiology software vendor funding round; same story as Radiology Business coverage, same decision (avoid vendor airtime)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837482/brainomix-adds-patient-input-to-elung-lung-ct-study",
+      "date": "2026-10-16",
+      "decision": "DISQUALIFIED per HARD TOPIC RULE (founder 2026-08-11, no competitor airtime) - Brainomix is a competitor-adjacent AI imaging vendor; this is their product/research-partnership news. Excluded regardless of potential fact-check cleanliness."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837484/acr-birads-for-adults-not-children",
+      "date": "2026-10-16",
+      "decision": "skipped - dup: same underlying ACR BI-RADS guidance as already-published bi-rads-pediatric-structured-reporting (2026-10-15); also same story as Radiology Business coverage above."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15837492/nusano-primo-biotechnology-ink-isotope-supply-deal",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (radioisotope supply deal, no imaging-AI/reporting angle)."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837377/pockethealth-pockethealth-expands-agentic-ai-platform",
+      "date": "2026-10-16",
+      "decision": "skipped - competitor-adjacent vendor (agentic-AI patient-access platform expanding into radiology ops); avoid vendor airtime per spirit of HARD TOPIC RULE."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837314/butterfly-network-vcom-form-handheld-ultrasound-education-alliance",
+      "date": "2026-10-16",
+      "decision": "skipped - off-core (point-of-care ultrasound device/education alliance, not reporting-AI workflow)."
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/associations/news/15837319/acr-names-2027-gold-medalists-honorary-fellows",
+      "date": "2026-10-16",
+      "decision": "skipped - dup (same ACR awards story as Radiology Business coverage above); off-topic regardless."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15837223/siemens-healthineers-siemens-focuses-ultrasound-business-on-procedural-imaging",
+      "date": "2026-10-16",
+      "decision": "skipped - dup of already-published diagnostic-ultrasound-systems-capital-allocation (2026-10-13)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15837233/oxford-brain-diagnostics-touts-study-on-ftd-pathology",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (FTD pathology biomarker research, no imaging-AI-reporting fit)."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15837236/bayer-healthcare-bayer-touts-i124-evuzamitide-pet-study",
+      "date": "2026-10-16",
+      "decision": "skipped - off-topic (pharma PET-tracer trial data, not imaging-AI reporting)."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-16",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
