@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ama-agentic-ai-governance-checklist',
+    title: "AMA's Agentic AI Governance Framework: A Checklist for Imaging AI Buyers",
+    excerpt: "The AMA's new governance framework for agentic AI in healthcare boils down to four questions. Here's how to turn them into a concrete evaluation checklist before you sign with an imaging AI vendor.",
+    date: 'October 17, 2026',
+    dateIso: '2026-10-17',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['agentic ai in healthcare', 'AI governance radiology', 'imaging AI vendor checklist', 'AMA agentic AI framework', 'AI accountability imaging'],
+  },
+  {
     slug: 'pediatric-radiology-ai-fda-labeling-gap',
     title: 'Pediatric Radiology AI: Why Only 17% of Cleared Devices Are Labeled for Kids',
     excerpt: "Only 17% of FDA-authorized imaging AI devices are labeled for pediatric use, and most of those were never validated on pediatric data. A new domain-adaptation study offers one way to close the gap — but outpatient centers and community hospitals reading pediatric CT today have almost no labeled AI coverage.",

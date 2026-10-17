@@ -18,6 +18,7 @@ const LungCancerScreeningSoftwareUnstructuredData = () => {
       <Helmet defer={false}>
         <title>AI Finds 3x More Lung Screening Patients in the EHR | xAID</title>
         <meta name="description" content="A UC Irvine NLP tool found 3x more lung-screening-eligible patients in EHR notes than structured fields alone — and why reporting has the same problem." />
+        <link rel="canonical" href="https://xaid.ai/blog/lung-cancer-screening-software-unstructured-data/" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="AI Finds 3x More Lung Screening Patients in the EHR | xAID" />
         <meta property="og:description" content="A UC Irvine NLP tool found 3x more lung-screening-eligible patients in EHR notes than structured fields alone — and why reporting has the same problem." />
@@ -236,7 +237,7 @@ const LungCancerScreeningSoftwareUnstructuredData = () => {
               </div>
 
               <p className="text-[#757575] text-[13px] leading-[1.6] font-light mt-10">
-                Source: B. Liu, R. Sabour, T. Pham, et al., "Natural Language Processing for Automated Lung Cancer Screening Eligibility Classification from Electronic Health Record," <em>Journal of the American College of Radiology</em> (2026), <a href="https://doi.org/10.1016/j.jacr.2026.10.011" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">doi.org/10.1016/j.jacr.2026.10.011</a>; as reported by <a href="https://radiologybusiness.com/topics/artificial-intelligence/radiology-department-uses-ai-identify-lung-cancer-screening-patients-ehr" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a>. National screening-uptake figure (18.1% in 2022) from the American Cancer Society analysis in <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2819820" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue"><em>JAMA Internal Medicine</em></a>. Figures are rounded as reported.
+                Source: G. Sadigh et al., UC Irvine Department of Radiological Sciences, <em>Journal of the American College of Radiology</em> (2026), <a href="https://doi.org/10.1016/j.jacr.2026.10.011" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">doi.org/10.1016/j.jacr.2026.10.011</a>; as reported by <a href="https://radiologybusiness.com/topics/artificial-intelligence/radiology-department-uses-ai-identify-lung-cancer-screening-patients-ehr" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue">Radiology Business</a>. National screening-uptake figure (18.1% in 2022) from the American Cancer Society analysis in <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2819820" target="_blank" rel="noopener noreferrer" className="text-[#666] underline hover:text-xaid-blue"><em>JAMA Internal Medicine</em></a>. Figures are rounded as reported.
               </p>
 
             </div>
