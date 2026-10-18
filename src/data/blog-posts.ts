@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'lung-cancer-screening-eligibility-ehr-ai',
+    title: 'Lung Cancer Screening Eligibility Is Hiding in the EHR',
+    excerpt: "A UC Irvine study used natural language processing to mine clinical notes for smoking history — and surfaced more than three times as many screening-eligible patients as structured EHR fields alone. The same unstructured-text problem shows up again later in the same pathway: in the report.",
+    date: 'October 18, 2026',
+    dateIso: '2026-10-18',
+    category: 'Screening & Capacity',
+    readingTime: 7,
+    keywords: ['lung cancer screening eligibility', 'lung cancer screening EHR', 'NLP smoking history', 'structured radiology reporting', 'AI CT reporting'],
+  },
+  {
     slug: 'ama-agentic-ai-governance-checklist',
     title: "AMA's Agentic AI Governance Framework: A Checklist for Imaging AI Buyers",
     excerpt: "The AMA's new governance framework for agentic AI in healthcare boils down to four questions. Here's how to turn them into a concrete evaluation checklist before you sign with an imaging AI vendor.",

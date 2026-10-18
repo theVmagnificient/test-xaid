@@ -593,6 +593,13 @@
       "topic": "AMA's Agentic AI Governance Framework: A Checklist for Imaging AI Buyers",
       "source": "https://www.medtechdive.com/news/ama-releases-governance-framework-for-agentic-ai-in-healthcare/833208/",
       "date": "2026-10-17"
+    },
+    {
+      "slug": "lung-cancer-screening-eligibility-ehr-ai",
+      "topic": "Lung Cancer Screening Eligibility Is Hiding in the EHR",
+      "source": "",
+      "date": "2026-10-18",
+      "approved": "2026-10-18 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -5123,6 +5130,26 @@
       "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-matches-radiologists-prostate-cancer-detection-mri",
       "date": "2026-10-17",
       "decision": "skipped - filtered pre-scoring: prostate-MRI AI accuracy study, overlaps existing prostate-MRI-AI coverage (ai-prostate-mri-roi-claims-framework, prostate-mri-quality-ai-reporting-qa) without a clearly distinct angle."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-18",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/breast/news/15837701/fda-clears-simbiosyss-breast-cancer-risk-software",
+      "date": "2026-10-18",
+      "decision": "drafted (breast-cancer-risk-assessment-software.tsx), fact-check PASS, gate needs-human. NOT chosen for today's autorun publish slot: disqualified under the founder's no-competitor-airtime rule (2026-08-11) out of caution — the draft is built around SimBioSys's FDA clearance (a vendor product-launch news hook) and names/quotes/links SimBioSys repeatedly; the pipeline has now punted on this same SimBioSys/ArteraAI competitor-adjacency question three days running (2026-10-16, 2026-10-17, 2026-10-18) without resolving it. Left un-integrated in drafts/; founder should make the final call on whether SimBioSys (breast-MRI/pathology prognostic scoring, not CT-report drafting) actually falls under the rule."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/study-links-leadership-behavior-radiologist-turnover",
+      "date": "2026-10-18",
+      "decision": "drafted (radiologist-burnout-leadership-behavior-study.tsx), fact-check fix-needed -> fixed (corrected radiologist-share-of-cohort stat from 2-5% to 4.5-5.7%), gate needs-human. NOT chosen for today's autorun publish slot: near-duplicate of the still-un-integrated sibling draft radiologist-turnover-leadership-behavior.tsx (same two source studies, same KeyStats), now drafted a 4th time (2026-10-15, -16, -17, -18) without ever being selected; lower target-keyword search volume (10) than the chosen pick. Left un-integrated in drafts/; founder should pick one of the two sibling drafts and discard the other."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-department-uses-ai-identify-lung-cancer-screening-patients-ehr",
+      "date": "2026-10-18",
+      "decision": "drafted (lung-cancer-screening-eligibility-ehr-ai.tsx), fact-check PASS, gate needs-human (flag was cluster-cadence only, not accuracy). CHOSEN for 2026-10-18 autorun publish: cleanest fact-check of today's 3 drafts, best keyword signal (vol 50, KD 42) of the batch, no competitor-airtime concern, and the last published lung-screening article (lung-cancer-screening-ct-criteria, 2026-07-03) is well spaced out. 4-file integration completed (blog-posts.ts, src/pages/blog/LungCancerScreeningEligibilityEhrAi.tsx, routes.tsx, reactSnap.include); still pending founder approval and deploy. A near-duplicate sibling draft (lung-cancer-screening-software-unstructured-data.tsx) remains un-integrated in drafts/ and should be discarded once this one is approved."
     }
   ]
 }

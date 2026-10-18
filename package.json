@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/lung-cancer-screening-eligibility-ehr-ai/",
       "/blog/ama-agentic-ai-governance-checklist/",
       "/blog/pediatric-radiology-ai-fda-labeling-gap/",
       "/blog/bi-rads-pediatric-structured-reporting/",
