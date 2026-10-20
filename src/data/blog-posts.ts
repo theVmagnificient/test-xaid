@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'contrast-enhanced-mammography-patient-trust',
+    title: 'Nearly All Breast Cancer Survivors Would Recommend Contrast-Enhanced Mammography — What That Says About Patient Trust',
+    excerpt: "In a 936-patient study, 99.6% of breast cancer survivors said they'd recommend contrast-enhanced mammography, and 96.2% were satisfied overall — even though nearly half reported real pre-exam anxiety. The lesson for AI in imaging: informed patients tolerate discomfort and new technology when it's explained well.",
+    date: 'October 20, 2026',
+    dateIso: '2026-10-20',
+    category: 'Patient Experience',
+    readingTime: 6,
+    keywords: ['contrast-enhanced mammography patient experience', 'CEM patient satisfaction', 'breast cancer survivor imaging', 'AI disclosure radiology', 'patient trust medical imaging'],
+  },
+  {
     slug: 'lung-cancer-screening-eligibility-ehr-ai',
     title: 'Lung Cancer Screening Eligibility Is Hiding in the EHR',
     excerpt: "A UC Irvine study used natural language processing to mine clinical notes for smoking history — and surfaced more than three times as many screening-eligible patients as structured EHR fields alone. The same unstructured-text problem shows up again later in the same pathway: in the report.",
