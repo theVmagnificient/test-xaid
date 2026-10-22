@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'breast-cancer-ai-trustworthiness-check',
+    title: "AI That Checks AI: A New Way to Score Breast Cancer Model Trust",
+    excerpt: "University of Pittsburgh researchers built a model that scores how much to trust another AI's breast-cancer prediction, case by case. What a second-layer AI checker means for AI model validation — and why it still doesn't replace radiologist review.",
+    date: 'October 22, 2026',
+    dateIso: '2026-10-22',
+    category: 'AI Safety & Oversight',
+    readingTime: 7,
+    keywords: ['ai model validation healthcare', 'breast cancer AI trustworthiness', 'uncertainty-weighted learning', 'AI model evaluation radiology', 'human-in-the-loop AI imaging'],
+  },
+  {
     slug: 'contrast-enhanced-mammography-patient-trust',
     title: 'Nearly All Breast Cancer Survivors Would Recommend Contrast-Enhanced Mammography — What That Says About Patient Trust',
     excerpt: "In a 936-patient study, 99.6% of breast cancer survivors said they'd recommend contrast-enhanced mammography, and 96.2% were satisfied overall — even though nearly half reported real pre-exam anxiety. The lesson for AI in imaging: informed patients tolerate discomfort and new technology when it's explained well.",
