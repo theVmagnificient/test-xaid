@@ -20,7 +20,7 @@ GOAL: produce and integrate exactly ONE fresh, publish-ready article for TODAY (
    - keep `stat` short — a number, percentage, ratio or date (`37.1%`, `68.1% vs 50%`, `77,626`, `Aug 5, 2026`). Never a long single word like `Hundreds` or `Nationwide`; write `100s+` or move the idea into `label`;
    - keep `label` under ~28 characters and avoid unbreakable compounds like `Top-comprehensiveness` — prefer `Rated most comprehensive`.
 
-4. Ensure `content-pipeline/ledger.json` "seen" has an entry for every item evaluated today (decision drafted/skipped/rejected) so tomorrow never re-scores them.
+4. Ensure `content-pipeline/ledger.json` "seen" has an entry for every item evaluated today (decision drafted/skipped/rejected) so tomorrow never re-scores them. Do NOT add, edit or remove anything in `ledger.json` "published" — not even a `pending-approval` entry. The publish step owns that list and writes the approval itself.
 
 5. Validate the build compiles: `npx vite build --mode development` must succeed. If the chosen draft breaks it and you cannot trivially fix, revert that draft's 4 files and pick the next-best draft (or NONE).
 

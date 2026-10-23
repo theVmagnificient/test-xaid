@@ -25,13 +25,24 @@ const run = (cmd) => execSync(cmd, { cwd: ROOT, stdio: 'inherit', timeout: 15 * 
 const ledgerPath = resolve(ROOT, 'content-pipeline/ledger.json');
 const ledgerBefore = readFileSync(ledgerPath, 'utf8');
 const ledger = JSON.parse(ledgerBefore);
-if (!ledger.published.some((p) => p.slug === slug)) {
+// Upsert, not insert-if-absent: the generator sometimes pre-writes a `status: "pending-approval"`
+// entry itself (it carried that over from the old manual flow). Skipping an existing entry left the
+// status in place, the guard's approval gate blocked the deploy, and the run failed (2026-10-23).
+const approved = `${today} founder-approved via telegram bot`;
+const existing = ledger.published.find((p) => p.slug === slug);
+if (existing) {
+  delete existing.status;
+  existing.approved = approved;
+  existing.topic ||= entry.topic || entry.title;
+  existing.source ||= entry.source || '';
+  existing.date ||= entry.date;
+} else {
   ledger.published.push({
     slug,
     topic: entry.topic || entry.title,
     source: entry.source || '',
     date: entry.date,
-    approved: `${today} founder-approved via telegram bot`,
+    approved,
   });
 }
 for (const s of ledger.seen) {
