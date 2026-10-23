@@ -613,6 +613,13 @@
       "source": "",
       "date": "2026-10-22",
       "approved": "2026-10-22 founder-approved via telegram bot"
+    },
+    {
+      "slug": "fda-ai-regulation-radiology-societies",
+      "topic": "What RSNA Told the FDA About Regulating Generative AI — A Buyer's Reading",
+      "source": "",
+      "date": "2026-10-23",
+      "approved": "2026-10-23 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -5653,6 +5660,171 @@
       "topic": "CORRECTION to the 2026-10-21 entries for ct-perfusion-stroke-reporting-gap and radiology-partners-junk-bonds-everlight-acquisition",
       "date": "2026-10-22",
       "decision": "The 2026-10-21 seen entry for 'new-ct-perfusion-findings-may-predict-poor-outcomes-after-thrombectomy' states ct-perfusion-stroke-reporting-gap.tsx was 'drafted & INTEGRATED ... via the 4-file contract with date 2026-10-21', but as of this run (2026-10-22) src/data/blog-posts.ts, src/routes.tsx, and package.json show no trace of this slug, and it is not in ledger.published. Both ct-perfusion-stroke-reporting-gap.tsx and radiology-partners-junk-bonds-everlight-acquisition.tsx still sit unintegrated in content-pipeline/drafts/ (confirmed via git status: untracked). Treat ct-perfusion-stroke-reporting-gap as NOT integrated/published; a founder or future run should either complete its 4-file integration or fold it into a future day's selection (same pattern as the 2026-09-21 correction entry above)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/radiology-societies-weigh-fdas-push-regulate-generative-ai",
+      "date": "2026-10-23",
+      "decision": "drafted & INTEGRATED via 4-file contract as fda-ai-regulation-radiology-societies, published 2026-10-23 (autonomous run pick). Gate: needs-human (flagged only for a keyword-cluster strategy note -- target keyword 'fda ai regulation' is also used by the still-unintegrated sibling draft fda-ai-regulation-vendor-diligence-checklist.tsx; founder should retire or re-target that sibling to avoid self-cannibalization). Factcheck: pass, no flagged claims. Highest fitScore (9) of today's shortlist and directly on-topic for xAID's generative-AI-reporting category."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cdrh-on-hiring-spree-after-significant-staff-losses-director-says/833659/",
+      "date": "2026-10-23",
+      "decision": "drafted as fda-ai-medical-device-reviewer-shortage.tsx, gate: ready, factcheck: fix-needed (one contradicted claim -- the '42 hires' figure was attributed to FY2025 instead of FY2024; a specific fixable table-year swap, not a fabrication). NOT selected as today's pick (fda-ai-regulation-radiology-societies had higher relevance/fitScore). Left unintegrated in content-pipeline/drafts/ for future selection after the year fix is applied."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15838207/biograph-highlights-cardiac-ai-ct-study",
+      "date": "2026-10-23",
+      "decision": "drafted as coronary-artery-inflammation-ct-ai.tsx, gate: needs-human (borderline HARD TOPIC RULE judgment call -- draft leans on favorable regulatory/product detail about Caristo Diagnostics' CaRi-Heart, brand named 6+ times, in service of a Biograph clinical study; pipeline agent argued this is a clinical-evidence/prevalence hook not a vendor product-launch, analogous to the 2026-10-22 Elucid precedent, but recommended a human confirm). Factcheck: pass. NOT selected as today's pick -- autonomous run erred conservative on the HARD TOPIC RULE ambiguity and chose the unambiguously-compliant FDA/RSNA draft instead. Left unintegrated in content-pipeline/drafts/ pending founder's competitor-adjacency call."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/quest-diagnostics-hit-by-cyberattack/833785/",
+      "date": "2026-10-23",
+      "decision": "scored (fit 6, seo 7, interest 7) but not among today's top-3 drafted. Timely/high-volume (healthcare data breach, vol 390) but thematically adjacent to the already-published medical-device-cybersecurity article (DICOM/device-vuln angle vs. this third-party-PHI-vendor angle). Available for a future run if still fresh."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/multipronged-strategy-significantly-boosts-lung-cancer-screening-orders-primary-care",
+      "date": "2026-10-23",
+      "decision": "scored (fit 6, seo 3, interest 5) but not among today's top-3 drafted. Genuinely new angle (screening-uptake success creating downstream reporting-capacity strain) vs. the 3 already-published lung-screening articles, but carries real cannibalization risk as a 4th LCS-adjacent piece. Available for a future run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/investigational-pet-agent-outperforms-fdg-spotting-difficult-detect-kidney-cancer-lesions",
+      "date": "2026-10-23",
+      "decision": "scored (fit 4, seo 2, interest 5) but not drafted -- modality mismatch (PET tracer research, not CT/reporting workflow), lower priority than CT-centric candidates."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ultrasound/news/15838275/rivanna-gets-fda-clearance-for-boneenhance-ultrasound-software",
+      "date": "2026-10-23",
+      "decision": "scored (fit 3, seo 6, interest 4) but not drafted -- off-modality (ultrasound/orthopedic overlay software, not CT report-drafting), weakest direct fit of the shortlist."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/radiology-trainees-often-fall-short-informed-consent-processes-ir-procedures",
+      "date": "2026-10-23",
+      "decision": "scored (fit 3, seo 1, interest 4) but not drafted -- IR informed-consent training gap is a weak thematic fit for diagnostic CT-reporting AI and has no measurable keyword demand."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/gen-ai-policy-is-a-white-house-priority-cdrh-digital-health-leader-says/833551/",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: overlaps the same FDA-genAI-regulatory news cycle as the chosen RSNA/ACR comments story and the drafted CDRH-staffing story; redundant angle on the same week's FDA AI-policy news."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiologist-fda-leader-believes-generative-ai-should-be-evaluated-human-docs",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: same FDA-genAI-regulatory news cycle as the chosen story; redundant angle, would cannibalize the RSNA/ACR comments article chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/private-equity-backed-urology-group-opens-2-new-interventional-radiology-centers",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: facility-expansion/M&A news, low fit for xAID's CT-reporting-AI content pillar."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/patient-care/worlds-1st-study-test-whether-low-dose-radiation-could-curb-parkinsons",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: radiation-therapy/neurology research, not relevant to CT reporting workflow."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/nevada-hospital-launches-residency-program-address-radiologist-shortage",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: radiologist-shortage angle already extensively covered (8+ published shortage articles); low differentiation."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/artificial-intelligence-checks-trustworthiness-breast-cancer-ai-models",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: duplicate of already-published slug breast-cancer-ai-trustworthiness-check (published 2026-10-22)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/body-composition-changes-ct-could-signal-pancreatic-cancer-years-diagnosis",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: duplicate of already-drafted (unintegrated) pancreatic-cancer-early-detection-ct-body-composition.tsx (2026-10-22)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiologists-remain-among-employers-5-most-requested-specialists-staffing-firm-says",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: generic staffing-demand stat, low differentiation from existing shortage-cluster coverage."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/capitol-imaging-services-expands-south-florida-acquiring-4-centers",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: facility M&A/expansion news, low fit for xAID's content pillar."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-partners-pivots-junk-bonds-key-acquisition-amid-weak-lending-market",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: duplicate of already-drafted (unintegrated) radiology-partners-junk-bonds-everlight-acquisition.tsx (2026-10-21)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/ct-tool-may-detect-pulmonary-fibrosis-progression-more-2-years-sooner",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: duplicate of already-drafted (unintegrated) pulmonary-fibrosis-ct-scan-data-reports-miss.tsx."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/new-ct-perfusion-findings-may-predict-poor-outcomes-after-thrombectomy",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: duplicate of already-drafted (unintegrated) ct-perfusion-stroke-reporting-gap.tsx (2026-10-21; see 2026-10-22 correction entry re: its integration status)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/nearly-all-breast-cancer-survivors-would-recommend-contrast-enhanced-mammography",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: duplicate of already-published slug contrast-enhanced-mammography-patient-trust (published 2026-10-20)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/clinical/radiation-oncology/radiopharmaceutical-partnership-targets-copper-67-supply-prostate-breast-cancer",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: radiopharmaceutical supply-chain news, not relevant to CT reporting AI."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/experts-say-petct-system-conducts-whole-body-scans-little-1-minute",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: imaging-equipment vendor product announcement (PET/CT scanner speed), low fit and vendor-launch adjacent."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/interventional/news/15838199/new-jersey-urology-opens-two-outpatient-ir-centers",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: facility-expansion news, low fit for xAID's content pillar."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/nuclear-medicine/news/15838125/telix-posts-revenue-growth-in-q3",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: company earnings news, not relevant to CT reporting workflow."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15838110/elucid-gets-fda-clearance-for-plaqueinformed-ffrct-software",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: HARD TOPIC RULE -- vendor's own FDA clearance/product-launch announcement (Elucid, quantitative-CT vendor); covering their clearance hands them airtime even though Elucid itself was judged a non-competitor in a different (study-citation) context on 2026-10-22."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15838120/mirion-mirion-donates-to-iaeas-rays-of-hope-initiative",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: CSR/philanthropy news, not relevant to CT reporting AI."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837947/avenda-avenda-health-adds-intraoperative-surgery-mode-to-unfold-ai",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: HARD TOPIC RULE -- competitor-adjacent vendor (Avenda Health/Unfold AI) product-launch announcement."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15837953/fitnescity-health-opens-imaging-network-to-digital-health-platforms",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: vendor partnership announcement, low fit and partnership-adjacent to the HARD TOPIC RULE."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15837966/brainomix-highlights-ct-study-using-elung-software",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: vendor-sponsored study prominently featuring Brainomix's own e-Lung software, close to a product-promotion angle; skipped out of caution given today's similar Caristo/Biograph judgment call already used its one pass."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15838013/ge-healthcare-gehc-begins-global-clinical-evaluation-of-starguide-gx-spectct",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: imaging-equipment vendor product-evaluation announcement (GE HealthCare SPECT/CT), low fit and vendor-launch adjacent."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15838036/koning-gets-health-canada-license-for-vera-breast-ct-system",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: imaging-equipment vendor regulatory-clearance announcement (Koning breast CT), low fit and vendor-launch adjacent."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837958/rapidai-optellum-integrates-lung-nodule-ai-with-rapidai-platform",
+      "date": "2026-10-23",
+      "decision": "skipped - filtered pre-shortlist: HARD TOPIC RULE -- explicit competitor (RapidAI) partnership/integration announcement."
     }
   ]
 }

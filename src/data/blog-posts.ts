@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'fda-ai-regulation-radiology-societies',
+    title: "What RSNA Told the FDA About Regulating Generative AI — A Buyer's Reading",
+    excerpt: "RSNA and ACR filed formal comments on FDA's generative-AI discussion paper, calling for patient safety as the organizing principle and enforceable safeguards. Here's what that means for picking an AI reporting vendor before the rules are final.",
+    date: 'October 23, 2026',
+    dateIso: '2026-10-23',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ["fda ai regulation", "rsna fda comments", "generative ai medical devices", "radiology ai regulation", "ai reporting vendor diligence"],
+  },
+  {
     slug: 'breast-cancer-ai-trustworthiness-check',
     title: "AI That Checks AI: A New Way to Score Breast Cancer Model Trust",
     excerpt: "University of Pittsburgh researchers built a model that scores how much to trust another AI's breast-cancer prediction, case by case. What a second-layer AI checker means for AI model validation — and why it still doesn't replace radiologist review.",
