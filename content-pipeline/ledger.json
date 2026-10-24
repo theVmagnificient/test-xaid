@@ -620,6 +620,13 @@
       "source": "",
       "date": "2026-10-23",
       "approved": "2026-10-23 founder-approved via telegram bot"
+    },
+    {
+      "slug": "pancreatic-cancer-on-ct-scan",
+      "topic": "Pancreatic Cancer on CT Scan: The Signal Most Patients Fall Outside Screening For",
+      "source": "",
+      "date": "2026-10-24",
+      "approved": "2026-10-24 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -5825,6 +5832,61 @@
       "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837958/rapidai-optellum-integrates-lung-nodule-ai-with-rapidai-platform",
       "date": "2026-10-23",
       "decision": "skipped - filtered pre-shortlist: HARD TOPIC RULE -- explicit competitor (RapidAI) partnership/integration announcement."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/body-composition-changes-ct-could-signal-pancreatic-cancer-years-diagnosis",
+      "date": "2026-10-24",
+      "decision": "drafted (pancreatic-cancer-on-ct-scan.tsx), fact-check fix-needed -> confirmed errors fixed in-draft (17%->15% localized-stage stat corrected per SEER, Wallace quote restored verbatim, meta description trimmed, KeyStats labels shortened), gate needs-human. CHOSEN and INTEGRATED for 2026-10-24 publish (autonomous run) over the two other same-day drafts, which were both gate:reject. Note: a near-duplicate unintegrated draft from 2026-10-22 (pancreatic-cancer-early-detection-ct-body-composition.tsx) covers the same study under a different slug/keyword and remains un-integrated in drafts/ -- do not also integrate it."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/15838110/elucid-gets-fda-clearance-for-plaqueinformed-ffrct-software",
+      "date": "2026-10-24",
+      "decision": "drafted (ffr-ct-fda-clearance-vendor-checklist.tsx) despite prior 2026-10-23 pre-shortlist filter for this exact URL under the HARD TOPIC RULE; QA correctly caught it again and gate=reject (built around Elucid, a competitor-adjacent vendor's FDA clearance/product launch). All 15 fact-check claims verified clean, but rejected on topic-policy grounds, not fact accuracy. NOT chosen/integrated."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/developers-not-doctors-held-accountable-generative-ai-medical-devices-fda/833745/",
+      "date": "2026-10-24",
+      "decision": "drafted (ai-medical-device-liability-vendor-contracts.tsx), fact-check FAIL on 2/12 claims (invented AHA rural/critical-access/safety-net hospital detail not in source; AMA liability-driven non-adoption claim misattributed to wrong outlet). gate=reject. Also flagged cannibalization risk: same FDA docket (FDA-2026-N-7874) as fda-ai-regulation-radiology-societies published 2026-10-23. NOT chosen/integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-partners-pivots-junk-bonds-key-acquisition-amid-weak-lending-market",
+      "date": "2026-10-24",
+      "decision": "re-shortlisted (fitScore 6) but not among top-3 drafted today; pancreatic-cancer-on-ct-scan, ffr-ct, and ai-medical-device-liability picked instead. Topic remains open for a future run."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15838207/biograph-highlights-cardiac-ai-ct-study",
+      "date": "2026-10-24",
+      "decision": "re-shortlisted (fitScore 7, new cardiac-CT clinical domain) but not among top-3 drafted today. Topic remains open for a future run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/new-ct-perfusion-findings-may-predict-poor-outcomes-after-thrombectomy",
+      "date": "2026-10-24",
+      "decision": "re-shortlisted (fitScore 7, stroke/emergent-CT angle) but not among top-3 drafted today. Topic remains open for a future run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/multipronged-strategy-significantly-boosts-lung-cancer-screening-orders-primary-care",
+      "date": "2026-10-24",
+      "decision": "re-shortlisted (fitScore 6, reporting-queue-capacity angle) but not among top-3 drafted today; weakest fit of the shortlist (lung-cancer-screening already 3x-covered)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/cdrh-on-hiring-spree-after-significant-staff-losses-director-says/833659/",
+      "date": "2026-10-24",
+      "decision": "re-shortlisted (fitScore 6, reviewer-capacity/clearance-timeline angle) but not among top-3 drafted today; lowest priority of the shortlist (thin search demand)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/medtech-leaders-discuss-ai-cybersecurity-and-ma-at-advameds-the-medtech/833831/",
+      "date": "2026-10-24",
+      "decision": "skipped - filtered pre-shortlist: generic conference-recap item, no distinct CT-reporting angle, low fit."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/qiagen-agrees-to-private-equity-takeover/833805/",
+      "date": "2026-10-24",
+      "decision": "skipped - filtered pre-shortlist: molecular diagnostics company M&A, not imaging/radiology-relevant."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/15838330/prenuvo-mri-study-ties-sleep-efficiency-to-brain-metabolic-health",
+      "date": "2026-10-24",
+      "decision": "skipped - filtered pre-shortlist: Prenuvo is a direct-to-consumer whole-body MRI screening vendor; sleep/brain-metabolic angle is not CT-reporting relevant, low fit."
     }
   ]
 }

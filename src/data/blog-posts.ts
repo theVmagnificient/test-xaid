@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'pancreatic-cancer-on-ct-scan',
+    title: 'Pancreatic Cancer on CT Scan: The Signal Most Patients Fall Outside Screening For',
+    excerpt: "A Mayo Clinic study of 1,825 PDAC cases found CT-visible muscle and fat changes years before diagnosis — in patients who never qualified for any existing high-risk surveillance program. The case for capturing body-composition metrics on every abdominal CT, not just targeted screening scans.",
+    date: 'October 24, 2026',
+    dateIso: '2026-10-24',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['pancreatic cancer on ct scan', 'pancreatic cancer early detection', 'CT body composition', 'opportunistic CT screening', 'sarcopenia pancreatic cancer'],
+  },
+  {
     slug: 'fda-ai-regulation-radiology-societies',
     title: "What RSNA Told the FDA About Regulating Generative AI — A Buyer's Reading",
     excerpt: "RSNA and ACR filed formal comments on FDA's generative-AI discussion paper, calling for patient safety as the organizing principle and enforceable safeguards. Here's what that means for picking an AI reporting vendor before the rules are final.",

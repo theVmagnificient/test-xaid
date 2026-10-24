@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/pancreatic-cancer-on-ct-scan/",
       "/blog/fda-ai-regulation-radiology-societies/",
       "/blog/breast-cancer-ai-trustworthiness-check/",
       "/blog/contrast-enhanced-mammography-patient-trust/",
