@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'coronary-ct-angiography-ai-incidental-finding',
+    title: 'Coronary CT Angiography AI Just Found a Problem Nobody Ordered the Scan to Find',
+    excerpt: "A coronary CT angiography AI study found elevated inflammation in 42.9% of asymptomatic, low-risk adults — including nearly half of those with zero visible plaque, a signal none of the standard risk tools caught. What that means for how reporting workflow handles a finding outside the original order.",
+    date: 'October 25, 2026',
+    dateIso: '2026-10-25',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['coronary ct angiography ai', 'coronary inflammation CT', 'incidental findings CT AI', 'opportunistic CT screening', 'AI radiology reporting workflow'],
+  },
+  {
     slug: 'pancreatic-cancer-on-ct-scan',
     title: 'Pancreatic Cancer on CT Scan: The Signal Most Patients Fall Outside Screening For',
     excerpt: "A Mayo Clinic study of 1,825 PDAC cases found CT-visible muscle and fat changes years before diagnosis — in patients who never qualified for any existing high-risk surveillance program. The case for capturing body-composition metrics on every abdominal CT, not just targeted screening scans.",
