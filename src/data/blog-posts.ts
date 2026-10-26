@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mobile-lung-cancer-screening-reporting-capacity',
+    title: 'A $4M Mobile Lung Screening Fleet Is Great Access Policy — and a Reporting Problem',
+    excerpt: "A $4M HHS-funded mobile CT fleet is bringing lung cancer screening to rural Arkansas counties with the worst mortality rates — but every new coach adds exam volume to a radiologist workforce already behind on turnaround. What capacity expansion on the acquisition side misses without a faster path to a signed report.",
+    date: 'October 26, 2026',
+    dateIso: '2026-10-26',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['mobile lung cancer screening', 'low-dose CT screening access', 'rural lung cancer screening', 'radiologist shortage', 'lung cancer screening reporting capacity'],
+  },
+  {
     slug: 'coronary-ct-angiography-ai-incidental-finding',
     title: 'Coronary CT Angiography AI Just Found a Problem Nobody Ordered the Scan to Find',
     excerpt: "A coronary CT angiography AI study found elevated inflammation in 42.9% of asymptomatic, low-risk adults — including nearly half of those with zero visible plaque, a signal none of the standard risk tools caught. What that means for how reporting workflow handles a finding outside the original order.",

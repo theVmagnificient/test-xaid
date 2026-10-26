@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/mobile-lung-cancer-screening-reporting-capacity/",
       "/blog/coronary-ct-angiography-ai-incidental-finding/",
       "/blog/pancreatic-cancer-on-ct-scan/",
       "/blog/fda-ai-regulation-radiology-societies/",
