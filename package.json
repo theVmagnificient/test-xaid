@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/expedited-mammogram-recall-pathway/",
       "/blog/mobile-lung-cancer-screening-reporting-capacity/",
       "/blog/coronary-ct-angiography-ai-incidental-finding/",
       "/blog/pancreatic-cancer-on-ct-scan/",

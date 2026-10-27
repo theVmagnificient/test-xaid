@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'expedited-mammogram-recall-pathway',
+    title: 'An Expedited Pathway Nearly Halved Mammogram Recall Wait Times',
+    excerpt: "A Johns Hopkins study flagged only the highest-suspicion mammogram recalls for fast-tracking and cut the screening-to-biopsy wait from 45 days to 24. The triage logic — and the result — maps directly onto CT.",
+    date: 'October 27, 2026',
+    dateIso: '2026-10-27',
+    category: 'Operations',
+    readingTime: 7,
+    keywords: ['mammogram recall rate', 'expedited mammography pathway', 'radiology triage', 'CT turnaround time', 'incidental findings follow-up'],
+  },
+  {
     slug: 'mobile-lung-cancer-screening-reporting-capacity',
     title: 'A $4M Mobile Lung Screening Fleet Is Great Access Policy — and a Reporting Problem',
     excerpt: "A $4M HHS-funded mobile CT fleet is bringing lung cancer screening to rural Arkansas counties with the worst mortality rates — but every new coach adds exam volume to a radiologist workforce already behind on turnaround. What capacity expansion on the acquisition side misses without a faster path to a signed report.",
