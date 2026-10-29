@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mini-stroke-on-ct-scan',
+    title: 'Mini Stroke on CT Scan: Why ED Imaging Use Is Rising',
+    excerpt: "A national study of 2.1 million ED visits shows CTA use for mini-stroke (TIA) workups jumped from 4% to 45% between 2013 and 2021, while more patients are discharged same-day instead of admitted. Rural EDs are leaning on this model too, with less MRI access — a real-world test of how fast stroke-adjacent CT reads need to come back.",
+    date: 'October 29, 2026',
+    dateIso: '2026-10-29',
+    category: 'Emergency Imaging',
+    readingTime: 7,
+    keywords: ['mini stroke on ct scan', 'TIA CT scan', 'TIA CTA emergency department', 'stroke imaging rural hospitals', 'CT reporting turnaround stroke'],
+  },
+  {
     slug: 'expedited-mammogram-recall-pathway',
     title: 'An Expedited Pathway Nearly Halved Mammogram Recall Wait Times',
     excerpt: "A Johns Hopkins study flagged only the highest-suspicion mammogram recalls for fast-tracking and cut the screening-to-biopsy wait from 45 days to 24. The triage logic — and the result — maps directly onto CT.",

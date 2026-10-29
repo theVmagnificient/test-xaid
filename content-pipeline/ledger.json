@@ -648,6 +648,13 @@
       "source": "",
       "date": "2026-10-27",
       "approved": "2026-10-27 founder-approved via telegram bot"
+    },
+    {
+      "slug": "mini-stroke-on-ct-scan",
+      "topic": "Mini Stroke on CT Scan: Why ED Imaging Use Is Rising",
+      "source": "",
+      "date": "2026-10-29",
+      "approved": "2026-10-29 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6278,6 +6285,91 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-27",
       "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/radnet-acquire-teleradiology-provider-onrad-350m-deal",
+      "date": "2026-10-28",
+      "decision": "drafted again today as teleradiology-company-consolidation.tsx (2nd independent draft of this story; see 2026-10-27 entry for the first). Gate needs-human, factcheck fix-needed (fixed in-draft). NOT chosen -- DISQUALIFIED per HARD TOPIC RULE (no-competitor-airtime): RadNet owns AI subsidiary DeepHealth, consistent with prior exclusions on 2026-09-19 and 2026-10-12. Left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/radiology-residents-miss-more-findings-after-night-shifts-even-ai-assistance",
+      "date": "2026-10-28",
+      "decision": "drafted as ai-radiology-night-shift-fatigue.tsx; gate ready, factcheck fix-needed (1 methods-description claim corrected in-draft, all others supported). CHOSEN for 2026-10-28 autorun publish -- only drafted candidate today with gate=ready and no competitor-airtime conflict; cannibalization risk low."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/pennsylvania-house-passes-bill-requiring-ai-disclosure-healthcare",
+      "date": "2026-10-28",
+      "decision": "re-shortlisted again (fitScore 7, seo 5, interest 6) but dedupOk=false and not drafted -- near-duplicate risk vs published should-patients-be-told-when-ai-reads-their-scan persists from 2026-10-27. Good future candidate only if angle narrows strictly to compliance-checklist."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/abbott-launches-mrd-test-with-improved-cancer-detection-tech/872867/",
+      "date": "2026-10-28",
+      "decision": "drafted as liquid-biopsy-vs-imaging-cancer-surveillance.tsx; factcheck FAIL on 2 of 11 claims (numeric transcription errors vs primary sources, corrected in-draft), gate needs-human. NOT chosen -- original factcheck verdict was 'fail', excluded per autorun rule requiring fact-check not failed. No competitor-airtime conflict (Abbott is a diagnostics vendor, not a radiology-AI vendor). Left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/bracco-invest-230m-first-us-contrast-media-manufacturing-facility",
+      "date": "2026-10-28",
+      "decision": "skipped - shortlisted (fitScore 5, seo 3, interest 5, dedupOk true) but not among today's top-3 drafted; secondary/opportunistic pick, manufacturing-supply story rather than reporting-capacity angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/university-wisconsins-62m-expansion-aims-boost-radiopharmaceutical-production",
+      "date": "2026-10-28",
+      "decision": "skipped - re-confirmed from 2026-10-27 scoring (fitScore 6, seo 3, interest 5-6, dedupOk true) but not among today's top-3 drafted; thought-leadership-only value given low standalone search volume, good future candidate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/3d-mammographys-screening-performance-improves-patient-age",
+      "date": "2026-10-28",
+      "decision": "skipped - shortlisted (fitScore 4, dedupOk true) but lowest-scored of today's candidates and not among top-3 drafted; mammography cluster already well-covered in ledger."
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/service/news/15975568/leonard-green-acquires-imaging-equipment-service-firm-radon",
+      "date": "2026-10-28",
+      "decision": "skipped - shortlisted but not among today's top-3 drafted; equipment-service PE acquisition, no direct AI-reporting/radiologist-capacity angle."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-28",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/two-weeks-rebuild-radiology-services-how-prime-healthcare-renovated-reading-ris-and-rcm",
+      "date": "2026-10-29",
+      "decision": "drafted as radiology-coverage-contingency-plan.tsx; gate ready, factcheck fix-needed (2 issues auto-fixed in-draft: HARD CLAIM RULE phrasing in FAQ/JSON-LD, CIVIE HQ city). NOT chosen -- two other drafted candidates today had factcheck PASS outright, so this fix-needed one was passed over per autorun preference for pass over fix-needed. Left un-integrated in drafts/; good future candidate (fitScore 8, highest of the batch)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/envision-radiology-reaches-settlement-class-action-lawsuit-over-controversial-164m-practice-sale",
+      "date": "2026-10-29",
+      "decision": "drafted as private-equity-radiology-practice-sale-fiduciary-risk.tsx; gate ready, factcheck PASS (12/12 claims supported). NOT chosen -- tied on gate/factcheck with mini-stroke-on-ct-scan; lost tiebreak on relevance to AI CT reporting and SEO value (no supplied keyword volume vs. mini-stroke's 480 vol/KD19, and PE/litigation angle is less central to xAID's CT-reporting product than the ED imaging-capacity angle). Left un-integrated in drafts/; low cannibalization risk but 4th article in the PE/consolidation macro-theme, so also a pacing consideration for a future pick."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/advanced-imaging-use-mini-strokes-rises-substantially-us-emergency-departments",
+      "date": "2026-10-29",
+      "decision": "drafted as mini-stroke-on-ct-scan.tsx; gate ready, factcheck PASS (9/9 claims supported against primary JAMA Neurology source). CHOSEN for 2026-10-29 autorun publish -- gate=ready/factcheck=pass like the Envision PE piece, but won the tiebreak on direct relevance to xAID's AI CT reporting product (CT/CTA reporting-capacity angle) and real SEO keyword demand (480 vol/KD19) vs near-zero volume for the other pass candidate. Integrated via the 4-file contract."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/simple-scalable-way-increase-access-pediatric-radiologist-reads",
+      "date": "2026-10-29",
+      "decision": "skipped - shortlisted (fitScore 5, seo 3, interest 5, dedupOk true) but not among today's top-3 drafted; weakest-fit survivor of the batch, and two pediatric articles already exist in the ledger limiting differentiation."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/hhs-launches-new-initiative-boost-breast-cancer-screening",
+      "date": "2026-10-29",
+      "decision": "skipped - shortlisted (fitScore 5, seo 5, interest 5, dedupOk true, real keyword demand 320 vol/KD34) but not among today's top-3 drafted; breast-screening category already well-represented in the ledger (3+ published pieces), only worth drafting if angle stays strictly on turnaround-time mechanics."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/bracco-invest-230m-first-us-contrast-media-manufacturing-facility",
+      "date": "2026-10-29",
+      "decision": "skipped - shortlisted (fitScore 5, seo 7, interest 5, dedupOk true, best keyword economics in the batch at 260 vol/KD0) but not among today's top-3 drafted; clean forward-looking sequel to published ct-contrast-shortage-cost piece, good future candidate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/pennsylvania-house-passes-bill-requiring-ai-disclosure-healthcare",
+      "date": "2026-10-29",
+      "decision": "re-shortlisted again (fitScore 6, seo 3, interest 6) but dedupOk=false and not drafted -- near-duplicate risk vs published should-patients-be-told-when-ai-reads-their-scan persists (flagged 3+ times across prior days). Only viable if scoped tightly as an operator compliance checklist rather than the disclosure debate itself."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-29",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]
 }
