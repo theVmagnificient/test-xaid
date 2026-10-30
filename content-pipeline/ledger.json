@@ -655,6 +655,13 @@
       "source": "",
       "date": "2026-10-29",
       "approved": "2026-10-29 founder-approved via telegram bot"
+    },
+    {
+      "slug": "ai-radiology-research-fda-cleared-gap",
+      "topic": "Meta Is Funding AI Radiology Research at Ohio State. Here's the Gap Between That and a Cleared Product",
+      "source": "",
+      "date": "2026-10-30",
+      "approved": "2026-10-30 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6369,6 +6376,51 @@
     {
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-29",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/two-weeks-rebuild-radiology-services-how-prime-healthcare-renovated-reading-ris-and-rcm",
+      "date": "2026-10-30",
+      "decision": "drafted (slug: radiology-reading-capacity-crisis) then rejected at QA gate -- HARD TOPIC RULE violation: the article is built entirely around CIVIE's (a competitor-adjacent AI-powered radiology-reading platform) partnership announcement with Prime Healthcare, and its headline outcome stats trace to CIVIE's own sponsored marketing copy rather than neutral reporting. Disqualified even though the 8 underlying numeric claims were otherwise factually traceable. Not integrated, not published."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/top-factors-fueling-radiologist-burnout-and-how-address-them",
+      "date": "2026-10-30",
+      "decision": "drafted (slug: radiologist-burnout-causes-2026), gate needs-human after one misattributed/uncited clause was fixed -- remaining flag is an editorial-calendar judgment call (two other burnout-themed drafts already sit unintegrated), not a factual defect. Not selected for publish today in favor of the higher-gate (ready) Meta/Ohio State candidate. Still sitting in content-pipeline/drafts/ for future consideration."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/meta-fund-radiology-ai-research-ohio-state",
+      "date": "2026-10-30",
+      "decision": "drafted (slug: ai-radiology-research-fda-cleared-gap), gate ready after fact-check fixes applied (removed fabricated Meta model-name specifics; re-sourced a misattributed patient-data-control citation). No competitor-vendor angle (Meta funds academic research, not a competing product launch). SELECTED and integrated via the 4-file contract on 2026-10-30; awaiting founder approval before deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-societies-seek-help-valuing-physician-services",
+      "date": "2026-10-30",
+      "decision": "skipped - shortlisted (fitScore 7, seo 3, interest 6, dedupOk true) but not among today's top-3 drafted; distinct RUC-survey reimbursement mechanism not covered by existing fee-schedule/site-neutral pieces, good future candidate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/pennsylvania-house-passes-bill-requiring-ai-disclosure-healthcare",
+      "date": "2026-10-30",
+      "decision": "re-shortlisted again (fitScore 7, seo 3, interest 6, dedupOk true this time) but not among today's top-3 drafted; concrete legislative mandate distinct from published should-patients-be-told-when-ai-reads-their-scan ethics piece -- worth a future compliance-checklist-angle draft if more states follow Pennsylvania's model."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/hhs-launches-new-initiative-boost-breast-cancer-screening",
+      "date": "2026-10-30",
+      "decision": "re-shortlisted again (fitScore 5, seo 6, interest 5, dedupOk true, 320 vol/KD34) but not among today's top-3 drafted; breast-screening category already saturated (3+ published pieces), only viable with a narrow unaddressed-bottleneck (reporting turnaround, not screening access) angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/envision-radiology-reaches-settlement-class-action-lawsuit-over-controversial-164m-practice-sale",
+      "date": "2026-10-30",
+      "decision": "re-shortlisted again (fitScore 6, seo 2, interest 6, dedupOk true) but not among today's top-3 drafted; previously drafted with a clean factcheck but passed over in a tiebreak; would be the 4th PE/consolidation-themed piece, lowest priority of the litigation/governance carryovers."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/simple-scalable-way-increase-access-pediatric-radiologist-reads",
+      "date": "2026-10-30",
+      "decision": "re-shortlisted again (fitScore 5, seo 2, interest 5, dedupOk true) but not among today's top-3 drafted; weakest-fit survivor, two pediatric-specific articles already published limiting differentiation."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-30",
       "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
     }
   ]

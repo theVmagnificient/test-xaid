@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/ai-radiology-research-fda-cleared-gap/",
       "/blog/mini-stroke-on-ct-scan/",
       "/blog/expedited-mammogram-recall-pathway/",
       "/blog/mobile-lung-cancer-screening-reporting-capacity/",

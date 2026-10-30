@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ai-radiology-research-fda-cleared-gap',
+    title: "Meta Is Funding AI Radiology Research at Ohio State. Here's the Gap Between That and a Cleared Product",
+    excerpt: "Meta is funding AI radiology research at Ohio State. How that differs from the 1,614 AI tools already FDA-cleared for radiology use today.",
+    date: 'October 30, 2026',
+    dateIso: '2026-10-30',
+    category: 'AI Technology',
+    readingTime: 8,
+    keywords: ['AI radiology research', 'Meta Ohio State AI', 'FDA-cleared radiology AI', 'AI radiology research vs product', 'chest X-ray AI research'],
+  },
+  {
     slug: 'mini-stroke-on-ct-scan',
     title: 'Mini Stroke on CT Scan: Why ED Imaging Use Is Rising',
     excerpt: "A national study of 2.1 million ED visits shows CTA use for mini-stroke (TIA) workups jumped from 4% to 45% between 2013 and 2021, while more patients are discharged same-day instead of admitted. Rural EDs are leaning on this model too, with less MRI access — a real-world test of how fast stroke-adjacent CT reads need to come back.",
