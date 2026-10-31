@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ruc-survey-ai-radiology-reimbursement',
+    title: 'AI Is Cutting Radiology Report Time. Does That Cut Reimbursement Too?',
+    excerpt: "ACR and SIR launched RUC surveys on radiologist time, the input behind Medicare work RVUs. Could AI-shortened reporting time cut radiology reimbursement?",
+    date: 'October 31, 2026',
+    dateIso: '2026-10-31',
+    category: 'Policy & Reimbursement',
+    readingTime: 8,
+    keywords: ['radiology reimbursement', 'RUC survey radiology', 'physician work RVU', 'Medicare Physician Fee Schedule', 'AI radiology reporting time'],
+  },
+  {
     slug: 'ai-radiology-research-fda-cleared-gap',
     title: "Meta Is Funding AI Radiology Research at Ohio State. Here's the Gap Between That and a Cleared Product",
     excerpt: "Meta is funding AI radiology research at Ohio State. How that differs from the 1,614 AI tools already FDA-cleared for radiology use today.",

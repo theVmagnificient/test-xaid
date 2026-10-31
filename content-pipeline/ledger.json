@@ -662,6 +662,13 @@
       "source": "",
       "date": "2026-10-30",
       "approved": "2026-10-30 founder-approved via telegram bot"
+    },
+    {
+      "slug": "ruc-survey-ai-radiology-reimbursement",
+      "topic": "AI Is Cutting Radiology Report Time. Does That Cut Reimbursement Too?",
+      "source": "",
+      "date": "2026-10-31",
+      "approved": "2026-10-31 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6422,6 +6429,51 @@
       "topic": "evergreen keyword backlog (autonomous run)",
       "date": "2026-10-30",
       "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-10-31",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/radnet-expands-into-teleradiology-with-350m-onrad-deal/872990/",
+      "date": "2026-10-31",
+      "decision": "drafted (slug: teleradiology-companies-ma-deal-economics), gate ready after QA fixes (misquote correction, source misattribution fix), but the adversarial fact-check verdict landed as fix-needed pre-fix. Not selected for publish today in favor of the clean factcheck-pass RUC-survey reimbursement candidate. Verifier also flagged a human judgment call on whether RadNet's DeepHealth AI unit counts as competitor-adjacent under the HARD TOPIC RULE -- not clearly one of the named banned vendors (Viz.ai/Aidoc/RapidAI/etc.), but the ambiguity plus fix-needed factcheck made it the weaker tie-break choice. Still sitting in content-pipeline/drafts/ for future founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-societies-seek-help-valuing-physician-services",
+      "date": "2026-10-31",
+      "decision": "drafted (slug: ruc-survey-ai-radiology-reimbursement), gate ready, factcheck pass (17/17 claims verified). SELECTED and integrated via the 4-file contract on 2026-10-31; awaiting founder approval before deploy."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/mri/news/16125278/bracco-invest-230m-first-us-contrast-media-manufacturing-facility",
+      "date": "2026-10-31",
+      "decision": "drafted (slug: contrast-media-shortage-manufacturing-vs-reporting-bottleneck), gate ready, factcheck pass (9/9 claims verified), clean forward-looking sequel to the published ct-contrast-shortage-cost-length-of-stay piece. Not selected for publish today in favor of the higher-fit RUC-survey reimbursement candidate; still sitting in content-pipeline/drafts/ for future consideration."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/16050403/meritus-health-goes-live-with-sectra-one-cloud",
+      "date": "2026-10-31",
+      "decision": "skipped - shortlisted (fitScore 6, seo 6, interest 5, dedupOk true) but not among today's top-3 drafted; thematically adjacent to the published radiology-viewer-software-reporting-bottleneck piece, needs a distinct vendor/story framing ('storage modernization is not a reporting-speed fix') if drafted in future."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/more-3000-philips-fluoroscopy-systems-affected-fda-recall",
+      "date": "2026-10-31",
+      "decision": "skipped - shortlisted (fitScore 5, seo 6, interest 5, dedupOk true) but not among today's top-3 drafted; structurally similar to the published philips-ct-recall-imaging-capacity piece (different modality/root cause: fluoroscopy installation defect vs CT), real cannibalization/pattern-fatigue risk -- only worth drafting with a genuinely new angle (vendor quality-systems track record across modalities)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/envision-radiology-reaches-settlement-class-action-lawsuit-over-controversial-164m-practice-sale",
+      "date": "2026-10-31",
+      "decision": "re-shortlisted again (fitScore 5, seo 2, interest 6, dedupOk true) but not among today's top-3 drafted; today's settlement is a resolution-driven news hook (fiduciary-duty/governance angle) rather than the earlier litigation-filing framing, but still the 4th PE/consolidation-themed candidate -- lowest priority of the litigation/governance carryovers."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/hhs-launches-new-initiative-boost-breast-cancer-screening",
+      "date": "2026-10-31",
+      "decision": "re-shortlisted again (fitScore 5, seo 3, interest 5, dedupOk true) but not among today's top-3 drafted; narrowed to a reporting-capacity/turnaround angle (who reads the extra mammogram volume, and how fast) rather than the saturated screening-access framing, but still deprioritized behind higher-fit candidates."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/40m-jury-verdict-after-interventional-procedure-leads-patients-heart-problems",
+      "date": "2026-10-31",
+      "decision": "skipped - shortlisted as a weak-fit stretch (fitScore 2, seo 3, interest 4, dedupOk true); not a radiology/imaging device (interventional vascular-access port liability case against Becton Dickinson), keyword volume is personal-injury-attorney search intent, not xAID's B2B imaging-center ICP. Recommend dropping unless no stronger candidate clears the bar on a future day."
     }
   ]
 }
