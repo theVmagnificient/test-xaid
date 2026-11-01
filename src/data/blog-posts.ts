@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-residency-food-insecurity',
+    title: 'Food Insecurity in Radiology Residency: What a New Study Found',
+    excerpt: 'A JAMA Network Open survey found 30.5% of trainees at one academic health system were food insecure, with radiology residents reporting the highest rate of any specialty studied. Here is what the data shows, and does not show.',
+    date: 'November 1, 2026',
+    dateIso: '2026-11-01',
+    category: 'Education & Training',
+    readingTime: 7,
+    keywords: ['radiology residency', 'radiology resident food insecurity', 'radiology training pipeline', 'radiology resident debt', 'radiologist shortage'],
+  },
+  {
     slug: 'ruc-survey-ai-radiology-reimbursement',
     title: 'AI Is Cutting Radiology Report Time. Does That Cut Reimbursement Too?',
     excerpt: "ACR and SIR launched RUC surveys on radiologist time, the input behind Medicare work RVUs. Could AI-shortened reporting time cut radiology reimbursement?",

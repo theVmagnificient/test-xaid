@@ -669,6 +669,13 @@
       "source": "",
       "date": "2026-10-31",
       "approved": "2026-10-31 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-residency-food-insecurity",
+      "topic": "Food Insecurity in Radiology Residency: What a New Study Found",
+      "source": "",
+      "date": "2026-11-01",
+      "approved": "2026-11-01 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6474,6 +6481,51 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/40m-jury-verdict-after-interventional-procedure-leads-patients-heart-problems",
       "date": "2026-10-31",
       "decision": "skipped - shortlisted as a weak-fit stretch (fitScore 2, seo 3, interest 4, dedupOk true); not a radiology/imaging device (interventional vascular-access port liability case against Becton Dickinson), keyword volume is personal-injury-attorney search intent, not xAID's B2B imaging-center ICP. Recommend dropping unless no stronger candidate clears the bar on a future day."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-11-01",
+      "decision": "no pick - backlogLow flagged again, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/enterprise-imaging/simple-scalable-way-increase-access-pediatric-radiologist-reads",
+      "date": "2026-11-01",
+      "decision": "drafted (slug: pediatric-radiology-shortage-capacity-sharing), gate reject, factcheck FAIL -- two claims ('27% of US counties have no radiologist', '60% of rural counties lack one') were cited to an ACR Bulletin URL that does not contain those figures on direct fetch, and also contradict this site's own already-published, better-sourced 54%-of-counties figure (radiology-imaging-deserts, Oct 2026 Academic Radiology study). Also high cannibalization risk as a 4th pediatric-radiology article. REJECTED, not integrated, not published."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/two-weeks-rebuild-radiology-services-how-prime-healthcare-renovated-reading-ris-and-rcm",
+      "date": "2026-11-01",
+      "decision": "re-surfaced again in today's ingest; explicitly excluded per the standing HARD TOPIC RULE rejection from 2026-10-30 (story is built around CIVIE's, a competitor-adjacent AI reading platform, own sponsored outcome stats). Not drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/hhs-launches-new-initiative-boost-breast-cancer-screening",
+      "date": "2026-11-01",
+      "decision": "re-shortlisted again (fitScore 5, seo 5, interest 5, 3600 vol/KD33) but not drafted; breast-screening category remains saturated (3+ published pieces), re-shortlisted 4 days running (10/29-11/01) without a strong-enough differentiated reporting-capacity angle to clear the bar."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/top-factors-fueling-radiologist-burnout-and-how-address-them",
+      "date": "2026-11-01",
+      "decision": "re-shortlisted (fitScore 6, seo 2, interest 6) with a narrower drafting-workload/AI angle proposed, but not drafted; a sibling draft (radiologist-burnout-causes-2026, needs-human) already sits unintegrated in drafts/, and standalone keyword volume is negligible (10/mo)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/more-3000-philips-fluoroscopy-systems-affected-fda-recall",
+      "date": "2026-11-01",
+      "decision": "re-shortlisted (fitScore 5, seo 2, interest 5) but not drafted; structurally close to the published philips-ct-recall-imaging-capacity piece (same vendor, different modality), near-zero standalone keyword volume."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/16050403/meritus-health-goes-live-with-sectra-one-cloud",
+      "date": "2026-11-01",
+      "decision": "re-shortlisted (fitScore 6, seo 7, interest 5, 260 vol/KD0 -- best keyword economics in today's batch) but not drafted; thematically adjacent to the published radiology-viewer-software-reporting-bottleneck piece, needs disciplined 'storage modernization is not a reporting-speed fix' framing if drafted in future."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/envision-radiology-reaches-settlement-class-action-lawsuit-over-controversial-164m-practice-sale",
+      "date": "2026-11-01",
+      "decision": "re-shortlisted again (fitScore 5, seo 3, interest 5) but not drafted; previously drafted clean (factcheck PASS) and re-shortlisted 4 days running, consistently loses tiebreak as the 4th PE/consolidation-themed piece."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/food-insecurity-common-among-residents-radiology-and-other-specialties",
+      "date": "2026-11-01",
+      "decision": "drafted (slug: radiology-residency-food-insecurity), gate ready, factcheck fix-needed (1 numeric error corrected in-draft: '54% in highest-cost markets' -> '58.1%', the source's actual reported maximum net stipend loss). SELECTED and integrated via the 4-file contract on 2026-11-01; awaiting founder approval before deploy."
     }
   ]
 }
