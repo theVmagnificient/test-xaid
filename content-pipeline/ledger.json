@@ -676,6 +676,13 @@
       "source": "",
       "date": "2026-11-01",
       "approved": "2026-11-01 founder-approved via telegram bot"
+    },
+    {
+      "slug": "on-site-radiologist-ct-turnaround-time",
+      "topic": "On-Site Radiologists and CT Scan Turnaround Time: What a New Study Really Shows",
+      "source": "",
+      "date": "2026-11-02",
+      "approved": "2026-11-02 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6526,6 +6533,46 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/food-insecurity-common-among-residents-radiology-and-other-specialties",
       "date": "2026-11-01",
       "decision": "drafted (slug: radiology-residency-food-insecurity), gate ready, factcheck fix-needed (1 numeric error corrected in-draft: '54% in highest-cost markets' -> '58.1%', the source's actual reported maximum net stipend loss). SELECTED and integrated via the 4-file contract on 2026-11-01; awaiting founder approval before deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiologists-often-suffering-repetitive-stress-injuries-pacs-use",
+      "date": "2026-11-02",
+      "decision": "drafted (slug: pacs-workstation-ergonomics), gate ready, but initial adversarial fact-check verdict was FAIL (a '4.1-point, p=0.02' regression stat was fabricated/contradicted vs. the only available secondary source, which describes a 'fourfold' multiplicative effect). QA later corrected the stat and two other overgeneralizations, but per autorun policy a FAIL verdict disqualifies the draft regardless of later fixes. NOT selected; left un-integrated in drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-staffing/site-radiologist-coverage-linked-faster-emergency-ct-reporting",
+      "date": "2026-11-02",
+      "decision": "drafted (slug: on-site-radiologist-ct-turnaround-time), gate ready, factcheck fix-needed (1 misquoted study title corrected to the full CrossRef-verified title; all quantitative claims confirmed against Semantic Scholar/PubMed/CrossRef). SELECTED and integrated via the 4-file contract on 2026-11-02; awaiting founder approval before deploy."
+    },
+    {
+      "url": "https://www.auntminnie.com/imaging-informatics/enterprise-imaging/news/16050403/meritus-health-goes-live-with-sectra-one-cloud",
+      "date": "2026-11-02",
+      "decision": "drafted (slug: vendor-neutral-archive-reporting-bottleneck), gate ready, factcheck fix-needed (2 minor quote-truncation issues corrected, no fabricated facts; one HARD CLAIM RULE phrasing risk also fixed). Not selected for today's pick — lower xAID core-fit score (6) than the on-site-radiologist CT turnaround piece (8), and would be a second installment of the recurring '[vendor deal] won't fix the reporting bottleneck' template. Left un-integrated in drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/whats-stake-radiology-2026-midterm-election",
+      "date": "2026-11-02",
+      "decision": "scored but not drafted (fitScore 5, seo 3, interest 6); deprioritized behind higher-scoring candidates under today's 3-draft cap. Election-framed pieces carry real-politics risk for a B2B brand; if revisited, narrow strictly to reimbursement/regulatory stakes (NTAP/RUC, Medicare Physician Fee Schedule), not general election commentary."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-societies-seek-help-valuing-physician-services",
+      "date": "2026-11-02",
+      "decision": "scored but skipped — dedupOk false, near-duplicate of published ruc-survey-ai-radiology-reimbursement (same RUC-valuation theme); keyword volume negligible. Would need a sharply different angle (survey participation mechanics, not AI-reimbursement impact) to revisit."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/more-3000-philips-fluoroscopy-systems-affected-fda-recall",
+      "date": "2026-11-02",
+      "decision": "scored but skipped — dedupOk false, structurally too close to published philips-ct-recall-imaging-capacity. Third ledger appearance (2026-10-31, 2026-11-01, 2026-11-02) without a genuinely new angle; near-zero standalone keyword volume."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/16050493/medians-revenue-climbs-as-eyonis-rollout-raises-costs",
+      "date": "2026-11-02",
+      "decision": "scored but rejected — dedupOk false (saturated lung-cancer-screening-AI cluster already covers incidental-lung-nodule-malignancy-risk-ai, lung-cancer-screening-ct-criteria, lung-cancer-screening-program-integration, mobile-lung-cancer-screening-reporting-capacity) and Median/eyonis is a competitor-adjacent imaging-AI vendor under the HARD TOPIC RULE. Do not revisit as a standalone piece."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/radnet-expands-into-teleradiology-with-350m-onrad-deal/872990/",
+      "date": "2026-11-02",
+      "decision": "scored but skipped — dedupOk false, already drafted 3 separate times previously (radnet-onrad-teleradiology-acquisition, teleradiology-company-consolidation, teleradiology-companies-ma-deal-economics) with none selected. Flagged only for saturation awareness, not redrafted; founder judgment still pending on whether RadNet/DeepHealth counts as competitor-adjacent."
     }
   ]
 }

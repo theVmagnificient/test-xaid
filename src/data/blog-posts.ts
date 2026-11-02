@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'on-site-radiologist-ct-turnaround-time',
+    title: 'On-Site Radiologists and CT Scan Turnaround Time: What a New Study Really Shows',
+    excerpt: "A 13,533-exam study found ED CT scan turnaround time was 34% longer without an on-site radiologist. But the gap it measures is about drafting speed, not geography — and that has implications for overnight and off-site coverage.",
+    date: 'November 2, 2026',
+    dateIso: '2026-11-02',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['CT scan turnaround time', 'emergency CT reporting', 'on-site radiologist coverage', 'ED radiology staffing', 'AI radiology reporting'],
+  },
+  {
     slug: 'radiology-residency-food-insecurity',
     title: 'Food Insecurity in Radiology Residency: What a New Study Found',
     excerpt: 'A JAMA Network Open survey found 30.5% of trainees at one academic health system were food insecure, with radiology residents reporting the highest rate of any specialty studied. Here is what the data shows, and does not show.',
