@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'unitedhealthcare-pediatric-imaging-prior-authorization',
+    title: 'UnitedHealthcare Drops Prior Auth on 2,000+ Pediatric Imaging Codes',
+    excerpt: "UnitedHealthcare drops prior authorization on 2,000+ pediatric codes, including MRI and CT, from Dec 1, 2026 — and what it means for reporting capacity.",
+    date: 'November 3, 2026',
+    dateIso: '2026-11-03',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['prior authorization imaging', 'pediatric imaging prior authorization', 'UnitedHealthcare prior authorization', 'pediatric CT MRI reporting', 'imaging reporting capacity'],
+  },
+  {
     slug: 'on-site-radiologist-ct-turnaround-time',
     title: 'On-Site Radiologists and CT Scan Turnaround Time: What a New Study Really Shows',
     excerpt: "A 13,533-exam study found ED CT scan turnaround time was 34% longer without an on-site radiologist. But the gap it measures is about drafting speed, not geography — and that has implications for overnight and off-site coverage.",

@@ -683,6 +683,13 @@
       "source": "",
       "date": "2026-11-02",
       "approved": "2026-11-02 founder-approved via telegram bot"
+    },
+    {
+      "slug": "unitedhealthcare-pediatric-imaging-prior-authorization",
+      "topic": "UnitedHealthcare Drops Prior Auth on 2,000+ Pediatric Imaging Codes",
+      "source": "",
+      "date": "2026-11-03",
+      "approved": "2026-11-03 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6573,6 +6580,46 @@
       "url": "https://www.medtechdive.com/news/radnet-expands-into-teleradiology-with-350m-onrad-deal/872990/",
       "date": "2026-11-02",
       "decision": "scored but skipped — dedupOk false, already drafted 3 separate times previously (radnet-onrad-teleradiology-acquisition, teleradiology-company-consolidation, teleradiology-companies-ma-deal-economics) with none selected. Flagged only for saturation awareness, not redrafted; founder judgment still pending on whether RadNet/DeepHealth counts as competitor-adjacent."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/unitedhealthcare-ditch-prior-authorization-most-pediatric-imaging",
+      "date": "2026-11-03",
+      "decision": "drafted (slug: unitedhealthcare-pediatric-imaging-prior-authorization), gate ready, factcheck pass (cannibalizationRisk flagged medium — 3rd article on the 'payer removes/streamlines prior auth -> bottleneck shifts to reporting capacity' thesis, after radiology-prior-authorization-imaging-throughput and aetna-bundled-prior-authorization-imaging-cancer-care, but distinct enough on a dated commercial-payer operational rollout vs. legislative/bundled-payer angles). Highest fitScore (7) and seoScore (4) of today's batch. SELECTED and integrated via the 4-file contract on 2026-11-03; awaiting founder approval before deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiology-group-sues-former-hospital-partner-claiming-doc-thievery-led-its-demise",
+      "date": "2026-11-03",
+      "decision": "drafted (slug: radiology-group-hospital-contract-risk), gate ready, factcheck pass, cannibalization risk low (genuinely new mechanism: hospital insourcing by hiring away a contracted group's own doctors). Not selected for today's pick — lower fitScore (6) and seoScore (2) than the UnitedHealthcare pediatric prior-auth piece. Left un-integrated in drafts/ for founder review."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiology-practice-former-physician-end-court-dispute-over-20m-private-equity-deal",
+      "date": "2026-11-03",
+      "decision": "drafted (slug: private-equity-physician-practice-partner-protections), gate ready but factcheck fix-needed (one unsupported detail about a 'two-day window' before closing removed; countersuit-damages figure mis-attributed to a single citation but independently corroborated). Not selected — factcheck verdict is not a clean pass, and the PE/physician-dispute category is already saturated per the ledger (Envision settlement deprioritized 4+ days running as the 4th PE/consolidation piece). Left un-integrated in drafts/ for founder review."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/ct/news/16274683/scct-launches-casebased-cardiac-ct-training-course",
+      "date": "2026-11-03",
+      "decision": "scored but not drafted (fitScore 5, seo 2, interest 5); deprioritized behind higher-scoring candidates under today's 3-draft cap. Genuinely new cardiac-CT subspecialty-training angle (distinct from the general-AI-certification RSNA piece) — near-zero keyword volume, thought-leadership/AEO play only, worth revisiting as a backlog option."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/providers-must-tread-carefully-when-using-shortened-psma-petct-protocols",
+      "date": "2026-11-03",
+      "decision": "scored but not drafted (fitScore 4, seo 5, interest 5); deprioritized behind higher-scoring candidates under today's 3-draft cap. Best keyword economics in the batch (210 vol / KD8, no existing PSMA/molecular-imaging ledger piece) but weaker core fit — PSMA PET is nuclear medicine, not CT reporting; would need disciplined framing to stay on-ICP if revisited."
+    },
+    {
+      "url": "https://www.auntminnie.com/clinical-news/womens-imaging/breast/news/16274727/mammogen-adds-mobile-mammography-provider-to-breast-cancer-detection-trial",
+      "date": "2026-11-03",
+      "decision": "scored but rejected — dedupOk false. Consumer-intent keyword (not B2B ICP), breast-screening/dense-tissue category already has 3+ published ledger pieces, and the story is a vendor-trial-expansion announcement for a detection-AI company — borderline under the HARD TOPIC RULE. Do not revisit as a standalone piece."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/whats-stake-radiology-2026-midterm-election",
+      "date": "2026-11-03",
+      "decision": "scored but skipped — dedupOk false, same URL re-shortlisted from 2026-11-02. The only safe narrow angle (reimbursement/regulatory stakes) duplicates two already-published articles (2027-medicare-physician-fee-schedule-radiology, ruc-survey-ai-radiology-reimbursement). Recommend skipping again unless a genuinely untouched regulatory angle emerges."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/shielding-system-linked-lower-operator-radiation-exposure-during-ir-procedures",
+      "date": "2026-11-03",
+      "decision": "scored but not drafted (fitScore 2, seo 4, interest 3) — clean, easy keyword (KD 0) but thin product fit; IR occupational radiation safety has no direct line to CT reporting AI. Filler/backlog option only."
     }
   ]
 }
