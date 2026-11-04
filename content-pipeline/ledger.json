@@ -690,6 +690,13 @@
       "source": "",
       "date": "2026-11-03",
       "approved": "2026-11-03 founder-approved via telegram bot"
+    },
+    {
+      "slug": "clinical-ai-liability-shared-responsibility",
+      "topic": "AI Medical Liability: Why the AMA Says It's Not the Physician's Alone",
+      "source": "",
+      "date": "2026-11-04",
+      "approved": "2026-11-04 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6620,6 +6627,46 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/shielding-system-linked-lower-operator-radiation-exposure-during-ir-procedures",
       "date": "2026-11-03",
       "decision": "scored but not drafted (fitScore 2, seo 4, interest 3) — clean, easy keyword (KD 0) but thin product fit; IR occupational radiation safety has no direct line to CT reporting AI. Filler/backlog option only."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/ai-vendors-health-systems-join-physicians-in-liability-for-clinical-ai/873558/",
+      "date": "2026-11-04",
+      "decision": "drafted, gate ready, factcheck fix-needed (one misattributed quote corrected) — SELECTED and integrated as clinical-ai-liability-shared-responsibility (published this run, highest fit/interest score of the day's candidates)."
+    },
+    {
+      "url": "https://www.auntminnie.com/practice-management/medicolegal/news/16424175/the-doctors-company-releases-radiology-malpractice-risk-review",
+      "date": "2026-11-04",
+      "decision": "drafted, gate ready, factcheck fix-needed (false timing juxtaposition corrected) — draft 'radiology-malpractice-claims-diagnostic-errors' left un-integrated in content-pipeline/drafts/; not selected this run in favor of the higher fit/interest AI-liability pick. Good candidate for a future run if still fresh."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiologists-often-suffer-repetitive-stress-injuries-pacs-use",
+      "date": "2026-11-04",
+      "decision": "drafted, gate reject, factcheck fail — draft 'radiologist-repetitive-stress-injury-ai-reporting' asserts a keyboard-duration claim inverted from its own cited source (appears in body, FAQ, and FAQPage JSON-LD); needs editorial rework, not republished. Left un-integrated in content-pipeline/drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/lessons-learned-early-adopters-new-cms-radiology-quality-measure",
+      "date": "2026-11-04",
+      "decision": "scored but not drafted (fitScore 7, seo 3, interest 6) — CT-specific CMS ExRad quality measure, good buyer fit but essentially no search volume yet; backlog option only."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/58176/abbadox/how-imaging-centers-are-using-ai-book-appointments-days-sooner",
+      "date": "2026-11-04",
+      "decision": "scored but not drafted (fitScore 7, seo 5, interest 6) — sponsored AbbaDox piece; usable as a news hook for the 'bottleneck shifts downstream' thesis (framed as independent analysis, not promotion) but not top-3 this run."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/bracco-invests-230m-to-build-us-plant-for-injectable-contrast-media/873539/",
+      "date": "2026-11-04",
+      "decision": "scored but not drafted (fitScore 6, seo 7, interest 6) — best raw search volume of the batch (ct contrast shortage 2026, vol 260/KD 0) but relevance to xAID is indirect (acquisition-side, not reporting)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/study-explores-cost-effectiveness-different-psma-pet-imaging-agents",
+      "date": "2026-11-04",
+      "decision": "scored but not drafted (fitScore 5, seo 6, interest 5) — decent standalone search volume (psma pet scan cost, vol 590/KD 0) but narrow fit: PET agent cost-effectiveness modeling, not CT reporting."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/targeted-immunopet-imaging-detects-multiple-myeloma-missed-standard-petct",
+      "date": "2026-11-04",
+      "decision": "scored but not drafted (fitScore 5, seo 2, interest 6) — on-brand 'what gets missed' research angle but modality (PET) and disease (myeloma) tangential to CT-reporting audience; essentially no keyword volume."
     }
   ]
 }

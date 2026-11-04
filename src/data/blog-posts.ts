@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'clinical-ai-liability-shared-responsibility',
+    title: "AI Medical Liability: Why the AMA Says It's Not the Physician's Alone",
+    excerpt: "AMA's new issue brief says AI medical liability should be split among physicians, developers, and health systems — not the signing doctor alone.",
+    date: 'November 4, 2026',
+    dateIso: '2026-11-04',
+    category: 'Market & Policy',
+    readingTime: 7,
+    keywords: ['AI medical liability', 'clinical AI liability', 'who is liable for AI errors', 'AI radiology liability', 'AMA AI liability brief'],
+  },
+  {
     slug: 'unitedhealthcare-pediatric-imaging-prior-authorization',
     title: 'UnitedHealthcare Drops Prior Auth on 2,000+ Pediatric Imaging Codes',
     excerpt: "UnitedHealthcare drops prior authorization on 2,000+ pediatric codes, including MRI and CT, from Dec 1, 2026 — and what it means for reporting capacity.",
