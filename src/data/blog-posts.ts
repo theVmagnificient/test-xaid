@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'average-radiology-malpractice-claim-cost',
+    title: 'Radiology Malpractice Claims Average $456,000 — and 75% Trace Back to Diagnosis',
+    excerpt: "New insurer data on 735 closed radiology claims (2010-2025): the average payout is $456,000, and about 75% stem from diagnosis-related errors — not technique. A data-led look at what actually drives radiology malpractice cost.",
+    date: 'November 5, 2026',
+    dateIso: '2026-11-05',
+    category: 'Risk & Liability',
+    readingTime: 7,
+    keywords: ['radiology malpractice claims', 'radiology malpractice cost', 'diagnosis-related error radiology', 'radiology risk management', 'AI radiology reporting liability'],
+  },
+  {
     slug: 'clinical-ai-liability-shared-responsibility',
     title: "AI Medical Liability: Why the AMA Says It's Not the Physician's Alone",
     excerpt: "AMA's new issue brief says AI medical liability should be split among physicians, developers, and health systems — not the signing doctor alone.",

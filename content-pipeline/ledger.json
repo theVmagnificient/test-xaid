@@ -697,6 +697,13 @@
       "source": "",
       "date": "2026-11-04",
       "approved": "2026-11-04 founder-approved via telegram bot"
+    },
+    {
+      "slug": "average-radiology-malpractice-claim-cost",
+      "topic": "Radiology Malpractice Claims Average $456,000 — and 75% Trace Back to Diagnosis",
+      "source": "",
+      "date": "2026-11-05",
+      "approved": "2026-11-05 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6667,6 +6674,51 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/targeted-immunopet-imaging-detects-multiple-myeloma-missed-standard-petct",
       "date": "2026-11-04",
       "decision": "scored but not drafted (fitScore 5, seo 2, interest 6) — on-brand 'what gets missed' research angle but modality (PET) and disease (myeloma) tangential to CT-reporting audience; essentially no keyword volume."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-11-05",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/average-radiology-malpractice-claim-reaches-456000-1-common-cause",
+      "date": "2026-11-05",
+      "decision": "drafted -> average-radiology-malpractice-claim-cost; gate ready, factcheck fix-needed (two citation/table issues found and fixed in-draft, no remaining flagged claims). CHOSEN for today's publish — strongest SEO signal of the batch (measurable search volume, higher SEO score) and distinct from the existing single-verdict malpractice article. INTEGRATED into 4-file contract 2026-11-05 (autonomous run), pending founder approval + deploy."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/lessons-learned-early-adopters-new-cms-radiology-quality-measure",
+      "date": "2026-11-05",
+      "decision": "drafted -> cms-exrad-ct-quality-measure; gate ready, factcheck fix-needed (SEO-spec and wording-fidelity fixes applied, no remaining flagged claims). Not chosen today (near-zero keyword volume vs. the malpractice draft's measurable volume); left un-integrated in drafts/ as a strong candidate for a future run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiologists-often-suffer-repetitive-stress-injuries-pacs-use",
+      "date": "2026-11-05",
+      "decision": "drafted -> radiologist-repetitive-stress-injury-pacs (3rd drafting attempt at this source; prior attempts 'pacs-workstation-ergonomics' 2026-11-02 and 'radiologist-repetitive-stress-injury-ai-reporting' 2026-11-04 both disqualified). Gate needs-human — QA flagged an editorial-calendar conflict (two stale disqualified sibling drafts still sit in drafts/) requiring a founder decision before integration. Not chosen today; left un-integrated."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/bracco-invests-230m-to-build-us-plant-for-injectable-contrast-media/873539/",
+      "date": "2026-11-05",
+      "decision": "scored but not drafted (fitScore 6, seo 4, interest 6) — onshoring/supply-resilience angle builds on the existing 2022-shortage article but relevance to xAID's reporting-side value prop is indirect (acquisition-side news)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/how-should-the-fda-regulate-generative-ai-in-medtech-here-are-5-takes/873608/",
+      "date": "2026-11-05",
+      "decision": "scored but not drafted, dedupOk false — near-duplicate of the ledger's existing RSNA FDA-comments and FY2027 FDA-guidance-priorities articles; would need a sharply differentiated angle to avoid cannibalization."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/whats-stake-radiology-2026-midterm-election",
+      "date": "2026-11-05",
+      "decision": "scored but not drafted (fitScore 5, seo 3, interest 5) — speculative forward-looking policy-watch angle, no measurable keyword demand found."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/targeted-immunopet-imaging-detects-multiple-myeloma-missed-standard-petct",
+      "date": "2026-11-05",
+      "decision": "scored but not drafted (fitScore 4, seo 2, interest 6) — PET radiotracer/myeloma story, tangential to CT-reporting audience; no commercial keyword demand."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/routine-mammograms-offer-limited-benefit-after-double-mastectomy",
+      "date": "2026-11-05",
+      "decision": "scored but not drafted (fitScore 4, seo 3, interest 5) — mammography (not CT) and patient-facing utilization rather than radiologist-reporting workflow; weakest direct product fit in the batch."
     }
   ]
 }

@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/average-radiology-malpractice-claim-cost/",
       "/blog/clinical-ai-liability-shared-responsibility/",
       "/blog/unitedhealthcare-pediatric-imaging-prior-authorization/",
       "/blog/on-site-radiologist-ct-turnaround-time/",
