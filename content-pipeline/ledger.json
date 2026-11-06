@@ -704,6 +704,13 @@
       "source": "",
       "date": "2026-11-05",
       "approved": "2026-11-05 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-report-turnaround-time-ed-length-of-stay",
+      "topic": "Radiology Report Turnaround Time and ED Length of Stay: What a New Study Shows",
+      "source": "",
+      "date": "2026-11-06",
+      "approved": "2026-11-06 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6719,6 +6726,51 @@
       "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/routine-mammograms-offer-limited-benefit-after-double-mastectomy",
       "date": "2026-11-05",
       "decision": "scored but not drafted (fitScore 4, seo 3, interest 5) — mammography (not CT) and patient-facing utilization rather than radiologist-reporting workflow; weakest direct product fit in the batch."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-11-06",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/study-links-ct-reporting-slowdowns-longer-emergency-department-stays",
+      "date": "2026-11-06",
+      "decision": "drafted -> radiology-report-turnaround-time-ed-length-of-stay; gate needs-human, factcheck pass (fixed one SEO title/keyword-alignment issue, no remaining flagged claims). CHOSEN for today's publish — only draft in the batch with a clean fact-check pass, highest xAID-fit score (9.5), directly evidences the reporting-speed-over-scan-speed thesis. INTEGRATED into 4-file contract 2026-11-06 (autonomous run), pending founder approval + deploy. Cannibalization risk flagged medium (3rd CT-turnaround-themed piece in ~2 weeks) — new study/outcome (ED length-of-stay), not a duplicate, but founder should weigh publishing cadence in this cluster."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/medicare-finalizes-plan-slash-9b-imaging-spending-through-site-neutral-reforms",
+      "date": "2026-11-06",
+      "decision": "scored but not drafted (fitScore 8, seo 6, interest 7, dedupOk false) — legitimate final-vs-proposed-rule follow-up to the ledger's existing site-neutral-payments-imaging article with a new $9B figure and Jan 1 deadline, but did not make the top-3 drafting slate this run; would need a sharply differentiated reporting-overhead angle to avoid cannibalization."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/lessons-learned-early-adopters-new-cms-radiology-quality-measure",
+      "date": "2026-11-06",
+      "decision": "drafted -> radiology-report-turnaround-time-standards-cms-exrad; gate needs-human, factcheck fix-needed (2 citation-precision fixes applied: scan-volume figure corrected to match source, Joint Commission ORYX citation re-sourced). Not chosen today — near-duplicate of the still-unintegrated sibling draft cms-exrad-ct-quality-measure.tsx (2026-11-05, same CMS ExRad story/stats), and assigned target keyword is only weakly represented on-page (real focus is ExRad compliance, not turnaround-time standards) with high cannibalization risk against two existing turnaround-time pillar articles. Left un-integrated in drafts/; founder should pick one of the two ExRad drafts (or merge) before either is integrated."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/stanford-tops-radiology-research-funding-182m-2012",
+      "date": "2026-11-06",
+      "decision": "drafted -> radiology-research-funding-concentration; gate reject, factcheck fail (draft misattributed the $1.65B/institutional-breakdown figures to the wrong companion paper — Academic Radiology instead of the later JACR paper that actually contains them). Citation fix applied in-file but fact-checker was not re-run, so gate remains reject per rule. Not chosen today; left un-integrated in drafts/ pending a fact-check re-run."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/cybersecurity/cybersecurity-vulnerability-prompts-recall-popular-pacs-software",
+      "date": "2026-11-06",
+      "decision": "scored but not drafted (fitScore 7, seo 2, interest 6, dedupOk false) — fresh Class 2 PACS recall distinct from prior cybersecurity ledger entries, relevant to vendor-trust positioning, but essentially no search volume and did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/bracco-invests-230m-to-build-us-plant-for-injectable-contrast-media/873539/",
+      "date": "2026-11-06",
+      "decision": "scored but not drafted (fitScore 6, seo 3, interest 6, dedupOk false) — contrast-supply reshoring follow-on to the ledger's 2022-shortage retrospective, acquisition-side rather than reporting-side so modest fit; did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/cms-finalizes-2027-physician-fee-schedule-even-larger-conversion-factor-cuts",
+      "date": "2026-11-06",
+      "decision": "scored but not drafted (fitScore 6, seo 7, interest 5, dedupOk false) — final 2027 PFS rule (larger cuts than proposed) overlaps heavily with the ledger's existing 2027-medicare-physician-fee-schedule-radiology proposed-rule article; highest raw search volume in the batch but would need a tightly differentiated proposed-vs-final imaging-specific angle; did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/how-should-the-fda-regulate-generative-ai-in-medtech-here-are-5-takes/873608/",
+      "date": "2026-11-06",
+      "decision": "scored but not drafted (fitScore 5, seo 5, interest 4, dedupOk false) — near-duplicate of the ledger's existing RSNA FDA-comments and FY2027 FDA-guidance-priorities articles; third FDA-and-generative-AI article this quarter would need a sharply differentiated buyer-checklist angle; did not make the top-3 drafting slate."
     }
   ]
 }

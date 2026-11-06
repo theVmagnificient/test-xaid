@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-report-turnaround-time-ed-length-of-stay',
+    title: 'Radiology Report Turnaround Time and ED Length of Stay: What a New Study Shows',
+    excerpt: "New trauma data: CT scan speed didn't predict ED length of stay, but report turnaround time did — each delayed hour added 30+ minutes of ED stay.",
+    date: 'November 6, 2026',
+    dateIso: '2026-11-06',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['radiology report turnaround time', 'CT report turnaround time', 'ED length of stay', 'emergency department CT reporting', 'radiology reporting delay outcomes'],
+  },
+  {
     slug: 'average-radiology-malpractice-claim-cost',
     title: 'Radiology Malpractice Claims Average $456,000 — and 75% Trace Back to Diagnosis',
     excerpt: "New insurer data on 735 closed radiology claims (2010-2025): the average payout is $456,000, and about 75% stem from diagnosis-related errors — not technique. A data-led look at what actually drives radiology malpractice cost.",
