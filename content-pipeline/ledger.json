@@ -711,6 +711,13 @@
       "source": "",
       "date": "2026-11-06",
       "approved": "2026-11-06 founder-approved via telegram bot"
+    },
+    {
+      "slug": "ai-investment-scam-vendor-trust-checklist",
+      "topic": "A Radiologist's Alleged 'AI' Ponzi Scheme Is a Lesson in AI-Washing",
+      "source": "",
+      "date": "2026-11-07",
+      "approved": "2026-11-07 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6771,6 +6778,106 @@
       "url": "https://www.medtechdive.com/news/how-should-the-fda-regulate-generative-ai-in-medtech-here-are-5-takes/873608/",
       "date": "2026-11-06",
       "decision": "scored but not drafted (fitScore 5, seo 5, interest 4, dedupOk false) — near-duplicate of the ledger's existing RSNA FDA-comments and FY2027 FDA-guidance-priorities articles; third FDA-and-generative-AI article this quarter would need a sharply differentiated buyer-checklist angle; did not make the top-3 drafting slate."
+    },
+    {
+      "topic": "evergreen keyword backlog (autonomous run)",
+      "date": "2026-11-07",
+      "decision": "no pick - backlogLow flagged, no queued keyword available to draft. No draft produced; needs founder replenishment via DataForSEO keyword_suggestions."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/state-sues-radiologist-claiming-he-ran-ponzi-ai-scheme-bilk-5m-physicians-and-family",
+      "date": "2026-11-07",
+      "decision": "drafted -> ai-investment-scam-vendor-trust-checklist; gate ready, factcheck pass. CHOSEN and integrated as today's published article (2026-11-07)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/stanford-top-radiology-research-funding-182m-2012",
+      "date": "2026-11-07",
+      "decision": "drafted -> radiology-research-funding-ai-evidence-gap; gate needs-human, factcheck fix-needed (misattributed citation flagged by fact-checker). Not chosen; left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/cybersecurity/cybersecurity-vulnerability-prompts-recall-popular-pacs-software",
+      "date": "2026-11-07",
+      "decision": "drafted -> pacs-software-cybersecurity-recall-vendor-checklist; gate needs-human (dedupOk false, cannibalizationRisk high vs prior cybersecurity articles), factcheck pass. Not chosen; left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/medicare-finalizes-plan-slash-9b-imaging-spending-through-site-neutral-reforms",
+      "date": "2026-11-07",
+      "decision": "scored but not drafted (fitScore 8, seo 4, interest 7, dedupOk false) — final-rule version of already-published site-neutral-payments-imaging (CY2027 OPPS proposed rule); concrete $9B/effective-date update but near-duplicate topic, did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/cms-finalizes-2027-physician-fee-schedule-even-larger-conversion-factor-cuts",
+      "date": "2026-11-07",
+      "decision": "scored but not drafted (fitScore 8, seo 3, interest 6, dedupOk false) — finalized 2027 PFS rule (larger cuts than proposed), near-duplicate of already-published 2027-medicare-physician-fee-schedule-radiology proposed-rule article; did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/molecular-imaging/targeted-immunopet-imaging-detects-multiple-myeloma-missed-standard-petct",
+      "date": "2026-11-07",
+      "decision": "scored but not drafted (fitScore 5, seo 3, interest 6, dedupOk true) — PET/CT miss-rate research hook, moderate fit (hematologic/PET not core CT), did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/fda-clears-ai-powered-intravascular-ultrasound-imaging-platform",
+      "date": "2026-11-07",
+      "decision": "scored but not drafted (fitScore 5, seo 3, interest 5, dedupOk true) — FDA 510(k) clearance for narrow-indication IVUS AI device, outside xAID's core CT focus; did not make the top-3 drafting slate."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/solis-mammography-expanding-joint-venture-partnership-jefferson-health",
+      "date": "2026-11-07",
+      "decision": "scored but not drafted (fitScore 4, seo 2, interest 4, dedupOk false) — same JV/vendor-control genre already covered twice in the ledger; lowest-priority filler candidate, not drafted."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/siemens-healthineers-to-rebrand-and-separate-its-ivd-business/873963/",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — corporate rebrand/IVD spin-off, not imaging-AI or reporting-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/survey-identifies-gaps-patient-instructions-psma-radiopharmaceutical-therapy",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — PSMA radiopharmaceutical therapy patient-instruction survey, not CT reporting/xAID-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/study-links-ct-reporting-slowdowns-longer-emergency-department-stays",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (duplicate) — same study already covered by published radiology-report-turnaround-time-ed-length-of-stay (2026-11-06)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/siemens-healthineers-change-its-name-following-spin-parent-company",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — corporate rebrand following spin-off, not imaging-AI or reporting-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/synchronous-biopsy-and-ablation-offer-one-session-approach-lung-nodules",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — interventional biopsy/ablation procedure, not CT reporting-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/routine-mammograms-offer-limited-benefit-after-double-mastectomy",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — mammography screening-benefit study, not CT reporting/xAID product fit."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/1266/bayer/roundtable-how-automated-ct-contrast-dosing-making-real-difference-academic-medical-center",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (sponsored content) — vendor-sponsored roundtable, not a news item to cover."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/average-radiology-malpractice-claim-reaches-456000-1-common-cause",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (duplicate) — same study already covered by published average-radiology-malpractice-claim-cost (2026-11-05)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/portable-ultralow-field-mri-feasible-bedside-neuroimaging-critical-care-new-study-suggests",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — portable low-field MRI feasibility study, different modality/workflow, not CT reporting-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/mount-sinai-receives-3m-nih-grant-study-advanced-mri-drug-resistant-epilepsy",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (off-topic) — NIH research grant for epilepsy MRI study, not reporting/product-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/58176/abbadox/how-imaging-centers-are-using-ai-book-appointments-days-sooner",
+      "date": "2026-11-07",
+      "decision": "dropped pre-score (sponsored content) — vendor-sponsored piece about appointment scheduling, not a news item to cover."
     }
   ]
 }

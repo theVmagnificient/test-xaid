@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ai-investment-scam-vendor-trust-checklist',
+    title: "A Radiologist's Alleged 'AI' Ponzi Scheme Is a Lesson in AI-Washing",
+    excerpt: "Colorado says a radiologist used an 'AI trading' pitch to take $5.2M from 14 investors, including his own family, in a Ponzi-like scheme. It's not a clinical-AI story — but it's a sharp lesson in spotting AI-washing before you sign a vendor contract.",
+    date: 'November 7, 2026',
+    dateIso: '2026-11-07',
+    category: 'Buyer Guide',
+    readingTime: 7,
+    keywords: ['ai investment scam', 'AI-washing healthcare', 'radiology AI vendor trust', 'FDA clearance AI radiology', 'radiologist in the loop AI'],
+  },
+  {
     slug: 'radiology-report-turnaround-time-ed-length-of-stay',
     title: 'Radiology Report Turnaround Time and ED Length of Stay: What a New Study Shows',
     excerpt: "New trauma data: CT scan speed didn't predict ED length of stay, but report turnaround time did — each delayed hour added 30+ minutes of ED stay.",
