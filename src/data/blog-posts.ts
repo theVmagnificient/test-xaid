@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'fda-ai-medical-imaging-clearance-pace',
+    title: 'FDA AI Medical Imaging Clearances: The 2026 Pace',
+    excerpt: 'Two FDA AI imaging clearances landed in six weeks, an IVUS platform and a CTA tool. What the pace of FDA AI medical imaging clearance means for buyers.',
+    date: 'November 8, 2026',
+    dateIso: '2026-11-08',
+    category: 'Regulatory & Policy',
+    readingTime: 7,
+    keywords: ['fda ai medical imaging clearance', 'fda ai device list', 'fda 510k ai imaging', 'ai clearance trends radiology', 'radiology ai regulation'],
+  },
+  {
     slug: 'ai-investment-scam-vendor-trust-checklist',
     title: "A Radiologist's Alleged 'AI' Ponzi Scheme Is a Lesson in AI-Washing",
     excerpt: "Colorado says a radiologist used an 'AI trading' pitch to take $5.2M from 14 investors, including his own family, in a Ponzi-like scheme. It's not a clinical-AI story — but it's a sharp lesson in spotting AI-washing before you sign a vendor contract.",
