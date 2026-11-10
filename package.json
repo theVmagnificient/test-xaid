@@ -206,7 +206,8 @@
       "/blog/clinical-indication-radiology-orders/",
       "/blog/radiology-ai-clinical-outcomes-evidence-gap/",
       "/blog/incidental-lung-nodule-malignancy-risk-ai/",
-      "/blog/fda-ai-medical-imaging-clearance-pace/"
+      "/blog/fda-ai-medical-imaging-clearance-pace/",
+      "/blog/mri-protocoling-reporting-bottleneck/"
     ],
     "headless": true,
     "skipThirdPartyRequests": true,

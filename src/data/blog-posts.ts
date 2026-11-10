@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mri-protocoling-reporting-bottleneck',
+    title: 'LLMs Match Radiologists at MRI Protocoling',
+    excerpt: 'A 1,201-case European Radiology study found LLMs match radiologists at MRI protocol selection — exposing how far structured CT reporting still lags.',
+    date: 'November 10, 2026',
+    dateIso: '2026-11-10',
+    category: 'Clinical Evidence',
+    readingTime: 7,
+    keywords: ['MRI protocoling', 'LLM radiology workflow', 'MRI protocol selection AI', 'structured CT reporting', 'AI radiology report automation'],
+  },
+  {
     slug: 'fda-ai-medical-imaging-clearance-pace',
     title: 'FDA AI Medical Imaging Clearances: The 2026 Pace',
     excerpt: 'Two FDA AI imaging clearances landed in six weeks, an IVUS platform and a CTA tool. What the pace of FDA AI medical imaging clearance means for buyers.',

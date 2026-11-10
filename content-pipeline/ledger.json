@@ -725,6 +725,13 @@
       "source": "",
       "date": "2026-11-08",
       "approved": "2026-11-08 founder-approved via telegram bot"
+    },
+    {
+      "slug": "mri-protocoling-reporting-bottleneck",
+      "topic": "LLMs Match Radiologists at MRI Protocoling",
+      "source": "",
+      "date": "2026-11-10",
+      "approved": "2026-11-10 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -6960,6 +6967,86 @@
       "url": "https://www.medtechdive.com/news/siemens-healthineers-to-rebrand-and-separate-its-ivd-business/873963/",
       "date": "2026-11-08",
       "decision": "dropped pre-score (off-topic) — corporate rebrand/IVD spin-off, not imaging-AI or reporting-relevant."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/siemens-healthineers-to-rebrand-and-separate-its-ivd-business/873963/",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (off-topic) — corporate rebrand/IVD spin-off, not imaging-AI or reporting-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/cms-updates-no-surprises-act-idr-rules-radiology-disputes",
+      "date": "2026-11-09",
+      "decision": "scored but not drafted (fitScore 6, seo 6, interest 5, dedupOk false) — third No-Surprises-Act/IDR article in the cluster (after qualifying-payment-amount-no-surprises-act, published, and no-surprises-act-radiology-reimbursement, drafted); real cannibalization risk despite a genuinely distinct procedural news hook (IDR batching-criteria overhaul); did not make today's single-draft slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/county-voters-approve-sales-tax-increase-fund-ct-health-screenings",
+      "date": "2026-11-09",
+      "decision": "scored but not drafted (fitScore 6, seo 2, interest 5, dedupOk false) — Broward County sales-tax screening-funding model thesis overlaps already-published mobile-lung-cancer-screening-reporting-capacity; zero measurable keyword demand found; did not make today's single-draft slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/patient-sues-teleradiology-firm-claiming-ct-misread-delayed-critical-stroke-care",
+      "date": "2026-11-09",
+      "decision": "drafted -> teleradiology-malpractice-liability-chain; gate reject, factcheck fail (one contradicted claim: a quote fabricated/misattributed to named attorney Lloyd Bell that the PR Newswire release does not actually attribute to him as speech; plus a misleading chronology implying the stroke re-read happened same-day, when it was a formal addendum filed ~6 weeks later). Fixes applied in-file by the QA pass but the fact-checker was not re-run, so the recorded verdict remains fail per the hard rule. Not chosen; left un-integrated in drafts/ pending a fresh adversarial fact-check pass confirming the corrected wording."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/patient-info-improperly-used-radiology-ai-research-academic-institution-says",
+      "date": "2026-11-09",
+      "decision": "scored but not drafted (fitScore 7.5, seo 3, interest 6.5, dedupOk false) — institutional vendor-due-diligence reframing of the Weill Cornell patient-data-misuse disclosure, but sits in the same thematic cluster as 3 previously shelved AI-data-privacy drafts (cannibalization risk flagged despite sharper governance angle); did not make today's single-draft slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/survey-identifies-gaps-patient-instructions-psma-radiopharmaceutical-therapy",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (off-topic) — PSMA radiopharmaceutical therapy patient-instruction survey, not CT reporting/xAID-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/stanford-top-radiology-research-funding-182m-2012",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (duplicate) — already drafted 2026-11-07 (radiology-research-funding-ai-evidence-gap, factcheck fix-needed) and 2026-11-08 (radiology-research-funding-vendor-diligence, factcheck fail); not re-scored today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/fda-clears-ai-powered-intravascular-ultrasound-imaging-platform",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (duplicate) — already drafted and published 2026-11-08 as fda-ai-medical-imaging-clearance-pace; not re-scored today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/health-it/cybersecurity/cybersecurity-vulnerability-prompts-recall-popular-pacs-software",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (duplicate) — already drafted 2026-11-07 (pacs-software-cybersecurity-recall-vendor-checklist, gate needs-human, left un-integrated) and rescored 2026-11-08 (dedupOk false); not re-scored today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/study-links-ct-reporting-slowdowns-longer-emergency-department-stays",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (duplicate) — same study already covered by published radiology-report-turnaround-time-ed-length-of-stay (2026-11-06); not re-scored today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/siemens-healthineers-change-its-name-following-spin-parent-company",
+      "date": "2026-11-09",
+      "decision": "dropped pre-score (off-topic) — corporate rebrand following spin-off, not imaging-AI or reporting-relevant."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/large-language-models-show-potential-mri-protocoling",
+      "date": "2026-11-10",
+      "decision": "drafted -> mri-protocoling-reporting-bottleneck; gate ready, factcheck fix-needed (year/population corrections applied to a cited 2024 structured-reporting survey, one CTA heading rewritten for house voice; re-verified against primary DOI and two cross-referenced xAID posts, all figures matched exactly). CHOSEN and integrated today — best of the day's shortlist: only 'ready'-gate survivor, clean on competitor-airtime and signing-claim rules, distinct unclaimed angle (protocol selection) vs the two existing LLM-automation posts in the ledger."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radnet-sees-advanced-imaging-volumes-leap-nearly-20-driven-key-efficiencies",
+      "date": "2026-11-10",
+      "decision": "drafted -> radiology-imaging-volume-growth-radiologist-capacity-gap; gate needs-human, factcheck fix-needed — flags a founder-level call on whether to trim/soften a repeated RadNet/DeepHealth 'Reporting Pro' AI-product-performance stat (lines ~152 and FAQ #3); this exact pattern (RadNet/DeepHealth AI-product metrics) has triggered disqualification on other drafts per the no-competitor-airtime rule, so left un-integrated pending explicit founder review even though the news hook itself (Q3 earnings/imaging volume) is neutral. Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/lessons-learned-pilot-program-integrating-breast-and-lung-cancer-screening",
+      "date": "2026-11-10",
+      "decision": "scored but not drafted (fitScore 6, seo 3, interest 6, dedupOk false) — high cannibalization risk vs. published lung-cancer-screening-program-integration (same breast/mammography + LCS integration theme, inverse direction); did not make today's single-draft slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/interventional-radiology/society-interventional-radiology-urges-trauma-centers-integrate-irs-hemorrhage-care",
+      "date": "2026-11-10",
+      "decision": "drafted -> interventional-radiology-trauma-ct-reporting-speed; gate needs-human, factcheck fix-needed — primary JVIR source was paywalled/Cloudflare-blocked, so the 6-point SIR/ACS recommendation list was sourced from the EurekAlert press release (cross-checked vs Radiology Business and Medical Xpress) rather than the primary paper; a human with JVIR access should spot-check exact phrasing before publishing. Also 4th CT/report-turnaround-time-themed post in the ledger — distinct news hook but founder should confirm appetite. Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/philips-interventional-systems-recalled-due-software-glitch",
+      "date": "2026-11-10",
+      "decision": "scored but not drafted (fitScore 6, seo 2, interest 5, dedupOk false) — ledger already has two device-recall-as-capacity/oversight articles; this would be a third and needs a sharper software-change-control-pattern framing (noted in rationale) to avoid repeating the same trope; generic 'Philips recall' keyword volume is consumer CPAP-recall intent, SEO value effectively zero. Did not make today's single-draft slot."
     }
   ]
 }
