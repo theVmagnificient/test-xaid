@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'imaging-technologist-strike-capacity-risk',
+    title: 'When Technologists Strike: What a New Jersey Labor Dispute Shows About Imaging Capacity Risk',
+    excerpt: "45 technologists walked out at ImageCare Centers in Sussex County, New Jersey, after nearly two years without a first contract. It's a single-employer labor dispute — but it's also a vivid, local example of the national 19.4% CT technologist vacancy rate that makes imaging capacity fragile everywhere, every day.",
+    date: 'November 11, 2026',
+    dateIso: '2026-11-11',
+    category: 'Radiology Workforce',
+    readingTime: 6,
+    keywords: ['imaging technologist shortage', 'radiologic technologist strike', 'imaging capacity risk', 'CT technologist vacancy rate', 'radiology workforce'],
+  },
+  {
     slug: 'mri-protocoling-reporting-bottleneck',
     title: 'LLMs Match Radiologists at MRI Protocoling',
     excerpt: 'A 1,201-case European Radiology study found LLMs match radiologists at MRI protocol selection — exposing how far structured CT reporting still lags.',

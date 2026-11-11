@@ -732,6 +732,13 @@
       "source": "",
       "date": "2026-11-10",
       "approved": "2026-11-10 founder-approved via telegram bot"
+    },
+    {
+      "slug": "imaging-technologist-strike-capacity-risk",
+      "topic": "When Technologists Strike: What a New Jersey Labor Dispute Shows About Imaging Capacity Risk",
+      "source": "",
+      "date": "2026-11-11",
+      "approved": "2026-11-11 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -7047,6 +7054,36 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/philips-interventional-systems-recalled-due-software-glitch",
       "date": "2026-11-10",
       "decision": "scored but not drafted (fitScore 6, seo 2, interest 5, dedupOk false) — ledger already has two device-recall-as-capacity/oversight articles; this would be a third and needs a sharper software-change-control-pattern framing (noted in rationale) to avoid repeating the same trope; generic 'Philips recall' keyword volume is consumer CPAP-recall intent, SEO value effectively zero. Did not make today's single-draft slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/acr-rbma-workforce-survey-details-sharp-rise-radiologists-reading-remotely",
+      "date": "2026-11-11",
+      "decision": "drafted -> radiology-work-from-home-imaging-center-staffing; gate needs-human, factcheck pass — high keyword-cannibalization risk flagged (targets the exact same keyword 'radiology work from home' as the already-published radiology-work-from-home-trainee-survey, 2026-10-12). Not chosen today pending a human call on SERP overlap/retitle; left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/new-jersey-imaging-centers-could-soon-face-technologist-strike",
+      "date": "2026-11-11",
+      "decision": "drafted -> imaging-technologist-strike-capacity-risk; gate ready, factcheck pass (one quote-attribution precision fix applied, no facts changed). CHOSEN and integrated today — only shortlist item with a clean 'ready'-gate + 'pass'-factcheck combination; not competitor-related, dedupOk true."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/7t-mri-detects-28-more-multiple-sclerosis-lesions-3t-systems",
+      "date": "2026-11-11",
+      "decision": "drafted -> 7t-mri-ms-lesion-detection-reporting-burden; gate ready, factcheck fix-needed (headline stat corrected from 28% to 27% throughout, matching AuntMinnie's precise figure; re-verified post-fix). Not chosen today — imaging-technologist-strike-capacity-risk had a cleaner 'pass' factcheck verdict; left un-integrated in drafts/."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/labcorp-completes-375m-millennium-health-takeover/874075/",
+      "date": "2026-11-11",
+      "decision": "scored but not drafted (fitScore 2.5, seo 2, interest 3, dedupOk false) — off-topic (lab/drug-testing diagnostics M&A, not imaging-specific) and overlaps published radiology-private-equity-stay-independent / radiology-groups-share-infrastructure-stay-independent. Did not make today's drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radiology-vendor-nanox-imaging-cutting-30-costs-bid-save-company",
+      "date": "2026-11-11",
+      "decision": "dropped pre-score (competitor-adjacent vendor financial-distress story — Nanox Imaging cost-cutting) — disqualified under the no-competitor-airtime rule; not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/sponsored/57751/civie/he-didnt-leave-his-practice-he-expanded-whats-possible",
+      "date": "2026-11-11",
+      "decision": "dropped pre-score (sponsored/advertorial content from the source feed, not a news item) — not scored or drafted."
     }
   ]
 }
