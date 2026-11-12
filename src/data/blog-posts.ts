@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'radiology-reporting-standards-contrast-parallel',
+    title: 'Contrast Protocols Got Standardized Across Sites. Radiology Reports Still Haven’t.',
+    excerpt: 'Enterprise imaging groups are finally standardizing CT contrast dosing site to site. Studies show report structure and terminology vary even more — and almost nobody is running that standardization project.',
+    date: 'November 12, 2026',
+    dateIso: '2026-11-12',
+    category: 'Radiology Reporting',
+    readingTime: 7,
+    keywords: ['radiology reporting standards', 'structured radiology reporting', 'CT contrast protocol standardization', 'radiology report variability', 'enterprise imaging protocols'],
+  },
+  {
     slug: 'imaging-technologist-strike-capacity-risk',
     title: 'When Technologists Strike: What a New Jersey Labor Dispute Shows About Imaging Capacity Risk',
     excerpt: "45 technologists walked out at ImageCare Centers in Sussex County, New Jersey, after nearly two years without a first contract. It's a single-employer labor dispute — but it's also a vivid, local example of the national 19.4% CT technologist vacancy rate that makes imaging capacity fragile everywhere, every day.",

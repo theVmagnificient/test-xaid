@@ -739,6 +739,13 @@
       "source": "",
       "date": "2026-11-11",
       "approved": "2026-11-11 founder-approved via telegram bot"
+    },
+    {
+      "slug": "radiology-reporting-standards-contrast-parallel",
+      "topic": "Contrast Protocols Got Standardized Across Sites. Radiology Reports Still Haven’t.",
+      "source": "",
+      "date": "2026-11-12",
+      "approved": "2026-11-12 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -7084,6 +7091,26 @@
       "url": "https://radiologybusiness.com/sponsored/57751/civie/he-didnt-leave-his-practice-he-expanded-whats-possible",
       "date": "2026-11-11",
       "decision": "dropped pre-score (sponsored/advertorial content from the source feed, not a news item) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/how-imaging-leaders-are-standardizing-ct-contrast-use-across-enterprise",
+      "date": "2026-11-12",
+      "decision": "drafted -> radiology-reporting-standards-contrast-parallel; gate ready, factcheck fix-needed (two contradicted claims corrected: RadReport template count from unsupported 'nearly 300' to sourced '29 subspecialty topics', and Insights into Imaging exam-type adoption range from wrong '84%-97%' to true '58%-97%'; re-verified post-fix, remaining 5 claims confirmed exact). CHOSEN and integrated today — only drafted candidate, not competitor-related, dedupOk true, low cannibalization risk vs RadiologyReportingGuide."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-derived-inflammation-score-improves-cardiovascular-risk-prediction-beyond-cac",
+      "date": "2026-11-12",
+      "decision": "scored but not drafted (fitScore 6, seo 2, interest 7, dedupOk false) — strong cannibalization risk with published coronary-ct-angiography-ai-incidental-finding (2026-10-25) on the same fat-attenuation-index coronary-inflammation-score technology; would need a tightly differentiated CAC-negative-cohort angle to justify a second post. Did not make today’s drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologist-found-negligent-24m-wrongful-death-verdict",
+      "date": "2026-11-12",
+      "decision": "scored but not drafted (fitScore 5, seo 2, interest 6, dedupOk false) — malpractice/AI-safety-net genre saturated (at least a third prior ledger entry: radiology-malpractice-ai-reporting, average-radiology-malpractice-claim-cost, plus un-integrated draft radiology-malpractice-claims-diagnostic-errors); the esophageal-perforation/CTA fact pattern is distinct but genre itself is the blocker. Did not make today’s drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/advanced-imaging-volumes-help-lumexa-imaging-return-profitability",
+      "date": "2026-11-12",
+      "decision": "scored but not drafted (fitScore 4, seo 2, interest 4, dedupOk false) — same company’s prior-quarter profitability turnaround already drafted (lumexa-imaging-turns-profit-q2-after-previous-losses), and the volume-growth-vs-radiologist-capacity thesis overlaps a near-identical un-integrated draft (radiology-imaging-volume-growth-radiologist-capacity-gap). Weakest of today’s four on both dedup and SEO. Did not make today’s drafting slot."
     }
   ]
 }
