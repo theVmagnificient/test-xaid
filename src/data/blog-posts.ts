@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'remote-radiology-reading-throughput-bottleneck',
+    title: "Remote Radiology Reading Hit 71%. The Bottleneck Moved to Throughput",
+    excerpt: "A new ACR/RBMA survey finds 71% of radiologists now read remotely, up from 55% in 2024 — making reporting throughput the next constraint.",
+    date: 'November 26, 2026',
+    dateIso: '2026-11-26',
+    category: 'Workflow & Throughput',
+    readingTime: 8,
+    keywords: ["remote radiology reading", "ACR RBMA workforce survey", "teleradiology", "radiologist shortage", "reporting throughput", "AI CT reporting"],
+  },
+  {
     slug: 'radiology-reporting-standards-contrast-parallel',
     title: 'Contrast Protocols Got Standardized Across Sites. Radiology Reports Still Haven’t.',
     excerpt: 'Enterprise imaging groups are finally standardizing CT contrast dosing site to site. Studies show report structure and terminology vary even more — and almost nobody is running that standardization project.',

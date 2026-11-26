@@ -746,6 +746,13 @@
       "source": "",
       "date": "2026-11-12",
       "approved": "2026-11-12 founder-approved via telegram bot"
+    },
+    {
+      "slug": "remote-radiology-reading-throughput-bottleneck",
+      "topic": "Remote Radiology Reading Hit 71%. The Bottleneck Moved to Throughput",
+      "source": "",
+      "date": "2026-11-26",
+      "approved": "2026-11-26 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -7111,6 +7118,126 @@
       "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/advanced-imaging-volumes-help-lumexa-imaging-return-profitability",
       "date": "2026-11-12",
       "decision": "scored but not drafted (fitScore 4, seo 2, interest 4, dedupOk false) — same company’s prior-quarter profitability turnaround already drafted (lumexa-imaging-turns-profit-q2-after-previous-losses), and the volume-growth-vs-radiologist-capacity thesis overlaps a near-identical un-integrated draft (radiology-imaging-volume-growth-radiologist-capacity-gap). Weakest of today’s four on both dedup and SEO. Did not make today’s drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-derived-inflammation-score-improves-cardiovascular-risk-prediction-beyond-cac",
+      "date": "2026-11-13",
+      "decision": "drafted -> coronary-calcium-score-ai-inflammation-risk; gate needs-human, factcheck pass (12/12 claims verified against JAMA Cardiology primary source, DOI 10.1001/jamacardio.2026.5006). Cannibalization flagged: a 2026-11-12 ledger entry for this same source rejected it for strong overlap with published coronary-ct-angiography-ai-incidental-finding (2026-10-25); this draft's CAC-negative/CAC<100 cohort angle is differentiated but needs a human call on whether it reads as additive or a near-rehash. Not chosen today — remote-radiology-reading-throughput-bottleneck had a clean gate-ready/factcheck-pass verdict with low cannibalization risk instead. Left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/acr-rbma-workforce-survey-details-sharp-rise-radiologists-reading-remotely",
+      "date": "2026-11-13",
+      "decision": "drafted -> remote-radiology-reading-throughput-bottleneck; REJECTED 2026-11-13 (autorun deep-verify HOLD/REJECT — draft kept in drafts/)"
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/radnet-sees-advanced-imaging-volumes-leap-nearly-20-driven-key-efficiencies",
+      "date": "2026-11-13",
+      "decision": "drafted -> radiology-imaging-volume-growth-reading-list-bottleneck; gate needs-human, factcheck fix-needed then fixed (ONRAD upfront deal size understated as '$350M' corrected to '$350M cash + 5M RadNet shares' across all 7 occurrences, re-verified post-fix). dedupOk false, cannibalization risk high — near-duplicate of the already-drafted-but-un-integrated radiology-imaging-volume-growth-radiologist-capacity-gap (2026-11-10, same RadNet Q3 earnings release, same target keyword, same CFO quotes), plus a third sibling draft radnet-onrad-teleradiology-acquisition.tsx covering the same ONRAD deal. Not chosen today; founder should pick at most one of these three RadNet-earnings drafts before any of them is integrated. Left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/philips-interventional-systems-recalled-due-software-glitch",
+      "date": "2026-11-13",
+      "decision": "scored but not drafted (fitScore 6, seo 5, interest 7, dedupOk true) — ranked below today's top 3 on fit/SEO; device-recall genre already touched twice (CT recall, Lumify alert) so would need a 'pattern across incidents' framing to earn its own angle. Did not make today's drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-groups-call-congress-make-4-fixes-final-physician-fee-schedule",
+      "date": "2026-11-13",
+      "decision": "scored but not drafted (fitScore 6, seo 4, interest 5, dedupOk true) — advocacy/what-if-Congress-doesn't-act angle on the finalized CY2027 PFS, distinct from an already-published general PFS explainer, but ranked below today's top 3 on fit/SEO. Did not make today's drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologist-found-negligent-24m-wrongful-death-verdict",
+      "date": "2026-11-13",
+      "decision": "scored but not drafted (fitScore 6, seo 3, interest 6, dedupOk true) — malpractice genre already saturated on the ledger (missed-cancer case, aggregate claims-average piece); this $24M esophageal-perforation verdict is a distinct fact pattern but genre crowding plus low SEO score kept it out of today's top 3. Did not make today's drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/lumexa-imaging-expands-illinois-new-joint-venture",
+      "date": "2026-11-13",
+      "decision": "scored but not drafted (fitScore 6, seo 2, interest 5, dedupOk true) — fresh Lumexa + Advocate Health JV extends xAID's AI-stack-ownership-in-JVs thesis, but Lumexa already has a separate profitability-turnaround story on the ledger and the source has no measurable keyword demand; ranked below today's top 3. Did not make today's drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/7t-mri-detects-28-more-multiple-sclerosis-lesions-3t-systems",
+      "date": "2026-11-13",
+      "decision": "re-scored today (fitScore 4, seo 6, interest 6, dedupOk true) — already drafted on 2026-11-11 as 7t-mri-ms-lesion-detection-reporting-burden, still un-integrated in drafts/; ranked lowest of today's 8 candidates on fit, so not redrafted. Did not make today's drafting slot."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiology-business-management-association-launching-new-imaging-executive-credential",
+      "date": "2026-11-13",
+      "decision": "dropped pre-score (RBMA professional-credential/membership announcement — no clinical, workflow, or reporting-throughput angle relevant to xAID) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/imaging-groups-seek-standardize-pet-and-spect-scan-protocols",
+      "date": "2026-11-13",
+      "decision": "dropped pre-score (PET/SPECT acquisition-protocol standardization effort — adjacent to but distinct from xAID's CT-reporting focus, and the ledger already has a protocol-standardization article in the pipeline this week) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/university-seeks-approval-nations-first-phd-radiologic-sciences",
+      "date": "2026-11-13",
+      "decision": "dropped pre-score (academic PhD-program accreditation announcement — no fit with xAID's B2B imaging-center/teleradiology audience or AI-reporting workflow) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/radiology-groups-call-congress-make-4-fixes-final-physician-fee-schedule",
+      "date": "2026-11-14",
+      "decision": "drafted (medicare-fee-schedule-congress-radiology-fixes) — distinct advocacy-letter angle vs published 2027-medicare-physician-fee-schedule-radiology; fact-check fix-needed (2 citation/attribution issues), fixed in-draft; gate needs-human (keyword/cannibalization sanity check). NOT chosen for publish today (lost to 7T MRI draft on clean fact-check pass + lower live-cannibalization risk). Left un-integrated in drafts/."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/7t-mri-detects-28-more-multiple-sclerosis-lesions-3t-systems",
+      "date": "2026-11-14",
+      "decision": "drafted (7t-mri-ms-lesion-reporting-time) — fact-check pass; gate needs-human (near-duplicate of un-integrated 2026-11-11 sibling draft 7t-mri-ms-lesion-detection-reporting-burden.tsx on the same study, high cannibalization risk vs that sibling, but no live/published duplicate). CHOSEN for publish today via autorun; integrated into the 4-file contract 2026-11-14. The 11-11 sibling draft remains un-integrated — do not draft or integrate it again; this topic is now covered."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-derived-inflammation-score-improves-cardiovascular-risk-prediction-beyond-cac",
+      "date": "2026-11-14",
+      "decision": "scored, not drafted (dedupOk false) — strong cannibalization vs published coronary-ct-angiography-ai-incidental-finding (same fat-attenuation-index tech) and an existing un-integrated needs-human draft (coronary-calcium-score-ai-inflammation-risk.tsx). Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/acr-rbma-workforce-survey-details-sharp-rise-radiologists-reading-remotely",
+      "date": "2026-11-14",
+      "decision": "scored, not drafted (dedupOk false) — high keyword-cannibalization risk vs published radiology-work-from-home-trainee-survey (same target keyword); a prior draft of this exact source was REJECTED on autorun deep-verify. Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/lumexa-imaging-expands-illinois-new-joint-venture",
+      "date": "2026-11-14",
+      "decision": "scored, not drafted (dedupOk false) — functionally same template/question as already-published radiology-joint-venture-contract-checklist (AI-stack-ownership-in-JVs thesis); no measurable keyword demand. Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/legal-news/radiologist-found-negligent-24m-wrongful-death-verdict",
+      "date": "2026-11-14",
+      "decision": "scored, not drafted (dedupOk false) — malpractice genre already saturated (radiology-malpractice-ai-reporting, average-radiology-malpractice-claim-cost published; another un-integrated draft on a different verdict exists). Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/advanced-imaging-volumes-help-lumexa-imaging-return-profitability",
+      "date": "2026-11-14",
+      "decision": "scored, not drafted (dedupOk false) — volume-growth-vs-capacity template already triple-drafted this week (RadNet Q3 story) plus a separate Lumexa profitability-turnaround draft already exists un-integrated. Not chosen today."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/radiology-business-management-association-launching-new-imaging-executive-credential",
+      "date": "2026-11-14",
+      "decision": "dropped pre-score (re-ingested from prior days; no clinical/workflow/reporting-throughput angle relevant to xAID) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/leadership/imaging-groups-seek-standardize-pet-and-spect-scan-protocols",
+      "date": "2026-11-14",
+      "decision": "dropped pre-score (re-ingested from prior days; PET/SPECT acquisition-protocol standardization, adjacent to but distinct from xAID CT-reporting focus) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/management/education-training/university-seeks-approval-nations-first-phd-radiologic-sciences",
+      "date": "2026-11-14",
+      "decision": "dropped pre-score (re-ingested from prior days; academic PhD-program accreditation announcement, no fit with xAID B2B audience) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/imaging-contrast/how-imaging-leaders-are-standardizing-ct-contrast-use-across-enterprise",
+      "date": "2026-11-14",
+      "decision": "dropped pre-score (re-ingested from prior days; already the source for published radiology-reporting-standards-contrast-parallel) — not scored or drafted."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/medical-practice-management/new-jersey-imaging-centers-could-soon-face-technologist-strike",
+      "date": "2026-11-14",
+      "decision": "dropped pre-score (re-ingested from prior days; already the source for published imaging-technologist-strike-capacity-risk) — not scored or drafted."
+    },
+    {
+      "url": "evergreen-seo-pipeline:keyword-backlog",
+      "date": "2026-11-14",
+      "decision": "evergreen-seo-pipeline ran with backlogLow=true — no queued keyword available, 0 drafts produced. Backlog replenishment (DataForSEO keyword_suggestions) not performed by this autorun; out of scope for the autonomous drafting task."
     }
   ]
 }
