@@ -12,9 +12,8 @@ import { ROOT, STATE_DIR, loadEnv, tg, readPending, writePending } from './tg.mj
 
 const CAP_PER_DAY = 1;
 const DEAD_MAN_LIMIT = 2;                 // consecutive failed runs -> HALT + alert
-const CHANGESET_MAX = 300;                // deploy aborts only if it would touch MORE files than a normal
-                                          // full rebuild (~130: react-snap re-emits every page's HTML +
-                                          // Vite rehashes chunks each build). 300 = runaway/drift backstop.
+const NEW_FILES_MAX = 5;                  // deploy aborts if it would ADD more than this many non-asset files
+                                          // to prod. A one-article publish adds exactly one (its page).
 const AUTO = resolve(ROOT, 'content-pipeline/automation');
 const SETTINGS = resolve(AUTO, 'claude-settings.json');
 const GEN_PROMPT = resolve(AUTO, 'autorun-gen-prompt.md');
@@ -132,7 +131,7 @@ async function main() {
   if (!pend.find((p) => p.slug === pick.slug)) { pend.push({ slug: pick.slug, title: pick.title || pick.slug, date: today, status: 'pending' }); writePending(pend); }
 
   const publish = () => execSync(`node content-pipeline/automation/publish.mjs ${pick.slug}`,
-    { cwd: ROOT, stdio: 'inherit', env: { ...process.env, CHANGESET_MAX: String(CHANGESET_MAX) } });
+    { cwd: ROOT, stdio: 'inherit', env: { ...process.env, NEW_FILES_MAX: String(NEW_FILES_MAX) } });
 
   say('публикую: build → guard → change-set guard → deploy…');
   try {

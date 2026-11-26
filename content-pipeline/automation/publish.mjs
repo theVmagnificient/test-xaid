@@ -59,20 +59,24 @@ try {
   run('bun run build');
   run('bun run guard');
 
-  // 2b. Change-set guard (opt-in via CHANGESET_MAX; used by the autonomous run). A normal one-article
-  // publish transfers only a handful of files. If a deploy would touch many more, that signals repo/prod
-  // drift or a broken build — abort BEFORE overwriting the live site.
-  const maxChanged = parseInt(process.env.CHANGESET_MAX || '0', 10);
-  if (maxChanged > 0) {
+  // 2b. Change-set guard (opt-in via NEW_FILES_MAX; used by the autonomous run). A one-article publish
+  // adds exactly one new page to prod. If a deploy would add many more, that signals repo/prod drift or a
+  // broken build — abort BEFORE overwriting the live site.
+  // Count only NEW non-asset files. Every file "would transfer" (the dry-run has no times or checksums)
+  // and every hashed asset under assets/ is renamed each build, so counting those measured the size of
+  // the whole site: it grew 2 files per article, crossed the old 300-file cap on 2026-11-13 and halted
+  // the pipeline. Pages dropped from the build are caught separately by scripts/predeploy-check.mjs.
+  const maxNew = parseInt(process.env.NEW_FILES_MAX || '0', 10);
+  if (maxNew > 0) {
     const dry = execSync(
       'rsync -rln -i --no-perms --no-times --no-owner --no-group --exclude ".DS_Store" dist/ aurora-xaid-landing-deploy:./',
       { cwd: ROOT, encoding: 'utf8', timeout: 5 * 60 * 1000 }
     );
-    const changed = dry.split('\n').filter((l) => /^[<>]f/.test(l)); // files that would transfer
-    console.log(`[change-set] ${changed.length} file(s) would deploy (cap ${maxChanged}):`);
-    changed.slice(0, 60).forEach((l) => console.log('  ' + l));
-    if (changed.length > maxChanged) {
-      throw new Error(`change-set guard: ${changed.length} files would change (> ${maxChanged}) — aborting deploy (possible drift / build issue).`);
+    const added = dry.split('\n').filter((l) => /^<f\+{9} /.test(l) && !/^\S+ assets\//.test(l));
+    console.log(`[change-set] ${added.length} new non-asset file(s) would deploy (cap ${maxNew}):`);
+    added.slice(0, 60).forEach((l) => console.log('  ' + l));
+    if (added.length > maxNew) {
+      throw new Error(`change-set guard: ${added.length} new non-asset files (> ${maxNew}) — aborting deploy (possible drift / build issue).`);
     }
   }
 
