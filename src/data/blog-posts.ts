@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: '7t-mri-ms-lesion-reporting-time',
+    title: "7T MRI Finds 27% More MS Lesions. That's More to Report, Not Just More to Detect",
+    excerpt: "A Radiology study found 7T MRI detects 27% more MS lesions than 3T (2,268 vs 1,779), with cortical lesions up 135.7% — more to report per scan.",
+    date: 'November 26, 2026',
+    dateIso: '2026-11-26',
+    category: 'Workflow & Throughput',
+    readingTime: 7,
+    keywords: ["7T MRI", "MS lesion detection", "multiple sclerosis MRI reporting", "central vein sign", "radiology reporting time", "AI radiology reporting"],
+  },
+  {
     slug: 'remote-radiology-reading-throughput-bottleneck',
     title: "Remote Radiology Reading Hit 71%. The Bottleneck Moved to Throughput",
     excerpt: "A new ACR/RBMA survey finds 71% of radiologists now read remotely, up from 55% in 2024 — making reporting throughput the next constraint.",
