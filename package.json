@@ -72,6 +72,7 @@
     "destination": "dist",
     "include": [
       "/",
+      "/blog/stat-ct-overuse-appropriate-use-criteria/",
       "/blog/7t-mri-ms-lesion-reporting-time/",
       "/blog/remote-radiology-reading-throughput-bottleneck/",
       "/blog/ai-investment-scam-vendor-trust-checklist/",

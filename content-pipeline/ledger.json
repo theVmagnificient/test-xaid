@@ -760,6 +760,13 @@
       "source": "",
       "date": "2026-11-26",
       "approved": "2026-11-26 founder-approved via telegram bot"
+    },
+    {
+      "slug": "stat-ct-overuse-appropriate-use-criteria",
+      "topic": "'Stat' CT Overuse: 1 in 4 Orders Lack a Clinical Reason",
+      "source": "",
+      "date": "2026-11-27",
+      "approved": "2026-11-27 founder-approved via telegram bot"
     }
   ],
   "seen": [
@@ -7244,6 +7251,71 @@
     {
       "url": "evergreen-seo-pipeline:keyword-backlog",
       "date": "2026-11-14",
+      "decision": "evergreen-seo-pipeline ran with backlogLow=true — no queued keyword available, 0 drafts produced. Backlog replenishment (DataForSEO keyword_suggestions) not performed by this autorun; out of scope for the autonomous drafting task."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/rad-partners-finalizes-acquisition-overseas-teleradiology-outfit",
+      "date": "2026-11-27",
+      "decision": "scored, not drafted — ranked below top-3 cutoff (fitScore 7, seoScore 6); cross-border teleradiology M&A angle, low cannibalization risk vs published domestic consolidation pieces."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-radnet-ai-tool-predicting-five-year-breast-cancer-risk-routine-mammograms",
+      "date": "2026-11-27",
+      "decision": "scored, not drafted — flagged competitor-adjacency risk under HARD TOPIC RULE (RadNet/DeepHealth single-vendor product clearance); recommend founder sign-off before drafting, or reframe around the regulatory category without naming the vendor."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/womens-imaging/glp-1-weight-loss-linked-increased-breast-density",
+      "date": "2026-11-27",
+      "decision": "drafted (breast-density-mammogram-glp-1-weight-loss) — gate ready, factcheck pass; not selected for publish 2026-11-27 (strong SEO volume but lower xAID-CT-reporting fit than the selected stat-ct-overuse draft, and mammography rather than CT)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/nuclear-medicine/pet-ct/new-pet-tracer-cocktail-could-help-find-root-cause-hospital-acquired-infections",
+      "date": "2026-11-27",
+      "decision": "dropped pre-score — infection-imaging PET tracer research, no clear fit with xAID's CT-reporting-workflow positioning or SEO keyword angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/artificial-intelligence/worlds-largest-breast-imaging-ai-trial-launches-13m-government-support",
+      "date": "2026-11-27",
+      "decision": "drafted (ai-breast-cancer-screening-second-read-trial) — factcheck initially fix-needed (wrong-outlet citations, geography mismatch, misstated title, all corrected in-draft), gate ready after fixes; not selected for publish 2026-11-27, pass-rate lower than other ready+pass candidates."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/magnetic-resonance-imaging-mri/midlife-metabolic-health-may-signal-future-risk-alzheimers-imaging-shows",
+      "date": "2026-11-27",
+      "decision": "scored, not drafted — weakest fit/SEO of the 8 survivors (no measurable keyword demand); preliminary 'early signal, not proof' RSNA abstract, thin connective tissue to CT-reporting workflow."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/dakota-radiology-opens-expanded-imaging-center-hospital-partner",
+      "date": "2026-11-27",
+      "decision": "dropped pre-score — local single-site facility-expansion news, no SEO/workflow angle."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/medical-imaging/computed-tomography-ct/ct-imaging-links-air-pollution-faster-spinal-bone-loss",
+      "date": "2026-11-27",
+      "decision": "scored, not drafted (dedupOk false) — thematic overlap with published vertebral-bone-density/incidental-CT-biomarker articles despite a new news hook (air pollution driver)."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/fda-fast-tracks-new-pet-imaging-tracer-prostate-cancer",
+      "date": "2026-11-27",
+      "decision": "dropped pre-score — PET tracer regulatory news, outside CT-reporting-workflow scope."
+    },
+    {
+      "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-quality/study-finds-widespread-overuse-stat-ct-orders",
+      "date": "2026-11-27",
+      "decision": "drafted (stat-ct-overuse-appropriate-use-criteria) — gate ready, factcheck pass; SELECTED for publish 2026-11-27 (highest fitScore of the pool, directly ties CT STAT-order overuse/triage tax to xAID's reporting-throughput positioning)."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/who-oversees-digital-health-providers-face-a-regulatory-maze/875720/",
+      "date": "2026-11-27",
+      "decision": "scored, not drafted (dedupOk false) — not imaging-specific at the source and redundant with existing FDA/vendor-governance article shelf."
+    },
+    {
+      "url": "https://www.medtechdive.com/news/danaher-partners-with-microsoft-to-create-an-agentic-ai-platform/875437/",
+      "date": "2026-11-27",
+      "decision": "dropped pre-score — medtech-conglomerate/Microsoft platform partnership, not imaging-reporting specific, no SEO keyword angle."
+    },
+    {
+      "url": "evergreen-seo-pipeline:keyword-backlog",
+      "date": "2026-11-27",
       "decision": "evergreen-seo-pipeline ran with backlogLow=true — no queued keyword available, 0 drafts produced. Backlog replenishment (DataForSEO keyword_suggestions) not performed by this autorun; out of scope for the autonomous drafting task."
     }
   ]

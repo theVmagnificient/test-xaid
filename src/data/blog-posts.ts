@@ -11,6 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'stat-ct-overuse-appropriate-use-criteria',
+    title: "'Stat' CT Overuse: 1 in 4 Orders Lack a Clinical Reason",
+    excerpt: "A 500,000-scan study found 24% of 'stat' CT orders lack a documented urgent reason, a gap in imaging appropriate use criteria that floods radiology queues.",
+    date: 'November 27, 2026',
+    dateIso: '2026-11-27',
+    category: 'Workflow & Throughput',
+    readingTime: 7,
+    keywords: ["imaging appropriate use criteria", "stat CT orders", "radiology triage", "CT turnaround time", "STAT stewardship", "radiology order overuse"],
+  },
+  {
     slug: '7t-mri-ms-lesion-reporting-time',
     title: "7T MRI Finds 27% More MS Lesions. That's More to Report, Not Just More to Detect",
     excerpt: "A Radiology study found 7T MRI detects 27% more MS lesions than 3T (2,268 vs 1,779), with cortical lesions up 135.7% — more to report per scan.",

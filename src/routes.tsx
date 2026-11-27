@@ -32,6 +32,7 @@ export const routeImporters: Record<string, () => Promise<PageModule>> = {
   '/integrations': () => import('./pages/Integrations'),
   '/how-ai-ct-reporting-works': () => import('./pages/HowAiCtReportingWorks'),
   '/blog': () => import('./pages/Blog'),
+  '/blog/stat-ct-overuse-appropriate-use-criteria': () => import('./pages/blog/StatCtOveruseAppropriateUseCriteria'),
   '/blog/7t-mri-ms-lesion-reporting-time': () => import('./pages/blog/SevenTMriMsLesionReportingTime'),
   '/blog/remote-radiology-reading-throughput-bottleneck': () => import('./pages/blog/RemoteRadiologyReadingThroughputBottleneck'),
   '/blog/radiology-reporting-standards-contrast-parallel': () => import('./pages/blog/RadiologyReportingStandardsContrastParallel'),
